@@ -1,0 +1,116 @@
+{
+    "challenge": {
+        "redirect_shortly": "This process is automated. You will be redirected to your intended destination shortly.",
+        "validate_browser": "Validating your browser before accessing {http_host}",
+        "are_you_human_host": "Are you human? Validation required to access {http_host}",
+        "are_you_human": "Are you human? Validation is required to continue",
+        "enter_captcha_host": "Please enter the CAPTCHA below to continue to {http_host}:",
+        "enter_captcha": "Please enter the CAPTCHA below to continue:",
+        "submit": "submit",
+        "try_again_later": "This website is taking longer than usual to load, you may wish to <a href=\"\">try again</a> later",
+        "unexpected_error": "An unexpected error seems to have occurred, please <a href=\"\">try again</a> later",
+        "validation_complete": "<strong>Validation Complete</strong> you are now being redirected to your intended destination. Click <a href=\"\">here</a> if the page does not reload.",
+        "enable_javascript": "Browser Validation works best with JavaScript enabled."
+    },
+    "error": {
+        "default": {
+            "error_loading": "Error loading {host}",
+            "refresh_text": "Please try to access the site later or click <a href=\"\">here</a> to refresh the page.",
+            "unexpected_error": "An unexpected occurred while loading this page",
+            "possible_causes": "Possible causes include: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Website Unavailable",
+            "description": "Unfortunately an unexpected error occurred during the loading of this page. We apologise any inconvenience. Please try to access the site later or click <a href=\"\">here</a> to refresh the page."
+        },
+        "suspended": {
+            "title": "Website Suspended",
+            "description": "Unfortunately the Website you are tying to visit is unavailable. We apologise any inconvenience. If you are the owner of this website, please <a href=\"https://www.x4b.net/support\">contact support</a>."
+        },
+        "backend": {
+            "title": "Server is unavailable",
+            "description": "The backend server is temporary unavailable and is hence unable to serve this request. We apologise any inconvenience.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Request Timeout",
+            "description": "We are sorry but a timeout while loading this web page. We apologise any inconvenience this may have caused.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Access Denied",
+            "description": "You do not have permission access to this page. If this is in error please contact the website administrator."
+        },
+        "upstream": {
+            "title": "Server is unavailable",
+            "description": "No server is currently online and available to process this request. We apologise any inconvenience."
+        },
+        "resource": {
+            "title": "Access Error",
+            "description_start": "Unfortunately an error occurred during the loading of this page.",
+            "cause_list": [
+                "The backend server is experiencing unexpected load and is unable to process requests at this time",
+                "An unexpected error happened on the backend server or in transit"
+            ],
+            "description_end": "We apologise any inconvenience.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Access Error",
+            "description_start": "Unfortunately an error occurred during the loading of this page.",
+            "cause_list": [
+                "Your IP address has been detected as flooding the server",
+                "The backend server is experiencing unexpected load and is unable to process requests at this time",
+                "An unexpected error happened on the backend server or in transit"
+            ],
+            "description_end": "We apologise any inconvenience.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Access Error",
+            "description_start": "Unfortunately an error occurred during the loading of this page.",
+            "cause_list": [
+                "Your IP address has an abnormal number of connections to the server",
+                "The backend server is experiencing unexpected load and is unable to process requests at this time",
+                "An unexpected error happened on the backend server or in transit"
+            ],
+            "description_end": "We apologise any inconvenience.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Bad Request",
+            "description": "This website is accessible via HTTPS. You have attempted to connect via HTTP, we will now attempt to redirect you. If you are not redirected, please add https:// to the start of your URL and try again."
+        },
+        "timeout": {
+            "title": "Server is unavailable",
+            "description": "Sorry but a timeout occurred while loading this page. It is possible that the server is busy and unable to process your request at this time.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Unknown Domain",
+            "description": "This domain is not registered to this IP address.",
+            "refresh_enable": true
+        },
+        "invalid_configuration": {
+            "title": "Invalid Configuration",
+            "description": "Sorry but this service is configured incorrectly. We are not able to process this request.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Unsupported Method",
+            "description": "The HTTP method requested is not enabled for this website.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Insecure Request",
+            "description": "The HTTPS protocol requested is not enabled for this website. Please update your browser.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Offline for Maintenance",
+            "description": "This website is not available at the moment. The site should be available again shortly.",
+            "refresh_enable": true
+        }
+    }
+}

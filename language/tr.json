@@ -1,0 +1,15 @@
+{
+    "challenge": {
+        "redirect_shortly": "Otomatik işlem yapılıyor. Kısa bir süre içinde hedefinize yönlendirileceksiniz.",
+        "validate_browser": "{{http_host}} için tarayıcınız doğrulanıyor",
+        "are_you_human_host": "Robot musun? {{http_host}} için tarayıcınız doğrulanıyor",
+        "are_you_human": "İnsan mısın? Devam etmek için doğrulama gerekiyor",
+        "enter_captcha_host": "Devam etmek için lütfen CAPTCHA'yı giriniz {{http_host}}:",
+        "enter_captcha": "Devam etmek için lütfen aşağıdaki CAPTCHA'yı girin:",
+        "submit": "Sunmak",
+        "try_again_later": "Bu web sitesine erişim normalden daha uzun sürüyor, daha sonra <a href=\"\">tekrar dene</a> yapabilirsiniz",
+        "unexpected_error": "Beklenmeyen bir hata oluştu, lütfen <a href=\"\">tekrar dene</a> yapın",
+        "validation_complete": "<strong>Doğrulama Tamamlandı</strong> siteye yönlendiriliyorsunuz. Eğer sayfa yüklenmezse ",
+        "enable_javascript": "Tarayıcı Doğrulaması, JavaScript'in etkinleştirilmesiyle en iyi şekilde çalışır."
+    }
+}
