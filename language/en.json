@@ -46,6 +46,11 @@
             "title": "Server is unavailable",
             "description": "No server is currently online and available to process this request. We apologise any inconvenience."
         },
+        "invalid_configuration": {
+            "title": "Invalid Configuration",
+            "description": "We are unable to serve this request due to configuration error. We apologise any inconvenience."
+
+        },
         "resource": {
             "title": "Access Error",
             "description_start": "Unfortunately an error occurred during the loading of this page.",
