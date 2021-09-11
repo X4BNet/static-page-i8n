@@ -30,7 +30,7 @@
         },
         "backend": {
             "title": "Server is unavailable",
-            "description": "The backend server is temporary unavailable and is hence unable to serve this request. We apologise any inconvenience.",
+            "description": "The backend server is temporarily unavailable and is hence unable to serve this request. We apologise any inconvenience.",
             "refresh_enable": true
         },
         "clienttimeout": {
