@@ -100,11 +100,6 @@
             "description": "This domain is not registered to this IP address.",
             "refresh_enable": true
         },
-        "invalid_configuration": {
-            "title": "Invalid Configuration",
-            "description": "Sorry but this service is configured incorrectly. We are not able to process this request.",
-            "refresh_enable": true
-        },
         "unsupported_method": {
             "title": "Unsupported Method",
             "description": "The HTTP method requested is not enabled for this website.",
