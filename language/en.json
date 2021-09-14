@@ -12,7 +12,8 @@
         "validation_complete": "<strong>Validation Complete</strong> you are now being redirected to your intended destination. Click <a href=\"\">here</a> if the page does not reload.",
         "enable_javascript": "Browser Validation works best with JavaScript enabled.",
         "abnormal_activity": "Due to abnormal activity we need you to complete the task below to continue",
-        "sorry_inconvenience": "We're Sorry for any inconvenience"
+        "sorry_inconvenience": "We're Sorry for any inconvenience",
+        "verifying": "Verifying"
     },
     "error": {
         "default": {
