@@ -55,9 +55,9 @@ made at the sole discretion of X4B or its authorized delegates ..
 
 
 **Disputes.** This Agreement shall be governed by and construed in accordance with the laws of the State of
-New York, United States of America, without giving effect to its principles or rules regarding conflicts of laws,
-other than such principles directing application of New York law. The parties hereby submit to venue in, and
-jurisdiction of the courts located in New York, New York for purposes relating to this Agreement. In the event
+Victoria, Australia, without giving effect to its principles or rules regarding conflicts of laws,
+other than such principles directing application of Victoria, Australia law. The parties hereby submit to venue in, and
+jurisdiction of the courts located in Melbourne, Victoria, Australia for purposes relating to this Agreement. In the event
 that any of the provisions of this Agreement shall be held by a court or other tribunal of competent jurisdiction
 to be unenforceable, the remaining portions hereof shall remain in full force and effect.
 
