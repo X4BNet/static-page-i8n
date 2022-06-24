@@ -1,1 +1,118 @@
-{"challenge":{"redirect_shortly":"Este proceso está automatizado. Se le redirigirá a su destino previsto en breve.","validate_browser":"Validación de su navegador antes de acceder a {http_host}","are_you_human_host":"Eres humano? Se requiere validación para acceder a {http_host}","are_you_human":"Eres humano? Se requiere validación para continuar","enter_captcha_host":"Ingrese el CAPTCHA a continuación para continuar a {http_host}:","enter_captcha":"Ingrese el CAPTCHA a continuación para continuar:","submit":"enviar","try_again_later":"Este sitio web está tardando más de lo habitual en cargarse, es posible que desee <a href=\"\">intentarlo de nuevo</a> más tarde","unexpected_error":"Parece que se ha producido un error inesperado. Por favor, <a href=\"\">inténtelo de nuevo</a> más tarde.","validation_complete":"<strong>Validación completa</strong> ahora está siendo redirigido a su destino previsto. Haga clic <a href=\"\">aquí</a> si la página no se vuelve a cargar.","enable_javascript":"La validación del navegador funciona mejor con JavaScript habilitado.","abnormal_activity":"Debido a una actividad anormal, necesitamos que complete la siguiente tarea para continuar","sorry_inconvenience":"Lo sentimos por cualquier inconveniente","verifying":"Verificando"},"error":{"default":{"error_loading":"Error al cargar {host}","refresh_text":"Intente acceder al sitio más tarde o haga clic <a href=\"\">aquí</a> para actualizar la página.","unexpected_error":"Ocurrió un imprevisto al cargar esta página","possible_causes":"Las posibles causas incluyen:","refresh_enable":"falso"},"error":{"title":"Sitio web no disponible","description":"Desafortunadamente ocurrió un error inesperado durante la carga de esta página. Pedimos disculpas por cualquier inconveniente. Intente acceder al sitio más tarde o haga clic <a href=\"\">aquí</a> para actualizar la página."},"suspended":{"title":"Sitio web suspendido","description":"Desafortunadamente, el sitio web que desea visitar no está disponible. Pedimos disculpas por cualquier inconveniente. Si usted es el <strong>propietario</strong> de este sitio web, <a href=\"https://www.x4b.net/support\">comuníquese con el servicio de asistencia</a>."},"backend":{"title":"El servidor no está disponible","description":"El servidor backend no está disponible temporalmente y, por lo tanto, no puede atender esta solicitud. Pedimos disculpas por cualquier inconveniente.","refresh_enable":"verdadero"},"clienttimeout":{"title":"Pide tiempo fuera","description":"Lo sentimos, pero se agotó el tiempo de espera al cargar esta página web. Pedimos disculpas por cualquier inconveniente que esto pueda haber causado.","refresh_enable":"verdadero"},"forbidden":{"title":"Acceso denegado","description":"No tienes permiso de acceso a esta página. Si se trata de un error, póngase en contacto con el administrador del sitio web."},"upstream":{"title":"El servidor no está disponible","description":"Ningún servidor está actualmente en línea y disponible para procesar esta solicitud. Pedimos disculpas por cualquier inconveniente."},"invalid_configuration":{"title":"Configuración no válida","description":"No podemos atender esta solicitud debido a un error de configuración. Pedimos disculpas por cualquier inconveniente."},"resource":{"title":"error de acceso","description_start":"Desafortunadamente ocurrió un error durante la carga de esta página.","cause_list":["indefinido","indefinido"],"description_end":"Pedimos disculpas por cualquier inconveniente.","refresh_enable":"verdadero"},"resource_limitrate":{"title":"error de acceso","description_start":"Desafortunadamente ocurrió un error durante la carga de esta página.","cause_list":["indefinido","indefinido","indefinido"],"description_end":"Pedimos disculpas por cualquier inconveniente.","refresh_enable":"verdadero"},"resource_limitcon":{"title":"error de acceso","description_start":"Desafortunadamente ocurrió un error durante la carga de esta página.","cause_list":["indefinido","indefinido","indefinido"],"description_end":"Pedimos disculpas por cualquier inconveniente.","refresh_enable":"verdadero"},"ssl-https-http":{"title":"Solicitud incorrecta","description":"Este sitio web es accesible a través de HTTPS. Ha intentado conectarse a través de HTTP, ahora intentaremos redirigirlo. Si no se le redirige, agregue https:// al comienzo de su URL e intente nuevamente."},"timeout":{"title":"El servidor no está disponible","description":"Lo sentimos, pero se produjo un tiempo de espera al cargar esta página. Es posible que el servidor esté ocupado y no pueda procesar su solicitud en este momento.","refresh_enable":"verdadero"},"unknown_domain":{"title":"Dominio desconocido","description":"Este dominio no está registrado en esta dirección IP.","refresh_enable":"verdadero"},"unsupported_method":{"title":"Método no admitido","description":"El método HTTP solicitado no está habilitado para este sitio web.","refresh_enable":"verdadero"},"ssl-insecure":{"title":"Solicitud insegura","description":"El protocolo HTTPS solicitado no está habilitado para este sitio web. Por favor actualice su navegador.","refresh_enable":"verdadero"},"maintenance":{"title":"Fuera de línea para mantenimiento","description":"Este sitio web no está disponible en este momento. El sitio debería estar disponible de nuevo en breve.","refresh_enable":"verdadero"}}}
+{
+    "challenge": {
+        "redirect_shortly": "Este proceso está automatizado. Se le redirigirá a su destino previsto en breve.",
+        "validate_browser": "Validación de su navegador antes de acceder a {http_host}",
+        "are_you_human_host": "Eres humano? Se requiere validación para acceder a {http_host}",
+        "are_you_human": "Eres humano? Se requiere validación para continuar",
+        "enter_captcha_host": "Ingrese el CAPTCHA a continuación para continuar a {http_host}:",
+        "enter_captcha": "Ingrese el CAPTCHA a continuación para continuar:",
+        "submit": "enviar",
+        "try_again_later": "Este sitio web está tardando más de lo habitual en cargarse, es posible que desee <a href=\"\">intentarlo de nuevo</a> más tarde",
+        "unexpected_error": "Parece que se ha producido un error inesperado. Por favor, <a href=\"\">inténtelo de nuevo</a> más tarde.",
+        "validation_complete": "<strong>Validación completa</strong> ahora está siendo redirigido a su destino previsto. Haga clic <a href=\"\">aquí</a> si la página no se vuelve a cargar.",
+        "enable_javascript": "La validación del navegador funciona mejor con JavaScript habilitado.",
+        "abnormal_activity": "Debido a una actividad anormal, necesitamos que complete la siguiente tarea para continuar",
+        "sorry_inconvenience": "Lo sentimos por cualquier inconveniente",
+        "verifying": "Verificando"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Error al cargar {host}",
+            "refresh_text": "Intente acceder al sitio más tarde o haga clic <a href=\"\">aquí</a> para actualizar la página.",
+            "unexpected_error": "Ocurrió un imprevisto al cargar esta página",
+            "possible_causes": "Las posibles causas incluyen:",
+            "refresh_enable": "falso"
+        },
+        "error": {
+            "title": "Sitio web no disponible",
+            "description": "Desafortunadamente ocurrió un error inesperado durante la carga de esta página. Pedimos disculpas por cualquier inconveniente. Intente acceder al sitio más tarde o haga clic <a href=\"\">aquí</a> para actualizar la página."
+        },
+        "suspended": {
+            "title": "Sitio web suspendido",
+            "description": "Desafortunadamente, el sitio web que desea visitar no está disponible. Pedimos disculpas por cualquier inconveniente. Si usted es el <strong>propietario</strong> de este sitio web, <a href=\"https://www.x4b.net/support\">comuníquese con el servicio de asistencia</a>."
+        },
+        "backend": {
+            "title": "El servidor no está disponible",
+            "description": "El servidor backend no está disponible temporalmente y, por lo tanto, no puede atender esta solicitud. Pedimos disculpas por cualquier inconveniente.",
+            "refresh_enable": "verdadero"
+        },
+        "clienttimeout": {
+            "title": "Pide tiempo fuera",
+            "description": "Lo sentimos, pero se agotó el tiempo de espera al cargar esta página web. Pedimos disculpas por cualquier inconveniente que esto pueda haber causado.",
+            "refresh_enable": "verdadero"
+        },
+        "forbidden": {
+            "title": "Acceso denegado",
+            "description": "No tienes permiso de acceso a esta página. Si se trata de un error, póngase en contacto con el administrador del sitio web."
+        },
+        "upstream": {
+            "title": "El servidor no está disponible",
+            "description": "Ningún servidor está actualmente en línea y disponible para procesar esta solicitud. Pedimos disculpas por cualquier inconveniente."
+        },
+        "invalid_configuration": {
+            "title": "Configuración no válida",
+            "description": "No podemos atender esta solicitud debido a un error de configuración. Pedimos disculpas por cualquier inconveniente."
+        },
+        "resource": {
+            "title": "error de acceso",
+            "description_start": "Desafortunadamente ocurrió un error durante la carga de esta página.",
+            "cause_list": [
+                "indefinido",
+                "indefinido"
+            ],
+            "description_end": "Pedimos disculpas por cualquier inconveniente.",
+            "refresh_enable": "verdadero"
+        },
+        "resource_limitrate": {
+            "title": "error de acceso",
+            "description_start": "Desafortunadamente ocurrió un error durante la carga de esta página.",
+            "cause_list": [
+                "indefinido",
+                "indefinido",
+                "indefinido"
+            ],
+            "description_end": "Pedimos disculpas por cualquier inconveniente.",
+            "refresh_enable": "verdadero"
+        },
+        "resource_limitcon": {
+            "title": "error de acceso",
+            "description_start": "Desafortunadamente ocurrió un error durante la carga de esta página.",
+            "cause_list": [
+                "indefinido",
+                "indefinido",
+                "indefinido"
+            ],
+            "description_end": "Pedimos disculpas por cualquier inconveniente.",
+            "refresh_enable": "verdadero"
+        },
+        "ssl-https-http": {
+            "title": "Solicitud incorrecta",
+            "description": "Este sitio web es accesible a través de HTTPS. Ha intentado conectarse a través de HTTP, ahora intentaremos redirigirlo. Si no se le redirige, agregue https:// al comienzo de su URL e intente nuevamente."
+        },
+        "timeout": {
+            "title": "El servidor no está disponible",
+            "description": "Lo sentimos, pero se produjo un tiempo de espera al cargar esta página. Es posible que el servidor esté ocupado y no pueda procesar su solicitud en este momento.",
+            "refresh_enable": "verdadero"
+        },
+        "unknown_domain": {
+            "title": "Dominio desconocido",
+            "description": "Este dominio no está registrado en esta dirección IP.",
+            "refresh_enable": "verdadero"
+        },
+        "unsupported_method": {
+            "title": "Método no admitido",
+            "description": "El método HTTP solicitado no está habilitado para este sitio web.",
+            "refresh_enable": "verdadero"
+        },
+        "ssl-insecure": {
+            "title": "Solicitud insegura",
+            "description": "El protocolo HTTPS solicitado no está habilitado para este sitio web. Por favor actualice su navegador.",
+            "refresh_enable": "verdadero"
+        },
+        "maintenance": {
+            "title": "Fuera de línea para mantenimiento",
+            "description": "Este sitio web no está disponible en este momento. El sitio debería estar disponible de nuevo en breve.",
+            "refresh_enable": "verdadero"
+        }
+    }
+}
