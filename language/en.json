@@ -29,7 +29,7 @@
         },
         "suspended": {
             "title": "Website Suspended",
-            "description": "Unfortunately the Website you are tying to visit is unavailable. We apologise any inconvenience. If you are the owner of this website, please <a href=\"https://www.x4b.net/support\">contact support</a>."
+            "description": "Unfortunately the Website you are tying to visit is unavailable. We apologise any inconvenience. If you are the <strong>owner</strong> of this website, please <a href=\"https://www.x4b.net/support\">contact support</a>."
         },
         "backend": {
             "title": "Server is unavailable",
@@ -52,7 +52,6 @@
         "invalid_configuration": {
             "title": "Invalid Configuration",
             "description": "We are unable to serve this request due to configuration error. We apologise any inconvenience."
-
         },
         "resource": {
             "title": "Access Error",
