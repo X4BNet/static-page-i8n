@@ -20,8 +20,7 @@
             "error_loading": "Error al cargar {host}",
             "refresh_text": "Intente acceder al sitio más tarde o haga clic <a href=\"\">aquí</a> para actualizar la página.",
             "unexpected_error": "Ocurrió un imprevisto al cargar esta página",
-            "possible_causes": "Las posibles causas incluyen:",
-            "refresh_enable": "falso"
+            "possible_causes": "Las posibles causas incluyen:"
         },
         "error": {
             "title": "Sitio web no disponible",
@@ -33,13 +32,11 @@
         },
         "backend": {
             "title": "El servidor no está disponible",
-            "description": "El servidor backend no está disponible temporalmente y, por lo tanto, no puede atender esta solicitud. Pedimos disculpas por cualquier inconveniente.",
-            "refresh_enable": "verdadero"
+            "description": "El servidor backend no está disponible temporalmente y, por lo tanto, no puede atender esta solicitud. Pedimos disculpas por cualquier inconveniente."
         },
         "clienttimeout": {
             "title": "Pide tiempo fuera",
-            "description": "Lo sentimos, pero se agotó el tiempo de espera al cargar esta página web. Pedimos disculpas por cualquier inconveniente que esto pueda haber causado.",
-            "refresh_enable": "verdadero"
+            "description": "Lo sentimos, pero se agotó el tiempo de espera al cargar esta página web. Pedimos disculpas por cualquier inconveniente que esto pueda haber causado."
         },
         "forbidden": {
             "title": "Acceso denegado",
@@ -57,33 +54,30 @@
             "title": "error de acceso",
             "description_start": "Desafortunadamente ocurrió un error durante la carga de esta página.",
             "cause_list": [
-                "indefinido",
-                "indefinido"
+                "El servidor backend está experimentando una carga inesperada y no puede procesar solicitudes en este momento",
+                "Ocurrió un error inesperado en el servidor backend o en tránsito"
             ],
-            "description_end": "Pedimos disculpas por cualquier inconveniente.",
-            "refresh_enable": "verdadero"
+            "description_end": "Pedimos disculpas por cualquier inconveniente."
         },
         "resource_limitrate": {
             "title": "error de acceso",
             "description_start": "Desafortunadamente ocurrió un error durante la carga de esta página.",
             "cause_list": [
-                "indefinido",
-                "indefinido",
-                "indefinido"
+                "Se ha detectado que su dirección IP inunda el servidor",
+                "El servidor backend está experimentando una carga inesperada y no puede procesar solicitudes en este momento",
+                "Ocurrió un error inesperado en el servidor backend o en tránsito"
             ],
-            "description_end": "Pedimos disculpas por cualquier inconveniente.",
-            "refresh_enable": "verdadero"
+            "description_end": "Pedimos disculpas por cualquier inconveniente."
         },
         "resource_limitcon": {
             "title": "error de acceso",
             "description_start": "Desafortunadamente ocurrió un error durante la carga de esta página.",
             "cause_list": [
-                "indefinido",
-                "indefinido",
-                "indefinido"
+                "Su dirección IP tiene un número anormal de conexiones al servidor",
+                "El servidor backend está experimentando una carga inesperada y no puede procesar solicitudes en este momento",
+                "Ocurrió un error inesperado en el servidor backend o en tránsito"
             ],
-            "description_end": "Pedimos disculpas por cualquier inconveniente.",
-            "refresh_enable": "verdadero"
+            "description_end": "Pedimos disculpas por cualquier inconveniente."
         },
         "ssl-https-http": {
             "title": "Solicitud incorrecta",
@@ -91,28 +85,23 @@
         },
         "timeout": {
             "title": "El servidor no está disponible",
-            "description": "Lo sentimos, pero se produjo un tiempo de espera al cargar esta página. Es posible que el servidor esté ocupado y no pueda procesar su solicitud en este momento.",
-            "refresh_enable": "verdadero"
+            "description": "Lo sentimos, pero se produjo un tiempo de espera al cargar esta página. Es posible que el servidor esté ocupado y no pueda procesar su solicitud en este momento."
         },
         "unknown_domain": {
             "title": "Dominio desconocido",
-            "description": "Este dominio no está registrado en esta dirección IP.",
-            "refresh_enable": "verdadero"
+            "description": "Este dominio no está registrado en esta dirección IP."
         },
         "unsupported_method": {
             "title": "Método no admitido",
-            "description": "El método HTTP solicitado no está habilitado para este sitio web.",
-            "refresh_enable": "verdadero"
+            "description": "El método HTTP solicitado no está habilitado para este sitio web."
         },
         "ssl-insecure": {
             "title": "Solicitud insegura",
-            "description": "El protocolo HTTPS solicitado no está habilitado para este sitio web. Por favor actualice su navegador.",
-            "refresh_enable": "verdadero"
+            "description": "El protocolo HTTPS solicitado no está habilitado para este sitio web. Por favor actualice su navegador."
         },
         "maintenance": {
             "title": "Fuera de línea para mantenimiento",
-            "description": "Este sitio web no está disponible en este momento. El sitio debería estar disponible de nuevo en breve.",
-            "refresh_enable": "verdadero"
+            "description": "Este sitio web no está disponible en este momento. El sitio debería estar disponible de nuevo en breve."
         }
     }
 }

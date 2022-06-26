@@ -17,11 +17,10 @@
     },
     "error": {
         "default": {
-            "error_loading": "Fehler beim Laden von {Host}",
+            "error_loading": "Fehler beim Laden von {host}",
             "refresh_text": "Bitte versuchen Sie später, auf die Website zuzugreifen, oder klicken Sie <a href=\"\">hier</a>, um die Seite zu aktualisieren.",
             "unexpected_error": "Beim Laden dieser Seite ist ein unerwarteter Fehler aufgetreten",
-            "possible_causes": "Mögliche Ursachen sind:",
-            "refresh_enable": "FALSCH"
+            "possible_causes": "Mögliche Ursachen sind:"
         },
         "error": {
             "title": "Website nicht verfügbar",
@@ -33,13 +32,11 @@
         },
         "backend": {
             "title": "Server ist nicht verfügbar",
-            "description": "Der Backend-Server ist vorübergehend nicht verfügbar und kann diese Anfrage daher nicht bedienen. Wir entschuldigen uns für etwaige Unannehmlichkeiten.",
-            "refresh_enable": "Stimmt"
+            "description": "Der Backend-Server ist vorübergehend nicht verfügbar und kann diese Anfrage daher nicht bedienen. Wir entschuldigen uns für etwaige Unannehmlichkeiten."
         },
         "clienttimeout": {
             "title": "Zeitüberschreitung der Anforderung",
-            "description": "Es tut uns leid, aber eine Zeitüberschreitung beim Laden dieser Webseite. Wir entschuldigen uns für etwaige Unannehmlichkeiten.",
-            "refresh_enable": "Stimmt"
+            "description": "Es tut uns leid, aber eine Zeitüberschreitung beim Laden dieser Webseite. Wir entschuldigen uns für etwaige Unannehmlichkeiten."
         },
         "forbidden": {
             "title": "Zugriff abgelehnt",
@@ -57,33 +54,30 @@
             "title": "Zugriffsfehler",
             "description_start": "Leider ist beim Laden dieser Seite ein Fehler aufgetreten.",
             "cause_list": [
-                "nicht definiert",
-                "nicht definiert"
+                "Der Back-End-Server hat eine unerwartete Last und kann derzeit keine Anfragen verarbeiten",
+                "Auf dem Back-End-Server oder während der Übertragung ist ein unerwarteter Fehler aufgetreten"
             ],
-            "description_end": "Wir entschuldigen uns für etwaige Unannehmlichkeiten.",
-            "refresh_enable": "Stimmt"
+            "description_end": "Wir entschuldigen uns für etwaige Unannehmlichkeiten."
         },
         "resource_limitrate": {
             "title": "Zugriffsfehler",
             "description_start": "Leider ist beim Laden dieser Seite ein Fehler aufgetreten.",
             "cause_list": [
-                "nicht definiert",
-                "nicht definiert",
-                "nicht definiert"
+                "Es wurde festgestellt, dass Ihre IP-Adresse den Server überflutet",
+                "Der Back-End-Server hat eine unerwartete Last und kann derzeit keine Anfragen verarbeiten",
+                "Auf dem Back-End-Server oder während der Übertragung ist ein unerwarteter Fehler aufgetreten"
             ],
-            "description_end": "Wir entschuldigen uns für etwaige Unannehmlichkeiten.",
-            "refresh_enable": "Stimmt"
+            "description_end": "Wir entschuldigen uns für etwaige Unannehmlichkeiten."
         },
         "resource_limitcon": {
             "title": "Zugriffsfehler",
             "description_start": "Leider ist beim Laden dieser Seite ein Fehler aufgetreten.",
             "cause_list": [
-                "nicht definiert",
-                "nicht definiert",
-                "nicht definiert"
+                "Ihre IP-Adresse hat eine ungewöhnliche Anzahl von Verbindungen zum Server",
+                "Der Back-End-Server hat eine unerwartete Last und kann derzeit keine Anfragen verarbeiten",
+                "Auf dem Back-End-Server oder während der Übertragung ist ein unerwarteter Fehler aufgetreten"
             ],
-            "description_end": "Wir entschuldigen uns für etwaige Unannehmlichkeiten.",
-            "refresh_enable": "Stimmt"
+            "description_end": "Wir entschuldigen uns für etwaige Unannehmlichkeiten."
         },
         "ssl-https-http": {
             "title": "Ungültige Anforderung",
@@ -91,28 +85,23 @@
         },
         "timeout": {
             "title": "Server ist nicht verfügbar",
-            "description": "Entschuldigung, aber beim Laden dieser Seite ist eine Zeitüberschreitung aufgetreten. Möglicherweise ist der Server ausgelastet und kann Ihre Anfrage derzeit nicht verarbeiten.",
-            "refresh_enable": "Stimmt"
+            "description": "Entschuldigung, aber beim Laden dieser Seite ist eine Zeitüberschreitung aufgetreten. Möglicherweise ist der Server ausgelastet und kann Ihre Anfrage derzeit nicht verarbeiten."
         },
         "unknown_domain": {
             "title": "Unbekannte Domäne",
-            "description": "Diese Domain ist nicht auf diese IP-Adresse registriert.",
-            "refresh_enable": "Stimmt"
+            "description": "Diese Domain ist nicht auf diese IP-Adresse registriert."
         },
         "unsupported_method": {
             "title": "Nicht unterstützte Methode",
-            "description": "Die angeforderte HTTP-Methode ist für diese Website nicht aktiviert.",
-            "refresh_enable": "Stimmt"
+            "description": "Die angeforderte HTTP-Methode ist für diese Website nicht aktiviert."
         },
         "ssl-insecure": {
             "title": "Unsichere Anfrage",
-            "description": "Das angeforderte HTTPS-Protokoll ist für diese Website nicht aktiviert. Bitte updaten Sie ihren Browser.",
-            "refresh_enable": "Stimmt"
+            "description": "Das angeforderte HTTPS-Protokoll ist für diese Website nicht aktiviert. Bitte updaten Sie ihren Browser."
         },
         "maintenance": {
             "title": "Offline für Wartung",
-            "description": "Diese Website ist derzeit nicht verfügbar. Die Seite sollte in Kürze wieder verfügbar sein.",
-            "refresh_enable": "Stimmt"
+            "description": "Diese Website ist derzeit nicht verfügbar. Die Seite sollte in Kürze wieder verfügbar sein."
         }
     }
 }

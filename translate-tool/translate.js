@@ -1,13 +1,13 @@
 const translate = require('@iamtraction/google-translate');
 const source = require('../language/en.json')
 const fs = require('fs')
-const toLanguage = process.argv[1]
+const toLanguage = process.argv[process.argv.length - 1]
 
 async function translateObject(obj, result, key){
     if(Array.isArray(obj)){
         if(!result[key]) result[key] = []
-        for(const k of obj){
-            await translateObject(obj[k], result[key], result[key].length)
+        for(const v of obj){
+            await translateObject(v, result[key], result[key].length)
         }
         return
     }
