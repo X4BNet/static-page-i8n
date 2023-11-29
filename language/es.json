@@ -30,6 +30,10 @@
             "title": "Sitio web suspendido",
             "description": "Desafortunadamente, el sitio web que desea visitar no está disponible. Pedimos disculpas por cualquier inconveniente. Si usted es el <strong>propietario</strong> de este sitio web, <a href=\"https://www.x4b.net/support\">comuníquese con el servicio de asistencia</a>."
         },
+        "over_bandwidth": {
+            "title": "Sitio web suspendido",
+            "description": "Desafortunadamente, el sitio web que desea visitar no está disponible. Pedimos disculpas por cualquier inconveniente. Si usted es el <strong>propietario</strong> de este sitio web, <a href=\"https://www.x4b.net/\">comuníquese con el servicio de asistencia</a>."
+        },
         "backend": {
             "title": "El servidor no está disponible",
             "description": "El servidor backend no está disponible temporalmente y, por lo tanto, no puede atender esta solicitud. Pedimos disculpas por cualquier inconveniente."

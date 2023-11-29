@@ -1,43 +1,43 @@
 {
     "challenge": {
-        "redirect_shortly": "This process is automated. You will be redirected to your intended destination shortly.",
-        "validate_browser": "Validating your browser before accessing {http_host}",
-        "are_you_human_host": "Are you human? Validation required to access {http_host}",
-        "are_you_human": "Are you human? Validation is required to continue",
-        "enter_captcha_host": "Please enter the CAPTCHA below to continue to {http_host}:",
-        "enter_captcha": "Please enter the CAPTCHA below to continue:",
-        "submit": "submit",
-        "try_again_later": "This website is taking longer than usual to load, you may wish to <a href=\"\">try again</a> later",
-        "unexpected_error": "An unexpected error seems to have occurred, please <a href=\"\">try again</a> later",
-        "validation_complete": "<strong>Validation Complete</strong> you are now being redirected to your intended destination. Click <a href=\"\">here</a> if the page does not reload.",
-        "enable_javascript": "Browser Validation works best with JavaScript enabled.",
-        "abnormal_activity": "Due to abnormal activity we need you to complete the task below to continue",
-        "sorry_inconvenience": "We're Sorry for any inconvenience",
-        "verifying": "Verifying"
+        "redirect_shortly": "Quá trình này diễn ra tự dộng. Bạn sẽ được điều hướng về trang theo yêu cầu trong thời gian ngắn nhất.",
+        "validate_browser": "Xác nhận thông tin trình duyệt của bạn trước khi truy cập {http_host}",
+        "are_you_human_host": "Bạn có phải là con người không? Vui lòng xác nhận để truy cập {http_host}",
+        "are_you_human": "Bạn có phải là con người không? Vui lòng xác nhận để tiếp tục",
+        "enter_captcha_host": "Vui lòng nhập mã CAPTCHA bên dưới để tiếp tục {http_host}:",
+        "enter_captcha": "Vui lòng nhập mã CAPTCHA bên dưới để tiếp tục:",
+        "submit": "Xác nhận",
+        "try_again_later": "Trang chủ này đang chạy chậm hơn bình thường, Có thể bạn muốn <a href=\"\">thử lại</a> sau",
+        "unexpected_error": "Đã xảy ra lỗi, Vui lòng <a href=\"\">thử lại</a> sau",
+        "validation_complete": "<strong>Hoàn tất xác nhận</strong> bạn đang được điều hướng đến trang chủ theo yêu cầu. Nhấn <a href=\"\">vào đây</a> nếu trang chủ không được tải.",
+        "enable_javascript": "Quá trình xác nhận trình duyệt diễn ra nhanh hơn khi sử dụng JavaScript.",
+        "abnormal_activity": "Do có hoạt động bất thường chúng tôi cần bạn hoàn tất các bước xác nhận để tiếp tục.",
+        "sorry_inconvenience": "Chúng tôi xin lỗi vì sự bất tiện này",
+        "verifying": "Đang xác nhận"
     },
     "error": {
         "default": {
-            "error_loading": "Error loading {host}",
-            "refresh_text": "Please try to access the site later or click <a href=\"\">here</a> to refresh the page.",
-            "unexpected_error": "An unexpected occurred while loading this page",
-            "possible_causes": "Possible causes include: ",
+            "error_loading": "Đang tải thông tin lỗi {host}",
+            "refresh_text": "Vui lòng truy cập trang chủ lại sau hoặc nhấn <a href=\"\">vào đây</a> để tải lại trang.",
+            "unexpected_error": "Đã có lỗi xảy ra khi tải trang",
+            "possible_causes": "Các lỗi có khả năng đã xảy ra: ",
             "refresh_enable": false
         },
         "error": {
-            "title": "Website Unavailable",
-            "description": "Unfortunately an unexpected error occurred during the loading of this page. We apologise any inconvenience. Please try to access the site later or click <a href=\"\">here</a> to refresh the page."
+            "title": "Trang chủ không tồn tại",
+            "description": "Không may đã có lỗi xảy ra khi tải trang chủ. Chúng tôi xin lỗi vì sự bất tiện này. Vui lòng truy cập lại sau hoặc nhấn <a href=\"\">vào đây</a> để tải lại trang."
         },
         "suspended": {
-            "title": "Website Suspended",
-            "description": "Unfortunately the Website you are tying to visit is unavailable. We apologise any inconvenience. If you are the <strong>owner</strong> of this website, please <a href=\"https://www.x4b.net/support\">contact support</a>."
+            "title": "Trang chủ bị chặn",
+            "description": "Không may là trang chủ bạn truy cập hiện không tồn tại. Chúng thôi xin lỗi vì sự bất tiện này. Nếu bạn là <strong>chủ sỡ hữu</strong> của trang chủ này, vui lòng <a href=\"https://www.x4b.net/support\">liên hệ trợ giúp</a>."
         },
         "over_bandwidth": {
-            "title": "Website Suspended",
-            "description": "Unfortunately the Website you are tying to visit is unavailable. We apologise any inconvenience. If you are the <strong>owner</strong> of this website, please <a href=\"https://www.x4b.net/\">contact support</a>."
+            "title": "Trang chủ bị chặn",
+            "description": "Không may là trang chủ bạn truy cập hiện không tồn tại. Chúng thôi xin lỗi vì sự bất tiện này. Nếu bạn là <strong>chủ sỡ hữu</strong> của trang chủ này, vui lòng <a href=\"https://www.x4b.net/\">liên hệ trợ giúp</a>."
         },
         "backend": {
-            "title": "Server is unavailable",
-            "description": "The backend server is temporarily unavailable and is hence unable to serve this request. We apologise any inconvenience.",
+            "title": "Máy chủ không tồn tại",
+            "description": "Máy chủ của khách hàng tạm thời không tồn tại do vậy không thể thực hiện được yêu cầu. Chúng tôi xin lỗi vì sự bất tiện này.",
             "refresh_enable": true
         },
         "clienttimeout": {
