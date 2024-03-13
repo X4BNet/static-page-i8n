@@ -41,81 +41,81 @@
             "refresh_enable": true
         },
         "clienttimeout": {
-            "title": "Request Timeout",
-            "description": "We are sorry but a timeout while loading this web page. We apologise any inconvenience this may have caused.",
+            "title": "Hết thời gian chạy",
+            "description": "Chúng tôi xin lỗi vì đã hết thời gian chạy trang chủ này. Chúng tôi xin lỗi vì sự bất tiện này.",
             "refresh_enable": true
         },
         "forbidden": {
-            "title": "Access Denied",
-            "description": "You do not have permission access to this page. If this is in error please contact the website administrator."
+            "title": "Truy cập bị từ chối",
+            "description": "Bạn không được cấp quyền truy cập trang chủ này. Nếu đây là lỗi vui lòng liên hệ ban quản trị trang chủ."
         },
         "upstream": {
-            "title": "Server is unavailable",
-            "description": "No server is currently online and available to process this request. We apologise any inconvenience."
+            "title": "Máy chủ không tồn tại",
+            "description": "Không có máy chủ hiện hành để thực hiện tiếp quy trình này . Chúng tôi xin lỗi vì sự bất tiện này."
         },
         "invalid_configuration": {
-            "title": "Invalid Configuration",
-            "description": "We are unable to serve this request due to configuration error. We apologise any inconvenience."
+            "title": "Cấu hình không tồn tại",
+            "description": "Chúng tôi không thể thực hiện yêu cầu này do lỗi cấu hình không tồn tại. Chúng tôi xin lỗi vì sự bất tiện này."
         },
         "resource": {
-            "title": "Access Error",
-            "description_start": "Unfortunately an error occurred during the loading of this page.",
+            "title": "Lỗi truy cập",
+            "description_start": "Đã có lỗi xảy ra khi tải trang chủ này.",
             "cause_list": [
-                "The backend server is experiencing unexpected load and is unable to process requests at this time",
-                "An unexpected error happened on the backend server or in transit"
+                "Dữ liệu và cơ sở hạ tầng đang gặp sự cố ngoài dự kiến và không thể thực hiện yêu cầu tại thời điểm này",
+                "Sự cố ngoài dự kiến xảy ra trên dữ liệu và cơ sở hạ tầng hoặc trong quá trình chuyển đổi"
             ],
-            "description_end": "We apologise any inconvenience.",
+            "description_end": "Chúng tôi xin lỗi vì sự bất tiện này.",
             "refresh_enable": true
         },
         "resource_limitrate": {
-            "title": "Access Error",
-            "description_start": "Unfortunately an error occurred during the loading of this page.",
+            "title": "Lỗi truy cập",
+            "description_start": "Không may đã có lỗi xảy ra trong quá trình tải trang chủ này.",
             "cause_list": [
-                "Your IP address has been detected as flooding the server",
-                "The backend server is experiencing unexpected load and is unable to process requests at this time",
-                "An unexpected error happened on the backend server or in transit"
+                "Địa chỉ IP của bạn được phát hiện đang tấn công máy chủ",
+                "Dữ liệu và cơ sở hạ tầng đang gặp sự cố ngoài dự kiến và không thể thực hiện yêu cầu tại thời điểm này",
+                "Sự cố ngoài dự kiến xảy ra trên dữ liệu và cơ sở hạ tầng hoặc trong quá trình chuyển đổi"
             ],
-            "description_end": "We apologise any inconvenience.",
+            "description_end": "Chúng tôi xin lỗi vì sự bất tiện này.",
             "refresh_enable": true
         },
         "resource_limitcon": {
-            "title": "Access Error",
-            "description_start": "Unfortunately an error occurred during the loading of this page.",
+            "title": "Lỗi truy cập",
+            "description_start": "Không may đã có lỗi xảy ra trong quá trình tải trang này.",
             "cause_list": [
-                "Your IP address has an abnormal number of connections to the server",
-                "The backend server is experiencing unexpected load and is unable to process requests at this time",
-                "An unexpected error happened on the backend server or in transit"
+                "Địa chỉ IP của bạn đã tạo ra vô số kết nối bất bình thường tới máy chủ",
+                "Dữ liệu và cơ sở hạ tầng đang gặp sự cố ngoài dự kiến và không thể thực hiện yêu cầu tại thời điểm này",
+                "Sự cố ngoài dự kiến xảy ra trên dữ liệu và cơ sở hạ tầng hoặc trong quá trình chuyển đổi"
             ],
-            "description_end": "We apologise any inconvenience.",
+            "description_end": "Chúng tôi xin lỗi vì sự bất tiện này.",
             "refresh_enable": true
         },
         "ssl-https-http": {
-            "title": "Bad Request",
-            "description": "This website is accessible via HTTPS. You have attempted to connect via HTTP, we will now attempt to redirect you. If you are not redirected, please add https:// to the start of your URL and try again."
+            "title": "Yêu cầu không đúng",
+            "description": "Trang chủ này được truy cập thông qua  HTTPS. Bạn đã cố gắng truy cập qua  HTTP, chúng tôi sẽ điều hướng bạn ngay bây giờ. Nếu bạn không được điều hướng, vui lòng thêm  https:// vào đầu địa chỉ URL và thử lại."
         },
         "timeout": {
-            "title": "Server is unavailable",
-            "description": "Sorry but a timeout occurred while loading this page. It is possible that the server is busy and unable to process your request at this time.",
+            "title": "Máy chủ không tồn tại",
+            "description": "Xin lỗi đã quá thời gian tải trang chủ này. Có khả năng là máy chủ đang bận và không thể thực hiện yêu cầu của bạn vào lúc này.",
             "refresh_enable": true
         },
         "unknown_domain": {
-            "title": "Unknown Domain",
-            "description": "This domain is not registered to this IP address.",
+            "title": "Vùng truy cập không rõ",
+            "description": "Vùng truy cập này không được đăng ký với địa chỉ IP của bạn.",
             "refresh_enable": true
         },
         "unsupported_method": {
-            "title": "Unsupported Method",
-            "description": "The HTTP method requested is not enabled for this website.",
+            "title": "Phương thức không được hỗ trợ",
+            "description": "Phương thức HTTP được yêu cầu không khả dụng với trang chủ này.",
             "refresh_enable": true
         },
         "ssl-insecure": {
-            "title": "Insecure Request",
-            "description": "The HTTPS protocol requested is not enabled for this website. Please update your browser.",
+            "title": "Yêu cầu không an toàn",
+            "description": "Nghi thức  HTTPS theo yêu cầu không khả dụng với trang chủ này. Vui lòng nâng cấp trình duyệt của bạn.",
             "refresh_enable": true
         },
         "maintenance": {
-            "title": "Offline for Maintenance",
-            "description": "This website is not available at the moment. The site should be available again shortly.",
+            "title": "Ngoại tuyến để sửa chữa",
+            "description": "Trang chủ này hiện không tồn tại vào lúc này. Trang chủ sẽ truy cập được sau ít phút nữa.",
             "refresh_enable": true
         }
     }
