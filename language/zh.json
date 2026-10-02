@@ -1,4 +1,5 @@
 {
+    "fontClass": "l",
     "challenge": {
         "redirect_shortly": "此过程会自动完成。您很快就会被重定向到目标页面。",
         "validate_browser": "访问 {http_host} 前，正在验证您的浏览器",

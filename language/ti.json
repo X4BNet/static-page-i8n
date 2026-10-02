@@ -1,4 +1,5 @@
 {
+    "fontClass": "l",
     "challenge": {
         "redirect_shortly": "እዚ መስርሕ ብኣውቶማቲክ ይካየድ። ኣብ ሓጺር ግዜ ናብቲ ክትበጽሕዎ ዝደለኹም ገጽ ክትምርሑ ኢኹም።",
         "validate_browser": "ናብ {http_host} ቅድሚ ምእታውኩም ብራውዘርኩም ይረጋገጽ ኣሎ",

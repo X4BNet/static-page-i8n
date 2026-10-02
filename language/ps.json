@@ -1,5 +1,6 @@
 {
     "direction": "rtl",
+    "fontClass": "l",
     "challenge": {
         "redirect_shortly": "دا بهیر په اوتومات ډول ترسره کېږي. تاسو به ډېر ژر خپلې غوښتل شوې موخې ته ولېږدول شئ.",
         "validate_browser": "{http_host} ته له لاسرسي مخکې ستاسو براوزر کتل کېږي",

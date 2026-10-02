@@ -1,5 +1,6 @@
 {
     "direction": "rtl",
+    "fontClass": "l",
     "challenge": {
         "redirect_shortly": "ئەم پرۆسەیە خۆکارە. بەم زووانە ئاراستە دەکرێیتە ئەو لاپەڕەیەی مەبەستتە.",
         "validate_browser": "پشتڕاستکردنەوەی وێبگەڕەکەت پێش چوونە ناو {http_host}",

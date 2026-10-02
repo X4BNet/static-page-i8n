@@ -1,4 +1,5 @@
 {
+    "fontClass": "l",
     "challenge": {
         "redirect_shortly": "ይህ ሂደት በራስ-ሰር ይከናወናል። በቅርቡ ለመጎብኘት ወደፈለጉት ገጽ ይዛወራሉ።",
         "validate_browser": "ወደ {http_host} ከመግባትዎ በፊት አሳሽዎን በማረጋገጥ ላይ",

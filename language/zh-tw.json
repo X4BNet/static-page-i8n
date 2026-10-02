@@ -1,4 +1,5 @@
 {
+    "fontClass": "l",
     "challenge": {
         "redirect_shortly": "此程序會自動執行。您即將被重新導向至原本要前往的頁面。",
         "validate_browser": "正在驗證您的瀏覽器，以便存取 {http_host}",

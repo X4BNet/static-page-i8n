@@ -36,6 +36,13 @@ function balancedHTML(text) {
 function validateTranslation(candidate, reference, key = '') {
     const location = key || '<root>';
     const errors = [];
+    if (!key && candidate && typeof candidate === 'object' && !Array.isArray(candidate) && reference && typeof reference === 'object' && !Array.isArray(reference)) {
+        if (Object.hasOwn(candidate, 'direction') && !['ltr', 'rtl'].includes(candidate.direction)) errors.push('direction: expected ltr or rtl metadata');
+        if (Object.hasOwn(candidate, 'fontClass') && candidate.fontClass !== 'l') errors.push('fontClass: expected l metadata when supplied');
+        candidate = { ...candidate };
+        reference = { ...reference };
+        for (const metadata of ['direction', 'fontClass']) { delete candidate[metadata]; delete reference[metadata]; }
+    }
     if (Array.isArray(reference)) {
         if (!Array.isArray(candidate)) return [`${location}: expected an array`];
         if (candidate.length !== reference.length) {
@@ -81,7 +88,7 @@ function strings(value, key = '') {
     if (typeof value === 'string') return [[key, value]];
     if (Array.isArray(value)) return value.flatMap((item, index) => strings(item, `${key}[${index}]`));
     if (value && typeof value === 'object') {
-        return Object.entries(value).flatMap(([child, item]) => strings(item, key ? `${key}.${child}` : child));
+        return Object.entries(value).filter(([child]) => key || !['direction', 'fontClass'].includes(child)).flatMap(([child, item]) => strings(item, key ? `${key}.${child}` : child));
     }
     return [];
 }
@@ -92,8 +99,8 @@ function readJSON(filename) {
 }
 
 function languageData(value) {
-    const { direction = 'ltr', ...translation } = value;
-    return { direction, translation };
+    const { direction = 'ltr', fontClass = null, ...translation } = value;
+    return { direction, fontClass, translation };
 }
 
 function validateRepository(root = ROOT) {
@@ -126,9 +133,12 @@ function validateRepository(root = ROOT) {
         const filename = path.join(directory, `${tag}.json`);
         if (!fs.existsSync(filename)) continue;
         try {
-            const { direction, translation } = languageData(readJSON(filename));
+            const { direction, fontClass, translation } = languageData(readJSON(filename));
             if (!['ltr', 'rtl'].includes(direction)) {
                 errors.push(`${tag}: direction must be either ltr or rtl`);
+            }
+            if (![null, 'l'].includes(fontClass)) {
+                errors.push(`${tag}: fontClass must be l when supplied`);
             }
             errors.push(...validateTranslation(translation, reference).map(error => `${tag}: ${error}`));
             const entries = strings(translation);
@@ -142,7 +152,7 @@ function validateRepository(root = ROOT) {
                 } else {
                     canonical = target.tag;
                     const targetData = languageData(readJSON(path.join(directory, `${target.tag}.json`)));
-                    if (direction !== targetData.direction || JSON.stringify(translation) !== JSON.stringify(targetData.translation)) {
+                    if (direction !== targetData.direction || fontClass !== targetData.fontClass || JSON.stringify(translation) !== JSON.stringify(targetData.translation)) {
                         errors.push(`${tag}: alias content differs from ${target.tag}`);
                     }
                 }

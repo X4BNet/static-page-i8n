@@ -1,5 +1,6 @@
 {
     "direction": "rtl",
+    "fontClass": "l",
     "challenge": {
         "redirect_shortly": "این فرایند خودکار است. به‌زودی به مقصد موردنظر هدایت می‌شوید.",
         "validate_browser": "پیش از دسترسی به {http_host}، مرورگر شما در حال بررسی است",

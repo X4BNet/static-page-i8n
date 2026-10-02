@@ -132,9 +132,12 @@ def validate_file(path: Path, reference: Any) -> list[str]:
         return validate_value(candidate, reference, "")
     candidate = dict(candidate)
     direction = candidate.pop("direction", "ltr")
+    font_class = candidate.pop("fontClass", None)
     errors = []
     if direction not in {"ltr", "rtl"}:
         errors.append("direction: expected 'ltr' or 'rtl'")
+    if font_class not in {None, "l"}:
+        errors.append("fontClass: expected 'l' when supplied")
     return errors + validate_value(candidate, reference, "")
 
 

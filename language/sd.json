@@ -1,5 +1,6 @@
 {
     "direction": "rtl",
+    "fontClass": "l",
     "challenge": {
         "redirect_shortly": "هي عمل پاڻمرادو ٿئي ٿو. توهان کي جلد ئي توهان جي گهربل منزل ڏانهن موڪليو ويندو.",
         "validate_browser": "{http_host} تائين پهچڻ کان اڳ توهان جي برائوزر جي جاچ ٿي رهي آهي",

@@ -36,6 +36,16 @@ class LanguageFileValidatorTests(unittest.TestCase):
         )
         self.assertIn("expected 'ltr' or 'rtl'", errors[0])
 
+    def test_font_class_metadata_accepts_only_large_font(self):
+        reference = {"message": "Text"}
+        self.assertEqual(
+            self.validate({"fontClass": "l", "message": "نص"}, reference), []
+        )
+        errors = self.validate(
+            {"fontClass": "tiny-font", "message": "Text"}, reference
+        )
+        self.assertIn("expected 'l'", errors[0])
+
     def test_template_token_must_be_preserved_exactly(self):
         errors = self.validate(
             {"message": "Visite {{host}}"}, {"message": "Visit {host}"}

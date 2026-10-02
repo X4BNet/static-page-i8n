@@ -1,4 +1,5 @@
 {
+    "fontClass": "l",
     "challenge": {
         "redirect_shortly": "この処理は自動で行われます。まもなく目的のページに移動します。",
         "validate_browser": "{http_host} にアクセスする前にブラウザーを確認しています",

@@ -29,6 +29,13 @@ test('accepts translated text with unchanged structure and formatting', () => {
     assert.deepEqual(validateTranslation(valid(), reference), []);
 });
 
+test('accepts locale rendering metadata separately from English prose and settings', () => {
+    assert.deepEqual(validateTranslation({ ...valid(), direction: 'rtl', fontClass: 'l' }, reference), []);
+    assert.match(validateTranslation({ ...valid(), direction: 'sideways' }, reference).join('\n'), /direction: expected/u);
+    assert.match(validateTranslation({ ...valid(), fontClass: 'tiny' }, reference).join('\n'), /fontClass: expected/u);
+    assert.match(validateTranslation({ ...valid(), causes: [{ direction: 'rtl' }] }, reference).join('\n'), /expected a string/u);
+});
+
 test('requires every English key and rejects unknown keys', () => {
     const candidate = valid();
     delete candidate.title;
@@ -103,6 +110,8 @@ test('requires the complete catalog and flags English filler and duplicate files
     assert.deepEqual(validateRepository(directory), []);
     fs.writeFileSync(path.join(directory, 'language', 'de.json'), JSON.stringify({ direction: 'sideways', text: 'de' }));
     assert.match(validateRepository(directory).join('\n'), /de: direction must be either ltr or rtl/u);
+    fs.writeFileSync(path.join(directory, 'language', 'de.json'), JSON.stringify({ fontClass: 'tiny-font', text: 'de' }));
+    assert.match(validateRepository(directory).join('\n'), /de: fontClass must be l when supplied/u);
     write('de', 'de');
     fs.unlinkSync(path.join(directory, 'language', 'vi.json'));
     write('vn', 'vi');
