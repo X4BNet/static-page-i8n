@@ -42,7 +42,7 @@
         },
         "clienttimeout": {
             "title": "Dh'fhalbh an ùine air an iarrtas",
-            "description": "Tha sinn duilich, ach dh'fhalbh an ùine nuair a bha an duilleag-lìn seo 'ga luchdadh. Tha sinn duilich airson mì-ghoireas sam bith a dh'adhbhraich seo.",
+            "description": "Tha sinn duilich, ach dh'fhalbh an ùine nuair a bha an duilleag-lìn seo 'ga luchdadh. Tha sinn duilich airson mì-ghoireas sam bith a dh'fhaodadh seo a bhith air adhbhrachadh.",
             "refresh_enable": true
         },
         "forbidden": {

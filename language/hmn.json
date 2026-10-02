@@ -42,7 +42,7 @@
         },
         "clienttimeout": {
             "title": "Sijhawm Tos Kev Thov Tas Lawm",
-            "description": "Thov txim, lub sijhawm tos tas lawm thaum qhib nplooj vev xaib no. Peb thov txim rau tej kev tsis yooj yim uas qhov no yuav ua rau muaj.",
+            "description": "Thov txim, lub sijhawm tos tas lawm thaum qhib nplooj vev xaib no. Peb thov txim yog tias qhov no tau ua rau muaj kev tsis yooj yim.",
             "refresh_enable": true
         },
         "forbidden": {

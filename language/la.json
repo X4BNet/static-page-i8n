@@ -9,7 +9,7 @@
         "submit": "mitte",
         "try_again_later": "Hic situs diutius quam solet oneratur. Si vis, postea <a href=\"\">iterum tenta</a>",
         "unexpected_error": "Error improvisus accidisse videtur. Quaesumus, postea <a href=\"\">iterum tenta</a>",
-        "validation_complete": "<strong>Comprobatio perfecta est</strong> Nunc ad locum destinatum redirigeris. Preme <a href=\"\">hic</a> nisi pagina denuo oneratur.",
+        "validation_complete": "<strong>Comprobatio perfecta est.</strong> Nunc ad locum destinatum redirigeris. Preme <a href=\"\">hic</a> nisi pagina denuo oneratur.",
         "enable_javascript": "Comprobatio navigatri optime procedit cum JavaScript activum est.",
         "abnormal_activity": "Propter actiones insolitas, opus infra propositum perficias necesse est ut pergas",
         "sorry_inconvenience": "Veniam petimus ob incommoda",

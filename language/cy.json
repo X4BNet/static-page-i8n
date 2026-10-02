@@ -42,7 +42,7 @@
         },
         "clienttimeout": {
             "title": "Terfyn amser y cais wedi dod i ben",
-            "description": "Mae'n ddrwg gennym, ond daeth y terfyn amser i ben wrth lwytho'r dudalen we hon. Ymddiheurwn am unrhyw anghyfleustra a achoswyd gan hyn.",
+            "description": "Mae'n ddrwg gennym, ond daeth y terfyn amser i ben wrth lwytho'r dudalen we hon. Ymddiheurwn am unrhyw anghyfleustra y gallai hyn fod wedi'i achosi.",
             "refresh_enable": true
         },
         "forbidden": {

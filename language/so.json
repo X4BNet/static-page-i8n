@@ -42,7 +42,7 @@
         },
         "clienttimeout": {
             "title": "Waqtigii sugitaanka codsiga wuu dhammaaday",
-            "description": "Waan ka xunnahay, balse waqtigii sugitaanka ayaa dhammaaday markii boggan la soo furayay. Waan ka raalli gelinaynaa wixii dhib ah ee arrintani keentay.",
+            "description": "Waan ka xunnahay, balse waqtigii sugitaanka ayaa dhammaaday markii boggan la soo furayay. Waan ka raalli gelinaynaa haddii arrintani wax dhib ah keentay.",
             "refresh_enable": true
         },
         "forbidden": {

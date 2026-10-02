@@ -11,7 +11,7 @@
         "try_again_later": "此网站的加载时间比平时更长，您可以稍后<a href=\"\">重试</a>",
         "unexpected_error": "似乎发生了意外错误，请稍后<a href=\"\">重试</a>",
         "validation_complete": "<strong>验证完成</strong>。正在将您重定向到目标页面。如果页面没有重新加载，请点击<a href=\"\">此处</a>。",
-        "enable_javascript": "启用 JavaScript 后，浏览器验证效果更佳。",
+        "enable_javascript": "启用 JavaScript 时，浏览器验证效果最佳。",
         "abnormal_activity": "由于检测到异常活动，您需要完成以下任务才能继续",
         "sorry_inconvenience": "给您带来不便，我们深表歉意",
         "verifying": "正在验证"

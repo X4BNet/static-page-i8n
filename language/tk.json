@@ -10,7 +10,7 @@
         "try_again_later": "Bu web sahypasynyň ýüklenmegi adatdakysyndan köp wagt alýar. Soňrak <a href=\"\">gaýtadan synanyşyp bilersiňiz</a>",
         "unexpected_error": "Garaşylmadyk ýalňyşlyk ýüze çykan ýaly. Soňrak <a href=\"\">gaýtadan synanyşyň</a>",
         "validation_complete": "<strong>Barlag tamamlandy</strong>. Indi islän salgyňyza ugrukdyrylýarsyňyz. Sahypa täzeden ýüklenmese, <a href=\"\">şu ýere</a> basyň.",
-        "enable_javascript": "JavaScript açyk bolanda brauzer barlagy has gowy işleýär.",
+        "enable_javascript": "JavaScript açyk bolanda brauzer barlagy iň gowy işleýär.",
         "abnormal_activity": "Adatdan daşary işjeňlik sebäpli dowam etmek üçin aşakdaky ýumşy ýerine ýetirmeli",
         "sorry_inconvenience": "Ýüze çykan oňaýsyzlyklar üçin ötünç soraýarys",
         "verifying": "Barlanýar"
@@ -42,7 +42,7 @@
         },
         "clienttimeout": {
             "title": "Haýyşyň garaşmak wagty gutardy",
-            "description": "Gynansak-da, bu web sahypasy ýüklenende garaşmak wagty gutardy. Munuň döreden oňaýsyzlyklary üçin ötünç soraýarys.",
+            "description": "Gynansak-da, bu web sahypasy ýüklenende garaşmak wagty gutardy. Bu haýsydyr bir oňaýsyzlyk döreden bolsa, ötünç soraýarys.",
             "refresh_enable": true
         },
         "forbidden": {
@@ -61,7 +61,7 @@
             "title": "Giriş ýalňyşlygy",
             "description_start": "Gynansak-da, bu sahypa ýüklenende ýalňyşlyk ýüze çykdy.",
             "cause_list": [
-                "Çeşme serwerine garaşylmadyk derejede köp ýük düşýär we ol häzir haýyşlary işläp bilmeýär",
+                "Çeşme serwerine garaşylmadyk ýük düşýär we ol häzir haýyşlary işläp bilmeýär",
                 "Çeşme serwerinde ýa-da maglumat geçirilende garaşylmadyk ýalňyşlyk ýüze çykdy"
             ],
             "description_end": "Ýüze çykan oňaýsyzlyklar üçin ötünç soraýarys.",
@@ -72,7 +72,7 @@
             "description_start": "Gynansak-da, bu sahypa ýüklenende ýalňyşlyk ýüze çykdy.",
             "cause_list": [
                 "IP salgyňyzdan serwere çendenaşa köp haýyş iberilýändigi anyklandy",
-                "Çeşme serwerine garaşylmadyk derejede köp ýük düşýär we ol häzir haýyşlary işläp bilmeýär",
+                "Çeşme serwerine garaşylmadyk ýük düşýär we ol häzir haýyşlary işläp bilmeýär",
                 "Çeşme serwerinde ýa-da maglumat geçirilende garaşylmadyk ýalňyşlyk ýüze çykdy"
             ],
             "description_end": "Ýüze çykan oňaýsyzlyklar üçin ötünç soraýarys.",
@@ -83,7 +83,7 @@
             "description_start": "Gynansak-da, bu sahypa ýüklenende ýalňyşlyk ýüze çykdy.",
             "cause_list": [
                 "IP salgyňyzdan serwere adaty bolmadyk sanda birikme bar",
-                "Çeşme serwerine garaşylmadyk derejede köp ýük düşýär we ol häzir haýyşlary işläp bilmeýär",
+                "Çeşme serwerine garaşylmadyk ýük düşýär we ol häzir haýyşlary işläp bilmeýär",
                 "Çeşme serwerinde ýa-da maglumat geçirilende garaşylmadyk ýalňyşlyk ýüze çykdy"
             ],
             "description_end": "Ýüze çykan oňaýsyzlyklar üçin ötünç soraýarys.",

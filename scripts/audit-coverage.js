@@ -174,6 +174,15 @@ function buildAudit() {
                 }
                 if (!available) issues.push('browser-profile-evidence-gap');
                 const declined = feasibility.declined?.find(d => d.tag === requiredLocale || d.tag === record.language || d.tag === base);
+                const availableWrittenProfile = catalog.languages.find(locale =>
+                    locale.languageId === requestedLanguageId &&
+                    (!requiredLocale || locale.tag === requiredLocale || locale.aliasOf === requiredLocale) &&
+                    (!['nn', 'ckb'].includes(base) || locale.tag === base || locale.aliasOf === base) &&
+                    (!scriptNames[script] || locale.script === scriptNames[script]) &&
+                    (base !== 'zh' || !['Hans', 'Hant'].includes(script) || locale.scriptCode === script));
+                const translationFeasibility = availableWrittenProfile
+                    ? `Reviewed written profile ${availableWrittenProfile.tag} exists; ${issues.some(i => i !== 'browser-profile-evidence-gap') ? 'this client preference does not select it; review the identifier or browser language choice.' : 'see catalog fluency notes.'}`
+                    : declined?.reason || (signed ? 'A text JSON translation does not provide signed-language content.' : 'No complete reviewed translation for this required profile; retain for language-specific review.');
                 profiles.push({
                     id: `${record.country}/${record.language}/${client}/${mode}`,
                     country: record.country, language: record.language, languageName: names.get(base) || record.name || base,
@@ -183,7 +192,8 @@ function buildAudit() {
                     profileSource: choices[client === 'chrome' ? 'chromium' : client].source,
                     expectedLocale: selected, requestedScript: script, requiredLocale,
                     issues: [...new Set(issues)], speakers: record.speakers,
-                    translationFeasibility: declined?.reason || (issues.some(i => i !== 'browser-profile-evidence-gap') ? 'No complete reviewed translation for this required profile; retain for language-specific review.' : 'Reviewed translation exists; see catalog fluency notes.'),
+                    availableWrittenProfile: availableWrittenProfile?.tag || null,
+                    translationFeasibility,
                 });
             }
         }
@@ -261,7 +271,7 @@ function renderGaps(audit, results) {
     }
     lines.push('', '## Territory dispositions', '', '| Territory | Disposition | Evidence |', '| --- | --- | --- |');
     for (const c of audit.countries.filter(c => !c.cases)) lines.push(`| ${esc(c.name)} (${c.code}) | ${esc(c.disposition)}: ${esc(c.note || 'Official-language evidence requires review.')} | ${(c.sources || []).map(url => `[source](${url})`).join(', ')} |`);
-    lines.push('', '## Unresolved legal scope and identifier mappings', '', 'These sourced research gaps remain open even where an enumerated header case passes. An unresolved umbrella is not silently represented by a related language. Speaker figures for unmapped groups are unknown and are not inferred from ethnicity.', '', '| Country / scope | Status or identifier question | Sources |', '| --- | --- | --- |');
+    lines.push('', '## Unresolved legal scope and identifier mappings', '', 'These research leads and sourced scope questions remain open even where an enumerated header case passes. An unresolved umbrella is not silently represented by a related language. Speaker figures for unmapped groups are unknown and are not inferred from ethnicity.', '', '| Country / scope | Status or identifier question | Sources |', '| --- | --- | --- |');
     for (const note of [...(audit.unresolvedMappings || []), ...(audit.researchNotes || [])]) {
         lines.push(`| ${esc(note.country || note.topic || 'See source scope')} | ${esc([note.statutoryName || note.statutoryNames?.join(', '), note.reason || note.assessment].filter(Boolean).join(': '))} | ${(note.sources || []).map(url => `[source](${url})`).join(', ')} |`);
     }

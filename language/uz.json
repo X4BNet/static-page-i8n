@@ -42,7 +42,7 @@
         },
         "clienttimeout": {
             "title": "So‘rovni kutish vaqti tugadi",
-            "description": "Afsuski, bu veb-sahifani yuklashda kutish uchun ajratilgan vaqt tugadi. Yuzaga kelgan noqulaylik uchun uzr so‘raymiz.",
+            "description": "Afsuski, bu veb-sahifani yuklashda kutish uchun ajratilgan vaqt tugadi. Yuzaga kelgan bo‘lishi mumkin bo‘lgan noqulaylik uchun uzr so‘raymiz.",
             "refresh_enable": true
         },
         "forbidden": {

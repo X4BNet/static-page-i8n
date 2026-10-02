@@ -42,7 +42,7 @@
         },
         "clienttimeout": {
             "title": "Sorğunun vaxt limiti bitdi",
-            "description": "Təəssüf ki, bu veb-səhifə yüklənərkən vaxt limiti bitdi. Bunun yaratdığı narahatlığa görə üzr istəyirik.",
+            "description": "Təəssüf ki, bu veb-səhifə yüklənərkən vaxt limiti bitdi. Bunun yaratmış ola biləcəyi narahatlığa görə üzr istəyirik.",
             "refresh_enable": true
         },
         "forbidden": {

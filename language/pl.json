@@ -42,7 +42,7 @@
         },
         "clienttimeout": {
             "title": "Przekroczono limit czasu żądania",
-            "description": "Niestety podczas ładowania tej strony internetowej przekroczono limit czasu. Przepraszamy za wszelkie wynikające z tego niedogodności.",
+            "description": "Niestety podczas ładowania tej strony internetowej przekroczono limit czasu. Przepraszamy za wszelkie niedogodności, które mogły z tego wyniknąć.",
             "refresh_enable": true
         },
         "forbidden": {

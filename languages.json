@@ -31,7 +31,14 @@
                 "decision": "retain",
                 "report": "translation-usage-review.json"
             },
-            "languageId": "ak"
+            "languageId": "ak",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/africa.json",
+                "adjudication": "coverage/linguistic-review/africa-adjudication.json",
+                "scope": "all-63-source-strings",
+                "disposition": "reviewed-flag-retained"
+            }
         },
         {
             "tag": "am",
@@ -44,7 +51,14 @@
                 "decision": "clear",
                 "report": "translation-usage-review.json"
             },
-            "languageId": "am"
+            "languageId": "am",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/africa.json",
+                "adjudication": "coverage/linguistic-review/africa-adjudication.json",
+                "scope": "focused-technical-negation-timeout-recommendation",
+                "disposition": "focused-review-complete"
+            }
         },
         {
             "tag": "ar",
@@ -74,6 +88,23 @@
             "writtenForm": "Standard Azerbaijani",
             "provenance": "subagent-translation",
             "languageId": "az"
+        },
+        {
+            "tag": "az-cyrl",
+            "name": "Azerbaijani (Cyrillic)",
+            "script": "Cyrillic",
+            "writtenForm": "Standard Azerbaijani, Cyrillic script",
+            "languageId": "az",
+            "reviewNotes": "Same-language rendering of reviewed az. Uses modern Cyrillic orthography with Azerbaijani-specific letters; does not claim verified Dagestan administrative standard or restore every historical apostrophe.",
+            "unchangedEnglishKeys": [],
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/europe-translations.json",
+            "reviewedOn": "2026-10-02",
+            "linguisticReview": {
+                "report": "coverage/research/review-cyrillic-variants.json",
+                "reviewer": "benchmark_es (independent from Cyrillic-variant author benchmark_de)",
+                "reviewedOn": "2026-10-02"
+            }
         },
         {
             "tag": "be",
@@ -119,6 +150,13 @@
                 "report": "coverage/research/review-asia-pacific.json",
                 "reviewer": "benchmark_es (independent from author benchmark_vi)",
                 "reviewedOn": "2026-10-02"
+            },
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/pacific_americas.json",
+                "adjudication": "coverage/linguistic-review/pacific_americas-adjudication.json",
+                "scope": "full",
+                "disposition": "reviewed-flag-retained"
             }
         },
         {
@@ -182,7 +220,14 @@
                 "decision": "clear",
                 "report": "translation-usage-review.json"
             },
-            "languageId": "ceb"
+            "languageId": "ceb",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/pacific_americas.json",
+                "adjudication": "coverage/linguistic-review/pacific_americas-adjudication.json",
+                "scope": "focused",
+                "disposition": "focused-review-complete"
+            }
         },
         {
             "tag": "ckb",
@@ -199,6 +244,13 @@
                 "report": "coverage/research/review-asia-pacific.json",
                 "reviewer": "benchmark_es (independent from author benchmark_vi)",
                 "reviewedOn": "2026-10-02"
+            },
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/asia_europe.json",
+                "adjudication": "coverage/linguistic-review/asia_europe-adjudication.json",
+                "scope": "full",
+                "disposition": "reviewed-flag-retained"
             }
         },
         {
@@ -250,6 +302,13 @@
                 "report": "coverage/research/review-americas-africa.json",
                 "reviewer": "benchmark_vi",
                 "reviewedOn": "2026-10-02"
+            },
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/pacific_americas.json",
+                "adjudication": "coverage/linguistic-review/pacific_americas-adjudication.json",
+                "scope": "full",
+                "disposition": "reviewed-flag-retained"
             }
         },
         {
@@ -275,6 +334,13 @@
                 "report": "coverage/research/review-europe-b.json",
                 "reviewer": "benchmark_vi",
                 "reviewedOn": "2026-10-02"
+            },
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/asia_europe.json",
+                "adjudication": "coverage/linguistic-review/asia_europe-adjudication.json",
+                "scope": "focused",
+                "disposition": "focused-review-complete"
             }
         },
         {
@@ -349,6 +415,13 @@
                 "report": "coverage/research/review-europe-b.json",
                 "reviewer": "benchmark_vi",
                 "reviewedOn": "2026-10-02"
+            },
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/asia_europe.json",
+                "adjudication": "coverage/linguistic-review/asia_europe-adjudication.json",
+                "scope": "focused",
+                "disposition": "focused-review-complete"
             }
         },
         {
@@ -374,6 +447,13 @@
                 "report": "coverage/research/review-asia-pacific.json",
                 "reviewer": "benchmark_es (independent from author benchmark_vi)",
                 "reviewedOn": "2026-10-02"
+            },
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/asia_europe.json",
+                "adjudication": "coverage/linguistic-review/asia_europe-adjudication.json",
+                "scope": "full",
+                "disposition": "reviewed-flag-retained"
             }
         },
         {
@@ -389,7 +469,14 @@
                 "decision": "retain",
                 "report": "translation-usage-review.json"
             },
-            "languageId": "ff"
+            "languageId": "ff",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/africa.json",
+                "adjudication": "coverage/linguistic-review/africa-adjudication.json",
+                "scope": "all-63-source-strings",
+                "disposition": "reviewed-flag-retained"
+            }
         },
         {
             "tag": "fi",
@@ -422,6 +509,13 @@
                 "report": "coverage/research/review-asia-pacific.json",
                 "reviewer": "benchmark_es (independent from author benchmark_vi)",
                 "reviewedOn": "2026-10-02"
+            },
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/pacific_americas.json",
+                "adjudication": "coverage/linguistic-review/pacific_americas-adjudication.json",
+                "scope": "full",
+                "disposition": "reviewed-flag-retained"
             }
         },
         {
@@ -440,6 +534,13 @@
                 "report": "coverage/research/review-europe-a.json",
                 "reviewer": "benchmark_es (independent from author benchmark_de)",
                 "reviewedOn": "2026-10-02"
+            },
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/asia_europe.json",
+                "adjudication": "coverage/linguistic-review/asia_europe-adjudication.json",
+                "scope": "full",
+                "disposition": "reviewed-flag-retained"
             }
         },
         {
@@ -466,6 +567,13 @@
                 "report": "coverage/research/review-europe-a.json",
                 "reviewer": "benchmark_es (independent from author benchmark_de)",
                 "reviewedOn": "2026-10-02"
+            },
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/asia_europe.json",
+                "adjudication": "coverage/linguistic-review/asia_europe-adjudication.json",
+                "scope": "full",
+                "disposition": "reviewed-flag-retained"
             }
         },
         {
@@ -483,6 +591,13 @@
                 "report": "coverage/research/review-europe-a.json",
                 "reviewer": "benchmark_es (independent from author benchmark_de)",
                 "reviewedOn": "2026-10-02"
+            },
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/asia_europe.json",
+                "adjudication": "coverage/linguistic-review/asia_europe-adjudication.json",
+                "scope": "focused",
+                "disposition": "focused-review-complete"
             }
         },
         {
@@ -501,6 +616,13 @@
                 "report": "coverage/research/review-europe-b.json",
                 "reviewer": "benchmark_vi",
                 "reviewedOn": "2026-10-02"
+            },
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/asia_europe.json",
+                "adjudication": "coverage/linguistic-review/asia_europe-adjudication.json",
+                "scope": "full",
+                "disposition": "reviewed-flag-retained"
             }
         },
         {
@@ -535,6 +657,13 @@
                 "report": "coverage/research/review-americas-africa.json",
                 "reviewer": "benchmark_vi",
                 "reviewedOn": "2026-10-02"
+            },
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/pacific_americas.json",
+                "adjudication": "coverage/linguistic-review/pacific_americas-adjudication.json",
+                "scope": "full",
+                "disposition": "reviewed-flag-retained"
             }
         },
         {
@@ -556,7 +685,14 @@
                 "decision": "clear",
                 "report": "translation-usage-review.json"
             },
-            "languageId": "ha"
+            "languageId": "ha",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/africa.json",
+                "adjudication": "coverage/linguistic-review/africa-adjudication.json",
+                "scope": "focused-technical-negation-timeout-recommendation",
+                "disposition": "focused-review-complete"
+            }
         },
         {
             "tag": "haw",
@@ -573,6 +709,13 @@
                 "report": "coverage/research/review-americas-africa.json",
                 "reviewer": "benchmark_vi",
                 "reviewedOn": "2026-10-02"
+            },
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/pacific_americas.json",
+                "adjudication": "coverage/linguistic-review/pacific_americas-adjudication.json",
+                "scope": "full",
+                "disposition": "reviewed-flag-retained"
             }
         },
         {
@@ -602,7 +745,14 @@
                 "decision": "clear",
                 "report": "translation-usage-review.json"
             },
-            "languageId": "hil"
+            "languageId": "hil",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/pacific_americas.json",
+                "adjudication": "coverage/linguistic-review/pacific_americas-adjudication.json",
+                "scope": "focused",
+                "disposition": "focused-review-complete"
+            }
         },
         {
             "tag": "hmn",
@@ -615,7 +765,14 @@
                 "decision": "clear",
                 "report": "translation-usage-review.json"
             },
-            "languageId": "hmn"
+            "languageId": "hmn",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/pacific_americas.json",
+                "adjudication": "coverage/linguistic-review/pacific_americas-adjudication.json",
+                "scope": "focused",
+                "disposition": "focused-review-complete"
+            }
         },
         {
             "tag": "hne",
@@ -630,7 +787,14 @@
                 "decision": "retain",
                 "report": "translation-usage-review.json"
             },
-            "languageId": "hne"
+            "languageId": "hne",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/asia_europe.json",
+                "adjudication": "coverage/linguistic-review/asia_europe-adjudication.json",
+                "scope": "full",
+                "disposition": "reviewed-flag-retained"
+            }
         },
         {
             "tag": "hr",
@@ -671,7 +835,14 @@
             "script": "Armenian",
             "writtenForm": "Standard Eastern Armenian",
             "provenance": "subagent-translation",
-            "languageId": "hy"
+            "languageId": "hy",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/asia_europe.json",
+                "adjudication": "coverage/linguistic-review/asia_europe-adjudication.json",
+                "scope": "focused",
+                "disposition": "focused-review-complete"
+            }
         },
         {
             "tag": "id",
@@ -692,7 +863,14 @@
                 "decision": "clear",
                 "report": "translation-usage-review.json"
             },
-            "languageId": "ig"
+            "languageId": "ig",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/africa.json",
+                "adjudication": "coverage/linguistic-review/africa-adjudication.json",
+                "scope": "focused-technical-negation-timeout-recommendation",
+                "disposition": "focused-review-complete"
+            }
         },
         {
             "tag": "ilo",
@@ -705,7 +883,14 @@
                 "decision": "clear",
                 "report": "translation-usage-review.json"
             },
-            "languageId": "ilo"
+            "languageId": "ilo",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/pacific_americas.json",
+                "adjudication": "coverage/linguistic-review/pacific_americas-adjudication.json",
+                "scope": "focused",
+                "disposition": "focused-review-complete"
+            }
         },
         {
             "tag": "is",
@@ -768,6 +953,13 @@
                 "report": "coverage/research/review-europe-b.json",
                 "reviewer": "benchmark_vi",
                 "reviewedOn": "2026-10-02"
+            },
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/asia_europe.json",
+                "adjudication": "coverage/linguistic-review/asia_europe-adjudication.json",
+                "scope": "focused",
+                "disposition": "focused-review-complete"
             }
         },
         {
@@ -797,7 +989,14 @@
             "script": "Kannada",
             "writtenForm": "Standard Kannada",
             "provenance": "subagent-translation",
-            "languageId": "kn"
+            "languageId": "kn",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/asia_europe.json",
+                "adjudication": "coverage/linguistic-review/asia_europe-adjudication.json",
+                "scope": "focused",
+                "disposition": "focused-review-complete"
+            }
         },
         {
             "tag": "ko",
@@ -818,7 +1017,14 @@
                 "decision": "clear",
                 "report": "translation-usage-review.json"
             },
-            "languageId": "ku"
+            "languageId": "ku",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/asia_europe.json",
+                "adjudication": "coverage/linguistic-review/asia_europe-adjudication.json",
+                "scope": "focused",
+                "disposition": "focused-review-complete"
+            }
         },
         {
             "tag": "ku-arab",
@@ -854,6 +1060,13 @@
                 "report": "coverage/research/review-europe-b.json",
                 "reviewer": "benchmark_vi",
                 "reviewedOn": "2026-10-02"
+            },
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/asia_europe.json",
+                "adjudication": "coverage/linguistic-review/asia_europe-adjudication.json",
+                "scope": "full",
+                "disposition": "reviewed-flag-retained"
             }
         },
         {
@@ -862,16 +1075,22 @@
             "script": "Latin",
             "writtenForm": "Modern Latin for technical interface text",
             "languageId": "la",
-            "reviewNotes": "Grammatical Latin with transparent contemporary technical terminology and circumlocutions. Technical vocabulary is not claimed to be a Vatican-standard glossary.",
+            "reviewNotes": "Reviewed as Modern Latin technical-interface text; its transparent technical vocabulary does not claim a single Vatican-standard glossary.",
             "unchangedEnglishKeys": [],
             "provenance": "subagent-translation",
             "authorshipReport": "coverage/research/europe-translations.json",
             "reviewedOn": "2026-10-02",
-            "reviewPriority": "additional-fluency-review",
             "linguisticReview": {
                 "report": "coverage/research/review-europe-b.json",
                 "reviewer": "benchmark_vi",
                 "reviewedOn": "2026-10-02"
+            },
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/asia_europe.json",
+                "adjudication": "coverage/linguistic-review/asia_europe-adjudication.json",
+                "scope": "full",
+                "disposition": "specific-flag-cleared"
             }
         },
         {
@@ -904,7 +1123,14 @@
                 "decision": "retain",
                 "report": "translation-usage-review.json"
             },
-            "languageId": "lg"
+            "languageId": "lg",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/africa.json",
+                "adjudication": "coverage/linguistic-review/africa-adjudication.json",
+                "scope": "all-63-source-strings",
+                "disposition": "reviewed-flag-retained"
+            }
         },
         {
             "tag": "ln",
@@ -919,7 +1145,14 @@
                 "decision": "retain",
                 "report": "translation-usage-review.json"
             },
-            "languageId": "ln"
+            "languageId": "ln",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/africa.json",
+                "adjudication": "coverage/linguistic-review/africa-adjudication.json",
+                "scope": "all-63-source-strings",
+                "disposition": "reviewed-flag-retained"
+            }
         },
         {
             "tag": "lo",
@@ -932,7 +1165,14 @@
                 "decision": "clear",
                 "report": "translation-usage-review.json"
             },
-            "languageId": "lo"
+            "languageId": "lo",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/asia_europe.json",
+                "adjudication": "coverage/linguistic-review/asia_europe-adjudication.json",
+                "scope": "focused",
+                "disposition": "focused-review-complete"
+            }
         },
         {
             "tag": "lt",
@@ -972,7 +1212,14 @@
                 "decision": "retain",
                 "report": "translation-usage-review.json"
             },
-            "languageId": "mad"
+            "languageId": "mad",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/asia_europe.json",
+                "adjudication": "coverage/linguistic-review/asia_europe-adjudication.json",
+                "scope": "full",
+                "disposition": "reviewed-flag-retained"
+            }
         },
         {
             "tag": "mai",
@@ -998,7 +1245,14 @@
                 "decision": "clear",
                 "report": "translation-usage-review.json"
             },
-            "languageId": "mg"
+            "languageId": "mg",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/africa.json",
+                "adjudication": "coverage/linguistic-review/africa-adjudication.json",
+                "scope": "focused-technical-negation-timeout-recommendation",
+                "disposition": "focused-review-complete"
+            }
         },
         {
             "tag": "mi",
@@ -1015,6 +1269,13 @@
                 "report": "coverage/research/review-asia-pacific.json",
                 "reviewer": "benchmark_es (independent from author benchmark_vi)",
                 "reviewedOn": "2026-10-02"
+            },
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/pacific_americas.json",
+                "adjudication": "coverage/linguistic-review/pacific_americas-adjudication.json",
+                "scope": "full",
+                "disposition": "reviewed-flag-retained"
             }
         },
         {
@@ -1040,7 +1301,14 @@
             "script": "Malayalam",
             "writtenForm": "Standard Malayalam",
             "provenance": "subagent-translation",
-            "languageId": "ml"
+            "languageId": "ml",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/asia_europe.json",
+                "adjudication": "coverage/linguistic-review/asia_europe-adjudication.json",
+                "scope": "focused",
+                "disposition": "focused-review-complete"
+            }
         },
         {
             "tag": "mn",
@@ -1048,7 +1316,14 @@
             "script": "Cyrillic",
             "writtenForm": "Standard Mongolian in the Cyrillic script",
             "provenance": "subagent-translation",
-            "languageId": "mn"
+            "languageId": "mn",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/asia_europe.json",
+                "adjudication": "coverage/linguistic-review/asia_europe-adjudication.json",
+                "scope": "focused",
+                "disposition": "focused-review-complete"
+            }
         },
         {
             "tag": "mr",
@@ -1119,6 +1394,13 @@
                 "report": "coverage/research/review-americas-africa.json",
                 "reviewer": "benchmark_vi",
                 "reviewedOn": "2026-10-02"
+            },
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/africa.json",
+                "adjudication": "coverage/linguistic-review/africa-adjudication.json",
+                "scope": "all-63-source-strings",
+                "disposition": "reviewed-flag-retained"
             }
         },
         {
@@ -1174,7 +1456,14 @@
                 "decision": "clear",
                 "report": "translation-usage-review.json"
             },
-            "languageId": "nso"
+            "languageId": "nso",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/africa.json",
+                "adjudication": "coverage/linguistic-review/africa-adjudication.json",
+                "scope": "focused-technical-negation-timeout-recommendation",
+                "disposition": "focused-review-complete"
+            }
         },
         {
             "tag": "ny",
@@ -1189,7 +1478,14 @@
                 "decision": "retain",
                 "report": "translation-usage-review.json"
             },
-            "languageId": "ny"
+            "languageId": "ny",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/africa.json",
+                "adjudication": "coverage/linguistic-review/africa-adjudication.json",
+                "scope": "all-63-source-strings",
+                "disposition": "reviewed-flag-retained"
+            }
         },
         {
             "tag": "om",
@@ -1204,7 +1500,14 @@
                 "decision": "retain",
                 "report": "translation-usage-review.json"
             },
-            "languageId": "om"
+            "languageId": "om",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/africa.json",
+                "adjudication": "coverage/linguistic-review/africa-adjudication.json",
+                "scope": "all-63-source-strings",
+                "disposition": "reviewed-flag-retained"
+            }
         },
         {
             "tag": "or",
@@ -1217,7 +1520,14 @@
                 "decision": "clear",
                 "report": "translation-usage-review.json"
             },
-            "languageId": "or"
+            "languageId": "or",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/asia_europe.json",
+                "adjudication": "coverage/linguistic-review/asia_europe-adjudication.json",
+                "scope": "focused",
+                "disposition": "focused-review-complete"
+            }
         },
         {
             "tag": "pa",
@@ -1242,6 +1552,13 @@
                 "report": "coverage/research/review-americas-africa.json",
                 "reviewer": "benchmark_vi",
                 "reviewedOn": "2026-10-02"
+            },
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/pacific_americas.json",
+                "adjudication": "coverage/linguistic-review/pacific_americas-adjudication.json",
+                "scope": "full",
+                "disposition": "reviewed-flag-retained"
             }
         },
         {
@@ -1281,7 +1598,14 @@
                 "decision": "clear",
                 "report": "translation-usage-review.json"
             },
-            "languageId": "ps"
+            "languageId": "ps",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/asia_europe.json",
+                "adjudication": "coverage/linguistic-review/asia_europe-adjudication.json",
+                "scope": "focused",
+                "disposition": "focused-review-complete"
+            }
         },
         {
             "tag": "pt",
@@ -1304,7 +1628,14 @@
                 "decision": "retain",
                 "report": "translation-usage-review.json"
             },
-            "languageId": "qu"
+            "languageId": "qu",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/pacific_americas.json",
+                "adjudication": "coverage/linguistic-review/pacific_americas-adjudication.json",
+                "scope": "full",
+                "disposition": "reviewed-flag-retained"
+            }
         },
         {
             "tag": "raj",
@@ -1319,7 +1650,14 @@
                 "decision": "retain",
                 "report": "translation-usage-review.json"
             },
-            "languageId": "raj"
+            "languageId": "raj",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/asia_europe.json",
+                "adjudication": "coverage/linguistic-review/asia_europe-adjudication.json",
+                "scope": "full",
+                "disposition": "reviewed-flag-retained"
+            }
         },
         {
             "tag": "rn",
@@ -1334,7 +1672,14 @@
                 "decision": "retain",
                 "report": "translation-usage-review.json"
             },
-            "languageId": "rn"
+            "languageId": "rn",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/africa.json",
+                "adjudication": "coverage/linguistic-review/africa-adjudication.json",
+                "scope": "all-63-source-strings",
+                "disposition": "reviewed-flag-retained"
+            }
         },
         {
             "tag": "ro",
@@ -1380,6 +1725,13 @@
                 "report": "coverage/research/review-asia-pacific.json",
                 "reviewer": "benchmark_es (independent from author benchmark_vi)",
                 "reviewedOn": "2026-10-02"
+            },
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/asia_europe.json",
+                "adjudication": "coverage/linguistic-review/asia_europe-adjudication.json",
+                "scope": "full",
+                "disposition": "reviewed-flag-retained"
             }
         },
         {
@@ -1401,6 +1753,13 @@
                 "report": "coverage/research/review-europe-b.json",
                 "reviewer": "benchmark_vi",
                 "reviewedOn": "2026-10-02"
+            },
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/asia_europe.json",
+                "adjudication": "coverage/linguistic-review/asia_europe-adjudication.json",
+                "scope": "full",
+                "disposition": "reviewed-flag-retained"
             }
         },
         {
@@ -1422,7 +1781,14 @@
             "script": "Sinhala",
             "writtenForm": "Standard Sinhala",
             "provenance": "subagent-translation",
-            "languageId": "si"
+            "languageId": "si",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/asia_europe.json",
+                "adjudication": "coverage/linguistic-review/asia_europe-adjudication.json",
+                "scope": "focused",
+                "disposition": "focused-review-complete"
+            }
         },
         {
             "tag": "sk",
@@ -1464,6 +1830,13 @@
                 "report": "coverage/research/review-asia-pacific.json",
                 "reviewer": "benchmark_es (independent from author benchmark_vi)",
                 "reviewedOn": "2026-10-02"
+            },
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/pacific_americas.json",
+                "adjudication": "coverage/linguistic-review/pacific_americas-adjudication.json",
+                "scope": "full",
+                "disposition": "reviewed-flag-retained"
             }
         },
         {
@@ -1479,7 +1852,14 @@
                 "decision": "retain",
                 "report": "translation-usage-review.json"
             },
-            "languageId": "sn"
+            "languageId": "sn",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/africa.json",
+                "adjudication": "coverage/linguistic-review/africa-adjudication.json",
+                "scope": "all-63-source-strings",
+                "disposition": "reviewed-flag-retained"
+            }
         },
         {
             "tag": "so",
@@ -1542,6 +1922,13 @@
                 "report": "coverage/research/review-americas-africa.json",
                 "reviewer": "benchmark_vi",
                 "reviewedOn": "2026-10-02"
+            },
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/africa.json",
+                "adjudication": "coverage/linguistic-review/africa-adjudication.json",
+                "scope": "all-63-source-strings",
+                "disposition": "reviewed-flag-retained"
             }
         },
         {
@@ -1559,6 +1946,13 @@
                 "report": "coverage/research/review-americas-africa.json",
                 "reviewer": "benchmark_vi",
                 "reviewedOn": "2026-10-02"
+            },
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/africa.json",
+                "adjudication": "coverage/linguistic-review/africa-adjudication.json",
+                "scope": "all-63-source-strings",
+                "disposition": "reviewed-flag-retained"
             }
         },
         {
@@ -1572,7 +1966,14 @@
                 "decision": "clear",
                 "report": "translation-usage-review.json"
             },
-            "languageId": "su"
+            "languageId": "su",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/asia_europe.json",
+                "adjudication": "coverage/linguistic-review/asia_europe-adjudication.json",
+                "scope": "focused",
+                "disposition": "focused-review-complete"
+            }
         },
         {
             "tag": "sv",
@@ -1621,6 +2022,13 @@
                 "report": "coverage/research/review-asia-pacific.json",
                 "reviewer": "benchmark_es (independent from author benchmark_vi)",
                 "reviewedOn": "2026-10-02"
+            },
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/pacific_americas.json",
+                "adjudication": "coverage/linguistic-review/pacific_americas-adjudication.json",
+                "scope": "full",
+                "disposition": "reviewed-flag-retained"
             }
         },
         {
@@ -1634,7 +2042,14 @@
                 "decision": "clear",
                 "report": "translation-usage-review.json"
             },
-            "languageId": "tg"
+            "languageId": "tg",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/asia_europe.json",
+                "adjudication": "coverage/linguistic-review/asia_europe-adjudication.json",
+                "scope": "focused",
+                "disposition": "focused-review-complete"
+            }
         },
         {
             "tag": "th",
@@ -1657,7 +2072,14 @@
                 "decision": "retain",
                 "report": "translation-usage-review.json"
             },
-            "languageId": "ti"
+            "languageId": "ti",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/africa.json",
+                "adjudication": "coverage/linguistic-review/africa-adjudication.json",
+                "scope": "all-63-source-strings",
+                "disposition": "reviewed-flag-retained"
+            }
         },
         {
             "tag": "tk",
@@ -1670,7 +2092,14 @@
                 "decision": "clear",
                 "report": "translation-usage-review.json"
             },
-            "languageId": "tk"
+            "languageId": "tk",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/asia_europe.json",
+                "adjudication": "coverage/linguistic-review/asia_europe-adjudication.json",
+                "scope": "focused",
+                "disposition": "focused-review-complete"
+            }
         },
         {
             "tag": "tl",
@@ -1696,6 +2125,13 @@
                 "report": "coverage/research/review-americas-africa.json",
                 "reviewer": "benchmark_vi",
                 "reviewedOn": "2026-10-02"
+            },
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/africa.json",
+                "adjudication": "coverage/linguistic-review/africa-adjudication.json",
+                "scope": "all-63-source-strings",
+                "disposition": "reviewed-flag-retained"
             }
         },
         {
@@ -1713,6 +2149,13 @@
                 "report": "coverage/research/review-asia-pacific.json",
                 "reviewer": "benchmark_es (independent from author benchmark_vi)",
                 "reviewedOn": "2026-10-02"
+            },
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/pacific_americas.json",
+                "adjudication": "coverage/linguistic-review/pacific_americas-adjudication.json",
+                "scope": "full",
+                "disposition": "reviewed-flag-retained"
             }
         },
         {
@@ -1730,6 +2173,13 @@
                 "report": "coverage/research/review-asia-pacific.json",
                 "reviewer": "benchmark_es (independent from author benchmark_vi)",
                 "reviewedOn": "2026-10-02"
+            },
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/pacific_americas.json",
+                "adjudication": "coverage/linguistic-review/pacific_americas-adjudication.json",
+                "scope": "full",
+                "disposition": "reviewed-flag-retained"
             }
         },
         {
@@ -1755,6 +2205,13 @@
                 "report": "coverage/research/review-americas-africa.json",
                 "reviewer": "benchmark_vi",
                 "reviewedOn": "2026-10-02"
+            },
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/africa.json",
+                "adjudication": "coverage/linguistic-review/africa-adjudication.json",
+                "scope": "all-63-source-strings",
+                "disposition": "reviewed-flag-retained"
             }
         },
         {
@@ -1773,6 +2230,13 @@
                 "report": "coverage/research/review-europe-b.json",
                 "reviewer": "benchmark_vi",
                 "reviewedOn": "2026-10-02"
+            },
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/asia_europe.json",
+                "adjudication": "coverage/linguistic-review/asia_europe-adjudication.json",
+                "scope": "full",
+                "disposition": "reviewed-flag-retained"
             }
         },
         {
@@ -1786,7 +2250,14 @@
                 "decision": "clear",
                 "report": "translation-usage-review.json"
             },
-            "languageId": "ug"
+            "languageId": "ug",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/asia_europe.json",
+                "adjudication": "coverage/linguistic-review/asia_europe-adjudication.json",
+                "scope": "focused",
+                "disposition": "focused-review-complete"
+            }
         },
         {
             "tag": "uk",
@@ -1813,6 +2284,23 @@
             "languageId": "uz"
         },
         {
+            "tag": "uz-cyrl",
+            "name": "Uzbek (Cyrillic)",
+            "script": "Cyrillic",
+            "writtenForm": "Standard Uzbek, Cyrillic script",
+            "languageId": "uz",
+            "reviewNotes": "Same-language rendering of reviewed uz. Context-sensitive Cyrillic е/э and ё/ю/я, plus ў/ғ/ъ, reviewed word by word. Official administrative-script status remains a separate open question.",
+            "unchangedEnglishKeys": [],
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/europe-translations.json",
+            "reviewedOn": "2026-10-02",
+            "linguisticReview": {
+                "report": "coverage/research/review-cyrillic-variants.json",
+                "reviewer": "benchmark_es (independent from Cyrillic-variant author benchmark_de)",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
             "tag": "vi",
             "name": "Vietnamese",
             "script": "Latin",
@@ -1835,6 +2323,13 @@
                 "report": "coverage/research/review-asia-pacific.json",
                 "reviewer": "benchmark_es (independent from author benchmark_vi)",
                 "reviewedOn": "2026-10-02"
+            },
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/pacific_americas.json",
+                "adjudication": "coverage/linguistic-review/pacific_americas-adjudication.json",
+                "scope": "full",
+                "disposition": "reviewed-flag-retained"
             }
         },
         {
@@ -1850,7 +2345,14 @@
                 "decision": "retain",
                 "report": "translation-usage-review.json"
             },
-            "languageId": "wo"
+            "languageId": "wo",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/africa.json",
+                "adjudication": "coverage/linguistic-review/africa-adjudication.json",
+                "scope": "all-63-source-strings",
+                "disposition": "reviewed-flag-retained"
+            }
         },
         {
             "tag": "xh",
@@ -1863,7 +2365,14 @@
                 "decision": "clear",
                 "report": "translation-usage-review.json"
             },
-            "languageId": "xh"
+            "languageId": "xh",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/africa.json",
+                "adjudication": "coverage/linguistic-review/africa-adjudication.json",
+                "scope": "focused-technical-negation-timeout-recommendation",
+                "disposition": "focused-review-complete"
+            }
         },
         {
             "tag": "yo",
@@ -1878,7 +2387,31 @@
                 "decision": "retain",
                 "report": "translation-usage-review.json"
             },
-            "languageId": "yo"
+            "languageId": "yo",
+            "followupLinguisticReview": {
+                "reviewedOn": "2026-10-02",
+                "report": "coverage/linguistic-review/africa.json",
+                "adjudication": "coverage/linguistic-review/africa-adjudication.json",
+                "scope": "all-63-source-strings",
+                "disposition": "reviewed-flag-retained"
+            }
+        },
+        {
+            "tag": "yue",
+            "name": "Cantonese",
+            "languageId": "yue",
+            "writtenForm": "Written Cantonese in Traditional characters, with Hong Kong-style technical vocabulary",
+            "script": "Han",
+            "scriptCode": "Hant",
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/yue-translation.json",
+            "reviewedOn": "2026-10-02",
+            "reviewNotes": "Distinct written Cantonese in Traditional characters; serves explicit Cantonese preferences. Regional orthographic and technical-register choices remain reviewable. The legal label Chinese does not require this separate written form.",
+            "linguisticReview": {
+                "report": "coverage/research/review-yue.json",
+                "reviewer": "benchmark_es (independent from author benchmark_vi)",
+                "reviewedOn": "2026-10-02"
+            }
         },
         {
             "tag": "zh",

@@ -42,7 +42,7 @@
         },
         "clienttimeout": {
             "title": "İstek Zaman Aşımına Uğradı",
-            "description": "Bu web sayfası yüklenirken zaman aşımı oluştu. Bunun neden olduğu aksaklıktan dolayı özür dileriz.",
+            "description": "Bu web sayfası yüklenirken zaman aşımı oluştu. Bunun neden olmuş olabileceği aksaklıktan dolayı özür dileriz.",
             "refresh_enable": true
         },
         "forbidden": {

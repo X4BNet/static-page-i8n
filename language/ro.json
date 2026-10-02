@@ -42,7 +42,7 @@
         },
         "clienttimeout": {
             "title": "Timpul de așteptare al cererii a expirat",
-            "description": "Din păcate, timpul de așteptare a expirat în timpul încărcării acestei pagini web. Ne cerem scuze pentru orice inconvenient cauzat.",
+            "description": "Din păcate, timpul de așteptare a expirat în timpul încărcării acestei pagini web. Ne cerem scuze pentru eventualele inconveniente cauzate.",
             "refresh_enable": true
         },
         "forbidden": {

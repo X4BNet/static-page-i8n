@@ -42,7 +42,7 @@
         },
         "clienttimeout": {
             "title": "Eskaeraren denbora-muga gainditu da",
-            "description": "Barkatu, baina denbora-muga gainditu da web-orri hau kargatzean. Barkatu horrek eragin dituen eragozpenak.",
+            "description": "Barkatu, baina denbora-muga gainditu da web-orri hau kargatzean. Barkatu horrek eragozpenik eragin badu.",
             "refresh_enable": true
         },
         "forbidden": {

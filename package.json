@@ -7,7 +7,12 @@
         "update:languages": "node scripts/update-language-artifacts.js",
         "build:nginx": "node scripts/build-test-nginx.js",
         "test:nginx": "node scripts/test-nginx.js",
-        "audit:coverage": "node scripts/audit-coverage.js"
+        "audit:coverage": "node scripts/audit-coverage.js",
+        "render:languages": "node scripts/render-language-pages.js",
+        "review:sheets": "node scripts/build-visual-contact-sheets.js",
+        "review:verify": "node scripts/verify-visual-review.js",
+        "review:verify-generator-fixes": "node scripts/verify-generator-fix-review.js",
+        "review:verify-linguistic": "node scripts/verify-linguistic-review.js"
     },
     "engines": {
         "node": ">=18"

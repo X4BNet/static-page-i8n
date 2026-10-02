@@ -42,7 +42,7 @@
         },
         "clienttimeout": {
             "title": "Milapas sa Takdang Oras ang Hangyo",
-            "description": "Pasayloa kami, milapas sa takdang oras ang pagkarga niini nga web page. Nangayo kami og pasaylo sa bisan unsang kahasol nga nahimo niini.",
+            "description": "Pasayloa kami, milapas sa takdang oras ang pagkarga niini nga web page. Nangayo kami og pasaylo sa bisan unsang kahasol nga posibleng nahimo niini.",
             "refresh_enable": true
         },
         "forbidden": {

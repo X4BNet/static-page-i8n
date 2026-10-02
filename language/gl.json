@@ -9,7 +9,7 @@
         "submit": "enviar",
         "try_again_later": "Este sitio web está a tardar máis do habitual en cargar. Podes <a href=\"\">tentalo de novo</a> máis tarde",
         "unexpected_error": "Parece que se produciu un erro inesperado. <a href=\"\">Téntao de novo</a> máis tarde",
-        "validation_complete": "<strong>Validación completada</strong> Agora estás a ser redirixido ao teu destino. Preme <a href=\"\">aquí</a> se a páxina non se recarga.",
+        "validation_complete": "<strong>Validación completada.</strong> Agora estás a ser redirixido ao teu destino. Preme <a href=\"\">aquí</a> se a páxina non se recarga.",
         "enable_javascript": "A validación do navegador funciona mellor con JavaScript activado.",
         "abnormal_activity": "Debido a unha actividade anómala, precisamos que completes a tarefa de abaixo para continuar",
         "sorry_inconvenience": "Pedimos desculpas polas molestias",

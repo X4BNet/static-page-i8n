@@ -42,7 +42,7 @@
         },
         "clienttimeout": {
             "title": "Versoek het uitgetel",
-            "description": "Ongelukkig is die tydsbeperking oorskry terwyl hierdie webblad gelaai is. Ons vra om verskoning vir enige ongerief wat dit veroorsaak het.",
+            "description": "Ongelukkig is die tydsbeperking oorskry terwyl hierdie webblad gelaai is. Ons vra om verskoning vir enige ongerief wat dit moontlik veroorsaak het.",
             "refresh_enable": true
         },
         "forbidden": {

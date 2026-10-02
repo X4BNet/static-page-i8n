@@ -1,0 +1,123 @@
+{
+    "fontClass": "l",
+    "challenge": {
+        "redirect_shortly": "呢個程序會自動進行。好快就會將你轉去你原本想去嘅頁面。",
+        "validate_browser": "開啟 {http_host} 前，驗證緊你嘅瀏覽器",
+        "are_you_human_host": "你係真人嗎？開啟 {http_host} 前需要完成驗證",
+        "are_you_human": "你係真人嗎？需要完成驗證先可以繼續",
+        "enter_captcha_host": "請輸入下面嘅 CAPTCHA，繼續前往 {http_host}：",
+        "enter_captcha": "請輸入下面嘅 CAPTCHA 先可以繼續：",
+        "submit": "提交",
+        "try_again_later": "呢個網站載入嘅時間比平時長，你可以遲啲<a href=\"\">再試</a>",
+        "unexpected_error": "似乎出現咗意料之外嘅錯誤，請遲啲<a href=\"\">再試</a>",
+        "validation_complete": "<strong>驗證完成</strong>，而家正將你轉去你原本想去嘅頁面。如果頁面冇重新載入，請撳<a href=\"\">呢度</a>。",
+        "enable_javascript": "開咗 JavaScript，瀏覽器驗證嘅效果最好。",
+        "abnormal_activity": "由於偵測到異常活動，你需要完成下面嘅步驟先可以繼續",
+        "sorry_inconvenience": "為你帶嚟不便，我哋深感抱歉",
+        "verifying": "驗證緊"
+    },
+    "error": {
+        "default": {
+            "error_loading": "載入 {host} 時出錯",
+            "refresh_text": "請遲啲再試開啟網站，或者撳<a href=\"\">呢度</a>重新載入頁面。",
+            "unexpected_error": "載入呢個頁面嗰陣出現咗意料之外嘅錯誤",
+            "possible_causes": "可能原因包括： ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "網站無法使用",
+            "description": "唔好意思，載入呢個頁面嗰陣出現咗意料之外嘅錯誤。為你帶嚟不便，我哋深感抱歉。請遲啲再試開啟網站，或者撳<a href=\"\">呢度</a>重新載入頁面。"
+        },
+        "suspended": {
+            "title": "網站已暫停服務",
+            "description": "唔好意思，你想瀏覽嘅網站而家用唔到。為你帶嚟不便，我哋深感抱歉。如果你係呢個網站嘅<strong>擁有人</strong>，請<a href=\"https://www.x4b.net/support\">聯絡支援團隊</a>。"
+        },
+        "over_bandwidth": {
+            "title": "網站已暫停服務",
+            "description": "唔好意思，你想瀏覽嘅網站而家用唔到。為你帶嚟不便，我哋深感抱歉。如果你係呢個網站嘅<strong>擁有人</strong>，請<a href=\"https://www.x4b.net/\">聯絡支援團隊</a>。"
+        },
+        "backend": {
+            "title": "伺服器無法使用",
+            "description": "來源伺服器暫時用唔到，所以處理唔到呢個請求。為你帶嚟不便，我哋深感抱歉。",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "請求逾時",
+            "description": "唔好意思，載入呢個網頁嘅等候時間已經超過限制。為可能造成嘅不便，我哋深感抱歉。",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "存取被拒",
+            "description": "你冇權限開啟呢個頁面。如果你認為呢個情況係出錯，請聯絡網站管理員。"
+        },
+        "upstream": {
+            "title": "伺服器無法使用",
+            "description": "而家冇在線上、可以處理呢個請求嘅伺服器。為你帶嚟不便，我哋深感抱歉。"
+        },
+        "invalid_configuration": {
+            "title": "設定無效",
+            "description": "由於設定出錯，我哋處理唔到呢個請求。為你帶嚟不便，我哋深感抱歉。"
+        },
+        "resource": {
+            "title": "存取錯誤",
+            "description_start": "唔好意思，載入呢個頁面嗰陣出錯。",
+            "cause_list": [
+                "來源伺服器嘅負載出乎預期，暫時處理唔到請求",
+                "來源伺服器或者資料傳送過程中出現咗意料之外嘅錯誤"
+            ],
+            "description_end": "為你帶嚟不便，我哋深感抱歉。",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "存取錯誤",
+            "description_start": "唔好意思，載入呢個頁面嗰陣出錯。",
+            "cause_list": [
+                "偵測到你嘅 IP 位址向伺服器發送過量請求",
+                "來源伺服器嘅負載出乎預期，暫時處理唔到請求",
+                "來源伺服器或者資料傳送過程中出現咗意料之外嘅錯誤"
+            ],
+            "description_end": "為你帶嚟不便，我哋深感抱歉。",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "存取錯誤",
+            "description_start": "唔好意思，載入呢個頁面嗰陣出錯。",
+            "cause_list": [
+                "你嘅 IP 位址連去伺服器嘅連線數目異常",
+                "來源伺服器嘅負載出乎預期，暫時處理唔到請求",
+                "來源伺服器或者資料傳送過程中出現咗意料之外嘅錯誤"
+            ],
+            "description_end": "為你帶嚟不便，我哋深感抱歉。",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "請求錯誤",
+            "description": "呢個網站可以用 HTTPS 開啟。你啱啱嘗試用 HTTP 連線，我哋而家會嘗試將你轉過去。如果冇自動跳轉，請喺 URL 開頭加上 https:// 再試。"
+        },
+        "timeout": {
+            "title": "伺服器無法使用",
+            "description": "唔好意思，載入呢個頁面嘅等候時間已經超過限制。伺服器可能正忙，暫時處理唔到你嘅請求。",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "未知網域",
+            "description": "呢個網域未有登記喺呢個 IP 位址。",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "不支援嘅方法",
+            "description": "呢個網站冇啟用你請求嘅 HTTP 方法。",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "不安全嘅請求",
+            "description": "呢個網站冇啟用你請求嘅 HTTPS 協定。請更新你嘅瀏覽器。",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "維護中，暫時離線",
+            "description": "呢個網站而家用唔到，預計好快就會恢復服務。",
+            "refresh_enable": true
+        }
+    }
+}
