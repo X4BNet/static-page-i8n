@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Prosés ieu lumangsung sacara otomatis. Anjeun bakal geura dialihkeun ka tujuan anu dipikahoyong.",
+        "validate_browser": "Mariksa pangotektak anjeun saméméh ngaksés {http_host}",
+        "are_you_human_host": "Naha anjeun manusa? Pamariksaan diperlukeun pikeun ngaksés {http_host}",
+        "are_you_human": "Naha anjeun manusa? Pamariksaan diperlukeun pikeun neruskeun",
+        "enter_captcha_host": "Mangga eusian CAPTCHA di handap pikeun neruskeun ka {http_host}:",
+        "enter_captcha": "Mangga eusian CAPTCHA di handap pikeun neruskeun:",
+        "submit": "Kirim",
+        "try_again_later": "Ngamuat situs wéb ieu leuwih lila ti biasana. Anjeun tiasa <a href=\"\">nyobian deui</a> engké",
+        "unexpected_error": "Sigana aya kasalahan anu teu disangka-sangka. Mangga <a href=\"\">cobian deui</a> engké",
+        "validation_complete": "<strong>Pamariksaan réngsé</strong>. Ayeuna anjeun nuju dialihkeun ka tujuan anu dipikahoyong. Klik <a href=\"\">di dieu</a> upami kaca henteu dimuat deui.",
+        "enable_javascript": "Pamariksaan pangotektak méré hasil anu panghadéna upami JavaScript diaktipkeun.",
+        "abnormal_activity": "Kusabab aya kagiatan anu teu biasa, anjeun kedah ngaréngsékeun pancén di handap pikeun neruskeun",
+        "sorry_inconvenience": "Hapunten kana sagala kasulitan",
+        "verifying": "Nuju mariksa"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Kasalahan nalika ngamuat {host}",
+            "refresh_text": "Mangga cobian ngaksés situs engké atanapi klik <a href=\"\">di dieu</a> pikeun ngamuat deui kaca.",
+            "unexpected_error": "Aya kasalahan anu teu disangka-sangka nalika ngamuat kaca ieu",
+            "possible_causes": "Anu tiasa jadi sababna nyaéta: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Situs wéb teu sayaga",
+            "description": "Hanjakal, aya kasalahan anu teu disangka-sangka nalika ngamuat kaca ieu. Hapunten kana sagala kasulitan. Mangga cobian ngaksés situs engké atanapi klik <a href=\"\">di dieu</a> pikeun ngamuat deui kaca."
+        },
+        "suspended": {
+            "title": "Situs wéb ditunda",
+            "description": "Hanjakal, situs wéb anu badé didatangan ku anjeun teu sayaga. Hapunten kana sagala kasulitan. Upami anjeun <strong>nu gaduh</strong> situs wéb ieu, mangga <a href=\"https://www.x4b.net/support\">taros ka tim pangrojong</a>."
+        },
+        "over_bandwidth": {
+            "title": "Situs wéb ditunda",
+            "description": "Hanjakal, situs wéb anu badé didatangan ku anjeun teu sayaga. Hapunten kana sagala kasulitan. Upami anjeun <strong>nu gaduh</strong> situs wéb ieu, mangga <a href=\"https://www.x4b.net/\">taros ka tim pangrojong</a>."
+        },
+        "backend": {
+            "title": "Pangladén teu sayaga",
+            "description": "Pangladén asal samentawis teu sayaga, janten teu tiasa ngalayanan pamundut ieu. Hapunten kana sagala kasulitan.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Wates waktos pamundut béak",
+            "description": "Hanjakal, wates waktos béak nalika ngamuat kaca wéb ieu. Hapunten kana kasulitan anu tiasa disababkeun ku ieu hal.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Aksés ditolak",
+            "description": "Anjeun teu gaduh idin pikeun ngaksés kaca ieu. Upami ieu téh kasalahan, mangga taros ka pangurus situs wéb."
+        },
+        "upstream": {
+            "title": "Pangladén teu sayaga",
+            "description": "Ayeuna teu aya pangladén anu nyambung ka internét tur sayaga pikeun ngolah pamundut ieu. Hapunten kana sagala kasulitan."
+        },
+        "invalid_configuration": {
+            "title": "Konfigurasi teu sah",
+            "description": "Urang teu tiasa ngalayanan pamundut ieu kusabab aya kasalahan konfigurasi. Hapunten kana sagala kasulitan."
+        },
+        "resource": {
+            "title": "Kasalahan aksés",
+            "description_start": "Hanjakal, aya kasalahan nalika ngamuat kaca ieu.",
+            "cause_list": [
+                "Pangladén asal ngalaman beban anu teu disangka-sangka sarta ayeuna teu tiasa ngolah pamundut",
+                "Aya kasalahan anu teu disangka-sangka dina pangladén asal atanapi nalika ngirimkeun data"
+            ],
+            "description_end": "Hapunten kana sagala kasulitan.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Kasalahan aksés",
+            "description_start": "Hanjakal, aya kasalahan nalika ngamuat kaca ieu.",
+            "cause_list": [
+                "Kapanggih yén alamat IP anjeun ngirimkeun pamundut kaleuleuwihi ka pangladén",
+                "Pangladén asal ngalaman beban anu teu disangka-sangka sarta ayeuna teu tiasa ngolah pamundut",
+                "Aya kasalahan anu teu disangka-sangka dina pangladén asal atanapi nalika ngirimkeun data"
+            ],
+            "description_end": "Hapunten kana sagala kasulitan.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Kasalahan aksés",
+            "description_start": "Hanjakal, aya kasalahan nalika ngamuat kaca ieu.",
+            "cause_list": [
+                "Aya jumlah sambungan anu teu biasa ti alamat IP anjeun ka pangladén",
+                "Pangladén asal ngalaman beban anu teu disangka-sangka sarta ayeuna teu tiasa ngolah pamundut",
+                "Aya kasalahan anu teu disangka-sangka dina pangladén asal atanapi nalika ngirimkeun data"
+            ],
+            "description_end": "Hapunten kana sagala kasulitan.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Pamundut teu sah",
+            "description": "Situs wéb ieu tiasa diaksés ngalangkungan HTTPS. Anjeun parantos nyobian nyambung ngalangkungan HTTP. Ayeuna urang badé nyobian ngalihkeun anjeun. Upami anjeun henteu dialihkeun, mangga tambahkeun https:// di awal URL anjeun teras cobian deui."
+        },
+        "timeout": {
+            "title": "Pangladén teu sayaga",
+            "description": "Hanjakal, wates waktos béak nalika ngamuat kaca ieu. Pangladén tiasa waé nuju sibuk sarta ayeuna teu tiasa ngolah pamundut anjeun.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Domain teu dipikawanoh",
+            "description": "Domain ieu henteu kadaptar pikeun alamat IP ieu.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Métode teu dirojong",
+            "description": "Métode HTTP anu dipénta henteu diaktipkeun pikeun situs wéb ieu.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Pamundut teu aman",
+            "description": "Protokol HTTPS anu dipénta henteu diaktipkeun pikeun situs wéb ieu. Mangga apdet pangotektak anjeun.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Luring pikeun pangropéa",
+            "description": "Situs wéb ieu ayeuna teu sayaga. Dipiharep situs tiasa sayaga deui dina waktos anu caket.",
+            "refresh_enable": true
+        }
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Denne prosessen skjer automatisk. Du blir snart omdirigert til siden du ville besøke.",
+        "validate_browser": "Kontrollerer nettleseren din før du får tilgang til {http_host}",
+        "are_you_human_host": "Er du et menneske? Bekreftelse kreves for å få tilgang til {http_host}",
+        "are_you_human": "Er du et menneske? Bekreftelse kreves for å fortsette",
+        "enter_captcha_host": "Skriv inn CAPTCHA-koden nedenfor for å fortsette til {http_host}:",
+        "enter_captcha": "Skriv inn CAPTCHA-koden nedenfor for å fortsette:",
+        "submit": "send inn",
+        "try_again_later": "Dette nettstedet tar lengre tid enn vanlig å laste inn. Du kan <a href=\"\">prøve igjen</a> senere",
+        "unexpected_error": "Det ser ut til at en uventet feil har oppstått. <a href=\"\">Prøv igjen</a> senere",
+        "validation_complete": "<strong>Kontrollen er fullført</strong>. Du blir nå omdirigert til siden du ville besøke. Klikk <a href=\"\">her</a> hvis siden ikke lastes inn på nytt.",
+        "enable_javascript": "Nettleserkontrollen fungerer best når JavaScript er aktivert.",
+        "abnormal_activity": "På grunn av unormal aktivitet må du fullføre oppgaven nedenfor for å fortsette",
+        "sorry_inconvenience": "Vi beklager eventuelle ulemper",
+        "verifying": "Kontrollerer"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Feil ved innlasting av {host}",
+            "refresh_text": "Prøv å besøke nettstedet senere, eller klikk <a href=\"\">her</a> for å laste siden inn på nytt.",
+            "unexpected_error": "En uventet feil oppstod under innlasting av denne siden",
+            "possible_causes": "Mulige årsaker er:",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Nettstedet er utilgjengelig",
+            "description": "Dessverre oppstod det en uventet feil under innlasting av denne siden. Vi beklager eventuelle ulemper. Prøv å besøke nettstedet senere, eller klikk <a href=\"\">her</a> for å laste siden inn på nytt."
+        },
+        "suspended": {
+            "title": "Nettstedet er suspendert",
+            "description": "Dessverre er nettstedet du prøver å besøke, utilgjengelig. Vi beklager eventuelle ulemper. Hvis du er <strong>eieren</strong> av dette nettstedet, må du <a href=\"https://www.x4b.net/support\">kontakte kundestøtte</a>."
+        },
+        "over_bandwidth": {
+            "title": "Nettstedet er suspendert",
+            "description": "Dessverre er nettstedet du prøver å besøke, utilgjengelig. Vi beklager eventuelle ulemper. Hvis du er <strong>eieren</strong> av dette nettstedet, må du <a href=\"https://www.x4b.net/\">kontakte kundestøtte</a>."
+        },
+        "backend": {
+            "title": "Serveren er utilgjengelig",
+            "description": "Opprinnelsesserveren er midlertidig utilgjengelig og kan derfor ikke behandle denne forespørselen. Vi beklager eventuelle ulemper.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Tidsavbrudd for forespørselen",
+            "description": "Dessverre ble tidsgrensen overskredet under innlasting av denne nettsiden. Vi beklager eventuelle ulemper dette har medført.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Tilgang nektet",
+            "description": "Du har ikke tillatelse til å åpne denne siden. Hvis dette er feil, kontakter du nettstedets administrator."
+        },
+        "upstream": {
+            "title": "Serveren er utilgjengelig",
+            "description": "Ingen server er for øyeblikket tilkoblet og tilgjengelig for å behandle denne forespørselen. Vi beklager eventuelle ulemper."
+        },
+        "invalid_configuration": {
+            "title": "Ugyldig konfigurasjon",
+            "description": "Vi kan ikke behandle denne forespørselen på grunn av en konfigurasjonsfeil. Vi beklager eventuelle ulemper."
+        },
+        "resource": {
+            "title": "Tilgangsfeil",
+            "description_start": "Dessverre oppstod det en feil under innlasting av denne siden.",
+            "cause_list": [
+                "Opprinnelsesserveren har uventet stor belastning og kan for øyeblikket ikke behandle forespørsler",
+                "En uventet feil oppstod på opprinnelsesserveren eller under dataoverføringen"
+            ],
+            "description_end": "Vi beklager eventuelle ulemper.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Tilgangsfeil",
+            "description_start": "Dessverre oppstod det en feil under innlasting av denne siden.",
+            "cause_list": [
+                "Det er oppdaget at IP-adressen din sender for mange forespørsler til serveren",
+                "Opprinnelsesserveren har uventet stor belastning og kan for øyeblikket ikke behandle forespørsler",
+                "En uventet feil oppstod på opprinnelsesserveren eller under dataoverføringen"
+            ],
+            "description_end": "Vi beklager eventuelle ulemper.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Tilgangsfeil",
+            "description_start": "Dessverre oppstod det en feil under innlasting av denne siden.",
+            "cause_list": [
+                "IP-adressen din har et unormalt antall tilkoblinger til serveren",
+                "Opprinnelsesserveren har uventet stor belastning og kan for øyeblikket ikke behandle forespørsler",
+                "En uventet feil oppstod på opprinnelsesserveren eller under dataoverføringen"
+            ],
+            "description_end": "Vi beklager eventuelle ulemper.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Ugyldig forespørsel",
+            "description": "Dette nettstedet er tilgjengelig via HTTPS. Du har forsøkt å koble til via HTTP, og vi vil nå forsøke å omdirigere deg. Hvis du ikke blir omdirigert, legger du til https:// i begynnelsen av din URL og prøver igjen."
+        },
+        "timeout": {
+            "title": "Serveren er utilgjengelig",
+            "description": "Dessverre ble tidsgrensen overskredet under innlasting av denne siden. Serveren kan være opptatt og ute av stand til å behandle forespørselen din akkurat nå.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Ukjent domene",
+            "description": "Dette domenet er ikke registrert for denne IP-adressen.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Metoden støttes ikke",
+            "description": "Den forespurte HTTP-metoden er ikke aktivert for dette nettstedet.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Usikker forespørsel",
+            "description": "Den forespurte HTTPS-protokollen er ikke aktivert for dette nettstedet. Oppdater nettleseren din.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Frakoblet for vedlikehold",
+            "description": "Dette nettstedet er ikke tilgjengelig for øyeblikket. Det forventes å være tilgjengelig igjen snart.",
+            "refresh_enable": true
+        }
+    }
+}

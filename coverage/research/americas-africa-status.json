@@ -1,0 +1,1547 @@
+{
+    "schemaVersion": 1,
+    "asOf": "2026-10-02",
+    "scope": "Bounded primary-source audit of Africa and the Americas; not a claim of a completed worldwide legal census. Covers existing catalog languages as well as gaps. Lowercase language tags use the repository IANA registry.",
+    "interpretation": "National/protected status alone is not treated as statutory official status. Working-language provisions are retained as de_facto_official with an explicit scope note, not silently equated with national constitutional official status. Language recognition does not demonstrate translation quality or regional variety coverage.",
+    "updates": [
+        {
+            "country": "SN",
+            "language": "bjt",
+            "action": "remove",
+            "reason": "Article 1 distinguishes French official status from national languages; no regional official grant established.",
+            "sources": [
+                "https://conseilconstitutionnel.sn/la-constitution/"
+            ]
+        },
+        {
+            "country": "SN",
+            "language": "bsc",
+            "action": "remove",
+            "reason": "Article 1 distinguishes French official status from national languages; no regional official grant established.",
+            "sources": [
+                "https://conseilconstitutionnel.sn/la-constitution/"
+            ]
+        },
+        {
+            "country": "SN",
+            "language": "dyo",
+            "action": "remove",
+            "reason": "Article 1 distinguishes French official status from national languages; no regional official grant established.",
+            "sources": [
+                "https://conseilconstitutionnel.sn/la-constitution/"
+            ]
+        },
+        {
+            "country": "SN",
+            "language": "ff",
+            "action": "remove",
+            "reason": "Article 1 distinguishes French official status from national languages; no regional official grant established.",
+            "sources": [
+                "https://conseilconstitutionnel.sn/la-constitution/"
+            ]
+        },
+        {
+            "country": "SN",
+            "language": "knf",
+            "action": "remove",
+            "reason": "Article 1 distinguishes French official status from national languages; no regional official grant established.",
+            "sources": [
+                "https://conseilconstitutionnel.sn/la-constitution/"
+            ]
+        },
+        {
+            "country": "SN",
+            "language": "mey-latn",
+            "action": "remove",
+            "reason": "Article 1 distinguishes French official status from national languages; no regional official grant established.",
+            "sources": [
+                "https://conseilconstitutionnel.sn/la-constitution/"
+            ]
+        },
+        {
+            "country": "SN",
+            "language": "mfv",
+            "action": "remove",
+            "reason": "Article 1 distinguishes French official status from national languages; no regional official grant established.",
+            "sources": [
+                "https://conseilconstitutionnel.sn/la-constitution/"
+            ]
+        },
+        {
+            "country": "SN",
+            "language": "sav",
+            "action": "remove",
+            "reason": "Article 1 distinguishes French official status from national languages; no regional official grant established.",
+            "sources": [
+                "https://conseilconstitutionnel.sn/la-constitution/"
+            ]
+        },
+        {
+            "country": "SN",
+            "language": "snf",
+            "action": "remove",
+            "reason": "Article 1 distinguishes French official status from national languages; no regional official grant established.",
+            "sources": [
+                "https://conseilconstitutionnel.sn/la-constitution/"
+            ]
+        },
+        {
+            "country": "SN",
+            "language": "srr",
+            "action": "remove",
+            "reason": "Article 1 distinguishes French official status from national languages; no regional official grant established.",
+            "sources": [
+                "https://conseilconstitutionnel.sn/la-constitution/"
+            ]
+        },
+        {
+            "country": "SN",
+            "language": "tnr",
+            "action": "remove",
+            "reason": "Article 1 distinguishes French official status from national languages; no regional official grant established.",
+            "sources": [
+                "https://conseilconstitutionnel.sn/la-constitution/"
+            ]
+        },
+        {
+            "country": "GH",
+            "language": "ak",
+            "action": "remove",
+            "reason": "Government identifies English as official and distinguishes national/spoken languages; regional official grant not established.",
+            "sources": [
+                "https://www.motcca.gov.gh/culture/",
+                "https://abidjan.mfa.gov.gh/ghana-at-a-glance.aspx"
+            ]
+        },
+        {
+            "country": "GH",
+            "language": "ee",
+            "action": "remove",
+            "reason": "Government identifies English as official and distinguishes national/spoken languages; regional official grant not established.",
+            "sources": [
+                "https://www.motcca.gov.gh/culture/",
+                "https://abidjan.mfa.gov.gh/ghana-at-a-glance.aspx"
+            ]
+        },
+        {
+            "country": "GH",
+            "language": "gaa",
+            "action": "remove",
+            "reason": "Government identifies English as official and distinguishes national/spoken languages; regional official grant not established.",
+            "sources": [
+                "https://www.motcca.gov.gh/culture/",
+                "https://abidjan.mfa.gov.gh/ghana-at-a-glance.aspx"
+            ]
+        },
+        {
+            "country": "GT",
+            "language": "caa",
+            "action": "remove",
+            "reason": "Constitution article 143 makes Spanish official; national-language recognition and service rights are not a regional official designation.",
+            "sources": [
+                "https://www.congreso.gob.gt/noticias_congreso/15836/2026/4"
+            ]
+        },
+        {
+            "country": "GT",
+            "language": "cak",
+            "action": "remove",
+            "reason": "Constitution article 143 makes Spanish official; national-language recognition and service rights are not a regional official designation.",
+            "sources": [
+                "https://www.congreso.gob.gt/noticias_congreso/15836/2026/4"
+            ]
+        },
+        {
+            "country": "GT",
+            "language": "ixl",
+            "action": "remove",
+            "reason": "Constitution article 143 makes Spanish official; national-language recognition and service rights are not a regional official designation.",
+            "sources": [
+                "https://www.congreso.gob.gt/noticias_congreso/15836/2026/4"
+            ]
+        },
+        {
+            "country": "GT",
+            "language": "quc",
+            "action": "remove",
+            "reason": "Constitution article 143 makes Spanish official; national-language recognition and service rights are not a regional official designation.",
+            "sources": [
+                "https://www.congreso.gob.gt/noticias_congreso/15836/2026/4"
+            ]
+        },
+        {
+            "country": "GT",
+            "language": "quv",
+            "action": "remove",
+            "reason": "Constitution article 143 makes Spanish official; national-language recognition and service rights are not a regional official designation.",
+            "sources": [
+                "https://www.congreso.gob.gt/noticias_congreso/15836/2026/4"
+            ]
+        },
+        {
+            "country": "GT",
+            "language": "usp",
+            "action": "remove",
+            "reason": "Constitution article 143 makes Spanish official; national-language recognition and service rights are not a regional official designation.",
+            "sources": [
+                "https://www.congreso.gob.gt/noticias_congreso/15836/2026/4"
+            ]
+        },
+        {
+            "country": "GT",
+            "language": "xin",
+            "action": "remove",
+            "reason": "Constitution article 143 makes Spanish official; national-language recognition and service rights are not a regional official designation.",
+            "sources": [
+                "https://www.congreso.gob.gt/noticias_congreso/15836/2026/4"
+            ]
+        },
+        {
+            "country": "CD",
+            "language": "kg",
+            "action": "remove",
+            "reason": "Article 1 distinguishes French official status from four national languages.",
+            "sources": [
+                "https://www.dgrad.gouv.cd/wp-content/uploads/2022/01/Constitution-de-la-RDC.pdf"
+            ]
+        },
+        {
+            "country": "CD",
+            "language": "ln",
+            "action": "remove",
+            "reason": "Article 1 distinguishes French official status from four national languages.",
+            "sources": [
+                "https://www.dgrad.gouv.cd/wp-content/uploads/2022/01/Constitution-de-la-RDC.pdf"
+            ]
+        },
+        {
+            "country": "CD",
+            "language": "lua",
+            "action": "remove",
+            "reason": "Article 1 distinguishes French official status from four national languages.",
+            "sources": [
+                "https://www.dgrad.gouv.cd/wp-content/uploads/2022/01/Constitution-de-la-RDC.pdf"
+            ]
+        },
+        {
+            "country": "CD",
+            "language": "sw",
+            "action": "remove",
+            "reason": "Article 1 distinguishes French official status from four national languages.",
+            "sources": [
+                "https://www.dgrad.gouv.cd/wp-content/uploads/2022/01/Constitution-de-la-RDC.pdf"
+            ]
+        },
+        {
+            "country": "ZA",
+            "language": "af",
+            "action": "add",
+            "status": "official",
+            "reason": "Constitution section 6: national official language, not merely regional.",
+            "sources": [
+                "https://www.gov.za/sites/default/files/gcis_document/202307/49041-27-7-consteighteenthamendac32023.pdf",
+                "https://www.gov.za/news/media-statements/minister-zizi-kodwa-south-african-sign-language-being-recognised-official"
+            ]
+        },
+        {
+            "country": "ZA",
+            "language": "nr",
+            "action": "add",
+            "status": "official",
+            "reason": "Constitution section 6: national official language, not merely regional.",
+            "sources": [
+                "https://www.gov.za/sites/default/files/gcis_document/202307/49041-27-7-consteighteenthamendac32023.pdf",
+                "https://www.gov.za/news/media-statements/minister-zizi-kodwa-south-african-sign-language-being-recognised-official"
+            ]
+        },
+        {
+            "country": "ZA",
+            "language": "nso",
+            "action": "add",
+            "status": "official",
+            "reason": "Constitution section 6: national official language, not merely regional.",
+            "sources": [
+                "https://www.gov.za/sites/default/files/gcis_document/202307/49041-27-7-consteighteenthamendac32023.pdf",
+                "https://www.gov.za/news/media-statements/minister-zizi-kodwa-south-african-sign-language-being-recognised-official"
+            ]
+        },
+        {
+            "country": "ZA",
+            "language": "ss",
+            "action": "add",
+            "status": "official",
+            "reason": "Constitution section 6: national official language, not merely regional.",
+            "sources": [
+                "https://www.gov.za/sites/default/files/gcis_document/202307/49041-27-7-consteighteenthamendac32023.pdf",
+                "https://www.gov.za/news/media-statements/minister-zizi-kodwa-south-african-sign-language-being-recognised-official"
+            ]
+        },
+        {
+            "country": "ZA",
+            "language": "st",
+            "action": "add",
+            "status": "official",
+            "reason": "Constitution section 6: national official language, not merely regional.",
+            "sources": [
+                "https://www.gov.za/sites/default/files/gcis_document/202307/49041-27-7-consteighteenthamendac32023.pdf",
+                "https://www.gov.za/news/media-statements/minister-zizi-kodwa-south-african-sign-language-being-recognised-official"
+            ]
+        },
+        {
+            "country": "ZA",
+            "language": "tn",
+            "action": "add",
+            "status": "official",
+            "reason": "Constitution section 6: national official language, not merely regional.",
+            "sources": [
+                "https://www.gov.za/sites/default/files/gcis_document/202307/49041-27-7-consteighteenthamendac32023.pdf",
+                "https://www.gov.za/news/media-statements/minister-zizi-kodwa-south-african-sign-language-being-recognised-official"
+            ]
+        },
+        {
+            "country": "ZA",
+            "language": "ts",
+            "action": "add",
+            "status": "official",
+            "reason": "Constitution section 6: national official language, not merely regional.",
+            "sources": [
+                "https://www.gov.za/sites/default/files/gcis_document/202307/49041-27-7-consteighteenthamendac32023.pdf",
+                "https://www.gov.za/news/media-statements/minister-zizi-kodwa-south-african-sign-language-being-recognised-official"
+            ]
+        },
+        {
+            "country": "ZA",
+            "language": "ve",
+            "action": "add",
+            "status": "official",
+            "reason": "Constitution section 6: national official language, not merely regional.",
+            "sources": [
+                "https://www.gov.za/sites/default/files/gcis_document/202307/49041-27-7-consteighteenthamendac32023.pdf",
+                "https://www.gov.za/news/media-statements/minister-zizi-kodwa-south-african-sign-language-being-recognised-official"
+            ]
+        },
+        {
+            "country": "ZA",
+            "language": "xh",
+            "action": "add",
+            "status": "official",
+            "reason": "Constitution section 6: national official language, not merely regional.",
+            "sources": [
+                "https://www.gov.za/sites/default/files/gcis_document/202307/49041-27-7-consteighteenthamendac32023.pdf",
+                "https://www.gov.za/news/media-statements/minister-zizi-kodwa-south-african-sign-language-being-recognised-official"
+            ]
+        },
+        {
+            "country": "ZA",
+            "language": "zu",
+            "action": "add",
+            "status": "official",
+            "reason": "Constitution section 6: national official language, not merely regional.",
+            "sources": [
+                "https://www.gov.za/sites/default/files/gcis_document/202307/49041-27-7-consteighteenthamendac32023.pdf",
+                "https://www.gov.za/news/media-statements/minister-zizi-kodwa-south-african-sign-language-being-recognised-official"
+            ]
+        },
+        {
+            "country": "ZA",
+            "language": "sfs",
+            "action": "add",
+            "status": "official",
+            "reason": "The 2023 Eighteenth Amendment adds South African Sign Language.",
+            "sources": [
+                "https://www.gov.za/sites/default/files/gcis_document/202307/49041-27-7-consteighteenthamendac32023.pdf",
+                "https://www.gov.za/news/media-statements/minister-zizi-kodwa-south-african-sign-language-being-recognised-official"
+            ],
+            "translationApplicability": "Requires signed content/accessibility design; a spoken-language text JSON is not a sign-language translation."
+        },
+        {
+            "country": "ZW",
+            "language": "ny",
+            "action": "add",
+            "status": "official",
+            "reason": "Section 6 roster: Chewa.",
+            "sources": [
+                "https://www.parlzim.gov.zw/constitution-of-zimbabwe/",
+                "https://www.wipo.int/wipolex/es/legislation/details/13576"
+            ]
+        },
+        {
+            "country": "ZW",
+            "language": "bwg",
+            "action": "add",
+            "status": "official",
+            "reason": "Section 6 roster: Chibarwe.",
+            "sources": [
+                "https://www.parlzim.gov.zw/constitution-of-zimbabwe/",
+                "https://www.wipo.int/wipolex/es/legislation/details/13576"
+            ]
+        },
+        {
+            "country": "ZW",
+            "language": "kck",
+            "action": "add",
+            "status": "official",
+            "reason": "Section 6 roster: Kalanga.",
+            "sources": [
+                "https://www.parlzim.gov.zw/constitution-of-zimbabwe/",
+                "https://www.wipo.int/wipolex/es/legislation/details/13576"
+            ]
+        },
+        {
+            "country": "ZW",
+            "language": "nmq",
+            "action": "add",
+            "status": "official",
+            "reason": "Section 6 roster: Nambya.",
+            "sources": [
+                "https://www.parlzim.gov.zw/constitution-of-zimbabwe/",
+                "https://www.wipo.int/wipolex/es/legislation/details/13576"
+            ]
+        },
+        {
+            "country": "ZW",
+            "language": "ndc",
+            "action": "add",
+            "status": "official",
+            "reason": "Section 6 roster: Ndau.",
+            "sources": [
+                "https://www.parlzim.gov.zw/constitution-of-zimbabwe/",
+                "https://www.wipo.int/wipolex/es/legislation/details/13576"
+            ]
+        },
+        {
+            "country": "ZW",
+            "language": "ts",
+            "action": "add",
+            "status": "official",
+            "reason": "Section 6 roster: Shangani.",
+            "sources": [
+                "https://www.parlzim.gov.zw/constitution-of-zimbabwe/",
+                "https://www.wipo.int/wipolex/es/legislation/details/13576"
+            ]
+        },
+        {
+            "country": "ZW",
+            "language": "zib",
+            "action": "add",
+            "status": "official",
+            "reason": "Section 6 roster: sign language.",
+            "sources": [
+                "https://www.parlzim.gov.zw/constitution-of-zimbabwe/",
+                "https://www.wipo.int/wipolex/es/legislation/details/13576"
+            ]
+        },
+        {
+            "country": "ZW",
+            "language": "st",
+            "action": "add",
+            "status": "official",
+            "reason": "Section 6 roster: Sotho.",
+            "sources": [
+                "https://www.parlzim.gov.zw/constitution-of-zimbabwe/",
+                "https://www.wipo.int/wipolex/es/legislation/details/13576"
+            ]
+        },
+        {
+            "country": "ZW",
+            "language": "toi",
+            "action": "add",
+            "status": "official",
+            "reason": "Section 6 roster: Tonga.",
+            "sources": [
+                "https://www.parlzim.gov.zw/constitution-of-zimbabwe/",
+                "https://www.wipo.int/wipolex/es/legislation/details/13576"
+            ]
+        },
+        {
+            "country": "ZW",
+            "language": "tn",
+            "action": "add",
+            "status": "official",
+            "reason": "Section 6 roster: Tswana.",
+            "sources": [
+                "https://www.parlzim.gov.zw/constitution-of-zimbabwe/",
+                "https://www.wipo.int/wipolex/es/legislation/details/13576"
+            ]
+        },
+        {
+            "country": "ZW",
+            "language": "ve",
+            "action": "add",
+            "status": "official",
+            "reason": "Section 6 roster: Venda.",
+            "sources": [
+                "https://www.parlzim.gov.zw/constitution-of-zimbabwe/",
+                "https://www.wipo.int/wipolex/es/legislation/details/13576"
+            ]
+        },
+        {
+            "country": "ZW",
+            "language": "xh",
+            "action": "add",
+            "status": "official",
+            "reason": "Section 6 roster: Xhosa.",
+            "sources": [
+                "https://www.parlzim.gov.zw/constitution-of-zimbabwe/",
+                "https://www.wipo.int/wipolex/es/legislation/details/13576"
+            ]
+        },
+        {
+            "country": "BO",
+            "language": "aro",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 5 roster: araona.",
+            "sources": [
+                "https://www.ine.gob.bo/index.php/bolivia/aspectos-politicos-y-administrativos/",
+                "https://www.senapi.gob.bo/normativas/constitucion-politica-del-estado/constitucion-politica-del-estado-plurinacional-de-bolivia"
+            ]
+        },
+        {
+            "country": "BO",
+            "language": "brg",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 5 roster: baure.",
+            "sources": [
+                "https://www.ine.gob.bo/index.php/bolivia/aspectos-politicos-y-administrativos/",
+                "https://www.senapi.gob.bo/normativas/constitucion-politica-del-estado/constitucion-politica-del-estado-plurinacional-de-bolivia"
+            ]
+        },
+        {
+            "country": "BO",
+            "language": "cax",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 5 roster: bésiro.",
+            "sources": [
+                "https://www.ine.gob.bo/index.php/bolivia/aspectos-politicos-y-administrativos/",
+                "https://www.senapi.gob.bo/normativas/constitucion-politica-del-estado/constitucion-politica-del-estado-plurinacional-de-bolivia"
+            ]
+        },
+        {
+            "country": "BO",
+            "language": "caz",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 5 roster: canichana.",
+            "sources": [
+                "https://www.ine.gob.bo/index.php/bolivia/aspectos-politicos-y-administrativos/",
+                "https://www.senapi.gob.bo/normativas/constitucion-politica-del-estado/constitucion-politica-del-estado-plurinacional-de-bolivia"
+            ]
+        },
+        {
+            "country": "BO",
+            "language": "cav",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 5 roster: cavineño.",
+            "sources": [
+                "https://www.ine.gob.bo/index.php/bolivia/aspectos-politicos-y-administrativos/",
+                "https://www.senapi.gob.bo/normativas/constitucion-politica-del-estado/constitucion-politica-del-estado-plurinacional-de-bolivia"
+            ]
+        },
+        {
+            "country": "BO",
+            "language": "cyb",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 5 roster: cayubaba.",
+            "sources": [
+                "https://www.ine.gob.bo/index.php/bolivia/aspectos-politicos-y-administrativos/",
+                "https://www.senapi.gob.bo/normativas/constitucion-politica-del-estado/constitucion-politica-del-estado-plurinacional-de-bolivia"
+            ]
+        },
+        {
+            "country": "BO",
+            "language": "cao",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 5 roster: chácobo.",
+            "sources": [
+                "https://www.ine.gob.bo/index.php/bolivia/aspectos-politicos-y-administrativos/",
+                "https://www.senapi.gob.bo/normativas/constitucion-politica-del-estado/constitucion-politica-del-estado-plurinacional-de-bolivia"
+            ]
+        },
+        {
+            "country": "BO",
+            "language": "cas",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 5 roster: chimán.",
+            "sources": [
+                "https://www.ine.gob.bo/index.php/bolivia/aspectos-politicos-y-administrativos/",
+                "https://www.senapi.gob.bo/normativas/constitucion-politica-del-estado/constitucion-politica-del-estado-plurinacional-de-bolivia"
+            ]
+        },
+        {
+            "country": "BO",
+            "language": "ese",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 5 roster: ese ejja.",
+            "sources": [
+                "https://www.ine.gob.bo/index.php/bolivia/aspectos-politicos-y-administrativos/",
+                "https://www.senapi.gob.bo/normativas/constitucion-politica-del-estado/constitucion-politica-del-estado-plurinacional-de-bolivia"
+            ]
+        },
+        {
+            "country": "BO",
+            "language": "gn",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 5 roster: guaraní.",
+            "sources": [
+                "https://www.ine.gob.bo/index.php/bolivia/aspectos-politicos-y-administrativos/",
+                "https://www.senapi.gob.bo/normativas/constitucion-politica-del-estado/constitucion-politica-del-estado-plurinacional-de-bolivia"
+            ],
+            "translationApplicability": "Paraguayan gn.json requires review for Bolivian Guarani varieties.",
+            "speakers": {
+                "estimate": 39307,
+                "kind": "census main language spoken, population aged 6+; not mother tongue or all competent speakers",
+                "year": 2012,
+                "source": "https://anda4.ine.gob.bo/ANDA4_3/index.php/catalog/495/download/2358",
+                "note": "Newer 2024 tables are linked in censusSources; their values were not extracted."
+            },
+            "requiredLocale": "gn-bo"
+        },
+        {
+            "country": "BO",
+            "language": "psm",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 5 roster: guarasu’we.",
+            "sources": [
+                "https://www.ine.gob.bo/index.php/bolivia/aspectos-politicos-y-administrativos/",
+                "https://www.senapi.gob.bo/normativas/constitucion-politica-del-estado/constitucion-politica-del-estado-plurinacional-de-bolivia"
+            ]
+        },
+        {
+            "country": "BO",
+            "language": "gyr",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 5 roster: guarayu.",
+            "sources": [
+                "https://www.ine.gob.bo/index.php/bolivia/aspectos-politicos-y-administrativos/",
+                "https://www.senapi.gob.bo/normativas/constitucion-politica-del-estado/constitucion-politica-del-estado-plurinacional-de-bolivia"
+            ]
+        },
+        {
+            "country": "BO",
+            "language": "ito",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 5 roster: itonama.",
+            "sources": [
+                "https://www.ine.gob.bo/index.php/bolivia/aspectos-politicos-y-administrativos/",
+                "https://www.senapi.gob.bo/normativas/constitucion-politica-del-estado/constitucion-politica-del-estado-plurinacional-de-bolivia"
+            ]
+        },
+        {
+            "country": "BO",
+            "language": "lec",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 5 roster: leco.",
+            "sources": [
+                "https://www.ine.gob.bo/index.php/bolivia/aspectos-politicos-y-administrativos/",
+                "https://www.senapi.gob.bo/normativas/constitucion-politica-del-estado/constitucion-politica-del-estado-plurinacional-de-bolivia"
+            ]
+        },
+        {
+            "country": "BO",
+            "language": "caw",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 5 roster: machajuyai-kallawaya.",
+            "sources": [
+                "https://www.ine.gob.bo/index.php/bolivia/aspectos-politicos-y-administrativos/",
+                "https://www.senapi.gob.bo/normativas/constitucion-politica-del-estado/constitucion-politica-del-estado-plurinacional-de-bolivia"
+            ]
+        },
+        {
+            "country": "BO",
+            "language": "mpd",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 5 roster: machineri.",
+            "sources": [
+                "https://www.ine.gob.bo/index.php/bolivia/aspectos-politicos-y-administrativos/",
+                "https://www.senapi.gob.bo/normativas/constitucion-politica-del-estado/constitucion-politica-del-estado-plurinacional-de-bolivia"
+            ]
+        },
+        {
+            "country": "BO",
+            "language": "rey",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 5 roster: maropa.",
+            "sources": [
+                "https://www.ine.gob.bo/index.php/bolivia/aspectos-politicos-y-administrativos/",
+                "https://www.senapi.gob.bo/normativas/constitucion-politica-del-estado/constitucion-politica-del-estado-plurinacional-de-bolivia"
+            ]
+        },
+        {
+            "country": "BO",
+            "language": "trn",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 5 roster: mojeño-trinitario.",
+            "sources": [
+                "https://www.ine.gob.bo/index.php/bolivia/aspectos-politicos-y-administrativos/",
+                "https://www.senapi.gob.bo/normativas/constitucion-politica-del-estado/constitucion-politica-del-estado-plurinacional-de-bolivia"
+            ]
+        },
+        {
+            "country": "BO",
+            "language": "ign",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 5 roster: mojeño-ignaciano.",
+            "sources": [
+                "https://www.ine.gob.bo/index.php/bolivia/aspectos-politicos-y-administrativos/",
+                "https://www.senapi.gob.bo/normativas/constitucion-politica-del-estado/constitucion-politica-del-estado-plurinacional-de-bolivia"
+            ]
+        },
+        {
+            "country": "BO",
+            "language": "ite",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 5 roster: moré.",
+            "sources": [
+                "https://www.ine.gob.bo/index.php/bolivia/aspectos-politicos-y-administrativos/",
+                "https://www.senapi.gob.bo/normativas/constitucion-politica-del-estado/constitucion-politica-del-estado-plurinacional-de-bolivia"
+            ]
+        },
+        {
+            "country": "BO",
+            "language": "mzp",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 5 roster: movima.",
+            "sources": [
+                "https://www.ine.gob.bo/index.php/bolivia/aspectos-politicos-y-administrativos/",
+                "https://www.senapi.gob.bo/normativas/constitucion-politica-del-estado/constitucion-politica-del-estado-plurinacional-de-bolivia"
+            ]
+        },
+        {
+            "country": "BO",
+            "language": "pcp",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 5 roster: pacawara.",
+            "sources": [
+                "https://www.ine.gob.bo/index.php/bolivia/aspectos-politicos-y-administrativos/",
+                "https://www.senapi.gob.bo/normativas/constitucion-politica-del-estado/constitucion-politica-del-estado-plurinacional-de-bolivia"
+            ]
+        },
+        {
+            "country": "BO",
+            "language": "puq",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 5 roster: puquina.",
+            "sources": [
+                "https://www.ine.gob.bo/index.php/bolivia/aspectos-politicos-y-administrativos/",
+                "https://www.senapi.gob.bo/normativas/constitucion-politica-del-estado/constitucion-politica-del-estado-plurinacional-de-bolivia"
+            ]
+        },
+        {
+            "country": "BO",
+            "language": "srq",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 5 roster: sirionó.",
+            "sources": [
+                "https://www.ine.gob.bo/index.php/bolivia/aspectos-politicos-y-administrativos/",
+                "https://www.senapi.gob.bo/normativas/constitucion-politica-del-estado/constitucion-politica-del-estado-plurinacional-de-bolivia"
+            ]
+        },
+        {
+            "country": "BO",
+            "language": "tna",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 5 roster: tacana.",
+            "sources": [
+                "https://www.ine.gob.bo/index.php/bolivia/aspectos-politicos-y-administrativos/",
+                "https://www.senapi.gob.bo/normativas/constitucion-politica-del-estado/constitucion-politica-del-estado-plurinacional-de-bolivia"
+            ]
+        },
+        {
+            "country": "BO",
+            "language": "tpj",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 5 roster: tapieté.",
+            "sources": [
+                "https://www.ine.gob.bo/index.php/bolivia/aspectos-politicos-y-administrativos/",
+                "https://www.senapi.gob.bo/normativas/constitucion-politica-del-estado/constitucion-politica-del-estado-plurinacional-de-bolivia"
+            ]
+        },
+        {
+            "country": "BO",
+            "language": "tno",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 5 roster: toromona.",
+            "sources": [
+                "https://www.ine.gob.bo/index.php/bolivia/aspectos-politicos-y-administrativos/",
+                "https://www.senapi.gob.bo/normativas/constitucion-politica-del-estado/constitucion-politica-del-estado-plurinacional-de-bolivia"
+            ]
+        },
+        {
+            "country": "BO",
+            "language": "mtp",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 5 roster: weenhayek.",
+            "sources": [
+                "https://www.ine.gob.bo/index.php/bolivia/aspectos-politicos-y-administrativos/",
+                "https://www.senapi.gob.bo/normativas/constitucion-politica-del-estado/constitucion-politica-del-estado-plurinacional-de-bolivia"
+            ]
+        },
+        {
+            "country": "BO",
+            "language": "yaa",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 5 roster: yaminawa.",
+            "sources": [
+                "https://www.ine.gob.bo/index.php/bolivia/aspectos-politicos-y-administrativos/",
+                "https://www.senapi.gob.bo/normativas/constitucion-politica-del-estado/constitucion-politica-del-estado-plurinacional-de-bolivia"
+            ]
+        },
+        {
+            "country": "BO",
+            "language": "yuq",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 5 roster: yuki.",
+            "sources": [
+                "https://www.ine.gob.bo/index.php/bolivia/aspectos-politicos-y-administrativos/",
+                "https://www.senapi.gob.bo/normativas/constitucion-politica-del-estado/constitucion-politica-del-estado-plurinacional-de-bolivia"
+            ]
+        },
+        {
+            "country": "BO",
+            "language": "yuz",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 5 roster: yuracaré.",
+            "sources": [
+                "https://www.ine.gob.bo/index.php/bolivia/aspectos-politicos-y-administrativos/",
+                "https://www.senapi.gob.bo/normativas/constitucion-politica-del-estado/constitucion-politica-del-estado-plurinacional-de-bolivia"
+            ]
+        },
+        {
+            "country": "BO",
+            "language": "bvl",
+            "action": "add",
+            "status": "official",
+            "reason": "Law 1658 (31 October 2025) recognizes Bolivian Sign Language as the official language of Deaf persons; preserve this community-specific legal scope.",
+            "sources": [
+                "https://www.defensoria.gob.bo/noticias/defensoria-del-pueblo-facilita-atencion-virtual-a-personas-sordas-mediante-interpretacion-en-lengua-de-senyas-boliviana",
+                "https://www.lexivox.org/norms/BO-L-N1658.xhtml"
+            ],
+            "translationApplicability": "Signed-language access cannot be satisfied by a spoken-language text JSON."
+        },
+        {
+            "country": "EC",
+            "language": "qu",
+            "action": "remove",
+            "reason": "Replace undifferentiated national-official Quechua label with Ecuadorian Kichwa’s specific intercultural-relations scope.",
+            "sources": [
+                "https://www.asambleanacional.gob.ec/sites/default/files/documents/old/constitucion_de_bolsillo.pdf",
+                "https://www.asambleanacional.gob.ec/es/noticia/portal-web-de-asamblea-se-publicara-en-kichwa-por-el-dia-de-la"
+            ]
+        },
+        {
+            "country": "EC",
+            "language": "qu-ec",
+            "action": "add",
+            "status": "official_regional",
+            "reason": "Article 2 recognizes Kichwa for intercultural relations; the region tag represents Ecuadorian scope and does not imply one uniform Kichwa dialect.",
+            "sources": [
+                "https://www.asambleanacional.gob.ec/sites/default/files/documents/old/constitucion_de_bolsillo.pdf",
+                "https://www.asambleanacional.gob.ec/es/noticia/portal-web-de-asamblea-se-publicara-en-kichwa-por-el-dia-de-la"
+            ],
+            "translationApplicability": "Existing Southern Quechua qu.json is not automatic coverage."
+        },
+        {
+            "country": "EC",
+            "language": "jiv",
+            "action": "add",
+            "status": "official_regional",
+            "reason": "Article 2 also recognizes Shuar for intercultural relations.",
+            "sources": [
+                "https://www.asambleanacional.gob.ec/sites/default/files/documents/old/constitucion_de_bolsillo.pdf",
+                "https://www.asambleanacional.gob.ec/es/noticia/portal-web-de-asamblea-se-publicara-en-kichwa-por-el-dia-de-la"
+            ]
+        },
+        {
+            "country": "DZ",
+            "language": "fr",
+            "action": "remove",
+            "reason": "Constitution articles 3–4 designate Arabic and Tamazight; French has no statutory official designation in this text.",
+            "sources": [
+                "https://www.joradp.dz/TRV/FConsti.pdf"
+            ]
+        },
+        {
+            "country": "MA",
+            "language": "tzm",
+            "action": "remove",
+            "reason": "Central Atlas Tamazight alone does not represent the constitutionally official Amazigh umbrella.",
+            "sources": [
+                "https://bdj.mmsp.gov.ma/Fr/Document/5601-Dahir.aspx",
+                "https://www.ircam.ma/fr/textes-fondateurs/constitution-du-royaume"
+            ]
+        },
+        {
+            "country": "MA",
+            "language": "zgh",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 5 makes Amazigh official; zgh represents the Standard Moroccan Tamazight written standard, not all regional varieties.",
+            "sources": [
+                "https://bdj.mmsp.gov.ma/Fr/Document/5601-Dahir.aspx",
+                "https://www.ircam.ma/fr/textes-fondateurs/constitution-du-royaume"
+            ],
+            "translationApplicability": "Translation still pending; script/standard must be specified."
+        },
+        {
+            "country": "SC",
+            "language": "crs",
+            "action": "add",
+            "status": "de_facto_official",
+            "reason": "Article 4 uses national-language terminology and equal-use rights for Creole, English and French; SADC describes all three as official.",
+            "sources": [
+                "https://www.statehouse.gov.sc/uploads/downloads/filepath_1.pdf",
+                "https://www.sadc.int/member-states/seychelles"
+            ]
+        },
+        {
+            "country": "MU",
+            "language": "en",
+            "action": "add",
+            "status": "de_facto_official",
+            "reason": "Constitution section 49 and ministerial account concern Assembly/institutional use, not a national constitutional official-language declaration.",
+            "sources": [
+                "https://education.govmu.org/Documents/2024/PQ/SPEECHES/23.04.2024_The%20French-Speaking%20Union%20Bill%282nd%20Reading%29.pdf"
+            ]
+        },
+        {
+            "country": "MU",
+            "language": "fr",
+            "action": "add",
+            "status": "de_facto_official",
+            "reason": "Constitution section 49 and ministerial account concern Assembly/institutional use, not a national constitutional official-language declaration.",
+            "sources": [
+                "https://education.govmu.org/Documents/2024/PQ/SPEECHES/23.04.2024_The%20French-Speaking%20Union%20Bill%282nd%20Reading%29.pdf"
+            ]
+        },
+        {
+            "country": "CW",
+            "language": "en",
+            "action": "add",
+            "status": "official",
+            "reason": "Official Languages Ordinance article 2 lists English, Dutch and Papiamentu.",
+            "sources": [
+                "https://gobiernu.cw/wp-content/uploads/2024/10/105-GT-Landsverordening-officiele-talen.pdf"
+            ]
+        },
+        {
+            "country": "CW",
+            "language": "pap",
+            "action": "add",
+            "status": "official",
+            "reason": "Official Languages Ordinance article 2 lists English, Dutch and Papiamentu.",
+            "sources": [
+                "https://gobiernu.cw/wp-content/uploads/2024/10/105-GT-Landsverordening-officiele-talen.pdf"
+            ]
+        },
+        {
+            "country": "ML",
+            "language": "fr",
+            "action": "add",
+            "status": "de_facto_official",
+            "reason": "2023 Constitution article 31 changes French to a working language.",
+            "sources": [
+                "https://matd.gouv.ml/uploads/topics/17162945979231.pdf",
+                "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/106204/MLI-106204.pdf"
+            ]
+        },
+        {
+            "country": "ML",
+            "language": "bm",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 31 plus statutory national roster: bamanankan.",
+            "sources": [
+                "https://matd.gouv.ml/uploads/topics/17162945979231.pdf",
+                "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/106204/MLI-106204.pdf"
+            ]
+        },
+        {
+            "country": "ML",
+            "language": "bmq",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 31 plus statutory national roster: bomu.",
+            "sources": [
+                "https://matd.gouv.ml/uploads/topics/17162945979231.pdf",
+                "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/106204/MLI-106204.pdf"
+            ]
+        },
+        {
+            "country": "ML",
+            "language": "ff",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 31 plus statutory national roster: fulfulde.",
+            "sources": [
+                "https://matd.gouv.ml/uploads/topics/17162945979231.pdf",
+                "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/106204/MLI-106204.pdf"
+            ]
+        },
+        {
+            "country": "ML",
+            "language": "mey",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 31 plus statutory national roster: hasanya.",
+            "sources": [
+                "https://matd.gouv.ml/uploads/topics/17162945979231.pdf",
+                "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/106204/MLI-106204.pdf"
+            ]
+        },
+        {
+            "country": "ML",
+            "language": "myk",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 31 plus statutory national roster: mamara.",
+            "sources": [
+                "https://matd.gouv.ml/uploads/topics/17162945979231.pdf",
+                "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/106204/MLI-106204.pdf"
+            ]
+        },
+        {
+            "country": "ML",
+            "language": "snk",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 31 plus statutory national roster: soninké.",
+            "sources": [
+                "https://matd.gouv.ml/uploads/topics/17162945979231.pdf",
+                "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/106204/MLI-106204.pdf"
+            ]
+        },
+        {
+            "country": "ML",
+            "language": "shz",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 31 plus statutory national roster: syenara.",
+            "sources": [
+                "https://matd.gouv.ml/uploads/topics/17162945979231.pdf",
+                "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/106204/MLI-106204.pdf"
+            ]
+        },
+        {
+            "country": "ML",
+            "language": "tmh",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 31 plus statutory national roster: tamasheq.",
+            "sources": [
+                "https://matd.gouv.ml/uploads/topics/17162945979231.pdf",
+                "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/106204/MLI-106204.pdf"
+            ]
+        },
+        {
+            "country": "ML",
+            "language": "kao",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 31 plus statutory national roster: khassonké.",
+            "sources": [
+                "https://matd.gouv.ml/uploads/topics/17162945979231.pdf",
+                "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/106204/MLI-106204.pdf"
+            ]
+        },
+        {
+            "country": "BF",
+            "language": "fr",
+            "action": "add",
+            "status": "de_facto_official",
+            "reason": "2024 consolidated constitution designates English and French as working languages.",
+            "sources": [
+                "https://dgre.gov.bf/documents/77/constitution_consolid%C3%A9e_apres_la_relecture_du_29_octobre_2024VF.pdf"
+            ]
+        },
+        {
+            "country": "BF",
+            "language": "en",
+            "action": "add",
+            "status": "de_facto_official",
+            "reason": "2024 consolidated constitution designates English and French as working languages.",
+            "sources": [
+                "https://dgre.gov.bf/documents/77/constitution_consolid%C3%A9e_apres_la_relecture_du_29_octobre_2024VF.pdf"
+            ]
+        },
+        {
+            "country": "NE",
+            "language": "fr",
+            "action": "add",
+            "status": "de_facto_official",
+            "reason": "2025 Refoundation Charter article 12 designates English and French as working languages.",
+            "sources": [
+                "https://itieniger.ne/wp-content/uploads/2025/04/Charte-de-la-Refondation-2025.pdf",
+                "https://presidence.ne/pages/refondation"
+            ]
+        },
+        {
+            "country": "NE",
+            "language": "en",
+            "action": "add",
+            "status": "de_facto_official",
+            "reason": "2025 Refoundation Charter article 12 designates English and French as working languages.",
+            "sources": [
+                "https://itieniger.ne/wp-content/uploads/2025/04/Charte-de-la-Refondation-2025.pdf",
+                "https://presidence.ne/pages/refondation"
+            ]
+        },
+        {
+            "country": "CA",
+            "language": "ikt",
+            "action": "add",
+            "status": "official_regional",
+            "reason": "Northwest Territories official roster: Inuinnaqtun.",
+            "sources": [
+                "https://www.ece.gov.nt.ca/en/official-languages",
+                "https://www.ece.gov.nt.ca/sites/ece/files/arol_2024-2025-en.pdf"
+            ],
+            "speakers": {
+                "estimate": 790,
+                "kind": "census language knowledge, all speakers in private households; not L1 only",
+                "year": 2021,
+                "source": "https://www150.statcan.gc.ca/n1/daily-quotidien/250331/dq250331a-eng.pdf"
+            }
+        },
+        {
+            "country": "CA",
+            "language": "scs",
+            "action": "add",
+            "status": "official_regional",
+            "reason": "Northwest Territories official roster: North Slavey.",
+            "sources": [
+                "https://www.ece.gov.nt.ca/en/official-languages",
+                "https://www.ece.gov.nt.ca/sites/ece/files/arol_2024-2025-en.pdf"
+            ]
+        },
+        {
+            "country": "CA",
+            "language": "xsl",
+            "action": "add",
+            "status": "official_regional",
+            "reason": "Northwest Territories official roster: South Slavey.",
+            "sources": [
+                "https://www.ece.gov.nt.ca/en/official-languages",
+                "https://www.ece.gov.nt.ca/sites/ece/files/arol_2024-2025-en.pdf"
+            ]
+        },
+        {
+            "country": "AW",
+            "language": "pap",
+            "action": "add",
+            "status": "official",
+            "requiredLocale": "pap-aw",
+            "reason": "Papiamento is statutory official with Dutch. The Aruban orthography needs a separate locale; pap.json is Curaçao/Bonaire Papiamentu.",
+            "sources": [
+                "https://www.gobierno.aw/en/official-gazettes-2003"
+            ]
+        }
+    ],
+    "notes": [
+        {
+            "country": "SN",
+            "reason": "Retain French. Wolof’s existing de_facto_official label is not disproved by its constitutional national status; this audit does not certify an exclusive administrative language.",
+            "sources": [
+                "https://conseilconstitutionnel.sn/la-constitution/"
+            ]
+        },
+        {
+            "country": "EC",
+            "reason": "Other ancestral languages are official for their peoples in their inhabited areas under article 2. A complete territory-to-variety roster remains outside this bounded audit.",
+            "sources": [
+                "https://www.asambleanacional.gob.ec/sites/default/files/documents/old/constitucion_de_bolsillo.pdf"
+            ],
+            "sourceGap": true
+        },
+        {
+            "country": "DZ",
+            "reason": "Tamazight is statutory official across its territorial varieties. Kabyle is not the entire Amazigh language grouping. French’s practical use is not denied by removal of an unsupported statutory label.",
+            "sources": [
+                "https://www.joradp.dz/TRV/FConsti.pdf"
+            ]
+        },
+        {
+            "country": "SC",
+            "reason": "Constitutional terminology is national, with equal-use provisions. Do not infer that national status in unrelated constitutions has identical legal effect.",
+            "sources": [
+                "https://www.statehouse.gov.sc/uploads/downloads/filepath_1.pdf",
+                "https://www.sadc.int/member-states/seychelles"
+            ]
+        },
+        {
+            "country": "MU",
+            "reason": "Creole is widely used, but these sources do not establish national statutory official status. No mfe addition based only on prevalence.",
+            "sources": [
+                "https://education.govmu.org/Documents/2024/PQ/SPEECHES/23.04.2024_The%20French-Speaking%20Union%20Bill%282nd%20Reading%29.pdf"
+            ]
+        },
+        {
+            "country": "AW",
+            "reason": "Papiamento is official with Dutch; the new pap file follows Curaçao/Bonaire spelling and is not an Aruban-standard variant.",
+            "sources": [
+                "https://www.gobierno.aw/en/official-gazettes-2003"
+            ]
+        },
+        {
+            "country": "BF",
+            "reason": "Article 35 specifies national languages made official by law as the official languages. This requires a language-specific statutory roster; do not assume every national language is automatically covered. A verified implementing-law roster remains pending.",
+            "sources": [
+                "https://dgre.gov.bf/documents/77/constitution_consolid%C3%A9e_apres_la_relecture_du_29_octobre_2024VF.pdf",
+                "https://www.assembleenationale.bf/storage/libelrapportautres/XmnU35wfwsCX1eXEZS2nhjkrWYdgyoeVoyYSWMAX.pdf"
+            ],
+            "sourceGap": true
+        },
+        {
+            "country": "NE",
+            "reason": "Article 12 calls Hausa the national language, not an official language. Do not convert this into a statutory official claim.",
+            "sources": [
+                "https://itieniger.ne/wp-content/uploads/2025/04/Charte-de-la-Refondation-2025.pdf",
+                "https://presidence.ne/pages/refondation"
+            ]
+        },
+        {
+            "country": "CA",
+            "reason": "The NWT roster separately names Inuvialuktun, Inuinnaqtun, North Slavey and South Slavey. Do not count iu and iu-latn as separate languages, or assume a generic Cree/Inuktitut/Slavey file covers every territorial variety.",
+            "sources": [
+                "https://www.ece.gov.nt.ca/en/official-languages",
+                "https://www.ece.gov.nt.ca/sites/ece/files/arol_2024-2025-en.pdf"
+            ]
+        }
+    ],
+    "unresolvedMappings": [
+        {
+            "country": "ZW",
+            "statutoryName": "Koisan",
+            "reason": "Constitution names a grouping; do not pretend that the IANA collection khi is one uniform translatable language. Specific community/variety mapping requires research.",
+            "sources": [
+                "https://www.parlzim.gov.zw/constitution-of-zimbabwe/",
+                "https://www.wipo.int/wipolex/es/legislation/details/13576"
+            ]
+        },
+        {
+            "country": "BO",
+            "statutoryName": "mosetén",
+            "reason": "Do not collapse the separately named Mosetén and Chimán into one ISO code without resolving the registry grouping.",
+            "sources": [
+                "https://www.ine.gob.bo/index.php/bolivia/aspectos-politicos-y-administrativos/",
+                "https://www.senapi.gob.bo/normativas/constitucion-politica-del-estado/constitucion-politica-del-estado-plurinacional-de-bolivia"
+            ]
+        },
+        {
+            "country": "BO",
+            "statutoryName": "uru-chipaya",
+            "reason": "Constitution uses a combined designation; cap (Chipaya) and uru (Uru) are separate registry entries. Mapping is pending.",
+            "sources": [
+                "https://www.ine.gob.bo/index.php/bolivia/aspectos-politicos-y-administrativos/",
+                "https://www.senapi.gob.bo/normativas/constitucion-politica-del-estado/constitucion-politica-del-estado-plurinacional-de-bolivia"
+            ]
+        },
+        {
+            "country": "BO",
+            "statutoryName": "zamuco",
+            "reason": "Confirm whether the statutory designation should route to contemporary Ayoreo (ayo); do not map solely from an ethnonym resemblance.",
+            "sources": [
+                "https://www.ine.gob.bo/index.php/bolivia/aspectos-politicos-y-administrativos/",
+                "https://www.senapi.gob.bo/normativas/constitucion-politica-del-estado/constitucion-politica-del-estado-plurinacional-de-bolivia"
+            ]
+        },
+        {
+            "country": "DZ",
+            "statutoryName": "Tamazight",
+            "reason": "A legal umbrella across varieties, not identical to only Kabyle or Standard Moroccan Tamazight. Record the roster without automatic one-file coverage.",
+            "sources": [
+                "https://www.joradp.dz/TRV/FConsti.pdf"
+            ]
+        },
+        {
+            "country": "ML",
+            "statutoryNames": [
+                "bozo",
+                "dogoso (dogon)",
+                "maninkakan",
+                "songhay"
+            ],
+            "reason": "The 13-language national roster is confirmed, but these grouped names require variety/code choices; do not infer one arbitrary language file.",
+            "sources": [
+                "https://matd.gouv.ml/uploads/topics/17162945979231.pdf",
+                "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/106204/MLI-106204.pdf"
+            ]
+        }
+    ],
+    "censusSources": [
+        {
+            "country": "ZA",
+            "year": 2022,
+            "source": "https://census.statssa.gov.za/assets/documents/2022/P03014_Census_2022_Statistical_Release.pdf",
+            "kind": "Percent of population aged one or older by language spoken most often in household (table 2.8), not total competent speakers or world L1 totals.",
+            "percentages": {
+                "af": 10.6,
+                "en": 8.7,
+                "nr": 1.7,
+                "xh": 16.3,
+                "zu": 24.4,
+                "nso": 10.0,
+                "st": 7.8,
+                "tn": 8.3,
+                "ss": 2.8,
+                "ve": 2.5,
+                "ts": 4.7
+            },
+            "note": "Do not derive speaker totals from country population; Census sign-language results have a separately reported measurement concern."
+        },
+        {
+            "country": "BO",
+            "year": 2024,
+            "source": "https://www.ine.gob.bo/index.php/estadisticas-sociales/idiomas/",
+            "kind": "Official tables distinguish learned-first language (age 4+), most-used language (age 6+), and all languages spoken.",
+            "estimate": null,
+            "note": "Current numeric tables linked for follow-up; no ethnic self-identification figures substituted for speaker counts."
+        },
+        {
+            "country": "ZW",
+            "year": 2022,
+            "source": "https://www.zimstat.co.zw/wp-content/uploads/Census/2022_PHC_Report_27012023_Final.pdf",
+            "estimate": null,
+            "note": "Census report located; a language-specific speaker table was not extracted."
+        },
+        {
+            "country": "CA",
+            "year": 2021,
+            "source": "https://www150.statcan.gc.ca/n1/daily-quotidien/250331/dq250331a-eng.pdf",
+            "kind": "Language knowledge; all population in private households, distinguishes Inuit identity from all speakers.",
+            "countsByCensusLabel": {
+                "Inuktitut": 41675,
+                "Inuinnaqtun": 790,
+                "Inuvialuktun": 355,
+                "Tlicho (Dogrib)": 2135,
+                "Slavey-Hare languages": 2325
+            },
+            "note": "Aggregates are not allocated to narrower tags or script variants. Mother-tongue table for follow-up: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?geocode=A000011124&pid=9810029801"
+        }
+    ],
+    "boliviaArticle5Roster": [
+        {
+            "statutoryName": "aymara",
+            "language": "ay"
+        },
+        {
+            "statutoryName": "araona",
+            "language": "aro"
+        },
+        {
+            "statutoryName": "baure",
+            "language": "brg"
+        },
+        {
+            "statutoryName": "bésiro",
+            "language": "cax"
+        },
+        {
+            "statutoryName": "canichana",
+            "language": "caz"
+        },
+        {
+            "statutoryName": "cavineño",
+            "language": "cav"
+        },
+        {
+            "statutoryName": "cayubaba",
+            "language": "cyb"
+        },
+        {
+            "statutoryName": "chácobo",
+            "language": "cao"
+        },
+        {
+            "statutoryName": "chimán",
+            "language": "cas"
+        },
+        {
+            "statutoryName": "ese ejja",
+            "language": "ese"
+        },
+        {
+            "statutoryName": "guaraní",
+            "language": "gn"
+        },
+        {
+            "statutoryName": "guarasu’we",
+            "language": "psm"
+        },
+        {
+            "statutoryName": "guarayu",
+            "language": "gyr"
+        },
+        {
+            "statutoryName": "itonama",
+            "language": "ito"
+        },
+        {
+            "statutoryName": "leco",
+            "language": "lec"
+        },
+        {
+            "statutoryName": "machajuyai-kallawaya",
+            "language": "caw"
+        },
+        {
+            "statutoryName": "machineri",
+            "language": "mpd"
+        },
+        {
+            "statutoryName": "maropa",
+            "language": "rey"
+        },
+        {
+            "statutoryName": "mojeño-trinitario",
+            "language": "trn"
+        },
+        {
+            "statutoryName": "mojeño-ignaciano",
+            "language": "ign"
+        },
+        {
+            "statutoryName": "moré",
+            "language": "ite"
+        },
+        {
+            "statutoryName": "mosetén",
+            "language": null
+        },
+        {
+            "statutoryName": "movima",
+            "language": "mzp"
+        },
+        {
+            "statutoryName": "pacawara",
+            "language": "pcp"
+        },
+        {
+            "statutoryName": "puquina",
+            "language": "puq"
+        },
+        {
+            "statutoryName": "quechua",
+            "language": "qu"
+        },
+        {
+            "statutoryName": "sirionó",
+            "language": "srq"
+        },
+        {
+            "statutoryName": "tacana",
+            "language": "tna"
+        },
+        {
+            "statutoryName": "tapieté",
+            "language": "tpj"
+        },
+        {
+            "statutoryName": "toromona",
+            "language": "tno"
+        },
+        {
+            "statutoryName": "uru-chipaya",
+            "language": null
+        },
+        {
+            "statutoryName": "weenhayek",
+            "language": "mtp"
+        },
+        {
+            "statutoryName": "yaminawa",
+            "language": "yaa"
+        },
+        {
+            "statutoryName": "yuki",
+            "language": "yuq"
+        },
+        {
+            "statutoryName": "yuracaré",
+            "language": "yuz"
+        },
+        {
+            "statutoryName": "zamuco",
+            "language": null
+        }
+    ],
+    "registrySource": "https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry",
+    "counts": {
+        "updates": 109,
+        "unresolvedMappings": 6
+    },
+    "speakerEstimates": [
+        {
+            "country": "BO",
+            "language": "ay",
+            "estimate": 836570,
+            "kind": "census main language spoken, population aged 6+; not mother tongue or all competent speakers",
+            "year": 2012,
+            "source": "https://anda4.ine.gob.bo/ANDA4_3/index.php/catalog/495/download/2358",
+            "note": "Newer 2024 tables are linked in censusSources; their values were not extracted."
+        },
+        {
+            "country": "BO",
+            "language": "gn",
+            "estimate": 39307,
+            "kind": "census main language spoken, population aged 6+; not mother tongue or all competent speakers",
+            "year": 2012,
+            "source": "https://anda4.ine.gob.bo/ANDA4_3/index.php/catalog/495/download/2358",
+            "note": "Newer 2024 tables are linked in censusSources; their values were not extracted."
+        },
+        {
+            "country": "BO",
+            "language": "qu",
+            "estimate": 1339919,
+            "kind": "census main language spoken, population aged 6+; not mother tongue or all competent speakers",
+            "year": 2012,
+            "source": "https://anda4.ine.gob.bo/ANDA4_3/index.php/catalog/495/download/2358",
+            "note": "Newer 2024 tables are linked in censusSources; their values were not extracted."
+        },
+        {
+            "country": "CA",
+            "language": "ikt",
+            "estimate": 790,
+            "kind": "census language knowledge, all speakers in private households; not L1 only",
+            "year": 2021,
+            "source": "https://www150.statcan.gc.ca/n1/daily-quotidien/250331/dq250331a-eng.pdf"
+        },
+        {
+            "country": "CA",
+            "language": "dgr",
+            "estimate": 2135,
+            "kind": "census language knowledge, all speakers in private households; not L1 only",
+            "year": 2021,
+            "source": "https://www150.statcan.gc.ca/n1/daily-quotidien/250331/dq250331a-eng.pdf"
+        }
+    ]
+}

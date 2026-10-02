@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Mchakato huu ni wa kiotomatiki. Utaelekezwa kwenye ukurasa uliokusudia hivi karibuni.",
+        "validate_browser": "Inathibitisha kivinjari chako kabla ya kufikia {http_host}",
+        "are_you_human_host": "Je, wewe ni binadamu? Uthibitishaji unahitajika ili kufikia {http_host}",
+        "are_you_human": "Je, wewe ni binadamu? Uthibitishaji unahitajika ili kuendelea",
+        "enter_captcha_host": "Tafadhali ingiza CAPTCHA iliyo hapa chini ili kuendelea hadi {http_host}:",
+        "enter_captcha": "Tafadhali ingiza CAPTCHA iliyo hapa chini ili kuendelea:",
+        "submit": "wasilisha",
+        "try_again_later": "Tovuti hii inachukua muda mrefu zaidi kuliko kawaida kupakia. Unaweza <a href=\"\">kujaribu tena</a> baadaye",
+        "unexpected_error": "Inaonekana hitilafu isiyotarajiwa imetokea. Tafadhali <a href=\"\">jaribu tena</a> baadaye",
+        "validation_complete": "<strong>Uthibitishaji Umekamilika</strong>. Sasa unaelekezwa kwenye ukurasa uliokusudia. Bofya <a href=\"\">hapa</a> ikiwa ukurasa hautapakia upya.",
+        "enable_javascript": "Uthibitishaji wa kivinjari hufanya kazi vizuri zaidi JavaScript ikiwa imewezeshwa.",
+        "abnormal_activity": "Kwa sababu ya shughuli zisizo za kawaida, tunahitaji ukamilishe kazi iliyo hapa chini ili kuendelea",
+        "sorry_inconvenience": "Tunaomba radhi kwa usumbufu wowote",
+        "verifying": "Inathibitisha"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Hitilafu wakati wa kupakia {host}",
+            "refresh_text": "Tafadhali jaribu kufikia tovuti baadaye au bofya <a href=\"\">hapa</a> ili kuonyesha ukurasa upya.",
+            "unexpected_error": "Hitilafu isiyotarajiwa imetokea wakati wa kupakia ukurasa huu",
+            "possible_causes": "Sababu zinazowezekana ni pamoja na:",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Tovuti Haipatikani",
+            "description": "Kwa bahati mbaya, hitilafu isiyotarajiwa imetokea wakati wa kupakia ukurasa huu. Tunaomba radhi kwa usumbufu wowote. Tafadhali jaribu kufikia tovuti baadaye au bofya <a href=\"\">hapa</a> ili kuonyesha ukurasa upya."
+        },
+        "suspended": {
+            "title": "Tovuti Imesimamishwa",
+            "description": "Kwa bahati mbaya, tovuti unayojaribu kutembelea haipatikani. Tunaomba radhi kwa usumbufu wowote. Ikiwa wewe ndiye <strong>mmiliki</strong> wa tovuti hii, tafadhali <a href=\"https://www.x4b.net/support\">wasiliana na usaidizi</a>."
+        },
+        "over_bandwidth": {
+            "title": "Tovuti Imesimamishwa",
+            "description": "Kwa bahati mbaya, tovuti unayojaribu kutembelea haipatikani. Tunaomba radhi kwa usumbufu wowote. Ikiwa wewe ndiye <strong>mmiliki</strong> wa tovuti hii, tafadhali <a href=\"https://www.x4b.net/\">wasiliana na usaidizi</a>."
+        },
+        "backend": {
+            "title": "Seva Haipatikani",
+            "description": "Seva ya asili haipatikani kwa muda, hivyo haiwezi kushughulikia ombi hili. Tunaomba radhi kwa usumbufu wowote.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Muda wa Ombi Umeisha",
+            "description": "Samahani, muda wa kusubiri umeisha wakati wa kupakia ukurasa huu wa wavuti. Tunaomba radhi kwa usumbufu wowote ambao huenda umesababishwa.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Ufikiaji Umekataliwa",
+            "description": "Huna ruhusa ya kufikia ukurasa huu. Ikiwa hili ni kosa, tafadhali wasiliana na msimamizi wa tovuti."
+        },
+        "upstream": {
+            "title": "Seva Haipatikani",
+            "description": "Kwa sasa hakuna seva iliyo mtandaoni na inayopatikana kushughulikia ombi hili. Tunaomba radhi kwa usumbufu wowote."
+        },
+        "invalid_configuration": {
+            "title": "Usanidi Batili",
+            "description": "Hatuwezi kushughulikia ombi hili kwa sababu ya hitilafu ya usanidi. Tunaomba radhi kwa usumbufu wowote."
+        },
+        "resource": {
+            "title": "Hitilafu ya Ufikiaji",
+            "description_start": "Kwa bahati mbaya, hitilafu imetokea wakati wa kupakia ukurasa huu.",
+            "cause_list": [
+                "Seva ya asili ina mzigo usiotarajiwa na haiwezi kushughulikia maombi kwa sasa",
+                "Hitilafu isiyotarajiwa imetokea kwenye seva ya asili au wakati wa uhamishaji wa data"
+            ],
+            "description_end": "Tunaomba radhi kwa usumbufu wowote.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Hitilafu ya Ufikiaji",
+            "description_start": "Kwa bahati mbaya, hitilafu imetokea wakati wa kupakia ukurasa huu.",
+            "cause_list": [
+                "Anwani yako ya IP imegunduliwa ikituma maombi mengi kupita kiasi kwenye seva",
+                "Seva ya asili ina mzigo usiotarajiwa na haiwezi kushughulikia maombi kwa sasa",
+                "Hitilafu isiyotarajiwa imetokea kwenye seva ya asili au wakati wa uhamishaji wa data"
+            ],
+            "description_end": "Tunaomba radhi kwa usumbufu wowote.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Hitilafu ya Ufikiaji",
+            "description_start": "Kwa bahati mbaya, hitilafu imetokea wakati wa kupakia ukurasa huu.",
+            "cause_list": [
+                "Anwani yako ya IP ina idadi isiyo ya kawaida ya miunganisho kwenye seva",
+                "Seva ya asili ina mzigo usiotarajiwa na haiwezi kushughulikia maombi kwa sasa",
+                "Hitilafu isiyotarajiwa imetokea kwenye seva ya asili au wakati wa uhamishaji wa data"
+            ],
+            "description_end": "Tunaomba radhi kwa usumbufu wowote.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Ombi Batili",
+            "description": "Tovuti hii inaweza kufikiwa kupitia HTTPS. Umejaribu kuunganisha kupitia HTTP, na sasa tutajaribu kukuelekeza upya. Usipoelekezwa upya, tafadhali ongeza https:// mwanzoni mwa URL yako na ujaribu tena."
+        },
+        "timeout": {
+            "title": "Seva Haipatikani",
+            "description": "Samahani, muda wa kusubiri umeisha wakati wa kupakia ukurasa huu. Huenda seva ina shughuli nyingi na haiwezi kushughulikia ombi lako kwa sasa.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Kikoa Kisichojulikana",
+            "description": "Kikoa hiki hakijasajiliwa kwa anwani hii ya IP.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Mbinu Isiyotumika",
+            "description": "Mbinu ya HTTP iliyoombwa haijawezeshwa kwa tovuti hii.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Ombi Lisilo Salama",
+            "description": "Itifaki ya HTTPS iliyoombwa haijawezeshwa kwa tovuti hii. Tafadhali sasisha kivinjari chako.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Nje ya Mtandao kwa Matengenezo",
+            "description": "Tovuti hii haipatikani kwa sasa. Inatarajiwa kupatikana tena hivi karibuni.",
+            "refresh_enable": true
+        }
+    }
+}

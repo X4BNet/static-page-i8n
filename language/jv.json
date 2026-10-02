@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Proses iki lumaku kanthi otomatis. Sedhela maneh sampeyan bakal dialihake menyang kaca sing dituju.",
+        "validate_browser": "Mriksa browser sampeyan sadurunge ngakses {http_host}",
+        "are_you_human_host": "Apa sampeyan manungsa? Perlu verifikasi kanggo ngakses {http_host}",
+        "are_you_human": "Apa sampeyan manungsa? Perlu verifikasi supaya bisa nerusake",
+        "enter_captcha_host": "Mangga lebokake CAPTCHA ing ngisor iki kanggo nerusake menyang {http_host}:",
+        "enter_captcha": "Mangga lebokake CAPTCHA ing ngisor iki kanggo nerusake:",
+        "submit": "kirim",
+        "try_again_later": "Situs web iki mbutuhake wektu luwih suwe tinimbang biasane kanggo dimuat. Sampeyan bisa <a href=\"\">nyoba maneh</a> mengko",
+        "unexpected_error": "Kayane ana kaluputan sing ora dikarepake. Mangga <a href=\"\">nyoba maneh</a> mengko",
+        "validation_complete": "<strong>Verifikasi Rampung</strong>. Sampeyan saiki lagi dialihake menyang kaca sing dituju. Klik <a href=\"\">ing kene</a> yen kaca ora dimuat maneh.",
+        "enable_javascript": "Verifikasi browser lumaku paling apik yen JavaScript diaktifake.",
+        "abnormal_activity": "Amarga ana aktivitas sing ora lumrah, sampeyan kudu ngrampungake tugas ing ngisor iki supaya bisa nerusake",
+        "sorry_inconvenience": "Nyuwun pangapura amarga ana rasa ora kepenak",
+        "verifying": "Lagi mriksa"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Ana kaluputan nalika ngemot {host}",
+            "refresh_text": "Mangga coba bukak situs iki mengko utawa klik <a href=\"\">ing kene</a> kanggo ngemot kaca maneh.",
+            "unexpected_error": "Ana kaluputan sing ora dikarepake nalika ngemot kaca iki",
+            "possible_causes": "Sebab sing bisa kedadeyan kalebu:",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Situs Web Ora Bisa Diakses",
+            "description": "Eman, ana kaluputan sing ora dikarepake nalika ngemot kaca iki. Nyuwun pangapura amarga ana rasa ora kepenak. Mangga coba bukak situs iki mengko utawa klik <a href=\"\">ing kene</a> kanggo ngemot kaca maneh."
+        },
+        "suspended": {
+            "title": "Operasi Situs Web Dilereni",
+            "description": "Eman, situs web sing arep sampeyan bukak ora bisa diakses. Nyuwun pangapura amarga ana rasa ora kepenak. Yen sampeyan <strong>sing duwe</strong> situs web iki, mangga <a href=\"https://www.x4b.net/support\">ngubungi layanan pitulungan</a>."
+        },
+        "over_bandwidth": {
+            "title": "Operasi Situs Web Dilereni",
+            "description": "Eman, situs web sing arep sampeyan bukak ora bisa diakses. Nyuwun pangapura amarga ana rasa ora kepenak. Yen sampeyan <strong>sing duwe</strong> situs web iki, mangga <a href=\"https://www.x4b.net/\">ngubungi layanan pitulungan</a>."
+        },
+        "backend": {
+            "title": "Server Ora Bisa Diakses",
+            "description": "Server asal sauntara ora bisa diakses, mula ora bisa ngolah panjaluk iki. Nyuwun pangapura amarga ana rasa ora kepenak.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Wektu Ngenteni Panjaluk Wis Entek",
+            "description": "Nyuwun pangapura, wektu ngenteni wis entek nalika ngemot kaca web iki. Nyuwun pangapura amarga rasa ora kepenak sing bisa ditimbulake.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Akses Ditolak",
+            "description": "Sampeyan ora duwe idin kanggo ngakses kaca iki. Yen iki kaluputan, mangga ngubungi pangurus situs web."
+        },
+        "upstream": {
+            "title": "Server Ora Bisa Diakses",
+            "description": "Saiki ora ana server sing online lan kasedhiya kanggo ngolah panjaluk iki. Nyuwun pangapura amarga ana rasa ora kepenak."
+        },
+        "invalid_configuration": {
+            "title": "Konfigurasi Ora Sah",
+            "description": "Kita ora bisa ngolah panjaluk iki amarga ana kaluputan konfigurasi. Nyuwun pangapura amarga ana rasa ora kepenak."
+        },
+        "resource": {
+            "title": "Kaluputan Akses",
+            "description_start": "Eman, ana kaluputan nalika ngemot kaca iki.",
+            "cause_list": [
+                "Server asal lagi nampa beban sing ora dikarepake lan saiki ora bisa ngolah panjaluk",
+                "Ana kaluputan sing ora dikarepake ing server asal utawa nalika ngirim data"
+            ],
+            "description_end": "Nyuwun pangapura amarga ana rasa ora kepenak.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Kaluputan Akses",
+            "description_start": "Eman, ana kaluputan nalika ngemot kaca iki.",
+            "cause_list": [
+                "Alamat IP sampeyan kadeteksi ngirim panjaluk sing akeh banget menyang server",
+                "Server asal lagi nampa beban sing ora dikarepake lan saiki ora bisa ngolah panjaluk",
+                "Ana kaluputan sing ora dikarepake ing server asal utawa nalika ngirim data"
+            ],
+            "description_end": "Nyuwun pangapura amarga ana rasa ora kepenak.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Kaluputan Akses",
+            "description_start": "Eman, ana kaluputan nalika ngemot kaca iki.",
+            "cause_list": [
+                "Alamat IP sampeyan duwe cacah sambungan menyang server sing ora lumrah",
+                "Server asal lagi nampa beban sing ora dikarepake lan saiki ora bisa ngolah panjaluk",
+                "Ana kaluputan sing ora dikarepake ing server asal utawa nalika ngirim data"
+            ],
+            "description_end": "Nyuwun pangapura amarga ana rasa ora kepenak.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Panjaluk Ora Sah",
+            "description": "Situs web iki bisa diakses liwat HTTPS. Sampeyan wis nyoba nyambung liwat HTTP, lan saiki kita bakal nyoba ngalihake sampeyan. Yen sampeyan ora dialihake, mangga tambahake https:// ing wiwitan URL sampeyan banjur coba maneh."
+        },
+        "timeout": {
+            "title": "Server Ora Bisa Diakses",
+            "description": "Nyuwun pangapura, wektu ngenteni wis entek nalika ngemot kaca iki. Bisa uga server lagi sibuk lan saiki ora bisa ngolah panjaluk sampeyan.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Domain Ora Dikenali",
+            "description": "Domain iki ora kadhaptar ing alamat IP iki.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Metode Ora Didhukung",
+            "description": "Metode HTTP sing dijaluk ora diaktifake kanggo situs web iki.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Panjaluk Ora Aman",
+            "description": "Protokol HTTPS sing dijaluk ora diaktifake kanggo situs web iki. Mangga anyari browser sampeyan.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Ora Aktif Amarga Pangopènan",
+            "description": "Situs web iki saiki ora bisa diakses. Dikarepake situs iki bisa diakses maneh sedhela maneh.",
+            "refresh_enable": true
+        }
+    }
+}

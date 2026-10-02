@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Ìlànà yìí ń ṣiṣẹ́ fúnra rẹ̀. Láìpẹ́, a ó darí yín sí ojú-ewé tí ẹ fẹ́ lọ.",
+        "validate_browser": "A ń ṣàyẹ̀wò aṣàwákiri yín kí ẹ tó wọ {http_host}",
+        "are_you_human_host": "Ṣé ẹ jẹ́ ènìyàn? A nílò ìmúdájú kí ẹ tó wọ {http_host}",
+        "are_you_human": "Ṣé ẹ jẹ́ ènìyàn? A nílò ìmúdájú kí ẹ tó tẹ̀ síwájú",
+        "enter_captcha_host": "Ẹ jọ̀ọ́, tẹ CAPTCHA tó wà nísàlẹ̀ sílẹ̀ láti tẹ̀ síwájú sí {http_host}:",
+        "enter_captcha": "Ẹ jọ̀ọ́, tẹ CAPTCHA tó wà nísàlẹ̀ sílẹ̀ láti tẹ̀ síwájú:",
+        "submit": "firanṣẹ́",
+        "try_again_later": "Ojúlé ayélujára yìí ń gba àkókò púpọ̀ ju bó ṣe máa ń rí lọ láti ṣí. Ẹ lè <a href=\"\">gbìyànjú lẹ́ẹ̀kan sí i</a> nígbà míì",
+        "unexpected_error": "Ó dà bí ẹni pé àṣìṣe àìròtẹ́lẹ̀ kan ti ṣẹlẹ̀. Ẹ jọ̀ọ́, <a href=\"\">gbìyànjú lẹ́ẹ̀kan sí i</a> nígbà míì",
+        "validation_complete": "<strong>Ìmúdájú ti parí</strong>. A ń darí yín sí ojú-ewé tí ẹ fẹ́ lọ báyìí. Ẹ tẹ <a href=\"\">ibí</a> bí ojú-ewé náà kò bá ṣí lẹ́ẹ̀kan sí i.",
+        "enable_javascript": "Ìmúdájú aṣàwákiri máa ń ṣiṣẹ́ dáadáa jù lọ nígbà tí JavaScript bá wà ní títàn.",
+        "abnormal_activity": "Nítorí ìgbòkègbodò tí kò wọ́pọ̀, a nílò kí ẹ parí iṣẹ́ tó wà nísàlẹ̀ kí ẹ lè tẹ̀ síwájú",
+        "sorry_inconvenience": "Ẹ má bínú fún ìdààmú èyíkéyìí",
+        "verifying": "A ń ṣàyẹ̀wò"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Àṣìṣe nígbà tí a ń ṣí {host}",
+            "refresh_text": "Ẹ jọ̀ọ́, ẹ gbìyànjú láti wọ ojúlé náà nígbà míì tàbí ẹ tẹ <a href=\"\">ibí</a> láti ṣí ojú-ewé náà lẹ́ẹ̀kan sí i.",
+            "unexpected_error": "Àṣìṣe àìròtẹ́lẹ̀ kan ṣẹlẹ̀ nígbà tí a ń ṣí ojú-ewé yìí",
+            "possible_causes": "Lára àwọn ohun tó lè fà á ni: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Ojúlé ayélujára kò ṣeé lò",
+            "description": "Ó ṣeni láàánú pé àṣìṣe àìròtẹ́lẹ̀ kan ṣẹlẹ̀ nígbà tí a ń ṣí ojú-ewé yìí. Ẹ má bínú fún ìdààmú èyíkéyìí. Ẹ jọ̀ọ́, ẹ gbìyànjú láti wọ ojúlé náà nígbà míì tàbí ẹ tẹ <a href=\"\">ibí</a> láti ṣí ojú-ewé náà lẹ́ẹ̀kan sí i."
+        },
+        "suspended": {
+            "title": "A ti dá iṣẹ́ ojúlé ayélujára dúró",
+            "description": "Ó ṣeni láàánú pé ojúlé ayélujára tí ẹ fẹ́ ṣèbẹ̀wò sí kò ṣeé lò. Ẹ má bínú fún ìdààmú èyíkéyìí. Bí ẹ bá jẹ́ <strong>oníwun</strong> ojúlé ayélujára yìí, ẹ jọ̀ọ́, <a href=\"https://www.x4b.net/support\">kan sí ẹgbẹ́ ìrànlọ́wọ́</a>."
+        },
+        "over_bandwidth": {
+            "title": "A ti dá iṣẹ́ ojúlé ayélujára dúró",
+            "description": "Ó ṣeni láàánú pé ojúlé ayélujára tí ẹ fẹ́ ṣèbẹ̀wò sí kò ṣeé lò. Ẹ má bínú fún ìdààmú èyíkéyìí. Bí ẹ bá jẹ́ <strong>oníwun</strong> ojúlé ayélujára yìí, ẹ jọ̀ọ́, <a href=\"https://www.x4b.net/\">kan sí ẹgbẹ́ ìrànlọ́wọ́</a>."
+        },
+        "backend": {
+            "title": "Olupin kò ṣeé lò",
+            "description": "Olupin orísun kò ṣeé lò fún ìgbà díẹ̀, nítorí náà kò lè mú ìbéèrè yìí ṣẹ. Ẹ má bínú fún ìdààmú èyíkéyìí.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Àkókò tí a yàn láti dúró fún ìbéèrè ti parí",
+            "description": "Ẹ má bínú, àkókò tí a yàn láti dúró ti parí nígbà tí a ń ṣí ojú-ewé yìí. Ẹ má bínú fún ìdààmú èyíkéyìí tí èyí lè ti fà.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "A kọ̀ láti fún yín láàyè láti wọlé",
+            "description": "Ẹ kò ní àṣẹ láti wọ ojú-ewé yìí. Bí ẹ bá rò pé àṣìṣe ni èyí, ẹ jọ̀ọ́, ẹ kan sí alábòójútó ojúlé náà."
+        },
+        "upstream": {
+            "title": "Olupin kò ṣeé lò",
+            "description": "Kò sí olupin tó wà lórí ayélujára tí ó sì ti ṣetán láti bójú tó ìbéèrè yìí báyìí. Ẹ má bínú fún ìdààmú èyíkéyìí."
+        },
+        "invalid_configuration": {
+            "title": "Ètò tí kò tọ́",
+            "description": "A kò lè mú ìbéèrè yìí ṣẹ nítorí àṣìṣe nínú ètò. Ẹ má bínú fún ìdààmú èyíkéyìí."
+        },
+        "resource": {
+            "title": "Àṣìṣe ìwọlé",
+            "description_start": "Ó ṣeni láàánú pé àṣìṣe kan ṣẹlẹ̀ nígbà tí a ń ṣí ojú-ewé yìí.",
+            "cause_list": [
+                "Olupin orísun ń dojú kọ ẹrù iṣẹ́ àìròtẹ́lẹ̀, kò sì lè bójú tó àwọn ìbéèrè báyìí",
+                "Àṣìṣe àìròtẹ́lẹ̀ kan ṣẹlẹ̀ lórí olupin orísun tàbí nígbà tí a ń gbé dátà lọ"
+            ],
+            "description_end": "Ẹ má bínú fún ìdààmú èyíkéyìí.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Àṣìṣe ìwọlé",
+            "description_start": "Ó ṣeni láàánú pé àṣìṣe kan ṣẹlẹ̀ nígbà tí a ń ṣí ojú-ewé yìí.",
+            "cause_list": [
+                "A ti rí i pé àwọn ìbéèrè tó pọ̀ jù ń wá láti àdírẹ́sì IP yín sí olupin",
+                "Olupin orísun ń dojú kọ ẹrù iṣẹ́ àìròtẹ́lẹ̀, kò sì lè bójú tó àwọn ìbéèrè báyìí",
+                "Àṣìṣe àìròtẹ́lẹ̀ kan ṣẹlẹ̀ lórí olupin orísun tàbí nígbà tí a ń gbé dátà lọ"
+            ],
+            "description_end": "Ẹ má bínú fún ìdààmú èyíkéyìí.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Àṣìṣe ìwọlé",
+            "description_start": "Ó ṣeni láàánú pé àṣìṣe kan ṣẹlẹ̀ nígbà tí a ń ṣí ojú-ewé yìí.",
+            "cause_list": [
+                "Iye àwọn ìsopọ̀ láti àdírẹ́sì IP yín sí olupin kò bá èyí tó wọ́pọ̀ mu",
+                "Olupin orísun ń dojú kọ ẹrù iṣẹ́ àìròtẹ́lẹ̀, kò sì lè bójú tó àwọn ìbéèrè báyìí",
+                "Àṣìṣe àìròtẹ́lẹ̀ kan ṣẹlẹ̀ lórí olupin orísun tàbí nígbà tí a ń gbé dátà lọ"
+            ],
+            "description_end": "Ẹ má bínú fún ìdààmú èyíkéyìí.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Ìbéèrè tí kò tọ́",
+            "description": "A lè wọ ojúlé ayélujára yìí nípasẹ̀ HTTPS. Ẹ ti gbìyànjú láti sopọ̀ nípasẹ̀ HTTP; a ó gbìyànjú láti darí yín sí ibòmíràn báyìí. Bí a kò bá darí yín, ẹ fi https:// kún ìbẹ̀rẹ̀ URL yín kí ẹ sì gbìyànjú lẹ́ẹ̀kan sí i."
+        },
+        "timeout": {
+            "title": "Olupin kò ṣeé lò",
+            "description": "Ẹ má bínú, àkókò tí a yàn láti dúró ti parí nígbà tí a ń ṣí ojú-ewé yìí. Ó ṣeé ṣe kí olupin dí lọ́wọ́, tí kò sì lè bójú tó ìbéèrè yín báyìí.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Dóméènì tí a kò mọ̀",
+            "description": "A kò forúkọ dóméènì yìí sílẹ̀ fún àdírẹ́sì IP yìí.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Ọ̀nà tí a kò ṣe àtìlẹ́yìn fún",
+            "description": "A kò tan ọ̀nà HTTP tí ẹ béèrè fún sí i fún ojúlé yìí.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Ìbéèrè tí kò ní ààbò",
+            "description": "A kò tan ìlànà HTTPS tí ẹ béèrè fún sí i fún ojúlé yìí. Ẹ jọ̀ọ́, ẹ ṣe ìmúdójúìwọ̀n aṣàwákiri yín.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "A ti pa á fún ìtọju",
+            "description": "Ojúlé ayélujára yìí kò ṣeé lò báyìí. A retí pé yóò ṣeé lò lẹ́ẹ̀kan sí i láìpẹ́.",
+            "refresh_enable": true
+        }
+    }
+}

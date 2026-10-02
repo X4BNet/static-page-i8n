@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "此过程会自动完成。您很快就会被重定向到目标页面。",
+        "validate_browser": "访问 {http_host} 前，正在验证您的浏览器",
+        "are_you_human_host": "您是真人吗？访问 {http_host} 前需要完成验证",
+        "are_you_human": "您是真人吗？继续之前需要完成验证",
+        "enter_captcha_host": "请输入下方的 CAPTCHA，以继续访问 {http_host}：",
+        "enter_captcha": "请输入下方的 CAPTCHA 以继续：",
+        "submit": "提交",
+        "try_again_later": "此网站的加载时间比平时更长，您可以稍后<a href=\"\">重试</a>",
+        "unexpected_error": "似乎发生了意外错误，请稍后<a href=\"\">重试</a>",
+        "validation_complete": "<strong>验证完成</strong>。正在将您重定向到目标页面。如果页面没有重新加载，请点击<a href=\"\">此处</a>。",
+        "enable_javascript": "启用 JavaScript 后，浏览器验证效果更佳。",
+        "abnormal_activity": "由于检测到异常活动，您需要完成以下任务才能继续",
+        "sorry_inconvenience": "给您带来不便，我们深表歉意",
+        "verifying": "正在验证"
+    },
+    "error": {
+        "default": {
+            "error_loading": "加载 {host} 时出错",
+            "refresh_text": "请稍后尝试访问此网站，或点击<a href=\"\">此处</a>刷新页面。",
+            "unexpected_error": "加载此页面时发生了意外错误",
+            "possible_causes": "可能的原因包括：",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "网站不可用",
+            "description": "很抱歉，加载此页面时发生了意外错误。给您带来不便，我们深表歉意。请稍后尝试访问此网站，或点击<a href=\"\">此处</a>刷新页面。"
+        },
+        "suspended": {
+            "title": "网站已暂停服务",
+            "description": "很抱歉，您要访问的网站目前不可用。给您带来不便，我们深表歉意。如果您是此网站的<strong>所有者</strong>，请<a href=\"https://www.x4b.net/support\">联系支持团队</a>。"
+        },
+        "over_bandwidth": {
+            "title": "网站已暂停服务",
+            "description": "很抱歉，您要访问的网站目前不可用。给您带来不便，我们深表歉意。如果您是此网站的<strong>所有者</strong>，请<a href=\"https://www.x4b.net/\">联系支持团队</a>。"
+        },
+        "backend": {
+            "title": "服务器不可用",
+            "description": "源服务器暂时不可用，因此无法处理此请求。给您带来不便，我们深表歉意。",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "请求超时",
+            "description": "很抱歉，加载此网页时超时。对于由此可能造成的不便，我们深表歉意。",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "访问被拒绝",
+            "description": "您没有访问此页面的权限。如果您认为这是误判，请联系网站管理员。"
+        },
+        "upstream": {
+            "title": "服务器不可用",
+            "description": "目前没有在线且可用的服务器来处理此请求。给您带来不便，我们深表歉意。"
+        },
+        "invalid_configuration": {
+            "title": "配置无效",
+            "description": "由于配置错误，我们无法处理此请求。给您带来不便，我们深表歉意。"
+        },
+        "resource": {
+            "title": "访问错误",
+            "description_start": "很抱歉，加载此页面时发生了错误。",
+            "cause_list": [
+                "源服务器的负载异常增高，目前无法处理请求",
+                "源服务器上或数据传输过程中发生了意外错误"
+            ],
+            "description_end": "给您带来不便，我们深表歉意。",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "访问错误",
+            "description_start": "很抱歉，加载此页面时发生了错误。",
+            "cause_list": [
+                "检测到您的 IP 地址向服务器发送了过量请求",
+                "源服务器的负载异常增高，目前无法处理请求",
+                "源服务器上或数据传输过程中发生了意外错误"
+            ],
+            "description_end": "给您带来不便，我们深表歉意。",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "访问错误",
+            "description_start": "很抱歉，加载此页面时发生了错误。",
+            "cause_list": [
+                "您的 IP 地址与服务器建立的连接数量异常",
+                "源服务器的负载异常增高，目前无法处理请求",
+                "源服务器上或数据传输过程中发生了意外错误"
+            ],
+            "description_end": "给您带来不便，我们深表歉意。",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "无效请求",
+            "description": "此网站可通过 HTTPS 访问。您尝试使用 HTTP 连接，我们现在将尝试重定向您。如果未能重定向，请在 URL 开头添加 https://，然后重试。"
+        },
+        "timeout": {
+            "title": "服务器不可用",
+            "description": "很抱歉，加载此页面时超时。服务器可能正忙，目前无法处理您的请求。",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "未知域名",
+            "description": "此域名未注册到该 IP 地址。",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "不支持的方法",
+            "description": "此网站未启用所请求的 HTTP 方法。",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "不安全的请求",
+            "description": "此网站未启用所请求的 HTTPS 协议。请更新您的浏览器。",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "维护中，暂时离线",
+            "description": "此网站目前不可用，预计很快会恢复访问。",
+            "refresh_enable": true
+        }
+    }
+}

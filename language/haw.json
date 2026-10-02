@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Hana ʻakomi kēia kaʻina hana. E hoʻohuli koke ʻia ana ʻoe i ka ʻaoʻao āu i makemake ai e kipa.",
+        "validate_browser": "Ke hōʻoia ʻia nei kāu polokalamu kele pūnaewele ma mua o ke komo ʻana i {http_host}",
+        "are_you_human_host": "He kanaka ʻoe? Pono ka hōʻoia ʻana no ke komo ʻana i {http_host}",
+        "are_you_human": "He kanaka ʻoe? Pono ka hōʻoia ʻana no ka hoʻomau ʻana",
+        "enter_captcha_host": "E ʻoluʻolu e hoʻokomo i ka CAPTCHA ma lalo nei no ka hele ʻana i {http_host}:",
+        "enter_captcha": "E ʻoluʻolu e hoʻokomo i ka CAPTCHA ma lalo nei no ka hoʻomau ʻana:",
+        "submit": "hoʻouna",
+        "try_again_later": "ʻOi aku ka lōʻihi o ka hoʻouka ʻana i kēia kahua pūnaewele ma mua o ka maʻamau. Hiki iā ʻoe ke <a href=\"\">hoʻāʻo hou</a> ma hope",
+        "unexpected_error": "Me he mea lā ua kū mai kekahi hewa i manaʻo ʻole ʻia. E ʻoluʻolu e <a href=\"\">hoʻāʻo hou</a> ma hope",
+        "validation_complete": "<strong>Ua pau ka hōʻoia ʻana</strong>. Ke hoʻohuli ʻia nei ʻoe i ka ʻaoʻao āu i makemake ai e kipa. E kaomi <a href=\"\">ma ʻaneʻi</a> inā ʻaʻole e hoʻouka hou ʻia ka ʻaoʻao.",
+        "enable_javascript": "ʻOi aku ka maikaʻi o ka hōʻoia ʻana i ka polokalamu kele pūnaewele ke hoʻā ʻia ʻo JavaScript.",
+        "abnormal_activity": "Ma muli o nā hana maʻamau ʻole, pono ʻoe e hoʻopau i ka hana ma lalo nei no ka hoʻomau ʻana",
+        "sorry_inconvenience": "E kala mai no nā pilikia",
+        "verifying": "Ke hōʻoia ʻia nei"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Hewa i ka hoʻouka ʻana i {host}",
+            "refresh_text": "E ʻoluʻolu e hoʻāʻo e komo i ke kahua ma hope, a i ʻole e kaomi <a href=\"\">ma ʻaneʻi</a> no ka hoʻouka hou ʻana i ka ʻaoʻao.",
+            "unexpected_error": "Ua kū mai kekahi hewa i manaʻo ʻole ʻia i ka wā e hoʻouka ana i kēia ʻaoʻao",
+            "possible_causes": "Eia kekahi mau kumu paha: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "ʻAʻole hiki ke hoʻohana i ke kahua pūnaewele",
+            "description": "Minamina, ua kū mai kekahi hewa i manaʻo ʻole ʻia i ka wā e hoʻouka ana i kēia ʻaoʻao. E kala mai no nā pilikia. E ʻoluʻolu e hoʻāʻo e komo i ke kahua ma hope, a i ʻole e kaomi <a href=\"\">ma ʻaneʻi</a> no ka hoʻouka hou ʻana i ka ʻaoʻao."
+        },
+        "suspended": {
+            "title": "Ua kāpae ʻia ke kahua pūnaewele",
+            "description": "Minamina, ʻaʻole hiki ke hoʻohana i ke kahua pūnaewele āu e hoʻāʻo nei e kipa. E kala mai no nā pilikia. Inā ʻo ʻoe ka <strong>mea nona</strong> kēia kahua pūnaewele, e ʻoluʻolu e <a href=\"https://www.x4b.net/support\">kāhea aku i ke kākoʻo</a>."
+        },
+        "over_bandwidth": {
+            "title": "Ua kāpae ʻia ke kahua pūnaewele",
+            "description": "Minamina, ʻaʻole hiki ke hoʻohana i ke kahua pūnaewele āu e hoʻāʻo nei e kipa. E kala mai no nā pilikia. Inā ʻo ʻoe ka <strong>mea nona</strong> kēia kahua pūnaewele, e ʻoluʻolu e <a href=\"https://www.x4b.net/\">kāhea aku i ke kākoʻo</a>."
+        },
+        "backend": {
+            "title": "ʻAʻole hiki ke hoʻohana i ke kikowaena",
+            "description": "ʻAʻole hiki ke hoʻohana i ke kikowaena kumu no kekahi manawa, no laila ʻaʻole hiki ke hoʻokō i kēia noi. E kala mai no nā pilikia.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Ua pau ka manawa i ʻae ʻia no ke kali ʻana i ka noi",
+            "description": "E kala mai, ua pau ka manawa i ʻae ʻia no ke kali ʻana i ka wā e hoʻouka ana i kēia ʻaoʻao. E kala mai no nā pilikia i kupu paha mai kēia mea.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Ua hōʻole ʻia ke komo ʻana",
+            "description": "ʻAʻohe ou ʻae e komo i kēia ʻaoʻao. Inā manaʻo ʻoe he kuhihewa kēia, e ʻoluʻolu e kāhea aku i ka luna o ke kahua pūnaewele."
+        },
+        "upstream": {
+            "title": "ʻAʻole hiki ke hoʻohana i ke kikowaena",
+            "description": "ʻAʻohe kikowaena i hoʻopili ʻia a hiki ke hoʻohana ʻia no ka lawelawe ʻana i kēia noi i kēia manawa. E kala mai no nā pilikia."
+        },
+        "invalid_configuration": {
+            "title": "Hoʻonohonoho kūpono ʻole",
+            "description": "ʻAʻole hiki iā mākou ke hoʻokō i kēia noi ma muli o ka hewa ma ka hoʻonohonoho ʻana. E kala mai no nā pilikia."
+        },
+        "resource": {
+            "title": "Hewa i ke komo ʻana",
+            "description_start": "Minamina, ua kū mai kekahi hewa i ka wā e hoʻouka ana i kēia ʻaoʻao.",
+            "cause_list": [
+                "Aia ke kikowaena kumu ma lalo o kekahi kaumaha hana i manaʻo ʻole ʻia, a ʻaʻole hiki ke lawelawe i nā noi i kēia manawa",
+                "Ua kū mai kekahi hewa i manaʻo ʻole ʻia ma ke kikowaena kumu a i ʻole i ka wā e hoʻouna ana i ka ʻikepili"
+            ],
+            "description_end": "E kala mai no nā pilikia.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Hewa i ke komo ʻana",
+            "description_start": "Minamina, ua kū mai kekahi hewa i ka wā e hoʻouka ana i kēia ʻaoʻao.",
+            "cause_list": [
+                "Ua ʻike ʻia ka hoʻouna ʻana o kāu helu wahi IP i nā noi nui loa i ke kikowaena",
+                "Aia ke kikowaena kumu ma lalo o kekahi kaumaha hana i manaʻo ʻole ʻia, a ʻaʻole hiki ke lawelawe i nā noi i kēia manawa",
+                "Ua kū mai kekahi hewa i manaʻo ʻole ʻia ma ke kikowaena kumu a i ʻole i ka wā e hoʻouna ana i ka ʻikepili"
+            ],
+            "description_end": "E kala mai no nā pilikia.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Hewa i ke komo ʻana",
+            "description_start": "Minamina, ua kū mai kekahi hewa i ka wā e hoʻouka ana i kēia ʻaoʻao.",
+            "cause_list": [
+                "He helu maʻamau ʻole o nā pilina o kāu helu wahi IP i ke kikowaena",
+                "Aia ke kikowaena kumu ma lalo o kekahi kaumaha hana i manaʻo ʻole ʻia, a ʻaʻole hiki ke lawelawe i nā noi i kēia manawa",
+                "Ua kū mai kekahi hewa i manaʻo ʻole ʻia ma ke kikowaena kumu a i ʻole i ka wā e hoʻouna ana i ka ʻikepili"
+            ],
+            "description_end": "E kala mai no nā pilikia.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Noi kūpono ʻole",
+            "description": "Hiki ke komo i kēia kahua pūnaewele ma o HTTPS. Ua hoʻāʻo ʻoe e hoʻopili ma o HTTP; e hoʻāʻo mākou e hoʻohuli iā ʻoe i kēia manawa. Inā ʻaʻole ʻoe e hoʻohuli ʻia, e hoʻohui iā https:// ma ka hoʻomaka o kāu URL a e hoʻāʻo hou."
+        },
+        "timeout": {
+            "title": "ʻAʻole hiki ke hoʻohana i ke kikowaena",
+            "description": "E kala mai, ua pau ka manawa i ʻae ʻia no ke kali ʻana i ka wā e hoʻouka ana i kēia ʻaoʻao. Paʻahana paha ke kikowaena a ʻaʻole hiki ke lawelawe i kāu noi i kēia manawa.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Kāʻei ʻike ʻole ʻia",
+            "description": "ʻAʻole i hoʻopaʻa inoa ʻia kēia kāʻei no kēia helu wahi IP.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Kaʻina i kākoʻo ʻole ʻia",
+            "description": "ʻAʻole i hoʻā ʻia ke kaʻina HTTP i noi ʻia no kēia kahua pūnaewele.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Noi palekana ʻole",
+            "description": "ʻAʻole i hoʻā ʻia ka lula kamaʻilio HTTPS i noi ʻia no kēia kahua pūnaewele. E ʻoluʻolu e hoʻohou i kāu polokalamu kele pūnaewele.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Paʻa no ka mālama ʻana",
+            "description": "ʻAʻole hiki ke hoʻohana i kēia kahua pūnaewele i kēia manawa. Manaʻo ʻia e hiki ke hoʻohana hou ʻia ma kēia mua koke iho.",
+            "refresh_enable": true
+        }
+    }
+}

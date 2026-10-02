@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Þetta ferli er sjálfvirkt. Þér verður vísað áfram á áfangastaðinn innan skamms.",
+        "validate_browser": "Verið er að athuga vafrann þinn áður en þú opnar {http_host}",
+        "are_you_human_host": "Ertu manneskja? Staðfesting er nauðsynleg til að opna {http_host}",
+        "are_you_human": "Ertu manneskja? Staðfesting er nauðsynleg til að halda áfram",
+        "enter_captcha_host": "Sláðu inn CAPTCHA-kóðann hér fyrir neðan til að halda áfram á {http_host}:",
+        "enter_captcha": "Sláðu inn CAPTCHA-kóðann hér fyrir neðan til að halda áfram:",
+        "submit": "Senda",
+        "try_again_later": "Þessi vefur er lengur að hlaðast en venjulega. Þú getur <a href=\"\">reynt aftur</a> síðar",
+        "unexpected_error": "Svo virðist sem óvænt villa hafi komið upp. <a href=\"\">Reyndu aftur</a> síðar",
+        "validation_complete": "<strong>Staðfestingu lokið</strong>. Nú er þér vísað áfram á áfangastaðinn. Smelltu <a href=\"\">hér</a> ef síðan endurhleðst ekki.",
+        "enable_javascript": "Staðfesting vafrans virkar best þegar JavaScript er virkt.",
+        "abnormal_activity": "Vegna óvenjulegrar virkni þarftu að ljúka verkefninu hér fyrir neðan til að halda áfram",
+        "sorry_inconvenience": "Við biðjumst velvirðingar á þeim óþægindum sem þetta kann að valda",
+        "verifying": "Staðfesting í gangi"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Villa við að hlaða {host}",
+            "refresh_text": "Reyndu að opna vefinn síðar eða smelltu <a href=\"\">hér</a> til að endurhlaða síðuna.",
+            "unexpected_error": "Óvænt villa kom upp við að hlaða þessari síðu",
+            "possible_causes": "Mögulegar orsakir eru meðal annars: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Vefurinn er ekki aðgengilegur",
+            "description": "Því miður kom upp óvænt villa við að hlaða þessari síðu. Við biðjumst velvirðingar á þeim óþægindum sem þetta kann að valda. Reyndu að opna vefinn síðar eða smelltu <a href=\"\">hér</a> til að endurhlaða síðuna."
+        },
+        "suspended": {
+            "title": "Vefurinn hefur verið stöðvaður",
+            "description": "Því miður er vefurinn sem þú ert að reyna að heimsækja ekki aðgengilegur. Við biðjumst velvirðingar á þeim óþægindum sem þetta kann að valda. Ef þú ert <strong>eigandi</strong> þessa vefs skaltu <a href=\"https://www.x4b.net/support\">hafa samband við þjónustuver</a>."
+        },
+        "over_bandwidth": {
+            "title": "Vefurinn hefur verið stöðvaður",
+            "description": "Því miður er vefurinn sem þú ert að reyna að heimsækja ekki aðgengilegur. Við biðjumst velvirðingar á þeim óþægindum sem þetta kann að valda. Ef þú ert <strong>eigandi</strong> þessa vefs skaltu <a href=\"https://www.x4b.net/\">hafa samband við þjónustuver</a>."
+        },
+        "backend": {
+            "title": "Þjónninn er ekki aðgengilegur",
+            "description": "Upprunaþjónninn er tímabundið ekki aðgengilegur og getur því ekki afgreitt þessa beiðni. Við biðjumst velvirðingar á þeim óþægindum sem þetta kann að valda.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Beiðnin rann út á tíma",
+            "description": "Því miður rann biðtíminn út meðan verið var að hlaða þessari vefsíðu. Við biðjumst velvirðingar á þeim óþægindum sem þetta kann að hafa valdið.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Aðgangi hafnað",
+            "description": "Þú hefur ekki heimild til að opna þessa síðu. Ef þú telur að þetta sé villa skaltu hafa samband við stjórnanda vefsins."
+        },
+        "upstream": {
+            "title": "Þjónninn er ekki aðgengilegur",
+            "description": "Enginn þjónn er nú tengdur og tiltækur til að afgreiða þessa beiðni. Við biðjumst velvirðingar á þeim óþægindum sem þetta kann að valda."
+        },
+        "invalid_configuration": {
+            "title": "Ógildar stillingar",
+            "description": "Við getum ekki afgreitt þessa beiðni vegna villu í stillingum. Við biðjumst velvirðingar á þeim óþægindum sem þetta kann að valda."
+        },
+        "resource": {
+            "title": "Aðgangsvilla",
+            "description_start": "Því miður kom upp villa við að hlaða þessari síðu.",
+            "cause_list": [
+                "Upprunaþjónninn er undir óvæntu álagi og getur ekki afgreitt beiðnir eins og er",
+                "Óvænt villa kom upp á upprunaþjóninum eða við gagnaflutning"
+            ],
+            "description_end": "Við biðjumst velvirðingar á þeim óþægindum sem þetta kann að valda.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Aðgangsvilla",
+            "description_start": "Því miður kom upp villa við að hlaða þessari síðu.",
+            "cause_list": [
+                "Greint hefur verið að of margar beiðnir berast þjóninum frá IP-tölunni þinni",
+                "Upprunaþjónninn er undir óvæntu álagi og getur ekki afgreitt beiðnir eins og er",
+                "Óvænt villa kom upp á upprunaþjóninum eða við gagnaflutning"
+            ],
+            "description_end": "Við biðjumst velvirðingar á þeim óþægindum sem þetta kann að valda.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Aðgangsvilla",
+            "description_start": "Því miður kom upp villa við að hlaða þessari síðu.",
+            "cause_list": [
+                "Óvenjulegur fjöldi tenginga við þjóninn kemur frá IP-tölunni þinni",
+                "Upprunaþjónninn er undir óvæntu álagi og getur ekki afgreitt beiðnir eins og er",
+                "Óvænt villa kom upp á upprunaþjóninum eða við gagnaflutning"
+            ],
+            "description_end": "Við biðjumst velvirðingar á þeim óþægindum sem þetta kann að valda.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Ógild beiðni",
+            "description": "Þessi vefur er aðgengilegur með HTTPS. Þú reyndir að tengjast með HTTP. Við munum nú reyna að vísa þér áfram. Ef þér er ekki vísað áfram skaltu bæta https:// fremst við URL-slóðina þína og reyna aftur."
+        },
+        "timeout": {
+            "title": "Þjónninn er ekki aðgengilegur",
+            "description": "Því miður rann biðtíminn út meðan verið var að hlaða þessari síðu. Hugsanlega er þjónninn upptekinn og getur ekki afgreitt beiðnina þína eins og er.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Óþekkt lén",
+            "description": "Þetta lén er ekki skráð á þessa IP-tölu.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Aðferðin er ekki studd",
+            "description": "Umbeðin HTTP-aðferð er ekki virkjuð fyrir þennan vef.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Óörugg beiðni",
+            "description": "Umbeðin HTTPS-samskiptaregla er ekki virkjuð fyrir þennan vef. Uppfærðu vafrann þinn.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Ótengdur vegna viðhalds",
+            "description": "Þessi vefur er ekki aðgengilegur eins og er. Hann ætti að verða aðgengilegur aftur innan skamms.",
+            "refresh_enable": true
+        }
+    }
+}

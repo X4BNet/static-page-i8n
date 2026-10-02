@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Dispela wok i kamap em yet. Klostu bai yu go long pej yu laik lukim.",
+        "validate_browser": "Mipela i sekim brausa bilong yu pastaim, na bihain yu ken go long {http_host}",
+        "are_you_human_host": "Yu wanpela manmeri tru? Yu mas kamapim dispela pastaim bilong go long {http_host}",
+        "are_you_human": "Yu wanpela manmeri tru? Yu mas kamapim dispela pastaim bilong go het",
+        "enter_captcha_host": "Plis taipim CAPTCHA i stap daunbilo bilong go het long {http_host}:",
+        "enter_captcha": "Plis taipim CAPTCHA i stap daunbilo bilong go het:",
+        "submit": "salim",
+        "try_again_later": "Dispela websait i kisim taim longpela moa long opim, winim taim em i save kisim. Yu ken <a href=\"\">traim gen</a> bihain",
+        "unexpected_error": "I luk olsem wanpela popaia mipela i no bin ting bai kamap i bin kamap. Plis <a href=\"\">traim gen</a> bihain",
+        "validation_complete": "<strong>Sek i pinis</strong>. Nau yu go long pej yu laik lukim. Klik <a href=\"\">hia</a> sapos pej i no op gen.",
+        "enable_javascript": "Sek bilong brausa i wok gut moa taim JavaScript i stap on.",
+        "abnormal_activity": "Sampela wok i no bihainim pasin bilong olgeta taim, olsem na yu mas pinisim wok daunbilo bilong go het",
+        "sorry_inconvenience": "Mipela i sori long wanem hevi i kamap",
+        "verifying": "Mipela i sekim"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Popaia long opim {host}",
+            "refresh_text": "Plis traim go long websait bihain, o klik <a href=\"\">hia</a> bilong opim pej gen.",
+            "unexpected_error": "Wanpela popaia mipela i no bin ting bai kamap i kamap taim dispela pej i op",
+            "possible_causes": "Ol samting i ken kamapim dispela hevi em:",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Yu No Inap Yusim Websait",
+            "description": "Sori, wanpela popaia mipela i no bin ting bai kamap i kamap taim dispela pej i op. Mipela i sori long dispela hevi. Plis traim go long websait bihain, o klik <a href=\"\">hia</a> bilong opim pej gen."
+        },
+        "suspended": {
+            "title": "Ol i Stopim Websait",
+            "description": "Sori, yu no inap yusim websait yu laik lukim. Mipela i sori long dispela hevi. Sapos yu <strong>papa o mama bilong</strong> dispela websait, plis <a href=\"https://www.x4b.net/support\">toktok wantaim lain bilong helpim yu</a>."
+        },
+        "over_bandwidth": {
+            "title": "Ol i Stopim Websait",
+            "description": "Sori, yu no inap yusim websait yu laik lukim. Mipela i sori long dispela hevi. Sapos yu <strong>papa o mama bilong</strong> dispela websait, plis <a href=\"https://www.x4b.net/\">toktok wantaim lain bilong helpim yu</a>."
+        },
+        "backend": {
+            "title": "Yu No Inap Yusim Seva",
+            "description": "Seva we ol data i kam long en i no stap redi long dispela sotpela taim, olsem na em i no inap bekim dispela askim. Mipela i sori long dispela hevi.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Taim Bilong Wetim Askim i Pinis",
+            "description": "Sori, taim bilong wet i pinis taim dispela pej i op. Mipela i sori long wanem hevi dispela i ken kamapim.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Yu No Gat Tok Orait Bilong Go Insait",
+            "description": "Yu no gat tok orait bilong go insait long dispela pej. Sapos dispela em i popaia, plis toktok wantaim man o meri i lukautim websait."
+        },
+        "upstream": {
+            "title": "Yu No Inap Yusim Seva",
+            "description": "Nau i no gat wanpela seva i stap long net na i redi long bekim dispela askim. Mipela i sori long dispela hevi."
+        },
+        "invalid_configuration": {
+            "title": "Seting i No Stret",
+            "description": "Mipela i no inap bekim dispela askim bikos seting i gat popaia. Mipela i sori long dispela hevi."
+        },
+        "resource": {
+            "title": "Popaia Long Go Insait",
+            "description_start": "Sori, wanpela popaia i kamap taim dispela pej i op.",
+            "cause_list": [
+                "Seva we ol data i kam long en i kisim planti wok winim wanem mipela i bin ting, na nau em i no inap bekim ol askim",
+                "Wanpela popaia mipela i no bin ting bai kamap i kamap long seva we ol data i kam long en, o taim ol data i go long net"
+            ],
+            "description_end": "Mipela i sori long dispela hevi.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Popaia Long Go Insait",
+            "description_start": "Sori, wanpela popaia i kamap taim dispela pej i op.",
+            "cause_list": [
+                "Mipela i luksave olsem IP adres bilong yu i salim planti askim tumas i go long seva",
+                "Seva we ol data i kam long en i kisim planti wok winim wanem mipela i bin ting, na nau em i no inap bekim ol askim",
+                "Wanpela popaia mipela i no bin ting bai kamap i kamap long seva we ol data i kam long en, o taim ol data i go long net"
+            ],
+            "description_end": "Mipela i sori long dispela hevi.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Popaia Long Go Insait",
+            "description_start": "Sori, wanpela popaia i kamap taim dispela pej i op.",
+            "cause_list": [
+                "IP adres bilong yu i gat namba bilong ol koneksen long seva we i narapela long namba bilong olgeta taim",
+                "Seva we ol data i kam long en i kisim planti wok winim wanem mipela i bin ting, na nau em i no inap bekim ol askim",
+                "Wanpela popaia mipela i no bin ting bai kamap i kamap long seva we ol data i kam long en, o taim ol data i go long net"
+            ],
+            "description_end": "Mipela i sori long dispela hevi.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Askim i No Stret",
+            "description": "Yu ken go long dispela websait long rot bilong HTTPS. Yu bin traim konek long HTTP, na nau mipela bai traim salim yu i go long rot i stret. Sapos yu no go, plis putim https:// long stat bilong URL bilong yu na traim gen."
+        },
+        "timeout": {
+            "title": "Yu No Inap Yusim Seva",
+            "description": "Sori, taim bilong wet i pinis taim dispela pej i op. Ating seva i gat planti wok na nau em i no inap bekim askim bilong yu.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Domen Mipela i No Save Long En",
+            "description": "Dispela domen i no rejista long dispela IP adres.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Pasin Bilong Wok i No Gat Sapot",
+            "description": "Dispela websait i no onim HTTP metod yu askim long en.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Askim i No Seif",
+            "description": "Dispela websait i no onim HTTPS protokol yu askim long en. Plis kisim nupela vesin bilong brausa bilong yu.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Sevis i Stop Bilong Wok Lukaut",
+            "description": "Yu no inap yusim dispela websait nau. Mipela i ting em bai redi gen klostu.",
+            "refresh_enable": true
+        }
+    }
+}

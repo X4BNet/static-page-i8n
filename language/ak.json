@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Saa adeyɛ yi kɔ so ankasa. Ɛrenkyɛ wɔde wo bɛkɔ baabi a wopɛ sɛ wokɔ no.",
+        "validate_browser": "Yɛrehwɛ wo brawsa no mu ansa na woakɔ {http_host}",
+        "are_you_human_host": "Woyɛ onipa anaa? Ɛhia sɛ wɔyɛ nhwehwɛmu ansa na woakɔ {http_host}",
+        "are_you_human": "Woyɛ onipa anaa? Ɛhia sɛ wɔyɛ nhwehwɛmu ansa na woatoa so",
+        "enter_captcha_host": "Yɛsrɛ wo, twerɛ CAPTCHA a ɛwɔ aseɛ ha no na woakɔ {http_host}:",
+        "enter_captcha": "Yɛsrɛ wo, twerɛ CAPTCHA a ɛwɔ aseɛ ha no na woatoa so:",
+        "submit": "fa kɔ",
+        "try_again_later": "Saa wɛbsaet yi rebue kyɛ sene sɛdeɛ ɛtaa yɛ. Wobɛtumi <a href=\"\">asɔ ahwɛ bio</a> akyire yi",
+        "unexpected_error": "Ɛte sɛ mfomsoɔ bi a yɛnhwɛ anim asi. Yɛsrɛ wo, <a href=\"\">sɔ hwɛ bio</a> akyire yi",
+        "validation_complete": "<strong>Nhwehwɛmu no awie</strong>. Seesei wɔde wo rekɔ baabi a wopɛ sɛ wokɔ no. Sɛ kratafa no ammue bio a, mia <a href=\"\">ha</a>.",
+        "enable_javascript": "Sɛ JavaScript yɛ adwuma a, brawsa no mu nhwehwɛmu yɛ adwuma yie paa.",
+        "abnormal_activity": "Esiane dwumadie bi a ɛnyɛ daa deɛ nti, ɛhia sɛ wowie adwuma a ɛwɔ aseɛ ha no ansa na woatoa so",
+        "sorry_inconvenience": "Yɛpa wo kyɛw wɔ ɔhaw biara ho",
+        "verifying": "Yɛrehwɛ mu"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Mfomsoɔ bi asi wɔ {host} a yɛrebue no mu",
+            "refresh_text": "Yɛsrɛ wo, sɔ hwɛ sɛ wobɛkɔ wɛbsaet no so akyire yi, anaa mia <a href=\"\">ha</a> na kratafa no abue bio.",
+            "unexpected_error": "Mfomsoɔ bi a yɛnhwɛ anim asi berɛ a yɛrebue saa kratafa yi",
+            "possible_causes": "Deɛ ɛbɛtumi ama eyi aba bi ne: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Wɔrentumi mfa wɛbsaet no nyɛ adwuma",
+            "description": "Awerɛhosɛm ne sɛ mfomsoɔ bi a yɛnhwɛ anim asi berɛ a yɛrebue saa kratafa yi. Yɛpa wo kyɛw wɔ ɔhaw biara ho. Yɛsrɛ wo, sɔ hwɛ sɛ wobɛkɔ wɛbsaet no so akyire yi, anaa mia <a href=\"\">ha</a> na kratafa no abue bio."
+        },
+        "suspended": {
+            "title": "Wɔama wɛbsaet no dwumadie agyina",
+            "description": "Awerɛhosɛm ne sɛ wɔrentumi mfa wɛbsaet a worebɔ mmɔden sɛ wobɛkɔ so no nyɛ adwuma. Yɛpa wo kyɛw wɔ ɔhaw biara ho. Sɛ woyɛ saa wɛbsaet yi <strong>wura</strong> a, yɛsrɛ wo, <a href=\"https://www.x4b.net/support\">di mmoa kuo no nkitaho</a>."
+        },
+        "over_bandwidth": {
+            "title": "Wɔama wɛbsaet no dwumadie agyina",
+            "description": "Awerɛhosɛm ne sɛ wɔrentumi mfa wɛbsaet a worebɔ mmɔden sɛ wobɛkɔ so no nyɛ adwuma. Yɛpa wo kyɛw wɔ ɔhaw biara ho. Sɛ woyɛ saa wɛbsaet yi <strong>wura</strong> a, yɛsrɛ wo, <a href=\"https://www.x4b.net/\">di mmoa kuo no nkitaho</a>."
+        },
+        "backend": {
+            "title": "Wɔrentumi mfa sɛɛva no nyɛ adwuma",
+            "description": "Wɔrentumi mfa sɛɛva a wɛbsaet no firi so no nyɛ adwuma seesei, enti ɛrentumi nni saa adesrɛ yi ho dwuma. Yɛpa wo kyɛw wɔ ɔhaw biara ho.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Berɛ a wɔahyɛ ama adesrɛ no atwam",
+            "description": "Yɛpa wo kyɛw, berɛ a wɔahyɛ ama yɛn sɛ yɛntwɛn no atwam berɛ a yɛrebue saa kratafa yi. Yɛpa wo kyɛw wɔ ɔhaw biara a ɛbɛtumi de aba ho.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Wɔamma wo kwan sɛ wobɛkɔ mu",
+            "description": "Wunni kwan sɛ wobɛkɔ saa kratafa yi so. Sɛ wosusu sɛ eyi yɛ mfomsoɔ a, yɛsrɛ wo, di wɛbsaet no sohwɛfoɔ nkitaho."
+        },
+        "upstream": {
+            "title": "Wɔrentumi mfa sɛɛva no nyɛ adwuma",
+            "description": "Seesei, sɛɛva biara nni intanɛt so a ɛwɔ hɔ sɛ ɛbɛdi saa adesrɛ yi ho dwuma. Yɛpa wo kyɛw wɔ ɔhaw biara ho."
+        },
+        "invalid_configuration": {
+            "title": "Nhyehyɛeɛ a ɛnteɛ",
+            "description": "Esiane mfomsoɔ bi a ɛwɔ nhyehyɛeɛ no mu nti, yɛrentumi nni saa adesrɛ yi ho dwuma. Yɛpa wo kyɛw wɔ ɔhaw biara ho."
+        },
+        "resource": {
+            "title": "Mfomsoɔ wɔ mu a worekɔ no mu",
+            "description_start": "Awerɛhosɛm ne sɛ mfomsoɔ bi asi berɛ a yɛrebue saa kratafa yi.",
+            "cause_list": [
+                "Adwuma a yɛnhwɛ anim ada sɛɛva a wɛbsaet no firi so no so, na seesei ɛrentumi nni adesrɛ ho dwuma",
+                "Mfomsoɔ bi a yɛnhwɛ anim asi wɔ sɛɛva a wɛbsaet no firi so no so anaa berɛ a wɔde nsɛm no rekɔ no"
+            ],
+            "description_end": "Yɛpa wo kyɛw wɔ ɔhaw biara ho.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Mfomsoɔ wɔ mu a worekɔ no mu",
+            "description_start": "Awerɛhosɛm ne sɛ mfomsoɔ bi asi berɛ a yɛrebue saa kratafa yi.",
+            "cause_list": [
+                "Yɛahu sɛ wo IP adrɛs no de adesrɛ pii a ɛboro so rekɔ sɛɛva no so",
+                "Adwuma a yɛnhwɛ anim ada sɛɛva a wɛbsaet no firi so no so, na seesei ɛrentumi nni adesrɛ ho dwuma",
+                "Mfomsoɔ bi a yɛnhwɛ anim asi wɔ sɛɛva a wɛbsaet no firi so no so anaa berɛ a wɔde nsɛm no rekɔ no"
+            ],
+            "description_end": "Yɛpa wo kyɛw wɔ ɔhaw biara ho.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Mfomsoɔ wɔ mu a worekɔ no mu",
+            "description_start": "Awerɛhosɛm ne sɛ mfomsoɔ bi asi berɛ a yɛrebue saa kratafa yi.",
+            "cause_list": [
+                "Nkitahodie dodoɔ a ɛnyɛ daa deɛ wɔ wo IP adrɛs no ne sɛɛva no ntam",
+                "Adwuma a yɛnhwɛ anim ada sɛɛva a wɛbsaet no firi so no so, na seesei ɛrentumi nni adesrɛ ho dwuma",
+                "Mfomsoɔ bi a yɛnhwɛ anim asi wɔ sɛɛva a wɛbsaet no firi so no so anaa berɛ a wɔde nsɛm no rekɔ no"
+            ],
+            "description_end": "Yɛpa wo kyɛw wɔ ɔhaw biara ho.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Adesrɛ a ɛnteɛ",
+            "description": "Wobɛtumi afa HTTPS so akɔ saa wɛbsaet yi. Wobɔɔ mmɔden sɛ wobɛfa HTTP so akɔ mu; seesei yɛbɛbɔ mmɔden de wo akɔ foforɔ. Sɛ wɔamfa wo ankɔ a, yɛsrɛ wo, fa https:// ka wo URL no mfitiaseɛ na sɔ hwɛ bio."
+        },
+        "timeout": {
+            "title": "Wɔrentumi mfa sɛɛva no nyɛ adwuma",
+            "description": "Yɛpa wo kyɛw, berɛ a wɔahyɛ ama yɛn sɛ yɛntwɛn no atwam berɛ a yɛrebue saa kratafa yi. Ɛbɛtumi aba sɛ sɛɛva no nni adagyew, na ɛrentumi nni wo adesrɛ no ho dwuma seesei.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Domeen a yɛnnim",
+            "description": "Wɔntwerɛɛ saa domeen yi din mmaa saa IP adrɛs yi.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Ɔkwan a wɔmmoa",
+            "description": "Wɔnsɔɔ HTTP kwan a woasrɛ no wɔ saa wɛbsaet yi mu.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Adesrɛ a ahobanbɔ nni mu",
+            "description": "Wɔnsɔɔ HTTPS protokol a woasrɛ no wɔ saa wɛbsaet yi mu. Yɛsrɛ wo, yɛ wo brawsa no foforɔ.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Wɔato mu reyɛ nsiesie",
+            "description": "Wɔrentumi mfa saa wɛbsaet yi nyɛ adwuma seesei. Yɛhwɛ kwan sɛ ɛrenkyɛ wɔbɛtumi de ayɛ adwuma bio.",
+            "refresh_enable": true
+        }
+    }
+}

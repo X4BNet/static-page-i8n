@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Awtomatiko kini nga proseso. Sa dili madugay, ibalhin ka ngadto sa panid nga gusto nimong adtoon.",
+        "validate_browser": "Gisusi ang imong browser sa dili pa mo-access sa {http_host}",
+        "are_you_human_host": "Tawo ka ba? Gikinahanglan ang pagpamatuod aron maka-access sa {http_host}",
+        "are_you_human": "Tawo ka ba? Gikinahanglan ang pagpamatuod aron makapadayon",
+        "enter_captcha_host": "Palihog isulod ang CAPTCHA sa ubos aron makapadayon ngadto sa {http_host}:",
+        "enter_captcha": "Palihog isulod ang CAPTCHA sa ubos aron makapadayon:",
+        "submit": "ipadala",
+        "try_again_later": "Mas dugay kay sa naandan ang pagkarga niini nga website. Mahimo kang <a href=\"\">mosulay pag-usab</a> sa ulahi",
+        "unexpected_error": "Morag adunay wala damhang sayop nga nahitabo. Palihog <a href=\"\">sulayi pag-usab</a> sa ulahi",
+        "validation_complete": "<strong>Nahuman na ang pagpamatuod</strong>. Gibalhin ka na ngadto sa panid nga gusto nimong adtoon. I-klik <a href=\"\">dinhi</a> kon dili mokarga pag-usab ang panid.",
+        "enable_javascript": "Labing maayo ang pagsusi sa browser kon naka-enable ang JavaScript.",
+        "abnormal_activity": "Tungod sa dili kasagarang kalihokan, kinahanglan nimong humanon ang buluhaton sa ubos aron makapadayon",
+        "sorry_inconvenience": "Nangayo kami og pasaylo sa bisan unsang kahasol",
+        "verifying": "Gipamatud-an"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Sayop sa pagkarga sa {host}",
+            "refresh_text": "Palihog sulayi ang pagbisita sa site sa ulahi o i-klik <a href=\"\">dinhi</a> aron ikarga pag-usab ang panid.",
+            "unexpected_error": "Adunay wala damhang sayop nga nahitabo samtang gikarga kini nga panid",
+            "possible_causes": "Ang posibleng mga hinungdan naglakip sa:",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Dili Magamit ang Website",
+            "description": "Ikasubo, adunay wala damhang sayop nga nahitabo samtang gikarga kini nga panid. Nangayo kami og pasaylo sa kahasol. Palihog sulayi ang pagbisita sa site sa ulahi o i-klik <a href=\"\">dinhi</a> aron ikarga pag-usab ang panid."
+        },
+        "suspended": {
+            "title": "Gisuspenso ang Website",
+            "description": "Ikasubo, dili magamit ang website nga imong gisulayang bisitahon. Nangayo kami og pasaylo sa kahasol. Kon ikaw ang <strong>tag-iya</strong> niini nga website, palihog <a href=\"https://www.x4b.net/support\">kontaka ang suporta</a>."
+        },
+        "over_bandwidth": {
+            "title": "Gisuspenso ang Website",
+            "description": "Ikasubo, dili magamit ang website nga imong gisulayang bisitahon. Nangayo kami og pasaylo sa kahasol. Kon ikaw ang <strong>tag-iya</strong> niini nga website, palihog <a href=\"https://www.x4b.net/\">kontaka ang suporta</a>."
+        },
+        "backend": {
+            "title": "Dili Magamit ang Server",
+            "description": "Temporaryong dili magamit ang gigikanang server ug busa dili niini maproseso kini nga hangyo. Nangayo kami og pasaylo sa kahasol.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Milapas sa Takdang Oras ang Hangyo",
+            "description": "Pasayloa kami, milapas sa takdang oras ang pagkarga niini nga web page. Nangayo kami og pasaylo sa bisan unsang kahasol nga nahimo niini.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Gibalibaran ang Pag-access",
+            "description": "Wala kay pagtugot sa pag-access niini nga panid. Kon sayop kini, palihog kontaka ang tigdumala sa website."
+        },
+        "upstream": {
+            "title": "Dili Magamit ang Server",
+            "description": "Sa pagkakaron, walay server nga online ug magamit sa pagproseso niini nga hangyo. Nangayo kami og pasaylo sa kahasol."
+        },
+        "invalid_configuration": {
+            "title": "Dili Balidong Konpigurasyon",
+            "description": "Dili namo maproseso kini nga hangyo tungod sa sayop sa konpigurasyon. Nangayo kami og pasaylo sa kahasol."
+        },
+        "resource": {
+            "title": "Sayop sa Pag-access",
+            "description_start": "Ikasubo, adunay sayop nga nahitabo samtang gikarga kini nga panid.",
+            "cause_list": [
+                "Ang gigikanang server nakasinati og wala damhang kadaghan sa trabaho ug dili makaproseso og mga hangyo sa pagkakaron",
+                "Adunay wala damhang sayop nga nahitabo sa gigikanang server o samtang gipadala ang datos"
+            ],
+            "description_end": "Nangayo kami og pasaylo sa kahasol.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Sayop sa Pag-access",
+            "description_start": "Ikasubo, adunay sayop nga nahitabo samtang gikarga kini nga panid.",
+            "cause_list": [
+                "Namatikdan nga ang imong IP address nagpadala og sobra kadaghan nga hangyo ngadto sa server",
+                "Ang gigikanang server nakasinati og wala damhang kadaghan sa trabaho ug dili makaproseso og mga hangyo sa pagkakaron",
+                "Adunay wala damhang sayop nga nahitabo sa gigikanang server o samtang gipadala ang datos"
+            ],
+            "description_end": "Nangayo kami og pasaylo sa kahasol.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Sayop sa Pag-access",
+            "description_start": "Ikasubo, adunay sayop nga nahitabo samtang gikarga kini nga panid.",
+            "cause_list": [
+                "Ang imong IP address adunay dili kasagarang gidaghanon sa mga koneksyon ngadto sa server",
+                "Ang gigikanang server nakasinati og wala damhang kadaghan sa trabaho ug dili makaproseso og mga hangyo sa pagkakaron",
+                "Adunay wala damhang sayop nga nahitabo sa gigikanang server o samtang gipadala ang datos"
+            ],
+            "description_end": "Nangayo kami og pasaylo sa kahasol.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Dili Balidong Hangyo",
+            "description": "Ma-access kini nga website pinaagi sa HTTPS. Misulay ka sa pagkonektar pinaagi sa HTTP, ug karon sulayan namo nga ibalhin ka. Kon dili ka mabalhin, palihog idugang ang https:// sa sinugdanan sa imong URL ug sulayi pag-usab."
+        },
+        "timeout": {
+            "title": "Dili Magamit ang Server",
+            "description": "Pasayloa kami, milapas sa takdang oras ang pagkarga niini nga panid. Posibleng daghan og gibuhat ang server ug dili niini maproseso ang imong hangyo sa pagkakaron.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Wala Mailhing Domain",
+            "description": "Kini nga domain wala marehistro niini nga IP address.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Dili Suportadong Pamaagi",
+            "description": "Ang gihangyong pamaagi sa HTTP wala gi-enable alang niini nga website.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Dili Luwas nga Hangyo",
+            "description": "Ang gihangyong protokol sa HTTPS wala gi-enable alang niini nga website. Palihog i-update ang imong browser.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Offline alang sa Pagmintinar",
+            "description": "Dili magamit kini nga website sa pagkakaron. Gilaom nga magamit kini pag-usab sa dili madugay.",
+            "refresh_enable": true
+        }
+    }
+}

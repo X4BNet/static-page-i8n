@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "E otometi lenei faiga. E lē o toe umi ae ave oe i le nofoaga o loo e fia alu i ai.",
+        "validate_browser": "O loo faamaonia lau polokalame su'esu'e a o le'i ulufale i {http_host}",
+        "are_you_human_host": "O oe o se tagata? E mana'omia le faamaoniga e ulufale ai i {http_host}",
+        "are_you_human": "O oe o se tagata? E mana'omia le faamaoniga e faaauau ai",
+        "enter_captcha_host": "Faamolemole tusia le CAPTCHA o loo i lalo e faaauau ai i {http_host}:",
+        "enter_captcha": "Faamolemole tusia le CAPTCHA o loo i lalo e faaauau ai:",
+        "submit": "lafo",
+        "try_again_later": "Ua umi atu nai lo le masani ona utaina lenei upega tafa'ilagi. Atonu e te mana'o e <a href=\"\">toe taumafai</a> i se taimi mulimuli ane",
+        "unexpected_error": "E foliga mai ua tupu se mea sesē e le'i faatalitalia. Faamolemole <a href=\"\">toe taumafai</a> i se taimi mulimuli ane",
+        "validation_complete": "<strong>Ua mae'a le faamaoniga</strong>. O lea ua ave oe i le nofoaga o loo e fia alu i ai. Kiliki <a href=\"\">iinei</a> pe a lē toe utaina le itulau.",
+        "enable_javascript": "E sili ona lelei le faamaoniga o le polokalame su'esu'e pe a ki le JavaScript.",
+        "abnormal_activity": "Ona o ni gaioiga e lē masani ai, e tatau ona e faamae'a le galuega o loo i lalo ina ia mafai ona faaauau",
+        "sorry_inconvenience": "Matou te faamalie atu mo so o se faalavelave",
+        "verifying": "O loo faamaonia"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Ua sesē le utaina o {host}",
+            "refresh_text": "Faamolemole toe taumafai e ulufale i le upega tafa'ilagi i se taimi mulimuli ane, pe kiliki <a href=\"\">iinei</a> e toe utaina ai le itulau.",
+            "unexpected_error": "Na tupu se mea sesē e le'i faatalitalia a o utaina lenei itulau",
+            "possible_causes": "O nisi o māfuaaga e ono iai:",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "E lē o avanoa le upega tafa'ilagi",
+            "description": "Ae paga lea, na tupu se mea sesē e le'i faatalitalia a o utaina lenei itulau. Matou te faamalie atu mo so o se faalavelave. Faamolemole toe taumafai e ulufale i le upega tafa'ilagi i se taimi mulimuli ane, pe kiliki <a href=\"\">iinei</a> e toe utaina ai le itulau."
+        },
+        "suspended": {
+            "title": "Ua taofia le upega tafa'ilagi",
+            "description": "Ae paga lea, e lē o avanoa le upega tafa'ilagi o loo e taumafai e asiasi i ai. Matou te faamalie atu mo so o se faalavelave. Afai o oe o lē e <strong>ana</strong> lenei upega tafa'ilagi, faamolemole <a href=\"https://www.x4b.net/support\">faafesoota'i le vaega fesoasoani</a>."
+        },
+        "over_bandwidth": {
+            "title": "Ua taofia le upega tafa'ilagi",
+            "description": "Ae paga lea, e lē o avanoa le upega tafa'ilagi o loo e taumafai e asiasi i ai. Matou te faamalie atu mo so o se faalavelave. Afai o oe o lē e <strong>ana</strong> lenei upega tafa'ilagi, faamolemole <a href=\"https://www.x4b.net/\">faafesoota'i le vaega fesoasoani</a>."
+        },
+        "backend": {
+            "title": "E lē o avanoa le server",
+            "description": "E lē o avanoa mo sina taimi le server autū e maua mai ai le upega tafa'ilagi, o lea e lē mafai ai ona tali i lenei talosaga. Matou te faamalie atu mo so o se faalavelave.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Ua uma le taimi faatulagaina mo le talosaga",
+            "description": "Faamalie atu, na uma le taimi faatulagaina a o utaina lenei itulau o le upega tafa'ilagi. Matou te faamalie atu mo so o se faalavelave na ono tupu mai ai.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Ua lē faatagaina le ulufale",
+            "description": "E lē o iai sau faatagaga e ulufale ai i lenei itulau. Afai ua sesē lenei mea, faamolemole faafesoota'i le pule o le upega tafa'ilagi."
+        },
+        "upstream": {
+            "title": "E lē o avanoa le server",
+            "description": "E leai se server o loo i luga o le upega ma avanoa i le taimi nei e faatino ai lenei talosaga. Matou te faamalie atu mo so o se faalavelave."
+        },
+        "invalid_configuration": {
+            "title": "Ua sesē faatulagaga",
+            "description": "E lē mafai ona matou faatinoina lenei talosaga ona ua sesē faatulagaga. Matou te faamalie atu mo so o se faalavelave."
+        },
+        "resource": {
+            "title": "Sesē i le ulufale",
+            "description_start": "Ae paga lea, na tupu se mea sesē a o utaina lenei itulau.",
+            "cause_list": [
+                "Ua tele galuega e le'i faatalitalia o loo feagai ma le server autū, ma e lē mafai ona faatino talosaga i le taimi nei",
+                "Na tupu se mea sesē e le'i faatalitalia i le server autū po o le taimi na auina atu ai faamatalaga"
+            ],
+            "description_end": "Matou te faamalie atu mo so o se faalavelave.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Sesē i le ulufale",
+            "description_start": "Ae paga lea, na tupu se mea sesē a o utaina lenei itulau.",
+            "cause_list": [
+                "Ua iloa o loo auina mai se aofa'iga tele naua o talosaga i le server mai lau tuatusi IP",
+                "Ua tele galuega e le'i faatalitalia o loo feagai ma le server autū, ma e lē mafai ona faatino talosaga i le taimi nei",
+                "Na tupu se mea sesē e le'i faatalitalia i le server autū po o le taimi na auina atu ai faamatalaga"
+            ],
+            "description_end": "Matou te faamalie atu mo so o se faalavelave.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Sesē i le ulufale",
+            "description_start": "Ae paga lea, na tupu se mea sesē a o utaina lenei itulau.",
+            "cause_list": [
+                "E lē masani ai le aofa'iga o fesoota'iga i le server mai lau tuatusi IP",
+                "Ua tele galuega e le'i faatalitalia o loo feagai ma le server autū, ma e lē mafai ona faatino talosaga i le taimi nei",
+                "Na tupu se mea sesē e le'i faatalitalia i le server autū po o le taimi na auina atu ai faamatalaga"
+            ],
+            "description_end": "Matou te faamalie atu mo so o se faalavelave.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Ua lē sa'o le talosaga",
+            "description": "E mafai ona ulufale i lenei upega tafa'ilagi e ala i le HTTPS. Na e taumafai e fesoota'i e ala i le HTTP, ma o le a matou taumafai nei e toe faasino atu oe. Afai e lē toe faasino atu oe, faaopoopo le https:// i le amataga o lau URL ma toe taumafai."
+        },
+        "timeout": {
+            "title": "E lē o avanoa le server",
+            "description": "Faamalie atu, na uma le taimi faatulagaina a o utaina lenei itulau. Atonu o loo pisi le server ma e lē mafai ona faatino lau talosaga i le taimi nei.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "E lē iloa le igoa o le domain",
+            "description": "E le'i resitalaina lenei domain i lenei tuatusi IP.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "E lē lagolagoina le auala",
+            "description": "E le'i kiina mo lenei upega tafa'ilagi le auala HTTP na talosagaina.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "E lē malupuipuia le talosaga",
+            "description": "E le'i kiina mo lenei upega tafa'ilagi le protocol HTTPS na talosagaina. Faamolemole faafou lau polokalame su'esu'e.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Ua lē i luga o le upega ona o galuega faaleleia",
+            "description": "E lē o avanoa lenei upega tafa'ilagi i le taimi nei. Ua faamoemoe e toe avanoa i se taimi lata mai.",
+            "refresh_enable": true
+        }
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Ce processus est automatique. Vous serez bientôt redirigé vers la destination souhaitée.",
+        "validate_browser": "Vérification de votre navigateur avant d’accéder à {http_host}",
+        "are_you_human_host": "Êtes-vous humain ? Une vérification est nécessaire pour accéder à {http_host}",
+        "are_you_human": "Êtes-vous humain ? Une vérification est nécessaire pour continuer",
+        "enter_captcha_host": "Veuillez saisir le CAPTCHA ci-dessous pour accéder à {http_host} :",
+        "enter_captcha": "Veuillez saisir le CAPTCHA ci-dessous pour continuer :",
+        "submit": "Envoyer",
+        "try_again_later": "Le chargement de ce site prend plus de temps que d’habitude. Vous pouvez <a href=\"\">réessayer</a> plus tard",
+        "unexpected_error": "Une erreur inattendue semble s’être produite. Veuillez <a href=\"\">réessayer</a> plus tard",
+        "validation_complete": "<strong>Vérification terminée</strong>. Vous êtes maintenant redirigé vers la destination souhaitée. Cliquez <a href=\"\">ici</a> si la page ne se recharge pas.",
+        "enable_javascript": "La vérification du navigateur fonctionne mieux lorsque JavaScript est activé.",
+        "abnormal_activity": "En raison d’une activité inhabituelle, nous vous demandons d’effectuer la tâche ci-dessous pour continuer",
+        "sorry_inconvenience": "Nous vous prions de nous excuser pour la gêne occasionnée",
+        "verifying": "Vérification en cours"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Erreur lors du chargement de {host}",
+            "refresh_text": "Veuillez réessayer d’accéder au site plus tard ou cliquer <a href=\"\">ici</a> pour recharger la page.",
+            "unexpected_error": "Une erreur inattendue s’est produite lors du chargement de cette page",
+            "possible_causes": "Causes possibles : ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Site indisponible",
+            "description": "Une erreur inattendue s’est malheureusement produite lors du chargement de cette page. Nous vous prions de nous excuser pour la gêne occasionnée. Veuillez réessayer d’accéder au site plus tard ou cliquer <a href=\"\">ici</a> pour recharger la page."
+        },
+        "suspended": {
+            "title": "Site suspendu",
+            "description": "Le site que vous essayez de consulter est malheureusement indisponible. Nous vous prions de nous excuser pour la gêne occasionnée. Si vous êtes le <strong>propriétaire</strong> de ce site, veuillez <a href=\"https://www.x4b.net/support\">contacter l’assistance</a>."
+        },
+        "over_bandwidth": {
+            "title": "Site suspendu",
+            "description": "Le site que vous essayez de consulter est malheureusement indisponible. Nous vous prions de nous excuser pour la gêne occasionnée. Si vous êtes le <strong>propriétaire</strong> de ce site, veuillez <a href=\"https://www.x4b.net/\">contacter l’assistance</a>."
+        },
+        "backend": {
+            "title": "Serveur indisponible",
+            "description": "Le serveur d’origine est temporairement indisponible et ne peut donc pas traiter cette requête. Nous vous prions de nous excuser pour la gêne occasionnée.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Délai de la requête dépassé",
+            "description": "Le délai d’attente a malheureusement été dépassé lors du chargement de cette page web. Nous vous prions de nous excuser pour la gêne que cela a pu occasionner.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Accès refusé",
+            "description": "Vous n’avez pas l’autorisation d’accéder à cette page. S’il s’agit d’une erreur, veuillez contacter l’administrateur du site."
+        },
+        "upstream": {
+            "title": "Serveur indisponible",
+            "description": "Aucun serveur n’est actuellement en ligne et disponible pour traiter cette requête. Nous vous prions de nous excuser pour la gêne occasionnée."
+        },
+        "invalid_configuration": {
+            "title": "Configuration incorrecte",
+            "description": "Nous ne pouvons pas traiter cette requête en raison d’une erreur de configuration. Nous vous prions de nous excuser pour la gêne occasionnée."
+        },
+        "resource": {
+            "title": "Erreur d’accès",
+            "description_start": "Une erreur s’est malheureusement produite lors du chargement de cette page.",
+            "cause_list": [
+                "Le serveur d’origine subit une charge inhabituellement élevée et ne peut pas traiter les requêtes pour le moment",
+                "Une erreur inattendue s’est produite sur le serveur d’origine ou lors du transfert des données"
+            ],
+            "description_end": "Nous vous prions de nous excuser pour la gêne occasionnée.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Erreur d’accès",
+            "description_start": "Une erreur s’est malheureusement produite lors du chargement de cette page.",
+            "cause_list": [
+                "Il a été détecté que votre adresse IP envoie un nombre excessif de requêtes au serveur",
+                "Le serveur d’origine subit une charge inhabituellement élevée et ne peut pas traiter les requêtes pour le moment",
+                "Une erreur inattendue s’est produite sur le serveur d’origine ou lors du transfert des données"
+            ],
+            "description_end": "Nous vous prions de nous excuser pour la gêne occasionnée.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Erreur d’accès",
+            "description_start": "Une erreur s’est malheureusement produite lors du chargement de cette page.",
+            "cause_list": [
+                "Un nombre inhabituel de connexions au serveur provient de votre adresse IP",
+                "Le serveur d’origine subit une charge inhabituellement élevée et ne peut pas traiter les requêtes pour le moment",
+                "Une erreur inattendue s’est produite sur le serveur d’origine ou lors du transfert des données"
+            ],
+            "description_end": "Nous vous prions de nous excuser pour la gêne occasionnée.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Requête incorrecte",
+            "description": "Ce site est accessible via HTTPS. Vous avez tenté de vous connecter via HTTP. Nous allons maintenant essayer de vous rediriger. Si vous n’êtes pas redirigé, veuillez ajouter https:// au début de votre URL et réessayer."
+        },
+        "timeout": {
+            "title": "Serveur indisponible",
+            "description": "Le délai d’attente a malheureusement été dépassé lors du chargement de cette page. Il est possible que le serveur soit occupé et ne puisse pas traiter votre requête pour le moment.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Domaine inconnu",
+            "description": "Ce domaine n’est pas enregistré pour cette adresse IP.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Méthode non prise en charge",
+            "description": "La méthode HTTP demandée n’est pas activée pour ce site.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Requête non sécurisée",
+            "description": "Le protocole HTTPS demandé n’est pas activé pour ce site. Veuillez mettre à jour votre navigateur.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Hors ligne pour maintenance",
+            "description": "Ce site est actuellement indisponible. Il devrait être de nouveau accessible sous peu.",
+            "refresh_enable": true
+        }
+    }
+}

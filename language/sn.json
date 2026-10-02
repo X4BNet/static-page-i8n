@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Maitiro aya anozviitira ega. Uchaendeswa kwaunoda kuenda munguva pfupi.",
+        "validate_browser": "Bhurawuza rako riri kutariswa usati wapinda pa {http_host}",
+        "are_you_human_host": "Uri munhu here? Kusimbisa kunodiwa kuti upinde pa {http_host}",
+        "are_you_human": "Uri munhu here? Kusimbisa kunodiwa kuti uenderere mberi",
+        "enter_captcha_host": "Isa CAPTCHA iri pazasi kuti uenderere ku {http_host}:",
+        "enter_captcha": "Isa CAPTCHA iri pazasi kuti uenderere mberi:",
+        "submit": "Tumira",
+        "try_again_later": "Webhusaiti iyi iri kutora nguva yakareba kupfuura yenguva dzose kuti ivhurike. Unogona <a href=\"\">kuedza zvakare</a> gare gare",
+        "unexpected_error": "Zvinoita sekuti pane chikanganiso chisingatarisirwi chaitika. Ndapota <a href=\"\">edza zvakare</a> gare gare",
+        "validation_complete": "<strong>Kusimbisa kwapera</strong>. Wava kuendeswa kwaunoda kuenda. Dzvanya <a href=\"\">pano</a> kana peji rikasavhurika patsva.",
+        "enable_javascript": "Kusimbisa bhurawuza kunoshanda zvakanakisisa kana JavaScript yakabatidzwa.",
+        "abnormal_activity": "Nekuda kwezviitiko zvisiri zvenguva dzose, tinoda kuti upedze basa riri pazasi kuti uenderere mberi",
+        "sorry_inconvenience": "Tinokumbira ruregerero pakukanganiswa kupi zvako",
+        "verifying": "Kusimbisa kuri kuitwa"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Chikanganiso pakuvhura {host}",
+            "refresh_text": "Ndapota edza kupinda pawebhusaiti gare gare kana kudzvanya <a href=\"\">pano</a> kuti uvhure peji patsva.",
+            "unexpected_error": "Pane chikanganiso chisingatarisirwi chaitika pakuvhura peji rino",
+            "possible_causes": "Zvimwe zvinogona kunge zvakonzera izvi ndeizvi: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Webhusaiti haisi kuwanikwa",
+            "description": "Zvinosuwisa kuti pane chikanganiso chisingatarisirwi chaitika pakuvhura peji rino. Tinokumbira ruregerero pakukanganiswa kupi zvako. Ndapota edza kupinda pawebhusaiti gare gare kana kudzvanya <a href=\"\">pano</a> kuti uvhure peji patsva."
+        },
+        "suspended": {
+            "title": "Webhusaiti yambomiswa",
+            "description": "Zvinosuwisa kuti webhusaiti yauri kuedza kushanyira haisi kuwanikwa. Tinokumbira ruregerero pakukanganiswa kupi zvako. Kana uri <strong>muridzi</strong> wewebhusaiti iyi, ndapota <a href=\"https://www.x4b.net/support\">bata vanoita rubatsiro</a>."
+        },
+        "over_bandwidth": {
+            "title": "Webhusaiti yambomiswa",
+            "description": "Zvinosuwisa kuti webhusaiti yauri kuedza kushanyira haisi kuwanikwa. Tinokumbira ruregerero pakukanganiswa kupi zvako. Kana uri <strong>muridzi</strong> wewebhusaiti iyi, ndapota <a href=\"https://www.x4b.net/\">bata vanoita rubatsiro</a>."
+        },
+        "backend": {
+            "title": "Sevha haisi kuwanikwa",
+            "description": "Sevha yekwakabva data haisi kuwanikwa kwenguva pfupi, saka haikwanisi kugadzirisa chikumbiro ichi. Tinokumbira ruregerero pakukanganiswa kupi zvako.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Nguva yekumirira chikumbiro yapera",
+            "description": "Zvinosuwisa kuti nguva yekumirira yapera pakuvhura peji rino rewebhu. Tinokumbira ruregerero pakukanganiswa kungave kwakonzerwa neizvi.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Kupinda kwarambwa",
+            "description": "Hauna mvumo yekupinda papeji rino. Kana izvi zviri chikanganiso, ndapota bata mutariri wewebhusaiti."
+        },
+        "upstream": {
+            "title": "Sevha haisi kuwanikwa",
+            "description": "Parizvino hapana sevha iri paindaneti uye inowanikwa kuti igadzirise chikumbiro ichi. Tinokumbira ruregerero pakukanganiswa kupi zvako."
+        },
+        "invalid_configuration": {
+            "title": "Marongero asiri iwo",
+            "description": "Hatikwanisi kugadzirisa chikumbiro ichi nekuda kwechikanganiso mumarongero. Tinokumbira ruregerero pakukanganiswa kupi zvako."
+        },
+        "resource": {
+            "title": "Chikanganiso pakupinda",
+            "description_start": "Zvinosuwisa kuti pane chikanganiso chaitika pakuvhura peji rino.",
+            "cause_list": [
+                "Sevha yekwakabva data ine basa rakawanda risingatarisirwi uye haikwanisi kugadzirisa zvikumbiro panguva ino",
+                "Pane chikanganiso chisingatarisirwi chaitika pasevha yekwakabva data kana pakufambiswa kwedata"
+            ],
+            "description_end": "Tinokumbira ruregerero pakukanganiswa kupi zvako.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Chikanganiso pakupinda",
+            "description_start": "Zvinosuwisa kuti pane chikanganiso chaitika pakuvhura peji rino.",
+            "cause_list": [
+                "Zvaonekwa kuti kero yako yeIP iri kutumira zvikumbiro zvakawandisa kusevha",
+                "Sevha yekwakabva data ine basa rakawanda risingatarisirwi uye haikwanisi kugadzirisa zvikumbiro panguva ino",
+                "Pane chikanganiso chisingatarisirwi chaitika pasevha yekwakabva data kana pakufambiswa kwedata"
+            ],
+            "description_end": "Tinokumbira ruregerero pakukanganiswa kupi zvako.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Chikanganiso pakupinda",
+            "description_start": "Zvinosuwisa kuti pane chikanganiso chaitika pakuvhura peji rino.",
+            "cause_list": [
+                "Pane nhamba isiri yenguva dzose yekubatana kusevha kubva kukero yako yeIP",
+                "Sevha yekwakabva data ine basa rakawanda risingatarisirwi uye haikwanisi kugadzirisa zvikumbiro panguva ino",
+                "Pane chikanganiso chisingatarisirwi chaitika pasevha yekwakabva data kana pakufambiswa kwedata"
+            ],
+            "description_end": "Tinokumbira ruregerero pakukanganiswa kupi zvako.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Chikumbiro chisiri icho",
+            "description": "Webhusaiti iyi inogona kuwanikwa neHTTPS. Waedza kubatana neHTTP. Iye zvino tichaedza kukuendesa kune imwe kero. Kana usina kuendeswa, ndapota wedzera https:// panotangira URL yako woedza zvakare."
+        },
+        "timeout": {
+            "title": "Sevha haisi kuwanikwa",
+            "description": "Zvinosuwisa kuti nguva yekumirira yapera pakuvhura peji rino. Sevha inogona kunge yakabatikana uye isingakwanisi kugadzirisa chikumbiro chako panguva ino.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Domeini risingazivikanwi",
+            "description": "Domeini iri harina kunyoreswa kukero iyi yeIP.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Nzira isingatsigirwi",
+            "description": "Nzira yeHTTP yakumbirwa haina kubatidzwa pawebhusaiti iyi.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Chikumbiro chisina kuchengeteka",
+            "description": "Purotokoro yeHTTPS yakumbirwa haina kubatidzwa pawebhusaiti iyi. Ndapota vandudza bhurawuza rako.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Haisi paindaneti nekuda kwekugadziriswa",
+            "description": "Webhusaiti iyi haisi kuwanikwa panguva ino. Inotarisirwa kuwanikwa zvakare munguva pfupi.",
+            "refresh_enable": true
+        }
+    }
+}

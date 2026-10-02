@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Ndee gollal waɗetee ko e jaajol. A ɓenninte to nokku mo njiɗ-ɗaa ko ɓooyaani.",
+        "validate_browser": "Wanngorde maa nana ƴeewtee hade naatde e {http_host}",
+        "are_you_human_host": "A ko neɗɗo? Ƴeewtagol ena waɗɗii ngam naatde e {http_host}",
+        "are_you_human": "A ko neɗɗo? Ƴeewtagol ena waɗɗii ngam jokkude",
+        "enter_captcha_host": "Tiiɗno naatnu CAPTCHA wonɗo les ɗoo ngam jokkude to {http_host}:",
+        "enter_captcha": "Tiiɗno naatnu CAPTCHA wonɗo les ɗoo ngam jokkude:",
+        "submit": "neldu",
+        "try_again_later": "Ndee lowre geese nana ƴetta waktu ɓurɗo ko woowaa ngam looweede. Aɗa waawi <a href=\"\">etaade kadi</a> caggal ɗuum",
+        "unexpected_error": "Ena wayi hono juumre nde ɗaminaaka waɗii. Tiiɗno <a href=\"\">eto kadi</a> caggal ɗuum",
+        "validation_complete": "<strong>Ƴeewtagol gasii</strong>. Aɗa ɓenninee jooni to nokku mo njiɗ-ɗaa. Ñoƴƴu <a href=\"\">ɗoo</a> so hello ngoo loowtaaki.",
+        "enable_javascript": "Ƴeewtagol wanngorde ɓuri moƴƴude so JavaScript hurminaama.",
+        "abnormal_activity": "Sabu gollal ngal woowaaka, aɗa foti timminde gollal wonngal les ɗoo ngam jokkude",
+        "sorry_inconvenience": "Njaafo-ɗon sabu caɗeele kala",
+        "verifying": "Nana ƴeewtee"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Juumre e loowgol {host}",
+            "refresh_text": "Tiiɗno eto naatde e lowre ndee caggal ɗuum, walla ñoƴƴu <a href=\"\">ɗoo</a> ngam loowtude hello ngoo.",
+            "unexpected_error": "Juumre nde ɗaminaaka waɗii e loowgol ngoo hello",
+            "possible_causes": "Sababuuji gonɗi ena mbaawi wonde: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Lowre geese ndee heɓotaako",
+            "description": "Ko metti, juumre nde ɗaminaaka waɗii e loowgol ngoo hello. Njaafo-ɗon sabu caɗeele kala. Tiiɗno eto naatde e lowre ndee caggal ɗuum, walla ñoƴƴu <a href=\"\">ɗoo</a> ngam loowtude hello ngoo."
+        },
+        "suspended": {
+            "title": "Lowre geese ndee dartinaama",
+            "description": "Ko metti, lowre geese nde etoto-ɗaa yillaade ndee heɓotaako. Njaafo-ɗon sabu caɗeele kala. So a woni <strong>joom</strong> ndee lowre, tiiɗno <a href=\"https://www.x4b.net/support\">jokkondir e wallitooɓe</a>."
+        },
+        "over_bandwidth": {
+            "title": "Lowre geese ndee dartinaama",
+            "description": "Ko metti, lowre geese nde etoto-ɗaa yillaade ndee heɓotaako. Njaafo-ɗon sabu caɗeele kala. So a woni <strong>joom</strong> ndee lowre, tiiɗno <a href=\"https://www.x4b.net/\">jokkondir e wallitooɓe</a>."
+        },
+        "backend": {
+            "title": "Sarworde ndee heɓotaako",
+            "description": "Sarworde iwdi ndee heɓotaako tawo, ɗuum waɗi nde waawaa gollude e ndee ɗaɓɓannde. Njaafo-ɗon sabu caɗeele kala.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Waktu faddo ɗaɓɓannde ndee gasii",
+            "description": "Njaafo-ɗon, waktu yamiraaɗo ngam fadde gasii e loowgol ngoo hello. Njaafo-ɗon sabu caɗeele ɗe ɗuum waawi addude.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Naatgol jaɓaaka",
+            "description": "A alaa yamiroore naatde e ngoo hello. So a sikkii ko juumre, tiiɗno jokkondir e jiiloowo lowre geese ndee."
+        },
+        "upstream": {
+            "title": "Sarworde ndee heɓotaako",
+            "description": "Alaa sarworde seŋiinde e laylaytol tee heɓotoonde jooni ngam gollude e ndee ɗaɓɓannde. Njaafo-ɗon sabu caɗeele kala."
+        },
+        "invalid_configuration": {
+            "title": "Teelte ɗe peewaani",
+            "description": "Min mbaawaa gollude e ndee ɗaɓɓannde sabu juumre e teelte. Njaafo-ɗon sabu caɗeele kala."
+        },
+        "resource": {
+            "title": "Juumre naatgol",
+            "description_start": "Ko metti, juumre waɗii e loowgol ngoo hello.",
+            "cause_list": [
+                "Sarworde iwdi ndee ena jogii golle ɗe ɗaminaaka tee nde waawaa gollude e ɗaɓɓanɗe jooni",
+                "Juumre nde ɗaminaaka waɗii e sarworde iwdi ndee walla e neldol keɓe"
+            ],
+            "description_end": "Njaafo-ɗon sabu caɗeele kala.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Juumre naatgol",
+            "description_start": "Ko metti, juumre waɗii e loowgol ngoo hello.",
+            "cause_list": [
+                "Yiytaama wonde ñiiɓirde IP maa nana nelda ɗaɓɓanɗe ɓurɗe haannde to sarworde ndee",
+                "Sarworde iwdi ndee ena jogii golle ɗe ɗaminaaka tee nde waawaa gollude e ɗaɓɓanɗe jooni",
+                "Juumre nde ɗaminaaka waɗii e sarworde iwdi ndee walla e neldol keɓe"
+            ],
+            "description_end": "Njaafo-ɗon sabu caɗeele kala.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Juumre naatgol",
+            "description_start": "Ko metti, juumre waɗii e loowgol ngoo hello.",
+            "cause_list": [
+                "Ñiiɓirde IP maa ena jogii limoore ceŋe nde woowaaka e sarworde ndee",
+                "Sarworde iwdi ndee ena jogii golle ɗe ɗaminaaka tee nde waawaa gollude e ɗaɓɓanɗe jooni",
+                "Juumre nde ɗaminaaka waɗii e sarworde iwdi ndee walla e neldol keɓe"
+            ],
+            "description_end": "Njaafo-ɗon sabu caɗeele kala.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Ɗaɓɓannde nde moƴƴaani",
+            "description": "Ndee lowre geese ena heɓoree HTTPS. A etiima seŋoraade HTTP; min etoto jooni ɓenninde ma. So a ɓenninaaka, tiiɗno ɓeydu https:// e fuɗɗoode URL maa, etaa kadi."
+        },
+        "timeout": {
+            "title": "Sarworde ndee heɓotaako",
+            "description": "Njaafo-ɗon, waktu yamiraaɗo ngam fadde gasii e loowgol ngoo hello. Ena waawi wonde sarworde ndee ko haljunde tee nde waawaa gollude e ɗaɓɓannde maa jooni.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Domen mo anndaaka",
+            "description": "Oo domen winnditaaka e ndee ñiiɓirde IP.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Feere nde wallitaaka",
+            "description": "Feere HTTP ɗaɓɓitaande ndee hurminaaka ngam ndee lowre geese.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Ɗaɓɓannde nde hisaani",
+            "description": "Jaɓɓitorde HTTPS ɗaɓɓitaande ndee hurminaaka ngam ndee lowre geese. Tiiɗno kesɗitin wanngorde maa.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Seŋaaki sabu feewnugol",
+            "description": "Ndee lowre geese heɓotaako jooni. Ena ɗaminaa nde heɓotoo kadi ko ɓooyaani.",
+            "refresh_enable": true
+        }
+    }
+}

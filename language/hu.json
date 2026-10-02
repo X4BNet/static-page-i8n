@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Ez a folyamat automatikus. Hamarosan átirányítjuk a kívánt oldalra.",
+        "validate_browser": "A böngésző ellenőrzése a(z) {http_host} elérése előtt",
+        "are_you_human_host": "Ön ember? A(z) {http_host} eléréséhez ellenőrzés szükséges",
+        "are_you_human": "Ön ember? A folytatáshoz ellenőrzés szükséges",
+        "enter_captcha_host": "A(z) {http_host} eléréséhez adja meg az alábbi CAPTCHA-kódot:",
+        "enter_captcha": "A folytatáshoz adja meg az alábbi CAPTCHA-kódot:",
+        "submit": "küldés",
+        "try_again_later": "A webhely betöltése a szokásosnál tovább tart. Később <a href=\"\">újra próbálkozhat</a>",
+        "unexpected_error": "Úgy tűnik, váratlan hiba történt. Kérjük, később <a href=\"\">próbálja újra</a>",
+        "validation_complete": "<strong>Az ellenőrzés befejeződött</strong>. Most átirányítjuk a kívánt oldalra. Kattintson <a href=\"\">ide</a>, ha az oldal nem töltődik be újra.",
+        "enable_javascript": "A böngésző ellenőrzése bekapcsolt JavaScript mellett működik a legjobban.",
+        "abnormal_activity": "A szokatlan tevékenység miatt a folytatáshoz el kell végeznie az alábbi feladatot",
+        "sorry_inconvenience": "Elnézést kérünk a kellemetlenségért",
+        "verifying": "Ellenőrzés folyamatban"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Hiba a(z) {host} betöltésekor",
+            "refresh_text": "Kérjük, próbálja később elérni a webhelyet, vagy kattintson <a href=\"\">ide</a> az oldal frissítéséhez.",
+            "unexpected_error": "Váratlan hiba történt az oldal betöltésekor",
+            "possible_causes": "Lehetséges okok:",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "A webhely nem érhető el",
+            "description": "Sajnos váratlan hiba történt az oldal betöltésekor. Elnézést kérünk a kellemetlenségért. Kérjük, próbálja később elérni a webhelyet, vagy kattintson <a href=\"\">ide</a> az oldal frissítéséhez."
+        },
+        "suspended": {
+            "title": "A webhely működése felfüggesztve",
+            "description": "Sajnos a felkeresni kívánt webhely nem érhető el. Elnézést kérünk a kellemetlenségért. Ha Ön a webhely <strong>tulajdonosa</strong>, kérjük, <a href=\"https://www.x4b.net/support\">lépjen kapcsolatba az ügyfélszolgálattal</a>."
+        },
+        "over_bandwidth": {
+            "title": "A webhely működése felfüggesztve",
+            "description": "Sajnos a felkeresni kívánt webhely nem érhető el. Elnézést kérünk a kellemetlenségért. Ha Ön a webhely <strong>tulajdonosa</strong>, kérjük, <a href=\"https://www.x4b.net/\">lépjen kapcsolatba az ügyfélszolgálattal</a>."
+        },
+        "backend": {
+            "title": "A kiszolgáló nem érhető el",
+            "description": "Az eredeti kiszolgáló átmenetileg nem érhető el, ezért nem tudja kiszolgálni ezt a kérést. Elnézést kérünk a kellemetlenségért.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "A kérés várakozási ideje lejárt",
+            "description": "Sajnos az oldal betöltésekor lejárt a várakozási idő. Elnézést kérünk az esetleges kellemetlenségért.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Hozzáférés megtagadva",
+            "description": "Nincs jogosultsága az oldal eléréséhez. Ha ez tévedés, kérjük, forduljon a webhely rendszergazdájához."
+        },
+        "upstream": {
+            "title": "A kiszolgáló nem érhető el",
+            "description": "Jelenleg nincs olyan online és elérhető kiszolgáló, amely feldolgozhatná ezt a kérést. Elnézést kérünk a kellemetlenségért."
+        },
+        "invalid_configuration": {
+            "title": "Érvénytelen konfiguráció",
+            "description": "Konfigurációs hiba miatt nem tudjuk kiszolgálni ezt a kérést. Elnézést kérünk a kellemetlenségért."
+        },
+        "resource": {
+            "title": "Hozzáférési hiba",
+            "description_start": "Sajnos hiba történt az oldal betöltésekor.",
+            "cause_list": [
+                "Az eredeti kiszolgálót szokatlan terhelés éri, ezért jelenleg nem tud kéréseket feldolgozni",
+                "Váratlan hiba történt az eredeti kiszolgálón vagy az adatátvitel során"
+            ],
+            "description_end": "Elnézést kérünk a kellemetlenségért.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Hozzáférési hiba",
+            "description_start": "Sajnos hiba történt az oldal betöltésekor.",
+            "cause_list": [
+                "A rendszer azt észlelte, hogy az Ön IP-címéről túl sok kérés érkezik a kiszolgálóhoz",
+                "Az eredeti kiszolgálót szokatlan terhelés éri, ezért jelenleg nem tud kéréseket feldolgozni",
+                "Váratlan hiba történt az eredeti kiszolgálón vagy az adatátvitel során"
+            ],
+            "description_end": "Elnézést kérünk a kellemetlenségért.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Hozzáférési hiba",
+            "description_start": "Sajnos hiba történt az oldal betöltésekor.",
+            "cause_list": [
+                "Az Ön IP-címéről szokatlan számú kapcsolat áll fenn a kiszolgálóval",
+                "Az eredeti kiszolgálót szokatlan terhelés éri, ezért jelenleg nem tud kéréseket feldolgozni",
+                "Váratlan hiba történt az eredeti kiszolgálón vagy az adatátvitel során"
+            ],
+            "description_end": "Elnézést kérünk a kellemetlenségért.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Hibás kérés",
+            "description": "Ez a webhely HTTPS kapcsolaton keresztül érhető el. Ön HTTP kapcsolaton keresztül próbált csatlakozni. Most megpróbáljuk átirányítani. Ha az átirányítás nem történik meg, írja az URL elejére, hogy https://, majd próbálja újra."
+        },
+        "timeout": {
+            "title": "A kiszolgáló nem érhető el",
+            "description": "Sajnos az oldal betöltésekor lejárt a várakozási idő. Előfordulhat, hogy a kiszolgáló foglalt, és jelenleg nem tudja feldolgozni a kérését.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Ismeretlen tartomány",
+            "description": "Ez a tartomány nincs regisztrálva ehhez az IP-címhez.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Nem támogatott metódus",
+            "description": "A kért HTTP-metódus nincs engedélyezve ezen a webhelyen.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Nem biztonságos kérés",
+            "description": "A kért HTTPS-protokoll nincs engedélyezve ezen a webhelyen. Kérjük, frissítse a böngészőjét.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Karbantartás miatt nem érhető el",
+            "description": "Ez a webhely jelenleg nem érhető el. Várhatóan hamarosan újra elérhető lesz.",
+            "refresh_enable": true
+        }
+    }
+}

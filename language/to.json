@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "ʻOku fakahoko ʻiate ia pē ʻa e ngāue ko ʻeni. ʻE ʻave koe ʻi ha taimi nounou ki he feituʻu ʻokú ke fie ʻalu ki aí.",
+        "validate_browser": "ʻOku lolotonga fakapapauʻi hoʻo polokalama kumi ʻinitaneti kimuʻa pea ke hū ki {http_host}",
+        "are_you_human_host": "Ko ha tangata koe? ʻOku fiemaʻu ʻa e fakapapauʻi ke hū ki {http_host}",
+        "are_you_human": "Ko ha tangata koe? ʻOku fiemaʻu ʻa e fakapapauʻi ke hoko atu",
+        "enter_captcha_host": "Kātaki, fakahū ʻa e CAPTCHA ʻi lalo ke hoko atu ki {http_host}:",
+        "enter_captcha": "Kātaki, fakahū ʻa e CAPTCHA ʻi lalo ke hoko atu:",
+        "submit": "fakahū",
+        "try_again_later": "ʻOku lōloa ange ʻi he anga mahení ʻa e taimi ʻoku uta ai ʻa e uepisaiti ko ʻeni. Mahalo te ke fie <a href=\"\">toe feinga</a> ʻamui",
+        "unexpected_error": "ʻOku hā mai kuo hoko ha fehālaaki taʻeʻamanekina. Kātaki, <a href=\"\">toe feinga</a> ʻamui",
+        "validation_complete": "<strong>Kuo ʻosi ʻa e fakapapauʻi</strong>. ʻOku lolotonga ʻave koe ki he feituʻu ʻokú ke fie ʻalu ki aí. Lomi <a href=\"\">heni</a> kapau ʻoku ʻikai toe uta ʻa e pēsí.",
+        "enable_javascript": "ʻOku ngāue lelei taha ʻa e fakapapauʻi ʻo e polokalama kumi ʻinitaneti ʻi he taimi ʻoku fakaʻatā ai ʻa e JavaScript.",
+        "abnormal_activity": "Koeʻuhí ko ha ngaahi ngāue ʻoku ʻikai angamaheni, ʻoku fiemaʻu ke ke fakakakato ʻa e ngāue ʻi lalo ke hoko atu",
+        "sorry_inconvenience": "ʻOku mau kole fakamolemole ki ha faʻahinga fakahohaʻa",
+        "verifying": "ʻOku lolotonga fakapapauʻi"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Fehālaaki ʻi hono uta ʻo {host}",
+            "refresh_text": "Kātaki, feinga ke hū ki he uepisaití ʻamui pe lomi <a href=\"\">heni</a> ke toe uta ʻa e pēsí.",
+            "unexpected_error": "Naʻe hoko ha fehālaaki taʻeʻamanekina ʻi hono uta ʻo e peesi ko ʻení",
+            "possible_causes": "Ko e ngaahi tupuʻanga ʻe ala hoko:",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "ʻOku ʻikai lava ke ngāueʻaki ʻa e uepisaití",
+            "description": "Meʻapango, naʻe hoko ha fehālaaki taʻeʻamanekina ʻi hono uta ʻo e peesi ko ʻení. ʻOku mau kole fakamolemole ki ha faʻahinga fakahohaʻa. Kātaki, feinga ke hū ki he uepisaití ʻamui pe lomi <a href=\"\">heni</a> ke toe uta ʻa e pēsí."
+        },
+        "suspended": {
+            "title": "Kuo taʻofi ʻa e uepisaití",
+            "description": "Meʻapango, ʻoku ʻikai lava ke ngāueʻaki ʻa e uepisaiti ʻokú ke feinga ke ʻaʻahi ki aí. ʻOku mau kole fakamolemole ki ha faʻahinga fakahohaʻa. Kapau ko koe ʻokú ke <strong>maʻu</strong> ʻa e uepisaiti ko ʻení, kātaki <a href=\"https://www.x4b.net/support\">fetuʻutaki ki he tokoní</a>."
+        },
+        "over_bandwidth": {
+            "title": "Kuo taʻofi ʻa e uepisaití",
+            "description": "Meʻapango, ʻoku ʻikai lava ke ngāueʻaki ʻa e uepisaiti ʻokú ke feinga ke ʻaʻahi ki aí. ʻOku mau kole fakamolemole ki ha faʻahinga fakahohaʻa. Kapau ko koe ʻokú ke <strong>maʻu</strong> ʻa e uepisaiti ko ʻení, kātaki <a href=\"https://www.x4b.net/\">fetuʻutaki ki he tokoní</a>."
+        },
+        "backend": {
+            "title": "ʻOku ʻikai lava ke ngāueʻaki ʻa e sevá",
+            "description": "ʻOku ʻikai lava ke ngāueʻaki fakataimi ʻa e seva tupuʻangá, ko ia ʻoku ʻikai lava ai ʻo fakahoko ʻa e kole ko ʻení. ʻOku mau kole fakamolemole ki ha faʻahinga fakahohaʻa.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Kuo ʻosi ʻa e taimi fakangatangata ki he kolé",
+            "description": "Kātaki, naʻe ʻosi ʻa e taimi fakangatangata ʻi hono uta ʻo e peesi uepisaiti ko ʻení. ʻOku mau kole fakamolemole ki ha faʻahinga fakahohaʻa naʻe ala tupu mei ai.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "ʻOku ʻikai fakaʻatā ʻa e hū atú",
+            "description": "ʻOku ʻikai haʻo ngofua ke hū ki he peesi ko ʻení. Kapau ko ha fehālaaki ʻeni, kātaki fetuʻutaki ki he tokotaha ʻoku puleʻi ʻa e uepisaití."
+        },
+        "upstream": {
+            "title": "ʻOku ʻikai lava ke ngāueʻaki ʻa e sevá",
+            "description": "ʻOku ʻikai ha seva ʻoku lolotonga fehokotaki mo e ʻinitanetí pea lava ke fakahoko ʻa e kole ko ʻení. ʻOku mau kole fakamolemole ki ha faʻahinga fakahohaʻa."
+        },
+        "invalid_configuration": {
+            "title": "ʻOku hala ʻa e ngaahi fokotuʻutuʻú",
+            "description": "ʻOku ʻikai lava ke mau fakahoko ʻa e kole ko ʻení koeʻuhí ko ha fehālaaki ʻi he ngaahi fokotuʻutuʻú. ʻOku mau kole fakamolemole ki ha faʻahinga fakahohaʻa."
+        },
+        "resource": {
+            "title": "Fehālaaki ʻi he hū atú",
+            "description_start": "Meʻapango, naʻe hoko ha fehālaaki ʻi hono uta ʻo e peesi ko ʻení.",
+            "cause_list": [
+                "ʻOku mafasia ʻa e seva tupuʻangá ʻi ha lahi ʻo e ngāue taʻeʻamanekina pea ʻoku ʻikai lava ke fakahoko ha ngaahi kole ʻi he taimí ni",
+                "Naʻe hoko ha fehālaaki taʻeʻamanekina ʻi he seva tupuʻangá pe lolotonga hono ʻave ʻo e fakamatalá"
+            ],
+            "description_end": "ʻOku mau kole fakamolemole ki ha faʻahinga fakahohaʻa.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Fehālaaki ʻi he hū atú",
+            "description_start": "Meʻapango, naʻe hoko ha fehālaaki ʻi hono uta ʻo e peesi ko ʻení.",
+            "cause_list": [
+                "Kuo ʻilo ʻoku ʻave ha ngaahi kole fuʻu lahi ki he sevá mei hoʻo tuʻasila IP",
+                "ʻOku mafasia ʻa e seva tupuʻangá ʻi ha lahi ʻo e ngāue taʻeʻamanekina pea ʻoku ʻikai lava ke fakahoko ha ngaahi kole ʻi he taimí ni",
+                "Naʻe hoko ha fehālaaki taʻeʻamanekina ʻi he seva tupuʻangá pe lolotonga hono ʻave ʻo e fakamatalá"
+            ],
+            "description_end": "ʻOku mau kole fakamolemole ki ha faʻahinga fakahohaʻa.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Fehālaaki ʻi he hū atú",
+            "description_start": "Meʻapango, naʻe hoko ha fehālaaki ʻi hono uta ʻo e peesi ko ʻení.",
+            "cause_list": [
+                "ʻOku ʻikai angamaheni ʻa e lahi ʻo e ngaahi fehokotaki ki he sevá mei hoʻo tuʻasila IP",
+                "ʻOku mafasia ʻa e seva tupuʻangá ʻi ha lahi ʻo e ngāue taʻeʻamanekina pea ʻoku ʻikai lava ke fakahoko ha ngaahi kole ʻi he taimí ni",
+                "Naʻe hoko ha fehālaaki taʻeʻamanekina ʻi he seva tupuʻangá pe lolotonga hono ʻave ʻo e fakamatalá"
+            ],
+            "description_end": "ʻOku mau kole fakamolemole ki ha faʻahinga fakahohaʻa.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Kole ʻoku hala",
+            "description": "ʻOku lava ke hū ki he uepisaiti ko ʻení ʻo fakafou ʻi he HTTPS. Naʻá ke feinga ke fehokotaki ʻo fakafou ʻi he HTTP, pea te mau feinga leva ke toe ʻave koe. Kapau ʻoku ʻikai toe ʻave koe, kātaki tānaki ʻa e https:// ki he kamataʻanga ʻo hoʻo URL pea toe feinga."
+        },
+        "timeout": {
+            "title": "ʻOku ʻikai lava ke ngāueʻaki ʻa e sevá",
+            "description": "Kātaki, naʻe ʻosi ʻa e taimi fakangatangata ʻi hono uta ʻo e peesi ko ʻení. Mahalo ʻoku femoʻuekina ʻa e sevá pea ʻoku ʻikai lava ke fakahoko hoʻo kolé ʻi he taimí ni.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Hingoa domain taʻeʻiloa",
+            "description": "ʻOku ʻikai lēsisita ʻa e domain ko ʻení ki he tuʻasila IP ko ʻení.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Founga ʻoku ʻikai poupouʻi",
+            "description": "ʻOku ʻikai fakaʻatā ʻa e founga HTTP naʻe kolé ki he uepisaiti ko ʻení.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Kole ʻoku ʻikai malu",
+            "description": "ʻOku ʻikai fakaʻatā ʻa e protocol HTTPS naʻe kolé ki he uepisaiti ko ʻení. Kātaki, fakafoʻou hoʻo polokalama kumi ʻinitaneti.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "ʻOku ʻikai fehokotaki koeʻuhí ko e ngāue fakalelei",
+            "description": "ʻOku ʻikai lava ke ngāueʻaki ʻa e uepisaiti ko ʻení ʻi he taimí ni. ʻOku ʻamanaki ʻe toe lava ʻo ngāueʻaki ʻi ha taimi nounou.",
+            "refresh_enable": true
+        }
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "ይህ ሂደት በራስ-ሰር ይከናወናል። በቅርቡ ለመጎብኘት ወደፈለጉት ገጽ ይዛወራሉ።",
+        "validate_browser": "ወደ {http_host} ከመግባትዎ በፊት አሳሽዎን በማረጋገጥ ላይ",
+        "are_you_human_host": "ሰው ነዎት? ወደ {http_host} ለመግባት ማረጋገጫ ያስፈልጋል",
+        "are_you_human": "ሰው ነዎት? ለመቀጠል ማረጋገጫ ያስፈልጋል",
+        "enter_captcha_host": "ወደ {http_host} ለመቀጠል እባክዎ ከታች ያለውን CAPTCHA ያስገቡ፦",
+        "enter_captcha": "ለመቀጠል እባክዎ ከታች ያለውን CAPTCHA ያስገቡ፦",
+        "submit": "አስገባ",
+        "try_again_later": "ይህ ድረ ገጽ ለመጫን ከወትሮው በላይ ጊዜ እየወሰደ ነው። በኋላ <a href=\"\">እንደገና መሞከር</a> ይችላሉ",
+        "unexpected_error": "ያልተጠበቀ ስህተት የተከሰተ ይመስላል። እባክዎ በኋላ <a href=\"\">እንደገና ይሞክሩ</a>",
+        "validation_complete": "<strong>ማረጋገጡ ተጠናቋል</strong>። አሁን ለመጎብኘት ወደፈለጉት ገጽ እየተዛወሩ ነው። ገጹ እንደገና ካልተጫነ <a href=\"\">እዚህ</a> ይጫኑ።",
+        "enable_javascript": "JavaScript ሲነቃ የአሳሽ ማረጋገጫ በተሻለ ሁኔታ ይሰራል።",
+        "abnormal_activity": "ባልተለመደ እንቅስቃሴ ምክንያት ለመቀጠል ከታች ያለውን ተግባር መጨረስ ያስፈልግዎታል",
+        "sorry_inconvenience": "ለማንኛውም ችግር ይቅርታ እንጠይቃለን",
+        "verifying": "በማረጋገጥ ላይ"
+    },
+    "error": {
+        "default": {
+            "error_loading": "{host} በመጫን ላይ ስህተት ተከስቷል",
+            "refresh_text": "እባክዎ በኋላ ወደ ድረ ገጹ ለመግባት ይሞክሩ ወይም ገጹን እንደገና ለመጫን <a href=\"\">እዚህ</a> ይጫኑ።",
+            "unexpected_error": "ይህን ገጽ በመጫን ላይ ያልተጠበቀ ስህተት ተከስቷል",
+            "possible_causes": "ሊሆኑ የሚችሉ ምክንያቶች፦",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "ድረ ገጹ አይገኝም",
+            "description": "እንደ አለመታደል ይህን ገጽ በመጫን ላይ ያልተጠበቀ ስህተት ተከስቷል። ለችግሩ ይቅርታ እንጠይቃለን። እባክዎ በኋላ ወደ ድረ ገጹ ለመግባት ይሞክሩ ወይም ገጹን እንደገና ለመጫን <a href=\"\">እዚህ</a> ይጫኑ።"
+        },
+        "suspended": {
+            "title": "የድረ ገጹ አገልግሎት ታግዷል",
+            "description": "እንደ አለመታደል ለመጎብኘት የሚሞክሩት ድረ ገጽ አይገኝም። ለችግሩ ይቅርታ እንጠይቃለን። የዚህ ድረ ገጽ <strong>ባለቤት</strong> ከሆኑ እባክዎ <a href=\"https://www.x4b.net/support\">የድጋፍ ክፍሉን ያነጋግሩ</a>።"
+        },
+        "over_bandwidth": {
+            "title": "የድረ ገጹ አገልግሎት ታግዷል",
+            "description": "እንደ አለመታደል ለመጎብኘት የሚሞክሩት ድረ ገጽ አይገኝም። ለችግሩ ይቅርታ እንጠይቃለን። የዚህ ድረ ገጽ <strong>ባለቤት</strong> ከሆኑ እባክዎ <a href=\"https://www.x4b.net/\">የድጋፍ ክፍሉን ያነጋግሩ</a>።"
+        },
+        "backend": {
+            "title": "አገልጋዩ አይገኝም",
+            "description": "የመነሻ አገልጋዩ ለጊዜው አይገኝም፣ ስለዚህ ይህን ጥያቄ ማስተናገድ አይችልም። ለችግሩ ይቅርታ እንጠይቃለን።",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "የጥያቄው የጥበቃ ጊዜ አልቋል",
+            "description": "ይቅርታ፣ ይህን ድረ ገጽ በመጫን ላይ የጥበቃ ጊዜው አልቋል። በዚህ ምክንያት ሊፈጠር ለሚችል ማንኛውም ችግር ይቅርታ እንጠይቃለን።",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "መዳረሻ ተከልክሏል",
+            "description": "ይህን ገጽ የመጎብኘት ፈቃድ የለዎትም። ይህ በስህተት ከሆነ እባክዎ የድረ ገጹን አስተዳዳሪ ያነጋግሩ።"
+        },
+        "upstream": {
+            "title": "አገልጋዩ አይገኝም",
+            "description": "በአሁኑ ጊዜ ይህን ጥያቄ ለማስተናገድ በመስመር ላይ ያለ እና ዝግጁ የሆነ አገልጋይ የለም። ለችግሩ ይቅርታ እንጠይቃለን።"
+        },
+        "invalid_configuration": {
+            "title": "ልክ ያልሆነ ውቅር",
+            "description": "በውቅር ስህተት ምክንያት ይህን ጥያቄ ማስተናገድ አንችልም። ለችግሩ ይቅርታ እንጠይቃለን።"
+        },
+        "resource": {
+            "title": "የመዳረሻ ስህተት",
+            "description_start": "እንደ አለመታደል ይህን ገጽ በመጫን ላይ ስህተት ተከስቷል።",
+            "cause_list": [
+                "የመነሻ አገልጋዩ ያልተጠበቀ የስራ ጫና እያጋጠመው ነው፣ በአሁኑ ጊዜም ጥያቄዎችን ማስተናገድ አይችልም",
+                "በመነሻ አገልጋዩ ላይ ወይም መረጃ በሚተላለፍበት ጊዜ ያልተጠበቀ ስህተት ተከስቷል"
+            ],
+            "description_end": "ለችግሩ ይቅርታ እንጠይቃለን።",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "የመዳረሻ ስህተት",
+            "description_start": "እንደ አለመታደል ይህን ገጽ በመጫን ላይ ስህተት ተከስቷል።",
+            "cause_list": [
+                "ከIP አድራሻዎ ወደ አገልጋዩ ከመጠን በላይ ጥያቄዎች እየተላኩ መሆኑ ታውቋል",
+                "የመነሻ አገልጋዩ ያልተጠበቀ የስራ ጫና እያጋጠመው ነው፣ በአሁኑ ጊዜም ጥያቄዎችን ማስተናገድ አይችልም",
+                "በመነሻ አገልጋዩ ላይ ወይም መረጃ በሚተላለፍበት ጊዜ ያልተጠበቀ ስህተት ተከስቷል"
+            ],
+            "description_end": "ለችግሩ ይቅርታ እንጠይቃለን።",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "የመዳረሻ ስህተት",
+            "description_start": "እንደ አለመታደል ይህን ገጽ በመጫን ላይ ስህተት ተከስቷል።",
+            "cause_list": [
+                "ከIP አድራሻዎ ወደ አገልጋዩ ያሉት ግንኙነቶች ብዛት ያልተለመደ ነው",
+                "የመነሻ አገልጋዩ ያልተጠበቀ የስራ ጫና እያጋጠመው ነው፣ በአሁኑ ጊዜም ጥያቄዎችን ማስተናገድ አይችልም",
+                "በመነሻ አገልጋዩ ላይ ወይም መረጃ በሚተላለፍበት ጊዜ ያልተጠበቀ ስህተት ተከስቷል"
+            ],
+            "description_end": "ለችግሩ ይቅርታ እንጠይቃለን።",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "ልክ ያልሆነ ጥያቄ",
+            "description": "ይህ ድረ ገጽ በHTTPS ሊደረስበት ይችላል። በHTTP ለመገናኘት ሞክረዋል፣ አሁን እርስዎን ለማዛወር እንሞክራለን። ካልተዛወሩ እባክዎ በURL መጀመሪያ https:// ጨምረው እንደገና ይሞክሩ።"
+        },
+        "timeout": {
+            "title": "አገልጋዩ አይገኝም",
+            "description": "ይቅርታ፣ ይህን ገጽ በመጫን ላይ የጥበቃ ጊዜው አልቋል። አገልጋዩ በስራ ተጠምዶ በአሁኑ ጊዜ ጥያቄዎን ማስተናገድ የማይችል ሊሆን ይችላል።",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "ያልታወቀ ጎራ",
+            "description": "ይህ ጎራ ለዚህ IP አድራሻ አልተመዘገበም።",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "የማይደገፍ ዘዴ",
+            "description": "የተጠየቀው የHTTP ዘዴ ለዚህ ድረ ገጽ አልነቃም።",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "ደህንነቱ ያልተጠበቀ ጥያቄ",
+            "description": "የተጠየቀው የHTTPS ፕሮቶኮል ለዚህ ድረ ገጽ አልነቃም። እባክዎ አሳሽዎን ያዘምኑ።",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "ለጥገና ከመስመር ውጭ ነው",
+            "description": "ይህ ድረ ገጽ በአሁኑ ጊዜ አይገኝም። በቅርቡ እንደገና ይገኛል ተብሎ ይጠበቃል።",
+            "refresh_enable": true
+        }
+    }
+}

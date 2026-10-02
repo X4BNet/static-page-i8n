@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Pwosesis sa a fèt otomatikman. Yo pral redirije w byento nan paj ou te vle vizite a.",
+        "validate_browser": "N ap verifye navigatè w la anvan ou jwenn aksè nan {http_host}",
+        "are_you_human_host": "Èske ou se yon moun? Ou dwe pase yon verifikasyon pou jwenn aksè nan {http_host}",
+        "are_you_human": "Èske ou se yon moun? Ou dwe pase yon verifikasyon pou kontinye",
+        "enter_captcha_host": "Tanpri antre CAPTCHA ki anba a pou ale sou {http_host}:",
+        "enter_captcha": "Tanpri antre CAPTCHA ki anba a pou kontinye:",
+        "submit": "voye",
+        "try_again_later": "Sit entènèt sa a pran plis tan pase nòmal pou l chaje. Ou ka <a href=\"\">eseye ankò</a> pita",
+        "unexpected_error": "Sanble gen yon erè sanzatann ki fèt. Tanpri <a href=\"\">eseye ankò</a> pita",
+        "validation_complete": "<strong>Verifikasyon an fini</strong>. Kounye a, yo ap redirije w nan paj ou te vle vizite a. Klike <a href=\"\">isit la</a> si paj la pa rechaje.",
+        "enable_javascript": "Verifikasyon navigatè a mache pi byen lè JavaScript aktive.",
+        "abnormal_activity": "Akòz yon aktivite ki pa nòmal, nou bezwen ou fin fè travay ki anba a pou kontinye",
+        "sorry_inconvenience": "Nou eskize nou pou nenpòt deranjman",
+        "verifying": "Verifikasyon ap fèt"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Erè pandan chajman {host}",
+            "refresh_text": "Tanpri eseye antre sou sit la pita oswa klike <a href=\"\">isit la</a> pou rechaje paj la.",
+            "unexpected_error": "Yon erè sanzatann fèt pandan paj sa a t ap chaje",
+            "possible_causes": "Men kèk kòz posib: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Sit entènèt la pa disponib",
+            "description": "Malerezman, yon erè sanzatann fèt pandan paj sa a t ap chaje. Nou eskize nou pou nenpòt deranjman. Tanpri eseye antre sou sit la pita oswa klike <a href=\"\">isit la</a> pou rechaje paj la."
+        },
+        "suspended": {
+            "title": "Sit entènèt la sispann",
+            "description": "Malerezman, sit entènèt ou ap eseye vizite a pa disponib. Nou eskize nou pou nenpòt deranjman. Si ou se <strong>pwopriyetè</strong> sit sa a, tanpri <a href=\"https://www.x4b.net/support\">kontakte sèvis asistans lan</a>."
+        },
+        "over_bandwidth": {
+            "title": "Sit entènèt la sispann",
+            "description": "Malerezman, sit entènèt ou ap eseye vizite a pa disponib. Nou eskize nou pou nenpòt deranjman. Si ou se <strong>pwopriyetè</strong> sit sa a, tanpri <a href=\"https://www.x4b.net/\">kontakte sèvis asistans lan</a>."
+        },
+        "backend": {
+            "title": "Sèvè a pa disponib",
+            "description": "Sèvè orijin nan pa disponib pou kounye a, kidonk li pa kapab reponn demann sa a. Nou eskize nou pou nenpòt deranjman.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Tan limit demann lan depase",
+            "description": "Nou regrèt sa, men tan limit la depase pandan paj sa a t ap chaje. Nou eskize nou pou nenpòt deranjman sa ka lakòz.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Aksè refize",
+            "description": "Ou pa gen pèmisyon pou jwenn aksè nan paj sa a. Si ou panse sa se yon erè, tanpri kontakte administratè sit la."
+        },
+        "upstream": {
+            "title": "Sèvè a pa disponib",
+            "description": "Kounye a, pa gen okenn sèvè ki sou entènèt e ki disponib pou trete demann sa a. Nou eskize nou pou nenpòt deranjman."
+        },
+        "invalid_configuration": {
+            "title": "Konfigirasyon pa valab",
+            "description": "Nou pa kapab reponn demann sa a akoz yon erè nan konfigirasyon an. Nou eskize nou pou nenpòt deranjman."
+        },
+        "resource": {
+            "title": "Erè aksè",
+            "description_start": "Malerezman, yon erè fèt pandan paj sa a t ap chaje.",
+            "cause_list": [
+                "Sèvè orijin nan ap fè fas ak yon chaj travay sanzatann epi li pa kapab trete demann kounye a",
+                "Yon erè sanzatann fèt sou sèvè orijin nan oswa pandan transmisyon an"
+            ],
+            "description_end": "Nou eskize nou pou nenpòt deranjman.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Erè aksè",
+            "description_start": "Malerezman, yon erè fèt pandan paj sa a t ap chaje.",
+            "cause_list": [
+                "Nou detekte twòp demann k ap soti nan adrès IP ou pou ale nan sèvè a",
+                "Sèvè orijin nan ap fè fas ak yon chaj travay sanzatann epi li pa kapab trete demann kounye a",
+                "Yon erè sanzatann fèt sou sèvè orijin nan oswa pandan transmisyon an"
+            ],
+            "description_end": "Nou eskize nou pou nenpòt deranjman.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Erè aksè",
+            "description_start": "Malerezman, yon erè fèt pandan paj sa a t ap chaje.",
+            "cause_list": [
+                "Adrès IP ou gen yon kantite koneksyon ki pa nòmal ak sèvè a",
+                "Sèvè orijin nan ap fè fas ak yon chaj travay sanzatann epi li pa kapab trete demann kounye a",
+                "Yon erè sanzatann fèt sou sèvè orijin nan oswa pandan transmisyon an"
+            ],
+            "description_end": "Nou eskize nou pou nenpòt deranjman.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Demann pa valab",
+            "description": "Ou ka jwenn aksè nan sit sa a atravè HTTPS. Ou te eseye konekte atravè HTTP; kounye a, nou pral eseye redirije w. Si yo pa redirije w, tanpri ajoute https:// nan kòmansman URL ou a epi eseye ankò."
+        },
+        "timeout": {
+            "title": "Sèvè a pa disponib",
+            "description": "Nou regrèt sa, men tan limit la depase pandan paj sa a t ap chaje. Li posib pou sèvè a okipe epi li pa kapab trete demann ou an kounye a.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Domèn enkoni",
+            "description": "Domèn sa a pa anrejistre pou adrès IP sa a.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Metòd pa sipòte",
+            "description": "Metòd HTTP yo mande a pa aktive pou sit sa a.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Demann ki pa an sekirite",
+            "description": "Pwotokòl HTTPS yo mande a pa aktive pou sit sa a. Tanpri mete navigatè w la ajou.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Pa disponib akòz antretyen",
+            "description": "Sit sa a pa disponib kounye a. Li ta dwe disponib ankò byento.",
+            "refresh_enable": true
+        }
+    }
+}

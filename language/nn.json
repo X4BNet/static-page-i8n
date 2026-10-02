@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Denne prosessen går automatisk. Du blir snart send vidare til staden du ville besøkje.",
+        "validate_browser": "Vi kontrollerer nettlesaren din før du får tilgang til {http_host}",
+        "are_you_human_host": "Er du eit menneske? Stadfesting er nødvendig for å få tilgang til {http_host}",
+        "are_you_human": "Er du eit menneske? Stadfesting er nødvendig for å halde fram",
+        "enter_captcha_host": "Skriv inn CAPTCHA-koden nedanfor for å gå vidare til {http_host}:",
+        "enter_captcha": "Skriv inn CAPTCHA-koden nedanfor for å halde fram:",
+        "submit": "Send",
+        "try_again_later": "Det tek lengre tid enn vanleg å laste denne nettstaden. Du kan <a href=\"\">prøve igjen</a> seinare",
+        "unexpected_error": "Det ser ut til at det har oppstått ein uventa feil. <a href=\"\">Prøv igjen</a> seinare",
+        "validation_complete": "<strong>Stadfestinga er fullført</strong>. Du blir no send vidare til staden du ville besøkje. Klikk <a href=\"\">her</a> dersom sida ikkje blir lasta inn på nytt.",
+        "enable_javascript": "Kontrollen av nettlesaren fungerer best når JavaScript er slått på.",
+        "abnormal_activity": "På grunn av uvanleg aktivitet må du fullføre oppgåva nedanfor for å halde fram",
+        "sorry_inconvenience": "Vi beklagar eventuelle ulemper",
+        "verifying": "Stadfestar"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Feil ved lasting av {host}",
+            "refresh_text": "Prøv å opne nettstaden seinare, eller klikk <a href=\"\">her</a> for å laste sida på nytt.",
+            "unexpected_error": "Det oppstod ein uventa feil medan denne sida vart lasta",
+            "possible_causes": "Moglege årsaker er mellom anna: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Nettstaden er ikkje tilgjengeleg",
+            "description": "Det oppstod dessverre ein uventa feil medan denne sida vart lasta. Vi beklagar eventuelle ulemper. Prøv å opne nettstaden seinare, eller klikk <a href=\"\">her</a> for å laste sida på nytt."
+        },
+        "suspended": {
+            "title": "Nettstaden er suspendert",
+            "description": "Nettstaden du prøver å besøkje, er dessverre ikkje tilgjengeleg. Vi beklagar eventuelle ulemper. Dersom du er <strong>eigaren</strong> av denne nettstaden, må du <a href=\"https://www.x4b.net/support\">kontakte brukarstøtta</a>."
+        },
+        "over_bandwidth": {
+            "title": "Nettstaden er suspendert",
+            "description": "Nettstaden du prøver å besøkje, er dessverre ikkje tilgjengeleg. Vi beklagar eventuelle ulemper. Dersom du er <strong>eigaren</strong> av denne nettstaden, må du <a href=\"https://www.x4b.net/\">kontakte brukarstøtta</a>."
+        },
+        "backend": {
+            "title": "Tenaren er ikkje tilgjengeleg",
+            "description": "Opphavstenaren er mellombels utilgjengeleg og kan derfor ikkje handsame denne førespurnaden. Vi beklagar eventuelle ulemper.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Tidsavbrot for førespurnaden",
+            "description": "Dessverre gjekk tidsfristen ut medan denne nettsida vart lasta. Vi beklagar eventuelle ulemper dette kan ha ført til.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Tilgang nekta",
+            "description": "Du har ikkje løyve til å opne denne sida. Dersom dette er ein feil, må du kontakte administratoren for nettstaden."
+        },
+        "upstream": {
+            "title": "Tenaren er ikkje tilgjengeleg",
+            "description": "Ingen tenar er for tida på nett og tilgjengeleg for å handsame denne førespurnaden. Vi beklagar eventuelle ulemper."
+        },
+        "invalid_configuration": {
+            "title": "Ugyldig oppsett",
+            "description": "Vi kan ikkje handsame denne førespurnaden på grunn av ein feil i oppsettet. Vi beklagar eventuelle ulemper."
+        },
+        "resource": {
+            "title": "Tilgangsfeil",
+            "description_start": "Det oppstod dessverre ein feil medan denne sida vart lasta.",
+            "cause_list": [
+                "Opphavstenaren har uventa stor belastning og kan ikkje handsame førespurnader akkurat no",
+                "Det oppstod ein uventa feil på opphavstenaren eller under dataoverføringa"
+            ],
+            "description_end": "Vi beklagar eventuelle ulemper.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Tilgangsfeil",
+            "description_start": "Det oppstod dessverre ein feil medan denne sida vart lasta.",
+            "cause_list": [
+                "Det er oppdaga at IP-adressa di sender altfor mange førespurnader til tenaren",
+                "Opphavstenaren har uventa stor belastning og kan ikkje handsame førespurnader akkurat no",
+                "Det oppstod ein uventa feil på opphavstenaren eller under dataoverføringa"
+            ],
+            "description_end": "Vi beklagar eventuelle ulemper.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Tilgangsfeil",
+            "description_start": "Det oppstod dessverre ein feil medan denne sida vart lasta.",
+            "cause_list": [
+                "Det er eit uvanleg tal på tilkoplingar frå IP-adressa di til tenaren",
+                "Opphavstenaren har uventa stor belastning og kan ikkje handsame førespurnader akkurat no",
+                "Det oppstod ein uventa feil på opphavstenaren eller under dataoverføringa"
+            ],
+            "description_end": "Vi beklagar eventuelle ulemper.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Ugyldig førespurnad",
+            "description": "Denne nettstaden er tilgjengeleg via HTTPS. Du prøvde å kople til via HTTP. Vi vil no prøve å sende deg vidare. Dersom du ikkje blir send vidare, legg til https:// i byrjinga av URL-en din og prøv igjen."
+        },
+        "timeout": {
+            "title": "Tenaren er ikkje tilgjengeleg",
+            "description": "Dessverre gjekk tidsfristen ut medan denne sida vart lasta. Tenaren kan vere oppteken og ute av stand til å handsame førespurnaden din akkurat no.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Ukjent domene",
+            "description": "Dette domenet er ikkje registrert for denne IP-adressa.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Metoden er ikkje støtta",
+            "description": "Den førespurde HTTP-metoden er ikkje aktivert for denne nettstaden.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Utrygg førespurnad",
+            "description": "Den førespurde HTTPS-protokollen er ikkje aktivert for denne nettstaden. Oppdater nettlesaren din.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Fråkopla for vedlikehald",
+            "description": "Denne nettstaden er ikkje tilgjengeleg akkurat no. Han er venta å vere tilgjengeleg igjen snart.",
+            "refresh_enable": true
+        }
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Denne proces er automatisk. Du bliver snart omdirigeret til den ønskede destination.",
+        "validate_browser": "Din browser kontrolleres, før du får adgang til {http_host}",
+        "are_you_human_host": "Er du et menneske? Bekræftelse er nødvendig for at få adgang til {http_host}",
+        "are_you_human": "Er du et menneske? Bekræftelse er nødvendig for at fortsætte",
+        "enter_captcha_host": "Indtast CAPTCHA-koden nedenfor for at fortsætte til {http_host}:",
+        "enter_captcha": "Indtast CAPTCHA-koden nedenfor for at fortsætte:",
+        "submit": "Send",
+        "try_again_later": "Det tager længere tid end normalt at indlæse dette websted. Du kan <a href=\"\">prøve igen</a> senere",
+        "unexpected_error": "Der ser ud til at være opstået en uventet fejl. <a href=\"\">Prøv igen</a> senere",
+        "validation_complete": "<strong>Bekræftelse fuldført</strong>. Du bliver nu omdirigeret til den ønskede destination. Klik <a href=\"\">her</a>, hvis siden ikke indlæses igen.",
+        "enable_javascript": "Browserkontrollen fungerer bedst, når JavaScript er aktiveret.",
+        "abnormal_activity": "På grund af usædvanlig aktivitet skal du udføre opgaven nedenfor for at fortsætte",
+        "sorry_inconvenience": "Vi beklager ulejligheden",
+        "verifying": "Bekræfter"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Fejl ved indlæsning af {host}",
+            "refresh_text": "Prøv at besøge webstedet senere, eller klik <a href=\"\">her</a> for at genindlæse siden.",
+            "unexpected_error": "Der opstod en uventet fejl under indlæsningen af denne side",
+            "possible_causes": "Mulige årsager omfatter: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Webstedet er ikke tilgængeligt",
+            "description": "Der opstod desværre en uventet fejl under indlæsningen af denne side. Vi beklager ulejligheden. Prøv at besøge webstedet senere, eller klik <a href=\"\">her</a> for at genindlæse siden."
+        },
+        "suspended": {
+            "title": "Webstedet er suspenderet",
+            "description": "Det websted, du forsøger at besøge, er desværre ikke tilgængeligt. Vi beklager ulejligheden. Hvis du er <strong>ejer</strong> af dette websted, bedes du <a href=\"https://www.x4b.net/support\">kontakte support</a>."
+        },
+        "over_bandwidth": {
+            "title": "Webstedet er suspenderet",
+            "description": "Det websted, du forsøger at besøge, er desværre ikke tilgængeligt. Vi beklager ulejligheden. Hvis du er <strong>ejer</strong> af dette websted, bedes du <a href=\"https://www.x4b.net/\">kontakte support</a>."
+        },
+        "backend": {
+            "title": "Serveren er ikke tilgængelig",
+            "description": "Oprindelsesserveren er midlertidigt utilgængelig og kan derfor ikke behandle denne anmodning. Vi beklager ulejligheden.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Anmodningens tidsgrænse er overskredet",
+            "description": "Tidsgrænsen blev desværre overskredet under indlæsningen af denne webside. Vi beklager den ulejlighed, det måtte have medført.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Adgang nægtet",
+            "description": "Du har ikke tilladelse til at få adgang til denne side. Hvis dette er en fejl, bedes du kontakte webstedets administrator."
+        },
+        "upstream": {
+            "title": "Serveren er ikke tilgængelig",
+            "description": "Ingen server er i øjeblikket online og tilgængelig til at behandle denne anmodning. Vi beklager ulejligheden."
+        },
+        "invalid_configuration": {
+            "title": "Ugyldig konfiguration",
+            "description": "Vi kan ikke behandle denne anmodning på grund af en konfigurationsfejl. Vi beklager ulejligheden."
+        },
+        "resource": {
+            "title": "Adgangsfejl",
+            "description_start": "Der opstod desværre en fejl under indlæsningen af denne side.",
+            "cause_list": [
+                "Oprindelsesserveren oplever uventet høj belastning og kan ikke behandle anmodninger i øjeblikket",
+                "Der opstod en uventet fejl på oprindelsesserveren eller under dataoverførslen"
+            ],
+            "description_end": "Vi beklager ulejligheden.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Adgangsfejl",
+            "description_start": "Der opstod desværre en fejl under indlæsningen af denne side.",
+            "cause_list": [
+                "Det er blevet registreret, at din IP-adresse sender for mange anmodninger til serveren",
+                "Oprindelsesserveren oplever uventet høj belastning og kan ikke behandle anmodninger i øjeblikket",
+                "Der opstod en uventet fejl på oprindelsesserveren eller under dataoverførslen"
+            ],
+            "description_end": "Vi beklager ulejligheden.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Adgangsfejl",
+            "description_start": "Der opstod desværre en fejl under indlæsningen af denne side.",
+            "cause_list": [
+                "Der er et usædvanligt antal forbindelser til serveren fra din IP-adresse",
+                "Oprindelsesserveren oplever uventet høj belastning og kan ikke behandle anmodninger i øjeblikket",
+                "Der opstod en uventet fejl på oprindelsesserveren eller under dataoverførslen"
+            ],
+            "description_end": "Vi beklager ulejligheden.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Ugyldig anmodning",
+            "description": "Dette websted er tilgængeligt via HTTPS. Du har forsøgt at oprette forbindelse via HTTP. Vi vil nu forsøge at omdirigere dig. Hvis du ikke bliver omdirigeret, skal du tilføje https:// i starten af din URL og prøve igen."
+        },
+        "timeout": {
+            "title": "Serveren er ikke tilgængelig",
+            "description": "Tidsgrænsen blev desværre overskredet under indlæsningen af denne side. Serveren er muligvis optaget og kan ikke behandle din anmodning i øjeblikket.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Ukendt domæne",
+            "description": "Dette domæne er ikke registreret til denne IP-adresse.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Metoden understøttes ikke",
+            "description": "Den anmodede HTTP-metode er ikke aktiveret for dette websted.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Usikker anmodning",
+            "description": "Den anmodede HTTPS-protokol er ikke aktiveret for dette websted. Opdater din browser.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Offline på grund af vedligeholdelse",
+            "description": "Dette websted er ikke tilgængeligt i øjeblikket. Det forventes at være tilgængeligt igen snart.",
+            "refresh_enable": true
+        }
+    }
+}

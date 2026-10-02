@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Ovaj postupak je automatski. Uskoro ćete biti preusmjereni na željeno odredište.",
+        "validate_browser": "Provjeravamo vaš preglednik prije pristupa stranici {http_host}",
+        "are_you_human_host": "Jeste li čovjek? Za pristup stranici {http_host} potrebna je provjera",
+        "are_you_human": "Jeste li čovjek? Za nastavak je potrebna provjera",
+        "enter_captcha_host": "Unesite CAPTCHA kod ispod da nastavite na {http_host}:",
+        "enter_captcha": "Unesite CAPTCHA kod ispod da nastavite:",
+        "submit": "Pošalji",
+        "try_again_later": "Učitavanje ove web-stranice traje duže nego obično. Možete <a href=\"\">pokušati ponovo</a> kasnije",
+        "unexpected_error": "Izgleda da je došlo do neočekivane greške. <a href=\"\">Pokušajte ponovo</a> kasnije",
+        "validation_complete": "<strong>Provjera je završena</strong>. Sada vas preusmjeravamo na željeno odredište. Kliknite <a href=\"\">ovdje</a> ako se stranica ponovo ne učita.",
+        "enable_javascript": "Provjera preglednika najbolje radi kada je JavaScript omogućen.",
+        "abnormal_activity": "Zbog neuobičajene aktivnosti trebate dovršiti zadatak ispod da nastavite",
+        "sorry_inconvenience": "Izvinjavamo se zbog eventualnih neugodnosti",
+        "verifying": "Provjeravanje"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Greška pri učitavanju stranice {host}",
+            "refresh_text": "Pokušajte pristupiti web-stranici kasnije ili kliknite <a href=\"\">ovdje</a> da ponovo učitate stranicu.",
+            "unexpected_error": "Pri učitavanju ove stranice došlo je do neočekivane greške",
+            "possible_causes": "Mogući uzroci uključuju: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Web-stranica nije dostupna",
+            "description": "Nažalost, pri učitavanju ove stranice došlo je do neočekivane greške. Izvinjavamo se zbog eventualnih neugodnosti. Pokušajte pristupiti web-stranici kasnije ili kliknite <a href=\"\">ovdje</a> da ponovo učitate stranicu."
+        },
+        "suspended": {
+            "title": "Rad web-stranice je obustavljen",
+            "description": "Nažalost, web-stranica koju pokušavate posjetiti nije dostupna. Izvinjavamo se zbog eventualnih neugodnosti. Ako ste <strong>vlasnik</strong> ove web-stranice, <a href=\"https://www.x4b.net/support\">kontaktirajte podršku</a>."
+        },
+        "over_bandwidth": {
+            "title": "Rad web-stranice je obustavljen",
+            "description": "Nažalost, web-stranica koju pokušavate posjetiti nije dostupna. Izvinjavamo se zbog eventualnih neugodnosti. Ako ste <strong>vlasnik</strong> ove web-stranice, <a href=\"https://www.x4b.net/\">kontaktirajte podršku</a>."
+        },
+        "backend": {
+            "title": "Server nije dostupan",
+            "description": "Izvorni server privremeno nije dostupan i zato ne može obraditi ovaj zahtjev. Izvinjavamo se zbog eventualnih neugodnosti.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Isteklo je vrijeme čekanja na zahtjev",
+            "description": "Nažalost, pri učitavanju ove web-stranice isteklo je vrijeme čekanja. Izvinjavamo se zbog eventualnih neugodnosti koje je to prouzrokovalo.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Pristup je odbijen",
+            "description": "Nemate dozvolu za pristup ovoj stranici. Ako smatrate da je ovo greška, kontaktirajte administratora web-stranice."
+        },
+        "upstream": {
+            "title": "Server nije dostupan",
+            "description": "Trenutno nijedan server nije na mreži i dostupan za obradu ovog zahtjeva. Izvinjavamo se zbog eventualnih neugodnosti."
+        },
+        "invalid_configuration": {
+            "title": "Neispravna konfiguracija",
+            "description": "Ne možemo obraditi ovaj zahtjev zbog greške u konfiguraciji. Izvinjavamo se zbog eventualnih neugodnosti."
+        },
+        "resource": {
+            "title": "Greška pri pristupu",
+            "description_start": "Nažalost, pri učitavanju ove stranice došlo je do greške.",
+            "cause_list": [
+                "Izvorni server je neočekivano opterećen i trenutno ne može obrađivati zahtjeve",
+                "Na izvornom serveru ili tokom prijenosa podataka došlo je do neočekivane greške"
+            ],
+            "description_end": "Izvinjavamo se zbog eventualnih neugodnosti.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Greška pri pristupu",
+            "description_start": "Nažalost, pri učitavanju ove stranice došlo je do greške.",
+            "cause_list": [
+                "Otkriveno je da vaša IP adresa šalje prekomjeran broj zahtjeva serveru",
+                "Izvorni server je neočekivano opterećen i trenutno ne može obrađivati zahtjeve",
+                "Na izvornom serveru ili tokom prijenosa podataka došlo je do neočekivane greške"
+            ],
+            "description_end": "Izvinjavamo se zbog eventualnih neugodnosti.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Greška pri pristupu",
+            "description_start": "Nažalost, pri učitavanju ove stranice došlo je do greške.",
+            "cause_list": [
+                "S vaše IP adrese uspostavljen je neuobičajen broj veza sa serverom",
+                "Izvorni server je neočekivano opterećen i trenutno ne može obrađivati zahtjeve",
+                "Na izvornom serveru ili tokom prijenosa podataka došlo je do neočekivane greške"
+            ],
+            "description_end": "Izvinjavamo se zbog eventualnih neugodnosti.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Neispravan zahtjev",
+            "description": "Ova web-stranica dostupna je putem HTTPS veze. Pokušali ste se povezati putem HTTP veze. Sada ćemo vas pokušati preusmjeriti. Ako ne budete preusmjereni, dodajte https:// na početak svog URL-a i pokušajte ponovo."
+        },
+        "timeout": {
+            "title": "Server nije dostupan",
+            "description": "Nažalost, pri učitavanju ove stranice isteklo je vrijeme čekanja. Moguće je da je server zauzet i da trenutno ne može obraditi vaš zahtjev.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Nepoznata domena",
+            "description": "Ova domena nije registrirana za ovu IP adresu.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Nepodržana metoda",
+            "description": "Tražena HTTP metoda nije omogućena za ovu web-stranicu.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Nesiguran zahtjev",
+            "description": "Traženi HTTPS protokol nije omogućen za ovu web-stranicu. Ažurirajte svoj preglednik.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Nedostupno zbog održavanja",
+            "description": "Ova web-stranica trenutno nije dostupna. Očekuje se da će uskoro ponovo biti dostupna.",
+            "refresh_enable": true
+        }
+    }
+}

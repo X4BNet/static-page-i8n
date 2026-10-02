@@ -1,0 +1,688 @@
+{
+    "reviewedOn": "2026-10-02",
+    "scope": "European/Caucasus assigned additions, plus parent-authorized Macedonian, Scots and scoped Holy See Latin",
+    "method": "Direct model-authored translation from complete English context. No external machine translation or external LLM APIs. Same-language script conversion only for bs-cyrl, sr-latn and cnr-cyrl. Repeated English values share a single translated value. English grammar errors interpreted by intended meaning.",
+    "completed": [
+        {
+            "tag": "bs",
+            "name": "Bosnian",
+            "script": "Latin",
+            "writtenForm": "Standard Bosnian, Latin script",
+            "languageId": "bs",
+            "confidence": "high",
+            "reviewNotes": "Direct translation; ijekavian Bosnian terminology.",
+            "stringCount": 63,
+            "booleanCount": 11,
+            "validation": "pass",
+            "secondAgentReview": "complete",
+            "unchangedEnglishKeys": [],
+            "secondAgentReviewReport": "coverage/research/review-europe-a.json"
+        },
+        {
+            "tag": "bs-cyrl",
+            "name": "Bosnian (Cyrillic)",
+            "script": "Cyrillic",
+            "writtenForm": "Standard Bosnian, Cyrillic script",
+            "languageId": "bs",
+            "confidence": "high",
+            "reviewNotes": "Same-language Cyrillic rendering of the independently translated Bosnian text; tags, identifiers and placeholders retained.",
+            "stringCount": 63,
+            "booleanCount": 11,
+            "validation": "pass",
+            "secondAgentReview": "complete",
+            "unchangedEnglishKeys": [],
+            "secondAgentReviewReport": "coverage/research/review-europe-a.json"
+        },
+        {
+            "tag": "hr",
+            "name": "Croatian",
+            "script": "Latin",
+            "writtenForm": "Standard Croatian",
+            "languageId": "hr",
+            "confidence": "high",
+            "reviewNotes": "Croatian browser, server and configuration terminology; direct English-source review.",
+            "stringCount": 63,
+            "booleanCount": 11,
+            "validation": "pass",
+            "secondAgentReview": "complete",
+            "unchangedEnglishKeys": [],
+            "secondAgentReviewReport": "coverage/research/review-europe-a.json"
+        },
+        {
+            "tag": "sl",
+            "name": "Slovenian",
+            "script": "Latin",
+            "writtenForm": "Standard Slovenian",
+            "languageId": "sl",
+            "confidence": "high",
+            "reviewNotes": "Source distinctions and URL clause reviewed.",
+            "stringCount": 63,
+            "booleanCount": 11,
+            "validation": "pass",
+            "secondAgentReview": "complete",
+            "unchangedEnglishKeys": [],
+            "secondAgentReviewReport": "coverage/research/review-europe-a.json"
+        },
+        {
+            "tag": "et",
+            "name": "Estonian",
+            "script": "Latin",
+            "writtenForm": "Standard Estonian",
+            "languageId": "et",
+            "confidence": "high",
+            "reviewNotes": "Source semantics and inflected technical nouns reviewed.",
+            "stringCount": 63,
+            "booleanCount": 11,
+            "validation": "pass",
+            "secondAgentReview": "complete",
+            "unchangedEnglishKeys": [],
+            "secondAgentReviewReport": "coverage/research/review-europe-a.json"
+        },
+        {
+            "tag": "lv",
+            "name": "Latvian",
+            "script": "Latin",
+            "writtenForm": "Standard Latvian",
+            "languageId": "lv",
+            "confidence": "high",
+            "reviewNotes": "Source semantics and case endings reviewed.",
+            "stringCount": 63,
+            "booleanCount": 11,
+            "validation": "pass",
+            "secondAgentReview": "complete",
+            "unchangedEnglishKeys": [],
+            "secondAgentReviewReport": "coverage/research/review-europe-a.json"
+        },
+        {
+            "tag": "is",
+            "name": "Icelandic",
+            "script": "Latin",
+            "writtenForm": "Standard Icelandic",
+            "languageId": "is",
+            "confidence": "medium",
+            "reviewNotes": "Defensible complete text; inflection and technical register merit another linguistic reading.",
+            "stringCount": 63,
+            "booleanCount": 11,
+            "validation": "pass",
+            "secondAgentReview": "complete",
+            "unchangedEnglishKeys": [],
+            "secondAgentReviewReport": "coverage/research/review-europe-a.json"
+        },
+        {
+            "tag": "fo",
+            "name": "Faroese",
+            "script": "Latin",
+            "writtenForm": "Standard Faroese",
+            "languageId": "fo",
+            "confidence": "lower",
+            "reviewNotes": "Distinct Faroese, not Danish or Icelandic substitution. Technical register and noun-case agreement have greater uncertainty.",
+            "stringCount": 63,
+            "booleanCount": 11,
+            "validation": "pass",
+            "secondAgentReview": "complete",
+            "unchangedEnglishKeys": [],
+            "secondAgentReviewReport": "coverage/research/review-europe-a.json",
+            "reviewPriority": "additional-fluency-review"
+        },
+        {
+            "tag": "nn",
+            "name": "Norwegian Nynorsk",
+            "script": "Latin",
+            "writtenForm": "Norwegian Nynorsk",
+            "languageId": "no",
+            "confidence": "high",
+            "reviewNotes": "Nynorsk orthography and morphology maintained; separate written form from existing Bokmål.",
+            "stringCount": 63,
+            "booleanCount": 11,
+            "validation": "pass",
+            "secondAgentReview": "complete",
+            "unchangedEnglishKeys": [],
+            "secondAgentReviewReport": "coverage/research/review-europe-a.json"
+        },
+        {
+            "tag": "lb",
+            "name": "Luxembourgish",
+            "script": "Latin",
+            "writtenForm": "Standard Luxembourgish",
+            "languageId": "lb",
+            "confidence": "medium",
+            "reviewNotes": "Luxembourgish syntax and vocabulary, with conventional technical loans; orthographic fluency should receive another reading.",
+            "stringCount": 63,
+            "booleanCount": 11,
+            "validation": "pass",
+            "secondAgentReview": "complete",
+            "unchangedEnglishKeys": [],
+            "secondAgentReviewReport": "coverage/research/review-europe-a.json",
+            "reviewPriority": "additional-fluency-review"
+        },
+        {
+            "tag": "fy",
+            "name": "West Frisian",
+            "script": "Latin",
+            "writtenForm": "Standard West Frisian",
+            "languageId": "fy",
+            "confidence": "lower",
+            "reviewNotes": "West Frisian rather than Dutch or North Frisian; technical compounds and idiomatic register merit additional review.",
+            "stringCount": 63,
+            "booleanCount": 11,
+            "validation": "pass",
+            "secondAgentReview": "complete",
+            "unchangedEnglishKeys": [],
+            "secondAgentReviewReport": "coverage/research/review-europe-a.json",
+            "reviewPriority": "additional-fluency-review"
+        },
+        {
+            "tag": "ga",
+            "name": "Irish",
+            "script": "Latin",
+            "writtenForm": "Standard Irish",
+            "languageId": "ga",
+            "confidence": "medium",
+            "reviewNotes": "Irish vocabulary and mutations reviewed; no claim of native-language certification.",
+            "stringCount": 63,
+            "booleanCount": 11,
+            "validation": "pass",
+            "secondAgentReview": "complete",
+            "unchangedEnglishKeys": [],
+            "secondAgentReviewReport": "coverage/research/review-europe-a.json",
+            "reviewPriority": "additional-fluency-review"
+        },
+        {
+            "tag": "gd",
+            "name": "Scottish Gaelic",
+            "script": "Latin",
+            "writtenForm": "Standard Scottish Gaelic",
+            "languageId": "gd",
+            "confidence": "lower",
+            "reviewNotes": "Distinct Scottish Gaelic, not Irish substitution; technical compounds and idiomatic clauses carry additional uncertainty.",
+            "stringCount": 63,
+            "booleanCount": 11,
+            "validation": "pass",
+            "secondAgentReview": "complete",
+            "unchangedEnglishKeys": [],
+            "secondAgentReviewReport": "coverage/research/review-europe-b.json",
+            "reviewPriority": "additional-fluency-review"
+        },
+        {
+            "tag": "cy",
+            "name": "Welsh",
+            "script": "Latin",
+            "writtenForm": "Standard Welsh",
+            "languageId": "cy",
+            "confidence": "medium",
+            "reviewNotes": "Welsh mutations and formal user instructions reviewed.",
+            "stringCount": 63,
+            "booleanCount": 11,
+            "validation": "pass",
+            "secondAgentReview": "complete",
+            "unchangedEnglishKeys": [],
+            "secondAgentReviewReport": "coverage/research/review-europe-b.json"
+        },
+        {
+            "tag": "gl",
+            "name": "Galician",
+            "script": "Latin",
+            "writtenForm": "Standard Galician",
+            "languageId": "gl",
+            "confidence": "high",
+            "reviewNotes": "Galician forms and source distinctions maintained.",
+            "stringCount": 63,
+            "booleanCount": 11,
+            "validation": "pass",
+            "secondAgentReview": "complete",
+            "unchangedEnglishKeys": [],
+            "secondAgentReviewReport": "coverage/research/review-europe-b.json"
+        },
+        {
+            "tag": "eu",
+            "name": "Basque",
+            "script": "Latin",
+            "writtenForm": "Standard Basque (Euskara Batua)",
+            "languageId": "eu",
+            "confidence": "medium",
+            "reviewNotes": "Basque syntax and case suffixes reviewed; technical register warrants another reading.",
+            "stringCount": 63,
+            "booleanCount": 11,
+            "validation": "pass",
+            "secondAgentReview": "complete",
+            "unchangedEnglishKeys": [],
+            "secondAgentReviewReport": "coverage/research/review-europe-b.json"
+        },
+        {
+            "tag": "mt",
+            "name": "Maltese",
+            "script": "Latin",
+            "writtenForm": "Standard Maltese",
+            "languageId": "mt",
+            "confidence": "medium",
+            "reviewNotes": "Maltese morphology and conventional browser/server loanwords reviewed.",
+            "stringCount": 63,
+            "booleanCount": 11,
+            "validation": "pass",
+            "secondAgentReview": "complete",
+            "unchangedEnglishKeys": [],
+            "secondAgentReviewReport": "coverage/research/review-europe-b.json"
+        },
+        {
+            "tag": "ka",
+            "name": "Georgian",
+            "script": "Georgian",
+            "writtenForm": "Standard Georgian, Mkhedruli script",
+            "languageId": "ka",
+            "confidence": "medium",
+            "reviewNotes": "Complete direct Georgian text; technical origin-server term and idiom warrant another reading.",
+            "stringCount": 63,
+            "booleanCount": 11,
+            "validation": "pass",
+            "secondAgentReview": "complete",
+            "unchangedEnglishKeys": [],
+            "secondAgentReviewReport": "coverage/research/review-europe-b.json"
+        },
+        {
+            "tag": "ky",
+            "name": "Kyrgyz",
+            "script": "Cyrillic",
+            "writtenForm": "Standard Kyrgyz, Cyrillic script",
+            "languageId": "ky",
+            "confidence": "lower",
+            "reviewNotes": "Distinct Kyrgyz grammar and characters retained; technical-register fluency has greater uncertainty.",
+            "stringCount": 63,
+            "booleanCount": 11,
+            "validation": "pass",
+            "secondAgentReview": "complete",
+            "unchangedEnglishKeys": [],
+            "secondAgentReviewReport": "coverage/research/review-europe-b.json",
+            "reviewPriority": "additional-fluency-review"
+        },
+        {
+            "tag": "tt",
+            "name": "Tatar",
+            "script": "Cyrillic",
+            "writtenForm": "Standard Tatar, Cyrillic script",
+            "languageId": "tt",
+            "confidence": "lower",
+            "reviewNotes": "Distinct Tatar vocabulary and Cyrillic letters; not Bashkir or another Turkic substitute. Idiom and technical-register choices merit additional review.",
+            "stringCount": 63,
+            "booleanCount": 11,
+            "validation": "pass",
+            "secondAgentReview": "complete",
+            "unchangedEnglishKeys": [],
+            "secondAgentReviewReport": "coverage/research/review-europe-b.json",
+            "reviewPriority": "additional-fluency-review"
+        },
+        {
+            "tag": "cnr",
+            "name": "Montenegrin",
+            "script": "Latin",
+            "writtenForm": "Standard Montenegrin, Latin script",
+            "languageId": "cnr",
+            "confidence": "medium",
+            "reviewNotes": "Ijekavian Montenegrin with accepted ś spelling; shared South Slavic forms retained where correct. Cyrillic remains a separate uncovered written form.",
+            "stringCount": 63,
+            "booleanCount": 11,
+            "validation": "pass",
+            "secondAgentReview": "complete",
+            "unchangedEnglishKeys": [],
+            "secondAgentReviewReport": "coverage/research/review-europe-b.json"
+        },
+        {
+            "tag": "sr-latn",
+            "name": "Serbian (Latin)",
+            "script": "Latin",
+            "writtenForm": "Standard Serbian, Latin script (Ekavian)",
+            "languageId": "sr",
+            "confidence": "high",
+            "reviewNotes": "Authorized same-language transliteration of existing sr, after English-source semantic review; sr.json unchanged.",
+            "stringCount": 63,
+            "booleanCount": 11,
+            "validation": "pass",
+            "secondAgentReview": "complete",
+            "unchangedEnglishKeys": [],
+            "secondAgentReviewReport": "coverage/research/review-europe-b.json"
+        },
+        {
+            "tag": "mk",
+            "name": "Macedonian",
+            "script": "Cyrillic",
+            "writtenForm": "Standard Macedonian",
+            "languageId": "mk",
+            "confidence": "high",
+            "reviewNotes": "Direct Macedonian translation with source-semantic review.",
+            "stringCount": 63,
+            "booleanCount": 11,
+            "validation": "pass",
+            "secondAgentReview": "complete",
+            "unchangedEnglishKeys": [],
+            "secondAgentReviewReport": "coverage/research/review-europe-b.json"
+        },
+        {
+            "tag": "sco",
+            "name": "Scots",
+            "script": "Latin",
+            "writtenForm": "Modern written Scots, broadly Central Scots",
+            "languageId": "sco",
+            "confidence": "lower",
+            "reviewNotes": "Conservative contemporary Scots with shared English vocabulary where correct; not Scottish English alone. No single universally fixed Scots technical orthography; technical loans retained.",
+            "stringCount": 63,
+            "booleanCount": 11,
+            "validation": "pass",
+            "secondAgentReview": "complete",
+            "unchangedEnglishKeys": [
+                "error.default.possible_causes"
+            ],
+            "unchangedEnglishRationale": "The phrase “Possible causes include:” consists of words and syntax shared with Scots; forced respelling would not improve fidelity.",
+            "secondAgentReviewReport": "coverage/research/review-europe-b.json",
+            "reviewPriority": "additional-fluency-review"
+        },
+        {
+            "tag": "la",
+            "name": "Latin",
+            "script": "Latin",
+            "writtenForm": "Modern Latin for technical interface text",
+            "languageId": "la",
+            "confidence": "lower",
+            "reviewNotes": "Grammatical Latin with transparent contemporary technical terminology and circumlocutions. Technical vocabulary is not claimed to be a Vatican-standard glossary.",
+            "stringCount": 63,
+            "booleanCount": 11,
+            "validation": "pass",
+            "secondAgentReview": "complete",
+            "unchangedEnglishKeys": [],
+            "secondAgentReviewReport": "coverage/research/review-europe-b.json",
+            "reviewPriority": "additional-fluency-review"
+        },
+        {
+            "tag": "cnr-cyrl",
+            "name": "Montenegrin (Cyrillic)",
+            "script": "Cyrillic",
+            "writtenForm": "Standard Montenegrin, Cyrillic script",
+            "languageId": "cnr",
+            "confidence": "medium",
+            "reviewNotes": "Same-language Cyrillic version of the independently translated and reviewed Montenegrin Latin profile. Montenegrin ś becomes с́ (Cyrillic с plus combining acute); standard digraphs become љ, њ and џ. Identifiers and markup preserved.",
+            "stringCount": 63,
+            "booleanCount": 11,
+            "validation": "pass",
+            "secondAgentReview": "complete",
+            "unchangedEnglishKeys": [],
+            "secondAgentReviewReport": "coverage/research/review-europe-b.json"
+        }
+    ],
+    "completedCount": 26,
+    "lowerConfidenceTags": [
+        "fo",
+        "fy",
+        "gd",
+        "ky",
+        "tt",
+        "sco",
+        "la"
+    ],
+    "declined": [
+        {
+            "tag": "rm",
+            "name": "Romansh",
+            "reason": "Cannot reliably compose a complete Rumantsch Grischun text; substituting an Italian-influenced approximation or one idiom would not satisfy the federal written-form requirement.",
+            "baselineRequirements": [
+                "CH:official_regional"
+            ]
+        },
+        {
+            "tag": "csb",
+            "name": "Kashubian",
+            "reason": "Insufficient independent command of Kashubian morphology and technical vocabulary to avoid Polish substitution.",
+            "baselineRequirements": [
+                "PL:official_regional"
+            ]
+        },
+        {
+            "tag": "frr",
+            "name": "North Frisian",
+            "reason": "Cannot select and consistently compose the appropriate North Frisian written variety; West Frisian is not a substitute.",
+            "baselineRequirements": [
+                "DE:official_regional"
+            ]
+        },
+        {
+            "tag": "ba",
+            "name": "Bashkir",
+            "reason": "Cannot reliably sustain Bashkir-specific morphology and vocabulary across all entries; Tatar is not a substitute.",
+            "baselineRequirements": [
+                "RU:official_regional"
+            ]
+        },
+        {
+            "tag": "os",
+            "name": "Ossetian",
+            "reason": "Insufficient command of Ossetian grammar and technical vocabulary for a defensible complete translation.",
+            "baselineRequirements": [
+                "GE:official_regional"
+            ]
+        },
+        {
+            "tag": "ce",
+            "name": "Chechen",
+            "reason": "Insufficient command of Chechen grammar, noun classes and technical vocabulary.",
+            "baselineRequirements": [
+                "RU:official_regional"
+            ]
+        },
+        {
+            "tag": "ab",
+            "name": "Abkhaz",
+            "reason": "Insufficient command of Abkhaz morphology and technical vocabulary.",
+            "baselineRequirements": [
+                "GE:official_regional"
+            ]
+        },
+        {
+            "tag": "ady",
+            "name": "Adyghe",
+            "reason": "Insufficient command of Adyghe grammar and orthography; Kabardian or Russian cannot stand in.",
+            "baselineRequirements": [
+                "RU:official_regional"
+            ]
+        },
+        {
+            "tag": "av",
+            "name": "Avar",
+            "reason": "Insufficient command of Avar grammar and noun classes for full direct translation.",
+            "baselineRequirements": [
+                "RU:official_regional"
+            ]
+        },
+        {
+            "tag": "bua",
+            "name": "Buryat",
+            "reason": "Cannot reliably maintain Buryat-specific morphology and vocabulary; Mongolian is not a substitute.",
+            "baselineRequirements": [
+                "RU:official_regional"
+            ]
+        },
+        {
+            "tag": "inh",
+            "name": "Ingush",
+            "reason": "Insufficient command of Ingush grammar and technical vocabulary; Chechen cannot stand in.",
+            "baselineRequirements": [
+                "RU:official_regional"
+            ]
+        },
+        {
+            "tag": "kbd",
+            "name": "Kabardian",
+            "reason": "Insufficient command of Kabardian grammar and orthography.",
+            "baselineRequirements": [
+                "RU:official_regional"
+            ]
+        },
+        {
+            "tag": "koi",
+            "name": "Komi-Permyak",
+            "reason": "Cannot reliably sustain Komi-Permyak rather than Komi-Zyrian morphology and vocabulary.",
+            "baselineRequirements": [
+                "RU:official_regional"
+            ]
+        },
+        {
+            "tag": "krc",
+            "name": "Karachay-Balkar",
+            "reason": "Insufficient specific command; cannot replace it with Kyrgyz or another Turkic language.",
+            "baselineRequirements": [
+                "RU:official_regional"
+            ]
+        },
+        {
+            "tag": "kum",
+            "name": "Kumyk",
+            "reason": "Insufficient specific command of Kumyk grammar and technical usage.",
+            "baselineRequirements": [
+                "RU:official_regional"
+            ]
+        },
+        {
+            "tag": "kv",
+            "name": "Komi",
+            "reason": "Insufficient command of standard Komi-Zyrian technical prose.",
+            "baselineRequirements": [
+                "RU:official_regional"
+            ]
+        },
+        {
+            "tag": "lbe",
+            "name": "Lak",
+            "reason": "Insufficient command of Lak morphology and noun-class agreement.",
+            "baselineRequirements": [
+                "RU:official_regional"
+            ]
+        },
+        {
+            "tag": "lez",
+            "name": "Lezghian",
+            "reason": "Insufficient command of Lezghian grammar and technical vocabulary.",
+            "baselineRequirements": [
+                "RU:official_regional"
+            ]
+        },
+        {
+            "tag": "mdf",
+            "name": "Moksha",
+            "reason": "Cannot reliably produce distinct Moksha morphology and technical prose.",
+            "baselineRequirements": [
+                "RU:official_regional"
+            ]
+        },
+        {
+            "tag": "myv",
+            "name": "Erzya",
+            "reason": "Cannot reliably produce distinct Erzya morphology and technical prose; Moksha is not a substitute.",
+            "baselineRequirements": [
+                "RU:official_regional"
+            ]
+        },
+        {
+            "tag": "sah",
+            "name": "Sakha",
+            "reason": "Insufficient command of Sakha-specific morphology and technical usage.",
+            "baselineRequirements": [
+                "RU:official_regional"
+            ]
+        },
+        {
+            "tag": "tyv",
+            "name": "Tuvan",
+            "reason": "Insufficient command of Tuvan-specific morphology and technical usage.",
+            "baselineRequirements": [
+                "RU:official_regional"
+            ]
+        },
+        {
+            "tag": "udm",
+            "name": "Udmurt",
+            "reason": "Insufficient command of Udmurt grammar and technical vocabulary.",
+            "baselineRequirements": [
+                "RU:official_regional"
+            ]
+        },
+        {
+            "tag": "se",
+            "name": "Northern Sami",
+            "reason": "Cannot reliably sustain Northern Sami morphology and technical vocabulary.",
+            "baselineRequirements": [
+                "NO:official_regional"
+            ]
+        },
+        {
+            "tag": "sms",
+            "name": "Skolt Sami",
+            "reason": "Cannot reliably compose Skolt Sami; Northern Sami is not an acceptable replacement.",
+            "baselineRequirements": [
+                "FI:official_regional"
+            ]
+        },
+        {
+            "tag": "kl",
+            "name": "Greenlandic",
+            "reason": "Insufficient command of Greenlandic polysynthetic grammar for a defensible full text.",
+            "baselineRequirements": [
+                "DK:official_regional",
+                "GL:official"
+            ]
+        },
+        {
+            "tag": "gv",
+            "name": "Manx",
+            "reason": "Cannot reliably compose Manx orthography and grammar; Irish or Scottish Gaelic is not a substitute.",
+            "baselineRequirements": [
+                "IM:official"
+            ]
+        },
+        {
+            "tag": "oc",
+            "name": "Occitan (Aranese)",
+            "reason": "The qualifying Catalan official variety is Aranese. Ability to compose generic or Languedocian Occitan does not establish ability to deliver Aranese.",
+            "baselineRequirements": [
+                "ES:official_regional"
+            ]
+        }
+    ],
+    "excludedByStatus": [
+        {
+            "tag": "ast",
+            "reason": "Protected Asturian is not generally an official language under current Asturias statute; see status report."
+        },
+        {
+            "tag": "gsw",
+            "reason": "Swiss/Alemannic vernacular is not a separate written official-language requirement in Switzerland or Liechtenstein; standard German is already covered."
+        },
+        {
+            "tag": "yi",
+            "reason": "No sourced qualifying official requirement established in the Jewish Autonomous Oblast. Regional state educational source describes Russian as the only state language; do not add from common unsourced claims."
+        }
+    ],
+    "technicalReview": {
+        "files": 26,
+        "eachStringLeaves": 63,
+        "eachBooleanLeaves": 11,
+        "exportedValidator": "validateTranslation(readJSON(file), readJSON(language/en.json))",
+        "allPassed": true,
+        "sourceSemantics": "Each completed translation reviewed against English; unavailable, origin-server, elapsed timeout, excessive requests, unusual connections, optional JavaScript benefit and expected maintenance return distinguished.",
+        "limitations": "Automated structural validation cannot certify idiomatic fluency. Lower-confidence drafts and full second-agent review remain explicit; no native-speaker certification claimed.",
+        "secondAgentReview": "All26 files independently reviewed across all50 unique source groups and repeated occurrences. Cyrillic Montenegrin additionally checked against its reviewed Latin counterpart.",
+        "reviewCorrections": [
+            "sl: unsecured request wording sharpened for TLS context",
+            "gl: redirect uses direct-object pronoun",
+            "ka/ky/tt: unusual connection count is neutral rather than necessarily excessive",
+            "la: explicit reflexive object in HTTP connection clause"
+        ]
+    },
+    "terminologyReferencesActuallyUsed": [],
+    "additionalFluencyReviewTags": [
+        "fo",
+        "lb",
+        "fy",
+        "ga",
+        "gd",
+        "ky",
+        "tt",
+        "sco",
+        "la"
+    ]
+}

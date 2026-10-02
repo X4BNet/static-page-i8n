@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Mandeha ho azy ity dingana ity. Hafindra tsy ho ela any amin'ny pejy tianao haleha ianao.",
+        "validate_browser": "Eo am-panamarinana ny mpitety tranonkalanao alohan'ny hidirana amin'ny {http_host}",
+        "are_you_human_host": "Olombelona ve ianao? Ilaina ny fanamarinana mba hidirana amin'ny {http_host}",
+        "are_you_human": "Olombelona ve ianao? Ilaina ny fanamarinana mba hanohizana",
+        "enter_captcha_host": "Ampidiro eto ambany ny CAPTCHA mba hanohizana mankany amin'ny {http_host}:",
+        "enter_captcha": "Ampidiro eto ambany ny CAPTCHA mba hanohizana:",
+        "submit": "alefaso",
+        "try_again_later": "Ela kokoa noho ny mahazatra ny fanokafana ity tranonkala ity. Afaka <a href=\"\">manandrana indray</a> ianao aoriana kely",
+        "unexpected_error": "Toa nisy hadisoana tsy nampoizina. <a href=\"\">Andramo indray</a> aoriana kely",
+        "validation_complete": "<strong>Vita ny fanamarinana</strong>. Afindra any amin'ny pejy tianao haleha ianao izao. Tsindrio <a href=\"\">eto</a> raha tsy miverina misokatra ilay pejy.",
+        "enable_javascript": "Miasa tsara kokoa ny fanamarinana ny mpitety tranonkala rehefa alefa ny JavaScript.",
+        "abnormal_activity": "Noho ny hetsika tsy mahazatra dia mila mamita ny asa eto ambany ianao mba hanohizana",
+        "sorry_inconvenience": "Miala tsiny amin'ny fanelingelenana",
+        "verifying": "Eo am-panamarinana"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Hadisoana teo am-panokafana ny {host}",
+            "refresh_text": "Andramo idirana indray ilay tranonkala aoriana kely, na tsindrio <a href=\"\">eto</a> mba hamerenana hanokatra ilay pejy.",
+            "unexpected_error": "Nisy hadisoana tsy nampoizina teo am-panokafana ity pejy ity",
+            "possible_causes": "Ireto no mety ho antony: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Tsy azo ampiasaina ny tranonkala",
+            "description": "Indrisy fa nisy hadisoana tsy nampoizina teo am-panokafana ity pejy ity. Miala tsiny amin'ny fanelingelenana. Andramo idirana indray ilay tranonkala aoriana kely, na tsindrio <a href=\"\">eto</a> mba hamerenana hanokatra ilay pejy."
+        },
+        "suspended": {
+            "title": "Naato ny tranonkala",
+            "description": "Indrisy fa tsy azo ampiasaina ilay tranonkala ezahinao tsidihina. Miala tsiny amin'ny fanelingelenana. Raha ianao no <strong>tompon'ity</strong> tranonkala ity dia <a href=\"https://www.x4b.net/support\">mifandraisa amin'ny sampana fanampiana</a>."
+        },
+        "over_bandwidth": {
+            "title": "Naato ny tranonkala",
+            "description": "Indrisy fa tsy azo ampiasaina ilay tranonkala ezahinao tsidihina. Miala tsiny amin'ny fanelingelenana. Raha ianao no <strong>tompon'ity</strong> tranonkala ity dia <a href=\"https://www.x4b.net/\">mifandraisa amin'ny sampana fanampiana</a>."
+        },
+        "backend": {
+            "title": "Tsy azo ampiasaina ny mpizara",
+            "description": "Tsy azo ampiasaina vetivety ny mpizara loharano, ka tsy afaka mamaly ity fangatahana ity. Miala tsiny amin'ny fanelingelenana.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Lany ny fe-potoana niandrasana ny fangatahana",
+            "description": "Miala tsiny fa lany ny fe-potoana niandrasana teo am-panokafana ity pejy ity. Miala tsiny amin'izay fanelingelenana mety naterak'izany.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Tsy nahazoana alalana ny fidirana",
+            "description": "Tsy manana alalana hiditra amin'ity pejy ity ianao. Raha heverinao fa hadisoana izany dia mifandraisa amin'ny mpitantana ny tranonkala."
+        },
+        "upstream": {
+            "title": "Tsy azo ampiasaina ny mpizara",
+            "description": "Tsy misy mpizara mifandray amin'ny tambajotra sady vonona hikarakara ity fangatahana ity amin'izao fotoana izao. Miala tsiny amin'ny fanelingelenana."
+        },
+        "invalid_configuration": {
+            "title": "Fikirakirana tsy mety",
+            "description": "Tsy afaka mamaly ity fangatahana ity izahay noho ny hadisoana amin'ny fikirakirana. Miala tsiny amin'ny fanelingelenana."
+        },
+        "resource": {
+            "title": "Hadisoana amin'ny fidirana",
+            "description_start": "Indrisy fa nisy hadisoana teo am-panokafana ity pejy ity.",
+            "cause_list": [
+                "Miatrika vesatry ny asa tsy nampoizina ny mpizara loharano ary tsy afaka mikarakara fangatahana amin'izao fotoana izao",
+                "Nisy hadisoana tsy nampoizina tao amin'ny mpizara loharano na nandritra ny fandefasana angona"
+            ],
+            "description_end": "Miala tsiny amin'ny fanelingelenana.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Hadisoana amin'ny fidirana",
+            "description_start": "Indrisy fa nisy hadisoana teo am-panokafana ity pejy ity.",
+            "cause_list": [
+                "Tsikaritra fa be loatra ny fangatahana alefa any amin'ny mpizara avy amin'ny adiresy IP-nao",
+                "Miatrika vesatry ny asa tsy nampoizina ny mpizara loharano ary tsy afaka mikarakara fangatahana amin'izao fotoana izao",
+                "Nisy hadisoana tsy nampoizina tao amin'ny mpizara loharano na nandritra ny fandefasana angona"
+            ],
+            "description_end": "Miala tsiny amin'ny fanelingelenana.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Hadisoana amin'ny fidirana",
+            "description_start": "Indrisy fa nisy hadisoana teo am-panokafana ity pejy ity.",
+            "cause_list": [
+                "Tsy mahazatra ny isan'ny fifandraisana amin'ny mpizara avy amin'ny adiresy IP-nao",
+                "Miatrika vesatry ny asa tsy nampoizina ny mpizara loharano ary tsy afaka mikarakara fangatahana amin'izao fotoana izao",
+                "Nisy hadisoana tsy nampoizina tao amin'ny mpizara loharano na nandritra ny fandefasana angona"
+            ],
+            "description_end": "Miala tsiny amin'ny fanelingelenana.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Fangatahana diso",
+            "description": "Azo idirana amin'ny HTTPS ity tranonkala ity. Niezaka nifandray tamin'ny HTTP ianao; hiezaka hamindra anao izahay izao. Raha tsy voafindra ianao dia ampio https:// eo am-piandohan'ny URL-nao ary andramo indray."
+        },
+        "timeout": {
+            "title": "Tsy azo ampiasaina ny mpizara",
+            "description": "Miala tsiny fa lany ny fe-potoana niandrasana teo am-panokafana ity pejy ity. Mety ho be asa ny mpizara ka tsy afaka mikarakara ny fangatahanao amin'izao fotoana izao.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Anaran-tsehatra tsy fantatra",
+            "description": "Tsy voasoratra ho an'ity adiresy IP ity io anaran-tsehatra io.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Fomba tsy tohanana",
+            "description": "Tsy alefa ho an'ity tranonkala ity ny fomba HTTP nangatahina.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Fangatahana tsy azo antoka",
+            "description": "Tsy alefa ho an'ity tranonkala ity ny protokola HTTPS nangatahina. Havaozy ny mpitety tranonkalanao.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Tsy mandeha noho ny fikojakojana",
+            "description": "Tsy azo ampiasaina amin'izao fotoana izao ity tranonkala ity. Tokony ho azo ampiasaina indray tsy ho ela izy io.",
+            "refresh_enable": true
+        }
+    }
+}

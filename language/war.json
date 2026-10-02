@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Awtomatiko ini nga proseso. Ha diri maiha, ibabalhin ka ngadto ha pahina nga karuyag mo bisitahon.",
+        "validate_browser": "Gin-uusisa an imo browser antes sumulod ha {http_host}",
+        "are_you_human_host": "Tawo ka ba? Kinahanglan an pag-usisa basi makasulod ha {http_host}",
+        "are_you_human": "Tawo ka ba? Kinahanglan an pag-usisa basi makapadayon",
+        "enter_captcha_host": "Alayon isurat an CAPTCHA ha ubos basi makapadayon ngadto ha {http_host}:",
+        "enter_captcha": "Alayon isurat an CAPTCHA ha ubos basi makapadayon:",
+        "submit": "ipadara",
+        "try_again_later": "Mas maiha kay han kasagaran an pagkarga hini nga website. Mahimo ka <a href=\"\">magsari utro</a> ha urhi",
+        "unexpected_error": "Baga hin may nahitabo nga diri ginlalaoman nga sayop. Alayon <a href=\"\">sarihi utro</a> ha urhi",
+        "validation_complete": "<strong>Natapos na an Pag-usisa</strong>. Ginbabalhin ka na ngadto ha pahina nga karuyag mo bisitahon. I-klik <a href=\"\">dinhi</a> kon diri magkarga utro an pahina.",
+        "enable_javascript": "An pag-usisa han browser pinakamaopay nga nagios kon naka-enable an JavaScript.",
+        "abnormal_activity": "Tungod han diri kasagaran nga aktibidad, kinahanglan mo tapuson an buruhaton ha ubos basi makapadayon",
+        "sorry_inconvenience": "Nangangaro kami hin pasaylo tungod hin bisan ano nga kakurian",
+        "verifying": "Gin-uusisa"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Sayop ha pagkarga han {host}",
+            "refresh_text": "Alayon sarihi an pagsulod ha site ha urhi o i-klik <a href=\"\">dinhi</a> basi ikarga utro an pahina.",
+            "unexpected_error": "May nahitabo nga diri ginlalaoman nga sayop samtang ginkakarga ini nga pahina",
+            "possible_causes": "An posible nga mga hinungdan amo an:",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Diri Magamit an Website",
+            "description": "Makasurubo, may nahitabo nga diri ginlalaoman nga sayop samtang ginkakarga ini nga pahina. Nangangaro kami hin pasaylo tungod han kakurian. Alayon sarihi an pagsulod ha site ha urhi o i-klik <a href=\"\">dinhi</a> basi ikarga utro an pahina."
+        },
+        "suspended": {
+            "title": "Ginsuspinde an Website",
+            "description": "Makasurubo, diri magamit an website nga imo ginsasarihan bisitahon. Nangangaro kami hin pasaylo tungod han kakurian. Kon ikaw an <strong>tag-iya</strong> hini nga website, alayon <a href=\"https://www.x4b.net/support\">kontaka an suporta</a>."
+        },
+        "over_bandwidth": {
+            "title": "Ginsuspinde an Website",
+            "description": "Makasurubo, diri magamit an website nga imo ginsasarihan bisitahon. Nangangaro kami hin pasaylo tungod han kakurian. Kon ikaw an <strong>tag-iya</strong> hini nga website, alayon <a href=\"https://www.x4b.net/\">kontaka an suporta</a>."
+        },
+        "backend": {
+            "title": "Diri Magamit an Server",
+            "description": "Temporaryo nga diri magamit an gintitikangan nga server, salit diri hini maproseso ini nga hangyo. Nangangaro kami hin pasaylo tungod han kakurian.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Natapos an Oras han Paghulat ha Hangyo",
+            "description": "Pasayloa kami, natapos an itinanda nga oras han paghulat samtang ginkakarga ini nga web page. Nangangaro kami hin pasaylo tungod hin bisan ano nga kakurian nga mahimo hini mahatag.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Waray Tugot nga Sumulod",
+            "description": "Waray ka pagtugot nga sumulod hini nga pahina. Kon sayop ini, alayon kontaka an administrador han website."
+        },
+        "upstream": {
+            "title": "Diri Magamit an Server",
+            "description": "Yana waray server nga online ngan magagamit ha pagproseso hini nga hangyo. Nangangaro kami hin pasaylo tungod han kakurian."
+        },
+        "invalid_configuration": {
+            "title": "Diri Husto nga Konpigurasyon",
+            "description": "Diri namon maproseso ini nga hangyo tungod han sayop ha konpigurasyon. Nangangaro kami hin pasaylo tungod han kakurian."
+        },
+        "resource": {
+            "title": "Sayop ha Pagsulod",
+            "description_start": "Makasurubo, may nahitabo nga sayop samtang ginkakarga ini nga pahina.",
+            "cause_list": [
+                "An gintitikangan nga server may diri ginlalaoman nga kadamu han trabaho ngan diri makaproseso hin mga hangyo yana",
+                "May nahitabo nga diri ginlalaoman nga sayop ha gintitikangan nga server o samtang ginpapadara an datos"
+            ],
+            "description_end": "Nangangaro kami hin pasaylo tungod han kakurian.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Sayop ha Pagsulod",
+            "description_start": "Makasurubo, may nahitabo nga sayop samtang ginkakarga ini nga pahina.",
+            "cause_list": [
+                "Namatikdan nga an imo IP address nagpapadara hin sobra kadamu nga mga hangyo ngadto ha server",
+                "An gintitikangan nga server may diri ginlalaoman nga kadamu han trabaho ngan diri makaproseso hin mga hangyo yana",
+                "May nahitabo nga diri ginlalaoman nga sayop ha gintitikangan nga server o samtang ginpapadara an datos"
+            ],
+            "description_end": "Nangangaro kami hin pasaylo tungod han kakurian.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Sayop ha Pagsulod",
+            "description_start": "Makasurubo, may nahitabo nga sayop samtang ginkakarga ini nga pahina.",
+            "cause_list": [
+                "An imo IP address may diri kasagaran nga kadamu han mga koneksyon ngadto ha server",
+                "An gintitikangan nga server may diri ginlalaoman nga kadamu han trabaho ngan diri makaproseso hin mga hangyo yana",
+                "May nahitabo nga diri ginlalaoman nga sayop ha gintitikangan nga server o samtang ginpapadara an datos"
+            ],
+            "description_end": "Nangangaro kami hin pasaylo tungod han kakurian.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Diri Husto nga Hangyo",
+            "description": "Ini nga website masusudlan pinaagi han HTTPS. Nagsari ka pagkonekta pinaagi han HTTP, ngan yana sasarihan namon nga ibalhin ka. Kon diri ka mabalhin, alayon idugang an https:// ha tinikangan han imo URL ngan sarihi utro."
+        },
+        "timeout": {
+            "title": "Diri Magamit an Server",
+            "description": "Pasayloa kami, natapos an itinanda nga oras han paghulat samtang ginkakarga ini nga pahina. Posible nga okupado an server ngan diri maproseso an imo hangyo yana.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Diri Kilala nga Domain",
+            "description": "Ini nga domain diri rehistrado para hini nga IP address.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Diri Suportado nga Pamaagi",
+            "description": "An gin-aro nga pamaagi han HTTP diri naka-enable para hini nga website.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Diri Talwas nga Hangyo",
+            "description": "An gin-aro nga protokol han HTTPS diri naka-enable para hini nga website. Alayon i-update an imo browser.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Offline para han Pagmintinar",
+            "description": "Ini nga website diri magamit yana. Ginlalaoman nga magagamit ini utro ha diri maiha.",
+            "refresh_enable": true
+        }
+    }
+}

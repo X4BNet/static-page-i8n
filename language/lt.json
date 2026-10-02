@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Šis procesas vyksta automatiškai. Netrukus būsite nukreipti į norimą puslapį.",
+        "validate_browser": "Prieš atveriant {http_host}, tikrinama jūsų naršyklė",
+        "are_you_human_host": "Ar esate žmogus? Norint pasiekti {http_host}, būtina patikra",
+        "are_you_human": "Ar esate žmogus? Norint tęsti, būtina patikra",
+        "enter_captcha_host": "Norėdami pereiti į {http_host}, įveskite toliau pateiktą CAPTCHA kodą:",
+        "enter_captcha": "Norėdami tęsti, įveskite toliau pateiktą CAPTCHA kodą:",
+        "submit": "Pateikti",
+        "try_again_later": "Ši svetainė įkeliama ilgiau nei įprastai. Galite vėliau <a href=\"\">bandyti dar kartą</a>",
+        "unexpected_error": "Atrodo, įvyko netikėta klaida. Vėliau <a href=\"\">bandykite dar kartą</a>",
+        "validation_complete": "<strong>Patikra baigta</strong>. Dabar būsite nukreipti į norimą puslapį. Jei puslapis neįkeliamas iš naujo, spustelėkite <a href=\"\">čia</a>.",
+        "enable_javascript": "Naršyklės patikra geriausiai veikia, kai įjungtas JavaScript.",
+        "abnormal_activity": "Dėl neįprastos veiklos, norėdami tęsti, turite atlikti toliau pateiktą užduotį",
+        "sorry_inconvenience": "Atsiprašome už galimus nepatogumus",
+        "verifying": "Tikrinama"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Klaida įkeliant {host}",
+            "refresh_text": "Pabandykite svetainę pasiekti vėliau arba spustelėkite <a href=\"\">čia</a>, kad puslapis būtų įkeltas iš naujo.",
+            "unexpected_error": "Įkeliant šį puslapį įvyko netikėta klaida",
+            "possible_causes": "Galimos priežastys: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Svetainė nepasiekiama",
+            "description": "Deja, įkeliant šį puslapį įvyko netikėta klaida. Atsiprašome už galimus nepatogumus. Pabandykite svetainę pasiekti vėliau arba spustelėkite <a href=\"\">čia</a>, kad puslapis būtų įkeltas iš naujo."
+        },
+        "suspended": {
+            "title": "Svetainės veikla sustabdyta",
+            "description": "Deja, svetainė, kurią bandote aplankyti, nepasiekiama. Atsiprašome už galimus nepatogumus. Jei esate šios svetainės <strong>savininkas</strong>, <a href=\"https://www.x4b.net/support\">susisiekite su pagalbos tarnyba</a>."
+        },
+        "over_bandwidth": {
+            "title": "Svetainės veikla sustabdyta",
+            "description": "Deja, svetainė, kurią bandote aplankyti, nepasiekiama. Atsiprašome už galimus nepatogumus. Jei esate šios svetainės <strong>savininkas</strong>, <a href=\"https://www.x4b.net/\">susisiekite su pagalbos tarnyba</a>."
+        },
+        "backend": {
+            "title": "Serveris nepasiekiamas",
+            "description": "Šaltinio serveris laikinai nepasiekiamas, todėl negali apdoroti šios užklausos. Atsiprašome už galimus nepatogumus.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Baigėsi užklausos laukimo laikas",
+            "description": "Deja, įkeliant šį tinklalapį baigėsi laukimo laikas. Atsiprašome už dėl to galėjusius kilti nepatogumus.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Prieiga uždrausta",
+            "description": "Neturite leidimo pasiekti šį puslapį. Jei manote, kad tai klaida, susisiekite su svetainės administratoriumi."
+        },
+        "upstream": {
+            "title": "Serveris nepasiekiamas",
+            "description": "Šiuo metu nėra nė vieno prisijungusio ir pasiekiamo serverio, galinčio apdoroti šią užklausą. Atsiprašome už galimus nepatogumus."
+        },
+        "invalid_configuration": {
+            "title": "Netinkama konfigūracija",
+            "description": "Dėl konfigūracijos klaidos negalime apdoroti šios užklausos. Atsiprašome už galimus nepatogumus."
+        },
+        "resource": {
+            "title": "Prieigos klaida",
+            "description_start": "Deja, įkeliant šį puslapį įvyko klaida.",
+            "cause_list": [
+                "Šaltinio serverio apkrova netikėtai padidėjo, todėl šiuo metu jis negali apdoroti užklausų",
+                "Šaltinio serveryje arba perduodant duomenis įvyko netikėta klaida"
+            ],
+            "description_end": "Atsiprašome už galimus nepatogumus.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Prieigos klaida",
+            "description_start": "Deja, įkeliant šį puslapį įvyko klaida.",
+            "cause_list": [
+                "Nustatyta, kad iš jūsų IP adreso į serverį siunčiama pernelyg daug užklausų",
+                "Šaltinio serverio apkrova netikėtai padidėjo, todėl šiuo metu jis negali apdoroti užklausų",
+                "Šaltinio serveryje arba perduodant duomenis įvyko netikėta klaida"
+            ],
+            "description_end": "Atsiprašome už galimus nepatogumus.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Prieigos klaida",
+            "description_start": "Deja, įkeliant šį puslapį įvyko klaida.",
+            "cause_list": [
+                "Iš jūsų IP adreso užmegztas neįprastas jungčių su serveriu skaičius",
+                "Šaltinio serverio apkrova netikėtai padidėjo, todėl šiuo metu jis negali apdoroti užklausų",
+                "Šaltinio serveryje arba perduodant duomenis įvyko netikėta klaida"
+            ],
+            "description_end": "Atsiprašome už galimus nepatogumus.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Netinkama užklausa",
+            "description": "Ši svetainė pasiekiama per HTTPS. Bandėte prisijungti per HTTP. Dabar bandysime jus nukreipti. Jei nebūsite nukreipti, savo URL pradžioje pridėkite https:// ir bandykite dar kartą."
+        },
+        "timeout": {
+            "title": "Serveris nepasiekiamas",
+            "description": "Deja, įkeliant šį puslapį baigėsi laukimo laikas. Gali būti, kad serveris užimtas ir šiuo metu negali apdoroti jūsų užklausos.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Nežinomas domenas",
+            "description": "Šis domenas neužregistruotas šiam IP adresui.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Nepalaikomas metodas",
+            "description": "Prašomas HTTP metodas šioje svetainėje neįjungtas.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Nesaugi užklausa",
+            "description": "Prašomas HTTPS protokolas šioje svetainėje neįjungtas. Atnaujinkite naršyklę.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Neveikia dėl priežiūros darbų",
+            "description": "Ši svetainė šiuo metu nepasiekiama. Tikimasi, kad ji netrukus vėl bus pasiekiama.",
+            "refresh_enable": true
+        }
+    }
+}

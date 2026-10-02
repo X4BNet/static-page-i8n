@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Acest proces este automat. Veți fi redirecționat în scurt timp către destinația dorită.",
+        "validate_browser": "Se verifică browserul înainte de accesarea {http_host}",
+        "are_you_human_host": "Sunteți o persoană? Este necesară verificarea pentru a accesa {http_host}",
+        "are_you_human": "Sunteți o persoană? Este necesară verificarea pentru a continua",
+        "enter_captcha_host": "Introduceți codul CAPTCHA de mai jos pentru a continua către {http_host}:",
+        "enter_captcha": "Introduceți codul CAPTCHA de mai jos pentru a continua:",
+        "submit": "trimite",
+        "try_again_later": "Încărcarea acestui site durează mai mult decât de obicei. Puteți <a href=\"\">încerca din nou</a> mai târziu",
+        "unexpected_error": "Se pare că a apărut o eroare neașteptată. <a href=\"\">Încercați din nou</a> mai târziu",
+        "validation_complete": "<strong>Verificare finalizată</strong>. Sunteți redirecționat către destinația dorită. Apăsați <a href=\"\">aici</a> dacă pagina nu se reîncarcă.",
+        "enable_javascript": "Verificarea browserului funcționează cel mai bine când JavaScript este activat.",
+        "abnormal_activity": "Din cauza unei activități neobișnuite, trebuie să finalizați sarcina de mai jos pentru a continua",
+        "sorry_inconvenience": "Ne cerem scuze pentru orice inconvenient",
+        "verifying": "Se verifică"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Eroare la încărcarea {host}",
+            "refresh_text": "Încercați să accesați site-ul mai târziu sau apăsați <a href=\"\">aici</a> pentru a reîncărca pagina.",
+            "unexpected_error": "A apărut o eroare neașteptată la încărcarea acestei pagini",
+            "possible_causes": "Cauzele posibile includ:",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Site indisponibil",
+            "description": "Din păcate, a apărut o eroare neașteptată la încărcarea acestei pagini. Ne cerem scuze pentru inconvenient. Încercați să accesați site-ul mai târziu sau apăsați <a href=\"\">aici</a> pentru a reîncărca pagina."
+        },
+        "suspended": {
+            "title": "Site suspendat",
+            "description": "Din păcate, site-ul pe care încercați să îl vizitați nu este disponibil. Ne cerem scuze pentru inconvenient. Dacă sunteți <strong>proprietarul</strong> acestui site, <a href=\"https://www.x4b.net/support\">contactați serviciul de asistență</a>."
+        },
+        "over_bandwidth": {
+            "title": "Site suspendat",
+            "description": "Din păcate, site-ul pe care încercați să îl vizitați nu este disponibil. Ne cerem scuze pentru inconvenient. Dacă sunteți <strong>proprietarul</strong> acestui site, <a href=\"https://www.x4b.net/\">contactați serviciul de asistență</a>."
+        },
+        "backend": {
+            "title": "Server indisponibil",
+            "description": "Serverul de origine este temporar indisponibil și, prin urmare, nu poate procesa această cerere. Ne cerem scuze pentru inconvenient.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Timpul de așteptare al cererii a expirat",
+            "description": "Din păcate, timpul de așteptare a expirat în timpul încărcării acestei pagini web. Ne cerem scuze pentru orice inconvenient cauzat.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Acces refuzat",
+            "description": "Nu aveți permisiunea de a accesa această pagină. Dacă este o greșeală, contactați administratorul site-ului."
+        },
+        "upstream": {
+            "title": "Server indisponibil",
+            "description": "În prezent, niciun server nu este conectat și disponibil pentru a procesa această cerere. Ne cerem scuze pentru inconvenient."
+        },
+        "invalid_configuration": {
+            "title": "Configurație nevalidă",
+            "description": "Nu putem procesa această cerere din cauza unei erori de configurare. Ne cerem scuze pentru inconvenient."
+        },
+        "resource": {
+            "title": "Eroare de acces",
+            "description_start": "Din păcate, a apărut o eroare la încărcarea acestei pagini.",
+            "cause_list": [
+                "Serverul de origine este supus unei încărcări neobișnuite și nu poate procesa cereri în acest moment",
+                "A apărut o eroare neașteptată pe serverul de origine sau în timpul transferului de date"
+            ],
+            "description_end": "Ne cerem scuze pentru inconvenient.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Eroare de acces",
+            "description_start": "Din păcate, a apărut o eroare la încărcarea acestei pagini.",
+            "cause_list": [
+                "S-a detectat că adresa dumneavoastră IP trimite prea multe cereri către server",
+                "Serverul de origine este supus unei încărcări neobișnuite și nu poate procesa cereri în acest moment",
+                "A apărut o eroare neașteptată pe serverul de origine sau în timpul transferului de date"
+            ],
+            "description_end": "Ne cerem scuze pentru inconvenient.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Eroare de acces",
+            "description_start": "Din păcate, a apărut o eroare la încărcarea acestei pagini.",
+            "cause_list": [
+                "Adresa dumneavoastră IP are un număr neobișnuit de conexiuni la server",
+                "Serverul de origine este supus unei încărcări neobișnuite și nu poate procesa cereri în acest moment",
+                "A apărut o eroare neașteptată pe serverul de origine sau în timpul transferului de date"
+            ],
+            "description_end": "Ne cerem scuze pentru inconvenient.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Cerere nevalidă",
+            "description": "Acest site este accesibil prin HTTPS. Ați încercat să vă conectați prin HTTP, iar acum vom încerca să vă redirecționăm. Dacă nu sunteți redirecționat, adăugați https:// la începutul adresei URL și încercați din nou."
+        },
+        "timeout": {
+            "title": "Server indisponibil",
+            "description": "Din păcate, timpul de așteptare a expirat în timpul încărcării acestei pagini. Este posibil ca serverul să fie ocupat și să nu vă poată procesa cererea în acest moment.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Domeniu necunoscut",
+            "description": "Acest domeniu nu este înregistrat pentru această adresă IP.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Metodă neacceptată",
+            "description": "Metoda HTTP solicitată nu este activată pentru acest site.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Cerere nesecurizată",
+            "description": "Protocolul HTTPS solicitat nu este activat pentru acest site. Actualizați browserul.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Deconectat pentru întreținere",
+            "description": "Acest site nu este disponibil în acest moment. Ar trebui să fie disponibil din nou în scurt timp.",
+            "refresh_enable": true
+        }
+    }
+}

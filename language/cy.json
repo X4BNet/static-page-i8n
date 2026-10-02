@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Mae'r broses hon yn awtomatig. Cewch eich ailgyfeirio i'ch cyrchfan yn fuan.",
+        "validate_browser": "Yn dilysu eich porwr cyn cael mynediad i {http_host}",
+        "are_you_human_host": "Ai person ydych chi? Mae angen dilysu er mwyn cael mynediad i {http_host}",
+        "are_you_human": "Ai person ydych chi? Mae angen dilysu er mwyn parhau",
+        "enter_captcha_host": "Rhowch y CAPTCHA isod i barhau i {http_host}:",
+        "enter_captcha": "Rhowch y CAPTCHA isod i barhau:",
+        "submit": "cyflwyno",
+        "try_again_later": "Mae'r wefan hon yn cymryd mwy o amser nag arfer i lwytho. Efallai yr hoffech <a href=\"\">roi cynnig arall arni</a> yn nes ymlaen",
+        "unexpected_error": "Mae'n ymddangos bod gwall annisgwyl wedi digwydd. <a href=\"\">Rhowch gynnig arall arni</a> yn nes ymlaen",
+        "validation_complete": "<strong>Dilysu wedi'i gwblhau</strong> Rydych bellach yn cael eich ailgyfeirio i'ch cyrchfan. Cliciwch <a href=\"\">yma</a> os nad yw'r dudalen yn ail-lwytho.",
+        "enable_javascript": "Mae dilysu'r porwr yn gweithio orau pan fo JavaScript wedi'i alluogi.",
+        "abnormal_activity": "Oherwydd gweithgarwch anarferol, mae angen i chi gwblhau'r dasg isod er mwyn parhau",
+        "sorry_inconvenience": "Ymddiheurwn am unrhyw anghyfleustra",
+        "verifying": "Yn dilysu"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Gwall wrth lwytho {host}",
+            "refresh_text": "Ceisiwch agor y wefan yn nes ymlaen neu cliciwch <a href=\"\">yma</a> i adnewyddu'r dudalen.",
+            "unexpected_error": "Digwyddodd gwall annisgwyl wrth lwytho'r dudalen hon",
+            "possible_causes": "Ymhlith yr achosion posibl mae: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Nid yw'r wefan ar gael",
+            "description": "Yn anffodus, digwyddodd gwall annisgwyl wrth lwytho'r dudalen hon. Ymddiheurwn am unrhyw anghyfleustra. Ceisiwch agor y wefan yn nes ymlaen neu cliciwch <a href=\"\">yma</a> i adnewyddu'r dudalen."
+        },
+        "suspended": {
+            "title": "Gwefan wedi'i hatal",
+            "description": "Yn anffodus, nid yw'r wefan rydych yn ceisio ymweld â hi ar gael. Ymddiheurwn am unrhyw anghyfleustra. Os mai chi yw <strong>perchennog</strong> y wefan hon, <a href=\"https://www.x4b.net/support\">cysylltwch â'r tîm cymorth</a>."
+        },
+        "over_bandwidth": {
+            "title": "Gwefan wedi'i hatal",
+            "description": "Yn anffodus, nid yw'r wefan rydych yn ceisio ymweld â hi ar gael. Ymddiheurwn am unrhyw anghyfleustra. Os mai chi yw <strong>perchennog</strong> y wefan hon, <a href=\"https://www.x4b.net/\">cysylltwch â'r tîm cymorth</a>."
+        },
+        "backend": {
+            "title": "Nid yw'r gweinydd ar gael",
+            "description": "Nid yw'r gweinydd tarddiad ar gael dros dro ac felly ni all wasanaethu'r cais hwn. Ymddiheurwn am unrhyw anghyfleustra.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Terfyn amser y cais wedi dod i ben",
+            "description": "Mae'n ddrwg gennym, ond daeth y terfyn amser i ben wrth lwytho'r dudalen we hon. Ymddiheurwn am unrhyw anghyfleustra a achoswyd gan hyn.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Mynediad wedi'i wrthod",
+            "description": "Nid oes gennych ganiatâd i gael mynediad i'r dudalen hon. Os yw hyn yn gamgymeriad, cysylltwch â gweinyddwr y wefan."
+        },
+        "upstream": {
+            "title": "Nid yw'r gweinydd ar gael",
+            "description": "Nid oes unrhyw weinydd ar-lein ac ar gael ar hyn o bryd i brosesu'r cais hwn. Ymddiheurwn am unrhyw anghyfleustra."
+        },
+        "invalid_configuration": {
+            "title": "Ffurfweddiad annilys",
+            "description": "Ni allwn wasanaethu'r cais hwn oherwydd gwall ffurfweddu. Ymddiheurwn am unrhyw anghyfleustra."
+        },
+        "resource": {
+            "title": "Gwall mynediad",
+            "description_start": "Yn anffodus, digwyddodd gwall wrth lwytho'r dudalen hon.",
+            "cause_list": [
+                "Mae llwyth annisgwyl ar y gweinydd tarddiad ac ni all brosesu ceisiadau ar hyn o bryd",
+                "Digwyddodd gwall annisgwyl ar y gweinydd tarddiad neu wrth drosglwyddo"
+            ],
+            "description_end": "Ymddiheurwn am unrhyw anghyfleustra.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Gwall mynediad",
+            "description_start": "Yn anffodus, digwyddodd gwall wrth lwytho'r dudalen hon.",
+            "cause_list": [
+                "Canfuwyd bod eich cyfeiriad IP yn anfon gormod o geisiadau at y gweinydd",
+                "Mae llwyth annisgwyl ar y gweinydd tarddiad ac ni all brosesu ceisiadau ar hyn o bryd",
+                "Digwyddodd gwall annisgwyl ar y gweinydd tarddiad neu wrth drosglwyddo"
+            ],
+            "description_end": "Ymddiheurwn am unrhyw anghyfleustra.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Gwall mynediad",
+            "description_start": "Yn anffodus, digwyddodd gwall wrth lwytho'r dudalen hon.",
+            "cause_list": [
+                "Mae gan eich cyfeiriad IP nifer anarferol o gysylltiadau â'r gweinydd",
+                "Mae llwyth annisgwyl ar y gweinydd tarddiad ac ni all brosesu ceisiadau ar hyn o bryd",
+                "Digwyddodd gwall annisgwyl ar y gweinydd tarddiad neu wrth drosglwyddo"
+            ],
+            "description_end": "Ymddiheurwn am unrhyw anghyfleustra.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Cais annilys",
+            "description": "Mae'r wefan hon ar gael drwy HTTPS. Rydych wedi ceisio cysylltu drwy HTTP; byddwn yn ceisio eich ailgyfeirio nawr. Os na chewch eich ailgyfeirio, ychwanegwch https:// at ddechrau eich URL a rhowch gynnig arall arni."
+        },
+        "timeout": {
+            "title": "Nid yw'r gweinydd ar gael",
+            "description": "Mae'n ddrwg gennym, ond daeth y terfyn amser i ben wrth lwytho'r dudalen hon. Mae'n bosibl bod y gweinydd yn brysur ac na all brosesu eich cais ar hyn o bryd.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Parth anhysbys",
+            "description": "Nid yw'r parth hwn wedi'i gofrestru i'r cyfeiriad IP hwn.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Dull heb ei gefnogi",
+            "description": "Nid yw'r dull HTTP y gofynnwyd amdano wedi'i alluogi ar gyfer y wefan hon.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Cais anniogel",
+            "description": "Nid yw'r protocol HTTPS y gofynnwyd amdano wedi'i alluogi ar gyfer y wefan hon. Diweddarwch eich porwr.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "All-lein ar gyfer gwaith cynnal a chadw",
+            "description": "Nid yw'r wefan hon ar gael ar hyn o bryd. Disgwylir iddi fod ar gael eto yn fuan.",
+            "refresh_enable": true
+        }
+    }
+}

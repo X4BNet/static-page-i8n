@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Tsamaiso eno e itiragalela. Go ise go ye kae o tla isiwa kwa tsebeng e o neng o batla go e etela.",
+        "validate_browser": "Re netefatsa sebatli sa gago pele o tsena mo {http_host}",
+        "are_you_human_host": "A o motho? Go tlhokega netefatso go tsena mo {http_host}",
+        "are_you_human": "A o motho? Go tlhokega netefatso gore o tswelele",
+        "enter_captcha_host": "Tsweetswee tsenya CAPTCHA e e fa tlase gore o tswelele kwa {http_host}:",
+        "enter_captcha": "Tsweetswee tsenya CAPTCHA e e fa tlase gore o tswelele:",
+        "submit": "romela",
+        "try_again_later": "Webosaete eno e tsaya nako e telele go feta ka tlwaelo go bulwa. O ka <a href=\"\">leka gape</a> moragonyana",
+        "unexpected_error": "Go lebega go diragetse phoso e e sa lebelelwang. Tsweetswee <a href=\"\">leka gape</a> moragonyana",
+        "validation_complete": "<strong>Netefatso e weditswe</strong>. Jaanong o isiwa kwa tsebeng e o neng o batla go e etela. Tobetsa <a href=\"\">fano</a> fa tsebe e sa bulege gape.",
+        "enable_javascript": "Netefatso ya sebatli e dira botoka fa JavaScript e tshubilwe.",
+        "abnormal_activity": "Ka ntlha ya tiragalo e e sa tlwaelegang, re tlhoka gore o fetse tiro e e fa tlase gore o tswelele",
+        "sorry_inconvenience": "Re kopa maitshwarelo ka kgoreletso nngwe le nngwe",
+        "verifying": "Re a netefatsa"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Phoso fa go bulwa {host}",
+            "refresh_text": "Tsweetswee leka go tsena mo webosaeteng moragonyana kgotsa tobetsa <a href=\"\">fano</a> go bula tsebe gape.",
+            "unexpected_error": "Go diragetse phoso e e sa lebelelwang fa go bulwa tsebe eno",
+            "possible_causes": "Dilo tse di ka bakang seno di akaretsa: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Webosaete ga e kgone go dirisiwa",
+            "description": "Ka maswabi, go diragetse phoso e e sa lebelelwang fa go bulwa tsebe eno. Re kopa maitshwarelo ka kgoreletso nngwe le nngwe. Tsweetswee leka go tsena mo webosaeteng moragonyana kgotsa tobetsa <a href=\"\">fano</a> go bula tsebe gape."
+        },
+        "suspended": {
+            "title": "Webosaete e emisitswe",
+            "description": "Ka maswabi, webosaete e o lekang go e etela ga e kgone go dirisiwa. Re kopa maitshwarelo ka kgoreletso nngwe le nngwe. Fa o le <strong>mong</strong> wa webosaete eno, tsweetswee <a href=\"https://www.x4b.net/support\">ikgolaganye le ba tshegetso</a>."
+        },
+        "over_bandwidth": {
+            "title": "Webosaete e emisitswe",
+            "description": "Ka maswabi, webosaete e o lekang go e etela ga e kgone go dirisiwa. Re kopa maitshwarelo ka kgoreletso nngwe le nngwe. Fa o le <strong>mong</strong> wa webosaete eno, tsweetswee <a href=\"https://www.x4b.net/\">ikgolaganye le ba tshegetso</a>."
+        },
+        "backend": {
+            "title": "Seva ga e kgone go dirisiwa",
+            "description": "Seva ya motswedi ga e kgone go dirisiwa ka nakwana, ka jalo ga e kgone go diragatsa kopo eno. Re kopa maitshwarelo ka kgoreletso nngwe le nngwe.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Nako e e beetsweng go leta kopo e fedile",
+            "description": "Re maswabi, nako e e beetsweng go leta e fedile fa go bulwa tsebe eno. Re kopa maitshwarelo ka kgoreletso nngwe le nngwe e seno se ka bong se e bakile.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Go tsena go ganetswe",
+            "description": "Ga o na tetla ya go tsena mo tsebeng eno. Fa o akanya gore seno ke phoso, tsweetswee ikgolaganye le motsamaisi wa webosaete."
+        },
+        "upstream": {
+            "title": "Seva ga e kgone go dirisiwa",
+            "description": "Ga go na seva e e golagantsweng le inthanete e e leng teng go diragatsa kopo eno gone jaanong. Re kopa maitshwarelo ka kgoreletso nngwe le nngwe."
+        },
+        "invalid_configuration": {
+            "title": "Thulaganyo e e sa siamang",
+            "description": "Ga re kgone go diragatsa kopo eno ka ntlha ya phoso mo thulaganyong. Re kopa maitshwarelo ka kgoreletso nngwe le nngwe."
+        },
+        "resource": {
+            "title": "Phoso ya go tsena",
+            "description_start": "Ka maswabi, go diragetse phoso fa go bulwa tsebe eno.",
+            "cause_list": [
+                "Seva ya motswedi e lebane le tiro e ntsi e e sa lebelelwang mme ga e kgone go diragatsa dikopo gone jaanong",
+                "Go diragetse phoso e e sa lebelelwang mo seveng ya motswedi kgotsa fa data e fetisiwa"
+            ],
+            "description_end": "Re kopa maitshwarelo ka kgoreletso nngwe le nngwe.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Phoso ya go tsena",
+            "description_start": "Ka maswabi, go diragetse phoso fa go bulwa tsebe eno.",
+            "cause_list": [
+                "Go lemogilwe gore aterese ya gago ya IP e romela dikopo tse dintsi ka tsela e e feteletseng kwa seveng",
+                "Seva ya motswedi e lebane le tiro e ntsi e e sa lebelelwang mme ga e kgone go diragatsa dikopo gone jaanong",
+                "Go diragetse phoso e e sa lebelelwang mo seveng ya motswedi kgotsa fa data e fetisiwa"
+            ],
+            "description_end": "Re kopa maitshwarelo ka kgoreletso nngwe le nngwe.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Phoso ya go tsena",
+            "description_start": "Ka maswabi, go diragetse phoso fa go bulwa tsebe eno.",
+            "cause_list": [
+                "Aterese ya gago ya IP e na le palo e e sa tlwaelegang ya dikgokagano le seva",
+                "Seva ya motswedi e lebane le tiro e ntsi e e sa lebelelwang mme ga e kgone go diragatsa dikopo gone jaanong",
+                "Go diragetse phoso e e sa lebelelwang mo seveng ya motswedi kgotsa fa data e fetisiwa"
+            ],
+            "description_end": "Re kopa maitshwarelo ka kgoreletso nngwe le nngwe.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Kopo e e sa siamang",
+            "description": "Webosaete eno e ka fitlhelelwa ka HTTPS. O lekile go golagana ka HTTP; jaanong re tla leka go go isa kwa go sele. Fa o sa isiwe teng, tsweetswee tsenya https:// kwa tshimologong ya URL ya gago mme o leke gape."
+        },
+        "timeout": {
+            "title": "Seva ga e kgone go dirisiwa",
+            "description": "Re maswabi, nako e e beetsweng go leta e fedile fa go bulwa tsebe eno. Go ka direga gore seva e tshwaregile mme ga e kgone go diragatsa kopo ya gago gone jaanong.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Domene e e sa itsiweng",
+            "description": "Domene eno ga e a kwadisiwa mo atereseng eno ya IP.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Mokgwa o o sa tshegediweng",
+            "description": "Mokgwa wa HTTP o o kopilweng ga o a tshubelwa webosaete eno.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Kopo e e sa babalesegang",
+            "description": "Porotokholo ya HTTPS e e kopilweng ga e a tshubelwa webosaete eno. Tsweetswee ntšhwafatsa sebatli sa gago.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "E tswetswe go tlhokomelwa",
+            "description": "Webosaete eno ga e kgone go dirisiwa gone jaanong. Go lebeletswe gore e dirisiwe gape go ise go ye kae.",
+            "refresh_enable": true
+        }
+    }
+}

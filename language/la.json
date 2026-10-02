@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Hic processus sua sponte peragitur. Mox ad locum destinatum redirigeris.",
+        "validate_browser": "Navigatrum tuum comprobatur antequam ad {http_host} accedas",
+        "are_you_human_host": "Esne homo? Comprobatio requiritur ut ad {http_host} accedas",
+        "are_you_human": "Esne homo? Comprobatio requiritur ut pergas",
+        "enter_captcha_host": "Insere CAPTCHA infra positum ut ad {http_host} pergas:",
+        "enter_captcha": "Insere CAPTCHA infra positum ut pergas:",
+        "submit": "mitte",
+        "try_again_later": "Hic situs diutius quam solet oneratur. Si vis, postea <a href=\"\">iterum tenta</a>",
+        "unexpected_error": "Error improvisus accidisse videtur. Quaesumus, postea <a href=\"\">iterum tenta</a>",
+        "validation_complete": "<strong>Comprobatio perfecta est</strong> Nunc ad locum destinatum redirigeris. Preme <a href=\"\">hic</a> nisi pagina denuo oneratur.",
+        "enable_javascript": "Comprobatio navigatri optime procedit cum JavaScript activum est.",
+        "abnormal_activity": "Propter actiones insolitas, opus infra propositum perficias necesse est ut pergas",
+        "sorry_inconvenience": "Veniam petimus ob incommoda",
+        "verifying": "Comprobatur"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Error in onerando {host}",
+            "refresh_text": "Quaesumus, postea situm adire tenta vel <a href=\"\">hic</a> preme ut paginam renoves.",
+            "unexpected_error": "Error improvisus accidit dum haec pagina onerabatur",
+            "possible_causes": "Inter causas possibiles sunt: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Situs non praesto est",
+            "description": "Infeliciter, error improvisus accidit dum haec pagina onerabatur. Veniam petimus ob incommoda. Quaesumus, postea situm adire tenta vel <a href=\"\">hic</a> preme ut paginam renoves."
+        },
+        "suspended": {
+            "title": "Situs suspensus est",
+            "description": "Infeliciter, situs quem adire conaris non praesto est. Veniam petimus ob incommoda. Si huius situs <strong>dominus</strong> es, quaesumus, <a href=\"https://www.x4b.net/support\">auxilium pete</a>."
+        },
+        "over_bandwidth": {
+            "title": "Situs suspensus est",
+            "description": "Infeliciter, situs quem adire conaris non praesto est. Veniam petimus ob incommoda. Si huius situs <strong>dominus</strong> es, quaesumus, <a href=\"https://www.x4b.net/\">auxilium pete</a>."
+        },
+        "backend": {
+            "title": "Servitor non praesto est",
+            "description": "Servitor originis ad tempus non praesto est, ideoque huic petitioni respondere non potest. Veniam petimus ob incommoda.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Tempus petitioni concessum exiit",
+            "description": "Dolemus, sed tempus concessum exiit dum haec pagina interretialis onerabatur. Veniam petimus ob incommoda quae inde orta esse possunt.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Accessus negatus est",
+            "description": "Tibi non licet ad hanc paginam accedere. Si hoc per errorem accidit, administratorem situs certiorem fac."
+        },
+        "upstream": {
+            "title": "Servitor non praesto est",
+            "description": "Nullus servitor nunc reti conexus et praesto est qui hanc petitionem tractare possit. Veniam petimus ob incommoda."
+        },
+        "invalid_configuration": {
+            "title": "Configuratio invalida",
+            "description": "Hanc petitionem tractare non possumus propter errorem configurationis. Veniam petimus ob incommoda."
+        },
+        "resource": {
+            "title": "Error accessus",
+            "description_start": "Infeliciter, error accidit dum haec pagina onerabatur.",
+            "cause_list": [
+                "Servitor originis onere improviso premitur et petitiones nunc tractare non potest",
+                "Error improvisus in servitore originis vel in transmissione datorum accidit"
+            ],
+            "description_end": "Veniam petimus ob incommoda.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Error accessus",
+            "description_start": "Infeliciter, error accidit dum haec pagina onerabatur.",
+            "cause_list": [
+                "Detectum est nimis multas petitiones ex inscriptione tua IP ad servitorem mitti",
+                "Servitor originis onere improviso premitur et petitiones nunc tractare non potest",
+                "Error improvisus in servitore originis vel in transmissione datorum accidit"
+            ],
+            "description_end": "Veniam petimus ob incommoda.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Error accessus",
+            "description_start": "Infeliciter, error accidit dum haec pagina onerabatur.",
+            "cause_list": [
+                "Inscriptio tua IP insolito numero conexionum cum servitore coniuncta est",
+                "Servitor originis onere improviso premitur et petitiones nunc tractare non potest",
+                "Error improvisus in servitore originis vel in transmissione datorum accidit"
+            ],
+            "description_end": "Veniam petimus ob incommoda.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Petitio vitiosa",
+            "description": "Hic situs per HTTPS adiri potest. Per HTTP te conectere conatus es; nunc te redirigere conabimur. Nisi redirigeris, adde https:// initio inscriptionis tuae URL et iterum tenta."
+        },
+        "timeout": {
+            "title": "Servitor non praesto est",
+            "description": "Dolemus, sed tempus concessum exiit dum haec pagina onerabatur. Fieri potest ut servitor occupatus sit et petitionem tuam nunc tractare non possit.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Dominium ignotum",
+            "description": "Hoc dominium ad hanc inscriptionem IP non est inscriptum.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Methodus non admissa",
+            "description": "Methodus HTTP petita pro hoc situ non est activa.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Petitio non secura",
+            "description": "Protocollum HTTPS petitum pro hoc situ non est activum. Quaesumus, navigatrum tuum ad recentiorem versionem renova.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Situs propter sustentationem a rete seiunctus est",
+            "description": "Hic situs nunc non praesto est. Exspectatur ut mox iterum praesto sit.",
+            "refresh_enable": true
+        }
+    }
+}

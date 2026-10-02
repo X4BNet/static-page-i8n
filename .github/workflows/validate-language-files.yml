@@ -1,0 +1,70 @@
+name: Validate language files
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Test validator
+        run: python -m unittest discover -s tests
+
+      - name: Validate language files
+        run: python scripts/validate_language_files.py
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Check complete language coverage and formatting
+        run: npm test
+
+  nginx:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out translations
+        uses: actions/checkout@v4
+        with:
+          path: translations
+
+      - name: Check out the verified Accept-Language module
+        uses: actions/checkout@v4
+        with:
+          repository: X4BNet/nginx_accept_language_module
+          ref: 0750fa7e6674dc0cc63cb34d7efb7317be8f6d76
+          path: nginx_accept_language_module
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install nginx build prerequisites
+        run: sudo apt-get update && sudo apt-get install -y build-essential libpcre2-dev zlib1g-dev
+
+      - name: Build isolated nginx and replay all language requests
+        working-directory: translations
+        run: |
+          TEST_NGINX_BINARY="$(node scripts/build-test-nginx.js)"
+          export TEST_NGINX_BINARY
+          npm run test:nginx
+
+      - name: Retain observed negotiation results
+        uses: actions/upload-artifact@v4
+        with:
+          name: nginx-language-results
+          path: translations/coverage/nginx-results.json

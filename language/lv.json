@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Šis process notiek automātiski. Drīzumā jūs tiksiet novirzīts uz vēlamo galamērķi.",
+        "validate_browser": "Pirms piekļuves vietnei {http_host} tiek pārbaudīta jūsu pārlūkprogramma",
+        "are_you_human_host": "Vai esat cilvēks? Lai piekļūtu vietnei {http_host}, ir nepieciešama pārbaude",
+        "are_you_human": "Vai esat cilvēks? Lai turpinātu, ir nepieciešama pārbaude",
+        "enter_captcha_host": "Lai turpinātu uz {http_host}, ievadiet tālāk redzamo CAPTCHA kodu:",
+        "enter_captcha": "Lai turpinātu, ievadiet tālāk redzamo CAPTCHA kodu:",
+        "submit": "Nosūtīt",
+        "try_again_later": "Šīs vietnes ielāde aizņem ilgāku laiku nekā parasti. Varat <a href=\"\">mēģināt vēlreiz</a> vēlāk",
+        "unexpected_error": "Šķiet, ka ir radusies neparedzēta kļūda. Lūdzu, <a href=\"\">mēģiniet vēlreiz</a> vēlāk",
+        "validation_complete": "<strong>Pārbaude pabeigta</strong>. Tagad jūs tiekat novirzīts uz vēlamo galamērķi. Ja lapa netiek ielādēta atkārtoti, noklikšķiniet <a href=\"\">šeit</a>.",
+        "enable_javascript": "Pārlūkprogrammas pārbaude vislabāk darbojas, ja JavaScript ir iespējots.",
+        "abnormal_activity": "Neparastas darbības dēļ jums ir jāizpilda tālāk norādītais uzdevums, lai turpinātu",
+        "sorry_inconvenience": "Atvainojamies par sagādātajām neērtībām",
+        "verifying": "Notiek pārbaude"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Kļūda, ielādējot {host}",
+            "refresh_text": "Lūdzu, mēģiniet piekļūt vietnei vēlāk vai noklikšķiniet <a href=\"\">šeit</a>, lai atkārtoti ielādētu lapu.",
+            "unexpected_error": "Ielādējot šo lapu, radās neparedzēta kļūda",
+            "possible_causes": "Iespējamie iemesli: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Vietne nav pieejama",
+            "description": "Diemžēl, ielādējot šo lapu, radās neparedzēta kļūda. Atvainojamies par sagādātajām neērtībām. Lūdzu, mēģiniet piekļūt vietnei vēlāk vai noklikšķiniet <a href=\"\">šeit</a>, lai atkārtoti ielādētu lapu."
+        },
+        "suspended": {
+            "title": "Vietnes darbība ir apturēta",
+            "description": "Diemžēl vietne, kuru mēģināt apmeklēt, nav pieejama. Atvainojamies par sagādātajām neērtībām. Ja esat šīs vietnes <strong>īpašnieks</strong>, lūdzu, <a href=\"https://www.x4b.net/support\">sazinieties ar atbalsta dienestu</a>."
+        },
+        "over_bandwidth": {
+            "title": "Vietnes darbība ir apturēta",
+            "description": "Diemžēl vietne, kuru mēģināt apmeklēt, nav pieejama. Atvainojamies par sagādātajām neērtībām. Ja esat šīs vietnes <strong>īpašnieks</strong>, lūdzu, <a href=\"https://www.x4b.net/\">sazinieties ar atbalsta dienestu</a>."
+        },
+        "backend": {
+            "title": "Serveris nav pieejams",
+            "description": "Izcelsmes serveris īslaicīgi nav pieejams un tāpēc nevar apstrādāt šo pieprasījumu. Atvainojamies par sagādātajām neērtībām.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Pieprasījuma gaidīšanas laiks ir beidzies",
+            "description": "Diemžēl šīs tīmekļa lapas ielādes laikā beidzās gaidīšanas laiks. Atvainojamies par neērtībām, ko tas varēja radīt.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Piekļuve liegta",
+            "description": "Jums nav atļaujas piekļūt šai lapai. Ja uzskatāt, ka tā ir kļūda, sazinieties ar vietnes administratoru."
+        },
+        "upstream": {
+            "title": "Serveris nav pieejams",
+            "description": "Pašlaik neviens serveris nav tiešsaistē un pieejams šī pieprasījuma apstrādei. Atvainojamies par sagādātajām neērtībām."
+        },
+        "invalid_configuration": {
+            "title": "Nederīga konfigurācija",
+            "description": "Konfigurācijas kļūdas dēļ nevaram apstrādāt šo pieprasījumu. Atvainojamies par sagādātajām neērtībām."
+        },
+        "resource": {
+            "title": "Piekļuves kļūda",
+            "description_start": "Diemžēl, ielādējot šo lapu, radās kļūda.",
+            "cause_list": [
+                "Izcelsmes serverim ir neparedzēti liela slodze, un tas pašlaik nevar apstrādāt pieprasījumus",
+                "Izcelsmes serverī vai datu pārsūtīšanas laikā radās neparedzēta kļūda"
+            ],
+            "description_end": "Atvainojamies par sagādātajām neērtībām.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Piekļuves kļūda",
+            "description_start": "Diemžēl, ielādējot šo lapu, radās kļūda.",
+            "cause_list": [
+                "Konstatēts, ka no jūsu IP adreses serverim tiek sūtīts pārmērīgi daudz pieprasījumu",
+                "Izcelsmes serverim ir neparedzēti liela slodze, un tas pašlaik nevar apstrādāt pieprasījumus",
+                "Izcelsmes serverī vai datu pārsūtīšanas laikā radās neparedzēta kļūda"
+            ],
+            "description_end": "Atvainojamies par sagādātajām neērtībām.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Piekļuves kļūda",
+            "description_start": "Diemžēl, ielādējot šo lapu, radās kļūda.",
+            "cause_list": [
+                "No jūsu IP adreses ir izveidots neparasts savienojumu skaits ar serveri",
+                "Izcelsmes serverim ir neparedzēti liela slodze, un tas pašlaik nevar apstrādāt pieprasījumus",
+                "Izcelsmes serverī vai datu pārsūtīšanas laikā radās neparedzēta kļūda"
+            ],
+            "description_end": "Atvainojamies par sagādātajām neērtībām.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Nederīgs pieprasījums",
+            "description": "Šī vietne ir pieejama, izmantojot HTTPS. Jūs mēģinājāt izveidot savienojumu, izmantojot HTTP. Tagad mēģināsim jūs novirzīt. Ja novirzīšana nenotiek, pievienojiet https:// savas URL adreses sākumā un mēģiniet vēlreiz."
+        },
+        "timeout": {
+            "title": "Serveris nav pieejams",
+            "description": "Diemžēl šīs lapas ielādes laikā beidzās gaidīšanas laiks. Iespējams, serveris ir aizņemts un pašlaik nevar apstrādāt jūsu pieprasījumu.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Nezināms domēns",
+            "description": "Šis domēns nav reģistrēts šai IP adresei.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Neatbalstīta metode",
+            "description": "Pieprasītā HTTP metode šai vietnei nav iespējota.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Nedrošs pieprasījums",
+            "description": "Pieprasītais HTTPS protokols šai vietnei nav iespējots. Lūdzu, atjauniniet savu pārlūkprogrammu.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Bezsaistē uzturēšanas darbu dēļ",
+            "description": "Šī vietne pašlaik nav pieejama. Paredzams, ka tā drīzumā atkal būs pieejama.",
+            "refresh_enable": true
+        }
+    }
+}

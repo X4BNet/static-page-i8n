@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Kay rurayqa kikinmanta ruwakun. Ratullapi munasqayki p'anqaman pusasqa kanki.",
+        "validate_browser": "{http_host} nisqaman manaraq yaykuchkaspa llika wamp'unaykita chiqaqchachkan",
+        "are_you_human_host": "Runachu kanki? {http_host} nisqaman yaykunaykipaq chiqaqchaymi kanan",
+        "are_you_human": "Runachu kanki? Hinalla purinaykipaq chiqaqchaymi kanan",
+        "enter_captcha_host": "{http_host} nisqaman hinalla purinaykipaq, ama hina kaspa, urapi kaq CAPTCHA nisqata qillqay:",
+        "enter_captcha": "Hinalla purinaykipaq, ama hina kaspa, urapi kaq CAPTCHA nisqata qillqay:",
+        "submit": "kachay",
+        "try_again_later": "Kay llika p'anqaqa sapa kutimanta aswan unayta chaqnakuchkan. Qhipaman <a href=\"\">huk kutita ruraykachayta</a> atinkiman",
+        "unexpected_error": "Mana suyasqa pantay rikurimusqanman rikch'akun. Ama hina kaspa, qhipaman <a href=\"\">huk kutita ruraykachay</a>",
+        "validation_complete": "<strong>Chiqaqchay tukusqañam</strong>. Kunanqa munasqayki p'anqaman pusasqa kachkanki. P'anqa mana musuqmanta chaqnakuchkaptinqa <a href=\"\">kaypi</a> ñit'iy.",
+        "enable_javascript": "JavaScript nisqa atichisqa kaptinmi llika wamp'unata chiqaqchay aswan allinta llamk'an.",
+        "abnormal_activity": "Mana sapa kuti hina ruraykuna kasqanrayku, hinalla purinaykipaq urapi kaq rurayta tukuchinayki tiyan",
+        "sorry_inconvenience": "Sasachakusqaykimanta pampachawayku",
+        "verifying": "Chiqaqchachkan"
+    },
+    "error": {
+        "default": {
+            "error_loading": "{host} nisqata chaqnaspa pantay",
+            "refresh_text": "Ama hina kaspa, qhipaman llika p'anqaman yaykuykachay, icha p'anqata musuqmanta chaqnanaykipaq <a href=\"\">kaypi</a> ñit'iy.",
+            "unexpected_error": "Kay p'anqata chaqnaspa mana suyasqa pantay rikurimurqan",
+            "possible_causes": "Kaykunam imarayku kasqankuna kanman:",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Llika P'anqata Manam Llamk'achiyta Atikunchu",
+            "description": "Achachaw, kay p'anqata chaqnaspa mana suyasqa pantay rikurimurqan. Sasachakusqaykimanta pampachawayku. Ama hina kaspa, qhipaman llika p'anqaman yaykuykachay, icha p'anqata musuqmanta chaqnanaykipaq <a href=\"\">kaypi</a> ñit'iy."
+        },
+        "suspended": {
+            "title": "Llika P'anqa Sayachisqa",
+            "description": "Achachaw, watukuyta munasqayki llika p'anqata manam llamk'achiyta atikunchu. Sasachakusqaykimanta pampachawayku. Qam <strong>kay llika p'anqayuq</strong> kaspaqa, ama hina kaspa, <a href=\"https://www.x4b.net/support\">yanapaqkunawan rimay</a>."
+        },
+        "over_bandwidth": {
+            "title": "Llika P'anqa Sayachisqa",
+            "description": "Achachaw, watukuyta munasqayki llika p'anqata manam llamk'achiyta atikunchu. Sasachakusqaykimanta pampachawayku. Qam <strong>kay llika p'anqayuq</strong> kaspaqa, ama hina kaspa, <a href=\"https://www.x4b.net/\">yanapaqkunawan rimay</a>."
+        },
+        "backend": {
+            "title": "Sirwiqta Manam Llamk'achiyta Atikunchu",
+            "description": "Willakuykunata quq sirwiqtaqa kunan ratulla manam llamk'achiyta atikunchu, chayrayku kay mañakuyta manam rurayta atinchu. Sasachakusqaykimanta pampachawayku.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Mañakuyta Suyana Pacha Tukukurqan",
+            "description": "Pampachawayku, kay llika p'anqata chaqnaspa suyana pacha tukukurqan. Kayrayku sasachakusqaykimanta pampachawayku.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Yaykuy Hark'asqa",
+            "description": "Kay p'anqaman yaykunaykipaq manam saqillayniyki kanchu. Kay pantay kaptinqa, ama hina kaspa, llika p'anqap kamachiqninwan rimay."
+        },
+        "upstream": {
+            "title": "Sirwiqta Manam Llamk'achiyta Atikunchu",
+            "description": "Kunanqa kay mañakuyta ruranapaq manam llika tinkisqa, llamk'aypaq wakisqa sirwiq kanchu. Sasachakusqaykimanta pampachawayku."
+        },
+        "invalid_configuration": {
+            "title": "Mana Allin Wakichiy",
+            "description": "Wakichiy pantasqa kasqanrayku, kay mañakuyta manam rurayta atiykuchu. Sasachakusqaykimanta pampachawayku."
+        },
+        "resource": {
+            "title": "Yaykuy Pantay",
+            "description_start": "Achachaw, kay p'anqata chaqnaspa pantay rikurimurqan.",
+            "cause_list": [
+                "Willakuykunata quq sirwiqpiqa mana suyasqa achka llamk'aymi kachkan, chayrayku kunanqa mañakuykunata manam rurayta atinchu",
+                "Willakuykunata quq sirwiqpi icha willakuykuna apachikuchkaptin mana suyasqa pantay rikurimurqan"
+            ],
+            "description_end": "Sasachakusqaykimanta pampachawayku.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Yaykuy Pantay",
+            "description_start": "Achachaw, kay p'anqata chaqnaspa pantay rikurimurqan.",
+            "cause_list": [
+                "IP tiyayniykimanta sirwiqman nisyu achka mañakuykuna kachakusqanta tarisqa",
+                "Willakuykunata quq sirwiqpiqa mana suyasqa achka llamk'aymi kachkan, chayrayku kunanqa mañakuykunata manam rurayta atinchu",
+                "Willakuykunata quq sirwiqpi icha willakuykuna apachikuchkaptin mana suyasqa pantay rikurimurqan"
+            ],
+            "description_end": "Sasachakusqaykimanta pampachawayku.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Yaykuy Pantay",
+            "description_start": "Achachaw, kay p'anqata chaqnaspa pantay rikurimurqan.",
+            "cause_list": [
+                "IP tiyayniykimanta sirwiqman tinkiykunap yupaynin mana sapa kuti hinachu",
+                "Willakuykunata quq sirwiqpiqa mana suyasqa achka llamk'aymi kachkan, chayrayku kunanqa mañakuykunata manam rurayta atinchu",
+                "Willakuykunata quq sirwiqpi icha willakuykuna apachikuchkaptin mana suyasqa pantay rikurimurqan"
+            ],
+            "description_end": "Sasachakusqaykimanta pampachawayku.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Mana Allin Mañakuy",
+            "description": "Kay llika p'anqamanqa HTTPS nisqawan yaykuyta atinki. HTTP nisqawan tinkiyta ruraykacharqanki; kunanqa pusaykuyta ruraykachasaqku. Mana pusasqa kaptikiqa, ama hina kaspa, URL nisqaykip qallariyninman https:// nisqata yapay, hinaspa huk kutita ruraykachay."
+        },
+        "timeout": {
+            "title": "Sirwiqta Manam Llamk'achiyta Atikunchu",
+            "description": "Pampachawayku, kay p'anqata chaqnaspa suyana pacha tukukurqan. Sirwiqqa achka llamk'ayniyuqchá kachkan, chayrayku kunan mañakuyniykita manachá rurayta atinchu.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Mana Riqsisqa Domain",
+            "description": "Kay domain nisqaqa kay IP tiyaypaq manam qillqachisqachu.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Mana Yanapasqa Ruray Ñan",
+            "description": "Mañakusqa HTTP ruray ñanqa kay llika p'anqapaq manam atichisqachu.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Mana Waqaychasqa Mañakuy",
+            "description": "Mañakusqa HTTPS protocolo nisqaqa kay llika p'anqapaq manam atichisqachu. Ama hina kaspa, llika wamp'unaykita musuqchay.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Allinchanapaq Llikamanta T'aqasqa",
+            "description": "Kay llika p'anqata kunanqa manam llamk'achiyta atikunchu. Ratullapi musuqmanta llamk'achiyta atikunqachá.",
+            "refresh_enable": true
+        }
+    }
+}

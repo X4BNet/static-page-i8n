@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Dit proses ferrint automatysk. Jo wurde gau trochstjoerd nei it plak dêr't jo hinne wolle.",
+        "validate_browser": "Jo blêder wurdt kontrolearre foardat jo tagong krije ta {http_host}",
+        "are_you_human_host": "Binne jo in minske? In kontrôle is nedich om tagong te krijen ta {http_host}",
+        "are_you_human": "Binne jo in minske? In kontrôle is nedich om fierder te gean",
+        "enter_captcha_host": "Fier de CAPTCHA hjirûnder yn om fierder te gean nei {http_host}:",
+        "enter_captcha": "Fier de CAPTCHA hjirûnder yn om fierder te gean:",
+        "submit": "Ferstjoere",
+        "try_again_later": "It laden fan dizze webside duorret langer as gewoanlik. Jo kinne it letter <a href=\"\">opnij besykje</a>",
+        "unexpected_error": "Der liket in ûnferwachte flater bard te wêzen. <a href=\"\">Besykje it opnij</a> op in letter momint",
+        "validation_complete": "<strong>Kontrôle foltôge</strong>. Jo wurde no trochstjoerd nei it plak dêr't jo hinne wolle. Klik <a href=\"\">hjir</a> as de side net opnij laden wurdt.",
+        "enable_javascript": "De blêderkontrôle wurket it bêste as JavaScript ynskeakele is.",
+        "abnormal_activity": "Fanwegen ûngewoane aktiviteit moatte jo de taak hjirûnder foltôgje om fierder te gean",
+        "sorry_inconvenience": "Us ekskús foar it ûngemak",
+        "verifying": "Kontrôle wurdt útfierd"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Flater by it laden fan {host}",
+            "refresh_text": "Besykje de webside letter te iepenjen of klik <a href=\"\">hjir</a> om de side opnij te laden.",
+            "unexpected_error": "Der is in ûnferwachte flater bard by it laden fan dizze side",
+            "possible_causes": "Mooglike oarsaken binne ûnder oare: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Webside net beskikber",
+            "description": "Spitigernôch is der in ûnferwachte flater bard by it laden fan dizze side. Us ekskús foar it ûngemak. Besykje de webside letter te iepenjen of klik <a href=\"\">hjir</a> om de side opnij te laden."
+        },
+        "suspended": {
+            "title": "Webside stilset",
+            "description": "Spitigernôch is de webside dy't jo besykje wolle net beskikber. Us ekskús foar it ûngemak. As jo de <strong>eigner</strong> fan dizze webside binne, <a href=\"https://www.x4b.net/support\">nim dan kontakt op mei de stipeôfdieling</a>."
+        },
+        "over_bandwidth": {
+            "title": "Webside stilset",
+            "description": "Spitigernôch is de webside dy't jo besykje wolle net beskikber. Us ekskús foar it ûngemak. As jo de <strong>eigner</strong> fan dizze webside binne, <a href=\"https://www.x4b.net/\">nim dan kontakt op mei de stipeôfdieling</a>."
+        },
+        "backend": {
+            "title": "Tsjinner net beskikber",
+            "description": "De boarnetsjinner is tydlik net beskikber en kin dêrom dit fersyk net ferwurkje. Us ekskús foar it ûngemak.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Tiidslimyt fan it fersyk ferrûn",
+            "description": "Spitigernôch is de tiidslimyt ferrûn by it laden fan dizze webside. Us ekskús foar it ûngemak dat dit feroarsake hawwe kin.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Tagong wegere",
+            "description": "Jo hawwe gjin tastimming om dizze side te iepenjen. As jo tinke dat dit in flater is, nim dan kontakt op mei de behearder fan de webside."
+        },
+        "upstream": {
+            "title": "Tsjinner net beskikber",
+            "description": "Der is op dit stuit gjin tsjinner online en beskikber om dit fersyk te ferwurkjen. Us ekskús foar it ûngemak."
+        },
+        "invalid_configuration": {
+            "title": "Unjildige konfiguraasje",
+            "description": "Troch in konfiguraasjeflater kinne wy dit fersyk net ferwurkje. Us ekskús foar it ûngemak."
+        },
+        "resource": {
+            "title": "Tagongsflater",
+            "description_start": "Spitigernôch is der in flater bard by it laden fan dizze side.",
+            "cause_list": [
+                "De boarnetsjinner wurdt ûnferwachts swier belêste en kin op dit stuit gjin fersiken ferwurkje",
+                "Der is in ûnferwachte flater bard op de boarnetsjinner of by it oerdragen fan gegevens"
+            ],
+            "description_end": "Us ekskús foar it ûngemak.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Tagongsflater",
+            "description_start": "Spitigernôch is der in flater bard by it laden fan dizze side.",
+            "cause_list": [
+                "Der is fêststeld dat jo IP-adres fierstente folle fersiken nei de tsjinner stjoert",
+                "De boarnetsjinner wurdt ûnferwachts swier belêste en kin op dit stuit gjin fersiken ferwurkje",
+                "Der is in ûnferwachte flater bard op de boarnetsjinner of by it oerdragen fan gegevens"
+            ],
+            "description_end": "Us ekskús foar it ûngemak.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Tagongsflater",
+            "description_start": "Spitigernôch is der in flater bard by it laden fan dizze side.",
+            "cause_list": [
+                "Fan jo IP-adres ôf is der in ûngewoan tal ferbiningen mei de tsjinner",
+                "De boarnetsjinner wurdt ûnferwachts swier belêste en kin op dit stuit gjin fersiken ferwurkje",
+                "Der is in ûnferwachte flater bard op de boarnetsjinner of by it oerdragen fan gegevens"
+            ],
+            "description_end": "Us ekskús foar it ûngemak.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Unjildich fersyk",
+            "description": "Dizze webside is berikber fia HTTPS. Jo hawwe besocht om fia HTTP te ferbinen. Wy sille no besykje jo troch te stjoeren. As jo net trochstjoerd wurde, set dan https:// oan it begjin fan jo URL en besykje it opnij."
+        },
+        "timeout": {
+            "title": "Tsjinner net beskikber",
+            "description": "Spitigernôch is de tiidslimyt ferrûn by it laden fan dizze side. Mooglik is de tsjinner drok en kin dy jo fersyk op dit stuit net ferwurkje.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Unbekend domein",
+            "description": "Dit domein is net registrearre foar dit IP-adres.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Metoade net stipe",
+            "description": "De frege HTTP-metoade is net ynskeakele foar dizze webside.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Unfeilich fersyk",
+            "description": "It frege HTTPS-protokol is net ynskeakele foar dizze webside. Wurkje jo blêder by.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Offline foar ûnderhâld",
+            "description": "Dizze webside is op dit stuit net beskikber. Nei ferwachting is de side gau wer beskikber.",
+            "refresh_enable": true
+        }
+    }
+}

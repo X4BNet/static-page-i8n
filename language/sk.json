@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Tento proces prebieha automaticky. Čoskoro budete presmerovaní na požadovanú stránku.",
+        "validate_browser": "Overovanie vášho prehliadača pred prístupom na {http_host}",
+        "are_you_human_host": "Ste človek? Prístup na {http_host} vyžaduje overenie",
+        "are_you_human": "Ste človek? Na pokračovanie sa vyžaduje overenie",
+        "enter_captcha_host": "Ak chcete pokračovať na {http_host}, zadajte nižšie uvedený kód CAPTCHA:",
+        "enter_captcha": "Ak chcete pokračovať, zadajte nižšie uvedený kód CAPTCHA:",
+        "submit": "odoslať",
+        "try_again_later": "Načítanie tejto webovej lokality trvá dlhšie než zvyčajne. Môžete to <a href=\"\">skúsiť znova</a> neskôr",
+        "unexpected_error": "Zdá sa, že nastala neočakávaná chyba. <a href=\"\">Skúste to znova</a> neskôr",
+        "validation_complete": "<strong>Overenie dokončené</strong>. Práve vás presmerúvame na požadovanú stránku. Ak sa stránka znova nenačíta, kliknite <a href=\"\">sem</a>.",
+        "enable_javascript": "Overenie prehliadača funguje najlepšie, keď je povolený JavaScript.",
+        "abnormal_activity": "Vzhľadom na nezvyčajnú aktivitu musíte na pokračovanie dokončiť úlohu uvedenú nižšie",
+        "sorry_inconvenience": "Ospravedlňujeme sa za nepríjemnosti",
+        "verifying": "Prebieha overovanie"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Chyba pri načítaní {host}",
+            "refresh_text": "Skúste navštíviť webovú lokalitu neskôr alebo kliknite <a href=\"\">sem</a> a obnovte stránku.",
+            "unexpected_error": "Pri načítavaní tejto stránky nastala neočakávaná chyba",
+            "possible_causes": "Možné príčiny:",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Webová lokalita je nedostupná",
+            "description": "Pri načítavaní tejto stránky žiaľ nastala neočakávaná chyba. Ospravedlňujeme sa za nepríjemnosti. Skúste navštíviť webovú lokalitu neskôr alebo kliknite <a href=\"\">sem</a> a obnovte stránku."
+        },
+        "suspended": {
+            "title": "Prevádzka webovej lokality je pozastavená",
+            "description": "Webová lokalita, ktorú sa pokúšate navštíviť, je žiaľ nedostupná. Ospravedlňujeme sa za nepríjemnosti. Ak ste <strong>vlastníkom</strong> tejto webovej lokality, <a href=\"https://www.x4b.net/support\">kontaktujte podporu</a>."
+        },
+        "over_bandwidth": {
+            "title": "Prevádzka webovej lokality je pozastavená",
+            "description": "Webová lokalita, ktorú sa pokúšate navštíviť, je žiaľ nedostupná. Ospravedlňujeme sa za nepríjemnosti. Ak ste <strong>vlastníkom</strong> tejto webovej lokality, <a href=\"https://www.x4b.net/\">kontaktujte podporu</a>."
+        },
+        "backend": {
+            "title": "Server je nedostupný",
+            "description": "Pôvodný server je dočasne nedostupný, a preto nemôže spracovať túto požiadavku. Ospravedlňujeme sa za nepríjemnosti.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Časový limit požiadavky uplynul",
+            "description": "Pri načítavaní tejto webovej stránky žiaľ uplynul časový limit. Ospravedlňujeme sa za prípadné nepríjemnosti.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Prístup zamietnutý",
+            "description": "Nemáte oprávnenie na prístup k tejto stránke. Ak ide o chybu, kontaktujte správcu webovej lokality."
+        },
+        "upstream": {
+            "title": "Server je nedostupný",
+            "description": "Momentálne nie je žiadny server pripojený a dostupný na spracovanie tejto požiadavky. Ospravedlňujeme sa za nepríjemnosti."
+        },
+        "invalid_configuration": {
+            "title": "Neplatná konfigurácia",
+            "description": "Túto požiadavku nemôžeme spracovať pre chybu konfigurácie. Ospravedlňujeme sa za nepríjemnosti."
+        },
+        "resource": {
+            "title": "Chyba prístupu",
+            "description_start": "Pri načítavaní tejto stránky žiaľ nastala chyba.",
+            "cause_list": [
+                "Pôvodný server je neočakávane zaťažený a momentálne nemôže spracovávať požiadavky",
+                "Na pôvodnom serveri alebo počas prenosu údajov nastala neočakávaná chyba"
+            ],
+            "description_end": "Ospravedlňujeme sa za nepríjemnosti.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Chyba prístupu",
+            "description_start": "Pri načítavaní tejto stránky žiaľ nastala chyba.",
+            "cause_list": [
+                "Zistilo sa, že z vašej IP adresy prichádza na server nadmerné množstvo požiadaviek",
+                "Pôvodný server je neočakávane zaťažený a momentálne nemôže spracovávať požiadavky",
+                "Na pôvodnom serveri alebo počas prenosu údajov nastala neočakávaná chyba"
+            ],
+            "description_end": "Ospravedlňujeme sa za nepríjemnosti.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Chyba prístupu",
+            "description_start": "Pri načítavaní tejto stránky žiaľ nastala chyba.",
+            "cause_list": [
+                "Vaša IP adresa má nezvyčajný počet pripojení k serveru",
+                "Pôvodný server je neočakávane zaťažený a momentálne nemôže spracovávať požiadavky",
+                "Na pôvodnom serveri alebo počas prenosu údajov nastala neočakávaná chyba"
+            ],
+            "description_end": "Ospravedlňujeme sa za nepríjemnosti.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Neplatná požiadavka",
+            "description": "Táto webová lokalita je dostupná cez HTTPS. Pokúsili ste sa pripojiť cez HTTP. Teraz sa vás pokúsime presmerovať. Ak nebudete presmerovaní, pridajte https:// na začiatok svojej URL a skúste to znova."
+        },
+        "timeout": {
+            "title": "Server je nedostupný",
+            "description": "Pri načítavaní tejto stránky žiaľ uplynul časový limit. Server môže byť zaneprázdnený a momentálne nemusí byť schopný spracovať vašu požiadavku.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Neznáma doména",
+            "description": "Táto doména nie je zaregistrovaná pre túto IP adresu.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Nepodporovaná metóda",
+            "description": "Požadovaná metóda HTTP nie je pre túto webovú lokalitu povolená.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Nezabezpečená požiadavka",
+            "description": "Požadovaný protokol HTTPS nie je pre túto webovú lokalitu povolený. Aktualizujte svoj prehliadač.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Mimo prevádzky z dôvodu údržby",
+            "description": "Táto webová lokalita je momentálne nedostupná. Čoskoro by mala byť opäť dostupná.",
+            "refresh_enable": true
+        }
+    }
+}

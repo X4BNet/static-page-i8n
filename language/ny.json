@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Ntchitoyi imachitika yokha. Posachedwa mutumizidwa patsamba limene mukufuna kupitako.",
+        "validate_browser": "Tikutsimikizira msakatuli wanu musanalowe pa {http_host}",
+        "are_you_human_host": "Kodi ndinu munthu? Kutsimikizira n'kofunika kuti mulowe pa {http_host}",
+        "are_you_human": "Kodi ndinu munthu? Kutsimikizira n'kofunika kuti mupitirize",
+        "enter_captcha_host": "Chonde lowetsani CAPTCHA ili pansipa kuti mupite pa {http_host}:",
+        "enter_captcha": "Chonde lowetsani CAPTCHA ili pansipa kuti mupitirize:",
+        "submit": "tumizani",
+        "try_again_later": "Webusayitiyi ikutenga nthawi yaitali kuposa nthawi zonse kuti itseguke. Mungathe <a href=\"\">kuyesanso</a> nthawi ina",
+        "unexpected_error": "Zikuoneka kuti pachitika cholakwika chosayembekezereka. Chonde <a href=\"\">yesaninso</a> nthawi ina",
+        "validation_complete": "<strong>Kutsimikizira kwatha</strong>. Tsopano mukutumizidwa patsamba limene mukufuna kupitako. Dinani <a href=\"\">apa</a> ngati tsambali silikutsegukanso.",
+        "enable_javascript": "Kutsimikizira msakatuli kumagwira ntchito bwino kwambiri ngati JavaScript yayatsidwa.",
+        "abnormal_activity": "Chifukwa cha zochita zachilendo, tikufuna kuti mumalize ntchito ili pansipa kuti mupitirize",
+        "sorry_inconvenience": "Tikupepesa chifukwa cha vuto lililonse",
+        "verifying": "Tikutsimikizira"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Pachitika cholakwika potsegula {host}",
+            "refresh_text": "Chonde yesani kulowa pa webusayitiyi nthawi ina kapena dinani <a href=\"\">apa</a> kuti mutsegulenso tsambali.",
+            "unexpected_error": "Pachitika cholakwika chosayembekezereka potsegula tsambali",
+            "possible_causes": "Zifukwa zimene zingachititse izi ndi izi: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Webusayiti sikupezeka",
+            "description": "Mwatsoka, pachitika cholakwika chosayembekezereka potsegula tsambali. Tikupepesa chifukwa cha vuto lililonse. Chonde yesani kulowa pa webusayitiyi nthawi ina kapena dinani <a href=\"\">apa</a> kuti mutsegulenso tsambali."
+        },
+        "suspended": {
+            "title": "Webusayiti yaimitsidwa",
+            "description": "Mwatsoka, webusayiti imene mukufuna kuyendera sikupezeka. Tikupepesa chifukwa cha vuto lililonse. Ngati ndinu <strong>mwini</strong> wa webusayitiyi, chonde <a href=\"https://www.x4b.net/support\">lumikizanani ndi gulu lothandiza</a>."
+        },
+        "over_bandwidth": {
+            "title": "Webusayiti yaimitsidwa",
+            "description": "Mwatsoka, webusayiti imene mukufuna kuyendera sikupezeka. Tikupepesa chifukwa cha vuto lililonse. Ngati ndinu <strong>mwini</strong> wa webusayitiyi, chonde <a href=\"https://www.x4b.net/\">lumikizanani ndi gulu lothandiza</a>."
+        },
+        "backend": {
+            "title": "Seva sikupezeka",
+            "description": "Seva yoyambira sikupezeka pakadali pano, choncho siingathe kukwaniritsa pempholi. Tikupepesa chifukwa cha vuto lililonse.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Nthawi yodikirira pempho yatha",
+            "description": "Pepani, nthawi yodikirira yatha potsegula tsambali. Tikupepesa chifukwa cha vuto lililonse limene izi zingayambitse.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Kuloledwa kulowa kwakanidwa",
+            "description": "Mulibe chilolezo cholowa patsambali. Ngati mukuganiza kuti pali cholakwika, chonde lumikizanani ndi woyang'anira webusayitiyi."
+        },
+        "upstream": {
+            "title": "Seva sikupezeka",
+            "description": "Pakadali pano palibe seva yolumikizidwa pa intaneti komanso yopezeka kuti ikwaniritse pempholi. Tikupepesa chifukwa cha vuto lililonse."
+        },
+        "invalid_configuration": {
+            "title": "Zokonda zosayenera",
+            "description": "Sitingathe kukwaniritsa pempholi chifukwa cha cholakwika m'zokonda. Tikupepesa chifukwa cha vuto lililonse."
+        },
+        "resource": {
+            "title": "Cholakwika polowa",
+            "description_start": "Mwatsoka, pachitika cholakwika potsegula tsambali.",
+            "cause_list": [
+                "Seva yoyambira ili ndi ntchito zambiri zosayembekezereka ndipo siingathe kukwaniritsa zopempha pakadali pano",
+                "Pachitika cholakwika chosayembekezereka pa seva yoyambira kapena potumiza deta"
+            ],
+            "description_end": "Tikupepesa chifukwa cha vuto lililonse.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Cholakwika polowa",
+            "description_start": "Mwatsoka, pachitika cholakwika potsegula tsambali.",
+            "cause_list": [
+                "Zadziwika kuti adilesi yanu ya IP ikutumiza zopempha zambiri mopitirira malire ku seva",
+                "Seva yoyambira ili ndi ntchito zambiri zosayembekezereka ndipo siingathe kukwaniritsa zopempha pakadali pano",
+                "Pachitika cholakwika chosayembekezereka pa seva yoyambira kapena potumiza deta"
+            ],
+            "description_end": "Tikupepesa chifukwa cha vuto lililonse.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Cholakwika polowa",
+            "description_start": "Mwatsoka, pachitika cholakwika potsegula tsambali.",
+            "cause_list": [
+                "Adilesi yanu ya IP ili ndi chiwerengero chachilendo cha zolumikizana ndi seva",
+                "Seva yoyambira ili ndi ntchito zambiri zosayembekezereka ndipo siingathe kukwaniritsa zopempha pakadali pano",
+                "Pachitika cholakwika chosayembekezereka pa seva yoyambira kapena potumiza deta"
+            ],
+            "description_end": "Tikupepesa chifukwa cha vuto lililonse.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Pempho lolakwika",
+            "description": "Webusayitiyi ingatsegulidwe kudzera pa HTTPS. Mwayesa kulumikiza kudzera pa HTTP; tsopano tiyesa kukutumizani kwina. Ngati simutumizidwa, chonde onjezani https:// kumayambiriro kwa URL yanu ndipo yesaninso."
+        },
+        "timeout": {
+            "title": "Seva sikupezeka",
+            "description": "Pepani, nthawi yodikirira yatha potsegula tsambali. N'kutheka kuti seva ili ndi ntchito zambiri ndipo siingathe kukwaniritsa pempho lanu pakadali pano.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Domene yosadziwika",
+            "description": "Domene iyi sinalembetsedwe ku adilesi ya IP iyi.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Njira yosathandizidwa",
+            "description": "Njira ya HTTP imene yapemphedwa sinayatsidwe pa webusayitiyi.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Pempho losatetezeka",
+            "description": "Protokolo ya HTTPS imene yapemphedwa sinayatsidwe pa webusayitiyi. Chonde sinthani msakatuli wanu kuti akhale wa mtundu watsopano.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Yatsekedwa kuti ikonzedwe",
+            "description": "Webusayitiyi sikupezeka pakadali pano. Ikuyembekezeka kupezekanso posachedwa.",
+            "refresh_enable": true
+        }
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Hawshani si otomaatig ah ayay u socotaa. Dhawaan ayaa laguu gudbin doonaa bogga aad rabtay.",
+        "validate_browser": "Waxaa la xaqiijinayaa biraawsarkaaga ka hor inta aan la gelin {http_host}",
+        "are_you_human_host": "Ma tahay qof? Xaqiijin ayaa loo baahan yahay si loo galo {http_host}",
+        "are_you_human": "Ma tahay qof? Xaqiijin ayaa loo baahan yahay si loo sii wado",
+        "enter_captcha_host": "Fadlan geli CAPTCHA hoose si aad ugu gudubto {http_host}:",
+        "enter_captcha": "Fadlan geli CAPTCHA hoose si aad u sii waddo:",
+        "submit": "dir",
+        "try_again_later": "Mareegtan waxay qaadanaysaa waqti ka dheer kii caadiga ahaa si ay u soo furanto. Waxaad <a href=\"\">mar kale isku dayi kartaa</a> goor dambe",
+        "unexpected_error": "Waxay u muuqataa in khalad lama filaan ahi dhacay. Fadlan <a href=\"\">mar kale isku day</a> goor dambe",
+        "validation_complete": "<strong>Xaqiijintii waa dhammaatay</strong>. Hadda waxaa laguu gudbinayaa bogga aad rabtay. Guji <a href=\"\">halkan</a> haddii boggu uusan dib u soo furmin.",
+        "enable_javascript": "Xaqiijinta biraawsarku waxay sida ugu fiican u shaqaysaa marka JavaScript uu daaran yahay.",
+        "abnormal_activity": "Dhaqdhaqaaq aan caadi ahayn awgiis, waxaan u baahan nahay inaad dhamaystirto hawsha hoose si aad u sii waddo",
+        "sorry_inconvenience": "Waan ka xunnahay wixii dhib ah",
+        "verifying": "Xaqiijin baa socota"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Khalad ayaa dhacay markii la soo furayay {host}",
+            "refresh_text": "Fadlan isku day inaad mareegta gasho goor dambe ama guji <a href=\"\">halkan</a> si aad bogga dib ugu soo furto.",
+            "unexpected_error": "Khalad lama filaan ah ayaa dhacay markii boggan la soo furayay",
+            "possible_causes": "Sababaha suurtagalka ah waxaa ka mid ah: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Mareegta lama heli karo",
+            "description": "Nasiib darro, khalad lama filaan ah ayaa dhacay markii boggan la soo furayay. Waan ka xunnahay wixii dhib ah. Fadlan isku day inaad mareegta gasho goor dambe ama guji <a href=\"\">halkan</a> si aad bogga dib ugu soo furto."
+        },
+        "suspended": {
+            "title": "Mareegta waa la hakiyay",
+            "description": "Nasiib darro, mareegta aad isku dayayso inaad booqato lama heli karo. Waan ka xunnahay wixii dhib ah. Haddii aad tahay <strong>milkiilaha</strong> mareegtan, fadlan <a href=\"https://www.x4b.net/support\">la xiriir taageerada</a>."
+        },
+        "over_bandwidth": {
+            "title": "Mareegta waa la hakiyay",
+            "description": "Nasiib darro, mareegta aad isku dayayso inaad booqato lama heli karo. Waan ka xunnahay wixii dhib ah. Haddii aad tahay <strong>milkiilaha</strong> mareegtan, fadlan <a href=\"https://www.x4b.net/\">la xiriir taageerada</a>."
+        },
+        "backend": {
+            "title": "Seerfarka lama heli karo",
+            "description": "Seerfarka asalka ah si ku meel gaar ah looma heli karo, sidaas darteed ma fulin karo codsigan. Waan ka xunnahay wixii dhib ah.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Waqtigii sugitaanka codsiga wuu dhammaaday",
+            "description": "Waan ka xunnahay, balse waqtigii sugitaanka ayaa dhammaaday markii boggan la soo furayay. Waan ka raalli gelinaynaa wixii dhib ah ee arrintani keentay.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Gelitaanka waa la diiday",
+            "description": "Ma haysatid oggolaansho aad ku gasho boggan. Haddii aad u aragto in tani khalad tahay, fadlan la xiriir maamulaha mareegta."
+        },
+        "upstream": {
+            "title": "Seerfarka lama heli karo",
+            "description": "Hadda ma jiro seerfar internetka ku xiran oo diyaar u ah inuu farsameeyo codsigan. Waan ka xunnahay wixii dhib ah."
+        },
+        "invalid_configuration": {
+            "title": "Habaynta oo khaldan",
+            "description": "Ma fulin karno codsigan khalad ku jira habaynta awgiis. Waan ka xunnahay wixii dhib ah."
+        },
+        "resource": {
+            "title": "Khalad gelitaan",
+            "description_start": "Nasiib darro, khalad ayaa dhacay markii boggan la soo furayay.",
+            "cause_list": [
+                "Seerfarka asalka ah waxaa saaran culays shaqo oo lama filaan ah, mana farsamayn karo codsiyada waqtigan",
+                "Khalad lama filaan ah ayaa ka dhacay seerfarka asalka ah ama intii xogta la gudbinayay"
+            ],
+            "description_end": "Waan ka xunnahay wixii dhib ah.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Khalad gelitaan",
+            "description_start": "Nasiib darro, khalad ayaa dhacay markii boggan la soo furayay.",
+            "cause_list": [
+                "Waxaa la ogaaday in codsiyo aad u badan loo dirayo seerfarka iyagoo ka imanaya cinwaankaaga IP",
+                "Seerfarka asalka ah waxaa saaran culays shaqo oo lama filaan ah, mana farsamayn karo codsiyada waqtigan",
+                "Khalad lama filaan ah ayaa ka dhacay seerfarka asalka ah ama intii xogta la gudbinayay"
+            ],
+            "description_end": "Waan ka xunnahay wixii dhib ah.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Khalad gelitaan",
+            "description_start": "Nasiib darro, khalad ayaa dhacay markii boggan la soo furayay.",
+            "cause_list": [
+                "Cinwaankaaga IP wuxuu seerfarka la leeyahay tiro xiriirro ah oo aan caadi ahayn",
+                "Seerfarka asalka ah waxaa saaran culays shaqo oo lama filaan ah, mana farsamayn karo codsiyada waqtigan",
+                "Khalad lama filaan ah ayaa ka dhacay seerfarka asalka ah ama intii xogta la gudbinayay"
+            ],
+            "description_end": "Waan ka xunnahay wixii dhib ah.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Codsi khaldan",
+            "description": "Mareegtan waxaa lagu geli karaa HTTPS. Waxaad isku dayday inaad ku xiranto HTTP; hadda waxaan isku dayi doonnaa inaan ku jihayno. Haddii aan laguu jihayn, fadlan ku dar https:// bilowga URL-kaaga oo mar kale isku day."
+        },
+        "timeout": {
+            "title": "Seerfarka lama heli karo",
+            "description": "Waan ka xunnahay, balse waqtigii sugitaanka ayaa dhammaaday markii boggan la soo furayay. Waxaa suurtagal ah in seerfarku mashquul yahay oo uusan farsamayn karin codsigaaga waqtigan.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Domeyn aan la aqoon",
+            "description": "Domeynkan uma diiwaangashana cinwaankan IP.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Hab aan la taageerin",
+            "description": "Habka HTTP ee la codsaday looma daarin mareegtan.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Codsi aan ammaan ahayn",
+            "description": "Borotokoolka HTTPS ee la codsaday looma daarin mareegtan. Fadlan cusboonaysii biraawsarkaaga.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Dayactir awgiis ayuu u xiran yahay",
+            "description": "Mareegtan hadda lama heli karo. Waxaa la filayaa inay dhowaan mar kale diyaar noqoto.",
+            "refresh_enable": true
+        }
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Tshebetso ena e iketsa ka boyona. Haufinyane o tla fetisetswa leqepheng leo o neng o batla ho le etela.",
+        "validate_browser": "Re netefatsa sebatli sa hao pele o kena ho {http_host}",
+        "are_you_human_host": "Na o motho? Ho hlokahala netefatso ho kena ho {http_host}",
+        "are_you_human": "Na o motho? Ho hlokahala netefatso hore o tswele pele",
+        "enter_captcha_host": "Ka kopo kenya CAPTCHA e ka tlase hore o tswele pele ho {http_host}:",
+        "enter_captcha": "Ka kopo kenya CAPTCHA e ka tlase hore o tswele pele:",
+        "submit": "romela",
+        "try_again_later": "Webosaete ena e nka nako e telele ho feta ka tlwaelo ho bula. O ka <a href=\"\">leka hape</a> hamorao",
+        "unexpected_error": "Ho bonahala ho hlahile phoso e sa lebellwang. Ka kopo <a href=\"\">leka hape</a> hamorao",
+        "validation_complete": "<strong>Netefatso e phethilwe</strong>. Jwale o fetisetswa leqepheng leo o neng o batla ho le etela. Tobetsa <a href=\"\">mona</a> haeba leqephe le sa bulehe hape.",
+        "enable_javascript": "Netefatso ya sebatli e sebetsa hantle haholo ha JavaScript e butswe.",
+        "abnormal_activity": "Ka lebaka la ketso e sa tlwaelehang, re hloka hore o qete mosebetsi o ka tlase hore o tswele pele",
+        "sorry_inconvenience": "Re kopa tshwarelo ka tshitiso efe kapa efe",
+        "verifying": "Re a netefatsa"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Phoso ha ho bulwa {host}",
+            "refresh_text": "Ka kopo leka ho kena webosaeteng hamorao kapa tobetsa <a href=\"\">mona</a> ho bula leqephe hape.",
+            "unexpected_error": "Ho hlahile phoso e sa lebellwang ha ho bulwa leqephe lena",
+            "possible_causes": "Mabaka a ka bakang sena a kenyeletsa: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Webosaete ha e fumanehe",
+            "description": "Ka bomadimabe, ho hlahile phoso e sa lebellwang ha ho bulwa leqephe lena. Re kopa tshwarelo ka tshitiso efe kapa efe. Ka kopo leka ho kena webosaeteng hamorao kapa tobetsa <a href=\"\">mona</a> ho bula leqephe hape."
+        },
+        "suspended": {
+            "title": "Webosaete e emisitswe",
+            "description": "Ka bomadimabe, webosaete eo o lekang ho e etela ha e fumanehe. Re kopa tshwarelo ka tshitiso efe kapa efe. Haeba o le <strong>mong'a</strong> webosaete ena, ka kopo <a href=\"https://www.x4b.net/support\">ikopanye le ba tshehetso</a>."
+        },
+        "over_bandwidth": {
+            "title": "Webosaete e emisitswe",
+            "description": "Ka bomadimabe, webosaete eo o lekang ho e etela ha e fumanehe. Re kopa tshwarelo ka tshitiso efe kapa efe. Haeba o le <strong>mong'a</strong> webosaete ena, ka kopo <a href=\"https://www.x4b.net/\">ikopanye le ba tshehetso</a>."
+        },
+        "backend": {
+            "title": "Seva ha e fumanehe",
+            "description": "Seva ya mohlodi ha e fumanehe ka nakwana, kahoo ha e kgone ho phethahatsa kopo ena. Re kopa tshwarelo ka tshitiso efe kapa efe.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Nako e behetsweng ho emela kopo e fedile",
+            "description": "Re maswabi, nako e behetsweng ho ema e fedile ha ho bulwa leqephe lena. Re kopa tshwarelo ka tshitiso efe kapa efe e ka bang e bakilwe ke sena.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Ho kena ho hanetswe",
+            "description": "Ha o na tumello ya ho kena leqepheng lena. Haeba o nahana hore sena ke phoso, ka kopo ikopanye le motsamaisi wa webosaete."
+        },
+        "upstream": {
+            "title": "Seva ha e fumanehe",
+            "description": "Ha ho na seva e hoketsweng inthaneteng ebile e fumaneha ho sebetsana le kopo ena hona jwale. Re kopa tshwarelo ka tshitiso efe kapa efe."
+        },
+        "invalid_configuration": {
+            "title": "Tlhophiso e sa nepahalang",
+            "description": "Ha re kgone ho phethahatsa kopo ena ka lebaka la phoso tlhophisong. Re kopa tshwarelo ka tshitiso efe kapa efe."
+        },
+        "resource": {
+            "title": "Phoso ya ho kena",
+            "description_start": "Ka bomadimabe, ho hlahile phoso ha ho bulwa leqephe lena.",
+            "cause_list": [
+                "Seva ya mohlodi e na le mosebetsi o mongata o sa lebellwang mme ha e kgone ho sebetsana le dikopo hona jwale",
+                "Ho hlahile phoso e sa lebellwang seveng ya mohlodi kapa nakong ya phetiso ya data"
+            ],
+            "description_end": "Re kopa tshwarelo ka tshitiso efe kapa efe.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Phoso ya ho kena",
+            "description_start": "Ka bomadimabe, ho hlahile phoso ha ho bulwa leqephe lena.",
+            "cause_list": [
+                "Ho fumanwe hore aterese ya hao ya IP e romela dikopo tse ngata haholo seveng",
+                "Seva ya mohlodi e na le mosebetsi o mongata o sa lebellwang mme ha e kgone ho sebetsana le dikopo hona jwale",
+                "Ho hlahile phoso e sa lebellwang seveng ya mohlodi kapa nakong ya phetiso ya data"
+            ],
+            "description_end": "Re kopa tshwarelo ka tshitiso efe kapa efe.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Phoso ya ho kena",
+            "description_start": "Ka bomadimabe, ho hlahile phoso ha ho bulwa leqephe lena.",
+            "cause_list": [
+                "Aterese ya hao ya IP e na le palo e sa tlwaelehang ya dikgokelo le seva",
+                "Seva ya mohlodi e na le mosebetsi o mongata o sa lebellwang mme ha e kgone ho sebetsana le dikopo hona jwale",
+                "Ho hlahile phoso e sa lebellwang seveng ya mohlodi kapa nakong ya phetiso ya data"
+            ],
+            "description_end": "Re kopa tshwarelo ka tshitiso efe kapa efe.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Kopo e fosahetseng",
+            "description": "Webosaete ena e ka fihlellwa ka HTTPS. O lekile ho hokela ka HTTP; jwale re tla leka ho o lebisa sebakeng se seng. Haeba o sa fetisetswe teng, ka kopo kenya https:// qalong ya URL ya hao mme o leke hape."
+        },
+        "timeout": {
+            "title": "Seva ha e fumanehe",
+            "description": "Re maswabi, nako e behetsweng ho ema e fedile ha ho bulwa leqephe lena. Ho ka etsahala hore seva e phathahane mme ha e kgone ho sebetsana le kopo ya hao hona jwale.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Domene e sa tsejweng",
+            "description": "Domene ena ha e a ngodiswa bakeng sa aterese ena ya IP.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Mokgwa o sa tshehetsweng",
+            "description": "Mokgwa wa HTTP o kopilweng ha o a bulelwa webosaete ena.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Kopo e sa sireletsehang",
+            "description": "Prothokholo ya HTTPS e kopilweng ha e a bulelwa webosaete ena. Ka kopo ntjhafatsa sebatli sa hao.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "E kwetswe bakeng sa tlhokomelo",
+            "description": "Webosaete ena ha e fumanehe hona jwale. Ho lebelletswe hore e fumanehe hape haufinyane.",
+            "refresh_enable": true
+        }
+    }
+}

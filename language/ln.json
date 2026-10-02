@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Mosala oyo esalemaka yango moko. Mosika te, bakotinda yo na esika oyo olingi kokende.",
+        "validate_browser": "Tozali kotala navigateur na yo liboso okɔta na {http_host}",
+        "are_you_human_host": "Ozali moto? Esengeli kotala yango mpo okɔta na {http_host}",
+        "are_you_human": "Ozali moto? Esengeli kotala yango mpo okoba",
+        "enter_captcha_host": "Komá CAPTCHA oyo ezali awa na nse mpo okende na {http_host}:",
+        "enter_captcha": "Komá CAPTCHA oyo ezali awa na nse mpo okoba:",
+        "submit": "Tindá",
+        "try_again_later": "Site oyo ezali kozwa ntango mingi koleka momeseno mpo na kofungwama. Okoki <a href=\"\">komeka lisusu</a> na nsima",
+        "unexpected_error": "Emonani lokola libunga oyo ezelamaki te esalemi. Svp, <a href=\"\">meká lisusu</a> na nsima",
+        "validation_complete": "<strong>Botali esili</strong>. Sikoyo bakotinda yo na esika oyo olingi kokende. Finá <a href=\"\">awa</a> soki lokasa efungwami lisusu te.",
+        "enable_javascript": "Botali ya navigateur esalaka malamu koleka soki JavaScript epesami nzela ya kosala.",
+        "abnormal_activity": "Mpo na makambo oyo ezali kosalema na ndenge ya momeseno te, esengeli osilisa mosala oyo ezali awa na nse mpo okoba",
+        "sorry_inconvenience": "Tosɛngi bolimbisi mpo na mokakatano nyonso",
+        "verifying": "Tozali kotala"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Libunga na kofungola {host}",
+            "refresh_text": "Svp, meká kokɔta na site na nsima to finá <a href=\"\">awa</a> mpo na kofungola lokasa lisusu.",
+            "unexpected_error": "Libunga oyo ezelamaki te esalemi ntango lokasa oyo ezalaki kofungwama",
+            "possible_causes": "Ntina oyo ekoki kozala: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Site ekoki kosalelama te",
+            "description": "Na mawa, libunga oyo ezelamaki te esalemi ntango lokasa oyo ezalaki kofungwama. Tosɛngi bolimbisi mpo na mokakatano nyonso. Svp, meká kokɔta na site na nsima to finá <a href=\"\">awa</a> mpo na kofungola lokasa lisusu."
+        },
+        "suspended": {
+            "title": "Mosala ya site etelemisami",
+            "description": "Na mawa, site oyo ozali komeka kotala ekoki kosalelama te. Tosɛngi bolimbisi mpo na mokakatano nyonso. Soki ozali <strong>nkolo</strong> ya site oyo, svp, <a href=\"https://www.x4b.net/support\">sololá na bato ya lisalisi</a>."
+        },
+        "over_bandwidth": {
+            "title": "Mosala ya site etelemisami",
+            "description": "Na mawa, site oyo ozali komeka kotala ekoki kosalelama te. Tosɛngi bolimbisi mpo na mokakatano nyonso. Soki ozali <strong>nkolo</strong> ya site oyo, svp, <a href=\"https://www.x4b.net/\">sololá na bato ya lisalisi</a>."
+        },
+        "backend": {
+            "title": "Serveur ekoki kosalelama te",
+            "description": "Serveur ya ebandeli ekoki kosalelama te mpo na mwa ntango, yango wana ekoki kokokisa bosɛnga oyo te. Tosɛngi bolimbisi mpo na mokakatano nyonso.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Ntango ya kozela eyano na bosɛnga esili",
+            "description": "Na mawa, ntango oyo epesamaki mpo na kozela esili ntango lokasa oyo ya Internet ezalaki kofungwama. Tosɛngi bolimbisi mpo na mokakatano nyonso oyo yango ekoki kobimisa.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Kokɔta epekisami",
+            "description": "Ozali na ndingisa ya kokɔta na lokasa oyo te. Soki oyo ezali libunga, svp, sololá na mokambi ya site."
+        },
+        "upstream": {
+            "title": "Serveur ekoki kosalelama te",
+            "description": "Sikoyo ezali na serveur moko te oyo ekangami na Internet mpe ezali mpo na kokokisa bosɛnga oyo. Tosɛngi bolimbisi mpo na mokakatano nyonso."
+        },
+        "invalid_configuration": {
+            "title": "Bobongisi ezali malamu te",
+            "description": "Tokoki kokokisa bosɛnga oyo te mpo na libunga na bobongisi. Tosɛngi bolimbisi mpo na mokakatano nyonso."
+        },
+        "resource": {
+            "title": "Libunga na kokɔta",
+            "description_start": "Na mawa, libunga esalemi ntango lokasa oyo ezalaki kofungwama.",
+            "cause_list": [
+                "Serveur ya ebandeli ezali na mosala mingi oyo ezelamaki te mpe ekoki kokokisa masɛnga sikoyo te",
+                "Libunga oyo ezelamaki te esalemi na serveur ya ebandeli to ntango ya kotinda makambo"
+            ],
+            "description_end": "Tosɛngi bolimbisi mpo na mokakatano nyonso.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Libunga na kokɔta",
+            "description_start": "Na mawa, libunga esalemi ntango lokasa oyo ezalaki kofungwama.",
+            "cause_list": [
+                "Bamoni ete adrɛsi IP na yo ezali kotinda masɛnga mingi koleka ndelo na serveur",
+                "Serveur ya ebandeli ezali na mosala mingi oyo ezelamaki te mpe ekoki kokokisa masɛnga sikoyo te",
+                "Libunga oyo ezelamaki te esalemi na serveur ya ebandeli to ntango ya kotinda makambo"
+            ],
+            "description_end": "Tosɛngi bolimbisi mpo na mokakatano nyonso.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Libunga na kokɔta",
+            "description_start": "Na mawa, libunga esalemi ntango lokasa oyo ezalaki kofungwama.",
+            "cause_list": [
+                "Motángo ya connexions kati na adrɛsi IP na yo mpe serveur ezali ya momeseno te",
+                "Serveur ya ebandeli ezali na mosala mingi oyo ezelamaki te mpe ekoki kokokisa masɛnga sikoyo te",
+                "Libunga oyo ezelamaki te esalemi na serveur ya ebandeli to ntango ya kotinda makambo"
+            ],
+            "description_end": "Tosɛngi bolimbisi mpo na mokakatano nyonso.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Bosɛnga ezali malamu te",
+            "description": "Okoki kokɔta na site oyo na nzela ya HTTPS. Omeki kokɔta na nzela ya HTTP. Sikoyo tokomeka kotinda yo na adrɛsi mosusu. Soki batindi yo te, svp, bakisá https:// na ebandeli ya URL na yo mpe meká lisusu."
+        },
+        "timeout": {
+            "title": "Serveur ekoki kosalelama te",
+            "description": "Na mawa, ntango oyo epesamaki mpo na kozela esili ntango lokasa oyo ezalaki kofungwama. Ekoki kozala ete serveur ezali na mosala mingi mpe ekoki kokokisa bosɛnga na yo sikoyo te.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Domaine eyebani te",
+            "description": "Domaine oyo ekomami te mpo na adrɛsi IP oyo.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Lolenge oyo esungami te",
+            "description": "Lolenge ya HTTP oyo esɛngami epesami ndingisa te mpo na site oyo.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Bosɛnga oyo ezali na bokengi te",
+            "description": "Protocole HTTPS oyo esɛngami epesami ndingisa te mpo na site oyo. Svp, tyá navigateur na yo na ndenge ya sika.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Ekangami na Internet te mpo na bobateli",
+            "description": "Site oyo ekoki kosalelama sikoyo te. Tozali kozela ete ekoka kosalelama lisusu mosika te.",
+            "refresh_enable": true
+        }
+    }
+}

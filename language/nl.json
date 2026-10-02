@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Dit proces verloopt automatisch. U wordt binnenkort doorgestuurd naar uw gewenste bestemming.",
+        "validate_browser": "Uw browser wordt gecontroleerd voordat u {http_host} bezoekt",
+        "are_you_human_host": "Bent u een mens? Verificatie is vereist om {http_host} te bezoeken",
+        "are_you_human": "Bent u een mens? Verificatie is vereist om door te gaan",
+        "enter_captcha_host": "Voer de onderstaande CAPTCHA in om door te gaan naar {http_host}:",
+        "enter_captcha": "Voer de onderstaande CAPTCHA in om door te gaan:",
+        "submit": "verzenden",
+        "try_again_later": "Het laden van deze website duurt langer dan normaal. U kunt het later <a href=\"\">opnieuw proberen</a>",
+        "unexpected_error": "Er lijkt een onverwachte fout te zijn opgetreden. Probeer het later <a href=\"\">opnieuw</a>",
+        "validation_complete": "<strong>Verificatie voltooid</strong>. U wordt nu doorgestuurd naar uw gewenste bestemming. Klik <a href=\"\">hier</a> als de pagina niet opnieuw wordt geladen.",
+        "enable_javascript": "Browsercontrole werkt het beste als JavaScript is ingeschakeld.",
+        "abnormal_activity": "Vanwege ongebruikelijke activiteit moet u de onderstaande taak uitvoeren om door te gaan",
+        "sorry_inconvenience": "Onze excuses voor het ongemak",
+        "verifying": "Bezig met verifiëren"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Fout bij het laden van {host}",
+            "refresh_text": "Probeer de website later te bezoeken of klik <a href=\"\">hier</a> om de pagina te vernieuwen.",
+            "unexpected_error": "Er is een onverwachte fout opgetreden bij het laden van deze pagina",
+            "possible_causes": "Mogelijke oorzaken zijn:",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Website niet beschikbaar",
+            "description": "Helaas is er een onverwachte fout opgetreden bij het laden van deze pagina. Onze excuses voor het ongemak. Probeer de website later te bezoeken of klik <a href=\"\">hier</a> om de pagina te vernieuwen."
+        },
+        "suspended": {
+            "title": "Website opgeschort",
+            "description": "Helaas is de website die u probeert te bezoeken niet beschikbaar. Onze excuses voor het ongemak. Bent u de <strong>eigenaar</strong> van deze website? Neem dan <a href=\"https://www.x4b.net/support\">contact op met de ondersteuning</a>."
+        },
+        "over_bandwidth": {
+            "title": "Website opgeschort",
+            "description": "Helaas is de website die u probeert te bezoeken niet beschikbaar. Onze excuses voor het ongemak. Bent u de <strong>eigenaar</strong> van deze website? Neem dan <a href=\"https://www.x4b.net/\">contact op met de ondersteuning</a>."
+        },
+        "backend": {
+            "title": "Server niet beschikbaar",
+            "description": "De oorspronkelijke server is tijdelijk niet beschikbaar en kan dit verzoek daarom niet afhandelen. Onze excuses voor het ongemak.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Time-out van verzoek",
+            "description": "Helaas is de wachttijd bij het laden van deze webpagina verstreken. Onze excuses voor het eventuele ongemak.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Toegang geweigerd",
+            "description": "U hebt geen toestemming om deze pagina te openen. Als dit niet klopt, neem dan contact op met de beheerder van de website."
+        },
+        "upstream": {
+            "title": "Server niet beschikbaar",
+            "description": "Er is momenteel geen server online en beschikbaar om dit verzoek te verwerken. Onze excuses voor het ongemak."
+        },
+        "invalid_configuration": {
+            "title": "Ongeldige configuratie",
+            "description": "We kunnen dit verzoek niet afhandelen vanwege een configuratiefout. Onze excuses voor het ongemak."
+        },
+        "resource": {
+            "title": "Toegangsfout",
+            "description_start": "Helaas is er een fout opgetreden bij het laden van deze pagina.",
+            "cause_list": [
+                "De oorspronkelijke server wordt onverwacht zwaar belast en kan momenteel geen verzoeken verwerken",
+                "Er is een onverwachte fout opgetreden op de oorspronkelijke server of tijdens de gegevensoverdracht"
+            ],
+            "description_end": "Onze excuses voor het ongemak.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Toegangsfout",
+            "description_start": "Helaas is er een fout opgetreden bij het laden van deze pagina.",
+            "cause_list": [
+                "Er is vastgesteld dat uw IP-adres te veel verzoeken naar de server stuurt",
+                "De oorspronkelijke server wordt onverwacht zwaar belast en kan momenteel geen verzoeken verwerken",
+                "Er is een onverwachte fout opgetreden op de oorspronkelijke server of tijdens de gegevensoverdracht"
+            ],
+            "description_end": "Onze excuses voor het ongemak.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Toegangsfout",
+            "description_start": "Helaas is er een fout opgetreden bij het laden van deze pagina.",
+            "cause_list": [
+                "Uw IP-adres heeft een ongebruikelijk aantal verbindingen met de server",
+                "De oorspronkelijke server wordt onverwacht zwaar belast en kan momenteel geen verzoeken verwerken",
+                "Er is een onverwachte fout opgetreden op de oorspronkelijke server of tijdens de gegevensoverdracht"
+            ],
+            "description_end": "Onze excuses voor het ongemak.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Ongeldig verzoek",
+            "description": "Deze website is bereikbaar via HTTPS. U hebt geprobeerd verbinding te maken via HTTP. We proberen u nu door te sturen. Als u niet wordt doorgestuurd, voeg dan https:// toe aan het begin van uw URL en probeer het opnieuw."
+        },
+        "timeout": {
+            "title": "Server niet beschikbaar",
+            "description": "Helaas is de wachttijd bij het laden van deze pagina verstreken. Mogelijk is de server bezet en kan deze uw verzoek momenteel niet verwerken.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Onbekend domein",
+            "description": "Dit domein is niet geregistreerd voor dit IP-adres.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Niet-ondersteunde methode",
+            "description": "De aangevraagde HTTP-methode is niet ingeschakeld voor deze website.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Onveilig verzoek",
+            "description": "Het aangevraagde HTTPS-protocol is niet ingeschakeld voor deze website. Werk uw browser bij.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Offline voor onderhoud",
+            "description": "Deze website is momenteel niet beschikbaar. Naar verwachting is de website binnenkort weer beschikbaar.",
+            "refresh_enable": true
+        }
+    }
+}

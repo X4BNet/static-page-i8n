@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Jëf jii day doxal boppam. Ci lu gaaw dinañu la yóbbu ca xët wa nga bëggoon a dem.",
+        "validate_browser": "Ñuy saytu sa joowukaay bala ngay dugg ci {http_host}",
+        "are_you_human_host": "Nit nga? Saytu war na am ngir dugg ci {http_host}",
+        "are_you_human": "Nit nga? Saytu war na am ngir man a wéy",
+        "enter_captcha_host": "Bindal CAPTCHA bi ci suuf ngir wéy ci {http_host}:",
+        "enter_captcha": "Bindal CAPTCHA bi ci suuf ngir man a wéy:",
+        "submit": "yónnee",
+        "try_again_later": "Ubbi dalub web bii yàgg na lu ëpp li ñu miin. Mën nga <a href=\"\">jéemaat</a> ci kanam",
+        "unexpected_error": "Dafa mel ne njuumte lu ñu séenuwul am na. <a href=\"\">Jéemaatal</a> ci kanam",
+        "validation_complete": "<strong>Saytu gi jeex na</strong>. Ñuy la yóbbu ca xët wa nga bëggoon a dem. Cuqal <a href=\"\">fii</a> su xët wi ubbikuwaatul.",
+        "enable_javascript": "Saytu joowukaay bi dafa gën a dox bu JavaScript tàmbalee dox.",
+        "abnormal_activity": "Ndax jëf yu wuute ak li ñu miin, danga war a àggali liggéey bi ci suuf ngir man a wéy",
+        "sorry_inconvenience": "Nu ngi jéggalu ci coono lépp",
+        "verifying": "Ñuy saytu"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Njuumte ci ubbi {host}",
+            "refresh_text": "Jéemal a dugg ci dal bi ci kanam walla cuqal <a href=\"\">fii</a> ngir yeesalaat xët wi.",
+            "unexpected_error": "Njuumte lu ñu séenuwul am na bi ñuy ubbi xët wii",
+            "possible_causes": "Yi mën a nekk sabab yi ñooy:",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Dalub Web bi Mëneesul a Jëfandikoo",
+            "description": "Jéggal nu, njuumte lu ñu séenuwul am na bi ñuy ubbi xët wii. Nu ngi jéggalu ci coono lépp. Jéemal a dugg ci dal bi ci kanam walla cuqal <a href=\"\">fii</a> ngir yeesalaat xët wi."
+        },
+        "suspended": {
+            "title": "Taxawal Nañu Dalub Web bi",
+            "description": "Jéggal nu, mëneesul a jëfandikoo dalub web bi nga bëgg a seet. Nu ngi jéggalu ci coono lépp. Soo di <strong>boroom</strong> dalub web bii, <a href=\"https://www.x4b.net/support\">jokkool ak ñiy joxe ndimbal</a>."
+        },
+        "over_bandwidth": {
+            "title": "Taxawal Nañu Dalub Web bi",
+            "description": "Jéggal nu, mëneesul a jëfandikoo dalub web bi nga bëgg a seet. Nu ngi jéggalu ci coono lépp. Soo di <strong>boroom</strong> dalub web bii, <a href=\"https://www.x4b.net/\">jokkool ak ñiy joxe ndimbal</a>."
+        },
+        "backend": {
+            "title": "Joxekaay bi Mëneesul a Jëfandikoo",
+            "description": "Joxekaay bi ame xët yi mëneesul a jëfandikoo ci diir bu gàtt, moo tax mënta tontu laaj bii. Nu ngi jéggalu ci coono lépp.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Diiru Xaar Laaj bi Jeex na",
+            "description": "Jéggal nu, diiru xaar bi jeex na bi ñuy ubbi xëtu web wii. Nu ngi jéggalu ci coono lépp lu loolu mën a indi.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Nanguwuñu Dugg gi",
+            "description": "Amoo sañ-sañu dugg ci xët wii. Su loolu dee njuumte, jokkool ak ki yor dalub web bi."
+        },
+        "upstream": {
+            "title": "Joxekaay bi Mëneesul a Jëfandikoo",
+            "description": "Amul joxekaay bu jokkoo ak lëkkale gi te mën a tontu laaj bii fi mu nekk nii. Nu ngi jéggalu ci coono lépp."
+        },
+        "invalid_configuration": {
+            "title": "Samp gu Baaxul",
+            "description": "Mënuñu a tontu laaj bii ndax njuumte ci samp gi. Nu ngi jéggalu ci coono lépp."
+        },
+        "resource": {
+            "title": "Njuumte ci Dugg",
+            "description_start": "Jéggal nu, njuumte am na bi ñuy ubbi xët wii.",
+            "cause_list": [
+                "Joxekaay bi ame xët yi am na liggéey lu bari lu ñu séenuwul te mënta tontu laaj yi fi mu nekk nii",
+                "Njuumte lu ñu séenuwul am na ci joxekaay bi ame xët yi walla bi ñuy yónnee xibaar yi"
+            ],
+            "description_end": "Nu ngi jéggalu ci coono lépp.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Njuumte ci Dugg",
+            "description_start": "Jéggal nu, njuumte am na bi ñuy ubbi xët wii.",
+            "cause_list": [
+                "Gis nañu ne sa màkkaanu IP day yónnee ay laaj yu ëpp ci joxekaay bi",
+                "Joxekaay bi ame xët yi am na liggéey lu bari lu ñu séenuwul te mënta tontu laaj yi fi mu nekk nii",
+                "Njuumte lu ñu séenuwul am na ci joxekaay bi ame xët yi walla bi ñuy yónnee xibaar yi"
+            ],
+            "description_end": "Nu ngi jéggalu ci coono lépp.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Njuumte ci Dugg",
+            "description_start": "Jéggal nu, njuumte am na bi ñuy ubbi xët wii.",
+            "cause_list": [
+                "Limu jokkoo yi sa màkkaanu IP am ak joxekaay bi wuute na ak li ñu miin",
+                "Joxekaay bi ame xët yi am na liggéey lu bari lu ñu séenuwul te mënta tontu laaj yi fi mu nekk nii",
+                "Njuumte lu ñu séenuwul am na ci joxekaay bi ame xët yi walla bi ñuy yónnee xibaar yi"
+            ],
+            "description_end": "Nu ngi jéggalu ci coono lépp.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Laaj bu Baaxul",
+            "description": "Mën nga dugg ci dalub web bii jaarale ko ci HTTPS. Jéem nga a jokkoo jaarale ko ci HTTP, te léegi dinañu jéem a yóbbu la. Suñu la yóbbuwwul, dollil https:// ci ndoorteelu sa URL te jéemaat."
+        },
+        "timeout": {
+            "title": "Joxekaay bi Mëneesul a Jëfandikoo",
+            "description": "Jéggal nu, diiru xaar bi jeex na bi ñuy ubbi xët wii. Joxekaay bi xéj-na am liggéey lu bari te mënta tontu sa laaj fi mu nekk nii.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Domaine bu Ñu Xamul",
+            "description": "Domaine bii binduñu ko ci màkkaanu IP bii.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Pëxe bu Ñu Dëggëralul",
+            "description": "Pëxem HTTP mi ñu laaj tàmbaliwuñu ko ci dalub web bii.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Laaj bu Wóorul",
+            "description": "Protocole HTTPS bi ñu laaj tàmbaliwuñu ko ci dalub web bii. Yeesalal sa joowukaay.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Jokkoowul Ndax Toppatoo",
+            "description": "Dalub web bii mëneesul a jëfandikoo fi mu nekk nii. Yaakaar nañu ne ci lu gaaw dinañu ko mën a jëfandikoowaat.",
+            "refresh_enable": true
+        }
+    }
+}

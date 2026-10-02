@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Iki gikorwa cyikora. Mu kanya gato uzoherezwa ku rupapuro wifuzaga gusura.",
+        "validate_browser": "Turagenzura mushakisha yawe mbere yo kugera kuri {http_host}",
+        "are_you_human_host": "Ese uri umuntu? Kugera kuri {http_host} bisaba igenzura",
+        "are_you_human": "Ese uri umuntu? Gukomeza bisaba igenzura",
+        "enter_captcha_host": "Andika CAPTCHA iri hasi kugira ngo ukomeze kuri {http_host}:",
+        "enter_captcha": "Andika CAPTCHA iri hasi kugira ngo ukomeze:",
+        "submit": "ohereza",
+        "try_again_later": "Uru rubuga ruri gufata igihe kirenze ibisanzwe kugira ngo rufunguke. Ushobora <a href=\"\">kugerageza nanone</a> nyuma",
+        "unexpected_error": "Bisa n'aho habaye ikosa ritari ryitezwe. <a href=\"\">Ongera ugerageze</a> nyuma",
+        "validation_complete": "<strong>Igenzura rirarangiye</strong>. Ubu uroherezwa ku rupapuro wifuzaga gusura. Kanda <a href=\"\">hano</a> niba urupapuro rutongeye gufunguka.",
+        "enable_javascript": "Igenzura rya mushakisha rikora neza kurushaho iyo JavaScript ifunguye.",
+        "abnormal_activity": "Kubera ibikorwa bidasanzwe, turagusaba kurangiza igikorwa kiri hasi kugira ngo ukomeze",
+        "sorry_inconvenience": "Turabasaba imbabazi ku ngorane zose",
+        "verifying": "Turagenzura"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Ikosa mu gufungura {host}",
+            "refresh_text": "Gerageza kugera ku rubuga nyuma cyangwa ukande <a href=\"\">hano</a> kugira ngo wongere ufungure urupapuro.",
+            "unexpected_error": "Habaye ikosa ritari ryitezwe mu gufungura uru rupapuro",
+            "possible_causes": "Impamvu zishoboka zirimo: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Urubuga ntiruboneka",
+            "description": "Birababaje, habaye ikosa ritari ryitezwe mu gufungura uru rupapuro. Turabasaba imbabazi ku ngorane zose. Gerageza kugera ku rubuga nyuma cyangwa ukande <a href=\"\">hano</a> kugira ngo wongere ufungure urupapuro."
+        },
+        "suspended": {
+            "title": "Urubuga rwahagaritswe",
+            "description": "Birababaje, urubuga ushaka gusura ntiruboneka. Turabasaba imbabazi ku ngorane zose. Niba uri <strong>nyir'uru rubuga</strong>, <a href=\"https://www.x4b.net/support\">vugana n'itsinda ry'ubufasha</a>."
+        },
+        "over_bandwidth": {
+            "title": "Urubuga rwahagaritswe",
+            "description": "Birababaje, urubuga ushaka gusura ntiruboneka. Turabasaba imbabazi ku ngorane zose. Niba uri <strong>nyir'uru rubuga</strong>, <a href=\"https://www.x4b.net/\">vugana n'itsinda ry'ubufasha</a>."
+        },
+        "backend": {
+            "title": "Seriveri ntiboneka",
+            "description": "Seriveri y'inkomoko ntiboneka by'agateganyo, bityo ntishobora gutunganya ubu busabe. Turabasaba imbabazi ku ngorane zose.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Igihe ntarengwa cyo gutegereza ubusabe cyarangiye",
+            "description": "Turababaye, igihe ntarengwa cyo gutegereza cyarangiye mu gufungura uru rupapuro. Turabasaba imbabazi ku ngorane ibyo bishobora kuba byateje.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Kwinjira byanzwe",
+            "description": "Ntabwo ufite uburenganzira bwo kugera kuri uru rupapuro. Niba utekereza ko ibi ari ikosa, vugana n'umuyobozi w'urubuga."
+        },
+        "upstream": {
+            "title": "Seriveri ntiboneka",
+            "description": "Ubu nta seriveri iri kuri interineti kandi iboneka kugira ngo itunganye ubu busabe. Turabasaba imbabazi ku ngorane zose."
+        },
+        "invalid_configuration": {
+            "title": "Igenamiterere ritari ryo",
+            "description": "Ntidushobora gutunganya ubu busabe kubera ikosa mu igenamiterere. Turabasaba imbabazi ku ngorane zose."
+        },
+        "resource": {
+            "title": "Ikosa ryo kugera ku rubuga",
+            "description_start": "Birababaje, habaye ikosa mu gufungura uru rupapuro.",
+            "cause_list": [
+                "Seriveri y'inkomoko ifite umutwaro w'akazi utari witezwe kandi ntishobora gutunganya ubusabe ubu",
+                "Habaye ikosa ritari ryitezwe kuri seriveri y'inkomoko cyangwa mu gihe cyo kohereza amakuru"
+            ],
+            "description_end": "Turabasaba imbabazi ku ngorane zose.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Ikosa ryo kugera ku rubuga",
+            "description_start": "Birababaje, habaye ikosa mu gufungura uru rupapuro.",
+            "cause_list": [
+                "Byagaragaye ko aderesi yawe ya IP yohereza ubusabe bwinshi cyane kuri seriveri",
+                "Seriveri y'inkomoko ifite umutwaro w'akazi utari witezwe kandi ntishobora gutunganya ubusabe ubu",
+                "Habaye ikosa ritari ryitezwe kuri seriveri y'inkomoko cyangwa mu gihe cyo kohereza amakuru"
+            ],
+            "description_end": "Turabasaba imbabazi ku ngorane zose.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Ikosa ryo kugera ku rubuga",
+            "description_start": "Birababaje, habaye ikosa mu gufungura uru rupapuro.",
+            "cause_list": [
+                "Aderesi yawe ya IP ifite umubare udasanzwe w'imiyoboro iyihuza na seriveri",
+                "Seriveri y'inkomoko ifite umutwaro w'akazi utari witezwe kandi ntishobora gutunganya ubusabe ubu",
+                "Habaye ikosa ritari ryitezwe kuri seriveri y'inkomoko cyangwa mu gihe cyo kohereza amakuru"
+            ],
+            "description_end": "Turabasaba imbabazi ku ngorane zose.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Ubusabe butari bwo",
+            "description": "Uru rubuga rushobora kugerwaho hakoreshejwe HTTPS. Wagerageje guhuza ukoresheje HTTP; ubu turagerageza kukuyobora ahandi. Niba utoherejwe ahandi, ongera https:// mu ntangiriro ya URL yawe wongere ugerageze."
+        },
+        "timeout": {
+            "title": "Seriveri ntiboneka",
+            "description": "Turababaye, igihe ntarengwa cyo gutegereza cyarangiye mu gufungura uru rupapuro. Birashoboka ko seriveri ihuze kandi idashobora gutunganya ubusabe bwawe ubu.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Domene itazwi",
+            "description": "Iyi domene ntiyanditswe kuri iyi aderesi ya IP.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Uburyo budashyigikiwe",
+            "description": "Uburyo bwa HTTP bwasabwe ntibufunguye kuri uru rubuga.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Ubusabe budafite umutekano",
+            "description": "Porotokole ya HTTPS yasabwe ntifunguye kuri uru rubuga. Vugurura mushakisha yawe.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Urubuga rwafunzwe kugira ngo rwitabweho",
+            "description": "Uru rubuga ntiruboneka ubu. Biteganyijwe ko ruzongera kuboneka mu kanya gato.",
+            "refresh_enable": true
+        }
+    }
+}

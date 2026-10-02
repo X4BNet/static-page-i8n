@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Txoj txheej txheem no ua haujlwm nws tus kheej. Tsis ntev koj yuav raug xa mus rau nplooj ntawv uas koj xav mus saib.",
+        "validate_browser": "Tab tom xyuas koj lub browser ua ntej nkag mus rau {http_host}",
+        "are_you_human_host": "Koj puas yog tib neeg? Yuav tsum muaj kev txheeb xyuas thiaj nkag tau rau {http_host}",
+        "are_you_human": "Koj puas yog tib neeg? Yuav tsum muaj kev txheeb xyuas thiaj txuas ntxiv tau",
+        "enter_captcha_host": "Thov ntaus CAPTCHA hauv qab no kom txuas ntxiv mus rau {http_host}:",
+        "enter_captcha": "Thov ntaus CAPTCHA hauv qab no kom txuas ntxiv:",
+        "submit": "xa",
+        "try_again_later": "Lub vev xaib no siv sijhawm ntev dua li ib txwm los qhib. Koj tuaj yeem <a href=\"\">sim dua</a> tom qab",
+        "unexpected_error": "Zoo li muaj ib qho yuam kev uas tsis tau xav txog tshwm sim. Thov <a href=\"\">sim dua</a> tom qab",
+        "validation_complete": "<strong>Txheeb xyuas tiav lawm</strong>. Tam sim no koj tab tom raug xa mus rau nplooj ntawv uas koj xav mus saib. Nyem <a href=\"\">ntawm no</a> yog tias nplooj ntawv tsis rov qhib.",
+        "enable_javascript": "Kev txheeb xyuas browser ua haujlwm zoo tshaj thaum qhib JavaScript lawm.",
+        "abnormal_activity": "Vim muaj kev ua ub no txawv txav, koj yuav tsum ua kom tiav txoj haujlwm hauv qab no thiaj txuas ntxiv tau",
+        "sorry_inconvenience": "Peb thov txim rau tej kev tsis yooj yim",
+        "verifying": "Tab tom txheeb xyuas"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Muaj qhov yuam kev thaum qhib {host}",
+            "refresh_text": "Thov sim nkag mus rau lub vev xaib tom qab lossis nyem <a href=\"\">ntawm no</a> kom rov qhib nplooj ntawv.",
+            "unexpected_error": "Muaj ib qho yuam kev uas tsis tau xav txog tshwm sim thaum qhib nplooj ntawv no",
+            "possible_causes": "Tej yam uas yuav ua rau muaj qhov teeb meem no muaj xws li:",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Siv Tsis Tau Lub Vev Xaib",
+            "description": "Hmoov tsis zoo, muaj ib qho yuam kev uas tsis tau xav txog tshwm sim thaum qhib nplooj ntawv no. Peb thov txim rau tej kev tsis yooj yim. Thov sim nkag mus rau lub vev xaib tom qab lossis nyem <a href=\"\">ntawm no</a> kom rov qhib nplooj ntawv."
+        },
+        "suspended": {
+            "title": "Lub Vev Xaib Raug Ncua",
+            "description": "Hmoov tsis zoo, siv tsis tau lub vev xaib uas koj xav mus saib. Peb thov txim rau tej kev tsis yooj yim. Yog koj yog <strong>tus tswv</strong> ntawm lub vev xaib no, thov <a href=\"https://www.x4b.net/support\">hu rau pab neeg pab txhawb</a>."
+        },
+        "over_bandwidth": {
+            "title": "Lub Vev Xaib Raug Ncua",
+            "description": "Hmoov tsis zoo, siv tsis tau lub vev xaib uas koj xav mus saib. Peb thov txim rau tej kev tsis yooj yim. Yog koj yog <strong>tus tswv</strong> ntawm lub vev xaib no, thov <a href=\"https://www.x4b.net/\">hu rau pab neeg pab txhawb</a>."
+        },
+        "backend": {
+            "title": "Siv Tsis Tau Lub Server",
+            "description": "Lub server uas yog qhov chaw muab cov ntaub ntawv siv tsis tau ib ntus, yog li nws ua tsis tau raws li qhov kev thov no. Peb thov txim rau tej kev tsis yooj yim.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Sijhawm Tos Kev Thov Tas Lawm",
+            "description": "Thov txim, lub sijhawm tos tas lawm thaum qhib nplooj vev xaib no. Peb thov txim rau tej kev tsis yooj yim uas qhov no yuav ua rau muaj.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Tsis Pub Nkag",
+            "description": "Koj tsis muaj kev tso cai nkag mus rau nplooj ntawv no. Yog qhov no yog ib qho yuam kev, thov hu rau tus tswj lub vev xaib."
+        },
+        "upstream": {
+            "title": "Siv Tsis Tau Lub Server",
+            "description": "Tam sim no tsis muaj ib lub server uas txuas rau hauv internet thiab npaj txhij ua qhov kev thov no. Peb thov txim rau tej kev tsis yooj yim."
+        },
+        "invalid_configuration": {
+            "title": "Kev Teeb Tsa Tsis Raug",
+            "description": "Peb ua tsis tau qhov kev thov no vim muaj qhov yuam kev hauv kev teeb tsa. Peb thov txim rau tej kev tsis yooj yim."
+        },
+        "resource": {
+            "title": "Qhov Yuam Kev Thaum Nkag",
+            "description_start": "Hmoov tsis zoo, muaj ib qho yuam kev tshwm sim thaum qhib nplooj ntawv no.",
+            "cause_list": [
+                "Lub server uas yog qhov chaw muab cov ntaub ntawv muaj haujlwm ntau uas tsis tau xav txog thiab ua tsis tau cov kev thov tam sim no",
+                "Muaj ib qho yuam kev uas tsis tau xav txog tshwm sim hauv lub server uas yog qhov chaw muab cov ntaub ntawv lossis thaum xa cov ntaub ntawv"
+            ],
+            "description_end": "Peb thov txim rau tej kev tsis yooj yim.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Qhov Yuam Kev Thaum Nkag",
+            "description_start": "Hmoov tsis zoo, muaj ib qho yuam kev tshwm sim thaum qhib nplooj ntawv no.",
+            "cause_list": [
+                "Tau pom tias koj qhov chaw nyob IP xa kev thov ntau dhau mus rau lub server",
+                "Lub server uas yog qhov chaw muab cov ntaub ntawv muaj haujlwm ntau uas tsis tau xav txog thiab ua tsis tau cov kev thov tam sim no",
+                "Muaj ib qho yuam kev uas tsis tau xav txog tshwm sim hauv lub server uas yog qhov chaw muab cov ntaub ntawv lossis thaum xa cov ntaub ntawv"
+            ],
+            "description_end": "Peb thov txim rau tej kev tsis yooj yim.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Qhov Yuam Kev Thaum Nkag",
+            "description_start": "Hmoov tsis zoo, muaj ib qho yuam kev tshwm sim thaum qhib nplooj ntawv no.",
+            "cause_list": [
+                "Koj qhov chaw nyob IP muaj tus naj npawb ntawm kev sib txuas mus rau lub server uas txawv txav",
+                "Lub server uas yog qhov chaw muab cov ntaub ntawv muaj haujlwm ntau uas tsis tau xav txog thiab ua tsis tau cov kev thov tam sim no",
+                "Muaj ib qho yuam kev uas tsis tau xav txog tshwm sim hauv lub server uas yog qhov chaw muab cov ntaub ntawv lossis thaum xa cov ntaub ntawv"
+            ],
+            "description_end": "Peb thov txim rau tej kev tsis yooj yim.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Kev Thov Tsis Raug",
+            "description": "Lub vev xaib no nkag tau los ntawm HTTPS. Koj tau sim txuas los ntawm HTTP, thiab tam sim no peb yuav sim xa koj mus rau qhov chaw tsim nyog. Yog tsis tau xa koj mus, thov ntxiv https:// rau ntawm koj qhov URL sab xub ntiag thiab sim dua."
+        },
+        "timeout": {
+            "title": "Siv Tsis Tau Lub Server",
+            "description": "Thov txim, lub sijhawm tos tas lawm thaum qhib nplooj ntawv no. Tej zaum lub server muaj haujlwm ntau thiab ua tsis tau koj qhov kev thov tam sim no.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Lub Npe Domain Uas Tsis Paub",
+            "description": "Lub npe domain no tsis tau sau npe rau qhov chaw nyob IP no.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Txoj Kev Uas Tsis Raug Txhawb",
+            "description": "Txoj kev HTTP uas tau thov tsis tau qhib rau lub vev xaib no.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Kev Thov Tsis Ruaj Ntseg",
+            "description": "Txoj cai sib txuas HTTPS uas tau thov tsis tau qhib rau lub vev xaib no. Thov hloov koj lub browser mus rau hom tshiab.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Kaw Tseg Rau Kev Tu",
+            "description": "Lub vev xaib no siv tsis tau tam sim no. Cia siab tias yuav rov siv tau tsis ntev.",
+            "refresh_enable": true
+        }
+    }
+}

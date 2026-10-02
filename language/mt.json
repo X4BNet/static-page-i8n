@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Dan il-proċess huwa awtomatiku. Dalwaqt se tiġi ridirezzjonat lejn id-destinazzjoni tiegħek.",
+        "validate_browser": "Qed jiġi vverifikat il-brawżer tiegħek qabel ma taċċessa {http_host}",
+        "are_you_human_host": "Int bniedem? Hija meħtieġa verifika biex taċċessa {http_host}",
+        "are_you_human": "Int bniedem? Hija meħtieġa verifika biex tkompli",
+        "enter_captcha_host": "Daħħal il-CAPTCHA ta' hawn taħt biex tkompli lejn {http_host}:",
+        "enter_captcha": "Daħħal il-CAPTCHA ta' hawn taħt biex tkompli:",
+        "submit": "ibgħat",
+        "try_again_later": "Dan is-sit qed idum aktar mis-soltu biex jitgħabba. Tista' <a href=\"\">terġa' tipprova</a> aktar tard",
+        "unexpected_error": "Jidher li seħħ żball mhux mistenni. Jekk jogħġbok <a href=\"\">erġa' pprova</a> aktar tard",
+        "validation_complete": "<strong>Il-verifika tlestiet</strong> Issa qed tiġi ridirezzjonat lejn id-destinazzjoni tiegħek. Ikklikkja <a href=\"\">hawn</a> jekk il-paġna ma terġax titgħabba.",
+        "enable_javascript": "Il-verifika tal-brawżer taħdem l-aħjar meta JavaScript ikun attivat.",
+        "abnormal_activity": "Minħabba attività mhux tas-soltu, jeħtieġ li tlesti l-kompitu ta' hawn taħt biex tkompli",
+        "sorry_inconvenience": "Niskużaw ruħna għal kull inkonvenjent",
+        "verifying": "Qed jiġi vverifikat"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Żball waqt it-tagħbija ta' {host}",
+            "refresh_text": "Ipprova aċċessa s-sit aktar tard jew ikklikkja <a href=\"\">hawn</a> biex iġġedded il-paġna.",
+            "unexpected_error": "Seħħ żball mhux mistenni waqt it-tagħbija ta' din il-paġna",
+            "possible_causes": "Fost il-kawżi possibbli hemm: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Is-sit mhux disponibbli",
+            "description": "Sfortunatament seħħ żball mhux mistenni waqt it-tagħbija ta' din il-paġna. Niskużaw ruħna għal kull inkonvenjent. Ipprova aċċessa s-sit aktar tard jew ikklikkja <a href=\"\">hawn</a> biex iġġedded il-paġna."
+        },
+        "suspended": {
+            "title": "Is-sit huwa sospiż",
+            "description": "Sfortunatament is-sit li qed tipprova żżur mhuwiex disponibbli. Niskużaw ruħna għal kull inkonvenjent. Jekk inti s-<strong>sid</strong> ta' dan is-sit, jekk jogħġbok <a href=\"https://www.x4b.net/support\">ikkuntattja lit-tim ta' appoġġ</a>."
+        },
+        "over_bandwidth": {
+            "title": "Is-sit huwa sospiż",
+            "description": "Sfortunatament is-sit li qed tipprova żżur mhuwiex disponibbli. Niskużaw ruħna għal kull inkonvenjent. Jekk inti s-<strong>sid</strong> ta' dan is-sit, jekk jogħġbok <a href=\"https://www.x4b.net/\">ikkuntattja lit-tim ta' appoġġ</a>."
+        },
+        "backend": {
+            "title": "Is-server mhux disponibbli",
+            "description": "Is-server ta' oriġini huwa temporanjament mhux disponibbli u għalhekk ma jistax jaqdi din it-talba. Niskużaw ruħna għal kull inkonvenjent.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Skada l-ħin tat-talba",
+            "description": "Jiddispjaċina, iżda skada l-ħin waqt it-tagħbija ta' din il-paġna web. Niskużaw ruħna għal kull inkonvenjent li seta' kkawża dan.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Aċċess miċħud",
+            "description": "M'għandekx permess biex taċċessa din il-paġna. Jekk dan huwa żball, jekk jogħġbok ikkuntattja lill-amministratur tas-sit."
+        },
+        "upstream": {
+            "title": "Is-server mhux disponibbli",
+            "description": "Bħalissa m'hemm l-ebda server konness u disponibbli biex jipproċessa din it-talba. Niskużaw ruħna għal kull inkonvenjent."
+        },
+        "invalid_configuration": {
+            "title": "Konfigurazzjoni mhux valida",
+            "description": "Ma nistgħux naqdu din it-talba minħabba żball fil-konfigurazzjoni. Niskużaw ruħna għal kull inkonvenjent."
+        },
+        "resource": {
+            "title": "Żball fl-aċċess",
+            "description_start": "Sfortunatament seħħ żball waqt it-tagħbija ta' din il-paġna.",
+            "cause_list": [
+                "Is-server ta' oriġini qed jesperjenza tagħbija mhux mistennija u ma jistax jipproċessa t-talbiet bħalissa",
+                "Seħħ żball mhux mistenni fis-server ta' oriġini jew waqt it-trażmissjoni"
+            ],
+            "description_end": "Niskużaw ruħna għal kull inkonvenjent.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Żball fl-aċċess",
+            "description_start": "Sfortunatament seħħ żball waqt it-tagħbija ta' din il-paġna.",
+            "cause_list": [
+                "Instab li l-indirizz IP tiegħek qed jibgħat wisq talbiet lis-server",
+                "Is-server ta' oriġini qed jesperjenza tagħbija mhux mistennija u ma jistax jipproċessa t-talbiet bħalissa",
+                "Seħħ żball mhux mistenni fis-server ta' oriġini jew waqt it-trażmissjoni"
+            ],
+            "description_end": "Niskużaw ruħna għal kull inkonvenjent.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Żball fl-aċċess",
+            "description_start": "Sfortunatament seħħ żball waqt it-tagħbija ta' din il-paġna.",
+            "cause_list": [
+                "L-indirizz IP tiegħek għandu għadd mhux tas-soltu ta' konnessjonijiet mas-server",
+                "Is-server ta' oriġini qed jesperjenza tagħbija mhux mistennija u ma jistax jipproċessa t-talbiet bħalissa",
+                "Seħħ żball mhux mistenni fis-server ta' oriġini jew waqt it-trażmissjoni"
+            ],
+            "description_end": "Niskużaw ruħna għal kull inkonvenjent.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Talba ħażina",
+            "description": "Dan is-sit huwa aċċessibbli permezz ta' HTTPS. Int ippruvajt tikkonnettja permezz ta' HTTP; issa se nippruvaw nidderiġuk mill-ġdid. Jekk ma tiġix ridirezzjonat, żid https:// fil-bidu tal-URL tiegħek u erġa' pprova."
+        },
+        "timeout": {
+            "title": "Is-server mhux disponibbli",
+            "description": "Jiddispjaċina, iżda skada l-ħin waqt it-tagħbija ta' din il-paġna. Jista' jkun li s-server huwa okkupat u ma jistax jipproċessa t-talba tiegħek bħalissa.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Dominju mhux magħruf",
+            "description": "Dan id-dominju mhuwiex irreġistrat ma' dan l-indirizz IP.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Metodu mhux appoġġjat",
+            "description": "Il-metodu HTTP mitlub mhuwiex attivat għal dan is-sit.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Talba mhux sigura",
+            "description": "Il-protokoll HTTPS mitlub mhuwiex attivat għal dan is-sit. Jekk jogħġbok aġġorna l-brawżer tiegħek.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Mhux konness minħabba manutenzjoni",
+            "description": "Dan is-sit mhuwiex disponibbli bħalissa. Huwa mistenni li jerġa' jkun disponibbli dalwaqt.",
+            "refresh_enable": true
+        }
+    }
+}

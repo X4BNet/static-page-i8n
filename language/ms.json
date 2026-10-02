@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Proses ini dijalankan secara automatik. Anda akan dialihkan ke destinasi yang dituju sebentar lagi.",
+        "validate_browser": "Mengesahkan pelayar anda sebelum mengakses {http_host}",
+        "are_you_human_host": "Adakah anda manusia? Pengesahan diperlukan untuk mengakses {http_host}",
+        "are_you_human": "Adakah anda manusia? Pengesahan diperlukan untuk meneruskan",
+        "enter_captcha_host": "Sila masukkan CAPTCHA di bawah untuk meneruskan ke {http_host}:",
+        "enter_captcha": "Sila masukkan CAPTCHA di bawah untuk meneruskan:",
+        "submit": "hantar",
+        "try_again_later": "Laman web ini mengambil masa lebih lama daripada biasa untuk dimuatkan. Anda boleh <a href=\"\">cuba lagi</a> kemudian",
+        "unexpected_error": "Nampaknya ralat yang tidak dijangka telah berlaku. Sila <a href=\"\">cuba lagi</a> kemudian",
+        "validation_complete": "<strong>Pengesahan Selesai</strong>. Anda kini sedang dialihkan ke destinasi yang dituju. Klik <a href=\"\">di sini</a> jika halaman tidak dimuatkan semula.",
+        "enable_javascript": "Pengesahan pelayar berfungsi dengan paling baik apabila JavaScript diaktifkan.",
+        "abnormal_activity": "Disebabkan aktiviti luar biasa, anda perlu menyelesaikan tugasan di bawah untuk meneruskan",
+        "sorry_inconvenience": "Kami memohon maaf atas sebarang kesulitan",
+        "verifying": "Sedang mengesahkan"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Ralat semasa memuatkan {host}",
+            "refresh_text": "Sila cuba mengakses laman ini kemudian atau klik <a href=\"\">di sini</a> untuk memuatkan semula halaman.",
+            "unexpected_error": "Ralat yang tidak dijangka berlaku semasa memuatkan halaman ini",
+            "possible_causes": "Antara punca yang mungkin ialah:",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Laman Web Tidak Tersedia",
+            "description": "Malangnya, ralat yang tidak dijangka berlaku semasa memuatkan halaman ini. Kami memohon maaf atas sebarang kesulitan. Sila cuba mengakses laman ini kemudian atau klik <a href=\"\">di sini</a> untuk memuatkan semula halaman."
+        },
+        "suspended": {
+            "title": "Laman Web Digantung",
+            "description": "Malangnya, laman web yang anda cuba lawati tidak tersedia. Kami memohon maaf atas sebarang kesulitan. Jika anda ialah <strong>pemilik</strong> laman web ini, sila <a href=\"https://www.x4b.net/support\">hubungi sokongan</a>."
+        },
+        "over_bandwidth": {
+            "title": "Laman Web Digantung",
+            "description": "Malangnya, laman web yang anda cuba lawati tidak tersedia. Kami memohon maaf atas sebarang kesulitan. Jika anda ialah <strong>pemilik</strong> laman web ini, sila <a href=\"https://www.x4b.net/\">hubungi sokongan</a>."
+        },
+        "backend": {
+            "title": "Pelayan Tidak Tersedia",
+            "description": "Pelayan asal tidak tersedia buat sementara waktu, jadi permintaan ini tidak dapat diproses. Kami memohon maaf atas sebarang kesulitan.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Permintaan Tamat Masa",
+            "description": "Maaf, had masa telah tamat semasa memuatkan halaman web ini. Kami memohon maaf atas sebarang kesulitan yang mungkin berlaku.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Akses Ditolak",
+            "description": "Anda tidak mempunyai kebenaran untuk mengakses halaman ini. Jika ini suatu kesilapan, sila hubungi pentadbir laman web."
+        },
+        "upstream": {
+            "title": "Pelayan Tidak Tersedia",
+            "description": "Tiada pelayan yang sedang dalam talian dan tersedia untuk memproses permintaan ini. Kami memohon maaf atas sebarang kesulitan."
+        },
+        "invalid_configuration": {
+            "title": "Konfigurasi Tidak Sah",
+            "description": "Kami tidak dapat memproses permintaan ini kerana ralat konfigurasi. Kami memohon maaf atas sebarang kesulitan."
+        },
+        "resource": {
+            "title": "Ralat Akses",
+            "description_start": "Malangnya, ralat berlaku semasa memuatkan halaman ini.",
+            "cause_list": [
+                "Pelayan asal mengalami beban yang tidak dijangka dan tidak dapat memproses permintaan pada masa ini",
+                "Ralat yang tidak dijangka berlaku pada pelayan asal atau semasa penghantaran data"
+            ],
+            "description_end": "Kami memohon maaf atas sebarang kesulitan.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Ralat Akses",
+            "description_start": "Malangnya, ralat berlaku semasa memuatkan halaman ini.",
+            "cause_list": [
+                "Alamat IP anda dikesan menghantar terlalu banyak permintaan kepada pelayan",
+                "Pelayan asal mengalami beban yang tidak dijangka dan tidak dapat memproses permintaan pada masa ini",
+                "Ralat yang tidak dijangka berlaku pada pelayan asal atau semasa penghantaran data"
+            ],
+            "description_end": "Kami memohon maaf atas sebarang kesulitan.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Ralat Akses",
+            "description_start": "Malangnya, ralat berlaku semasa memuatkan halaman ini.",
+            "cause_list": [
+                "Alamat IP anda mempunyai bilangan sambungan yang luar biasa ke pelayan",
+                "Pelayan asal mengalami beban yang tidak dijangka dan tidak dapat memproses permintaan pada masa ini",
+                "Ralat yang tidak dijangka berlaku pada pelayan asal atau semasa penghantaran data"
+            ],
+            "description_end": "Kami memohon maaf atas sebarang kesulitan.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Permintaan Tidak Sah",
+            "description": "Laman web ini boleh diakses melalui HTTPS. Anda telah cuba menyambung melalui HTTP, dan kami kini akan cuba mengalihkan anda. Jika anda tidak dialihkan, sila tambahkan https:// pada permulaan URL anda dan cuba lagi."
+        },
+        "timeout": {
+            "title": "Pelayan Tidak Tersedia",
+            "description": "Maaf, had masa telah tamat semasa memuatkan halaman ini. Pelayan mungkin sibuk dan tidak dapat memproses permintaan anda pada masa ini.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Domain Tidak Dikenali",
+            "description": "Domain ini tidak didaftarkan pada alamat IP ini.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Kaedah Tidak Disokong",
+            "description": "Kaedah HTTP yang diminta tidak diaktifkan untuk laman web ini.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Permintaan Tidak Selamat",
+            "description": "Protokol HTTPS yang diminta tidak diaktifkan untuk laman web ini. Sila kemas kini pelayar anda.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Luar Talian untuk Penyelenggaraan",
+            "description": "Laman web ini tidak tersedia pada masa ini. Laman ini dijangka tersedia semula sebentar lagi.",
+            "refresh_enable": true
+        }
+    }
+}

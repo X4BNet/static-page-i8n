@@ -1,0 +1,179 @@
+{
+    "reviewedOn": "2026-10-02",
+    "reviewer": "benchmark_vi",
+    "source": "language/en.json",
+    "method": "Independent all-string semantic and written-form review. All 50 unique source groups were read in each of nine files; all 63 leaves and 11 booleans were structurally checked, and repeated-source consistency was verified. No MT or external translation API was used.",
+    "reviewed": [
+        {
+            "tag": "pap",
+            "stringsReviewed": 63,
+            "uniqueSourceGroupsReviewed": 50,
+            "booleanSettingsChecked": 11,
+            "repeatedStringsConsistent": true,
+            "structureValidation": "passed",
+            "formatValidation": "passed"
+        },
+        {
+            "tag": "gn",
+            "stringsReviewed": 63,
+            "uniqueSourceGroupsReviewed": 50,
+            "booleanSettingsChecked": 11,
+            "repeatedStringsConsistent": true,
+            "structureValidation": "passed",
+            "formatValidation": "passed"
+        },
+        {
+            "tag": "haw",
+            "stringsReviewed": 63,
+            "uniqueSourceGroupsReviewed": 50,
+            "booleanSettingsChecked": 11,
+            "repeatedStringsConsistent": true,
+            "structureValidation": "passed",
+            "formatValidation": "passed"
+        },
+        {
+            "tag": "crs",
+            "stringsReviewed": 63,
+            "uniqueSourceGroupsReviewed": 50,
+            "booleanSettingsChecked": 11,
+            "repeatedStringsConsistent": true,
+            "structureValidation": "passed",
+            "formatValidation": "passed"
+        },
+        {
+            "tag": "st",
+            "stringsReviewed": 63,
+            "uniqueSourceGroupsReviewed": 50,
+            "booleanSettingsChecked": 11,
+            "repeatedStringsConsistent": true,
+            "structureValidation": "passed",
+            "formatValidation": "passed"
+        },
+        {
+            "tag": "tn",
+            "stringsReviewed": 63,
+            "uniqueSourceGroupsReviewed": 50,
+            "booleanSettingsChecked": 11,
+            "repeatedStringsConsistent": true,
+            "structureValidation": "passed",
+            "formatValidation": "passed"
+        },
+        {
+            "tag": "ts",
+            "stringsReviewed": 63,
+            "uniqueSourceGroupsReviewed": 50,
+            "booleanSettingsChecked": 11,
+            "repeatedStringsConsistent": true,
+            "structureValidation": "passed",
+            "formatValidation": "passed"
+        },
+        {
+            "tag": "ss",
+            "stringsReviewed": 63,
+            "uniqueSourceGroupsReviewed": 50,
+            "booleanSettingsChecked": 11,
+            "repeatedStringsConsistent": true,
+            "structureValidation": "passed",
+            "formatValidation": "passed"
+        },
+        {
+            "tag": "nd",
+            "stringsReviewed": 63,
+            "uniqueSourceGroupsReviewed": 50,
+            "booleanSettingsChecked": 11,
+            "repeatedStringsConsistent": true,
+            "structureValidation": "passed",
+            "formatValidation": "passed"
+        }
+    ],
+    "findings": [
+        {
+            "tag": "gn",
+            "key": "error.unknown_domain.description",
+            "severity": "meaning",
+            "before": "Ko tendatee noñemboheraguapýi ko IP kundaharápe.",
+            "after": "Ko tendatee noñemboheraguapýi ko IP kundaharapépe.",
+            "assessment": "The original inflected kundahára (browser) rather than retaining kundaharape (address). Restored the complete address stem before the locative suffix so domain registration refers to the IP address.",
+            "action": "fixed",
+            "confidence": "high",
+            "sources": [
+                "https://www.mozilla.org/gn/products/vpn/",
+                "https://www.mozilla.org/gn/firefox/browsers/what-is-a-browser/"
+            ]
+        },
+        {
+            "tag": "pap",
+            "key": "error.forbidden.title",
+            "severity": "orthography",
+            "before": "Akseso nenga",
+            "after": "Akseso nengá",
+            "assessment": "The title is a passive result, Access Denied. Added the participle stress accent in the Curaçao/Bonaire orthography; the finite/base verb spelling nenga is used in other grammatical contexts.",
+            "action": "fixed",
+            "confidence": "high",
+            "sources": [
+                "https://papiamentu.rijksdienstcn.com/hustisia-i-siguridat/instituto-hudisial-hulanda-karibense/reglanan-di-bishita"
+            ]
+        }
+    ],
+    "languageAssessments": [
+        {
+            "tag": "pap",
+            "confidence": "moderate-to-high",
+            "outcome": "retain after orthography fix",
+            "notes": "Distinct Papiamentu in Curaçao/Bonaire spelling. Technical and causal meanings hold; do not automatically call this the Aruba Papiamento profile."
+        },
+        {
+            "tag": "gn",
+            "confidence": "moderate",
+            "outcome": "retain after address-stem fix",
+            "notes": "Recognizably Paraguayan Guarani. Technical terminology has published Mozilla support. Review of longer native idiom remains useful; this does not certify coverage of all Bolivian Guarani varieties."
+        },
+        {
+            "tag": "haw",
+            "confidence": "moderate",
+            "outcome": "retain",
+            "notes": "Hawaiian clause structure, ʻokina and kahakō are defensible; technical paraphrases preserve source meaning. Native fluency and conventional server/domain terminology remain review priorities."
+        },
+        {
+            "tag": "crs",
+            "confidence": "moderate-to-high",
+            "outcome": "retain",
+            "notes": "Recognizably Seychellois Creole, not Haitian or French with altered spelling. Availability, timeout, origin-server and request semantics are preserved."
+        },
+        {
+            "tag": "st",
+            "confidence": "moderate",
+            "outcome": "retain",
+            "notes": "South African Sesotho-style orthography and clauses are defensible. Existing unavailable and negative-existential repairs hold. Do not infer a Lesotho-specific orthographic profile."
+        },
+        {
+            "tag": "tn",
+            "confidence": "moderate",
+            "outcome": "retain",
+            "notes": "Distinct Setswana vocabulary/concords. Unavailability now means cannot be used, not nonexistence. Technical loan spelling and regional orthographic preferences can receive further review."
+        },
+        {
+            "tag": "ts",
+            "confidence": "moderate",
+            "outcome": "retain",
+            "notes": "Recognizable Xitsonga with coherent concords. Browser/server loans are understandable. Longer apology and connection-number clauses merit fluent idiom review; no certain meaning correction identified."
+        },
+        {
+            "tag": "ss",
+            "confidence": "lower",
+            "outcome": "retain with review priority",
+            "notes": "Recognizable siSwati morphology and orthography rather than verbatim Zulu. Reviewed source meaning across every string, but independent fluency assessment remains limited; no speculative grammar edits applied."
+        },
+        {
+            "tag": "nd",
+            "confidence": "lower",
+            "outcome": "retain with review priority",
+            "notes": "Distinct Zimbabwean/Northern Ndebele forms such as khathesi, nxa, njalo, -jayele- and le- are present. Broader overlap with Zulu is expected; my idiom confidence is limited, so no unsupported substitutions applied."
+        }
+    ],
+    "sharedNotes": [
+        "Across several languages best is expressed with a comparative or an emphatic very-well construction. This preserves the practical recommendation to enable JavaScript without changing it into a requirement or a speed claim; a fluent editor can refine superlative idiom if desired.",
+        "All pages preserve unavailable versus nonexistent, origin server, elapsed time limit, IP flooding as excessive requests, abnormal connections without claiming attack, and expected rather than guaranteed maintenance return.",
+        "No native-speaker sign-off is claimed. All files remain model-authored translations with independent model review."
+    ]
+}

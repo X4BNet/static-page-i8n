@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Den här processen är automatisk. Du kommer snart att omdirigeras till den sida du ville besöka.",
+        "validate_browser": "Validerar din webbläsare innan du får åtkomst till {http_host}",
+        "are_you_human_host": "Är du en människa? Validering krävs för åtkomst till {http_host}",
+        "are_you_human": "Är du en människa? Validering krävs för att fortsätta",
+        "enter_captcha_host": "Ange CAPTCHA-koden nedan för att fortsätta till {http_host}:",
+        "enter_captcha": "Ange CAPTCHA-koden nedan för att fortsätta:",
+        "submit": "skicka",
+        "try_again_later": "Det tar längre tid än vanligt att läsa in den här webbplatsen. Du kan <a href=\"\">försöka igen</a> senare",
+        "unexpected_error": "Ett oväntat fel verkar ha inträffat. <a href=\"\">Försök igen</a> senare",
+        "validation_complete": "<strong>Valideringen är klar</strong>. Du omdirigeras nu till den sida du ville besöka. Klicka <a href=\"\">här</a> om sidan inte läses in igen.",
+        "enable_javascript": "Webbläsarvalideringen fungerar bäst när JavaScript är aktiverat.",
+        "abnormal_activity": "På grund av onormal aktivitet behöver du slutföra uppgiften nedan för att fortsätta",
+        "sorry_inconvenience": "Vi ber om ursäkt för besväret",
+        "verifying": "Verifierar"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Fel vid inläsning av {host}",
+            "refresh_text": "Försök besöka webbplatsen senare eller klicka <a href=\"\">här</a> för att läsa in sidan igen.",
+            "unexpected_error": "Ett oväntat fel inträffade när sidan lästes in",
+            "possible_causes": "Möjliga orsaker är: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Webbplatsen är inte tillgänglig",
+            "description": "Ett oväntat fel inträffade tyvärr när sidan lästes in. Vi ber om ursäkt för besväret. Försök besöka webbplatsen senare eller klicka <a href=\"\">här</a> för att läsa in sidan igen."
+        },
+        "suspended": {
+            "title": "Webbplatsen är avstängd",
+            "description": "Webbplatsen du försöker besöka är tyvärr inte tillgänglig. Vi ber om ursäkt för besväret. Om du är webbplatsens <strong>ägare</strong>, <a href=\"https://www.x4b.net/support\">kontakta supporten</a>."
+        },
+        "over_bandwidth": {
+            "title": "Webbplatsen är avstängd",
+            "description": "Webbplatsen du försöker besöka är tyvärr inte tillgänglig. Vi ber om ursäkt för besväret. Om du är webbplatsens <strong>ägare</strong>, <a href=\"https://www.x4b.net/\">kontakta supporten</a>."
+        },
+        "backend": {
+            "title": "Servern är inte tillgänglig",
+            "description": "Ursprungsservern är tillfälligt otillgänglig och kan därför inte hantera den här begäran. Vi ber om ursäkt för besväret.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Tidsgränsen för begäran har överskridits",
+            "description": "Tidsgränsen överskreds när den här webbsidan lästes in. Vi ber om ursäkt för eventuella besvär detta har orsakat.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Åtkomst nekad",
+            "description": "Du har inte behörighet att öppna den här sidan. Kontakta webbplatsens administratör om du anser att detta är ett fel."
+        },
+        "upstream": {
+            "title": "Servern är inte tillgänglig",
+            "description": "Ingen server är för närvarande online och tillgänglig för att behandla den här begäran. Vi ber om ursäkt för besväret."
+        },
+        "invalid_configuration": {
+            "title": "Ogiltig konfiguration",
+            "description": "Vi kan inte hantera den här begäran på grund av ett konfigurationsfel. Vi ber om ursäkt för besväret."
+        },
+        "resource": {
+            "title": "Åtkomstfel",
+            "description_start": "Ett fel inträffade tyvärr när sidan lästes in.",
+            "cause_list": [
+                "Ursprungsservern har en oväntad belastning och kan inte behandla begäranden just nu",
+                "Ett oväntat fel inträffade på ursprungsservern eller under överföringen"
+            ],
+            "description_end": "Vi ber om ursäkt för besväret.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Åtkomstfel",
+            "description_start": "Ett fel inträffade tyvärr när sidan lästes in.",
+            "cause_list": [
+                "Din IP-adress har upptäckts skicka en alltför stor mängd begäranden till servern",
+                "Ursprungsservern har en oväntad belastning och kan inte behandla begäranden just nu",
+                "Ett oväntat fel inträffade på ursprungsservern eller under överföringen"
+            ],
+            "description_end": "Vi ber om ursäkt för besväret.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Åtkomstfel",
+            "description_start": "Ett fel inträffade tyvärr när sidan lästes in.",
+            "cause_list": [
+                "Din IP-adress har ett onormalt antal anslutningar till servern",
+                "Ursprungsservern har en oväntad belastning och kan inte behandla begäranden just nu",
+                "Ett oväntat fel inträffade på ursprungsservern eller under överföringen"
+            ],
+            "description_end": "Vi ber om ursäkt för besväret.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Felaktig begäran",
+            "description": "Den här webbplatsen är tillgänglig via HTTPS. Du har försökt ansluta via HTTP, och vi försöker nu omdirigera dig. Om du inte omdirigeras, lägg till https:// i början av din URL och försök igen."
+        },
+        "timeout": {
+            "title": "Servern är inte tillgänglig",
+            "description": "Tidsgränsen överskreds när sidan lästes in. Servern kan vara upptagen och därför inte kunna behandla din begäran just nu.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Okänd domän",
+            "description": "Den här domänen är inte registrerad för den här IP-adressen.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Metoden stöds inte",
+            "description": "Den begärda HTTP-metoden är inte aktiverad för den här webbplatsen.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Osäker begäran",
+            "description": "Det begärda HTTPS-protokollet är inte aktiverat för den här webbplatsen. Uppdatera din webbläsare.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Nedstängd för underhåll",
+            "description": "Den här webbplatsen är inte tillgänglig just nu. Den bör vara tillgänglig igen inom kort.",
+            "refresh_enable": true
+        }
+    }
+}

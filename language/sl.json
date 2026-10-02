@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Ta postopek je samodejen. Kmalu boste preusmerjeni na želeno mesto.",
+        "validate_browser": "Preverjamo vaš brskalnik pred dostopom do {http_host}",
+        "are_you_human_host": "Ste človek? Za dostop do {http_host} je potrebno preverjanje",
+        "are_you_human": "Ste človek? Za nadaljevanje je potrebno preverjanje",
+        "enter_captcha_host": "Vnesite spodnjo kodo CAPTCHA, da nadaljujete na {http_host}:",
+        "enter_captcha": "Vnesite spodnjo kodo CAPTCHA, da nadaljujete:",
+        "submit": "Pošlji",
+        "try_again_later": "Nalaganje tega spletišča traja dlje kot običajno. Lahko <a href=\"\">poskusite znova</a> pozneje",
+        "unexpected_error": "Videti je, da je prišlo do nepričakovane napake. <a href=\"\">Poskusite znova</a> pozneje",
+        "validation_complete": "<strong>Preverjanje je končano</strong>. Zdaj boste preusmerjeni na želeno mesto. Če se stran ne naloži znova, kliknite <a href=\"\">tukaj</a>.",
+        "enable_javascript": "Preverjanje brskalnika najbolje deluje, ko je JavaScript omogočen.",
+        "abnormal_activity": "Zaradi neobičajne dejavnosti morate za nadaljevanje opraviti spodnjo nalogo",
+        "sorry_inconvenience": "Opravičujemo se za morebitne nevšečnosti",
+        "verifying": "Preverjanje poteka"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Napaka pri nalaganju {host}",
+            "refresh_text": "Poskusite dostopati do spletišča pozneje ali kliknite <a href=\"\">tukaj</a>, da znova naložite stran.",
+            "unexpected_error": "Pri nalaganju te strani je prišlo do nepričakovane napake",
+            "possible_causes": "Možni vzroki so: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Spletišče ni na voljo",
+            "description": "Pri nalaganju te strani je žal prišlo do nepričakovane napake. Opravičujemo se za morebitne nevšečnosti. Poskusite dostopati do spletišča pozneje ali kliknite <a href=\"\">tukaj</a>, da znova naložite stran."
+        },
+        "suspended": {
+            "title": "Delovanje spletišča je začasno ustavljeno",
+            "description": "Spletišče, ki ga želite obiskati, žal ni na voljo. Opravičujemo se za morebitne nevšečnosti. Če ste <strong>lastnik</strong> tega spletišča, se <a href=\"https://www.x4b.net/support\">obrnite na podporo</a>."
+        },
+        "over_bandwidth": {
+            "title": "Delovanje spletišča je začasno ustavljeno",
+            "description": "Spletišče, ki ga želite obiskati, žal ni na voljo. Opravičujemo se za morebitne nevšečnosti. Če ste <strong>lastnik</strong> tega spletišča, se <a href=\"https://www.x4b.net/\">obrnite na podporo</a>."
+        },
+        "backend": {
+            "title": "Strežnik ni na voljo",
+            "description": "Izvorni strežnik začasno ni na voljo, zato ne more obdelati te zahteve. Opravičujemo se za morebitne nevšečnosti.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Časovna omejitev zahteve je potekla",
+            "description": "Pri nalaganju te spletne strani je žal potekla časovna omejitev. Opravičujemo se za morebitne nevšečnosti, ki jih je to povzročilo.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Dostop zavrnjen",
+            "description": "Nimate dovoljenja za dostop do te strani. Če menite, da gre za napako, se obrnite na skrbnika spletišča."
+        },
+        "upstream": {
+            "title": "Strežnik ni na voljo",
+            "description": "Trenutno ni nobenega povezanega in razpoložljivega strežnika za obdelavo te zahteve. Opravičujemo se za morebitne nevšečnosti."
+        },
+        "invalid_configuration": {
+            "title": "Neveljavna konfiguracija",
+            "description": "Te zahteve ne moremo obdelati zaradi napake v konfiguraciji. Opravičujemo se za morebitne nevšečnosti."
+        },
+        "resource": {
+            "title": "Napaka pri dostopu",
+            "description_start": "Pri nalaganju te strani je žal prišlo do napake.",
+            "cause_list": [
+                "Izvorni strežnik je nepričakovano obremenjen in trenutno ne more obdelovati zahtev",
+                "Na izvornem strežniku ali med prenosom podatkov je prišlo do nepričakovane napake"
+            ],
+            "description_end": "Opravičujemo se za morebitne nevšečnosti.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Napaka pri dostopu",
+            "description_start": "Pri nalaganju te strani je žal prišlo do napake.",
+            "cause_list": [
+                "Zaznano je bilo, da z vašega naslova IP na strežnik prihaja preveč zahtev",
+                "Izvorni strežnik je nepričakovano obremenjen in trenutno ne more obdelovati zahtev",
+                "Na izvornem strežniku ali med prenosom podatkov je prišlo do nepričakovane napake"
+            ],
+            "description_end": "Opravičujemo se za morebitne nevšečnosti.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Napaka pri dostopu",
+            "description_start": "Pri nalaganju te strani je žal prišlo do napake.",
+            "cause_list": [
+                "Z vašega naslova IP je vzpostavljeno neobičajno število povezav s strežnikom",
+                "Izvorni strežnik je nepričakovano obremenjen in trenutno ne more obdelovati zahtev",
+                "Na izvornem strežniku ali med prenosom podatkov je prišlo do nepričakovane napake"
+            ],
+            "description_end": "Opravičujemo se za morebitne nevšečnosti.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Neveljavna zahteva",
+            "description": "To spletišče je dostopno prek HTTPS. Poskusili ste se povezati prek HTTP. Zdaj vas bomo poskusili preusmeriti. Če ne boste preusmerjeni, na začetek svojega naslova URL dodajte https:// in poskusite znova."
+        },
+        "timeout": {
+            "title": "Strežnik ni na voljo",
+            "description": "Pri nalaganju te strani je žal potekla časovna omejitev. Strežnik je morda zaseden in trenutno ne more obdelati vaše zahteve.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Neznana domena",
+            "description": "Ta domena ni registrirana za ta naslov IP.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Nepodprta metoda",
+            "description": "Zahtevana metoda HTTP za to spletišče ni omogočena.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Nezavarovana zahteva",
+            "description": "Zahtevani protokol HTTPS za to spletišče ni omogočen. Posodobite brskalnik.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Nedosegljivo zaradi vzdrževanja",
+            "description": "To spletišče trenutno ni na voljo. Predvidoma bo kmalu spet dostopno.",
+            "refresh_enable": true
+        }
+    }
+}

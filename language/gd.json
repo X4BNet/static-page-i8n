@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Tha am pròiseas seo fèin-obrachail. Thèid do stiùireadh dhan cheann-uidhe agad a dh'aithghearr.",
+        "validate_browser": "A' dearbhadh do bhrabhsair mus faigh thu cothrom air {http_host}",
+        "are_you_human_host": "An e duine a th' annad? Tha feum air dearbhadh gus cothrom fhaighinn air {http_host}",
+        "are_you_human": "An e duine a th' annad? Tha feum air dearbhadh mus lean thu air adhart",
+        "enter_captcha_host": "Cuir a-steach an CAPTCHA gu h-ìosal gus leantainn air adhart gu {http_host}:",
+        "enter_captcha": "Cuir a-steach an CAPTCHA gu h-ìosal gus leantainn air adhart:",
+        "submit": "cuir a-null",
+        "try_again_later": "Tha an làrach-lìn seo a' toirt nas fhaide na àbhaist gus a luchdadh. Faodaidh tu <a href=\"\">feuchainn ris a-rithist</a> an ceann greis",
+        "unexpected_error": "Tha coltas gun do thachair mearachd ris nach robh dùil. <a href=\"\">Feuch ris a-rithist</a> an ceann greis",
+        "validation_complete": "<strong>Tha an dearbhadh deiseil</strong> Tha thu a-nis 'gad stiùireadh dhan cheann-uidhe agad. Briog <a href=\"\">an-seo</a> mura tèid an duilleag ath-luchdadh.",
+        "enable_javascript": "Obraichidh dearbhadh a' bhrabhsair as fheàrr nuair a bhios JavaScript an comas.",
+        "abnormal_activity": "Air sgàth gnìomhachd neo-àbhaisteach, feumaidh tu an obair gu h-ìosal a choileanadh mus lean thu air adhart",
+        "sorry_inconvenience": "Tha sinn duilich airson mì-ghoireas sam bith",
+        "verifying": "A' dearbhadh"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Mearachd a' luchdadh {host}",
+            "refresh_text": "Feuch ris an làrach fhosgladh an ceann greis no briog <a href=\"\">an-seo</a> gus an duilleag ath-nuadhachadh.",
+            "unexpected_error": "Thachair mearachd ris nach robh dùil nuair a bha an duilleag seo 'ga luchdadh",
+            "possible_causes": "Seo cuid de na h-adhbharan a dh'fhaodadh a bhith ann: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Chan eil an làrach-lìn ri fhaighinn",
+            "description": "Gu mì-fhortanach, thachair mearachd ris nach robh dùil nuair a bha an duilleag seo 'ga luchdadh. Tha sinn duilich airson mì-ghoireas sam bith. Feuch ris an làrach fhosgladh an ceann greis no briog <a href=\"\">an-seo</a> gus an duilleag ath-nuadhachadh."
+        },
+        "suspended": {
+            "title": "Chaidh an làrach-lìn a chur dheth rè ùine",
+            "description": "Gu mì-fhortanach, chan eil an làrach-lìn a tha thu a' feuchainn ri fhosgladh ri fhaighinn. Tha sinn duilich airson mì-ghoireas sam bith. Mas tusa <strong>sealbhadair</strong> na làraich-lìn seo, <a href=\"https://www.x4b.net/support\">cuir fios gu sgioba na taice</a>."
+        },
+        "over_bandwidth": {
+            "title": "Chaidh an làrach-lìn a chur dheth rè ùine",
+            "description": "Gu mì-fhortanach, chan eil an làrach-lìn a tha thu a' feuchainn ri fhosgladh ri fhaighinn. Tha sinn duilich airson mì-ghoireas sam bith. Mas tusa <strong>sealbhadair</strong> na làraich-lìn seo, <a href=\"https://www.x4b.net/\">cuir fios gu sgioba na taice</a>."
+        },
+        "backend": {
+            "title": "Chan eil am frithealaiche ri fhaighinn",
+            "description": "Chan eil am frithealaiche tùsail ri fhaighinn rè ùine agus mar sin chan urrainn dha an t-iarrtas seo a làimhseachadh. Tha sinn duilich airson mì-ghoireas sam bith.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Dh'fhalbh an ùine air an iarrtas",
+            "description": "Tha sinn duilich, ach dh'fhalbh an ùine nuair a bha an duilleag-lìn seo 'ga luchdadh. Tha sinn duilich airson mì-ghoireas sam bith a dh'adhbhraich seo.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Chaidh cothrom a dhiùltadh",
+            "description": "Chan eil cead agad an duilleag seo fhosgladh. Ma tha seo ceàrr, cuir fios gu rianaire na làraich-lìn."
+        },
+        "upstream": {
+            "title": "Chan eil am frithealaiche ri fhaighinn",
+            "description": "Chan eil frithealaiche sam bith air loidhne agus ri fhaighinn gus an t-iarrtas seo a phròiseasadh an-dràsta. Tha sinn duilich airson mì-ghoireas sam bith."
+        },
+        "invalid_configuration": {
+            "title": "Rèiteachadh mì-dhligheach",
+            "description": "Chan urrainn dhuinn an t-iarrtas seo a làimhseachadh air sgàth mearachd san rèiteachadh. Tha sinn duilich airson mì-ghoireas sam bith."
+        },
+        "resource": {
+            "title": "Mearachd inntrigidh",
+            "description_start": "Gu mì-fhortanach, thachair mearachd nuair a bha an duilleag seo 'ga luchdadh.",
+            "cause_list": [
+                "Tha an frithealaiche tùsail fo eallach ris nach robh dùil agus chan urrainn dha iarrtasan a phròiseasadh an-dràsta",
+                "Thachair mearachd ris nach robh dùil air an fhrithealaiche thùsail no rè an tar-chuir"
+            ],
+            "description_end": "Tha sinn duilich airson mì-ghoireas sam bith.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Mearachd inntrigidh",
+            "description_start": "Gu mì-fhortanach, thachair mearachd nuair a bha an duilleag seo 'ga luchdadh.",
+            "cause_list": [
+                "Chaidh mothachadh gu bheil cus iarrtasan gan cur chun an fhrithealaiche on t-seòladh IP agad",
+                "Tha an frithealaiche tùsail fo eallach ris nach robh dùil agus chan urrainn dha iarrtasan a phròiseasadh an-dràsta",
+                "Thachair mearachd ris nach robh dùil air an fhrithealaiche thùsail no rè an tar-chuir"
+            ],
+            "description_end": "Tha sinn duilich airson mì-ghoireas sam bith.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Mearachd inntrigidh",
+            "description_start": "Gu mì-fhortanach, thachair mearachd nuair a bha an duilleag seo 'ga luchdadh.",
+            "cause_list": [
+                "Tha àireamh neo-àbhaisteach de cheanglaichean aig an t-seòladh IP agad ris an fhrithealaiche",
+                "Tha an frithealaiche tùsail fo eallach ris nach robh dùil agus chan urrainn dha iarrtasan a phròiseasadh an-dràsta",
+                "Thachair mearachd ris nach robh dùil air an fhrithealaiche thùsail no rè an tar-chuir"
+            ],
+            "description_end": "Tha sinn duilich airson mì-ghoireas sam bith.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Droch iarrtas",
+            "description": "Gheibhear cothrom air an làrach-lìn seo tro HTTPS. Dh'fheuch thu ri ceangal tro HTTP; feuchaidh sinn ri do stiùireadh air adhart a-nis. Mura tèid do stiùireadh air adhart, cuir https:// aig toiseach an URL agad agus feuch ris a-rithist."
+        },
+        "timeout": {
+            "title": "Chan eil am frithealaiche ri fhaighinn",
+            "description": "Tha sinn duilich, ach dh'fhalbh an ùine nuair a bha an duilleag seo 'ga luchdadh. Dh'fhaodadh gu bheil am frithealaiche trang agus nach urrainn dha an t-iarrtas agad a phròiseasadh an-dràsta.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Àrainn neo-aithnichte",
+            "description": "Chan eil an àrainn seo clàraichte ris an t-seòladh IP seo.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Modh ris nach eil taic",
+            "description": "Chan eil am modh HTTP a chaidh iarraidh an comas airson na làraich-lìn seo.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Iarrtas mì-thèarainte",
+            "description": "Chan eil am pròtacal HTTPS a chaidh iarraidh an comas airson na làraich-lìn seo. Ùraich am brabhsair agad.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Far loidhne airson obair-ghlèidhidh",
+            "description": "Chan eil an làrach-lìn seo ri fhaighinn an-dràsta. Tha dùil gum bi i ri fhaighinn a-rithist a dh'aithghearr.",
+            "refresh_enable": true
+        }
+    }
+}

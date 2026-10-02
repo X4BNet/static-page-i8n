@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "E caka vakataki koya na cakacaka oqo. O na vakau totolo ga ki na vanua o via lako kina.",
+        "validate_browser": "Sa vakadeitaki tiko na nomu barausa ni bera ni o curu ki na {http_host}",
+        "are_you_human_host": "O tamata beka? E gadrevi na veivakadeitaki mo curu kina ki na {http_host}",
+        "are_you_human": "O tamata beka? E gadrevi na veivakadeitaki mo tomana kina",
+        "enter_captcha_host": "Yalovinaka vakacuruma na CAPTCHA e ra mo tomana kina ki na {http_host}:",
+        "enter_captcha": "Yalovinaka vakacuruma na CAPTCHA e ra mo tomana kina:",
+        "submit": "vakauta",
+        "try_again_later": "E taura tiko e dua na gauna balavu cake mai na kena ivakarau na vakavodoki ni mataveilawa oqo. O rawa ni <a href=\"\">tovolea tale</a> e muri",
+        "unexpected_error": "E vaka ni sa yaco e dua na cala e sega ni namaki. Yalovinaka <a href=\"\">tovolea tale</a> e muri",
+        "validation_complete": "<strong>Sa oti na veivakadeitaki</strong>. O sa vakau tiko ki na vanua o via lako kina. Tabaka <a href=\"\">eke</a> kevaka e sega ni vakavodoki tale na tabana.",
+        "enable_javascript": "E vinaka duadua na cakacaka ni veivakadeitaki ni barausa ni sa vakacurumi me cakacaka na JavaScript.",
+        "abnormal_activity": "Ena vuku ni itovo ni cakacaka e sega ni kena ivakarau, e gadrevi mo vakacavara na cakacaka e ra mo tomana kina",
+        "sorry_inconvenience": "Keitou kere veivosoti ena veivakasosataki e yaco",
+        "verifying": "Sa vakadeitaki tiko"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Cala ena vakavodoki ni {host}",
+            "refresh_text": "Yalovinaka tovolea mo curu ki na mataveilawa e muri se tabaka <a href=\"\">eke</a> me vakavodoki tale na tabana.",
+            "unexpected_error": "E yaco e dua na cala e sega ni namaki ni vakavodoki tiko na tabana oqo",
+            "possible_causes": "Na veika e rawa ni vakavuna:",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "E sega ni rawa ni vakayagataki na mataveilawa",
+            "description": "E ka ni rarawa ni a yaco e dua na cala e sega ni namaki ni vakavodoki tiko na tabana oqo. Keitou kere veivosoti ena veivakasosataki e yaco. Yalovinaka tovolea mo curu ki na mataveilawa e muri se tabaka <a href=\"\">eke</a> me vakavodoki tale na tabana."
+        },
+        "suspended": {
+            "title": "Sa tarovi na mataveilawa",
+            "description": "E ka ni rarawa ni sega ni rawa ni vakayagataki na mataveilawa o via sikova. Keitou kere veivosoti ena veivakasosataki e yaco. Kevaka o <strong>taukena</strong> na mataveilawa oqo, yalovinaka <a href=\"https://www.x4b.net/support\">veitaratara kei na tabana ni veitokoni</a>."
+        },
+        "over_bandwidth": {
+            "title": "Sa tarovi na mataveilawa",
+            "description": "E ka ni rarawa ni sega ni rawa ni vakayagataki na mataveilawa o via sikova. Keitou kere veivosoti ena veivakasosataki e yaco. Kevaka o <strong>taukena</strong> na mataveilawa oqo, yalovinaka <a href=\"https://www.x4b.net/\">veitaratara kei na tabana ni veitokoni</a>."
+        },
+        "backend": {
+            "title": "E sega ni rawa ni vakayagataki na seva",
+            "description": "E sega ni rawa ni vakayagataki na seva ni itekitekivu ena gauna lekaleka oqo, ka sega kina ni rawa ni vakayacora na kerekere oqo. Keitou kere veivosoti ena veivakasosataki e yaco.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Sa oti na gauna yalataki ni kerekere",
+            "description": "Keitou kere veivosoti ni sa oti na gauna yalataki ni vakavodoki tiko na tabana ni mataveilawa oqo. Keitou kere veivosoti ena veivakasosataki e rawa ni vu mai kina.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "E sega ni vakadonui na curu",
+            "description": "E sega ni soli vei iko na veivakadonui mo curu ki na tabana oqo. Kevaka e cala oqo, yalovinaka veitaratara kei koya e liutaka na mataveilawa."
+        },
+        "upstream": {
+            "title": "E sega ni rawa ni vakayagataki na seva",
+            "description": "E sega ni dua na seva e sema tiko ki na ilawalawa ka rawa ni vakayacora na kerekere oqo ena gauna oqo. Keitou kere veivosoti ena veivakasosataki e yaco."
+        },
+        "invalid_configuration": {
+            "title": "E cala na ituvatuva",
+            "description": "E sega ni rawa ni keitou vakayacora na kerekere oqo ena vuku ni cala ena ituvatuva. Keitou kere veivosoti ena veivakasosataki e yaco."
+        },
+        "resource": {
+            "title": "Cala ni curu",
+            "description_start": "E ka ni rarawa ni a yaco e dua na cala ni vakavodoki tiko na tabana oqo.",
+            "cause_list": [
+                "E levu sara na cakacaka e sega ni namaki e tau tiko ena seva ni itekitekivu, ka sega ni rawa ni vakayacora na veikerekere ena gauna oqo",
+                "E yaco e dua na cala e sega ni namaki ena seva ni itekitekivu se ena gauna e vakau tiko kina na itukutuku"
+            ],
+            "description_end": "Keitou kere veivosoti ena veivakasosataki e yaco.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Cala ni curu",
+            "description_start": "E ka ni rarawa ni a yaco e dua na cala ni vakavodoki tiko na tabana oqo.",
+            "cause_list": [
+                "Sa kunei ni levu sivia na kerekere e vakau ki na seva mai na nomu itikotiko ni IP",
+                "E levu sara na cakacaka e sega ni namaki e tau tiko ena seva ni itekitekivu, ka sega ni rawa ni vakayacora na veikerekere ena gauna oqo",
+                "E yaco e dua na cala e sega ni namaki ena seva ni itekitekivu se ena gauna e vakau tiko kina na itukutuku"
+            ],
+            "description_end": "Keitou kere veivosoti ena veivakasosataki e yaco.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Cala ni curu",
+            "description_start": "E ka ni rarawa ni a yaco e dua na cala ni vakavodoki tiko na tabana oqo.",
+            "cause_list": [
+                "E sega ni kena ivakarau na iwiliwili ni sema ki na seva mai na nomu itikotiko ni IP",
+                "E levu sara na cakacaka e sega ni namaki e tau tiko ena seva ni itekitekivu, ka sega ni rawa ni vakayacora na veikerekere ena gauna oqo",
+                "E yaco e dua na cala e sega ni namaki ena seva ni itekitekivu se ena gauna e vakau tiko kina na itukutuku"
+            ],
+            "description_end": "Keitou kere veivosoti ena veivakasosataki e yaco.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Kerekere e cala",
+            "description": "E rawa ni curumi na mataveilawa oqo ena HTTPS. O a tovolea mo sema ena HTTP, ka keitou na tovolea oqo me keitou vagolei iko tale. Kevaka o sega ni vagolei tale, yalovinaka kuria na https:// ena itekitekivu ni nomu URL ka tovolea tale."
+        },
+        "timeout": {
+            "title": "E sega ni rawa ni vakayagataki na seva",
+            "description": "Keitou kere veivosoti ni sa oti na gauna yalataki ni vakavodoki tiko na tabana oqo. E rawa ni osooso tiko na seva ka sega ni rawa ni vakayacora na nomu kerekere ena gauna oqo.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "E sega ni kilai na yaca ni domeni",
+            "description": "E sega ni volai na domeni oqo me baleta na itikotiko ni IP oqo.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "E sega ni tokoni na iwalewale",
+            "description": "E sega ni vakacurumi me cakacaka ena mataveilawa oqo na iwalewale ni HTTP e kerei.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Kerekere e sega ni taqomaki",
+            "description": "E sega ni vakacurumi me cakacaka ena mataveilawa oqo na ivakarau ni HTTPS e kerei. Yalovinaka vakavouya na nomu barausa.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "E sega ni sema tiko ena vuku ni cakacaka ni vakavinakataki",
+            "description": "E sega ni rawa ni vakayagataki na mataveilawa oqo ena gauna oqo. E namaki me rawa ni vakayagataki tale ena dua na gauna lekaleka.",
+            "refresh_enable": true
+        }
+    }
+}

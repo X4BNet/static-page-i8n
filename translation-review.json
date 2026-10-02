@@ -1,0 +1,531 @@
+{
+    "method": "Three fresh subagents translated English independently before reading the corresponding existing translation. Each then compared every available reference string semantically against English. Blind drafts are preserved unchanged in tests/fixtures/translation-benchmark/.",
+    "limitations": [
+        "These counts are semantic review judgments, not measured accuracy rates.",
+        "Translation and reference comparison were performed by the same subagent for each language; this is not an independent native-speaker evaluation.",
+        "Repeated English strings count once per key, so the entries are not independent samples.",
+        "Agreement with a reference does not establish correctness; English remains authoritative.",
+        "The benchmark does not establish quality for other languages, particularly languages with fewer training resources."
+    ],
+    "source": {
+        "path": "language/en.json",
+        "gitBlob": "ee0cb7f39bb9f4dca8a68496476e3e790a4f193e",
+        "sha256": "80143e3cccff712b00f74612cc464f7c3c055b02fccddfb778b39b2cfa216092",
+        "strings": 63,
+        "booleans": 11
+    },
+    "results": [
+        {
+            "tag": "de",
+            "reference": "language/de.json",
+            "referenceGitBlob": "6e00f5d76e4ee5ed284d09947c0ec643327be9f2",
+            "blindSha256": "a05c46bc9f98b9ce27d630fbfea255dabacafa3cfb25466da9873a5da7cf3e95",
+            "comparedStrings": 61,
+            "sameOperationalMeaning": 61,
+            "exactMatches": 14,
+            "acceptableWordingDifferences": 46,
+            "substantiveGrammarDifferences": 1,
+            "meaningDifferences": 0,
+            "missingReferenceStrings": 2,
+            "missingReferenceBooleans": 11,
+            "blindCorrectionsRequired": [],
+            "findings": [
+                "The two translations preserve the same operational meanings across all 61 available reference strings; wording changes should not be mistaken for errors.",
+                "The reference timeout description repeats a malformed source sentence. The blind translation repairs it while keeping the intended event.",
+                "Blind CAPTCHA destination wording, Absenden button text, and Wartungsarbeiten wording are more natural. Reference ihren in the formal browser-update instruction should be Ihren.",
+                "Reference coverage is incomplete: 2 over_bandwidth strings and 11 refresh_enable booleans are absent. Those are excluded from translation disagreements.",
+                "No clear semantic or structural error was identified in the preserved blind output during this review."
+            ]
+        },
+        {
+            "tag": "es",
+            "reference": "language/es.json",
+            "referenceGitBlob": "8d1cf5b40223dc70a0ab23777ffff9e556850bac",
+            "blindSha256": "a4c89abca6bb001eca510a6b13477e491d28e633ff2b31f315fd9a031654b3b4",
+            "comparedStrings": 63,
+            "sameOperationalMeaning": 62,
+            "exactMatches": 15,
+            "acceptableWordingDifferences": 47,
+            "meaningDifferences": 1,
+            "missingReferenceStrings": 0,
+            "missingReferenceBooleans": 11,
+            "blindCorrectionsRequired": [],
+            "examples": [
+                {
+                    "key": "error.clienttimeout.title",
+                    "reference": "Pide tiempo fuera",
+                    "blind": "Tiempo de espera de la solicitud agotado",
+                    "assessment": "The reference treats request as a verb and timeout as a break. The draft expresses expiration of the request time limit."
+                }
+            ]
+        },
+        {
+            "tag": "vi",
+            "reference": "language/vn.json (renamed to vi.json)",
+            "referenceGitBlob": "3110a259b700711b03434c40cd4b4e7437345269",
+            "blindSha256": "77dfcb25909e9d205ed2101e0f8c0aaf7b58297e44323e7892b61e84004d5654",
+            "comparedStrings": 63,
+            "sameOperationalMeaning": 36,
+            "closeSemanticEquivalents": 16,
+            "acceptableWordingDifferences": 20,
+            "meaningDifferences": 27,
+            "missingReferenceStrings": 0,
+            "missingReferenceBooleans": 0,
+            "blindCorrectionsRequired": [
+                {
+                    "key": "error.maintenance.description",
+                    "severity": "minor_semantic_nuance",
+                    "blind": "Trang web này hiện không khả dụng. Trang web sẽ sớm hoạt động trở lại.",
+                    "assessment": "The second sentence sounds like a firm promise. English should expresses an expectation.",
+                    "proposedCorrection": "Trang web này hiện không khả dụng. Dự kiến trang web sẽ sớm hoạt động trở lại."
+                },
+                {
+                    "key": "error.clienttimeout.description",
+                    "severity": "grammar_and_fluency",
+                    "blind": "Rất tiếc, đã hết thời gian chờ khi tải trang web này. Chúng tôi xin lỗi vì mọi bất tiện có thể đã gây ra.",
+                    "assessment": "The apology has a dangling or ambiguous causal phrase “có thể đã gây ra.” The timeout itself is translated correctly.",
+                    "proposedCorrection": "Rất tiếc, đã hết thời gian chờ khi tải trang web này. Chúng tôi xin lỗi vì những bất tiện mà việc này có thể đã gây ra."
+                },
+                {
+                    "key": "error.resource_limitcon.cause_list[0]",
+                    "severity": "clarity",
+                    "blind": "Địa chỉ IP của bạn có số lượng kết nối tới máy chủ bất thường",
+                    "assessment": "The intended meaning is recoverable, but placing bất thường after máy chủ can make the abnormality appear to modify the server rather than the connection count.",
+                    "proposedCorrection": "Địa chỉ IP của bạn có số lượng kết nối bất thường tới máy chủ"
+                },
+                {
+                    "key": "challenge.validation_complete",
+                    "severity": "punctuation",
+                    "blind": "<strong>Xác minh hoàn tất</strong> bạn đang được chuyển hướng đến trang muốn truy cập. Nhấp vào <a href=\"\">đây</a> nếu trang không tải lại.",
+                    "assessment": "Add a sentence boundary after the completed-validation heading. This follows the intended English message without preserving its run-on punctuation.",
+                    "proposedCorrection": "<strong>Xác minh hoàn tất</strong>. Bạn đang được chuyển hướng đến trang muốn truy cập. Nhấp vào <a href=\"\">đây</a> nếu trang không tải lại."
+                }
+            ],
+            "findings": [
+                "The reference repeatedly confuses unavailable/invalid with nonexistent; that is a substantive factual difference, not stylistic disagreement.",
+                "Reference error_loading reverses a failure message into an in-progress activity.",
+                "The unknown-domain reference confuses domain names with access areas and this IP with the visitor’s IP.",
+                "Repeated resource causes lose server overload and confuse data transmission with conversion.",
+                "The blind output retains source structure and hard invariants, but its maintenance expectation and several fluent-expression details still need correction."
+            ],
+            "examples": [
+                {
+                    "key": "challenge.enable_javascript",
+                    "blind": "Quá trình xác minh trình duyệt hoạt động tốt nhất khi JavaScript được bật.",
+                    "reference": "Quá trình xác nhận trình duyệt diễn ra nhanh hơn khi sử dụng JavaScript.",
+                    "assessment": "Reference claims verification is faster with JavaScript. Source says verification works best when JavaScript is enabled; it does not promise a speed benefit.",
+                    "whichBetterAndWhy": "Blind preserves enablement and general functionality without inventing a speed claim."
+                },
+                {
+                    "key": "error.default.error_loading",
+                    "blind": "Lỗi khi tải {host}",
+                    "reference": "Đang tải thông tin lỗi {host}",
+                    "assessment": "Reference says “Loading error information {host},” changing a load failure into an activity that is underway.",
+                    "whichBetterAndWhy": "Blind correctly says an error occurred while loading the host."
+                },
+                {
+                    "key": "error.default.possible_causes",
+                    "blind": "Các nguyên nhân có thể bao gồm: ",
+                    "reference": "Các lỗi có khả năng đã xảy ra: ",
+                    "assessment": "Reference introduces “errors that may have occurred” instead of possible causes. The subsequent lists include conditions such as load and connection counts, not solely errors.",
+                    "whichBetterAndWhy": "Blind preserves the diagnostic role of the list."
+                },
+                {
+                    "key": "error.error.title",
+                    "blind": "Trang web không khả dụng",
+                    "reference": "Trang chủ không tồn tại",
+                    "assessment": "Unavailable is translated in the reference as “does not exist.”",
+                    "whichBetterAndWhy": "Blind preserves availability; reference can incorrectly suggest a nonexistent website."
+                },
+                {
+                    "key": "error.suspended.title",
+                    "blind": "Trang web bị tạm ngưng",
+                    "reference": "Trang chủ bị chặn",
+                    "assessment": "Reference says homepage blocked, while source says website suspended. Blocking access and suspending a website are distinct statuses.",
+                    "whichBetterAndWhy": "Blind identifies service suspension without implying a different blocking mechanism."
+                }
+            ]
+        }
+    ],
+    "processAdjustments": [
+        "Preserve source distinctions between unavailable, suspended, and nonexistent.",
+        "Translate Request Timeout as a technical expiration, not a request for a break.",
+        "Backend means origin server; overload and transit must retain their networking meanings.",
+        "This IP is not necessarily the visitor IP; abnormal connections do not prove an attack.",
+        "JavaScript works best is not a speed guarantee or a requirement.",
+        "Maintenance recovery is expected, not guaranteed.",
+        "Check sentence completeness and attachment of modifiers after resolving English source typos."
+    ],
+    "expansion": {
+        "method": "95 new language files were authored directly by subagents against English and reviewed against the source. Existing German, Spanish, Turkish, and Vietnamese were reviewed while preserving correct wording. No external machine-translation output was used.",
+        "coverage": {
+            "languageFilesIncludingEnglish": 100,
+            "newLanguageFiles": 95,
+            "stringEntriesPerFile": 63,
+            "booleanSettingsPerFile": 11
+        },
+        "reviewLimits": "All new translations received model source-based review. This is not native-speaker certification. Additional fluency-review priorities and specific limitations are recorded per language in languages.json.",
+        "lowerConfidenceTags": [
+            "ak",
+            "ff",
+            "hne",
+            "lg",
+            "ln",
+            "mad",
+            "ny",
+            "om",
+            "qu",
+            "raj",
+            "rn",
+            "sn",
+            "ti",
+            "wo",
+            "yo"
+        ],
+        "reviewCorrections": [
+            "German: filled missing over_bandwidth strings and 11 boolean settings; repaired clienttimeout sentence fragment; capitalized formal Ihren. Correct existing German wording retained.",
+            "Czech: avoided inflecting the protected JavaScript identifier by using se zapnutou podporou JavaScript.",
+            "Sindhi and Bhojpuri: refined unexpected-error vocabulary so it does not mean merely unknown or unwanted.",
+            "Xhosa: corrected a spelling error in the contact-administrator instruction.",
+            "Lingala: used a clear networking loanword for connections and made JavaScript enablement explicit.",
+            "Sepedi: clarified the possible-causes introduction.",
+            "Finnish: replaced Käyttövirhe (usage error) with Virhe sivulle pääsyssä to preserve access-error meaning.",
+            "Spanish: restored 11 booleans; corrected Request Timeout title, time-limit expiration, inconsistent address and question punctuation, unexpected-error wording, access-error capitalization, excessive-request wording, and origin-server terminology while preserving other existing prose.",
+            "Uzbek: unavailable title changed from wording that might imply nonexistence to inability to use the site.",
+            "Akan: validation phrasing changed from trust/belief to checking; incorrect configuration and request labels now use incorrect rather than untrue; suspended heading refined.",
+            "Yoruba: corrected human question syntax and replaced homeowner wording with owner.",
+            "Zulu: corrected noun agreement in the repeated unexpected-load cause.",
+            "Kirundi: clarified JavaScript improves checking when enabled, avoiding a potentially reversed comparison.",
+            "Madurese: clarified excessive requests exceed limits; removed a doubtful possible-causes term; used a straightforward open-the-site construction in suspended descriptions.",
+            "Turkish: retained the concurrent complete translation; removed a repeated HTTPS identifier in the redirect clause to match the source token count.",
+            "Vietnamese: retained correct reference wording, fixed the documented meaning defects, applied relevant blind-draft corrections, and harmonized repeated messages.",
+            "Chhattisgarhi, Rajasthani, and Sepedi: applied the additional corrections identified during independent model review.",
+            "Web-usage follow-up: corrected 53 string entries across 16 languages. Exact before/after text, sources and decisions are recorded in translation-usage-review.json."
+        ],
+        "terminologySources": [
+            {
+                "url": "https://chhattisgarhi.in/",
+                "use": "Chhattisgarhi grammar and written-use examples from site text; not whole-sentence translation copying."
+            },
+            {
+                "url": "https://anjas.org/rajasthani-dictionary/mhaara-meaning",
+                "use": "Written Rajasthani forms in Anjas/Rekhta interface text; dictionary entry itself did not resolve."
+            },
+            {
+                "url": "https://www.dsac.gov.za/sites/default/files/2024-10/Multilingual%20Information%20Communication%20Technology%20Dictionary.pdf",
+                "use": "South African government terminology: Sepedi browser/server; corroborated Xhosa server term."
+            },
+            {
+                "url": "https://raw.githubusercontent.com/wikimedia/mediawiki/master/languages/i18n/ln.json",
+                "use": "Published Lingala terminology; no complete messages copied."
+            },
+            {
+                "url": "https://raw.githubusercontent.com/wikimedia/mediawiki/master/languages/i18n/nso.json",
+                "use": "Published Sepedi wording/context; no complete messages copied."
+            },
+            {
+                "url": "https://www.jw.org/ln/",
+                "use": "Lingala native-language interface/usage examples, not religious content or complete messages."
+            },
+            {
+                "url": "https://merispherepublishing.com/ln",
+                "use": "Corroborated Lingala request terminology bosenga and technology loanword usage."
+            },
+            {
+                "url": "https://raw.githubusercontent.com/wikimedia/mediawiki/master/languages/i18n/qu.json",
+                "use": "Quechua UI terminology: sirwiq, llika wamp’una, permissions and loading context. Original messages were authored, not copied wholesale."
+            },
+            {
+                "url": "https://raw.githubusercontent.com/wikimedia/mediawiki/master/languages/i18n/wo.json",
+                "use": "Wolof UI terminology: joxekaay, joowukaay, errors, permissions and refresh context. Original messages were authored, not copied wholesale."
+            },
+            {
+                "url": "https://fcctp.usmp.edu.pe/librosfcctp/DICCIONARIO-Quechua-espanol-VOL_1.pdf",
+                "use": "Dictionary evidence for possession/owner expression with -yuq; used a transparent website-possessor construction."
+            },
+            {
+                "url": "https://raw.githubusercontent.com/mozilla-l10n/firefox-l10n/main/ff/toolkit/toolkit/neterror/netError.ftl",
+                "use": "Fulah/Pulaar or Madurese terminology and language usage only; no complete source messages copied."
+            },
+            {
+                "url": "https://raw.githubusercontent.com/mozilla-l10n/firefox-l10n/main/ff/browser/browser/browser.ftl",
+                "use": "Fulah/Pulaar or Madurese terminology and language usage only; no complete source messages copied."
+            },
+            {
+                "url": "https://raw.githubusercontent.com/wikimedia/mediawiki/master/languages/i18n/mad.json",
+                "use": "Fulah/Pulaar or Madurese terminology and language usage only; no complete source messages copied."
+            },
+            {
+                "url": "https://mad.wiktionary.org/wiki/nyo%27on",
+                "use": "Fulah/Pulaar or Madurese terminology and language usage only; no complete source messages copied."
+            },
+            {
+                "url": "https://glosbe.com/en/fuc/Time",
+                "use": "Fulah/Pulaar or Madurese terminology and language usage only; no complete source messages copied."
+            },
+            {
+                "url": "https://raw.githubusercontent.com/videolan/vlc/master/po/ff.po",
+                "use": "Corroborated that jaajol/e jaajol is used in published Fulah automatic-operation terminology; no whole translation copied."
+            },
+            {
+                "url": "https://ufdcimages.uflib.ufl.edu/UF/E0/04/90/33/00001/OFORI_E.pdf",
+                "use": "Corroborated Akan gye wo di as trust/believe rather than verification."
+            },
+            {
+                "url": "https://repository.iainmadura.ac.id/1305/1/Buku%20Bahasa%20Madura%20Genre%20Teks.pdf",
+                "use": "Checked native Madurese word-use and written-form examples."
+            },
+            {
+                "url": "https://repository.iainmadura.ac.id/1302/1/ISI%20BUKU%20MADURA%20KELAS%2012-FIX.pdf",
+                "use": "Checked Madurese event-word morphology, supporting caution about kadhibi'ân."
+            },
+            {
+                "url": "https://scert.cg.gov.in/pdf/textbook-EM-2021-22/Class2%20-%20Chhattisgarhi%20%28Raipur%2CDurg%2CBastar%29%202021-22-reduced.pdf",
+                "use": "Chhattisgarhi superlative and Sepedi computing terminology checked during independent model review."
+            }
+        ],
+        "highestReviewPriorityTags": [
+            "ff",
+            "hne",
+            "ln",
+            "mad",
+            "raj"
+        ],
+        "independentChecks": [
+            {
+                "tags": [
+                    "ff",
+                    "mad",
+                    "ak",
+                    "ig",
+                    "yo",
+                    "zu"
+                ],
+                "method": "Read all 50 distinct source-to-target entries per language and verified consistency of repeated source strings; compared English intent and required technical distinctions.",
+                "conclusion": "All six are defensible drafts in the intended languages. No evidence establishes invented-language output or wholesale substitution by a related language. Several local semantic and grammar issues were found and corrected by the owning agent. No remaining concrete necessary correction was identified in this bounded review.",
+                "findings": [
+                    {
+                        "tag": "ak",
+                        "keys": [
+                            "challenge.are_you_human_host",
+                            "challenge.are_you_human"
+                        ],
+                        "issue": "The original wɔgye wo di expresses believing or trusting the visitor, rather than performing verification.",
+                        "necessaryCorrection": "Use a check/verification expression, consistently with nhwehwɛmu elsewhere.",
+                        "correctedExample": "Woyɛ onipa anaa? Ɛhia sɛ wɔyɛ nhwehwɛmu ansa na woatoa so",
+                        "status": "Applied by owning agent and read back."
+                    },
+                    {
+                        "tag": "ak",
+                        "keys": [
+                            "error.invalid_configuration.title",
+                            "error.ssl-https-http.title"
+                        ],
+                        "issue": "Original ɛnyɛ nokorɛ emphasizes untruth. These headings concern invalid configuration or an invalid request.",
+                        "necessaryCorrection": "Use ɛnteɛ (not correct/right) in these headings.",
+                        "correctedExamples": [
+                            "Nhyehyɛeɛ a ɛnteɛ",
+                            "Adesrɛ a ɛnteɛ"
+                        ],
+                        "status": "Applied by owning agent and read back."
+                    },
+                    {
+                        "tag": "yo",
+                        "keys": [
+                            "challenge.are_you_human_host",
+                            "challenge.are_you_human"
+                        ],
+                        "issue": "Original Ṣé ènìyàn ni yín? used the object/possessive form awkwardly as the subject of the identity question.",
+                        "necessaryCorrection": "Use Ṣé ẹ jẹ́ ènìyàn? to retain the polite second-person form clearly.",
+                        "correctedExample": "Ṣé ẹ jẹ́ ènìyàn? A nílò ìmúdájú kí ẹ tó tẹ̀ síwájú",
+                        "status": "Applied by owning agent and read back."
+                    },
+                    {
+                        "tag": "yo",
+                        "keys": [
+                            "error.suspended.description",
+                            "error.over_bandwidth.description"
+                        ],
+                        "issue": "Original onílé denotes a house/home owner; the page needs the owner of the website.",
+                        "necessaryCorrection": "Use oníwun as the owner term inside the existing strong tag.",
+                        "correctedExample": "Ó ṣeni láàánú pé ojúlé ayélujára tí ẹ fẹ́ ṣèbẹ̀wò sí kò ṣeé lò. Ẹ má bínú fún ìdààmú èyíkéyìí. Bí ẹ bá jẹ́ <strong>oníwun</strong> ojúlé ayélujára yìí, ẹ jọ̀ọ́, <a href=\"https://www.x4b.net/support\">kan sí ẹgbẹ́ ìrànlọ́wọ́</a>.",
+                        "status": "Applied by owning agent and read back."
+                    },
+                    {
+                        "tag": "zu",
+                        "keys": [
+                            "error.resource.cause_list[0]",
+                            "error.resource_limitrate.cause_list[1]",
+                            "error.resource_limitcon.cause_list[1]"
+                        ],
+                        "issue": "Original umthwalo ongakulindelekile contains an unnecessary ku in the adjective for unexpected load.",
+                        "necessaryCorrection": "Use umthwalo ongalindelekile in all three identical source entries.",
+                        "correctedExample": "Iseva yomthombo ibhekene nomthwalo ongalindelekile futhi ayikwazi ukucubungula izicelo okwamanje",
+                        "status": "Applied by owning agent and read back."
+                    },
+                    {
+                        "tag": "mad",
+                        "keys": [
+                            "error.resource_limitrate.cause_list[0]"
+                        ],
+                        "issue": "Original kalabân bânnya' does not clearly state that the request volume exceeds limits; the source describes flooding.",
+                        "necessaryCorrection": "Explicitly state excessive or above-limit requests without calling it a confirmed attack.",
+                        "correctedExample": "Èkataowè jhâ' lamat IP Dhika ngèrèm panyo'onan sè lebbhi bânnya' ḍâri bâtes ka server",
+                        "status": "Independently identified by owning agent, discussed with reviewer, applied and read back."
+                    },
+                    {
+                        "tag": "mad",
+                        "keys": [
+                            "error.default.possible_causes"
+                        ],
+                        "issue": "The original kadhibi'ân wording appeared to invoke alone/by-itself language and was not a defensible rendering of possible causes. The reviewer did not assert a fully verified replacement from unsupported morphology.",
+                        "necessaryCorrection": "Simplify the introduction to an intelligible possible-causes phrase.",
+                        "correctedExample": "Sabâb sè mungkin antarana: ",
+                        "status": "Independently identified by owning agent, discussed with reviewer, applied and read back."
+                    }
+                ],
+                "remainingNecessaryCorrections": [],
+                "limitations": "This is a separate source-based model review, not independent speaker certification. Uncertainty about a term is not treated as proof that it is invented; confirmed corrections and unresolved linguistic confidence are separated."
+            },
+            {
+                "tags": [
+                    "hne",
+                    "raj",
+                    "ln",
+                    "nso"
+                ],
+                "method": "Read-only independent agent review of every distinct translated message in each file, with repeated entries covered by the shared wording. Compared against full English intent. Focused on target-language identity, unavailable/status meaning, request timeout, configuration, excessive requests, domain/IP mapping, JavaScript qualification and maintenance expectation.",
+                "conclusion": "All four are defensible distinct-language model-authored drafts. No major source-meaning reversal or clear substitution of an entire related language was found. This does not certify native-level grammar or style.",
+                "appliedCorrections": [
+                    "Restored the superlative best in the Chhattisgarhi and Rajasthani JavaScript messages.",
+                    "Made the repeated Sepedi origin-server possessive concord consistent with the chosen noun class."
+                ],
+                "remainingNecessaryCorrections": [],
+                "limitations": [
+                    "No native-speaker certification.",
+                    "A bounded review can miss regional/register issues, especially Hindi-influenced formal wording and borrowed computing terminology.",
+                    "The Sepedi agreement observation is explicitly provisional, not a high-confidence claim that every sebara construction is wrong."
+                ]
+            }
+        ],
+        "initialLowerConfidenceTags": [
+            "ak",
+            "am",
+            "as",
+            "bho",
+            "ceb",
+            "ff",
+            "ha",
+            "hil",
+            "hmn",
+            "hne",
+            "ig",
+            "ilo",
+            "jv",
+            "km",
+            "ku",
+            "lg",
+            "ln",
+            "lo",
+            "mad",
+            "mai",
+            "mg",
+            "my",
+            "nso",
+            "ny",
+            "om",
+            "or",
+            "ps",
+            "qu",
+            "raj",
+            "rn",
+            "rw",
+            "sd",
+            "sn",
+            "so",
+            "su",
+            "tg",
+            "ti",
+            "tk",
+            "ug",
+            "wo",
+            "xh",
+            "yo",
+            "zu"
+        ],
+        "webUsageReview": {
+            "report": "translation-usage-review.json",
+            "reviewedOn": "2026-10-02",
+            "languagesReviewed": 43,
+            "reviewFlagsCleared": 28,
+            "reviewFlagsRetained": 15,
+            "correctedLanguageFiles": 16,
+            "correctedStringEntries": 53,
+            "clearedTags": [
+                "am",
+                "as",
+                "bho",
+                "ceb",
+                "ha",
+                "hil",
+                "hmn",
+                "ig",
+                "ilo",
+                "jv",
+                "km",
+                "ku",
+                "lo",
+                "mai",
+                "mg",
+                "my",
+                "nso",
+                "or",
+                "ps",
+                "rw",
+                "sd",
+                "so",
+                "su",
+                "tg",
+                "tk",
+                "ug",
+                "xh",
+                "zu"
+            ],
+            "retainedTags": [
+                "ak",
+                "ff",
+                "hne",
+                "lg",
+                "ln",
+                "mad",
+                "ny",
+                "om",
+                "qu",
+                "raj",
+                "rn",
+                "sn",
+                "ti",
+                "wo",
+                "yo"
+            ],
+            "correctedTags": [
+                "ceb",
+                "hmn",
+                "jv",
+                "ku",
+                "mg",
+                "ps",
+                "rw",
+                "sd",
+                "sn",
+                "so",
+                "su",
+                "tg",
+                "ti",
+                "ug",
+                "xh",
+                "yo"
+            ]
+        }
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Dëse Prozess leeft automatesch of. Dir gitt geschwënn op déi gewënschten Destinatioun weidergeleet.",
+        "validate_browser": "Äre Browser gëtt kontrolléiert, ier Dir op {http_host} zougräift",
+        "are_you_human_host": "Sidd Dir e Mënsch? Fir op {http_host} zouzegräifen, ass eng Kontroll néideg",
+        "are_you_human": "Sidd Dir e Mënsch? Fir weiderzefueren, ass eng Kontroll néideg",
+        "enter_captcha_host": "Gitt de CAPTCHA-Code hei ënnen an, fir op {http_host} weiderzegoen:",
+        "enter_captcha": "Gitt de CAPTCHA-Code hei ënnen an, fir weiderzefueren:",
+        "submit": "Ofschécken",
+        "try_again_later": "Dës Websäit brauch méi laang wéi gewinnt fir ze lueden. Dir kënnt et spéider <a href=\"\">nach eng Kéier probéieren</a>",
+        "unexpected_error": "Et schéngt en onerwaarte Feeler opgetrueden ze sinn. <a href=\"\">Probéiert et nach eng Kéier</a> méi spéit",
+        "validation_complete": "<strong>Kontroll ofgeschloss</strong>. Dir gitt elo op déi gewënschten Destinatioun weidergeleet. Klickt <a href=\"\">hei</a>, wann d'Säit net nei geluede gëtt.",
+        "enable_javascript": "D'Browserkontroll funktionéiert am beschten, wa JavaScript aktivéiert ass.",
+        "abnormal_activity": "Wéinst ongewéinlecher Aktivitéit musst Dir d'Aufgab hei ënnen ofschléissen, fir weiderzefueren",
+        "sorry_inconvenience": "Mir entschëllegen eis fir méiglech Onannehmlechkeeten",
+        "verifying": "Kontroll leeft"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Feeler beim Luede vun {host}",
+            "refresh_text": "Probéiert spéider op d'Websäit zouzegräifen, oder klickt <a href=\"\">hei</a>, fir d'Säit nei ze lueden.",
+            "unexpected_error": "Beim Luede vun dëser Säit ass en onerwaarte Feeler opgetrueden",
+            "possible_causes": "Méiglech Ursaache sinn: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Websäit net disponibel",
+            "description": "Leider ass beim Luede vun dëser Säit en onerwaarte Feeler opgetrueden. Mir entschëllegen eis fir méiglech Onannehmlechkeeten. Probéiert spéider op d'Websäit zouzegräifen, oder klickt <a href=\"\">hei</a>, fir d'Säit nei ze lueden."
+        },
+        "suspended": {
+            "title": "Websäit gespaart",
+            "description": "Leider ass d'Websäit, déi Dir besiche wëllt, net disponibel. Mir entschëllegen eis fir méiglech Onannehmlechkeeten. Wann Dir de <strong>Besëtzer</strong> vun dëser Websäit sidd, <a href=\"https://www.x4b.net/support\">kontaktéiert wgl. de Support</a>."
+        },
+        "over_bandwidth": {
+            "title": "Websäit gespaart",
+            "description": "Leider ass d'Websäit, déi Dir besiche wëllt, net disponibel. Mir entschëllegen eis fir méiglech Onannehmlechkeeten. Wann Dir de <strong>Besëtzer</strong> vun dëser Websäit sidd, <a href=\"https://www.x4b.net/\">kontaktéiert wgl. de Support</a>."
+        },
+        "backend": {
+            "title": "Server net disponibel",
+            "description": "Den Ursprongsserver ass temporär net disponibel a kann dës Ufro dofir net verschaffen. Mir entschëllegen eis fir méiglech Onannehmlechkeeten.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Zäitlimit vun der Ufro iwwerschratt",
+            "description": "Leider gouf beim Luede vun dëser Websäit d'Zäitlimit iwwerschratt. Mir entschëllegen eis fir méiglech Onannehmlechkeeten, déi doduerch entstane sinn.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Zougrëff refuséiert",
+            "description": "Dir hutt keng Erlaabnis, op dës Säit zouzegräifen. Wann Dir mengt, datt dëst e Feeler ass, kontaktéiert den Administrateur vun der Websäit."
+        },
+        "upstream": {
+            "title": "Server net disponibel",
+            "description": "Momentan ass kee Server online an disponibel, fir dës Ufro ze verschaffen. Mir entschëllegen eis fir méiglech Onannehmlechkeeten."
+        },
+        "invalid_configuration": {
+            "title": "Ongëlteg Konfiguratioun",
+            "description": "Wéinst engem Konfiguratiounsfeeler kënne mir dës Ufro net verschaffen. Mir entschëllegen eis fir méiglech Onannehmlechkeeten."
+        },
+        "resource": {
+            "title": "Feeler beim Zougrëff",
+            "description_start": "Leider ass beim Luede vun dëser Säit e Feeler opgetrueden.",
+            "cause_list": [
+                "Den Ursprongsserver ass onerwaart staark belaascht a kann de Moment keng Ufroe verschaffen",
+                "Um Ursprongsserver oder beim Iwwerdroe vun den Donnéeën ass en onerwaarte Feeler opgetrueden"
+            ],
+            "description_end": "Mir entschëllegen eis fir méiglech Onannehmlechkeeten.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Feeler beim Zougrëff",
+            "description_start": "Leider ass beim Luede vun dëser Säit e Feeler opgetrueden.",
+            "cause_list": [
+                "Et gouf festgestallt, datt Är IP-Adress ze vill Ufroen un de Server schéckt",
+                "Den Ursprongsserver ass onerwaart staark belaascht a kann de Moment keng Ufroe verschaffen",
+                "Um Ursprongsserver oder beim Iwwerdroe vun den Donnéeën ass en onerwaarte Feeler opgetrueden"
+            ],
+            "description_end": "Mir entschëllegen eis fir méiglech Onannehmlechkeeten.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Feeler beim Zougrëff",
+            "description_start": "Leider ass beim Luede vun dëser Säit e Feeler opgetrueden.",
+            "cause_list": [
+                "Vun Ärer IP-Adress aus gëtt et eng ongewéinlech Zuel u Verbindunge mam Server",
+                "Den Ursprongsserver ass onerwaart staark belaascht a kann de Moment keng Ufroe verschaffen",
+                "Um Ursprongsserver oder beim Iwwerdroe vun den Donnéeën ass en onerwaarte Feeler opgetrueden"
+            ],
+            "description_end": "Mir entschëllegen eis fir méiglech Onannehmlechkeeten.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Ongëlteg Ufro",
+            "description": "Dës Websäit ass iwwer HTTPS erreechbar. Dir hutt probéiert, Iech iwwer HTTP ze verbannen. Mir probéieren elo, Iech weiderzeleeden. Wann Dir net weidergeleet gitt, setzt https:// un den Ufank vun Ärer URL a probéiert et nach eng Kéier."
+        },
+        "timeout": {
+            "title": "Server net disponibel",
+            "description": "Leider gouf beim Luede vun dëser Säit d'Zäitlimit iwwerschratt. De Server ass méiglecherweis beschäftegt a kann Är Ufro de Moment net verschaffen.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Onbekannten Domain",
+            "description": "Dësen Domain ass net fir dës IP-Adress registréiert.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Net ënnerstëtzt Method",
+            "description": "Déi ugefrote HTTP-Method ass fir dës Websäit net aktivéiert.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Onsécher Ufro",
+            "description": "Den ugefrote HTTPS-Protokoll ass fir dës Websäit net aktivéiert. Aktualiséiert wgl. Äre Browser.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Offline wéinst Maintenance",
+            "description": "Dës Websäit ass de Moment net disponibel. Si sollt geschwënn erëm disponibel sinn.",
+            "refresh_enable": true
+        }
+    }
+}

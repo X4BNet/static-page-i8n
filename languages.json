@@ -1,0 +1,2208 @@
+{
+    "sourceLanguage": "en",
+    "selection": "The original curated 100 languages, expanded to cover official languages and written forms of countries and territories where complete reviewed translations are feasible.",
+    "selectionSources": [
+        "https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers",
+        "https://www.worlddata.info/languages/"
+    ],
+    "languageTagRegistry": {
+        "url": "https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry",
+        "date": "2026-09-17"
+    },
+    "languages": [
+        {
+            "tag": "af",
+            "name": "Afrikaans",
+            "script": "Latin",
+            "writtenForm": "Standard Afrikaans",
+            "provenance": "subagent-translation",
+            "languageId": "af"
+        },
+        {
+            "tag": "ak",
+            "name": "Akan",
+            "script": "Latin",
+            "writtenForm": "Twi (Asante)",
+            "provenance": "subagent-translation",
+            "reviewPriority": "additional-fluency-review",
+            "reviewNotes": "Narrowed to Asante technical loanword spelling and complex access, timeout and protocol clauses; ordinary website and polite-instruction vocabulary has published support.",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "retain",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "ak"
+        },
+        {
+            "tag": "am",
+            "name": "Amharic",
+            "script": "Ethiopic",
+            "writtenForm": "Standard Amharic",
+            "provenance": "subagent-translation",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "clear",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "am"
+        },
+        {
+            "tag": "ar",
+            "name": "Arabic",
+            "script": "Arabic",
+            "writtenForm": "Modern Standard Arabic",
+            "provenance": "subagent-translation",
+            "languageId": "ar"
+        },
+        {
+            "tag": "as",
+            "name": "Assamese",
+            "script": "Bengali",
+            "writtenForm": "Standard Assamese",
+            "provenance": "subagent-translation",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "clear",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "as"
+        },
+        {
+            "tag": "az",
+            "name": "Azerbaijani",
+            "script": "Latin",
+            "writtenForm": "Standard Azerbaijani",
+            "provenance": "subagent-translation",
+            "languageId": "az"
+        },
+        {
+            "tag": "be",
+            "name": "Belarusian",
+            "script": "Cyrillic",
+            "writtenForm": "Standard Belarusian",
+            "provenance": "subagent-translation",
+            "languageId": "be"
+        },
+        {
+            "tag": "bg",
+            "name": "Bulgarian",
+            "script": "Cyrillic",
+            "writtenForm": "Standard Bulgarian",
+            "provenance": "subagent-translation",
+            "languageId": "bg"
+        },
+        {
+            "tag": "bho",
+            "name": "Bhojpuri",
+            "script": "Devanagari",
+            "writtenForm": "Bhojpuri",
+            "provenance": "subagent-translation",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "clear",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "bho"
+        },
+        {
+            "tag": "bi",
+            "name": "Bislama",
+            "script": "Latin",
+            "writtenForm": "Written Bislama",
+            "languageId": "bi",
+            "reviewNotes": "Uses Bislama grammar and spelling distinct from Tok Pisin. Review technical loans and naturalness of longer clauses.",
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/asia-pacific-translations.json",
+            "reviewedOn": "2026-10-02",
+            "reviewPriority": "additional-fluency-review",
+            "linguisticReview": {
+                "report": "coverage/research/review-asia-pacific.json",
+                "reviewer": "benchmark_es (independent from author benchmark_vi)",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "bn",
+            "name": "Bengali",
+            "script": "Bengali",
+            "writtenForm": "Standard Bengali",
+            "provenance": "subagent-translation",
+            "languageId": "bn"
+        },
+        {
+            "tag": "bs",
+            "name": "Bosnian",
+            "script": "Latin",
+            "writtenForm": "Standard Bosnian, Latin script",
+            "languageId": "bs",
+            "reviewNotes": "Direct translation; ijekavian Bosnian terminology.",
+            "unchangedEnglishKeys": [],
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/europe-translations.json",
+            "reviewedOn": "2026-10-02",
+            "linguisticReview": {
+                "report": "coverage/research/review-europe-a.json",
+                "reviewer": "benchmark_es (independent from author benchmark_de)",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "bs-cyrl",
+            "name": "Bosnian (Cyrillic)",
+            "script": "Cyrillic",
+            "writtenForm": "Standard Bosnian, Cyrillic script",
+            "languageId": "bs",
+            "reviewNotes": "Same-language Cyrillic rendering of the independently translated Bosnian text; tags, identifiers and placeholders retained.",
+            "unchangedEnglishKeys": [],
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/europe-translations.json",
+            "reviewedOn": "2026-10-02",
+            "linguisticReview": {
+                "report": "coverage/research/review-europe-a.json",
+                "reviewer": "benchmark_es (independent from author benchmark_de)",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "ca",
+            "name": "Catalan",
+            "script": "Latin",
+            "writtenForm": "Standard Catalan",
+            "provenance": "subagent-translation",
+            "languageId": "ca"
+        },
+        {
+            "tag": "ceb",
+            "name": "Cebuano",
+            "script": "Latin",
+            "writtenForm": "Standard Cebuano",
+            "provenance": "subagent-translation",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "clear",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "ceb"
+        },
+        {
+            "tag": "ckb",
+            "name": "Central Kurdish (Sorani)",
+            "script": "Arabic",
+            "writtenForm": "Standard Sorani Kurdish",
+            "languageId": "ku",
+            "reviewNotes": "Direct Sorani clauses, not Kurmanji respelled. Review Arabic-script shaping, idiom, and technical vocabulary.",
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/asia-pacific-translations.json",
+            "reviewedOn": "2026-10-02",
+            "reviewPriority": "additional-fluency-review",
+            "linguisticReview": {
+                "report": "coverage/research/review-asia-pacific.json",
+                "reviewer": "benchmark_es (independent from author benchmark_vi)",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "cnr",
+            "name": "Montenegrin",
+            "script": "Latin",
+            "writtenForm": "Standard Montenegrin, Latin script",
+            "languageId": "cnr",
+            "reviewNotes": "Ijekavian Montenegrin with accepted ś spelling; shared South Slavic forms retained where correct. Cyrillic remains a separate uncovered written form.",
+            "unchangedEnglishKeys": [],
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/europe-translations.json",
+            "reviewedOn": "2026-10-02",
+            "linguisticReview": {
+                "report": "coverage/research/review-europe-b.json",
+                "reviewer": "benchmark_vi",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "cnr-cyrl",
+            "name": "Montenegrin (Cyrillic)",
+            "script": "Cyrillic",
+            "writtenForm": "Standard Montenegrin, Cyrillic script",
+            "languageId": "cnr",
+            "reviewNotes": "Same-language Cyrillic version of the independently translated and reviewed Montenegrin Latin profile. Montenegrin ś becomes с́ (Cyrillic с plus combining acute); standard digraphs become љ, њ and џ. Identifiers and markup preserved.",
+            "unchangedEnglishKeys": [],
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/europe-translations.json",
+            "reviewedOn": "2026-10-02",
+            "linguisticReview": {
+                "report": "coverage/research/review-europe-b.json",
+                "reviewer": "benchmark_vi",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "crs",
+            "reviewNotes": "Direct Seychellois Creole wording, with common computing loans. Distinct from Haitian and Mauritian Creoles; not copied from either.",
+            "name": "Seselwa Creole French",
+            "script": "Latin",
+            "writtenForm": "Standard written Seychellois Creole; Latin script",
+            "languageId": "crs",
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/americas-africa-translations.json",
+            "reviewedOn": "2026-10-02",
+            "reviewPriority": "additional-fluency-review",
+            "linguisticReview": {
+                "report": "coverage/research/review-americas-africa.json",
+                "reviewer": "benchmark_vi",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "cs",
+            "name": "Czech",
+            "script": "Latin",
+            "writtenForm": "Standard Czech",
+            "provenance": "subagent-translation",
+            "languageId": "cs"
+        },
+        {
+            "tag": "cy",
+            "name": "Welsh",
+            "script": "Latin",
+            "writtenForm": "Standard Welsh",
+            "languageId": "cy",
+            "reviewNotes": "Welsh mutations and formal user instructions reviewed.",
+            "unchangedEnglishKeys": [],
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/europe-translations.json",
+            "reviewedOn": "2026-10-02",
+            "linguisticReview": {
+                "report": "coverage/research/review-europe-b.json",
+                "reviewer": "benchmark_vi",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "da",
+            "name": "Danish",
+            "script": "Latin",
+            "writtenForm": "Standard Danish",
+            "provenance": "subagent-translation",
+            "languageId": "da"
+        },
+        {
+            "tag": "de",
+            "name": "German",
+            "script": "Latin",
+            "writtenForm": "Standard German",
+            "provenance": "existing-translation-reviewed",
+            "languageId": "de"
+        },
+        {
+            "tag": "el",
+            "name": "Greek",
+            "script": "Greek",
+            "writtenForm": "Standard Modern Greek",
+            "provenance": "subagent-translation",
+            "languageId": "el"
+        },
+        {
+            "tag": "en",
+            "name": "English",
+            "script": "Latin",
+            "writtenForm": "Existing English source",
+            "provenance": "english-source",
+            "languageId": "en"
+        },
+        {
+            "tag": "es",
+            "name": "Spanish",
+            "script": "Latin",
+            "writtenForm": "Neutral Spanish",
+            "provenance": "existing-translation-reviewed",
+            "languageId": "es"
+        },
+        {
+            "tag": "et",
+            "name": "Estonian",
+            "script": "Latin",
+            "writtenForm": "Standard Estonian",
+            "languageId": "et",
+            "reviewNotes": "Source semantics and inflected technical nouns reviewed.",
+            "unchangedEnglishKeys": [],
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/europe-translations.json",
+            "reviewedOn": "2026-10-02",
+            "linguisticReview": {
+                "report": "coverage/research/review-europe-a.json",
+                "reviewer": "benchmark_es (independent from author benchmark_de)",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "eu",
+            "name": "Basque",
+            "script": "Latin",
+            "writtenForm": "Standard Basque (Euskara Batua)",
+            "languageId": "eu",
+            "reviewNotes": "Basque syntax and case suffixes reviewed; technical register warrants another reading.",
+            "unchangedEnglishKeys": [],
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/europe-translations.json",
+            "reviewedOn": "2026-10-02",
+            "linguisticReview": {
+                "report": "coverage/research/review-europe-b.json",
+                "reviewer": "benchmark_vi",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "fa",
+            "name": "Persian",
+            "script": "Arabic",
+            "writtenForm": "Standard Iranian Persian",
+            "provenance": "subagent-translation",
+            "languageId": "fa"
+        },
+        {
+            "tag": "fa-af",
+            "name": "Persian (Dari, Afghanistan)",
+            "script": "Arabic",
+            "writtenForm": "Formal written Dari Persian",
+            "languageId": "fa",
+            "reviewNotes": "Afghan vocabulary and register; regional Persian profile. A prs alias can point here; routing does not require a duplicate translation.",
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/asia-pacific-translations.json",
+            "reviewedOn": "2026-10-02",
+            "reviewPriority": "additional-fluency-review",
+            "linguisticReview": {
+                "report": "coverage/research/review-asia-pacific.json",
+                "reviewer": "benchmark_es (independent from author benchmark_vi)",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "ff",
+            "name": "Fulah",
+            "script": "Latin",
+            "writtenForm": "Pulaar in the Latin script",
+            "provenance": "subagent-translation",
+            "reviewPriority": "high",
+            "reviewNotes": "Technical vocabulary is corroborated; remaining review is noun-class agreement and natural clause construction in automatic redirect, validation and abnormal-connection explanations.",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "retain",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "ff"
+        },
+        {
+            "tag": "fi",
+            "name": "Finnish",
+            "script": "Latin",
+            "writtenForm": "Standard Finnish",
+            "provenance": "subagent-translation",
+            "languageId": "fi"
+        },
+        {
+            "tag": "fil",
+            "name": "Filipino",
+            "script": "Latin",
+            "writtenForm": "Standard Filipino",
+            "provenance": "subagent-translation",
+            "languageId": "fil"
+        },
+        {
+            "tag": "fj",
+            "name": "Fijian",
+            "script": "Latin",
+            "writtenForm": "Standard written iTaukei Fijian",
+            "languageId": "fj",
+            "reviewNotes": "Uses explanatory phrases for origin server and time limit. Review technical loanword spelling and naturalness of longer clauses.",
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/asia-pacific-translations.json",
+            "reviewedOn": "2026-10-02",
+            "reviewPriority": "additional-fluency-review",
+            "linguisticReview": {
+                "report": "coverage/research/review-asia-pacific.json",
+                "reviewer": "benchmark_es (independent from author benchmark_vi)",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "fo",
+            "name": "Faroese",
+            "script": "Latin",
+            "writtenForm": "Standard Faroese",
+            "languageId": "fo",
+            "reviewNotes": "Distinct Faroese, not Danish or Icelandic substitution. Technical register and noun-case agreement have greater uncertainty.",
+            "unchangedEnglishKeys": [],
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/europe-translations.json",
+            "reviewedOn": "2026-10-02",
+            "reviewPriority": "additional-fluency-review",
+            "linguisticReview": {
+                "report": "coverage/research/review-europe-a.json",
+                "reviewer": "benchmark_es (independent from author benchmark_de)",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "fr",
+            "name": "French",
+            "script": "Latin",
+            "writtenForm": "Standard French",
+            "provenance": "subagent-translation",
+            "languageId": "fr"
+        },
+        {
+            "tag": "fy",
+            "name": "West Frisian",
+            "script": "Latin",
+            "writtenForm": "Standard West Frisian",
+            "languageId": "fy",
+            "reviewNotes": "West Frisian rather than Dutch or North Frisian; technical compounds and idiomatic register merit additional review.",
+            "unchangedEnglishKeys": [],
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/europe-translations.json",
+            "reviewedOn": "2026-10-02",
+            "reviewPriority": "additional-fluency-review",
+            "linguisticReview": {
+                "report": "coverage/research/review-europe-a.json",
+                "reviewer": "benchmark_es (independent from author benchmark_de)",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "ga",
+            "name": "Irish",
+            "script": "Latin",
+            "writtenForm": "Standard Irish",
+            "languageId": "ga",
+            "reviewNotes": "Irish vocabulary and mutations reviewed; no claim of native-language certification.",
+            "unchangedEnglishKeys": [],
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/europe-translations.json",
+            "reviewedOn": "2026-10-02",
+            "linguisticReview": {
+                "report": "coverage/research/review-europe-a.json",
+                "reviewer": "benchmark_es (independent from author benchmark_de)",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "gd",
+            "name": "Scottish Gaelic",
+            "script": "Latin",
+            "writtenForm": "Standard Scottish Gaelic",
+            "languageId": "gd",
+            "reviewNotes": "Distinct Scottish Gaelic, not Irish substitution; technical compounds and idiomatic clauses carry additional uncertainty.",
+            "unchangedEnglishKeys": [],
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/europe-translations.json",
+            "reviewedOn": "2026-10-02",
+            "reviewPriority": "additional-fluency-review",
+            "linguisticReview": {
+                "report": "coverage/research/review-europe-b.json",
+                "reviewer": "benchmark_vi",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "gl",
+            "name": "Galician",
+            "script": "Latin",
+            "writtenForm": "Standard Galician",
+            "languageId": "gl",
+            "reviewNotes": "Galician forms and source distinctions maintained.",
+            "unchangedEnglishKeys": [],
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/europe-translations.json",
+            "reviewedOn": "2026-10-02",
+            "linguisticReview": {
+                "report": "coverage/research/review-europe-b.json",
+                "reviewer": "benchmark_vi",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "gn",
+            "reviewNotes": "Agglutinative sentence structure and new computing vocabulary remain review-sensitive. Corrected a mistaken tomorrow adverb to sapy’aitépe (shortly), redirect object, and reload phrasing. Do not treat as automatic coverage for Bolivia’s officially named Guarani; Bolivian varieties need review.",
+            "name": "Guarani",
+            "script": "Latin",
+            "writtenForm": "Paraguayan Guarani; Latin script",
+            "languageId": "gn",
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/americas-africa-translations.json",
+            "reviewedOn": "2026-10-02",
+            "reviewPriority": "additional-fluency-review",
+            "linguisticReview": {
+                "report": "coverage/research/review-americas-africa.json",
+                "reviewer": "benchmark_vi",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "gu",
+            "name": "Gujarati",
+            "script": "Gujarati",
+            "writtenForm": "Standard Gujarati",
+            "provenance": "subagent-translation",
+            "languageId": "gu"
+        },
+        {
+            "tag": "ha",
+            "name": "Hausa",
+            "script": "Latin",
+            "writtenForm": "Standard Hausa (Boko)",
+            "provenance": "subagent-translation",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "clear",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "ha"
+        },
+        {
+            "tag": "haw",
+            "reviewNotes": "Technical circumlocutions and grammatical naturalness need further review. Native Hawaiian content was consulted for vocabulary; no claim of native fluency.",
+            "name": "Hawaiian",
+            "script": "Latin",
+            "writtenForm": "Modern written Hawaiian; Latin script with ʻokina and kahakō",
+            "languageId": "haw",
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/americas-africa-translations.json",
+            "reviewedOn": "2026-10-02",
+            "reviewPriority": "additional-fluency-review",
+            "linguisticReview": {
+                "report": "coverage/research/review-americas-africa.json",
+                "reviewer": "benchmark_vi",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "he",
+            "name": "Hebrew",
+            "script": "Hebrew",
+            "writtenForm": "Modern Hebrew",
+            "provenance": "subagent-translation",
+            "languageId": "he"
+        },
+        {
+            "tag": "hi",
+            "name": "Hindi",
+            "script": "Devanagari",
+            "writtenForm": "Standard Hindi",
+            "provenance": "subagent-translation",
+            "languageId": "hi"
+        },
+        {
+            "tag": "hil",
+            "name": "Hiligaynon",
+            "script": "Latin",
+            "writtenForm": "Standard Hiligaynon",
+            "provenance": "subagent-translation",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "clear",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "hil"
+        },
+        {
+            "tag": "hmn",
+            "name": "Hmong",
+            "script": "Latin",
+            "writtenForm": "White Hmong in the Romanized Popular Alphabet",
+            "provenance": "subagent-translation",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "clear",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "hmn"
+        },
+        {
+            "tag": "hne",
+            "name": "Chhattisgarhi",
+            "script": "Devanagari",
+            "writtenForm": "Chhattisgarhi",
+            "provenance": "subagent-translation",
+            "reviewPriority": "high",
+            "reviewNotes": "Review naturalness of the longer server-overload, request-processing and redirect sentences. Core negation and polite imperative patterns are now attested; remaining uncertainty is technical idiom, not whether this is Chhattisgarhi.",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "retain",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "hne"
+        },
+        {
+            "tag": "hr",
+            "name": "Croatian",
+            "script": "Latin",
+            "writtenForm": "Standard Croatian",
+            "languageId": "hr",
+            "reviewNotes": "Croatian browser, server and configuration terminology; direct English-source review.",
+            "unchangedEnglishKeys": [],
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/europe-translations.json",
+            "reviewedOn": "2026-10-02",
+            "linguisticReview": {
+                "report": "coverage/research/review-europe-a.json",
+                "reviewer": "benchmark_es (independent from author benchmark_de)",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "ht",
+            "name": "Haitian Creole",
+            "script": "Latin",
+            "writtenForm": "Standard Haitian Creole",
+            "provenance": "subagent-translation",
+            "languageId": "ht"
+        },
+        {
+            "tag": "hu",
+            "name": "Hungarian",
+            "script": "Latin",
+            "writtenForm": "Standard Hungarian",
+            "provenance": "subagent-translation",
+            "languageId": "hu"
+        },
+        {
+            "tag": "hy",
+            "name": "Armenian",
+            "script": "Armenian",
+            "writtenForm": "Standard Eastern Armenian",
+            "provenance": "subagent-translation",
+            "languageId": "hy"
+        },
+        {
+            "tag": "id",
+            "name": "Indonesian",
+            "script": "Latin",
+            "writtenForm": "Standard Indonesian",
+            "provenance": "subagent-translation",
+            "languageId": "id"
+        },
+        {
+            "tag": "ig",
+            "name": "Igbo",
+            "script": "Latin",
+            "writtenForm": "Standard Igbo",
+            "provenance": "subagent-translation",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "clear",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "ig"
+        },
+        {
+            "tag": "ilo",
+            "name": "Ilocano",
+            "script": "Latin",
+            "writtenForm": "Standard Ilocano",
+            "provenance": "subagent-translation",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "clear",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "ilo"
+        },
+        {
+            "tag": "is",
+            "name": "Icelandic",
+            "script": "Latin",
+            "writtenForm": "Standard Icelandic",
+            "languageId": "is",
+            "reviewNotes": "Defensible complete text; inflection and technical register merit another linguistic reading.",
+            "unchangedEnglishKeys": [],
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/europe-translations.json",
+            "reviewedOn": "2026-10-02",
+            "linguisticReview": {
+                "report": "coverage/research/review-europe-a.json",
+                "reviewer": "benchmark_es (independent from author benchmark_de)",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "it",
+            "name": "Italian",
+            "script": "Latin",
+            "writtenForm": "Standard Italian",
+            "provenance": "subagent-translation",
+            "languageId": "it"
+        },
+        {
+            "tag": "ja",
+            "name": "Japanese",
+            "script": "Han",
+            "writtenForm": "Standard Japanese",
+            "provenance": "subagent-translation",
+            "languageId": "ja"
+        },
+        {
+            "tag": "jv",
+            "name": "Javanese",
+            "script": "Latin",
+            "writtenForm": "Javanese in the Latin script",
+            "provenance": "subagent-translation",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "clear",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "jv"
+        },
+        {
+            "tag": "ka",
+            "name": "Georgian",
+            "script": "Georgian",
+            "writtenForm": "Standard Georgian, Mkhedruli script",
+            "languageId": "ka",
+            "reviewNotes": "Complete direct Georgian text; technical origin-server term and idiom warrant another reading.",
+            "unchangedEnglishKeys": [],
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/europe-translations.json",
+            "reviewedOn": "2026-10-02",
+            "linguisticReview": {
+                "report": "coverage/research/review-europe-b.json",
+                "reviewer": "benchmark_vi",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "kk",
+            "name": "Kazakh",
+            "script": "Cyrillic",
+            "writtenForm": "Kazakh in the Cyrillic script",
+            "provenance": "subagent-translation",
+            "languageId": "kk"
+        },
+        {
+            "tag": "km",
+            "name": "Khmer",
+            "script": "Khmer",
+            "writtenForm": "Standard Khmer",
+            "provenance": "subagent-translation",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "clear",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "km"
+        },
+        {
+            "tag": "kn",
+            "name": "Kannada",
+            "script": "Kannada",
+            "writtenForm": "Standard Kannada",
+            "provenance": "subagent-translation",
+            "languageId": "kn"
+        },
+        {
+            "tag": "ko",
+            "name": "Korean",
+            "script": "Hangul",
+            "writtenForm": "Standard Korean",
+            "provenance": "subagent-translation",
+            "languageId": "ko"
+        },
+        {
+            "tag": "ku",
+            "name": "Kurdish",
+            "script": "Latin",
+            "writtenForm": "Kurmanji in the Latin script",
+            "provenance": "subagent-translation",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "clear",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "ku"
+        },
+        {
+            "tag": "ku-arab",
+            "name": "Kurdish (Sorani routing)",
+            "script": "Arabic",
+            "writtenForm": "Standard Sorani Kurdish",
+            "languageId": "ku",
+            "reviewNotes": "Direct Sorani clauses, not Kurmanji respelled. Review Arabic-script shaping, idiom, and technical vocabulary.",
+            "provenance": "reviewed-target-alias",
+            "authorshipReport": "coverage/research/asia-pacific-translations.json",
+            "reviewedOn": "2026-10-02",
+            "reviewPriority": "additional-fluency-review",
+            "linguisticReview": {
+                "report": "coverage/research/review-asia-pacific.json",
+                "reviewer": "benchmark_es (independent from author benchmark_vi)",
+                "reviewedOn": "2026-10-02"
+            },
+            "aliasOf": "ckb"
+        },
+        {
+            "tag": "ky",
+            "name": "Kyrgyz",
+            "script": "Cyrillic",
+            "writtenForm": "Standard Kyrgyz, Cyrillic script",
+            "languageId": "ky",
+            "reviewNotes": "Distinct Kyrgyz grammar and characters retained; technical-register fluency has greater uncertainty.",
+            "unchangedEnglishKeys": [],
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/europe-translations.json",
+            "reviewedOn": "2026-10-02",
+            "reviewPriority": "additional-fluency-review",
+            "linguisticReview": {
+                "report": "coverage/research/review-europe-b.json",
+                "reviewer": "benchmark_vi",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "la",
+            "name": "Latin",
+            "script": "Latin",
+            "writtenForm": "Modern Latin for technical interface text",
+            "languageId": "la",
+            "reviewNotes": "Grammatical Latin with transparent contemporary technical terminology and circumlocutions. Technical vocabulary is not claimed to be a Vatican-standard glossary.",
+            "unchangedEnglishKeys": [],
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/europe-translations.json",
+            "reviewedOn": "2026-10-02",
+            "reviewPriority": "additional-fluency-review",
+            "linguisticReview": {
+                "report": "coverage/research/review-europe-b.json",
+                "reviewer": "benchmark_vi",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "lb",
+            "name": "Luxembourgish",
+            "script": "Latin",
+            "writtenForm": "Standard Luxembourgish",
+            "languageId": "lb",
+            "reviewNotes": "Luxembourgish syntax and vocabulary, with conventional technical loans; orthographic fluency should receive another reading.",
+            "unchangedEnglishKeys": [],
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/europe-translations.json",
+            "reviewedOn": "2026-10-02",
+            "linguisticReview": {
+                "report": "coverage/research/review-europe-a.json",
+                "reviewer": "benchmark_es (independent from author benchmark_de)",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "lg",
+            "name": "Luganda",
+            "script": "Latin",
+            "writtenForm": "Standard Luganda",
+            "provenance": "subagent-translation",
+            "reviewPriority": "additional-fluency-review",
+            "reviewNotes": "Protocol-enablement wording, descriptive origin-server/load expressions, and agreement in the longer connectivity clauses still lack sufficient independent sentence-level support; basic permission, page and retry terminology is corroborated.",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "retain",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "lg"
+        },
+        {
+            "tag": "ln",
+            "name": "Lingala",
+            "script": "Latin",
+            "writtenForm": "Standard Lingala",
+            "provenance": "subagent-translation",
+            "reviewPriority": "high",
+            "reviewNotes": "Review network-specific choices for origin server, configuration, domain, request and connection count, plus long error-sentence idiom. Browser/JavaScript loan usage and permission constructions are now attested.",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "retain",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "ln"
+        },
+        {
+            "tag": "lo",
+            "name": "Lao",
+            "script": "Lao",
+            "writtenForm": "Standard Lao",
+            "provenance": "subagent-translation",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "clear",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "lo"
+        },
+        {
+            "tag": "lt",
+            "name": "Lithuanian",
+            "script": "Latin",
+            "writtenForm": "Standard Lithuanian",
+            "provenance": "subagent-translation",
+            "languageId": "lt"
+        },
+        {
+            "tag": "lv",
+            "name": "Latvian",
+            "script": "Latin",
+            "writtenForm": "Standard Latvian",
+            "languageId": "lv",
+            "reviewNotes": "Source semantics and case endings reviewed.",
+            "unchangedEnglishKeys": [],
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/europe-translations.json",
+            "reviewedOn": "2026-10-02",
+            "linguisticReview": {
+                "report": "coverage/research/review-europe-a.json",
+                "reviewer": "benchmark_es (independent from author benchmark_de)",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "mad",
+            "name": "Madurese",
+            "script": "Latin",
+            "writtenForm": "Madurese in the Latin script",
+            "provenance": "subagent-translation",
+            "reviewPriority": "high",
+            "reviewNotes": "Remaining review concerns polite-register consistency, passive morphology and technical compounds; error/request/timeout/busy-server vocabulary is now externally corroborated.",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "retain",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "mad"
+        },
+        {
+            "tag": "mai",
+            "name": "Maithili",
+            "script": "Devanagari",
+            "writtenForm": "Maithili in the Devanagari script",
+            "provenance": "subagent-translation",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "clear",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "mai"
+        },
+        {
+            "tag": "mg",
+            "name": "Malagasy",
+            "script": "Latin",
+            "writtenForm": "Standard Malagasy",
+            "provenance": "subagent-translation",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "clear",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "mg"
+        },
+        {
+            "tag": "mi",
+            "name": "Māori",
+            "script": "Latin",
+            "writtenForm": "Standard written New Zealand Māori with macrons",
+            "languageId": "mi",
+            "reviewNotes": "Uses established pūtirotiro/tūmau/paetukutuku vocabulary and explanatory technical clauses. Self-review clarified the number of connections; fluent idiom review remains useful.",
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/asia-pacific-translations.json",
+            "reviewedOn": "2026-10-02",
+            "reviewPriority": "additional-fluency-review",
+            "linguisticReview": {
+                "report": "coverage/research/review-asia-pacific.json",
+                "reviewer": "benchmark_es (independent from author benchmark_vi)",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "mk",
+            "name": "Macedonian",
+            "script": "Cyrillic",
+            "writtenForm": "Standard Macedonian",
+            "languageId": "mk",
+            "reviewNotes": "Direct Macedonian translation with source-semantic review.",
+            "unchangedEnglishKeys": [],
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/europe-translations.json",
+            "reviewedOn": "2026-10-02",
+            "linguisticReview": {
+                "report": "coverage/research/review-europe-b.json",
+                "reviewer": "benchmark_vi",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "ml",
+            "name": "Malayalam",
+            "script": "Malayalam",
+            "writtenForm": "Standard Malayalam",
+            "provenance": "subagent-translation",
+            "languageId": "ml"
+        },
+        {
+            "tag": "mn",
+            "name": "Mongolian",
+            "script": "Cyrillic",
+            "writtenForm": "Standard Mongolian in the Cyrillic script",
+            "provenance": "subagent-translation",
+            "languageId": "mn"
+        },
+        {
+            "tag": "mr",
+            "name": "Marathi",
+            "script": "Devanagari",
+            "writtenForm": "Standard Marathi",
+            "provenance": "subagent-translation",
+            "languageId": "mr"
+        },
+        {
+            "tag": "ms",
+            "name": "Malay",
+            "script": "Latin",
+            "writtenForm": "Standard Malay (Rumi)",
+            "provenance": "subagent-translation",
+            "languageId": "ms"
+        },
+        {
+            "tag": "mt",
+            "name": "Maltese",
+            "script": "Latin",
+            "writtenForm": "Standard Maltese",
+            "languageId": "mt",
+            "reviewNotes": "Maltese morphology and conventional browser/server loanwords reviewed.",
+            "unchangedEnglishKeys": [],
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/europe-translations.json",
+            "reviewedOn": "2026-10-02",
+            "linguisticReview": {
+                "report": "coverage/research/review-europe-b.json",
+                "reviewer": "benchmark_vi",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "my",
+            "name": "Burmese",
+            "script": "Myanmar",
+            "writtenForm": "Standard Burmese",
+            "provenance": "subagent-translation",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "clear",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "my"
+        },
+        {
+            "tag": "nb",
+            "name": "Norwegian Bokmål",
+            "script": "Latin",
+            "writtenForm": "Norwegian Bokmål",
+            "provenance": "subagent-translation",
+            "languageId": "no"
+        },
+        {
+            "tag": "nd",
+            "reviewNotes": "Direct Zimbabwean Ndebele draft. Similarities to Zulu follow language relationships, not copied text. Not suitable as a replacement for Southern Ndebele (nr).",
+            "name": "North Ndebele",
+            "script": "Latin",
+            "writtenForm": "Zimbabwean isiNdebele / Northern Ndebele; Latin script",
+            "languageId": "nd",
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/americas-africa-translations.json",
+            "reviewedOn": "2026-10-02",
+            "reviewPriority": "additional-fluency-review",
+            "linguisticReview": {
+                "report": "coverage/research/review-americas-africa.json",
+                "reviewer": "benchmark_vi",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "ne",
+            "name": "Nepali",
+            "script": "Devanagari",
+            "writtenForm": "Standard Nepali",
+            "provenance": "subagent-translation",
+            "languageId": "ne"
+        },
+        {
+            "tag": "nl",
+            "name": "Dutch",
+            "script": "Latin",
+            "writtenForm": "Standard Dutch",
+            "provenance": "subagent-translation",
+            "languageId": "nl"
+        },
+        {
+            "tag": "nn",
+            "name": "Norwegian Nynorsk",
+            "script": "Latin",
+            "writtenForm": "Norwegian Nynorsk",
+            "languageId": "no",
+            "reviewNotes": "Nynorsk orthography and morphology maintained; separate written form from existing Bokmål.",
+            "unchangedEnglishKeys": [],
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/europe-translations.json",
+            "reviewedOn": "2026-10-02",
+            "linguisticReview": {
+                "report": "coverage/research/review-europe-a.json",
+                "reviewer": "benchmark_es (independent from author benchmark_de)",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "no",
+            "name": "Norwegian (Bokmål default)",
+            "script": "Latin",
+            "writtenForm": "Norwegian Bokmål",
+            "provenance": "reviewed-target-alias",
+            "languageId": "no",
+            "aliasOf": "nb"
+        },
+        {
+            "tag": "nso",
+            "name": "Northern Sotho",
+            "script": "Latin",
+            "writtenForm": "Standard Sepedi",
+            "provenance": "subagent-translation",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "clear",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "nso"
+        },
+        {
+            "tag": "ny",
+            "name": "Chichewa",
+            "script": "Latin",
+            "writtenForm": "Standard Chichewa",
+            "provenance": "subagent-translation",
+            "reviewPriority": "additional-fluency-review",
+            "reviewNotes": "Remaining concern is idiomatic browser/server/domain loanwords and configuration, timeout and connection-count clauses; basic error, submission and JavaScript instructions have published support.",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "retain",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "ny"
+        },
+        {
+            "tag": "om",
+            "name": "Oromo",
+            "script": "Latin",
+            "writtenForm": "Afaan Oromo (Qubee)",
+            "provenance": "subagent-translation",
+            "reviewPriority": "additional-fluency-review",
+            "reviewNotes": "Core browser/server/request and timeout terminology is corroborated; protocol-enablement wording and the longer origin-server/load clauses still need independent grammatical review.",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "retain",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "om"
+        },
+        {
+            "tag": "or",
+            "name": "Odia",
+            "script": "Oriya",
+            "writtenForm": "Standard Odia",
+            "provenance": "subagent-translation",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "clear",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "or"
+        },
+        {
+            "tag": "pa",
+            "name": "Punjabi",
+            "script": "Gurmukhi",
+            "writtenForm": "Punjabi in the Gurmukhi script",
+            "provenance": "subagent-translation",
+            "languageId": "pa"
+        },
+        {
+            "tag": "pap",
+            "reviewNotes": "Uses phonemic Curaçao/Bonaire spellings (ku, sirbidó, konfigurashon). Does not provide the distinct Aruban Papiamento spelling standard; pap-aw needs separate translation. pap-cw may route to this file. Technical vocabulary reviewed against published Papiamentu MediaWiki strings.",
+            "name": "Papiamento",
+            "script": "Latin",
+            "writtenForm": "Papiamentu; Curaçao/Bonaire orthography; Latin script",
+            "languageId": "pap",
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/americas-africa-translations.json",
+            "reviewedOn": "2026-10-02",
+            "reviewPriority": "additional-fluency-review",
+            "linguisticReview": {
+                "report": "coverage/research/review-americas-africa.json",
+                "reviewer": "benchmark_vi",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "pl",
+            "name": "Polish",
+            "script": "Latin",
+            "writtenForm": "Standard Polish",
+            "provenance": "subagent-translation",
+            "languageId": "pl"
+        },
+        {
+            "tag": "prs",
+            "name": "Dari (Windows routing)",
+            "script": "Arabic",
+            "writtenForm": "Formal written Dari Persian",
+            "languageId": "fa",
+            "reviewNotes": "Afghan vocabulary and register; regional Persian profile. A prs alias can point here; routing does not require a duplicate translation.",
+            "provenance": "reviewed-target-alias",
+            "authorshipReport": "coverage/research/asia-pacific-translations.json",
+            "reviewedOn": "2026-10-02",
+            "reviewPriority": "additional-fluency-review",
+            "linguisticReview": {
+                "report": "coverage/research/review-asia-pacific.json",
+                "reviewer": "benchmark_es (independent from author benchmark_vi)",
+                "reviewedOn": "2026-10-02"
+            },
+            "aliasOf": "fa-af"
+        },
+        {
+            "tag": "ps",
+            "name": "Pashto",
+            "script": "Arabic",
+            "writtenForm": "Standard written Pashto",
+            "provenance": "subagent-translation",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "clear",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "ps"
+        },
+        {
+            "tag": "pt",
+            "name": "Portuguese",
+            "script": "Latin",
+            "writtenForm": "Brazilian Portuguese",
+            "provenance": "subagent-translation",
+            "languageId": "pt"
+        },
+        {
+            "tag": "qu",
+            "name": "Quechua",
+            "script": "Latin",
+            "writtenForm": "Southern Quechua",
+            "provenance": "subagent-translation",
+            "reviewPriority": "additional-fluency-review",
+            "reviewNotes": "Browser/server and basic permission/retry terminology is corroborated; morphology in the long origin-server, unexpected-load and protocol-enable clauses still lacks adequate independent comparison in the selected Southern Quechua written form.",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "retain",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "qu"
+        },
+        {
+            "tag": "raj",
+            "name": "Rajasthani",
+            "script": "Devanagari",
+            "writtenForm": "Written Rajasthani (Marwari)",
+            "provenance": "subagent-translation",
+            "reviewPriority": "high",
+            "reviewNotes": "Review agreement and idiom in borrowed technical-noun phrases, especially website suspension, redirect passives and excessive-request clauses. Core Marwari negation, possessives and case markers are now attested.",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "retain",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "raj"
+        },
+        {
+            "tag": "rn",
+            "name": "Kirundi",
+            "script": "Latin",
+            "writtenForm": "Standard Kirundi",
+            "provenance": "subagent-translation",
+            "reviewPriority": "additional-fluency-review",
+            "reviewNotes": "Narrowed to browser/server/domain terminology and complex network, timeout and configuration clauses; request, regret and permission vocabulary is corroborated.",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "retain",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "rn"
+        },
+        {
+            "tag": "ro",
+            "name": "Romanian",
+            "script": "Latin",
+            "writtenForm": "Standard Romanian",
+            "provenance": "subagent-translation",
+            "languageId": "ro"
+        },
+        {
+            "tag": "ru",
+            "name": "Russian",
+            "script": "Cyrillic",
+            "writtenForm": "Standard Russian",
+            "provenance": "subagent-translation",
+            "languageId": "ru"
+        },
+        {
+            "tag": "rw",
+            "name": "Kinyarwanda",
+            "script": "Latin",
+            "writtenForm": "Standard Kinyarwanda",
+            "provenance": "subagent-translation",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "clear",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "rw"
+        },
+        {
+            "tag": "sa",
+            "name": "Sanskrit",
+            "script": "Devanagari",
+            "writtenForm": "Contemporary written Sanskrit in Devanagari",
+            "languageId": "sa",
+            "reviewNotes": "Technical terms include explicit server/browser loans; gender-inclusive forms are verbose. Self-review repaired agreement in configuration title. Specialist modern-technical Sanskrit review is useful.",
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/asia-pacific-translations.json",
+            "reviewedOn": "2026-10-02",
+            "reviewPriority": "additional-fluency-review",
+            "linguisticReview": {
+                "report": "coverage/research/review-asia-pacific.json",
+                "reviewer": "benchmark_es (independent from author benchmark_vi)",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "sco",
+            "name": "Scots",
+            "script": "Latin",
+            "writtenForm": "Modern written Scots, broadly Central Scots",
+            "languageId": "sco",
+            "reviewNotes": "Conservative contemporary Scots with shared English vocabulary where correct; not Scottish English alone. No single universally fixed Scots technical orthography; technical loans retained.",
+            "unchangedEnglishKeys": [
+                "error.default.possible_causes"
+            ],
+            "unchangedEnglishRationale": "The phrase “Possible causes include:” consists of words and syntax shared with Scots; forced respelling would not improve fidelity.",
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/europe-translations.json",
+            "reviewedOn": "2026-10-02",
+            "reviewPriority": "additional-fluency-review",
+            "linguisticReview": {
+                "report": "coverage/research/review-europe-b.json",
+                "reviewer": "benchmark_vi",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "sd",
+            "name": "Sindhi",
+            "script": "Arabic",
+            "writtenForm": "Sindhi in the Arabic script",
+            "provenance": "subagent-translation",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "clear",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "sd"
+        },
+        {
+            "tag": "si",
+            "name": "Sinhala",
+            "script": "Sinhala",
+            "writtenForm": "Standard Sinhala",
+            "provenance": "subagent-translation",
+            "languageId": "si"
+        },
+        {
+            "tag": "sk",
+            "name": "Slovak",
+            "script": "Latin",
+            "writtenForm": "Standard Slovak",
+            "provenance": "subagent-translation",
+            "languageId": "sk"
+        },
+        {
+            "tag": "sl",
+            "name": "Slovenian",
+            "script": "Latin",
+            "writtenForm": "Standard Slovenian",
+            "languageId": "sl",
+            "reviewNotes": "Source distinctions and URL clause reviewed.",
+            "unchangedEnglishKeys": [],
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/europe-translations.json",
+            "reviewedOn": "2026-10-02",
+            "linguisticReview": {
+                "report": "coverage/research/review-europe-a.json",
+                "reviewer": "benchmark_es (independent from author benchmark_de)",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "sm",
+            "name": "Samoan",
+            "script": "Latin",
+            "writtenForm": "Standard written Samoan",
+            "languageId": "sm",
+            "reviewNotes": "Uses English server/domain/protocol loans where a speculative coinage would obscure meaning. Review technical register, glottal-stop/macron conventions and longer clauses.",
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/asia-pacific-translations.json",
+            "reviewedOn": "2026-10-02",
+            "reviewPriority": "additional-fluency-review",
+            "linguisticReview": {
+                "report": "coverage/research/review-asia-pacific.json",
+                "reviewer": "benchmark_es (independent from author benchmark_vi)",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "sn",
+            "name": "Shona",
+            "script": "Latin",
+            "writtenForm": "Standard Shona",
+            "provenance": "subagent-translation",
+            "reviewPriority": "additional-fluency-review",
+            "reviewNotes": "Remaining review is the spelling/register of bhurawuza, sevha and domeini and the original server-load, protocol and connection-count clauses; permission and ordinary browser/opening instructions are corroborated.",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "retain",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "sn"
+        },
+        {
+            "tag": "so",
+            "name": "Somali",
+            "script": "Latin",
+            "writtenForm": "Standard Somali",
+            "provenance": "subagent-translation",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "clear",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "so"
+        },
+        {
+            "tag": "sq",
+            "name": "Albanian",
+            "script": "Latin",
+            "writtenForm": "Standard Albanian",
+            "provenance": "subagent-translation",
+            "languageId": "sq"
+        },
+        {
+            "tag": "sr",
+            "name": "Serbian",
+            "script": "Cyrillic",
+            "writtenForm": "Serbian in the Cyrillic script",
+            "provenance": "subagent-translation",
+            "languageId": "sr"
+        },
+        {
+            "tag": "sr-latn",
+            "name": "Serbian (Latin)",
+            "script": "Latin",
+            "writtenForm": "Standard Serbian, Latin script (Ekavian)",
+            "languageId": "sr",
+            "reviewNotes": "Authorized same-language transliteration of existing sr, after English-source semantic review; sr.json unchanged.",
+            "unchangedEnglishKeys": [],
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/europe-translations.json",
+            "reviewedOn": "2026-10-02",
+            "linguisticReview": {
+                "report": "coverage/research/review-europe-b.json",
+                "reviewer": "benchmark_vi",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "ss",
+            "reviewNotes": "Direct draft; Eswatini/South African technical idiom and agreement merit review. Removed a duplicated owner construction in both suspension descriptions.",
+            "name": "Swati",
+            "script": "Latin",
+            "writtenForm": "Standard siSwati; Latin script",
+            "languageId": "ss",
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/americas-africa-translations.json",
+            "reviewedOn": "2026-10-02",
+            "reviewPriority": "additional-fluency-review",
+            "linguisticReview": {
+                "report": "coverage/research/review-americas-africa.json",
+                "reviewer": "benchmark_vi",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "st",
+            "reviewNotes": "Direct draft; technical phrasing and some noun-class constructions merit review. Site unavailable retains the inability-to-use meaning; timeout explicitly refers to an elapsed wait limit.",
+            "name": "Southern Sotho",
+            "script": "Latin",
+            "writtenForm": "Standard Sesotho / Southern Sotho; Latin script",
+            "languageId": "st",
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/americas-africa-translations.json",
+            "reviewedOn": "2026-10-02",
+            "reviewPriority": "additional-fluency-review",
+            "linguisticReview": {
+                "report": "coverage/research/review-americas-africa.json",
+                "reviewer": "benchmark_vi",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "su",
+            "name": "Sundanese",
+            "script": "Latin",
+            "writtenForm": "Sundanese in the Latin script",
+            "provenance": "subagent-translation",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "clear",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "su"
+        },
+        {
+            "tag": "sv",
+            "name": "Swedish",
+            "script": "Latin",
+            "writtenForm": "Standard Swedish",
+            "provenance": "subagent-translation",
+            "languageId": "sv"
+        },
+        {
+            "tag": "sw",
+            "name": "Swahili",
+            "script": "Latin",
+            "writtenForm": "Standard Kiswahili",
+            "provenance": "subagent-translation",
+            "languageId": "sw"
+        },
+        {
+            "tag": "ta",
+            "name": "Tamil",
+            "script": "Tamil",
+            "writtenForm": "Standard written Tamil",
+            "provenance": "subagent-translation",
+            "languageId": "ta"
+        },
+        {
+            "tag": "te",
+            "name": "Telugu",
+            "script": "Telugu",
+            "writtenForm": "Standard Telugu",
+            "provenance": "subagent-translation",
+            "languageId": "te"
+        },
+        {
+            "tag": "tet",
+            "name": "Tetum",
+            "script": "Latin",
+            "writtenForm": "Tetum Prasa, contemporary official orthography",
+            "languageId": "tet",
+            "reviewNotes": "Portuguese-derived technical vocabulary within Tetum syntax. Review accent conventions, origin-server wording and subordinate clauses.",
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/asia-pacific-translations.json",
+            "reviewedOn": "2026-10-02",
+            "reviewPriority": "additional-fluency-review",
+            "linguisticReview": {
+                "report": "coverage/research/review-asia-pacific.json",
+                "reviewer": "benchmark_es (independent from author benchmark_vi)",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "tg",
+            "name": "Tajik",
+            "script": "Cyrillic",
+            "writtenForm": "Tajik in the Cyrillic script",
+            "provenance": "subagent-translation",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "clear",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "tg"
+        },
+        {
+            "tag": "th",
+            "name": "Thai",
+            "script": "Thai",
+            "writtenForm": "Standard Thai",
+            "provenance": "subagent-translation",
+            "languageId": "th"
+        },
+        {
+            "tag": "ti",
+            "name": "Tigrinya",
+            "script": "Ethiopic",
+            "writtenForm": "Standard written Tigrinya",
+            "provenance": "subagent-translation",
+            "reviewPriority": "additional-fluency-review",
+            "reviewNotes": "Formal plural address and basic error/website terminology are corroborated. Technical configuration, protocol-enablement and long origin-server/load phrasing remain insufficiently supported.",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "retain",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "ti"
+        },
+        {
+            "tag": "tk",
+            "name": "Turkmen",
+            "script": "Latin",
+            "writtenForm": "Turkmen in the Latin script",
+            "provenance": "subagent-translation",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "clear",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "tk"
+        },
+        {
+            "tag": "tl",
+            "name": "Tagalog (Filipino UI compatibility)",
+            "script": "Latin",
+            "writtenForm": "Standard Filipino",
+            "provenance": "reviewed-target-alias",
+            "languageId": "fil",
+            "aliasOf": "fil"
+        },
+        {
+            "tag": "tn",
+            "reviewNotes": "Direct draft; changed the unavailable title from a visibility expression to inability to use. Technical register and lengthy constructions merit review.",
+            "name": "Tswana",
+            "script": "Latin",
+            "writtenForm": "Standard Setswana; Latin script",
+            "languageId": "tn",
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/americas-africa-translations.json",
+            "reviewedOn": "2026-10-02",
+            "reviewPriority": "additional-fluency-review",
+            "linguisticReview": {
+                "report": "coverage/research/review-americas-africa.json",
+                "reviewer": "benchmark_vi",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "to",
+            "name": "Tongan",
+            "script": "Latin",
+            "writtenForm": "Standard written Tongan with fakauʻa and macrons",
+            "languageId": "to",
+            "reviewNotes": "Uses explanatory browser/origin-server phrases plus domain/protocol loans. Review technical register and noun/possessive phrasing.",
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/asia-pacific-translations.json",
+            "reviewedOn": "2026-10-02",
+            "reviewPriority": "additional-fluency-review",
+            "linguisticReview": {
+                "report": "coverage/research/review-asia-pacific.json",
+                "reviewer": "benchmark_es (independent from author benchmark_vi)",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "tpi",
+            "name": "Tok Pisin",
+            "script": "Latin",
+            "writtenForm": "Written Tok Pisin",
+            "languageId": "tpi",
+            "reviewNotes": "Uses descriptive origin-server wording and established English-derived technical loans. Further review should focus on request/connection wording and best-versus-better idiom.",
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/asia-pacific-translations.json",
+            "reviewedOn": "2026-10-02",
+            "reviewPriority": "additional-fluency-review",
+            "linguisticReview": {
+                "report": "coverage/research/review-asia-pacific.json",
+                "reviewer": "benchmark_es (independent from author benchmark_vi)",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "tr",
+            "name": "Turkish",
+            "script": "Latin",
+            "writtenForm": "Standard Turkish",
+            "provenance": "existing-translation-reviewed",
+            "languageId": "tr"
+        },
+        {
+            "tag": "ts",
+            "reviewNotes": "Direct draft; noun-class agreement and technical terminology remain review-sensitive. This is not a Zulu substitution.",
+            "name": "Tsonga",
+            "script": "Latin",
+            "writtenForm": "Standard Xitsonga; Latin script",
+            "languageId": "ts",
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/americas-africa-translations.json",
+            "reviewedOn": "2026-10-02",
+            "reviewPriority": "additional-fluency-review",
+            "linguisticReview": {
+                "report": "coverage/research/review-americas-africa.json",
+                "reviewer": "benchmark_vi",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "tt",
+            "name": "Tatar",
+            "script": "Cyrillic",
+            "writtenForm": "Standard Tatar, Cyrillic script",
+            "languageId": "tt",
+            "reviewNotes": "Distinct Tatar vocabulary and Cyrillic letters; not Bashkir or another Turkic substitute. Idiom and technical-register choices merit additional review.",
+            "unchangedEnglishKeys": [],
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/europe-translations.json",
+            "reviewedOn": "2026-10-02",
+            "reviewPriority": "additional-fluency-review",
+            "linguisticReview": {
+                "report": "coverage/research/review-europe-b.json",
+                "reviewer": "benchmark_vi",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "ug",
+            "name": "Uyghur",
+            "script": "Arabic",
+            "writtenForm": "Uyghur in the Arabic script",
+            "provenance": "subagent-translation",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "clear",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "ug"
+        },
+        {
+            "tag": "uk",
+            "name": "Ukrainian",
+            "script": "Cyrillic",
+            "writtenForm": "Standard Ukrainian",
+            "provenance": "subagent-translation",
+            "languageId": "uk"
+        },
+        {
+            "tag": "ur",
+            "name": "Urdu",
+            "script": "Arabic",
+            "writtenForm": "Standard Urdu",
+            "provenance": "subagent-translation",
+            "languageId": "ur"
+        },
+        {
+            "tag": "uz",
+            "name": "Uzbek",
+            "script": "Latin",
+            "writtenForm": "Uzbek in the Latin script",
+            "provenance": "subagent-translation",
+            "languageId": "uz"
+        },
+        {
+            "tag": "vi",
+            "name": "Vietnamese",
+            "script": "Latin",
+            "writtenForm": "Standard Vietnamese",
+            "provenance": "existing-translation-reviewed",
+            "languageId": "vi"
+        },
+        {
+            "tag": "war",
+            "name": "Waray",
+            "script": "Latin",
+            "writtenForm": "Standard written Waray",
+            "languageId": "war",
+            "reviewNotes": "Self-review repaired an incorrect apology verb and a domain/IP preposition. Review longer technical clauses and choice of borrowed terminology.",
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/asia-pacific-translations.json",
+            "reviewedOn": "2026-10-02",
+            "reviewPriority": "additional-fluency-review",
+            "linguisticReview": {
+                "report": "coverage/research/review-asia-pacific.json",
+                "reviewer": "benchmark_es (independent from author benchmark_vi)",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "wo",
+            "name": "Wolof",
+            "script": "Latin",
+            "writtenForm": "Wolof in the Latin script",
+            "provenance": "subagent-translation",
+            "reviewPriority": "additional-fluency-review",
+            "reviewNotes": "Long setup, protocol-enablement and origin-server/load clauses, including their noun-class agreement, still require stronger sentence-level support. Basic browser/server, permissions and retry terms are corroborated.",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "retain",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "wo"
+        },
+        {
+            "tag": "xh",
+            "name": "Xhosa",
+            "script": "Latin",
+            "writtenForm": "Standard isiXhosa",
+            "provenance": "subagent-translation",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "clear",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "xh"
+        },
+        {
+            "tag": "yo",
+            "name": "Yoruba",
+            "script": "Latin",
+            "writtenForm": "Standard Yoruba",
+            "provenance": "subagent-translation",
+            "reviewPriority": "additional-fluency-review",
+            "reviewNotes": "Narrowed to modern tone marks and browser/server/protocol idiom; permission, timeout and respectful-address constructions are corroborated, and the readiness expression was corrected.",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "retain",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "yo"
+        },
+        {
+            "tag": "zh",
+            "name": "Chinese",
+            "script": "Han",
+            "writtenForm": "Standard written Chinese in simplified characters",
+            "provenance": "subagent-translation",
+            "languageId": "zh",
+            "scriptCode": "Hans"
+        },
+        {
+            "tag": "zh-hant",
+            "name": "Chinese (Traditional, Taiwan standard)",
+            "script": "Han",
+            "writtenForm": "Traditional Chinese, Taiwan standard written usage",
+            "languageId": "zh",
+            "reviewNotes": "Direct translation; Traditional character forms and Taiwan terminology. Distinct profile of Chinese; not an additional language identity.",
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/asia-pacific-translations.json",
+            "reviewedOn": "2026-10-02",
+            "scriptCode": "Hant",
+            "linguisticReview": {
+                "report": "coverage/research/review-asia-pacific.json",
+                "reviewer": "benchmark_es (independent from author benchmark_vi)",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "zh-hant-hk",
+            "name": "Chinese (Traditional, Hong Kong routing)",
+            "script": "Han",
+            "writtenForm": "Traditional Chinese with Hong Kong standard written terminology",
+            "languageId": "zh",
+            "reviewNotes": "Formal written Chinese, not colloquial written Cantonese. Uses Hong Kong domain/request/data/owner vocabulary and character preferences.",
+            "provenance": "reviewed-target-alias",
+            "authorshipReport": "coverage/research/asia-pacific-translations.json",
+            "reviewedOn": "2026-10-02",
+            "scriptCode": "Hant",
+            "linguisticReview": {
+                "report": "coverage/research/review-asia-pacific.json",
+                "reviewer": "benchmark_es (independent from author benchmark_vi)",
+                "reviewedOn": "2026-10-02"
+            },
+            "aliasOf": "zh-hk"
+        },
+        {
+            "tag": "zh-hant-mo",
+            "name": "Chinese (Traditional, Macao routing)",
+            "script": "Han",
+            "writtenForm": "Traditional Chinese with Hong Kong standard written terminology",
+            "languageId": "zh",
+            "reviewNotes": "Formal written Chinese, not colloquial written Cantonese. Uses Hong Kong domain/request/data/owner vocabulary and character preferences.",
+            "provenance": "reviewed-target-alias",
+            "authorshipReport": "coverage/research/asia-pacific-translations.json",
+            "reviewedOn": "2026-10-02",
+            "scriptCode": "Hant",
+            "linguisticReview": {
+                "report": "coverage/research/review-asia-pacific.json",
+                "reviewer": "benchmark_es (independent from author benchmark_vi)",
+                "reviewedOn": "2026-10-02"
+            },
+            "aliasOf": "zh-hk"
+        },
+        {
+            "tag": "zh-hant-tw",
+            "name": "Chinese (Traditional, Taiwan routing)",
+            "script": "Han",
+            "writtenForm": "Traditional Chinese, Taiwan standard written usage",
+            "languageId": "zh",
+            "reviewNotes": "Direct translation; Traditional character forms and Taiwan terminology. Distinct profile of Chinese; not an additional language identity.",
+            "provenance": "reviewed-target-alias",
+            "authorshipReport": "coverage/research/asia-pacific-translations.json",
+            "reviewedOn": "2026-10-02",
+            "scriptCode": "Hant",
+            "linguisticReview": {
+                "report": "coverage/research/review-asia-pacific.json",
+                "reviewer": "benchmark_es (independent from author benchmark_vi)",
+                "reviewedOn": "2026-10-02"
+            },
+            "aliasOf": "zh-hant"
+        },
+        {
+            "tag": "zh-hk",
+            "name": "Chinese (Traditional, Hong Kong)",
+            "script": "Han",
+            "writtenForm": "Traditional Chinese with Hong Kong standard written terminology",
+            "languageId": "zh",
+            "reviewNotes": "Formal written Chinese, not colloquial written Cantonese. Uses Hong Kong domain/request/data/owner vocabulary and character preferences.",
+            "provenance": "subagent-translation",
+            "authorshipReport": "coverage/research/asia-pacific-translations.json",
+            "reviewedOn": "2026-10-02",
+            "scriptCode": "Hant",
+            "linguisticReview": {
+                "report": "coverage/research/review-asia-pacific.json",
+                "reviewer": "benchmark_es (independent from author benchmark_vi)",
+                "reviewedOn": "2026-10-02"
+            }
+        },
+        {
+            "tag": "zh-mo",
+            "name": "Chinese (Macao routing)",
+            "script": "Han",
+            "writtenForm": "Traditional Chinese with Hong Kong standard written terminology",
+            "languageId": "zh",
+            "reviewNotes": "Formal written Chinese, not colloquial written Cantonese. Uses Hong Kong domain/request/data/owner vocabulary and character preferences.",
+            "provenance": "reviewed-target-alias",
+            "authorshipReport": "coverage/research/asia-pacific-translations.json",
+            "reviewedOn": "2026-10-02",
+            "scriptCode": "Hant",
+            "linguisticReview": {
+                "report": "coverage/research/review-asia-pacific.json",
+                "reviewer": "benchmark_es (independent from author benchmark_vi)",
+                "reviewedOn": "2026-10-02"
+            },
+            "aliasOf": "zh-hk"
+        },
+        {
+            "tag": "zh-tw",
+            "name": "Chinese (Taiwan routing)",
+            "script": "Han",
+            "writtenForm": "Traditional Chinese, Taiwan standard written usage",
+            "languageId": "zh",
+            "reviewNotes": "Direct translation; Traditional character forms and Taiwan terminology. Distinct profile of Chinese; not an additional language identity.",
+            "provenance": "reviewed-target-alias",
+            "authorshipReport": "coverage/research/asia-pacific-translations.json",
+            "reviewedOn": "2026-10-02",
+            "scriptCode": "Hant",
+            "linguisticReview": {
+                "report": "coverage/research/review-asia-pacific.json",
+                "reviewer": "benchmark_es (independent from author benchmark_vi)",
+                "reviewedOn": "2026-10-02"
+            },
+            "aliasOf": "zh-hant"
+        },
+        {
+            "tag": "zu",
+            "name": "Zulu",
+            "script": "Latin",
+            "writtenForm": "Standard isiZulu",
+            "provenance": "subagent-translation",
+            "usageReview": {
+                "reviewedOn": "2026-10-02",
+                "decision": "clear",
+                "report": "translation-usage-review.json"
+            },
+            "languageId": "zu"
+        }
+    ],
+    "substitutionReason": "Subagents could not reliably compose and review complete technical messages in the original languages without invented wording or leakage from related languages. The user chose 100 complete languages over preserving gaps in the original roster.",
+    "substitutions": [
+        {
+            "originalTag": "bal",
+            "originalName": "Balochi",
+            "replacementTag": "he",
+            "replacementName": "Hebrew"
+        },
+        {
+            "originalTag": "ctg",
+            "originalName": "Chittagonian",
+            "replacementTag": "sq",
+            "replacementName": "Albanian"
+        },
+        {
+            "originalTag": "ki",
+            "originalName": "Kikuyu",
+            "replacementTag": "hy",
+            "replacementName": "Armenian"
+        },
+        {
+            "originalTag": "kg",
+            "originalName": "Kongo",
+            "replacementTag": "fi",
+            "replacementName": "Finnish"
+        },
+        {
+            "originalTag": "mos",
+            "originalName": "Mossi",
+            "replacementTag": "da",
+            "replacementName": "Danish"
+        },
+        {
+            "originalTag": "awa",
+            "originalName": "Awadhi",
+            "replacementTag": "sk",
+            "replacementName": "Slovak"
+        },
+        {
+            "originalTag": "mag",
+            "originalName": "Magahi",
+            "replacementTag": "nb",
+            "replacementName": "Norwegian Bokmål"
+        },
+        {
+            "originalTag": "sat",
+            "originalName": "Santali",
+            "replacementTag": "ca",
+            "replacementName": "Catalan"
+        },
+        {
+            "originalTag": "skr",
+            "originalName": "Saraiki",
+            "replacementTag": "lo",
+            "replacementName": "Lao"
+        },
+        {
+            "originalTag": "za",
+            "originalName": "Zhuang",
+            "replacementTag": "mn",
+            "replacementName": "Mongolian"
+        },
+        {
+            "originalTag": "ks",
+            "originalName": "Kashmiri",
+            "replacementTag": "be",
+            "replacementName": "Belarusian"
+        },
+        {
+            "originalTag": "syl",
+            "originalName": "Sylheti",
+            "replacementTag": "lt",
+            "replacementName": "Lithuanian"
+        }
+    ],
+    "baselineTags": [
+        "af",
+        "ak",
+        "am",
+        "ar",
+        "as",
+        "az",
+        "be",
+        "bg",
+        "bho",
+        "bn",
+        "ca",
+        "ceb",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "fa",
+        "ff",
+        "fi",
+        "fil",
+        "fr",
+        "gu",
+        "ha",
+        "he",
+        "hi",
+        "hil",
+        "hmn",
+        "hne",
+        "ht",
+        "hu",
+        "hy",
+        "id",
+        "ig",
+        "ilo",
+        "it",
+        "ja",
+        "jv",
+        "kk",
+        "km",
+        "kn",
+        "ko",
+        "ku",
+        "lg",
+        "ln",
+        "lo",
+        "lt",
+        "mad",
+        "mai",
+        "mg",
+        "ml",
+        "mn",
+        "mr",
+        "ms",
+        "my",
+        "nb",
+        "ne",
+        "nl",
+        "nso",
+        "ny",
+        "om",
+        "or",
+        "pa",
+        "pl",
+        "ps",
+        "pt",
+        "qu",
+        "raj",
+        "rn",
+        "ro",
+        "ru",
+        "rw",
+        "sd",
+        "si",
+        "sk",
+        "sn",
+        "so",
+        "sq",
+        "sr",
+        "su",
+        "sv",
+        "sw",
+        "ta",
+        "te",
+        "tg",
+        "th",
+        "ti",
+        "tk",
+        "tr",
+        "ug",
+        "uk",
+        "ur",
+        "uz",
+        "vi",
+        "wo",
+        "xh",
+        "yo",
+        "zh",
+        "zu"
+    ],
+    "nginxDocumentation": true
+}

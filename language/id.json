@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Proses ini berjalan secara otomatis. Anda akan segera dialihkan ke tujuan yang Anda inginkan.",
+        "validate_browser": "Memverifikasi peramban Anda sebelum mengakses {http_host}",
+        "are_you_human_host": "Apakah Anda manusia? Verifikasi diperlukan untuk mengakses {http_host}",
+        "are_you_human": "Apakah Anda manusia? Verifikasi diperlukan untuk melanjutkan",
+        "enter_captcha_host": "Masukkan CAPTCHA di bawah ini untuk melanjutkan ke {http_host}:",
+        "enter_captcha": "Masukkan CAPTCHA di bawah ini untuk melanjutkan:",
+        "submit": "Kirim",
+        "try_again_later": "Situs web ini membutuhkan waktu lebih lama dari biasanya untuk dimuat. Anda dapat <a href=\"\">mencoba lagi</a> nanti",
+        "unexpected_error": "Sepertinya terjadi kesalahan yang tidak terduga. Silakan <a href=\"\">coba lagi</a> nanti",
+        "validation_complete": "<strong>Verifikasi selesai</strong>. Anda sedang dialihkan ke tujuan yang Anda inginkan. Klik <a href=\"\">di sini</a> jika halaman tidak dimuat ulang.",
+        "enable_javascript": "Verifikasi peramban bekerja paling baik saat JavaScript diaktifkan.",
+        "abnormal_activity": "Karena ada aktivitas yang tidak biasa, Anda perlu menyelesaikan tugas di bawah ini untuk melanjutkan",
+        "sorry_inconvenience": "Kami mohon maaf atas ketidaknyamanan yang terjadi",
+        "verifying": "Memverifikasi"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Kesalahan saat memuat {host}",
+            "refresh_text": "Silakan coba akses situs ini nanti atau klik <a href=\"\">di sini</a> untuk memuat ulang halaman.",
+            "unexpected_error": "Terjadi kesalahan yang tidak terduga saat memuat halaman ini",
+            "possible_causes": "Kemungkinan penyebabnya meliputi: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Situs web tidak tersedia",
+            "description": "Sayangnya, terjadi kesalahan yang tidak terduga saat memuat halaman ini. Kami mohon maaf atas ketidaknyamanan yang terjadi. Silakan coba akses situs ini nanti atau klik <a href=\"\">di sini</a> untuk memuat ulang halaman."
+        },
+        "suspended": {
+            "title": "Situs web ditangguhkan",
+            "description": "Sayangnya, situs web yang ingin Anda kunjungi tidak tersedia. Kami mohon maaf atas ketidaknyamanan yang terjadi. Jika Anda adalah <strong>pemilik</strong> situs web ini, silakan <a href=\"https://www.x4b.net/support\">hubungi dukungan</a>."
+        },
+        "over_bandwidth": {
+            "title": "Situs web ditangguhkan",
+            "description": "Sayangnya, situs web yang ingin Anda kunjungi tidak tersedia. Kami mohon maaf atas ketidaknyamanan yang terjadi. Jika Anda adalah <strong>pemilik</strong> situs web ini, silakan <a href=\"https://www.x4b.net/\">hubungi dukungan</a>."
+        },
+        "backend": {
+            "title": "Server tidak tersedia",
+            "description": "Server asal untuk sementara tidak tersedia sehingga tidak dapat memproses permintaan ini. Kami mohon maaf atas ketidaknyamanan yang terjadi.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Batas waktu permintaan habis",
+            "description": "Maaf, batas waktu habis saat memuat halaman web ini. Kami mohon maaf atas ketidaknyamanan yang mungkin ditimbulkan.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Akses ditolak",
+            "description": "Anda tidak memiliki izin untuk mengakses halaman ini. Jika ini merupakan kesalahan, silakan hubungi administrator situs web."
+        },
+        "upstream": {
+            "title": "Server tidak tersedia",
+            "description": "Saat ini tidak ada server yang daring dan tersedia untuk memproses permintaan ini. Kami mohon maaf atas ketidaknyamanan yang terjadi."
+        },
+        "invalid_configuration": {
+            "title": "Konfigurasi tidak valid",
+            "description": "Kami tidak dapat memproses permintaan ini karena kesalahan konfigurasi. Kami mohon maaf atas ketidaknyamanan yang terjadi."
+        },
+        "resource": {
+            "title": "Kesalahan akses",
+            "description_start": "Sayangnya, terjadi kesalahan saat memuat halaman ini.",
+            "cause_list": [
+                "Server asal mengalami beban tinggi yang tidak terduga dan saat ini tidak dapat memproses permintaan",
+                "Terjadi kesalahan yang tidak terduga pada server asal atau saat transmisi data"
+            ],
+            "description_end": "Kami mohon maaf atas ketidaknyamanan yang terjadi.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Kesalahan akses",
+            "description_start": "Sayangnya, terjadi kesalahan saat memuat halaman ini.",
+            "cause_list": [
+                "Alamat IP Anda terdeteksi membanjiri server dengan permintaan yang berlebihan",
+                "Server asal mengalami beban tinggi yang tidak terduga dan saat ini tidak dapat memproses permintaan",
+                "Terjadi kesalahan yang tidak terduga pada server asal atau saat transmisi data"
+            ],
+            "description_end": "Kami mohon maaf atas ketidaknyamanan yang terjadi.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Kesalahan akses",
+            "description_start": "Sayangnya, terjadi kesalahan saat memuat halaman ini.",
+            "cause_list": [
+                "Ada jumlah koneksi yang tidak wajar dari alamat IP Anda ke server",
+                "Server asal mengalami beban tinggi yang tidak terduga dan saat ini tidak dapat memproses permintaan",
+                "Terjadi kesalahan yang tidak terduga pada server asal atau saat transmisi data"
+            ],
+            "description_end": "Kami mohon maaf atas ketidaknyamanan yang terjadi.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Permintaan tidak valid",
+            "description": "Situs web ini dapat diakses melalui HTTPS. Anda mencoba terhubung melalui HTTP. Kami akan mencoba mengalihkan Anda sekarang. Jika Anda tidak dialihkan, tambahkan https:// di awal URL Anda, lalu coba lagi."
+        },
+        "timeout": {
+            "title": "Server tidak tersedia",
+            "description": "Maaf, batas waktu habis saat memuat halaman ini. Server mungkin sedang sibuk dan tidak dapat memproses permintaan Anda saat ini.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Domain tidak dikenal",
+            "description": "Domain ini tidak terdaftar untuk alamat IP ini.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Metode tidak didukung",
+            "description": "Metode HTTP yang diminta tidak diaktifkan untuk situs web ini.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Permintaan tidak aman",
+            "description": "Protokol HTTPS yang diminta tidak diaktifkan untuk situs web ini. Silakan perbarui peramban Anda.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Luring untuk pemeliharaan",
+            "description": "Situs web ini sedang tidak tersedia. Situs ini diperkirakan akan segera tersedia kembali.",
+            "refresh_enable": true
+        }
+    }
+}

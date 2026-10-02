@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Proses ya i stap hapen hem wan. I no longtaem bae oli sanem yu i go long pej we yu wantem luk.",
+        "validate_browser": "Mifala i stap jekem braosa blong yu bifo yu go long {http_host}",
+        "are_you_human_host": "Yu wan man tru? I nidim wan jek bifo yu go long {http_host}",
+        "are_you_human": "Yu wan man tru? I nidim wan jek bifo yu gohed",
+        "enter_captcha_host": "Plis raetem CAPTCHA daon ya blong gohed i go long {http_host}:",
+        "enter_captcha": "Plis raetem CAPTCHA daon ya blong gohed:",
+        "submit": "sendem",
+        "try_again_later": "Websaet ya i tekem moa taem blong open bitim oltaem. Yu save <a href=\"\">traem bakegen</a> afta",
+        "unexpected_error": "I luk olsem wan problem we mifala i no bin ting se bae i hapen i bin hapen. Plis <a href=\"\">traem bakegen</a> afta",
+        "validation_complete": "<strong>Jek i Finis</strong>. Naoia oli stap sanem yu i go long pej we yu wantem luk. Klik <a href=\"\">long ples ya</a> sapos pej i no open bakegen.",
+        "enable_javascript": "Jek blong braosa i wok bes taem JavaScript i stap on.",
+        "abnormal_activity": "From sam aksen we oli no olsem oltaem, yu mas finisim wok daon ya blong gohed",
+        "sorry_inconvenience": "Mifala i sori from eni trabol",
+        "verifying": "Mifala i stap jekem"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Problem blong open {host}",
+            "refresh_text": "Plis traem go long websaet afta, o klik <a href=\"\">long ples ya</a> blong openem pej bakegen.",
+            "unexpected_error": "Wan problem we mifala i no bin ting se bae i hapen i bin hapen taem pej ya i stap open",
+            "possible_causes": "Ol samting we maet oli mekem problem ya oli:",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Websaet i No Save Wok",
+            "description": "Sori, wan problem we mifala i no bin ting se bae i hapen i bin hapen taem pej ya i stap open. Mifala i sori from trabol ya. Plis traem go long websaet afta, o klik <a href=\"\">long ples ya</a> blong openem pej bakegen."
+        },
+        "suspended": {
+            "title": "Oli Stopem Websaet",
+            "description": "Sori, websaet we yu wantem luk i no save wok. Mifala i sori from trabol ya. Sapos yu <strong>ona</strong> blong websaet ya, plis <a href=\"https://www.x4b.net/support\">kontaktem tim blong help</a>."
+        },
+        "over_bandwidth": {
+            "title": "Oli Stopem Websaet",
+            "description": "Sori, websaet we yu wantem luk i no save wok. Mifala i sori from trabol ya. Sapos yu <strong>ona</strong> blong websaet ya, plis <a href=\"https://www.x4b.net/\">kontaktem tim blong help</a>."
+        },
+        "backend": {
+            "title": "Seva i No Save Wok",
+            "description": "Seva we data i kamaot long hem i no save wok blong wan smol taem, mekem se hem i no save ansarem rikwes ya. Mifala i sori from trabol ya.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Taem Blong Wet Long Rikwes i Finis",
+            "description": "Sori, taem blong wet i finis taem pej ya i stap open. Mifala i sori from eni trabol we samting ya i mekem.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Oli No Letem Yu Go Insaed",
+            "description": "Yu no gat raet blong go insaed long pej ya. Sapos hemia wan mistek, plis kontaktem man we i lukaotem websaet."
+        },
+        "upstream": {
+            "title": "Seva i No Save Wok",
+            "description": "Naoia i no gat seva we i stap long net mo i rere blong ansarem rikwes ya. Mifala i sori from trabol ya."
+        },
+        "invalid_configuration": {
+            "title": "Seting i No Stret",
+            "description": "Mifala i no save ansarem rikwes ya from wan problem long seting. Mifala i sori from trabol ya."
+        },
+        "resource": {
+            "title": "Problem Blong Go Insaed",
+            "description_start": "Sori, wan problem i hapen taem pej ya i stap open.",
+            "cause_list": [
+                "Seva we data i kamaot long hem i gat moa wok bitim wanem mifala i bin ting, mo naoia hem i no save ansarem ol rikwes",
+                "Wan problem we mifala i no bin ting se bae i hapen i bin hapen long seva we data i kamaot long hem, o taem oli stap sendem data"
+            ],
+            "description_end": "Mifala i sori from trabol ya.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Problem Blong Go Insaed",
+            "description_start": "Sori, wan problem i hapen taem pej ya i stap open.",
+            "cause_list": [
+                "Oli faenemaot se IP adres blong yu i stap sendem tumas rikwes i go long seva",
+                "Seva we data i kamaot long hem i gat moa wok bitim wanem mifala i bin ting, mo naoia hem i no save ansarem ol rikwes",
+                "Wan problem we mifala i no bin ting se bae i hapen i bin hapen long seva we data i kamaot long hem, o taem oli stap sendem data"
+            ],
+            "description_end": "Mifala i sori from trabol ya.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Problem Blong Go Insaed",
+            "description_start": "Sori, wan problem i hapen taem pej ya i stap open.",
+            "cause_list": [
+                "IP adres blong yu i gat wan namba blong koneksen long seva we i no olsem oltaem",
+                "Seva we data i kamaot long hem i gat moa wok bitim wanem mifala i bin ting, mo naoia hem i no save ansarem ol rikwes",
+                "Wan problem we mifala i no bin ting se bae i hapen i bin hapen long seva we data i kamaot long hem, o taem oli stap sendem data"
+            ],
+            "description_end": "Mifala i sori from trabol ya.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Rikwes i No Stret",
+            "description": "Yu save go long websaet ya wetem HTTPS. Yu bin traem konek wetem HTTP, mo naoia mifala bae i traem sanem yu i go long adres we i stret. Sapos yu no go, plis putum https:// long stat blong URL blong yu mo traem bakegen."
+        },
+        "timeout": {
+            "title": "Seva i No Save Wok",
+            "description": "Sori, taem blong wet i finis taem pej ya i stap open. Maet seva i bisi mo i no save ansarem rikwes blong yu naoia.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Domen we Oli No Save",
+            "description": "Domen ya i no rejista long IP adres ya.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Metod we i No Gat Sapot",
+            "description": "HTTP metod we yu rikwesem i no on long websaet ya.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Rikwes i No Sef",
+            "description": "HTTPS protokol we yu rikwesem i no on long websaet ya. Plis apdetem braosa blong yu.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "I No Long Net From Wok Blong Lukaotem",
+            "description": "Websaet ya i no save wok naoia. Mifala i ting se i no longtaem bae i wok bakegen.",
+            "refresh_enable": true
+        }
+    }
+}

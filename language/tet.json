@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Prosesu ida-ne'e hala'o automatikamente. Iha tempu badak, ita sei hetan rediresionamentu ba pájina ne'ebé ita hakarak vizita.",
+        "validate_browser": "Verifika ita-nia navegadór molok asesu ba {http_host}",
+        "are_you_human_host": "Ita ema ka lae? Presiza verifikasaun atu asesu ba {http_host}",
+        "are_you_human": "Ita ema ka lae? Presiza verifikasaun atu kontinua",
+        "enter_captcha_host": "Favor hatama CAPTCHA iha kraik atu kontinua ba {http_host}:",
+        "enter_captcha": "Favor hatama CAPTCHA iha kraik atu kontinua:",
+        "submit": "haruka",
+        "try_again_later": "Sítio web ida-ne'e presiza tempu naruk liu baibain atu karrega. Ita bele <a href=\"\">koko fali</a> depois",
+        "unexpected_error": "Parese katak akontese erru ne'ebé la espera. Favor <a href=\"\">koko fali</a> depois",
+        "validation_complete": "<strong>Verifikasaun Remata</strong>. Agora ita hetan rediresionamentu ba pájina ne'ebé ita hakarak vizita. Klik <a href=\"\">iha ne'e</a> se pájina la karrega fali.",
+        "enable_javascript": "Verifikasaun navegadór funsiona di'ak liu bainhira JavaScript ativu.",
+        "abnormal_activity": "Tanba atividade la baibain, ita presiza remata tarefa iha kraik atu kontinua",
+        "sorry_inconvenience": "Ami husu deskulpa ba inkonveniente ruma",
+        "verifying": "Verifika hela"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Erru bainhira karrega {host}",
+            "refresh_text": "Favor koko asesu ba sítio depois ka klik <a href=\"\">iha ne'e</a> atu karrega pájina fali.",
+            "unexpected_error": "Akontese erru ne'ebé la espera bainhira karrega pájina ida-ne'e",
+            "possible_causes": "Kauza ne'ebé bele akontese inklui:",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Sítio Web La Disponível",
+            "description": "Infelizmente, akontese erru ne'ebé la espera bainhira karrega pájina ida-ne'e. Ami husu deskulpa ba inkonveniente ruma. Favor koko asesu ba sítio depois ka klik <a href=\"\">iha ne'e</a> atu karrega pájina fali."
+        },
+        "suspended": {
+            "title": "Sítio Web Suspende",
+            "description": "Infelizmente, sítio web ne'ebé ita koko vizita la disponível. Ami husu deskulpa ba inkonveniente ruma. Se ita mak <strong>na'in</strong> ba sítio web ida-ne'e, favor <a href=\"https://www.x4b.net/support\">kontakta ekipa apoiu</a>."
+        },
+        "over_bandwidth": {
+            "title": "Sítio Web Suspende",
+            "description": "Infelizmente, sítio web ne'ebé ita koko vizita la disponível. Ami husu deskulpa ba inkonveniente ruma. Se ita mak <strong>na'in</strong> ba sítio web ida-ne'e, favor <a href=\"https://www.x4b.net/\">kontakta ekipa apoiu</a>."
+        },
+        "backend": {
+            "title": "Servidór La Disponível",
+            "description": "Servidór orijen la disponível temporariamente, tanba ne'e labele prosesa pedidu ida-ne'e. Ami husu deskulpa ba inkonveniente ruma.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Tempu Hein ba Pedidu Remata",
+            "description": "Deskulpa, tempu hein remata bainhira karrega pájina web ida-ne'e. Ami husu deskulpa ba inkonveniente ruma ne'ebé ida-ne'e bele hamosu.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Asesu La Autorizadu",
+            "description": "Ita la iha lisensa atu asesu ba pájina ida-ne'e. Se ida-ne'e sala, favor kontakta administradór sítio web."
+        },
+        "upstream": {
+            "title": "Servidór La Disponível",
+            "description": "Agora la iha servidór ne'ebé online no disponível atu prosesa pedidu ida-ne'e. Ami husu deskulpa ba inkonveniente ruma."
+        },
+        "invalid_configuration": {
+            "title": "Konfigurasaun La Válida",
+            "description": "Ami labele prosesa pedidu ida-ne'e tanba erru iha konfigurasaun. Ami husu deskulpa ba inkonveniente ruma."
+        },
+        "resource": {
+            "title": "Erru Asesu",
+            "description_start": "Infelizmente, akontese erru bainhira karrega pájina ida-ne'e.",
+            "cause_list": [
+                "Servidór orijen hetan karga servisu ne'ebé la espera no labele prosesa pedidu sira agora",
+                "Akontese erru ne'ebé la espera iha servidór orijen ka durante transferénsia dadus"
+            ],
+            "description_end": "Ami husu deskulpa ba inkonveniente ruma.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Erru Asesu",
+            "description_start": "Infelizmente, akontese erru bainhira karrega pájina ida-ne'e.",
+            "cause_list": [
+                "Deteta katak ita-nia enderesu IP haruka pedidu barak liu ba servidór",
+                "Servidór orijen hetan karga servisu ne'ebé la espera no labele prosesa pedidu sira agora",
+                "Akontese erru ne'ebé la espera iha servidór orijen ka durante transferénsia dadus"
+            ],
+            "description_end": "Ami husu deskulpa ba inkonveniente ruma.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Erru Asesu",
+            "description_start": "Infelizmente, akontese erru bainhira karrega pájina ida-ne'e.",
+            "cause_list": [
+                "Ita-nia enderesu IP iha númeru koneksaun ba servidór ne'ebé la baibain",
+                "Servidór orijen hetan karga servisu ne'ebé la espera no labele prosesa pedidu sira agora",
+                "Akontese erru ne'ebé la espera iha servidór orijen ka durante transferénsia dadus"
+            ],
+            "description_end": "Ami husu deskulpa ba inkonveniente ruma.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Pedidu La Válidu",
+            "description": "Sítio web ida-ne'e bele asesu liuhosi HTTPS. Ita koko konekta liuhosi HTTP, no agora ami sei koko rediresiona ita. Se ita la hetan rediresionamentu, favor aumenta https:// iha inísiu ita-nia URL no koko fali."
+        },
+        "timeout": {
+            "title": "Servidór La Disponível",
+            "description": "Deskulpa, tempu hein remata bainhira karrega pájina ida-ne'e. Servidór bele okupadu no labele prosesa ita-nia pedidu agora.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Domíniu Deskoñesidu",
+            "description": "Domíniu ida-ne'e la rejistadu ba enderesu IP ida-ne'e.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Métodu La Suportadu",
+            "description": "Métodu HTTP ne'ebé husu la ativu ba sítio web ida-ne'e.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Pedidu La Seguru",
+            "description": "Protokolu HTTPS ne'ebé husu la ativu ba sítio web ida-ne'e. Favor atualiza ita-nia navegadór.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Offline ba Manutensaun",
+            "description": "Sítio web ida-ne'e la disponível agora. Espera katak iha tempu badak sei disponível fali.",
+            "refresh_enable": true
+        }
+    }
+}

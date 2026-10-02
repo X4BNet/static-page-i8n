@@ -1,0 +1,518 @@
+{
+    "reviewedOn": "2026-10-02",
+    "scope": "Bounded correction of assigned Europe/Caucasus CLDR official-language requirements, with explicitly limited Holy See and Russian-region checks. Not an exhaustive legal audit of every municipality or disputed territory.",
+    "updates": [
+        {
+            "country": "ES",
+            "language": "ast",
+            "action": "remove",
+            "reason": "Asturias protects and promotes Asturian, but the Constitutional Court explicitly distinguishes this from official status (STC 75/2021). Valid use in the autonomous parliament does not make it co-official.",
+            "sources": [
+                "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-6621",
+                "https://www.boe.es/eli/es-as/l/1998/03/23/1"
+            ]
+        },
+        {
+            "country": "CH",
+            "language": "gsw",
+            "action": "remove",
+            "reason": "For this written-interface inventory, Swiss German dialects do not establish a separate official written language. Swiss government distinguishes spoken Swiss German dialects from written German; de already covers German. This is an inventory inference, not a claim that dialect speech lacks public use.",
+            "sources": [
+                "https://www.aboutswitzerland.eda.admin.ch/en/languages-and-dialects",
+                "https://www.bk.admin.ch/dam/bk/en/dokumente/sprachdienste/flyer_sprachdienstebverw.pdf.download.pdf/flyer_language_servicesfedadm.pdf"
+            ]
+        },
+        {
+            "country": "LI",
+            "language": "gsw",
+            "action": "remove",
+            "reason": "Government factfile identifies standard German as the official language and Alemannic as informal vernacular; de already covers the official written language.",
+            "sources": [
+                "https://assets.publishing.service.gov.uk/media/6968cbde6958e5645144b08d/European_Microstates_Toponymic_Factfile.pdf"
+            ],
+            "sourceLocator": "Liechtenstein, page 3"
+        },
+        {
+            "country": "GB",
+            "language": "sco",
+            "action": "add",
+            "status": "official_regional",
+            "reason": "Scots became an official language of Scotland on 30 November 2025 when relevant Scottish Languages Act provisions commenced. Scope is Scotland, not UK-wide official status.",
+            "sources": [
+                "https://www.gov.scot/news/growing-scotlands-languages/"
+            ],
+            "speakers": {
+                "estimate": 1508540,
+                "kind": "self-reported ability to speak Scots among people aged 3 and over in Scotland; not mother-tongue count",
+                "year": 2022,
+                "source": "https://www.gov.scot/policies/languages/scots/"
+            }
+        },
+        {
+            "country": "ME",
+            "language": "cnr",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 13 of the Montenegrin Constitution designates Montenegrin the official language. Latin and Cyrillic scripts have equal standing.",
+            "sources": [
+                "https://wapi.gov.me/download/5cd94833-c2d0-4d3e-9017-d4a476c093af?version=1.0",
+                "https://wapi.gov.me/download/1a3cf754-f3f9-4fe3-b122-cf9726715998?version=1.0"
+            ]
+        },
+        {
+            "country": "VA",
+            "language": "la",
+            "action": "add",
+            "status": "official",
+            "reason": "Scoped to official purposes of the Holy See, a distinct sovereign entity from Vatican City State administration. The latter uses Italian as its official and principal working language. Do not describe Latin as the ordinary Vatican State administrative language.",
+            "sources": [
+                "https://assets.publishing.service.gov.uk/media/6968cbde6958e5645144b08d/European_Microstates_Toponymic_Factfile.pdf",
+                "https://www.international.gc.ca/country-pays/holy_see-saint-siege/about-a_propos.aspx?lang=eng"
+            ],
+            "sourceLocator": "PCGN factfile, Vatican City, page 9"
+        },
+        {
+            "country": "ME",
+            "language": "bs",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 13 places Bosnian in official use, alongside the principal official language Montenegrin. This is constitutional official-use status, not a claim that all languages share the principal-language designation.",
+            "sources": [
+                "https://wapi.gov.me/download/5cd94833-c2d0-4d3e-9017-d4a476c093af?version=1.0"
+            ]
+        },
+        {
+            "country": "ME",
+            "language": "hr",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 13 places Croatian in official use, alongside the principal official language Montenegrin. This is constitutional official-use status, not a claim that all languages share the principal-language designation.",
+            "sources": [
+                "https://wapi.gov.me/download/5cd94833-c2d0-4d3e-9017-d4a476c093af?version=1.0"
+            ]
+        },
+        {
+            "country": "ME",
+            "language": "sq",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 13 places Albanian in official use, alongside the principal official language Montenegrin. This is constitutional official-use status, not a claim that all languages share the principal-language designation.",
+            "sources": [
+                "https://wapi.gov.me/download/5cd94833-c2d0-4d3e-9017-d4a476c093af?version=1.0"
+            ]
+        },
+        {
+            "country": "ME",
+            "language": "sr",
+            "action": "add",
+            "status": "official",
+            "reason": "Article 13 places Serbian in official use, alongside the principal official language Montenegrin. This is constitutional official-use status, not a claim that all languages share the principal-language designation.",
+            "sources": [
+                "https://wapi.gov.me/download/5cd94833-c2d0-4d3e-9017-d4a476c093af?version=1.0"
+            ]
+        },
+        {
+            "country": "AZ",
+            "language": "az-cyrl",
+            "action": "remove",
+            "reason": "Current state-language law Article 14 specifies the Latin-based Azerbaijani alphabet, and the Presidential Library describes the completed 2001 transition. Historical Cyrillic use does not establish a second current official written standard in Azerbaijan. Existing az in Latin covers the state standard; this removal is not applied to Dagestan in Russia.",
+            "sources": [
+                "https://constcourt.gov.az/az/legislation/26",
+                "https://www.preslib.az/ru/historical/page/uctfspl"
+            ]
+        },
+        {
+            "country": "ME",
+            "language": "cnr-cyrl",
+            "action": "add",
+            "status": "official",
+            "reason": "Montenegrin is the official language and Article13 gives Cyrillic and Latin scripts equal standing. This explicitly records Cyrillic written-form coverage separately from the Latin cnr profile.",
+            "sources": [
+                "https://wapi.gov.me/download/1a3cf754-f3f9-4fe3-b122-cf9726715998?version=1.0",
+                "https://wapi.gov.me/download/5cd94833-c2d0-4d3e-9017-d4a476c093af?version=1.0"
+            ]
+        }
+    ],
+    "clarifications": [
+        {
+            "country": "CH",
+            "candidateTags": [
+                "rm"
+            ],
+            "decision": "retain genuine requirement",
+            "reason": "The Federal Chancellery uses Rumantsch Grischun for official federal Romansh publications; its five idioms remain recognized in dealings with authorities. rm is a translation gap, not a protected-only exclusion.",
+            "sources": [
+                "https://www.bk.admin.ch/en/romansh"
+            ]
+        },
+        {
+            "country": "ES",
+            "candidateTags": [
+                "oc"
+            ],
+            "decision": "retain with written-form requirement",
+            "reason": "Official Occitan in Catalonia is Aranese, the form specific to Aran. Generic Languedocian output would not satisfy this requirement; no oc file has been written.",
+            "sources": [
+                "https://www.boe.es/buscar/act.php?id=BOE-A-2010-17710&p=20111223&tn=1"
+            ]
+        },
+        {
+            "country": "GB",
+            "candidateTags": [
+                "gd"
+            ],
+            "decision": "retain; update explanation",
+            "reason": "Scottish Gaelic became explicitly official alongside Scots on 30 November 2025. Its prior legislative protection should not be the sole explanation of current status.",
+            "sources": [
+                "https://www.gov.scot/news/growing-scotlands-languages/"
+            ]
+        },
+        {
+            "country": "RU",
+            "candidateTags": [
+                "yi"
+            ],
+            "decision": "no addition established",
+            "reason": "Regional government educational material states that the EAO charter gives Russian state-language status and treats Yiddish among the languages of its peoples. The charter itself was not obtained from an accessible current official legal publication in this bounded check; no official Yiddish requirement is inferred.",
+            "sources": [
+                "https://kopilka.edu-eao.ru/wp-content/uploads/2023/11/2023-Istoriya-EAO.pdf"
+            ],
+            "retrievalNote": "Search indexed text available; direct PDF fetch failed. Material is the regional state Institute for Education Development 2023 history resource."
+        }
+    ],
+    "unresolvedStatusLeads": [
+        {
+            "country": "GE",
+            "candidateTags": [
+                "os"
+            ],
+            "issue": "CLDR calls Ossetian regional official in Georgia. Recognized Georgian constitution Article 2 names Georgian and Abkhaz in Abkhazia; de facto South Ossetian authority status needs a separate jurisdiction-specific audit. Do not silently conflate them.",
+            "sources": [
+                "https://parliament.ge/en/legislation/constitution",
+                "https://matsne.gov.ge/ka/document/download/30346/36/en/pdf"
+            ],
+            "recommendedHandling": "Mark baseline status uncertain pending explicit treatment of disputed de facto jurisdictions; no removal proposed here."
+        },
+        {
+            "country": "UA",
+            "candidateTags": [
+                "ru"
+            ],
+            "issue": "CLDR de_facto_official designation conflicts with Ukraine constitutional Article 10 naming Ukrainian state language and protecting Russian as a minority language. Current occupied-territory/de facto administration and historical regional enactments need a separate scoped audit.",
+            "sources": [
+                "https://www.president.gov.ua/ua/documents/constitution/konstituciya-ukrayini-rozdil-i"
+            ],
+            "recommendedHandling": "Mark baseline de-facto status uncertain; avoid claiming recognized country-wide Russian official status."
+        },
+        {
+            "country": "DE",
+            "candidateTags": [
+                "frr",
+                "da",
+                "nds"
+            ],
+            "issue": "North Frisian, Danish and Low German have protected-language and specified administrative-use rights in Schleswig-Holstein. Need current law-by-law distinction between auxiliary administrative use and a general co-official designation. Protected status alone is insufficient.",
+            "sources": [
+                "https://www.schleswig-holstein.de/DE/landesregierung/themen/kultur/minderheiten/rechtliches",
+                "https://www.schleswig-holstein.de/DE/landesportal/service/Landesrecht/landesrecht_online"
+            ],
+            "recommendedHandling": "Retain uncertainty and specific jurisdiction; do not blanket-remove North Frisian without reviewing administrative-language provisions."
+        },
+        {
+            "country": "PL",
+            "candidateTags": [
+                "csb",
+                "be",
+                "de",
+                "lt"
+            ],
+            "issue": "Government registry provides municipal auxiliary-language rights, including Kashubian and Belarusian; this is narrower than general national co-official status. CLDR includes some but omits Belarusian. Exact qualifying municipalities and inventory classification need reconciliation.",
+            "sources": [
+                "https://www.gov.pl/web/ksng/nazwy-w-jezykach-mniejszosci-w-polsce",
+                "https://www.gov.pl/web/mniejszosci-narodowe-i-etniczne/urzedowy-rejestr-gmin-w-ktorych-jest-uzywany-jezyk-pomocniczy2"
+            ],
+            "recommendedHandling": "Expose local auxiliary-language scope rather than treating merely protected languages as automatically official."
+        },
+        {
+            "country": "FI",
+            "candidateTags": [
+                "se",
+                "smn",
+                "sms"
+            ],
+            "issue": "Baseline has Skolt Sami but omits Northern and Inari Sami from regional-official entries. Audit Sami Language Act scope and written forms; no translation supplied for these tags.",
+            "sources": [],
+            "recommendedHandling": "Pending primary-source status completion; list candidate tags explicitly."
+        },
+        {
+            "country": "SE",
+            "candidateTags": [
+                "se",
+                "sma",
+                "smj",
+                "fit"
+            ],
+            "issue": "Audit Sami and Meänkieli administrative-area language rights rather than equating minority recognition with general official status. Existing CLDR official entries alone are incomplete for this question.",
+            "sources": [],
+            "recommendedHandling": "Pending primary-source status completion; list candidate tags explicitly."
+        },
+        {
+            "country": "RU",
+            "candidateTags": [
+                "os",
+                "cv",
+                "xal",
+                "alt",
+                "dar",
+                "nog",
+                "rut",
+                "tab",
+                "tkr",
+                "ttt"
+            ],
+            "issue": "Potential omissions from CLDR regional official set: republic languages and Dagestan languages. Current constitutions/language acts, exact recognized language names and written forms must be checked individually.",
+            "sources": [],
+            "recommendedHandling": "Unverified leads, not additions or certified missing requirements; no related-language substitution."
+        },
+        {
+            "country": "IM",
+            "candidateTags": [
+                "gv"
+            ],
+            "issue": "Manx baseline says official, but statutory and administrative scope was not independently verified in this bounded audit. Manx translation was declined for insufficient language-specific ability.",
+            "sources": [],
+            "recommendedHandling": "Retain as baseline requirement with explicit legal-scope verification gap."
+        },
+        {
+            "country": "UZ",
+            "candidateTags": [
+                "uz-cyrl"
+            ],
+            "issue": "Law 931-XII introduces the Latin-based Uzbek alphabet and Resolution 61 (2021) mandates a staged complete transition. This supports Latin as the target state standard, but the bounded review did not establish whether current Cyrillic administrative use remains separately qualifying under the inventory definition. Do not turn common usage into official status, or declare all Cyrillic use abolished merely from transition deadlines.",
+            "sources": [
+                "https://lex.uz/en/acts/-112286",
+                "https://lex.uz/docs/-5281850"
+            ],
+            "recommendedHandling": "Explicit script/status-review gap; no automatic removal until current administrative implementation is verified."
+        },
+        {
+            "country": "RU",
+            "candidateTags": [
+                "az-cyrl"
+            ],
+            "issue": "Azerbaijan national Latin-script law does not determine the written standard or regional official-use scope of Azerbaijani in Dagestan. CLDR lists Cyrillic regional official; current Dagestan legal/educational written standard was not verified.",
+            "sources": [],
+            "recommendedHandling": "Preserve explicit script/status-review gap; do not reuse AZ removal or pretend Latin output covers Cyrillic."
+        }
+    ],
+    "statisticalExamples": [
+        {
+            "country": "GB",
+            "language": "sco",
+            "estimate": 1508540,
+            "kind": "self-reported speakers aged 3+ in Scotland",
+            "year": 2022,
+            "source": "https://www.gov.scot/policies/languages/scots/",
+            "note": "Distinct from 2,444,659 people with any speaking, reading, writing or understanding skill. Neither value is a first-language count."
+        }
+    ],
+    "interpretationNotes": [
+        "Language proficiency counts and official status are separate facts. CLDR percentages were not converted into new speaker counts.",
+        "The three written-interface removals ast/gsw concern legal or written-form scope; they do not deny the languages are spoken or culturally important.",
+        "Unresolved leads are deliberately separated from actionable updates. Countries and candidateTags are supplied so gaps can be surfaced in the main report."
+    ],
+    "unresolvedMappings": [
+        {
+            "country": "GE",
+            "candidateTags": [
+                "os"
+            ],
+            "statutoryName": "os",
+            "reason": "CLDR calls Ossetian regional official in Georgia. Recognized Georgian constitution Article 2 names Georgian and Abkhaz in Abkhazia; de facto South Ossetian authority status needs a separate jurisdiction-specific audit. Do not silently conflate them. Mark baseline status uncertain pending explicit treatment of disputed de facto jurisdictions; no removal proposed here.",
+            "sources": [
+                "https://parliament.ge/en/legislation/constitution",
+                "https://matsne.gov.ge/ka/document/download/30346/36/en/pdf"
+            ]
+        },
+        {
+            "country": "UA",
+            "candidateTags": [
+                "ru"
+            ],
+            "statutoryName": "ru",
+            "reason": "CLDR de_facto_official designation conflicts with Ukraine constitutional Article 10 naming Ukrainian state language and protecting Russian as a minority language. Current occupied-territory/de facto administration and historical regional enactments need a separate scoped audit. Mark baseline de-facto status uncertain; avoid claiming recognized country-wide Russian official status.",
+            "sources": [
+                "https://www.president.gov.ua/ua/documents/constitution/konstituciya-ukrayini-rozdil-i"
+            ]
+        },
+        {
+            "country": "DE",
+            "candidateTags": [
+                "frr",
+                "da",
+                "nds"
+            ],
+            "statutoryName": "frr, da, nds",
+            "reason": "North Frisian, Danish and Low German have protected-language and specified administrative-use rights in Schleswig-Holstein. Need current law-by-law distinction between auxiliary administrative use and a general co-official designation. Protected status alone is insufficient. Retain uncertainty and specific jurisdiction; do not blanket-remove North Frisian without reviewing administrative-language provisions.",
+            "sources": [
+                "https://www.schleswig-holstein.de/DE/landesregierung/themen/kultur/minderheiten/rechtliches",
+                "https://www.schleswig-holstein.de/DE/landesportal/service/Landesrecht/landesrecht_online"
+            ]
+        },
+        {
+            "country": "PL",
+            "candidateTags": [
+                "csb",
+                "be",
+                "de",
+                "lt"
+            ],
+            "statutoryName": "csb, be, de, lt",
+            "reason": "Government registry provides municipal auxiliary-language rights, including Kashubian and Belarusian; this is narrower than general national co-official status. CLDR includes some but omits Belarusian. Exact qualifying municipalities and inventory classification need reconciliation. Expose local auxiliary-language scope rather than treating merely protected languages as automatically official.",
+            "sources": [
+                "https://www.gov.pl/web/ksng/nazwy-w-jezykach-mniejszosci-w-polsce",
+                "https://www.gov.pl/web/mniejszosci-narodowe-i-etniczne/urzedowy-rejestr-gmin-w-ktorych-jest-uzywany-jezyk-pomocniczy2"
+            ]
+        },
+        {
+            "country": "FI",
+            "candidateTags": [
+                "se",
+                "smn",
+                "sms"
+            ],
+            "statutoryName": "se, smn, sms",
+            "reason": "Baseline has Skolt Sami but omits Northern and Inari Sami from regional-official entries. Audit Sami Language Act scope and written forms; no translation supplied for these tags. Pending primary-source status completion; list candidate tags explicitly.",
+            "sources": []
+        },
+        {
+            "country": "SE",
+            "candidateTags": [
+                "se",
+                "sma",
+                "smj",
+                "fit"
+            ],
+            "statutoryName": "se, sma, smj, fit",
+            "reason": "Audit Sami and Meänkieli administrative-area language rights rather than equating minority recognition with general official status. Existing CLDR official entries alone are incomplete for this question. Pending primary-source status completion; list candidate tags explicitly.",
+            "sources": []
+        },
+        {
+            "country": "RU",
+            "candidateTags": [
+                "os",
+                "cv",
+                "xal",
+                "alt",
+                "dar",
+                "nog",
+                "rut",
+                "tab",
+                "tkr",
+                "ttt"
+            ],
+            "statutoryName": "os, cv, xal, alt, dar, nog, rut, tab, tkr, ttt",
+            "reason": "Potential omissions from CLDR regional official set: republic languages and Dagestan languages. Current constitutions/language acts, exact recognized language names and written forms must be checked individually. Unverified leads, not additions or certified missing requirements; no related-language substitution.",
+            "sources": []
+        },
+        {
+            "country": "IM",
+            "candidateTags": [
+                "gv"
+            ],
+            "statutoryName": "gv",
+            "reason": "Manx baseline says official, but statutory and administrative scope was not independently verified in this bounded audit. Manx translation was declined for insufficient language-specific ability. Retain as baseline requirement with explicit legal-scope verification gap.",
+            "sources": []
+        },
+        {
+            "country": "UZ",
+            "candidateTags": [
+                "uz-cyrl"
+            ],
+            "statutoryName": "uz-cyrl",
+            "reason": "Law 931-XII introduces the Latin-based Uzbek alphabet and Resolution 61 (2021) mandates a staged complete transition. This supports Latin as the target state standard, but the bounded review did not establish whether current Cyrillic administrative use remains separately qualifying under the inventory definition. Do not turn common usage into official status, or declare all Cyrillic use abolished merely from transition deadlines. Explicit script/status-review gap; no automatic removal until current administrative implementation is verified.",
+            "sources": [
+                "https://lex.uz/en/acts/-112286",
+                "https://lex.uz/docs/-5281850"
+            ]
+        },
+        {
+            "country": "RU",
+            "candidateTags": [
+                "az-cyrl"
+            ],
+            "statutoryName": "az-cyrl",
+            "reason": "Azerbaijan national Latin-script law does not determine the written standard or regional official-use scope of Azerbaijani in Dagestan. CLDR lists Cyrillic regional official; current Dagestan legal/educational written standard was not verified. Preserve explicit script/status-review gap; do not reuse AZ removal or pretend Latin output covers Cyrillic.",
+            "sources": []
+        }
+    ],
+    "notes": [
+        {
+            "country": "CH",
+            "candidateTags": [
+                "rm"
+            ],
+            "reason": "rm: retain genuine requirement: The Federal Chancellery uses Rumantsch Grischun for official federal Romansh publications; its five idioms remain recognized in dealings with authorities. rm is a translation gap, not a protected-only exclusion.",
+            "sources": [
+                "https://www.bk.admin.ch/en/romansh"
+            ],
+            "resolvedDisposition": true
+        },
+        {
+            "country": "ES",
+            "candidateTags": [
+                "oc"
+            ],
+            "reason": "oc: retain with written-form requirement: Official Occitan in Catalonia is Aranese, the form specific to Aran. Generic Languedocian output would not satisfy this requirement; no oc file has been written.",
+            "sources": [
+                "https://www.boe.es/buscar/act.php?id=BOE-A-2010-17710&p=20111223&tn=1"
+            ],
+            "resolvedDisposition": true
+        },
+        {
+            "country": "GB",
+            "candidateTags": [
+                "gd"
+            ],
+            "reason": "gd: retain; update explanation: Scottish Gaelic became explicitly official alongside Scots on 30 November 2025. Its prior legislative protection should not be the sole explanation of current status.",
+            "sources": [
+                "https://www.gov.scot/news/growing-scotlands-languages/"
+            ],
+            "resolvedDisposition": true
+        },
+        {
+            "country": "RU",
+            "candidateTags": [
+                "yi"
+            ],
+            "reason": "yi: no addition established: Regional government educational material states that the EAO charter gives Russian state-language status and treats Yiddish among the languages of its peoples. The charter itself was not obtained from an accessible current official legal publication in this bounded check; no official Yiddish requirement is inferred.",
+            "sources": [
+                "https://kopilka.edu-eao.ru/wp-content/uploads/2023/11/2023-Istoriya-EAO.pdf"
+            ],
+            "resolvedDisposition": true
+        },
+        {
+            "country": "ME",
+            "candidateTags": [
+                "cnr-cyrl"
+            ],
+            "reason": "cnr-cyrl: constitutional script requirement resolved by adding a separate Cyrillic Montenegrin profile and translation.",
+            "resolvedDisposition": true,
+            "sources": [
+                "https://wapi.gov.me/download/1a3cf754-f3f9-4fe3-b122-cf9726715998?version=1.0"
+            ]
+        }
+    ],
+    "resolvedLeads": [
+        {
+            "country": "ME",
+            "candidateTags": [
+                "cnr-cyrl"
+            ],
+            "resolution": "Added exact Cyrillic profile and translation; independent script review complete with no correction needed.",
+            "sources": [
+                "https://wapi.gov.me/download/1a3cf754-f3f9-4fe3-b122-cf9726715998?version=1.0"
+            ]
+        }
+    ]
+}

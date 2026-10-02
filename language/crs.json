@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Sa prosesis i otomatik. Byento ou pou ganny redirize ver paz ki ou ti anvi vizite.",
+        "validate_browser": "Nou pe verifye ou navigater avan ou akse {http_host}",
+        "are_you_human_host": "Eski ou en imen? Verifikasyon i neseser pour akse {http_host}",
+        "are_you_human": "Eski ou en imen? Verifikasyon i neseser pour kontinyen",
+        "enter_captcha_host": "Silvouple antre CAPTCHA ki anba pour kontinyen ver {http_host}:",
+        "enter_captcha": "Silvouple antre CAPTCHA ki anba pour kontinyen:",
+        "submit": "anvoye",
+        "try_again_later": "Sa sit web pe pran plis letan ki labitid pour sarze. Ou kapab <a href=\"\">esey ankor</a> pli tar",
+        "unexpected_error": "I paret ki en fot enprevizib in arive. Silvouple <a href=\"\">esey ankor</a> pli tar",
+        "validation_complete": "<strong>Verifikasyon in fini</strong>. Ou pe ganny redirize ver paz ki ou ti anvi vizite. Klik <a href=\"\">isi</a> si sa paz pa sarz ankor.",
+        "enable_javascript": "Verifikasyon navigater i mars pli byen ler JavaScript i aktive.",
+        "abnormal_activity": "Akoz en aktivite anormal, nou bezwen ki ou fini sa travay anba pour kontinyen",
+        "sorry_inconvenience": "Nou demann leskiz pour okenn lenkonvenyans",
+        "verifying": "Pe verifye"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Fot pandan sarzman {host}",
+            "refresh_text": "Silvouple esey akse sa sit pli tar oubyen klik <a href=\"\">isi</a> pour sarz sa paz ankor.",
+            "unexpected_error": "En fot enprevizib in arive pandan sarzman sa paz",
+            "possible_causes": "Bann rezon posib i enkli: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Sit web pa disponib",
+            "description": "Malerezman, en fot enprevizib in arive pandan sarzman sa paz. Nou demann leskiz pour okenn lenkonvenyans. Silvouple esey akse sa sit pli tar oubyen klik <a href=\"\">isi</a> pour sarz sa paz ankor."
+        },
+        "suspended": {
+            "title": "Sit web in ganny sispann",
+            "description": "Malerezman, sa sit web ki ou pe esey vizite pa disponib. Nou demann leskiz pour okenn lenkonvenyans. Si ou <strong>propriyeter</strong> sa sit web, silvouple <a href=\"https://www.x4b.net/support\">kontakte servis sipor</a>."
+        },
+        "over_bandwidth": {
+            "title": "Sit web in ganny sispann",
+            "description": "Malerezman, sa sit web ki ou pe esey vizite pa disponib. Nou demann leskiz pour okenn lenkonvenyans. Si ou <strong>propriyeter</strong> sa sit web, silvouple <a href=\"https://www.x4b.net/\">kontakte servis sipor</a>."
+        },
+        "backend": {
+            "title": "Server pa disponib",
+            "description": "Server lorizin pa disponib tanporerman e alor i pa kapab servi sa demann. Nou demann leskiz pour okenn lenkonvenyans.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Letan limit pour demann in depase",
+            "description": "Nou regret sa, me letan limit pour espere in depase pandan sarzman sa paz. Nou demann leskiz pour okenn lenkonvenyans ki sa in kapab koze.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Akse in ganny refize",
+            "description": "Ou napa permisyon pour akse sa paz. Si ou krwar ki sa i en fot, silvouple kontakte administrater sa sit web."
+        },
+        "upstream": {
+            "title": "Server pa disponib",
+            "description": "Pour lemoman, napa okenn server ki konekte e disponib pour tret sa demann. Nou demann leskiz pour okenn lenkonvenyans."
+        },
+        "invalid_configuration": {
+            "title": "Konfigirasyon pa valid",
+            "description": "Nou pa kapab servi sa demann akoz en fot dan konfigirasyon. Nou demann leskiz pour okenn lenkonvenyans."
+        },
+        "resource": {
+            "title": "Fot akse",
+            "description_start": "Malerezman, en fot in arive pandan sarzman sa paz.",
+            "cause_list": [
+                "Server lorizin pe sibir en sarz travay enprevizib e i pa kapab tret bann demann pour lemoman",
+                "En fot enprevizib in arive lo server lorizin oubyen pandan transmisyon"
+            ],
+            "description_end": "Nou demann leskiz pour okenn lenkonvenyans.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Fot akse",
+            "description_start": "Malerezman, en fot in arive pandan sarzman sa paz.",
+            "cause_list": [
+                "Nou'n detekte ki ou ladres IP pe anvoy tro bokou demann kot server",
+                "Server lorizin pe sibir en sarz travay enprevizib e i pa kapab tret bann demann pour lemoman",
+                "En fot enprevizib in arive lo server lorizin oubyen pandan transmisyon"
+            ],
+            "description_end": "Nou demann leskiz pour okenn lenkonvenyans.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Fot akse",
+            "description_start": "Malerezman, en fot in arive pandan sarzman sa paz.",
+            "cause_list": [
+                "Ou ladres IP i annan en kantite koneksyon anormal avek server",
+                "Server lorizin pe sibir en sarz travay enprevizib e i pa kapab tret bann demann pour lemoman",
+                "En fot enprevizib in arive lo server lorizin oubyen pandan transmisyon"
+            ],
+            "description_end": "Nou demann leskiz pour okenn lenkonvenyans.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Demann pa korek",
+            "description": "Sa sit web i aksesib atraver HTTPS. Ou'n esey konekte atraver HTTP; aprezan nou pou esey rediriz ou. Si ou pa ganny redirize, silvouple azout https:// o konmansman ou URL e esey ankor."
+        },
+        "timeout": {
+            "title": "Server pa disponib",
+            "description": "Nou regret sa, me letan limit pour espere in depase pandan sarzman sa paz. I posib ki server i okipe e i pa kapab tret ou demann pour lemoman.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Domenn enkoni",
+            "description": "Sa domenn pa anrezistre pour sa ladres IP.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Metod pa siporte",
+            "description": "Metod HTTP ki'n ganny demande pa aktive pour sa sit web.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Demann pa sekirize",
+            "description": "Protokol HTTPS ki'n ganny demande pa aktive pour sa sit web. Silvouple met ou navigater azour.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Pa disponib pour travay lantretyen",
+            "description": "Sa sit web pa disponib pour lemoman. I sipoze disponib ankor byento.",
+            "refresh_enable": true
+        }
+    }
+}

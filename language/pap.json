@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "E proseso aki ta outomátiko. Dentro di poko bo lo wòrdu dirigí na e página ku bo ke bishitá.",
+        "validate_browser": "Ta verifikando bo nabegadó promé ku bo haña akseso na {http_host}",
+        "are_you_human_host": "Bo ta un hende? Verifikashon ta nesesario pa haña akseso na {http_host}",
+        "are_you_human": "Bo ta un hende? Verifikashon ta nesesario pa sigui",
+        "enter_captcha_host": "Por fabor, yena e CAPTCHA aki bou pa sigui na {http_host}:",
+        "enter_captcha": "Por fabor, yena e CAPTCHA aki bou pa sigui:",
+        "submit": "manda",
+        "try_again_later": "E wèpsait aki ta tuma mas tempu ku normal pa karga. Bo por <a href=\"\">purba atrobe</a> mas lat",
+        "unexpected_error": "Ta parse ku un eror inesperá a sosodé. Por fabor, <a href=\"\">purba atrobe</a> mas lat",
+        "validation_complete": "<strong>Verifikashon kompletá</strong>. Awor bo ta wòrdu dirigí na e página ku bo ke bishitá. Klik <a href=\"\">aki</a> si e página no karga atrobe.",
+        "enable_javascript": "Verifikashon di e nabegadó ta funshoná mihó ku JavaScript aktivá.",
+        "abnormal_activity": "Debí na aktividat anormal, mester ku bo kompletá e tarea aki bou pa sigui",
+        "sorry_inconvenience": "Nos ta pidi diskulpa pa kualke inkonveniente",
+        "verifying": "Ta verifikando"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Eror durante kargamentu di {host}",
+            "refresh_text": "Por fabor, purba haña akseso na e wèpsait mas lat òf klik <a href=\"\">aki</a> pa karga e página atrobe.",
+            "unexpected_error": "Un eror inesperá a sosodé durante kargamentu di e página aki",
+            "possible_causes": "Kousanan posibel ta inkluí: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Wèpsait no ta disponibel",
+            "description": "Lamentablemente, un eror inesperá a sosodé durante kargamentu di e página aki. Nos ta pidi diskulpa pa kualke inkonveniente. Por fabor, purba haña akseso na e wèpsait mas lat òf klik <a href=\"\">aki</a> pa karga e página atrobe."
+        },
+        "suspended": {
+            "title": "Wèpsait suspendé",
+            "description": "Lamentablemente, e wèpsait ku bo ta trata di bishitá no ta disponibel. Nos ta pidi diskulpa pa kualke inkonveniente. Si bo ta e <strong>doño</strong> di e wèpsait aki, por fabor, <a href=\"https://www.x4b.net/support\">tuma kontakto ku sosten tékniko</a>."
+        },
+        "over_bandwidth": {
+            "title": "Wèpsait suspendé",
+            "description": "Lamentablemente, e wèpsait ku bo ta trata di bishitá no ta disponibel. Nos ta pidi diskulpa pa kualke inkonveniente. Si bo ta e <strong>doño</strong> di e wèpsait aki, por fabor, <a href=\"https://www.x4b.net/\">tuma kontakto ku sosten tékniko</a>."
+        },
+        "backend": {
+            "title": "Sirbidó no ta disponibel",
+            "description": "E sirbidó di orígen no ta disponibel temporalmente i p'esei e no por atendé e petishon aki. Nos ta pidi diskulpa pa kualke inkonveniente.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Tempu di espera pa e petishon a pasa",
+            "description": "Nos ta sinti esaki, pero e tempu permití pa warda a pasa durante kargamentu di e página aki. Nos ta pidi diskulpa pa kualke inkonveniente ku esaki por a kousa.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Akseso nengá",
+            "description": "Bo no tin pèrmit pa haña akseso na e página aki. Si bo ta kere ku esaki ta un eror, por fabor, tuma kontakto ku e atministradó di e wèpsait."
+        },
+        "upstream": {
+            "title": "Sirbidó no ta disponibel",
+            "description": "Na e momentu aki no tin ningun sirbidó konektá i disponibel pa prosesá e petishon aki. Nos ta pidi diskulpa pa kualke inkonveniente."
+        },
+        "invalid_configuration": {
+            "title": "Konfigurashon inválido",
+            "description": "Nos no por atendé e petishon aki debí na un eror di konfigurashon. Nos ta pidi diskulpa pa kualke inkonveniente."
+        },
+        "resource": {
+            "title": "Eror di akseso",
+            "description_start": "Lamentablemente, un eror a sosodé durante kargamentu di e página aki.",
+            "cause_list": [
+                "E sirbidó di orígen ta eksperensiá un karga inesperá i no por prosesá petishonnan na e momentu aki",
+                "Un eror inesperá a sosodé riba e sirbidó di orígen òf durante transmishon"
+            ],
+            "description_end": "Nos ta pidi diskulpa pa kualke inkonveniente.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Eror di akseso",
+            "description_start": "Lamentablemente, un eror a sosodé durante kargamentu di e página aki.",
+            "cause_list": [
+                "A detektá ku bo adrès IP ta manda un kantidat eksesivo di petishon na e sirbidó",
+                "E sirbidó di orígen ta eksperensiá un karga inesperá i no por prosesá petishonnan na e momentu aki",
+                "Un eror inesperá a sosodé riba e sirbidó di orígen òf durante transmishon"
+            ],
+            "description_end": "Nos ta pidi diskulpa pa kualke inkonveniente.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Eror di akseso",
+            "description_start": "Lamentablemente, un eror a sosodé durante kargamentu di e página aki.",
+            "cause_list": [
+                "Bo adrès IP tin un kantidat anormal di konekshon ku e sirbidó",
+                "E sirbidó di orígen ta eksperensiá un karga inesperá i no por prosesá petishonnan na e momentu aki",
+                "Un eror inesperá a sosodé riba e sirbidó di orígen òf durante transmishon"
+            ],
+            "description_end": "Nos ta pidi diskulpa pa kualke inkonveniente.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Petishon inkorekto",
+            "description": "E wèpsait aki ta aksesibel via HTTPS. Bo a trata di konektá via HTTP; awor nos lo trata di dirigí bo atrobe. Si bo no wòrdu dirigí atrobe, por fabor, agregá https:// na kuminsamentu di bo URL i purba atrobe."
+        },
+        "timeout": {
+            "title": "Sirbidó no ta disponibel",
+            "description": "Nos ta sinti esaki, pero e tempu permití pa warda a pasa durante kargamentu di e página aki. Ta posibel ku e sirbidó ta okupá i no por prosesá bo petishon na e momentu aki.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Dominio deskonosí",
+            "description": "E dominio aki no ta registrá pa e adrès IP aki.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Método no sostené",
+            "description": "E método HTTP ku a wòrdu pidi no ta aktivá pa e wèpsait aki.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Petishon insegur",
+            "description": "E protokòl HTTPS ku a wòrdu pidi no ta aktivá pa e wèpsait aki. Por fabor, aktualisá bo nabegadó.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Fó'i servisio pa mantenshon",
+            "description": "E wèpsait aki no ta disponibel na e momentu aki. Ta spera ku e lo ta disponibel atrobe dentro di poko.",
+            "refresh_enable": true
+        }
+    }
+}

@@ -1,0 +1,497 @@
+{
+    "reviewedOn": "2026-10-02",
+    "source": "language/en.json",
+    "method": "Direct model-authored translation from full English context. No external MT, translation tool, Google Translate or external LLM API used. Dictionary/native-language sources were consulted only for feasibility and terminology, not whole-message translation.",
+    "validation": {
+        "stringLeaves": 63,
+        "booleanLeaves": 11,
+        "uniqueEnglishStrings": 50,
+        "validator": "scripts/validate-language-files.js: validateTranslation/readJSON",
+        "allWrittenPassed": true
+    },
+    "implemented": [
+        {
+            "tag": "zh-hant",
+            "name": "Chinese (Traditional, Taiwan standard)",
+            "script": "Han (Traditional)",
+            "writtenForm": "Traditional Chinese, Taiwan standard written usage",
+            "languageId": "zh",
+            "confidence": "high",
+            "outcome": "written",
+            "file": "language/zh-hant.json",
+            "reviewNotes": "Direct translation; Traditional character forms and Taiwan terminology. Distinct profile of Chinese; not an additional language identity."
+        },
+        {
+            "tag": "zh-hk",
+            "name": "Chinese (Traditional, Hong Kong)",
+            "script": "Han (Traditional)",
+            "writtenForm": "Standard written Chinese with Hong Kong terminology",
+            "languageId": "zh",
+            "confidence": "high",
+            "outcome": "written",
+            "file": "language/zh-hk.json",
+            "reviewNotes": "Formal written Chinese, not colloquial written Cantonese. Uses Hong Kong domain/request/data/owner vocabulary and character preferences."
+        },
+        {
+            "tag": "ckb",
+            "name": "Central Kurdish (Sorani)",
+            "script": "Arabic",
+            "writtenForm": "Standard Sorani Kurdish",
+            "languageId": "ckb",
+            "confidence": "moderate",
+            "outcome": "written",
+            "file": "language/ckb.json",
+            "reviewNotes": "Direct Sorani clauses, not Kurmanji respelled. Review Arabic-script shaping, idiom, and technical vocabulary."
+        },
+        {
+            "tag": "fa-af",
+            "name": "Persian (Dari, Afghanistan)",
+            "script": "Arabic",
+            "writtenForm": "Formal written Dari Persian",
+            "languageId": "fa",
+            "confidence": "moderate",
+            "outcome": "written",
+            "file": "language/fa-af.json",
+            "reviewNotes": "Afghan vocabulary and register; regional Persian profile. A prs alias can point here; routing does not require a duplicate translation."
+        },
+        {
+            "tag": "tpi",
+            "name": "Tok Pisin",
+            "script": "Latin",
+            "writtenForm": "Written Tok Pisin",
+            "languageId": "tpi",
+            "confidence": "lower",
+            "outcome": "written",
+            "file": "language/tpi.json",
+            "reviewNotes": "Uses descriptive origin-server wording and established English-derived technical loans. Further review should focus on request/connection wording and best-versus-better idiom."
+        },
+        {
+            "tag": "bi",
+            "name": "Bislama",
+            "script": "Latin",
+            "writtenForm": "Written Bislama",
+            "languageId": "bi",
+            "confidence": "lower",
+            "outcome": "written",
+            "file": "language/bi.json",
+            "reviewNotes": "Uses Bislama grammar and spelling distinct from Tok Pisin. Review technical loans and naturalness of longer clauses."
+        },
+        {
+            "tag": "tet",
+            "name": "Tetum",
+            "script": "Latin",
+            "writtenForm": "Tetum Prasa, contemporary official orthography",
+            "languageId": "tet",
+            "confidence": "lower",
+            "outcome": "written",
+            "file": "language/tet.json",
+            "reviewNotes": "Portuguese-derived technical vocabulary within Tetum syntax. Review accent conventions, origin-server wording and subordinate clauses."
+        },
+        {
+            "tag": "war",
+            "name": "Waray",
+            "script": "Latin",
+            "writtenForm": "Standard written Waray",
+            "languageId": "war",
+            "confidence": "lower",
+            "outcome": "written",
+            "file": "language/war.json",
+            "reviewNotes": "Self-review repaired an incorrect apology verb and a domain/IP preposition. Review longer technical clauses and choice of borrowed terminology."
+        },
+        {
+            "tag": "sa",
+            "name": "Sanskrit",
+            "script": "Devanagari",
+            "writtenForm": "Contemporary written Sanskrit in Devanagari",
+            "languageId": "sa",
+            "confidence": "lower",
+            "outcome": "written",
+            "file": "language/sa.json",
+            "reviewNotes": "Technical terms include explicit server/browser loans; gender-inclusive forms are verbose. Self-review repaired agreement in configuration title. Specialist modern-technical Sanskrit review is useful."
+        },
+        {
+            "tag": "mi",
+            "name": "Māori",
+            "script": "Latin",
+            "writtenForm": "Standard written New Zealand Māori with macrons",
+            "languageId": "mi",
+            "confidence": "lower",
+            "outcome": "written",
+            "file": "language/mi.json",
+            "reviewNotes": "Uses established pūtirotiro/tūmau/paetukutuku vocabulary and explanatory technical clauses. Self-review clarified the number of connections; fluent idiom review remains useful."
+        },
+        {
+            "tag": "sm",
+            "name": "Samoan",
+            "script": "Latin",
+            "writtenForm": "Standard written Samoan",
+            "languageId": "sm",
+            "confidence": "lower",
+            "outcome": "written",
+            "file": "language/sm.json",
+            "reviewNotes": "Uses English server/domain/protocol loans where a speculative coinage would obscure meaning. Review technical register, glottal-stop/macron conventions and longer clauses."
+        },
+        {
+            "tag": "fj",
+            "name": "Fijian",
+            "script": "Latin",
+            "writtenForm": "Standard written iTaukei Fijian",
+            "languageId": "fj",
+            "confidence": "lower",
+            "outcome": "written",
+            "file": "language/fj.json",
+            "reviewNotes": "Uses explanatory phrases for origin server and time limit. Review technical loanword spelling and naturalness of longer clauses."
+        },
+        {
+            "tag": "to",
+            "name": "Tongan",
+            "script": "Latin",
+            "writtenForm": "Standard written Tongan with fakauʻa and macrons",
+            "languageId": "to",
+            "confidence": "lower",
+            "outcome": "written",
+            "file": "language/to.json",
+            "reviewNotes": "Uses explanatory browser/origin-server phrases plus domain/protocol loans. Review technical register and noun/possessive phrasing."
+        }
+    ],
+    "declined": [
+        {
+            "tag": "bo",
+            "name": "Tibetan",
+            "script": "Tibetan",
+            "writtenForm": "Contemporary standard written Tibetan",
+            "languageId": "bo",
+            "confidence": "insufficient-to-author",
+            "outcome": "declined",
+            "reason": "Dictionary resources and scientific terminology are available, but I cannot reliably compose the causal, conditional and technical clauses required here in contemporary Tibetan; isolated terminology does not resolve that grammar gap.",
+            "sources": [
+                "https://thlib.org/",
+                "https://tibetanlibrary.org/"
+            ]
+        },
+        {
+            "tag": "dz",
+            "name": "Dzongkha",
+            "script": "Tibetan",
+            "writtenForm": "Standard Dzongkha",
+            "languageId": "dz",
+            "confidence": "insufficient-to-author",
+            "outcome": "declined",
+            "reason": "The DDC computer glossary is identifiable, but the PDF fetch timed out. More fundamentally I cannot confidently author Dzongkha clause structure; Tibetan wording would not be an acceptable substitute.",
+            "sources": [
+                "https://www.dzongkha.gov.bt/uploads/files/publications/1.computer_term_text_e53071b6528a9081cabd770fda7a26c4.pdf",
+                "https://tech.gov.bt/publications/"
+            ]
+        },
+        {
+            "tag": "dv",
+            "name": "Dhivehi",
+            "script": "Thaana",
+            "writtenForm": "Standard Maldivian Dhivehi",
+            "languageId": "dv",
+            "confidence": "insufficient-to-author",
+            "outcome": "declined",
+            "reason": "The official Radheef dictionary is available as an app/web interface; it does not give me sufficient command of Dhivehi morphology and full technical clauses to guarantee the required meanings.",
+            "sources": [
+                "https://app.radheef.mv/index.php",
+                "https://apps.apple.com/id/app/dhivehi-bahuge-radheef/id1610902373"
+            ]
+        },
+        {
+            "tag": "kok",
+            "name": "Konkani",
+            "script": "Devanagari",
+            "writtenForm": "Goa standard Konkani in Devanagari",
+            "languageId": "kok",
+            "confidence": "insufficient-to-author",
+            "outcome": "declined",
+            "reason": "Bharatavani supplies dictionaries and administrative terminology. I cannot consistently produce distinctly Konkani full clauses instead of allowing Marathi/Hindi grammar to intrude; Goa official coverage specifically needs Devanagari.",
+            "sources": [
+                "https://bharatavani.in/konkani/dictionaries",
+                "https://dol.goa.gov.in/"
+            ]
+        },
+        {
+            "tag": "ks",
+            "name": "Kashmiri",
+            "script": "Arabic",
+            "writtenForm": "Standard Kashmiri in Perso-Arabic script",
+            "languageId": "ks",
+            "confidence": "insufficient-to-author",
+            "outcome": "declined",
+            "reason": "Previously confirmed grammar and orthography gap persists; government dictionary resources do not make reliable sentence authorship possible for me.",
+            "sources": [
+                "https://www.ciil.gov.in/download/Final_Detailed_Catalogue_Final.pdf",
+                "https://www.chd.education.gov.in/en/dictionaries-regional-languages"
+            ]
+        },
+        {
+            "tag": "sat",
+            "name": "Santali",
+            "script": "Ol Chiki",
+            "writtenForm": "Standard Santali in Ol Chiki",
+            "languageId": "sat",
+            "confidence": "insufficient-to-author",
+            "outcome": "declined",
+            "reason": "Prior examination of published Santali UI terminology supplied some nouns but did not establish enough Santali morphology and syntax for these messages. Do not substitute Bengali/Hindi or transliterate them.",
+            "sources": [
+                "https://raw.githubusercontent.com/wikimedia/mediawiki/master/languages/i18n/sat.json"
+            ]
+        },
+        {
+            "tag": "za",
+            "name": "Zhuang",
+            "script": "Latin",
+            "writtenForm": "Standard Zhuang (1982 Latin orthography)",
+            "languageId": "za",
+            "confidence": "insufficient-to-author",
+            "outcome": "declined",
+            "reason": "Prior published Zhuang UI terminology helped identify basic error vocabulary; I cannot compose the complete technical explanations in Standard Zhuang reliably.",
+            "sources": [
+                "https://raw.githubusercontent.com/wikimedia/mediawiki/master/languages/i18n/za.json"
+            ]
+        },
+        {
+            "tag": "pag",
+            "name": "Pangasinan",
+            "script": "Latin",
+            "writtenForm": "Written Pangasinan",
+            "languageId": "pag",
+            "confidence": "insufficient-to-author",
+            "outcome": "declined",
+            "reason": "The Benton dictionary is available, but I cannot confidently compose Pangasinan voice, aspect and conditional clauses for this material without substituting Ilocano/Tagalog patterns.",
+            "sources": [
+                "https://onlinebooks.library.upenn.edu/webbin/book/lookupid?key=olbp89494",
+                "https://zorc.net/rdzorc/PANGASINAN/Pangasinan-Eng_Dictionary%5BBenton-1971%5D.pdf"
+            ]
+        },
+        {
+            "tag": "mdh",
+            "name": "Maguindanaon",
+            "script": "Latin",
+            "writtenForm": "Contemporary written Maguindanaon",
+            "languageId": "mdh",
+            "confidence": "insufficient-to-author",
+            "outcome": "declined",
+            "reason": "SIL wordlists and a grammatical bibliography are available; my knowledge of Maguindanaon verbal inflection and clause structure is insufficient for all required source distinctions.",
+            "sources": [
+                "https://philippines.sil.org/resources/archives/79192",
+                "https://glottolog.org/resource/reference/id/158456"
+            ]
+        },
+        {
+            "tag": "tsg",
+            "name": "Tausug",
+            "script": "Latin",
+            "writtenForm": "Contemporary written Tausug",
+            "languageId": "tsg",
+            "confidence": "insufficient-to-author",
+            "outcome": "declined",
+            "reason": "The SIL Tausug dictionary includes grammar notes, but lexical lookup does not overcome my inability to author the full request/permission/timeout clauses in defensible Tausug.",
+            "sources": [
+                "https://philippines.sil.org/resources/book_store/dictionaries/tausug-english_dictictionary",
+                "https://philippines.sil.org/resources/online_resources"
+            ]
+        },
+        {
+            "tag": "ch",
+            "name": "Chamorro",
+            "script": "Latin",
+            "writtenForm": "Contemporary written CHamoru",
+            "languageId": "ch",
+            "confidence": "insufficient-to-author",
+            "outcome": "declined",
+            "reason": "A revised official dictionary and finder list exist. I cannot reliably supply Chamorro verbal affixes and clause grammar; the finder-list preface explicitly explains why English-word substitution is insufficient.",
+            "sources": [
+                "https://www.cnmilicensing.gov.mp/wp-content/uploads/2025/01/finderlist.preface.12.2024-1.pdf",
+                "https://www.cnmilicensing.gov.mp/wp-content/uploads/2025/01/Title-English-Chamorro.pdf"
+            ]
+        },
+        {
+            "tag": "gil",
+            "name": "Gilbertese (Kiribati)",
+            "script": "Latin",
+            "writtenForm": "Written Kiribati",
+            "languageId": "gil",
+            "confidence": "insufficient-to-author",
+            "outcome": "declined",
+            "reason": "A community dictionary supplies grammar guidance, but I cannot author the necessary aspect, negation and conditional constructions reliably in Kiribati.",
+            "sources": [
+                "https://livingdictionaries.app/kiribati"
+            ]
+        },
+        {
+            "tag": "mh",
+            "name": "Marshallese",
+            "script": "Latin",
+            "writtenForm": "Standard written Marshallese",
+            "languageId": "mh",
+            "confidence": "insufficient-to-author",
+            "outcome": "declined",
+            "reason": "Dictionary examples are available, but my command of Marshallese agreement, particles and diacritic-bearing spelling is insufficient for defensible full technical messages.",
+            "sources": [
+                "https://marshallese.org/dictionary/",
+                "https://docs.steinhardt.nyu.edu/pdfs/metrocenter/atn293/ela/ela_marshallese.pdf"
+            ]
+        },
+        {
+            "tag": "na",
+            "name": "Nauruan",
+            "script": "Latin",
+            "writtenForm": "Written Nauruan",
+            "languageId": "na",
+            "confidence": "insufficient-to-author",
+            "outcome": "declined",
+            "reason": "The historical Delaporte dictionary was identified but could not be fetched. I lack Nauruan sentence competence and cannot resolve modern technical phrasing from an old wordlist.",
+            "sources": [
+                "https://www.trussel.com/kir/naudel.htm"
+            ]
+        },
+        {
+            "tag": "niu",
+            "name": "Niuean",
+            "script": "Latin",
+            "writtenForm": "Standard written Vagahau Niue",
+            "languageId": "niu",
+            "confidence": "insufficient-to-author",
+            "outcome": "declined",
+            "reason": "Government orthography guidance identifies dictionaries and grammatical resources; I still cannot compose reliable Niuean clauses. Tongan wording with changed spellings is not sufficient.",
+            "sources": [
+                "https://www.mpp.govt.nz/assets/Resources/Orthography-guidelines/orthography-guidelines-niue.pdf"
+            ]
+        },
+        {
+            "tag": "ty",
+            "name": "Tahitian",
+            "script": "Latin",
+            "writtenForm": "Standard written Reo Tahiti",
+            "languageId": "ty",
+            "confidence": "insufficient-to-author",
+            "outcome": "declined",
+            "reason": "Government resources point to the Fare Vānaʻa dictionary, whose site fetch failed. I cannot reliably distinguish Tahitian clause grammar and modern technical usage from related Polynesian languages. Official-status scope also needs separate treatment.",
+            "sources": [
+                "https://www.education.pf/ressources-en-ligne-lcp/",
+                "https://www.farevanaa.pf/"
+            ]
+        },
+        {
+            "tag": "ho",
+            "name": "Hiri Motu",
+            "script": "Latin",
+            "writtenForm": "Written Hiri Motu",
+            "languageId": "ho",
+            "confidence": "insufficient-to-author",
+            "outcome": "declined",
+            "reason": "Published grammar/dictionary research exists, but I do not have usable command of Hiri Motu sentence structure. Neither Tok Pisin nor ordinary Motu is a substitute.",
+            "sources": [
+                "https://libcat.canterbury.ac.nz/Record/916483?lng=cy",
+                "https://openresearch-repository.anu.edu.au/bitstream/1885/253033/1/PL-C40.1257.pdf"
+            ]
+        },
+        {
+            "tag": "pau",
+            "name": "Palauan",
+            "script": "Latin",
+            "writtenForm": "Standard written Palauan",
+            "languageId": "pau",
+            "confidence": "insufficient-to-author",
+            "outcome": "declined",
+            "reason": "The Palau Language Commission-associated dictionary has rich examples. I still lack reliable Palauan verb morphology and clause-level authorship for these technical messages.",
+            "sources": [
+                "https://www.tekinged.com/",
+                "https://manifold.uhpress.hawaii.edu/projects/new-palauan-english-dictionary"
+            ]
+        },
+        {
+            "tag": "tkl",
+            "name": "Tokelauan",
+            "script": "Latin",
+            "writtenForm": "Standard written Gagana Tokelau",
+            "languageId": "tkl",
+            "confidence": "insufficient-to-author",
+            "outcome": "declined",
+            "reason": "The community-hosted government dictionary and national orthography guidance are available. They do not make my full Tokelauan sentence production defensible; replacing Samoan consonants would be unsafe.",
+            "sources": [
+                "https://www.matauala.org.nz/dictionary",
+                "https://www.mpia.govt.nz/assets/Resources/Orthography-guidelines/te-gagana-tokelau-orthography-guidelines.pdf"
+            ]
+        },
+        {
+            "tag": "tvl",
+            "name": "Tuvaluan",
+            "script": "Latin",
+            "writtenForm": "Standard written Tuvaluan",
+            "languageId": "tvl",
+            "confidence": "insufficient-to-author",
+            "outcome": "declined",
+            "reason": "A specialist TUFS language-and-culture dictionary is available. I cannot reliably compose all technical subordinate clauses and maintain Tuvaluan morphology and orthography.",
+            "sources": [
+                "https://tuvalu.aa-ken.jp/en/search"
+            ]
+        },
+        {
+            "tag": "mn-mong",
+            "name": "Mongolian (traditional script)",
+            "script": "Mongolian",
+            "writtenForm": "Standard Mongolian in the traditional national script",
+            "languageId": "mn",
+            "confidence": "insufficient-to-author",
+            "outcome": "declined",
+            "reason": "Real traditional orthography is not a mechanical Cyrillic substitution. I cannot produce the required etymological spellings and contextual forms reliably; rendering also needs suitable shaping/fonts and layout review.",
+            "sources": [
+                "https://legalinfo.mn/mn/detail?lawId=10932",
+                "https://moe.gov.mn/post/152215",
+                "https://www.cjvlang.com/Writing/writmongol/mongolalphadict.html"
+            ]
+        },
+        {
+            "tag": "uz-arab",
+            "name": "Uzbek (Afghanistan, Arabic script)",
+            "script": "Arabic",
+            "writtenForm": "Southern Uzbek in Afghan Arabic orthography",
+            "languageId": "uz",
+            "confidence": "insufficient-to-author",
+            "outcome": "declined",
+            "reason": "Afghan Southern Uzbek differs in vocabulary and orthography from Northern Uzbek. I cannot responsibly create this by transliterating the existing Latin Uzbek translation; a Southern Uzbek author and current-status review are needed.",
+            "sources": [
+                "https://arxiv.org/abs/2508.14586",
+                "https://moe.gov.af/index.php/en/node/2798"
+            ]
+        }
+    ],
+    "omitted": [
+        {
+            "tag": "hif",
+            "name": "Fiji Hindi",
+            "script": "Devanagari",
+            "writtenForm": "Fiji Hindi",
+            "languageId": "hif",
+            "confidence": "not-assessed-for-delivery",
+            "outcome": "omitted-scope",
+            "reason": "Fiji Constitution section 3 names Hindi as a constitutional translation language; section 31(3) separately names conversational/contemporary Fiji Hindi for teaching. This evidence does not require a separate colloquial hif website profile. Root confirmed standard hi coverage instead.",
+            "sources": [
+                "https://www.fiji.gov.fj/fijian-constitution/",
+                "https://www.ficac.org.fj/assets/pdf/const2013.pdf"
+            ]
+        },
+        {
+            "tag": "pa-arab",
+            "name": "Punjabi (Shahmukhi)",
+            "script": "Arabic",
+            "writtenForm": "Punjabi in Shahmukhi",
+            "languageId": "pa",
+            "confidence": "not-assessed-for-delivery",
+            "outcome": "omitted-scope",
+            "reason": "Punjab Assembly Rule 218 permits Punjabi speeches but does not establish general provincewide official status or prescribe Shahmukhi as an official written standard. Root confirmed omission; existing Gurmukhi Punjabi serves Indian official use.",
+            "sources": [
+                "https://www.pap.gov.pk/uploads/downloads/rop_nov_24.pdf"
+            ]
+        }
+    ],
+    "notes": [
+        "Confidence is a candid authorship assessment, not native-speaker certification. Independent review is still pending.",
+        "All repeated English strings share an identical translation within each written file.",
+        "Official status of a candidate is not asserted merely because it appears in the declined list; country-level status is tracked separately.",
+        "Existing language files outside this assignment, English, catalog, tooling and documentation were not edited."
+    ]
+}

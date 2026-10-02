@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Adeemsi kun ofumaan raawwatama. Yeroo gabaabaa keessatti gara fuula barbaaddetti ni qajeelfamta.",
+        "validate_browser": "Gara {http_host} seenuu dura biraawzarii kee mirkaneessaa jira",
+        "are_you_human_host": "Ati namaa? Gara {http_host} seenuuf mirkaneessuun barbaachisa",
+        "are_you_human": "Ati namaa? Itti fufuuf mirkaneessuun barbaachisa",
+        "enter_captcha_host": "Gara {http_host} itti fufuuf CAPTCHA armaan gadii galchi:",
+        "enter_captcha": "Itti fufuuf CAPTCHA armaan gadii galchi:",
+        "submit": "ergi",
+        "try_again_later": "Marsariitiin kun fe'amuuf yeroo isa barame caalaa fudhachaa jira. Booda <a href=\"\">irra deebi'ii yaali</a>",
+        "unexpected_error": "Dogoggorri hin eegamne uumame fakkaata. Maaloo booda <a href=\"\">irra deebi'ii yaali</a>",
+        "validation_complete": "<strong>Mirkaneessuun Xumurameera</strong>. Amma gara fuula barbaaddetti qajeelfamaa jirta. Fuulli irra deebi'ee yoo hin fe'amne <a href=\"\">as</a> cuqaasi.",
+        "enable_javascript": "JavaScript yeroo dandeessifamu mirkaneessi biraawzarii haala hunda caaluun hojjeta.",
+        "abnormal_activity": "Sababa sochii hin baramneef, itti fufuuf hojii armaan gadii xumuruu qabda",
+        "sorry_inconvenience": "Rakkoo si mudateef dhiifama gaafanna",
+        "verifying": "Mirkaneessaa jira"
+    },
+    "error": {
+        "default": {
+            "error_loading": "{host} fe'uu irratti dogoggora",
+            "refresh_text": "Maaloo booda marsariiticha seenuuf yaali yookaan fuulicha haaromsuuf <a href=\"\">as</a> cuqaasi.",
+            "unexpected_error": "Fuula kana fe'uu irratti dogoggorri hin eegamne uumame",
+            "possible_causes": "Sababoonni ta'uu danda'an kanneen armaan gadiiti:",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Marsariitichi Hin Argamu",
+            "description": "Kan nama gaddisiisu, fuula kana fe'uu irratti dogoggorri hin eegamne uumame. Rakkoo si mudateef dhiifama gaafanna. Maaloo booda marsariiticha seenuuf yaali yookaan fuulicha haaromsuuf <a href=\"\">as</a> cuqaasi."
+        },
+        "suspended": {
+            "title": "Marsariitichi Dhaabameera",
+            "description": "Kan nama gaddisiisu, marsariitiin ati seenuuf yaalaa jirtu hin argamu. Rakkoo si mudateef dhiifama gaafanna. Ati <strong>abbaa</strong> marsariitii kanaa yoo taate, maaloo <a href=\"https://www.x4b.net/support\">garee deeggarsaa qunnami</a>."
+        },
+        "over_bandwidth": {
+            "title": "Marsariitichi Dhaabameera",
+            "description": "Kan nama gaddisiisu, marsariitiin ati seenuuf yaalaa jirtu hin argamu. Rakkoo si mudateef dhiifama gaafanna. Ati <strong>abbaa</strong> marsariitii kanaa yoo taate, maaloo <a href=\"https://www.x4b.net/\">garee deeggarsaa qunnami</a>."
+        },
+        "backend": {
+            "title": "Sarvariin Hin Argamu",
+            "description": "Sarvariin madda yeroo muraasaaf hin argamu; kanaaf gaaffii kana raawwachuu hin danda'u. Rakkoo si mudateef dhiifama gaafanna.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Yeroon Eeggannaa Gaaffichaa Dhumeera",
+            "description": "Dhiifama, fuula marsariitii kana fe'uu irratti yeroon eeggannaa dhumeera. Rakkoo kanaan uumamuu danda'uuf dhiifama gaafanna.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Seenuun Dhoorkameera",
+            "description": "Fuula kana seenuuf hayyama hin qabdu. Kun dogoggora yoo ta'e, maaloo bulchaa marsariitichaa qunnami."
+        },
+        "upstream": {
+            "title": "Sarvariin Hin Argamu",
+            "description": "Amma sarvariin toora irra jiruufi gaaffii kana raawwachuuf qophaa'e hin jiru. Rakkoo si mudateef dhiifama gaafanna."
+        },
+        "invalid_configuration": {
+            "title": "Qindaa'ina Sirrii Hin Taane",
+            "description": "Sababa dogoggora qindaa'inaatiin gaaffii kana raawwachuu hin dandeenyu. Rakkoo si mudateef dhiifama gaafanna."
+        },
+        "resource": {
+            "title": "Dogoggora Seensaa",
+            "description_start": "Kan nama gaddisiisu, fuula kana fe'uu irratti dogoggorri uumame.",
+            "cause_list": [
+                "Sarvariin madda ba'aa hojii hin eegamne keessa jira; yeroo ammaa gaaffilee raawwachuu hin danda'u",
+                "Sarvarii madda irratti yookaan yeroo deetaan darbu dogoggorri hin eegamne uumame"
+            ],
+            "description_end": "Rakkoo si mudateef dhiifama gaafanna.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Dogoggora Seensaa",
+            "description_start": "Kan nama gaddisiisu, fuula kana fe'uu irratti dogoggorri uumame.",
+            "cause_list": [
+                "Teessoon IP kee gaaffilee garmalee baay'ee gara sarvariitti ergaa akka jiru adda baafameera",
+                "Sarvariin madda ba'aa hojii hin eegamne keessa jira; yeroo ammaa gaaffilee raawwachuu hin danda'u",
+                "Sarvarii madda irratti yookaan yeroo deetaan darbu dogoggorri hin eegamne uumame"
+            ],
+            "description_end": "Rakkoo si mudateef dhiifama gaafanna.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Dogoggora Seensaa",
+            "description_start": "Kan nama gaddisiisu, fuula kana fe'uu irratti dogoggorri uumame.",
+            "cause_list": [
+                "Teessoon IP kee lakkoofsa walqunnamtii gara sarvariitti godhamu kan hin baramne qaba",
+                "Sarvariin madda ba'aa hojii hin eegamne keessa jira; yeroo ammaa gaaffilee raawwachuu hin danda'u",
+                "Sarvarii madda irratti yookaan yeroo deetaan darbu dogoggorri hin eegamne uumame"
+            ],
+            "description_end": "Rakkoo si mudateef dhiifama gaafanna.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Gaaffii Sirrii Hin Taane",
+            "description": "Marsariitii kana HTTPS fayyadamuun seenuun ni danda'ama. Ati HTTP fayyadamuun walqunnamuuf yaalte; amma si qajeelchuuf ni yaalla. Yoo hin qajeelfamne, maaloo jalqaba URL keetti https:// dabaliitii irra deebi'ii yaali."
+        },
+        "timeout": {
+            "title": "Sarvariin Hin Argamu",
+            "description": "Dhiifama, fuula kana fe'uu irratti yeroon eeggannaa dhumeera. Sarvariin hojii baay'ee qabaatee gaaffii kee yeroo ammaa raawwachuu dadhabuu danda'a.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Maqaa Domeenii Hin Beekamne",
+            "description": "Domeeniin kun teessoo IP kanaaf hin galmoofne.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Mala Hin Deggeramne",
+            "description": "Malli HTTP gaafatame marsariitii kanaaf hin dandeessifamne.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Gaaffii Nageenya Hin Qabne",
+            "description": "Pirootokooliin HTTPS gaafatame marsariitii kanaaf hin dandeessifamne. Maaloo biraawzarii kee haaromsi.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Suphaaf Toora Irraa Citeera",
+            "description": "Marsariitiin kun yeroo ammaa hin argamu. Yeroo gabaabaa keessatti deebi'ee akka argamu ni eegama.",
+            "refresh_enable": true
+        }
+    }
+}

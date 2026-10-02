@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Hierdie proses is outomaties. Jy sal binnekort na jou beoogde bestemming herlei word.",
+        "validate_browser": "Jou blaaier word nagegaan voordat jy toegang tot {http_host} kry",
+        "are_you_human_host": "Is jy 'n mens? Verifikasie is nodig om toegang tot {http_host} te kry",
+        "are_you_human": "Is jy 'n mens? Verifikasie is nodig om voort te gaan",
+        "enter_captcha_host": "Voer asseblief die CAPTCHA hieronder in om na {http_host} voort te gaan:",
+        "enter_captcha": "Voer asseblief die CAPTCHA hieronder in om voort te gaan:",
+        "submit": "Dien in",
+        "try_again_later": "Hierdie webwerf neem langer as gewoonlik om te laai. Jy kan later <a href=\"\">weer probeer</a>",
+        "unexpected_error": "Dit lyk of 'n onverwagte fout voorgekom het. <a href=\"\">Probeer asseblief weer</a> later",
+        "validation_complete": "<strong>Verifikasie voltooi</strong>. Jy word nou na jou beoogde bestemming herlei. Klik <a href=\"\">hier</a> as die bladsy nie herlaai nie.",
+        "enable_javascript": "Blaaierverifikasie werk die beste wanneer JavaScript geaktiveer is.",
+        "abnormal_activity": "Weens ongewone aktiwiteit moet jy die taak hieronder voltooi om voort te gaan",
+        "sorry_inconvenience": "Ons vra om verskoning vir enige ongerief",
+        "verifying": "Besig om te verifieer"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Fout tydens die laai van {host}",
+            "refresh_text": "Probeer asseblief later toegang tot die webwerf kry of klik <a href=\"\">hier</a> om die bladsy te herlaai.",
+            "unexpected_error": "'n Onverwagte fout het voorgekom terwyl hierdie bladsy gelaai is",
+            "possible_causes": "Moontlike oorsake sluit in: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Webwerf nie beskikbaar nie",
+            "description": "Ongelukkig het 'n onverwagte fout voorgekom terwyl hierdie bladsy gelaai is. Ons vra om verskoning vir enige ongerief. Probeer asseblief later toegang tot die webwerf kry of klik <a href=\"\">hier</a> om die bladsy te herlaai."
+        },
+        "suspended": {
+            "title": "Webwerf opgeskort",
+            "description": "Ongelukkig is die webwerf wat jy probeer besoek nie beskikbaar nie. Ons vra om verskoning vir enige ongerief. As jy die <strong>eienaar</strong> van hierdie webwerf is, <a href=\"https://www.x4b.net/support\">kontak asseblief ondersteuning</a>."
+        },
+        "over_bandwidth": {
+            "title": "Webwerf opgeskort",
+            "description": "Ongelukkig is die webwerf wat jy probeer besoek nie beskikbaar nie. Ons vra om verskoning vir enige ongerief. As jy die <strong>eienaar</strong> van hierdie webwerf is, <a href=\"https://www.x4b.net/\">kontak asseblief ondersteuning</a>."
+        },
+        "backend": {
+            "title": "Bediener nie beskikbaar nie",
+            "description": "Die oorsprongbediener is tydelik nie beskikbaar nie en kan dus nie hierdie versoek hanteer nie. Ons vra om verskoning vir enige ongerief.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Versoek het uitgetel",
+            "description": "Ongelukkig is die tydsbeperking oorskry terwyl hierdie webblad gelaai is. Ons vra om verskoning vir enige ongerief wat dit veroorsaak het.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Toegang geweier",
+            "description": "Jy het nie toestemming om toegang tot hierdie bladsy te kry nie. As dit 'n fout is, kontak asseblief die webwerfadministrateur."
+        },
+        "upstream": {
+            "title": "Bediener nie beskikbaar nie",
+            "description": "Geen bediener is tans aanlyn en beskikbaar om hierdie versoek te verwerk nie. Ons vra om verskoning vir enige ongerief."
+        },
+        "invalid_configuration": {
+            "title": "Ongeldige konfigurasie",
+            "description": "Ons kan nie hierdie versoek hanteer nie weens 'n konfigurasiefout. Ons vra om verskoning vir enige ongerief."
+        },
+        "resource": {
+            "title": "Toegangsfout",
+            "description_start": "Ongelukkig het 'n fout voorgekom terwyl hierdie bladsy gelaai is.",
+            "cause_list": [
+                "Die oorsprongbediener ondervind 'n onverwagte hoë las en kan tans nie versoeke verwerk nie",
+                "'n Onverwagte fout het op die oorsprongbediener of tydens die oordrag voorgekom"
+            ],
+            "description_end": "Ons vra om verskoning vir enige ongerief.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Toegangsfout",
+            "description_start": "Ongelukkig het 'n fout voorgekom terwyl hierdie bladsy gelaai is.",
+            "cause_list": [
+                "Daar is vasgestel dat jou IP-adres die bediener met te veel versoeke oorlaai",
+                "Die oorsprongbediener ondervind 'n onverwagte hoë las en kan tans nie versoeke verwerk nie",
+                "'n Onverwagte fout het op die oorsprongbediener of tydens die oordrag voorgekom"
+            ],
+            "description_end": "Ons vra om verskoning vir enige ongerief.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Toegangsfout",
+            "description_start": "Ongelukkig het 'n fout voorgekom terwyl hierdie bladsy gelaai is.",
+            "cause_list": [
+                "Daar is 'n ongewone aantal verbindings vanaf jou IP-adres na die bediener",
+                "Die oorsprongbediener ondervind 'n onverwagte hoë las en kan tans nie versoeke verwerk nie",
+                "'n Onverwagte fout het op die oorsprongbediener of tydens die oordrag voorgekom"
+            ],
+            "description_end": "Ons vra om verskoning vir enige ongerief.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Ongeldige versoek",
+            "description": "Hierdie webwerf is via HTTPS toeganklik. Jy het probeer om via HTTP te verbind. Ons sal jou nou probeer herlei. As jy nie herlei word nie, voeg asseblief https:// aan die begin van jou URL by en probeer weer."
+        },
+        "timeout": {
+            "title": "Bediener nie beskikbaar nie",
+            "description": "Ongelukkig is die tydsbeperking oorskry terwyl hierdie bladsy gelaai is. Die bediener is moontlik besig en kan tans nie jou versoek verwerk nie.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Onbekende domein",
+            "description": "Hierdie domein is nie by hierdie IP-adres geregistreer nie.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Metode nie ondersteun nie",
+            "description": "Die aangevraagde HTTP-metode is nie vir hierdie webwerf geaktiveer nie.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Onveilige versoek",
+            "description": "Die aangevraagde HTTPS-protokol is nie vir hierdie webwerf geaktiveer nie. Werk asseblief jou blaaier by.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Vanlyn vir instandhouding",
+            "description": "Hierdie webwerf is nie op die oomblik beskikbaar nie. Dit behoort binnekort weer beskikbaar te wees.",
+            "refresh_enable": true
+        }
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Awtomatiko ini nga proseso. Sa indi madugay, idul-ong ka sa pahina nga gusto mo kadtuan.",
+        "validate_browser": "Ginapamatud-an ang imo browser antes magsulod sa {http_host}",
+        "are_you_human_host": "Tawo ka bala? Kinahanglan ang pagpamatuod agod makasulod sa {http_host}",
+        "are_you_human": "Tawo ka bala? Kinahanglan ang pagpamatuod agod makapadayon",
+        "enter_captcha_host": "Palihog isulod ang CAPTCHA sa idalom agod makapadayon sa {http_host}:",
+        "enter_captcha": "Palihog isulod ang CAPTCHA sa idalom agod makapadayon:",
+        "submit": "ipadala",
+        "try_again_later": "Mas madugay kaysa kinaandan ang pagkarga sang ini nga website. Mahimo ka <a href=\"\">magtilaw liwat</a> sa ulihi",
+        "unexpected_error": "Daw may natabo nga wala ginapaabot nga sayop. Palihog <a href=\"\">magtilaw liwat</a> sa ulihi",
+        "validation_complete": "<strong>Natapos ang pagpamatuod</strong>. Ginadul-ong ka na sa pahina nga gusto mo kadtuan. I-klik <a href=\"\">diri</a> kon indi magkarga liwat ang pahina.",
+        "enable_javascript": "Mas maayo ang pag-andar sang pagpamatuod sang browser kon nakaandar ang JavaScript.",
+        "abnormal_activity": "Bangod sa indi kinaandan nga aktibidad, kinahanglan mo tapuson ang buluhaton sa idalom agod makapadayon",
+        "sorry_inconvenience": "Nagapangayo kami sang pasaylo sa bisan ano nga kahasol",
+        "verifying": "Ginapamatud-an"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Sayop sa pagkarga sang {host}",
+            "refresh_text": "Palihog tilawi nga magsulod sa site sa ulihi ukon i-klik <a href=\"\">diri</a> agod ikarga liwat ang pahina.",
+            "unexpected_error": "May natabo nga wala ginapaabot nga sayop samtang ginakarga ini nga pahina",
+            "possible_causes": "Ang posible nga mga kabangdanan amo ang: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Indi magamit ang website",
+            "description": "Sa kasubo, may natabo nga wala ginapaabot nga sayop samtang ginakarga ini nga pahina. Nagapangayo kami sang pasaylo sa bisan ano nga kahasol. Palihog tilawi nga magsulod sa site sa ulihi ukon i-klik <a href=\"\">diri</a> agod ikarga liwat ang pahina."
+        },
+        "suspended": {
+            "title": "Ginsuspender ang website",
+            "description": "Sa kasubo, indi magamit ang website nga ginatinguhaan mo nga bisitahon. Nagapangayo kami sang pasaylo sa bisan ano nga kahasol. Kon ikaw ang <strong>tag-iya</strong> sang ini nga website, palihog <a href=\"https://www.x4b.net/support\">kontaka ang suporta</a>."
+        },
+        "over_bandwidth": {
+            "title": "Ginsuspender ang website",
+            "description": "Sa kasubo, indi magamit ang website nga ginatinguhaan mo nga bisitahon. Nagapangayo kami sang pasaylo sa bisan ano nga kahasol. Kon ikaw ang <strong>tag-iya</strong> sang ini nga website, palihog <a href=\"https://www.x4b.net/\">kontaka ang suporta</a>."
+        },
+        "backend": {
+            "title": "Indi magamit ang server",
+            "description": "Temporaryo nga indi magamit ang ginhalinan nga server, gani indi sini maserbisyuhan ang ini nga pangabay. Nagapangayo kami sang pasaylo sa bisan ano nga kahasol.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Naglapaw sa limitasyon ang oras sang paghulat sa pangabay",
+            "description": "Pasayloa kami, pero naglapaw sa limitasyon ang oras sang paghulat samtang ginakarga ini nga pahina. Nagapangayo kami sang pasaylo sa kahasol nga mahimo gintuga sini.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Wala gintugutan ang pagsulod",
+            "description": "Wala ka sang permiso nga magsulod sa ini nga pahina. Kon sa banta mo sayop ini, palihog kontaka ang administrador sang website."
+        },
+        "upstream": {
+            "title": "Indi magamit ang server",
+            "description": "Wala sang server nga online kag magamit subong agod maproseso ang ini nga pangabay. Nagapangayo kami sang pasaylo sa bisan ano nga kahasol."
+        },
+        "invalid_configuration": {
+            "title": "Indi balido nga konpigurasyon",
+            "description": "Indi namon maserbisyuhan ang ini nga pangabay bangod sa sayop sa konpigurasyon. Nagapangayo kami sang pasaylo sa bisan ano nga kahasol."
+        },
+        "resource": {
+            "title": "Sayop sa pagsulod",
+            "description_start": "Sa kasubo, may natabo nga sayop samtang ginakarga ini nga pahina.",
+            "cause_list": [
+                "May wala ginapaabot nga kabug-aton sang obra ang ginhalinan nga server kag indi ini makaproseso sang mga pangabay subong",
+                "May natabo nga wala ginapaabot nga sayop sa ginhalinan nga server ukon sa pagpadala sang datos"
+            ],
+            "description_end": "Nagapangayo kami sang pasaylo sa bisan ano nga kahasol.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Sayop sa pagsulod",
+            "description_start": "Sa kasubo, may natabo nga sayop samtang ginakarga ini nga pahina.",
+            "cause_list": [
+                "Namat-od nga sobra kadamo ang mga pangabay nga ginapadala sa server halin sa imo IP address",
+                "May wala ginapaabot nga kabug-aton sang obra ang ginhalinan nga server kag indi ini makaproseso sang mga pangabay subong",
+                "May natabo nga wala ginapaabot nga sayop sa ginhalinan nga server ukon sa pagpadala sang datos"
+            ],
+            "description_end": "Nagapangayo kami sang pasaylo sa bisan ano nga kahasol.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Sayop sa pagsulod",
+            "description_start": "Sa kasubo, may natabo nga sayop samtang ginakarga ini nga pahina.",
+            "cause_list": [
+                "Indi kinaandan ang kadamuon sang mga koneksyon halin sa imo IP address pakadto sa server",
+                "May wala ginapaabot nga kabug-aton sang obra ang ginhalinan nga server kag indi ini makaproseso sang mga pangabay subong",
+                "May natabo nga wala ginapaabot nga sayop sa ginhalinan nga server ukon sa pagpadala sang datos"
+            ],
+            "description_end": "Nagapangayo kami sang pasaylo sa bisan ano nga kahasol.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Sayop nga pangabay",
+            "description": "Masudlan ini nga website paagi sa HTTPS. Nagtilaw ka magkonekta paagi sa HTTP; subong tilawan namon nga idul-ong ka sa husto nga koneksyon. Kon wala ka nadul-ong, palihog idugang ang https:// sa unahan sang imo URL kag magtilaw liwat."
+        },
+        "timeout": {
+            "title": "Indi magamit ang server",
+            "description": "Pasayloa kami, pero naglapaw sa limitasyon ang oras sang paghulat samtang ginakarga ini nga pahina. Posible nga masako ang server kag indi sini maproseso ang imo pangabay subong.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Wala makilala nga domain",
+            "description": "Ini nga domain wala narehistro para sa ini nga IP address.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Wala ginasuportahan nga pamaagi",
+            "description": "Wala ginpaandar ang ginpangayo nga HTTP nga pamaagi para sa ini nga website.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Indi luwas nga pangabay",
+            "description": "Wala ginpaandar ang ginpangayo nga HTTPS nga protokol para sa ini nga website. Palihog i-update ang imo browser.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Offline para sa pagmentinar",
+            "description": "Indi magamit ini nga website subong. Ginapaabot nga magamit ini liwat sa indi madugay.",
+            "refresh_enable": true
+        }
+    }
+}

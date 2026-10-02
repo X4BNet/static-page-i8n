@@ -1,15 +1,122 @@
 {
     "challenge": {
-        "redirect_shortly": "Otomatik işlem yapılıyor. Kısa bir süre içinde hedefinize yönlendirileceksiniz.",
-        "validate_browser": "{{http_host}} için tarayıcınız doğrulanıyor",
-        "are_you_human_host": "Robot musun? {{http_host}} için tarayıcınız doğrulanıyor",
-        "are_you_human": "İnsan mısın? Devam etmek için doğrulama gerekiyor",
-        "enter_captcha_host": "Devam etmek için lütfen CAPTCHA'yı giriniz {{http_host}}:",
-        "enter_captcha": "Devam etmek için lütfen aşağıdaki CAPTCHA'yı girin:",
-        "submit": "Sunmak",
-        "try_again_later": "Bu web sitesine erişim normalden daha uzun sürüyor, daha sonra <a href=\"\">tekrar dene</a> yapabilirsiniz",
-        "unexpected_error": "Beklenmeyen bir hata oluştu, lütfen <a href=\"\">tekrar dene</a> yapın",
-        "validation_complete": "<strong>Doğrulama Tamamlandı</strong> siteye yönlendiriliyorsunuz. Eğer sayfa yüklenmezse ",
-        "enable_javascript": "Tarayıcı Doğrulaması, JavaScript'in etkinleştirilmesiyle en iyi şekilde çalışır."
+        "redirect_shortly": "Bu işlem otomatiktir. Kısa süre içinde gitmek istediğiniz sayfaya yönlendirileceksiniz.",
+        "validate_browser": "{http_host} adresine erişmeden önce tarayıcınız doğrulanıyor",
+        "are_you_human_host": "İnsan mısınız? {http_host} adresine erişmek için doğrulama gerekiyor",
+        "are_you_human": "İnsan mısınız? Devam etmek için doğrulama gerekiyor",
+        "enter_captcha_host": "{http_host} adresine devam etmek için lütfen aşağıdaki CAPTCHA'yı tamamlayın:",
+        "enter_captcha": "Devam etmek için lütfen aşağıdaki CAPTCHA'yı tamamlayın:",
+        "submit": "Gönder",
+        "try_again_later": "Bu web sitesinin yüklenmesi normalden uzun sürüyor; daha sonra <a href=\"\">yeniden deneyebilirsiniz</a>.",
+        "unexpected_error": "Beklenmeyen bir hata oluştu. Lütfen daha sonra <a href=\"\">yeniden deneyin</a>.",
+        "validation_complete": "<strong>Doğrulama tamamlandı.</strong> Şimdi gitmek istediğiniz sayfaya yönlendiriliyorsunuz. Sayfa yeniden yüklenmezse <a href=\"\">buraya</a> tıklayın.",
+        "enable_javascript": "Tarayıcı doğrulaması, JavaScript etkinleştirildiğinde en iyi şekilde çalışır.",
+        "abnormal_activity": "Olağan dışı etkinlik nedeniyle devam etmek için aşağıdaki doğrulamayı tamamlamanız gerekiyor",
+        "sorry_inconvenience": "Yaşattığımız aksaklıktan dolayı özür dileriz",
+        "verifying": "Doğrulanıyor"
+    },
+    "error": {
+        "default": {
+            "error_loading": "{host} yüklenirken hata oluştu",
+            "refresh_text": "Lütfen siteye daha sonra yeniden erişmeyi deneyin veya sayfayı yenilemek için <a href=\"\">buraya</a> tıklayın.",
+            "unexpected_error": "Bu sayfa yüklenirken beklenmeyen bir hata oluştu",
+            "possible_causes": "Olası nedenler:",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Web Sitesi Kullanılamıyor",
+            "description": "Bu sayfa yüklenirken beklenmeyen bir hata oluştu. Yaşanan aksaklıktan dolayı özür dileriz. Lütfen siteye daha sonra yeniden erişmeyi deneyin veya sayfayı yenilemek için <a href=\"\">buraya</a> tıklayın."
+        },
+        "suspended": {
+            "title": "Web Sitesi Askıya Alındı",
+            "description": "Ziyaret etmeye çalıştığınız web sitesi kullanılamıyor. Yaşanan aksaklıktan dolayı özür dileriz. Bu web sitesinin <strong>sahibiyseniz</strong> lütfen <a href=\"https://www.x4b.net/support\">destek ekibiyle iletişime geçin</a>."
+        },
+        "over_bandwidth": {
+            "title": "Web Sitesi Askıya Alındı",
+            "description": "Ziyaret etmeye çalıştığınız web sitesi kullanılamıyor. Yaşanan aksaklıktan dolayı özür dileriz. Bu web sitesinin <strong>sahibiyseniz</strong> lütfen <a href=\"https://www.x4b.net/\">destek ekibiyle iletişime geçin</a>."
+        },
+        "backend": {
+            "title": "Sunucu Kullanılamıyor",
+            "description": "Arka uç sunucusu geçici olarak kullanılamadığı için bu isteği işleyemiyor. Yaşanan aksaklıktan dolayı özür dileriz.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "İstek Zaman Aşımına Uğradı",
+            "description": "Bu web sayfası yüklenirken zaman aşımı oluştu. Bunun neden olduğu aksaklıktan dolayı özür dileriz.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Erişim Reddedildi",
+            "description": "Bu sayfaya erişim izniniz yok. Bunun bir hata olduğunu düşünüyorsanız lütfen web sitesi yöneticisiyle iletişime geçin."
+        },
+        "upstream": {
+            "title": "Sunucu Kullanılamıyor",
+            "description": "Şu anda bu isteği işleyebilecek çevrim içi ve kullanılabilir bir sunucu yok. Yaşanan aksaklıktan dolayı özür dileriz."
+        },
+        "invalid_configuration": {
+            "title": "Geçersiz Yapılandırma",
+            "description": "Bir yapılandırma hatası nedeniyle bu isteği işleyemiyoruz. Yaşanan aksaklıktan dolayı özür dileriz."
+        },
+        "resource": {
+            "title": "Erişim Hatası",
+            "description_start": "Bu sayfa yüklenirken bir hata oluştu.",
+            "cause_list": [
+                "Arka uç sunucusu beklenmeyen bir yük altında ve şu anda istekleri işleyemiyor",
+                "Arka uç sunucusunda veya veri aktarımı sırasında beklenmeyen bir hata oluştu"
+            ],
+            "description_end": "Yaşanan aksaklıktan dolayı özür dileriz.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Erişim Hatası",
+            "description_start": "Bu sayfa yüklenirken bir hata oluştu.",
+            "cause_list": [
+                "IP adresinizin sunucuya aşırı sayıda istek gönderdiği tespit edildi",
+                "Arka uç sunucusu beklenmeyen bir yük altında ve şu anda istekleri işleyemiyor",
+                "Arka uç sunucusunda veya veri aktarımı sırasında beklenmeyen bir hata oluştu"
+            ],
+            "description_end": "Yaşanan aksaklıktan dolayı özür dileriz.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Erişim Hatası",
+            "description_start": "Bu sayfa yüklenirken bir hata oluştu.",
+            "cause_list": [
+                "IP adresinizden sunucuya olağan dışı sayıda bağlantı kurulduğu tespit edildi",
+                "Arka uç sunucusu beklenmeyen bir yük altında ve şu anda istekleri işleyemiyor",
+                "Arka uç sunucusunda veya veri aktarımı sırasında beklenmeyen bir hata oluştu"
+            ],
+            "description_end": "Yaşanan aksaklıktan dolayı özür dileriz.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Hatalı İstek",
+            "description": "Bu web sitesine HTTPS üzerinden erişilebilir. HTTP üzerinden bağlanmayı denediniz; şimdi sizi yönlendirmeye çalışacağız. Yönlendirilmezseniz URL'nin başına https:// ekleyip yeniden deneyin."
+        },
+        "timeout": {
+            "title": "Sunucu Kullanılamıyor",
+            "description": "Bu web sayfası yüklenirken zaman aşımı oluştu. Sunucu meşgul olduğu için şu anda isteğinizi işleyemiyor olabilir.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Bilinmeyen Alan Adı",
+            "description": "Bu alan adı, bu IP adresine kayıtlı değil.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Desteklenmeyen Yöntem",
+            "description": "İstenen HTTP yöntemi bu web sitesi için etkin değil.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Güvenli Olmayan İstek",
+            "description": "İstenen HTTPS protokolü bu web sitesi için etkin değil. Lütfen tarayıcınızı güncelleyin.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Bakım Nedeniyle Çevrim Dışı",
+            "description": "Bu web sitesi şu anda kullanılamıyor. Sitenin kısa süre içinde yeniden erişilebilir olması bekleniyor.",
+            "refresh_enable": true
+        }
     }
 }

@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "此程序會自動執行。您即將被重新導向至原本要前往的頁面。",
+        "validate_browser": "正在驗證您的瀏覽器，以便存取 {http_host}",
+        "are_you_human_host": "您是真人嗎？存取 {http_host} 前需要進行驗證",
+        "are_you_human": "您是真人嗎？需要完成驗證才能繼續",
+        "enter_captcha_host": "請輸入下方的 CAPTCHA，繼續前往 {http_host}：",
+        "enter_captcha": "請輸入下方的 CAPTCHA 以繼續：",
+        "submit": "送出",
+        "try_again_later": "此網站載入的時間比平常長，您可以稍後<a href=\"\">再試一次</a>",
+        "unexpected_error": "似乎發生了非預期的錯誤，請稍後<a href=\"\">再試一次</a>",
+        "validation_complete": "<strong>驗證完成</strong>，正在將您重新導向至原本要前往的頁面。如果頁面未重新載入，請按<a href=\"\">這裡</a>。",
+        "enable_javascript": "啟用 JavaScript 時，瀏覽器驗證的運作效果最佳。",
+        "abnormal_activity": "由於偵測到異常活動，您需要完成下方的任務才能繼續",
+        "sorry_inconvenience": "造成不便，敬請見諒",
+        "verifying": "驗證中"
+    },
+    "error": {
+        "default": {
+            "error_loading": "載入 {host} 時發生錯誤",
+            "refresh_text": "請稍後再嘗試存取此網站，或按<a href=\"\">這裡</a>重新整理頁面。",
+            "unexpected_error": "載入此頁面時發生非預期的錯誤",
+            "possible_causes": "可能的原因包括：",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "網站無法使用",
+            "description": "很抱歉，載入此頁面時發生非預期的錯誤。造成不便，敬請見諒。請稍後再嘗試存取此網站，或按<a href=\"\">這裡</a>重新整理頁面。"
+        },
+        "suspended": {
+            "title": "網站已暫停服務",
+            "description": "很抱歉，您要造訪的網站目前無法使用。造成不便，敬請見諒。如果您是此網站的<strong>擁有者</strong>，請<a href=\"https://www.x4b.net/support\">聯絡支援團隊</a>。"
+        },
+        "over_bandwidth": {
+            "title": "網站已暫停服務",
+            "description": "很抱歉，您要造訪的網站目前無法使用。造成不便，敬請見諒。如果您是此網站的<strong>擁有者</strong>，請<a href=\"https://www.x4b.net/\">聯絡支援團隊</a>。"
+        },
+        "backend": {
+            "title": "伺服器無法使用",
+            "description": "來源伺服器暫時無法使用，因此無法處理此要求。造成不便，敬請見諒。",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "要求逾時",
+            "description": "很抱歉，載入此網頁時已超過等候時間。對於可能造成的不便，我們深感抱歉。",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "拒絕存取",
+            "description": "您沒有存取此頁面的權限。如果您認為這是錯誤，請聯絡網站管理員。"
+        },
+        "upstream": {
+            "title": "伺服器無法使用",
+            "description": "目前沒有已連線且可處理此要求的伺服器。造成不便，敬請見諒。"
+        },
+        "invalid_configuration": {
+            "title": "設定無效",
+            "description": "由於設定錯誤，我們無法處理此要求。造成不便，敬請見諒。"
+        },
+        "resource": {
+            "title": "存取錯誤",
+            "description_start": "很抱歉，載入此頁面時發生錯誤。",
+            "cause_list": [
+                "來源伺服器的負載超乎預期，目前無法處理要求",
+                "來源伺服器或資料傳輸過程中發生非預期的錯誤"
+            ],
+            "description_end": "造成不便，敬請見諒。",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "存取錯誤",
+            "description_start": "很抱歉，載入此頁面時發生錯誤。",
+            "cause_list": [
+                "系統偵測到您的 IP 位址正在向伺服器傳送過多要求",
+                "來源伺服器的負載超乎預期，目前無法處理要求",
+                "來源伺服器或資料傳輸過程中發生非預期的錯誤"
+            ],
+            "description_end": "造成不便，敬請見諒。",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "存取錯誤",
+            "description_start": "很抱歉，載入此頁面時發生錯誤。",
+            "cause_list": [
+                "您的 IP 位址與伺服器之間的連線數量異常",
+                "來源伺服器的負載超乎預期，目前無法處理要求",
+                "來源伺服器或資料傳輸過程中發生非預期的錯誤"
+            ],
+            "description_end": "造成不便，敬請見諒。",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "要求無效",
+            "description": "此網站可透過 HTTPS 存取。您剛才嘗試透過 HTTP 連線，我們現在將嘗試重新導向。如果您未被重新導向，請在 URL 開頭加上 https://，然後再試一次。"
+        },
+        "timeout": {
+            "title": "伺服器無法使用",
+            "description": "很抱歉，載入此頁面時已超過等候時間。伺服器可能忙碌中，目前無法處理您的要求。",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "不明的網域",
+            "description": "此網域尚未註冊至此 IP 位址。",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "不支援的方法",
+            "description": "此網站未啟用所要求的 HTTP 方法。",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "不安全的要求",
+            "description": "此網站未啟用所要求的 HTTPS 通訊協定。請更新您的瀏覽器。",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "因維護而暫停服務",
+            "description": "此網站目前無法使用，預計很快就會恢復。",
+            "refresh_enable": true
+        }
+    }
+}

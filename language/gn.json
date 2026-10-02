@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Ko tembiapo oiko ijehegui. Sapy'aitépe rombohapejeýta kuatiarogue rehosehápe.",
+        "validate_browser": "Ojehechajey hína ne kundahára reike mboyve {http_host}-pe",
+        "are_you_human_host": "Ndépa yvypóra? Tekotevẽ ojehechajey reike hag̃ua {http_host}-pe",
+        "are_you_human": "Ndépa yvypóra? Tekotevẽ ojehechajey rehojey hag̃ua tenonde",
+        "enter_captcha_host": "Ehai CAPTCHA oĩva ko'ápe yvývo reho hag̃ua {http_host}-pe:",
+        "enter_captcha": "Ehai CAPTCHA oĩva ko'ápe yvývo rehojey hag̃ua tenonde:",
+        "submit": "emondo",
+        "try_again_later": "Ko ñanduti renda hi'areve jepiguágui henyhẽ hag̃ua. Ikatu <a href=\"\">reñeha'ã jey</a> ag̃amieve",
+        "unexpected_error": "Ha'ete oikoha peteĩ jejavy ñeha'arõ'ỹva. <a href=\"\">Eñeha'ã jey</a> ag̃amieve",
+        "validation_complete": "<strong>Ñemoañete oĩmbáma</strong> ko'ág̃a rombohapejey hína kuatiarogue rehosehápe. Eikutu <a href=\"\">ko'ápe</a> pe kuatiarogue noñemyanyhẽjeýiramo.",
+        "enable_javascript": "Kundahára jehechajey omba'apo porãve JavaScript oĩramo hendypýva.",
+        "abnormal_activity": "Oĩgui tembiapo ndahekopegua, tekotevẽ rejapopa ko tembiapo oĩva yvývo rehojey hag̃ua tenonde",
+        "sorry_inconvenience": "Rombyasy oimeraẽ apañuãi",
+        "verifying": "Ojehechajey hína"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Jejavy oñemyanyhẽvo {host}",
+            "refresh_text": "Eñeha'ã eike ñanduti rendápe ag̃amieve térã eikutu <a href=\"\">ko'ápe</a> emyanyhẽjey hag̃ua kuatiarogue.",
+            "unexpected_error": "Oiko peteĩ jejavy ñeha'arõ'ỹva oñemyanyhẽvo ko kuatiarogue",
+            "possible_causes": "Umi mba'e ikatúva omoheñói kóva apytépe oĩ: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Ñanduti renda ndojepurukuaái",
+            "description": "Ñembyasýpe, oiko peteĩ jejavy ñeha'arõ'ỹva oñemyanyhẽvo ko kuatiarogue. Rombyasy oimeraẽ apañuãi. Eñeha'ã eike ñanduti rendápe ag̃amieve térã eikutu <a href=\"\">ko'ápe</a> emyanyhẽjey hag̃ua kuatiarogue."
+        },
+        "suspended": {
+            "title": "Ñanduti renda oñemombyta",
+            "description": "Ñembyasýpe, pe ñanduti renda reikesehápe ndojepurukuaái. Rombyasy oimeraẽ apañuãi. Nde ha'éramo ko ñanduti renda <strong>jára</strong>, <a href=\"https://www.x4b.net/support\">eñe'ẽ pytyvõhára ndive</a>."
+        },
+        "over_bandwidth": {
+            "title": "Ñanduti renda oñemombyta",
+            "description": "Ñembyasýpe, pe ñanduti renda reikesehápe ndojepurukuaái. Rombyasy oimeraẽ apañuãi. Nde ha'éramo ko ñanduti renda <strong>jára</strong>, <a href=\"https://www.x4b.net/\">eñe'ẽ pytyvõhára ndive</a>."
+        },
+        "backend": {
+            "title": "Mohendahavusu ndojepurukuaái",
+            "description": "Mohendahavusu ypy ndojepurukuaái sapy'ami, ha upévare ndaikatúi ombohovái ko jerure. Rombyasy oimeraẽ apañuãi.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Opa ára oñemoĩva oñeha'arõ hag̃ua jerure",
+            "description": "Ñembyasýpe, opa ára oñemoĩva oñeha'arõ hag̃ua oñemyanyhẽvo ko kuatiarogue. Rombyasy oimeraẽ apañuãi kóva ikatúva omoheñói.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Jeike oñembotove",
+            "description": "Ndereguerekói ñemoneĩ reike hag̃ua ko kuatiaroguépe. Reimo'ãramo kóva ha'eha jejavy, eñe'ẽ ñanduti renda ñangarekohára ndive."
+        },
+        "upstream": {
+            "title": "Mohendahavusu ndojepurukuaái",
+            "description": "Ko'ág̃a ndaipóri mohendahavusu joajupyre ñandutíre ha ojepurukuaáva omba'apo hag̃ua ko jerurére. Rombyasy oimeraẽ apañuãi."
+        },
+        "invalid_configuration": {
+            "title": "Ñemboheko ndoikóiva",
+            "description": "Ndaikatúi rombohovái ko jerure oĩgui jejavy ñembohekópe. Rombyasy oimeraẽ apañuãi."
+        },
+        "resource": {
+            "title": "Jeike jejavy",
+            "description_start": "Ñembyasýpe, oiko peteĩ jejavy oñemyanyhẽvo ko kuatiarogue.",
+            "cause_list": [
+                "Mohendahavusu ypy oguereko tembiapo ñeha'arõ'ỹva ha ndaikatúi omba'apo jerurekuérare ko'ág̃a",
+                "Oiko peteĩ jejavy ñeha'arõ'ỹva mohendahavusu ypýpe térã oñemondo aja mba'ekuaarã"
+            ],
+            "description_end": "Rombyasy oimeraẽ apañuãi.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Jeike jejavy",
+            "description_start": "Ñembyasýpe, oiko peteĩ jejavy oñemyanyhẽvo ko kuatiarogue.",
+            "cause_list": [
+                "Ojejuhu ne IP kundaharape omondoha hetaiterei jerure mohendahavusúpe",
+                "Mohendahavusu ypy oguereko tembiapo ñeha'arõ'ỹva ha ndaikatúi omba'apo jerurekuérare ko'ág̃a",
+                "Oiko peteĩ jejavy ñeha'arõ'ỹva mohendahavusu ypýpe térã oñemondo aja mba'ekuaarã"
+            ],
+            "description_end": "Rombyasy oimeraẽ apañuãi.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Jeike jejavy",
+            "description_start": "Ñembyasýpe, oiko peteĩ jejavy oñemyanyhẽvo ko kuatiarogue.",
+            "cause_list": [
+                "Ne IP kundaharape oguereko joaju mohendahavusu ndive peteĩ papapy ndahekopegua",
+                "Mohendahavusu ypy oguereko tembiapo ñeha'arõ'ỹva ha ndaikatúi omba'apo jerurekuérare ko'ág̃a",
+                "Oiko peteĩ jejavy ñeha'arõ'ỹva mohendahavusu ypýpe térã oñemondo aja mba'ekuaarã"
+            ],
+            "description_end": "Rombyasy oimeraẽ apañuãi.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Jerure hendape'ỹ",
+            "description": "Ko ñanduti rendápe ikatu reike HTTPS rupive. Reñeha'ã reike HTTP rupive; ko'ág̃a roñeha'ãta romboguata ambue tapére. Ndojejapóiramo upéicha, emoĩ https:// ne URL ñepyrũme ha eñeha'ã jey."
+        },
+        "timeout": {
+            "title": "Mohendahavusu ndojepurukuaái",
+            "description": "Ñembyasýpe, opa ára oñemoĩva oñeha'arõ hag̃ua oñemyanyhẽvo ko kuatiarogue. Ikatu mohendahavusu hembiapo heta ha ndaikatúi omba'apo ne jerurére ko'ág̃a.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Tendatee ojekuaa'ỹva",
+            "description": "Ko tendatee noñemboheraguapýi ko IP kundaharapépe.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Tapereko noñepytyvõiva",
+            "description": "Tapereko HTTP ojejeruréva noñemyandýi ko ñanduti rendápe g̃uarã.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Jerure tekorosã'ỹva",
+            "description": "Protokólo HTTPS ojejeruréva noñemyandýi ko ñanduti rendápe g̃uarã. Embopyahu ne kundahára.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Oñemboty ñangarekorã",
+            "description": "Ko ñanduti renda ndojepurukuaái ko'ág̃a. Oñeha'arõ ojepurukuaa jey sapy'aitépe.",
+            "refresh_enable": true
+        }
+    }
+}

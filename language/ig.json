@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Usoro a na-eme n'onwe ya. N'oge na-adịghị anya, a ga-ebuga gị na ibe ị chọrọ ịga.",
+        "validate_browser": "A na-enyocha ihe nchọgharị gị tupu ịbanye na {http_host}",
+        "are_you_human_host": "Ị bụ mmadụ? A chọrọ nyocha iji banye na {http_host}",
+        "are_you_human": "Ị bụ mmadụ? A chọrọ nyocha iji gaa n'ihu",
+        "enter_captcha_host": "Biko tinye CAPTCHA dị n'okpuru iji gaa na {http_host}:",
+        "enter_captcha": "Biko tinye CAPTCHA dị n'okpuru iji gaa n'ihu:",
+        "submit": "zipu",
+        "try_again_later": "Weebụsaịtị a na-ewe oge karịa ka ọ na-adị iji buo. Ị nwere ike <a href=\"\">ịnwale ọzọ</a> ma e mesịa",
+        "unexpected_error": "Ọ dị ka njehie a na-atụghị anya ya mere. Biko <a href=\"\">nwalee ọzọ</a> ma e mesịa",
+        "validation_complete": "<strong>Nyocha agwụla</strong>. A na-ebuga gị ugbu a na ibe ị chọrọ ịga. Pịa <a href=\"\">ebe a</a> ma ọ bụrụ na ibe ahụ ebuzighị ọzọ.",
+        "enable_javascript": "Nyocha ihe nchọgharị na-arụ ọrụ kacha mma mgbe agbanyere JavaScript.",
+        "abnormal_activity": "N'ihi omume na-adịghị ka ọ na-adị, anyị chọrọ ka ị rụchaa ọrụ dị n'okpuru iji gaa n'ihu",
+        "sorry_inconvenience": "Ndo maka nsogbu ọ bụla",
+        "verifying": "A na-enyocha"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Njehie mgbe a na-ebu {host}",
+            "refresh_text": "Biko nwalee ịbanye na weebụsaịtị ahụ ma e mesịa, ma ọ bụ pịa <a href=\"\">ebe a</a> iji buo ibe ahụ ọzọ.",
+            "unexpected_error": "Njehie a na-atụghị anya ya mere mgbe a na-ebu ibe a",
+            "possible_causes": "Ihe nwere ike ịkpata ya gụnyere: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Weebụsaịtị adịghị maka ojiji",
+            "description": "Ọ dị mwute na njehie a na-atụghị anya ya mere mgbe a na-ebu ibe a. Ndo maka nsogbu ọ bụla. Biko nwalee ịbanye na weebụsaịtị ahụ ma e mesịa, ma ọ bụ pịa <a href=\"\">ebe a</a> iji buo ibe ahụ ọzọ."
+        },
+        "suspended": {
+            "title": "Akwụsịla weebụsaịtị",
+            "description": "Ọ dị mwute na weebụsaịtị ị na-achọ ịga adịghị maka ojiji. Ndo maka nsogbu ọ bụla. Ọ bụrụ na ị bụ <strong>onye nwe</strong> weebụsaịtị a, biko <a href=\"https://www.x4b.net/support\">kpọtụrụ ndị enyemaka</a>."
+        },
+        "over_bandwidth": {
+            "title": "Akwụsịla weebụsaịtị",
+            "description": "Ọ dị mwute na weebụsaịtị ị na-achọ ịga adịghị maka ojiji. Ndo maka nsogbu ọ bụla. Ọ bụrụ na ị bụ <strong>onye nwe</strong> weebụsaịtị a, biko <a href=\"https://www.x4b.net/\">kpọtụrụ ndị enyemaka</a>."
+        },
+        "backend": {
+            "title": "Sava adịghị maka ojiji",
+            "description": "Sava isi mmalite adịghị maka ojiji nwa oge, ya mere ọ nweghị ike imezu arịrịọ a. Ndo maka nsogbu ọ bụla.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Oge a kara aka maka ichere arịrịọ agwụla",
+            "description": "Ndo, oge a kara aka maka ichere agwụla mgbe a na-ebu ibe a. Ndo maka nsogbu ọ bụla nke a nwere ike ịkpata.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Ajụrụ ohere ịbanye",
+            "description": "Ị nweghị ikike ịbanye na ibe a. Ọ bụrụ na ị chere na nke a bụ njehie, biko kpọtụrụ onye nchịkwa weebụsaịtị ahụ."
+        },
+        "upstream": {
+            "title": "Sava adịghị maka ojiji",
+            "description": "Ugbu a, enweghị sava jikọrọ na ịntanetị nke dị njikere ịhazi arịrịọ a. Ndo maka nsogbu ọ bụla."
+        },
+        "invalid_configuration": {
+            "title": "Ntọala na-adịghị mma",
+            "description": "Anyị enweghị ike imezu arịrịọ a n'ihi njehie na ntọala. Ndo maka nsogbu ọ bụla."
+        },
+        "resource": {
+            "title": "Njehie ịbanye",
+            "description_start": "Ọ dị mwute na njehie mere mgbe a na-ebu ibe a.",
+            "cause_list": [
+                "Sava isi mmalite nwere oke ọrụ a na-atụghị anya ya, ọ nweghịkwa ike ịhazi arịrịọ ugbu a",
+                "Njehie a na-atụghị anya ya mere na sava isi mmalite ma ọ bụ mgbe a na-ebufe data"
+            ],
+            "description_end": "Ndo maka nsogbu ọ bụla.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Njehie ịbanye",
+            "description_start": "Ọ dị mwute na njehie mere mgbe a na-ebu ibe a.",
+            "cause_list": [
+                "Achọpụtala na a na-esi na adreesị IP gị eziga arịrịọ karịrị akarị na sava",
+                "Sava isi mmalite nwere oke ọrụ a na-atụghị anya ya, ọ nweghịkwa ike ịhazi arịrịọ ugbu a",
+                "Njehie a na-atụghị anya ya mere na sava isi mmalite ma ọ bụ mgbe a na-ebufe data"
+            ],
+            "description_end": "Ndo maka nsogbu ọ bụla.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Njehie ịbanye",
+            "description_start": "Ọ dị mwute na njehie mere mgbe a na-ebu ibe a.",
+            "cause_list": [
+                "Adreesị IP gị nwere ọnụ ọgụgụ njikọ na sava nke na-adịghị ka ọ na-adị",
+                "Sava isi mmalite nwere oke ọrụ a na-atụghị anya ya, ọ nweghịkwa ike ịhazi arịrịọ ugbu a",
+                "Njehie a na-atụghị anya ya mere na sava isi mmalite ma ọ bụ mgbe a na-ebufe data"
+            ],
+            "description_end": "Ndo maka nsogbu ọ bụla.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Arịrịọ na-ezighi ezi",
+            "description": "A pụrụ ịbanye na weebụsaịtị a site na HTTPS. Ị nwara ijikọ site na HTTP; ugbu a, anyị ga-anwa ibuga gị ebe kwesịrị ekwesị. Ọ bụrụ na ebugaghị gị, biko tinye https:// na mmalite URL gị ma nwalee ọzọ."
+        },
+        "timeout": {
+            "title": "Sava adịghị maka ojiji",
+            "description": "Ndo, oge a kara aka maka ichere agwụla mgbe a na-ebu ibe a. Ọ ga-ekwe omume na sava nwere ọtụtụ ọrụ ma ọ nweghị ike ịhazi arịrịọ gị ugbu a.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Aha ngalaba a na-amaghị",
+            "description": "Edebanyeghị aha ngalaba a na adreesị IP a.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Usoro a na-akwadoghị",
+            "description": "Agbanyebeghị usoro HTTP a rịọrọ maka weebụsaịtị a.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Arịrịọ na-enweghị nchebe",
+            "description": "Agbanyebeghị protocol HTTPS a rịọrọ maka weebụsaịtị a. Biko kwalite ihe nchọgharị gị ka ọ bụrụ ụdị ọhụrụ.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Emechiri maka nlekọta",
+            "description": "Weebụsaịtị a adịghị maka ojiji ugbu a. A na-atụ anya na ọ ga-adịkwa maka ojiji n'oge na-adịghị anya.",
+            "refresh_enable": true
+        }
+    }
+}

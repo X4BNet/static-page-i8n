@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Enkola eno yeekola yokka. Ojja kutwalibwa ku lupapula lw'oyagala okugendako mu kaseera katono.",
+        "validate_browser": "Tukakasa bulawuza yo nga tonnayingira {http_host}",
+        "are_you_human_host": "Oli muntu? Okukakasa kwetaagisa okuyingira {http_host}",
+        "are_you_human": "Oli muntu? Okukakasa kwetaagisa okweyongerayo",
+        "enter_captcha_host": "Yingiza CAPTCHA eri wansi okweyongerayo ku {http_host}:",
+        "enter_captcha": "Yingiza CAPTCHA eri wansi okweyongerayo:",
+        "submit": "weereza",
+        "try_again_later": "Omukutu guno gutwala ekiseera kiwanvu okusinga bulijjo okutikka. Osobola <a href=\"\">okugezaako nate</a> oluvannyuma",
+        "unexpected_error": "Kirabika ensobi etasuubirwa ebaddewo. <a href=\"\">Gezaako nate</a> oluvannyuma",
+        "validation_complete": "<strong>Okukakasa kuwedde</strong>. Kati otwalibwa ku lupapula lw'oyagala okugendako. Nyiga <a href=\"\">wano</a> singa olupapula teruddamu kutikka.",
+        "enable_javascript": "Okukakasa bulawuza kukola bulungi nnyo nga JavaScript etandikiddwa.",
+        "abnormal_activity": "Olw'ebikolwa ebitali bya bulijjo, twetaaga omalirize omulimu oguli wansi okweyongerayo",
+        "sorry_inconvenience": "Twetonda olw'okutawaanyizibwa kwonna",
+        "verifying": "Tukakasa"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Ensobi mu kutikka {host}",
+            "refresh_text": "Gezaako okuyingira omukutu oluvannyuma oba nyiga <a href=\"\">wano</a> okuddamu okutikka olupapula.",
+            "unexpected_error": "Ensobi etasuubirwa ebaddewo nga tutikka olupapula luno",
+            "possible_causes": "Ebiyinza okuba nga bye bivuddeko kino mulimu:",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Omukutu Tegusobola Kukozesebwa",
+            "description": "Eky'ennaku, ensobi etasuubirwa ebaddewo nga tutikka olupapula luno. Twetonda olw'okutawaanyizibwa. Gezaako okuyingira omukutu oluvannyuma oba nyiga <a href=\"\">wano</a> okuddamu okutikka olupapula."
+        },
+        "suspended": {
+            "title": "Omukutu Guyimiriziddwa",
+            "description": "Eky'ennaku, omukutu gw'ogezaako okuyingira tegusobola kukozesebwa. Twetonda olw'okutawaanyizibwa. Bw'oba nga ggwe <strong>nannyini</strong> mukutu guno, <a href=\"https://www.x4b.net/support\">tuukirira ab'obuyambi</a>."
+        },
+        "over_bandwidth": {
+            "title": "Omukutu Guyimiriziddwa",
+            "description": "Eky'ennaku, omukutu gw'ogezaako okuyingira tegusobola kukozesebwa. Twetonda olw'okutawaanyizibwa. Bw'oba nga ggwe <strong>nannyini</strong> mukutu guno, <a href=\"https://www.x4b.net/\">tuukirira ab'obuyambi</a>."
+        },
+        "backend": {
+            "title": "Seva Tesobola Kukozesebwa",
+            "description": "Seva y'ensibuko tesobola kukozesebwa okumala akaseera, era teyinza kukola ku kusaba kuno. Twetonda olw'okutawaanyizibwa.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Ekiseera ky'Okulinda Okusaba Kiweddeko",
+            "description": "Twetonda, ekiseera ky'okulinda kiweddeko nga tutikka olupapula luno. Twetonda olw'okutawaanyizibwa kwonna okuyinza okuba nga kuvudde ku kino.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Okuyingira Kugaanyiddwa",
+            "description": "Tolina lukusa kuyingira lupapula luno. Bw'oba olowooza nti eno nsobi, tuukirira omuddukanya omukutu."
+        },
+        "upstream": {
+            "title": "Seva Tesobola Kukozesebwa",
+            "description": "Kati tewali seva eri ku mutimbagano era esobola okukola ku kusaba kuno. Twetonda olw'okutawaanyizibwa."
+        },
+        "invalid_configuration": {
+            "title": "Enteekateeka Nkyamu",
+            "description": "Tetusobola kukola ku kusaba kuno olw'ensobi mu nteekateeka. Twetonda olw'okutawaanyizibwa."
+        },
+        "resource": {
+            "title": "Ensobi mu Kuyingira",
+            "description_start": "Eky'ennaku, ensobi ebaddewo nga tutikka olupapula luno.",
+            "cause_list": [
+                "Seva y'ensibuko erina omugugu gw'emirimu ogutasuubirwa era tesobola kukola ku kusaba mu kiseera kino",
+                "Ensobi etasuubirwa ebaddewo ku seva y'ensibuko oba nga amawulire gaweerezebwa"
+            ],
+            "description_end": "Twetonda olw'okutawaanyizibwa.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Ensobi mu Kuyingira",
+            "description_start": "Eky'ennaku, ensobi ebaddewo nga tutikka olupapula luno.",
+            "cause_list": [
+                "Kizuuliddwa nti endagiriro yo eya IP eweereza okusaba kungi nnyo eri seva",
+                "Seva y'ensibuko erina omugugu gw'emirimu ogutasuubirwa era tesobola kukola ku kusaba mu kiseera kino",
+                "Ensobi etasuubirwa ebaddewo ku seva y'ensibuko oba nga amawulire gaweerezebwa"
+            ],
+            "description_end": "Twetonda olw'okutawaanyizibwa.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Ensobi mu Kuyingira",
+            "description_start": "Eky'ennaku, ensobi ebaddewo nga tutikka olupapula luno.",
+            "cause_list": [
+                "Endagiriro yo eya IP erina omuwendo gw'enyungaganya ku seva ogutali gwa bulijjo",
+                "Seva y'ensibuko erina omugugu gw'emirimu ogutasuubirwa era tesobola kukola ku kusaba mu kiseera kino",
+                "Ensobi etasuubirwa ebaddewo ku seva y'ensibuko oba nga amawulire gaweerezebwa"
+            ],
+            "description_end": "Twetonda olw'okutawaanyizibwa.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Okusaba Okutali Kutuufu",
+            "description": "Omukutu guno guyingirwa nga okozesa HTTPS. Ogezezzaako okuyunga nga okozesa HTTP, kati tujja kugezaako okukutwala ku ndagiriro entuufu. Bw'otatwalibwayo, yongera https:// ku ntandikwa ya URL yo ogezeeko nate."
+        },
+        "timeout": {
+            "title": "Seva Tesobola Kukozesebwa",
+            "description": "Twetonda, ekiseera ky'okulinda kiweddeko nga tutikka olupapula luno. Seva eyinza okuba nga erina emirimu mingi era nga tesobola kukola ku kusaba kwo kati.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Erinnya lya Domain Eritamanyiddwa",
+            "description": "Domain eno tewandiisiddwa ku ndagiriro eno eya IP.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Enkola Etawagirwa",
+            "description": "Enkola ya HTTP esabiddwa tetandikiddwa ku mukutu guno.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Okusaba Okutali Kwa Bukuumi",
+            "description": "Enkola y'empuliziganya eya HTTPS esabiddwa tetandikiddwa ku mukutu guno. Tuusa bulawuza yo ku nkyusa empya.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Guvudde ku Mutimbagano Okuddaabirizibwa",
+            "description": "Omukutu guno tegusobola kukozesebwa kati. Kisuubirwa nti gujja kuddamu okukozesebwa mu kaseera katono.",
+            "refresh_enable": true
+        }
+    }
+}

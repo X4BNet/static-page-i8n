@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Ky proces është automatik. Së shpejti do të ridrejtoheni te faqja që dëshironi të vizitoni.",
+        "validate_browser": "Po verifikohet shfletuesi juaj përpara hyrjes në {http_host}",
+        "are_you_human_host": "A jeni njeri? Kërkohet verifikim për të hyrë në {http_host}",
+        "are_you_human": "A jeni njeri? Kërkohet verifikim për të vazhduar",
+        "enter_captcha_host": "Ju lutemi, shkruani CAPTCHA-n më poshtë për të vazhduar te {http_host}:",
+        "enter_captcha": "Ju lutemi, shkruani CAPTCHA-n më poshtë për të vazhduar:",
+        "submit": "dërgo",
+        "try_again_later": "Kjo faqe interneti po ngarkohet më ngadalë se zakonisht. Mund të <a href=\"\">provoni përsëri</a> më vonë",
+        "unexpected_error": "Duket se ka ndodhur një gabim i papritur. Ju lutemi, <a href=\"\">provoni përsëri</a> më vonë",
+        "validation_complete": "<strong>Verifikimi përfundoi</strong>. Tani po ridrejtoheni te faqja që dëshironi të vizitoni. Klikoni <a href=\"\">këtu</a> nëse faqja nuk ringarkohet.",
+        "enable_javascript": "Verifikimi i shfletuesit funksionon më mirë kur JavaScript është aktivizuar.",
+        "abnormal_activity": "Për shkak të një aktiviteti të pazakontë, duhet të përfundoni detyrën më poshtë për të vazhduar",
+        "sorry_inconvenience": "Kërkojmë ndjesë për çdo shqetësim",
+        "verifying": "Po verifikohet"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Gabim gjatë ngarkimit të {host}",
+            "refresh_text": "Ju lutemi, provoni të hyni në faqe më vonë ose klikoni <a href=\"\">këtu</a> për ta ringarkuar faqen.",
+            "unexpected_error": "Ndodhi një gabim i papritur gjatë ngarkimit të kësaj faqeje",
+            "possible_causes": "Shkaqet e mundshme përfshijnë: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Faqja e internetit nuk është e disponueshme",
+            "description": "Fatkeqësisht, ndodhi një gabim i papritur gjatë ngarkimit të kësaj faqeje. Kërkojmë ndjesë për çdo shqetësim. Ju lutemi, provoni të hyni në faqe më vonë ose klikoni <a href=\"\">këtu</a> për ta ringarkuar faqen."
+        },
+        "suspended": {
+            "title": "Faqja e internetit është pezulluar",
+            "description": "Fatkeqësisht, faqja e internetit që po përpiqeni të vizitoni nuk është e disponueshme. Kërkojmë ndjesë për çdo shqetësim. Nëse jeni <strong>pronari</strong> i kësaj faqeje, ju lutemi, <a href=\"https://www.x4b.net/support\">kontaktoni mbështetjen teknike</a>."
+        },
+        "over_bandwidth": {
+            "title": "Faqja e internetit është pezulluar",
+            "description": "Fatkeqësisht, faqja e internetit që po përpiqeni të vizitoni nuk është e disponueshme. Kërkojmë ndjesë për çdo shqetësim. Nëse jeni <strong>pronari</strong> i kësaj faqeje, ju lutemi, <a href=\"https://www.x4b.net/\">kontaktoni mbështetjen teknike</a>."
+        },
+        "backend": {
+            "title": "Serveri nuk është i disponueshëm",
+            "description": "Serveri i origjinës nuk është i disponueshëm përkohësisht dhe prandaj nuk mund ta përmbushë këtë kërkesë. Kërkojmë ndjesë për çdo shqetësim.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Koha e pritjes për kërkesën mbaroi",
+            "description": "Na vjen keq, por koha e lejuar e pritjes mbaroi gjatë ngarkimit të kësaj faqeje. Kërkojmë ndjesë për çdo shqetësim që mund të jetë shkaktuar.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Hyrja u refuzua",
+            "description": "Nuk keni leje për të hyrë në këtë faqe. Nëse mendoni se ky është një gabim, ju lutemi, kontaktoni administratorin e faqes."
+        },
+        "upstream": {
+            "title": "Serveri nuk është i disponueshëm",
+            "description": "Aktualisht nuk ka asnjë server të lidhur në internet dhe të disponueshëm për ta përpunuar këtë kërkesë. Kërkojmë ndjesë për çdo shqetësim."
+        },
+        "invalid_configuration": {
+            "title": "Konfigurim i pavlefshëm",
+            "description": "Nuk mund ta përmbushim këtë kërkesë për shkak të një gabimi në konfigurim. Kërkojmë ndjesë për çdo shqetësim."
+        },
+        "resource": {
+            "title": "Gabim gjatë hyrjes",
+            "description_start": "Fatkeqësisht, ndodhi një gabim gjatë ngarkimit të kësaj faqeje.",
+            "cause_list": [
+                "Serveri i origjinës po përballet me një ngarkesë të papritur dhe nuk mund të përpunojë kërkesa në këtë çast",
+                "Ndodhi një gabim i papritur në serverin e origjinës ose gjatë transmetimit"
+            ],
+            "description_end": "Kërkojmë ndjesë për çdo shqetësim.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Gabim gjatë hyrjes",
+            "description_start": "Fatkeqësisht, ndodhi një gabim gjatë ngarkimit të kësaj faqeje.",
+            "cause_list": [
+                "U zbulua se nga adresa juaj IP po dërgohet një numër i tepruar kërkesash drejt serverit",
+                "Serveri i origjinës po përballet me një ngarkesë të papritur dhe nuk mund të përpunojë kërkesa në këtë çast",
+                "Ndodhi një gabim i papritur në serverin e origjinës ose gjatë transmetimit"
+            ],
+            "description_end": "Kërkojmë ndjesë për çdo shqetësim.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Gabim gjatë hyrjes",
+            "description_start": "Fatkeqësisht, ndodhi një gabim gjatë ngarkimit të kësaj faqeje.",
+            "cause_list": [
+                "Adresa juaj IP ka një numër të pazakontë lidhjesh me serverin",
+                "Serveri i origjinës po përballet me një ngarkesë të papritur dhe nuk mund të përpunojë kërkesa në këtë çast",
+                "Ndodhi një gabim i papritur në serverin e origjinës ose gjatë transmetimit"
+            ],
+            "description_end": "Kërkojmë ndjesë për çdo shqetësim.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Kërkesë e gabuar",
+            "description": "Kjo faqe interneti është e arritshme përmes HTTPS. Ju u përpoqët të lidheshit përmes HTTP; tani do të përpiqemi t'ju ridrejtojmë. Nëse nuk ridrejtoheni, ju lutemi, shtoni https:// në fillim të URL-së suaj dhe provoni përsëri."
+        },
+        "timeout": {
+            "title": "Serveri nuk është i disponueshëm",
+            "description": "Na vjen keq, por koha e lejuar e pritjes mbaroi gjatë ngarkimit të kësaj faqeje. Ka mundësi që serveri të jetë i zënë dhe të mos mund ta përpunojë kërkesën tuaj në këtë çast.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Domen i panjohur",
+            "description": "Ky domen nuk është i regjistruar për këtë adresë IP.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Metodë e pambështetur",
+            "description": "Metoda HTTP e kërkuar nuk është aktivizuar për këtë faqe interneti.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Kërkesë e pasigurt",
+            "description": "Protokolli HTTPS i kërkuar nuk është aktivizuar për këtë faqe interneti. Ju lutemi, përditësoni shfletuesin tuaj.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Jashtë funksionit për mirëmbajtje",
+            "description": "Kjo faqe interneti nuk është e disponueshme për momentin. Pritet të jetë sërish e disponueshme së shpejti.",
+            "refresh_enable": true
+        }
+    }
+}

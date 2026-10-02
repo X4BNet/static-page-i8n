@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "This process is automatic. Ye'll be redirectit tae yer intended destination afore lang.",
+        "validate_browser": "Checkin yer browser afore ye access {http_host}",
+        "are_you_human_host": "Are ye human? A check is needit tae access {http_host}",
+        "are_you_human": "Are ye human? A check is needit tae gang on",
+        "enter_captcha_host": "Please enter the CAPTCHA ablow tae gang on tae {http_host}:",
+        "enter_captcha": "Please enter the CAPTCHA ablow tae gang on:",
+        "submit": "send",
+        "try_again_later": "This wabsite is takin langer nor usual tae load. Ye micht want tae <a href=\"\">try again</a> later",
+        "unexpected_error": "It looks like an unexpectit error has happened. Please <a href=\"\">try again</a> later",
+        "validation_complete": "<strong>Check complete</strong> Ye're bein redirectit tae yer intended destination noo. Click <a href=\"\">here</a> if the page disnae reload.",
+        "enable_javascript": "The browser check works best wi JavaScript enabled.",
+        "abnormal_activity": "Because o unusual activity, we need ye tae complete the task ablow tae gang on",
+        "sorry_inconvenience": "We're sorry for ony inconvenience",
+        "verifying": "Checkin"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Error loadin {host}",
+            "refresh_text": "Please try tae access the site later or click <a href=\"\">here</a> tae refresh the page.",
+            "unexpected_error": "An unexpectit error happened while this page wis loadin",
+            "possible_causes": "Possible causes include: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Wabsite unavailable",
+            "description": "Unfortunately, an unexpectit error happened while this page wis loadin. We're sorry for ony inconvenience. Please try tae access the site later or click <a href=\"\">here</a> tae refresh the page."
+        },
+        "suspended": {
+            "title": "Wabsite suspendit",
+            "description": "Unfortunately, the wabsite ye're tryin tae visit is unavailable. We're sorry for ony inconvenience. If ye're the <strong>owner</strong> o this wabsite, please <a href=\"https://www.x4b.net/support\">contact support</a>."
+        },
+        "over_bandwidth": {
+            "title": "Wabsite suspendit",
+            "description": "Unfortunately, the wabsite ye're tryin tae visit is unavailable. We're sorry for ony inconvenience. If ye're the <strong>owner</strong> o this wabsite, please <a href=\"https://www.x4b.net/\">contact support</a>."
+        },
+        "backend": {
+            "title": "Server unavailable",
+            "description": "The origin server is temporarily unavailable an cannae deal wi this request. We're sorry for ony inconvenience.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Request timed oot",
+            "description": "We're sorry, but the time limit ran oot while this wab page wis loadin. We're sorry for ony inconvenience this micht hae caused.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Access denied",
+            "description": "Ye dinnae hae permission tae access this page. If this is a mistake, please contact the wabsite administrator."
+        },
+        "upstream": {
+            "title": "Server unavailable",
+            "description": "Nae server is online an available tae process this request the noo. We're sorry for ony inconvenience."
+        },
+        "invalid_configuration": {
+            "title": "Invalid configuration",
+            "description": "We cannae deal wi this request because o a configuration error. We're sorry for ony inconvenience."
+        },
+        "resource": {
+            "title": "Access error",
+            "description_start": "Unfortunately, an error happened while this page wis loadin.",
+            "cause_list": [
+                "The origin server is under an unexpectit load an cannae process requests the noo",
+                "An unexpectit error happened on the origin server or while the data wis bein sent"
+            ],
+            "description_end": "We're sorry for ony inconvenience.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Access error",
+            "description_start": "Unfortunately, an error happened while this page wis loadin.",
+            "cause_list": [
+                "Yer IP address has been detectit sendin ower mony requests tae the server",
+                "The origin server is under an unexpectit load an cannae process requests the noo",
+                "An unexpectit error happened on the origin server or while the data wis bein sent"
+            ],
+            "description_end": "We're sorry for ony inconvenience.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Access error",
+            "description_start": "Unfortunately, an error happened while this page wis loadin.",
+            "cause_list": [
+                "Yer IP address has an unusual number o connections tae the server",
+                "The origin server is under an unexpectit load an cannae process requests the noo",
+                "An unexpectit error happened on the origin server or while the data wis bein sent"
+            ],
+            "description_end": "We're sorry for ony inconvenience.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Bad request",
+            "description": "This wabsite can be accessed through HTTPS. Ye've tried tae connect through HTTP; we'll try tae redirect ye noo. If ye're no redirectit, please add https:// tae the start o yer URL an try again."
+        },
+        "timeout": {
+            "title": "Server unavailable",
+            "description": "We're sorry, but the time limit ran oot while this page wis loadin. The server micht be busy an unable tae process yer request the noo.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Unkent domain",
+            "description": "This domain isnae registert tae this IP address.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Unsupportit method",
+            "description": "The requestit HTTP method isnae enabled for this wabsite.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Insecure request",
+            "description": "The requestit HTTPS protocol isnae enabled for this wabsite. Please update yer browser.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Offline for maintenance",
+            "description": "This wabsite isnae available the noo. It should be available again afore lang.",
+            "refresh_enable": true
+        }
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Ten proces przebiega automatycznie. Wkrótce nastąpi przekierowanie do żądanej strony.",
+        "validate_browser": "Weryfikacja przeglądarki przed uzyskaniem dostępu do {http_host}",
+        "are_you_human_host": "Czy jesteś człowiekiem? Dostęp do {http_host} wymaga weryfikacji",
+        "are_you_human": "Czy jesteś człowiekiem? Kontynuowanie wymaga weryfikacji",
+        "enter_captcha_host": "Wpisz poniższy kod CAPTCHA, aby przejść do {http_host}:",
+        "enter_captcha": "Wpisz poniższy kod CAPTCHA, aby kontynuować:",
+        "submit": "wyślij",
+        "try_again_later": "Ładowanie tej witryny trwa dłużej niż zwykle. Możesz <a href=\"\">spróbować ponownie</a> później",
+        "unexpected_error": "Wygląda na to, że wystąpił nieoczekiwany błąd. <a href=\"\">Spróbuj ponownie</a> później",
+        "validation_complete": "<strong>Weryfikacja zakończona</strong>. Trwa przekierowanie do żądanej strony. Kliknij <a href=\"\">tutaj</a>, jeśli strona nie załaduje się ponownie.",
+        "enable_javascript": "Weryfikacja przeglądarki działa najlepiej, gdy JavaScript jest włączony.",
+        "abnormal_activity": "Ze względu na nietypową aktywność musisz wykonać poniższe zadanie, aby kontynuować",
+        "sorry_inconvenience": "Przepraszamy za niedogodności",
+        "verifying": "Trwa weryfikacja"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Błąd ładowania {host}",
+            "refresh_text": "Spróbuj odwiedzić witrynę później lub kliknij <a href=\"\">tutaj</a>, aby odświeżyć stronę.",
+            "unexpected_error": "Podczas ładowania tej strony wystąpił nieoczekiwany błąd",
+            "possible_causes": "Możliwe przyczyny:",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Witryna niedostępna",
+            "description": "Niestety podczas ładowania tej strony wystąpił nieoczekiwany błąd. Przepraszamy za niedogodności. Spróbuj odwiedzić witrynę później lub kliknij <a href=\"\">tutaj</a>, aby odświeżyć stronę."
+        },
+        "suspended": {
+            "title": "Witryna zawieszona",
+            "description": "Niestety witryna, którą próbujesz odwiedzić, jest niedostępna. Przepraszamy za niedogodności. Jeśli jesteś <strong>właścicielem</strong> tej witryny, <a href=\"https://www.x4b.net/support\">skontaktuj się z pomocą techniczną</a>."
+        },
+        "over_bandwidth": {
+            "title": "Witryna zawieszona",
+            "description": "Niestety witryna, którą próbujesz odwiedzić, jest niedostępna. Przepraszamy za niedogodności. Jeśli jesteś <strong>właścicielem</strong> tej witryny, <a href=\"https://www.x4b.net/\">skontaktuj się z pomocą techniczną</a>."
+        },
+        "backend": {
+            "title": "Serwer niedostępny",
+            "description": "Serwer źródłowy jest tymczasowo niedostępny i dlatego nie może obsłużyć tego żądania. Przepraszamy za niedogodności.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Przekroczono limit czasu żądania",
+            "description": "Niestety podczas ładowania tej strony internetowej przekroczono limit czasu. Przepraszamy za wszelkie wynikające z tego niedogodności.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Odmowa dostępu",
+            "description": "Nie masz uprawnień dostępu do tej strony. Jeśli to pomyłka, skontaktuj się z administratorem witryny."
+        },
+        "upstream": {
+            "title": "Serwer niedostępny",
+            "description": "Obecnie żaden serwer nie jest połączony z siecią i dostępny do obsługi tego żądania. Przepraszamy za niedogodności."
+        },
+        "invalid_configuration": {
+            "title": "Nieprawidłowa konfiguracja",
+            "description": "Nie możemy obsłużyć tego żądania z powodu błędu konfiguracji. Przepraszamy za niedogodności."
+        },
+        "resource": {
+            "title": "Błąd dostępu",
+            "description_start": "Niestety podczas ładowania tej strony wystąpił błąd.",
+            "cause_list": [
+                "Serwer źródłowy jest niespodziewanie obciążony i obecnie nie może przetwarzać żądań",
+                "Na serwerze źródłowym lub podczas przesyłania danych wystąpił nieoczekiwany błąd"
+            ],
+            "description_end": "Przepraszamy za niedogodności.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Błąd dostępu",
+            "description_start": "Niestety podczas ładowania tej strony wystąpił błąd.",
+            "cause_list": [
+                "Wykryto, że z Twojego adresu IP wysyłana jest nadmierna liczba żądań do serwera",
+                "Serwer źródłowy jest niespodziewanie obciążony i obecnie nie może przetwarzać żądań",
+                "Na serwerze źródłowym lub podczas przesyłania danych wystąpił nieoczekiwany błąd"
+            ],
+            "description_end": "Przepraszamy za niedogodności.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Błąd dostępu",
+            "description_start": "Niestety podczas ładowania tej strony wystąpił błąd.",
+            "cause_list": [
+                "Z Twojego adresu IP nawiązano nietypową liczbę połączeń z serwerem",
+                "Serwer źródłowy jest niespodziewanie obciążony i obecnie nie może przetwarzać żądań",
+                "Na serwerze źródłowym lub podczas przesyłania danych wystąpił nieoczekiwany błąd"
+            ],
+            "description_end": "Przepraszamy za niedogodności.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Nieprawidłowe żądanie",
+            "description": "Ta witryna jest dostępna przez HTTPS. Nastąpiła próba połączenia przez HTTP. Teraz spróbujemy Cię przekierować. Jeśli przekierowanie nie nastąpi, dodaj https:// na początku swojego URL i spróbuj ponownie."
+        },
+        "timeout": {
+            "title": "Serwer niedostępny",
+            "description": "Niestety podczas ładowania tej strony przekroczono limit czasu. Możliwe, że serwer jest zajęty i obecnie nie może przetworzyć Twojego żądania.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Nieznana domena",
+            "description": "Ta domena nie jest zarejestrowana dla tego adresu IP.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Nieobsługiwana metoda",
+            "description": "Żądana metoda HTTP nie jest włączona dla tej witryny.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Niezabezpieczone żądanie",
+            "description": "Żądany protokół HTTPS nie jest włączony dla tej witryny. Zaktualizuj przeglądarkę.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Witryna wyłączona na czas konserwacji",
+            "description": "Ta witryna jest obecnie niedostępna. Powinna być ponownie dostępna wkrótce.",
+            "refresh_enable": true
+        }
+    }
+}

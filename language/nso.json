@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Tshepedišo ye e direga ka boyona. O tla išwa moo o bego o nyaka go ya gona kgauswinyane.",
+        "validate_browser": "Praosara ya gago e a netefatšwa pele o tsena go {http_host}",
+        "are_you_human_host": "Na o motho? Netefatšo e a nyakega gore o tsene go {http_host}",
+        "are_you_human": "Na o motho? Netefatšo e a nyakega gore o tšwele pele",
+        "enter_captcha_host": "Hle tsenya CAPTCHA ya ka tlase gore o tšwele pele go {http_host}:",
+        "enter_captcha": "Hle tsenya CAPTCHA ya ka tlase gore o tšwele pele:",
+        "submit": "Romela",
+        "try_again_later": "Weposaete ye e tšea nako ye telele go feta ka mehla go bula. O ka <a href=\"\">leka gape</a> ka morago",
+        "unexpected_error": "Go bonagala go diregile phošo ye e sa letelwago. Hle <a href=\"\">leka gape</a> ka morago",
+        "validation_complete": "<strong>Netefatšo e phethilwe</strong>. Bjale o išwa moo o bego o nyaka go ya gona. Tobetsa <a href=\"\">mo</a> ge letlakala le sa bulege gape.",
+        "enable_javascript": "Netefatšo ya praosara e šoma bokaone ge JavaScript e kgontšhitšwe.",
+        "abnormal_activity": "Ka lebaka la ditiro tše di sa tlwaelegago, o swanetše go phetha mošomo wa ka tlase gore o tšwele pele",
+        "sorry_inconvenience": "Re kgopela tshwarelo ka tšhitišo efe goba efe",
+        "verifying": "Go a netefatšwa"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Phošo ge go bulwa {host}",
+            "refresh_text": "Hle leka go tsena weposaeteng ka morago goba o tobetse <a href=\"\">mo</a> go bula letlakala gape.",
+            "unexpected_error": "Go diregile phošo ye e sa letelwago ge go bulwa letlakala le",
+            "possible_causes": "Mabaka ao a ka bago a bakile se a akaretša: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Weposaete ga e hwetšagale",
+            "description": "Ka bomadimabe, go diregile phošo ye e sa letelwago ge go bulwa letlakala le. Re kgopela tshwarelo ka tšhitišo efe goba efe. Hle leka go tsena weposaeteng ka morago goba o tobetse <a href=\"\">mo</a> go bula letlakala gape."
+        },
+        "suspended": {
+            "title": "Weposaete e emišitšwe",
+            "description": "Ka bomadimabe, weposaete ye o lekago go e etela ga e hwetšagale. Re kgopela tshwarelo ka tšhitišo efe goba efe. Ge e le wena <strong>mong</strong> wa weposaete ye, hle <a href=\"https://www.x4b.net/support\">ikgokaganye le sehlopha sa thekgo</a>."
+        },
+        "over_bandwidth": {
+            "title": "Weposaete e emišitšwe",
+            "description": "Ka bomadimabe, weposaete ye o lekago go e etela ga e hwetšagale. Re kgopela tshwarelo ka tšhitišo efe goba efe. Ge e le wena <strong>mong</strong> wa weposaete ye, hle <a href=\"https://www.x4b.net/\">ikgokaganye le sehlopha sa thekgo</a>."
+        },
+        "backend": {
+            "title": "Sebara ga e hwetšagale",
+            "description": "Sebara ya mothopo ga e hwetšagale ka nakwana, ka gona ga e kgone go phetha kgopelo ye. Re kgopela tshwarelo ka tšhitišo efe goba efe.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Nako ya go leta kgopelo e fedile",
+            "description": "Ka bomadimabe, nako ya go leta e fedile ge go bulwa letlakala le la wepe. Re kgopela tshwarelo ka tšhitišo efe goba efe ye e ka bago e bakilwe ke se.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Phihlelelo e ganetšwe",
+            "description": "Ga o na tumelelo ya go tsena letlakaleng le. Ge se e le phošo, hle ikgokaganye le molaodi wa weposaete."
+        },
+        "upstream": {
+            "title": "Sebara ga e hwetšagale",
+            "description": "Ga bjale ga go na sebara ye e lego inthaneteng le ye e hwetšagalago go phetha kgopelo ye. Re kgopela tshwarelo ka tšhitišo efe goba efe."
+        },
+        "invalid_configuration": {
+            "title": "Dipeakanyo tše di sa nepago",
+            "description": "Ga re kgone go phetha kgopelo ye ka lebaka la phošo dipeakanyong. Re kgopela tshwarelo ka tšhitišo efe goba efe."
+        },
+        "resource": {
+            "title": "Phošo ya phihlelelo",
+            "description_start": "Ka bomadimabe, go diregile phošo ge go bulwa letlakala le.",
+            "cause_list": [
+                "Sebara ya mothopo e na le mošomo o montši wo o sa letelwago gomme ga e kgone go phetha dikgopelo ga bjale",
+                "Go diregile phošo ye e sa letelwago sebareng ya mothopo goba ge go fetišetšwa tshedimošo"
+            ],
+            "description_end": "Re kgopela tshwarelo ka tšhitišo efe goba efe.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Phošo ya phihlelelo",
+            "description_start": "Ka bomadimabe, go diregile phošo ge go bulwa letlakala le.",
+            "cause_list": [
+                "Go lemogilwe gore aterese ya gago ya IP e romela dikgopelo tše dintši kudu go sebara",
+                "Sebara ya mothopo e na le mošomo o montši wo o sa letelwago gomme ga e kgone go phetha dikgopelo ga bjale",
+                "Go diregile phošo ye e sa letelwago sebareng ya mothopo goba ge go fetišetšwa tshedimošo"
+            ],
+            "description_end": "Re kgopela tshwarelo ka tšhitišo efe goba efe.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Phošo ya phihlelelo",
+            "description_start": "Ka bomadimabe, go diregile phošo ge go bulwa letlakala le.",
+            "cause_list": [
+                "Go na le palo ye e sa tlwaelegago ya dikgokaganyo go sebara go tšwa atereseng ya gago ya IP",
+                "Sebara ya mothopo e na le mošomo o montši wo o sa letelwago gomme ga e kgone go phetha dikgopelo ga bjale",
+                "Go diregile phošo ye e sa letelwago sebareng ya mothopo goba ge go fetišetšwa tshedimošo"
+            ],
+            "description_end": "Re kgopela tshwarelo ka tšhitišo efe goba efe.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Kgopelo ye e sa nepago",
+            "description": "Weposaete ye e fihlelelwa ka HTTPS. O lekile go kgokagana ka HTTP. Bjale re tla leka go go iša atereseng ye nngwe. Ge o sa išwe gona, hle tsenya https:// mathomong a URL ya gago gomme o leke gape."
+        },
+        "timeout": {
+            "title": "Sebara ga e hwetšagale",
+            "description": "Ka bomadimabe, nako ya go leta e fedile ge go bulwa letlakala le. Go ka direga gore sebara e swaregile gomme ga e kgone go phetha kgopelo ya gago ga bjale.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Domeine ye e sa tsebjego",
+            "description": "Domeine ye ga se ya ngwadišetšwa aterese ye ya IP.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Mokgwa wo o sa thekgwego",
+            "description": "Mokgwa wa HTTP wo o kgopetšwego ga se wa kgontšhwa bakeng sa weposaete ye.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Kgopelo ye e sa bolokegago",
+            "description": "Prothokhole ya HTTPS ye e kgopetšwego ga se ya kgontšhwa bakeng sa weposaete ye. Hle mpshafatša praosara ya gago.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Ga e inthaneteng ka lebaka la tlhokomelo",
+            "description": "Weposaete ye ga e hwetšagale ga bjale. Go letetšwe gore e hwetšagale gape kgauswinyane.",
+            "refresh_enable": true
+        }
+    }
+}

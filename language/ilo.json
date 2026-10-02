@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Awtomatiko daytoy a proseso. Iturong daka iti panid a kayatmo a bisitaen iti apagbiit.",
+        "validate_browser": "Suksukimaten ti browser-mo sakbay a sumrek iti {http_host}",
+        "are_you_human_host": "Tao ka kadi? Masapul ti panangpasingked tapno makastrek iti {http_host}",
+        "are_you_human": "Tao ka kadi? Masapul ti panangpasingked tapno makaituloy",
+        "enter_captcha_host": "Pangngaasim nga isurat ti CAPTCHA iti baba tapno makaituloy iti {http_host}:",
+        "enter_captcha": "Pangngaasim nga isurat ti CAPTCHA iti baba tapno makaituloy:",
+        "submit": "ipatulod",
+        "try_again_later": "Nabannayat ngem ti gagangay ti panagkarga daytoy a website. Mabalinmo ti <a href=\"\">mangpadas manen</a> inton agangay",
+        "unexpected_error": "Kasla adda di ninamnama a biddut a napasamak. Pangngaasim ta <a href=\"\">padasem manen</a> inton agangay",
+        "validation_complete": "<strong>Nalpas ti Panangpasingked</strong>. Iturturong daka itan iti panid a kayatmo a bisitaen. I-klik <a href=\"\">ditoy</a> no saan nga agkarga manen ti panid.",
+        "enable_javascript": "Nasaysayaat ti panagsukimat iti browser no nakapasindi ti JavaScript.",
+        "abnormal_activity": "Gapu iti di gagangay nga aktibidad, masapul a leppasem ti aramiden iti baba tapno makaituloy",
+        "sorry_inconvenience": "Agpakawan kami iti aniaman a pannakariribuk",
+        "verifying": "Agpaspasingked"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Biddut iti panagkarga ti {host}",
+            "refresh_text": "Pangngaasim a padasem a bisitaen ti site inton agangay wenno i-klik <a href=\"\">ditoy</a> tapno ikarga manen ti panid.",
+            "unexpected_error": "Adda di ninamnama a biddut a napasamak bayat ti panagkarga daytoy a panid",
+            "possible_causes": "Dagiti mabalin a gapu ket:",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Saan a Magamit ti Website",
+            "description": "Daksanggasat, adda di ninamnama a biddut a napasamak bayat ti panagkarga daytoy a panid. Agpakawan kami iti pannakariribuk. Pangngaasim a padasem a bisitaen ti site inton agangay wenno i-klik <a href=\"\">ditoy</a> tapno ikarga manen ti panid."
+        },
+        "suspended": {
+            "title": "Naisuspinde ti Website",
+            "description": "Daksanggasat, saan a magamit ti website a padpadasem a bisitaen. Agpakawan kami iti pannakariribuk. No sika ti <strong>makinkukua</strong> daytoy a website, pangngaasim a <a href=\"https://www.x4b.net/support\">kontakem ti suporta</a>."
+        },
+        "over_bandwidth": {
+            "title": "Naisuspinde ti Website",
+            "description": "Daksanggasat, saan a magamit ti website a padpadasem a bisitaen. Agpakawan kami iti pannakariribuk. No sika ti <strong>makinkukua</strong> daytoy a website, pangngaasim a <a href=\"https://www.x4b.net/\">kontakem ti suporta</a>."
+        },
+        "backend": {
+            "title": "Saan a Magamit ti Server",
+            "description": "Temporario a saan a magamit ti nagtaudan a server, isu a saan a maasikaso daytoy a kiddaw. Agpakawan kami iti pannakariribuk.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Nalpas ti Oras ti Panaguray iti Kiddaw",
+            "description": "Agpakawan kami, nalpas ti oras ti panaguray bayat ti panagkarga daytoy a web page. Agpakawan kami iti aniaman a pannakariribuk a mabalin nga intunda daytoy.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Saan a Maipalubos ti Panagserrek",
+            "description": "Saan ka a napalubosan a sumrek iti daytoy a panid. No biddut daytoy, pangngaasim a kontakem ti administrador ti website."
+        },
+        "upstream": {
+            "title": "Saan a Magamit ti Server",
+            "description": "Ita, awan ti server nga online ken magamit a mangasikaso daytoy a kiddaw. Agpakawan kami iti pannakariribuk."
+        },
+        "invalid_configuration": {
+            "title": "Di Umiso a Konpigurasion",
+            "description": "Saanmi a maasikaso daytoy a kiddaw gapu iti biddut iti konpigurasion. Agpakawan kami iti pannakariribuk."
+        },
+        "resource": {
+            "title": "Biddut iti Panagserrek",
+            "description_start": "Daksanggasat, adda biddut a napasamak bayat ti panagkarga daytoy a panid.",
+            "cause_list": [
+                "Ti nagtaudan a server ket adda di ninamnama a kaadu ti trabahona ken saan a makaasikaso kadagiti kiddaw ita",
+                "Adda di ninamnama a biddut a napasamak iti nagtaudan a server wenno bayat ti panangipatulod iti datos"
+            ],
+            "description_end": "Agpakawan kami iti pannakariribuk.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Biddut iti Panagserrek",
+            "description_start": "Daksanggasat, adda biddut a napasamak bayat ti panagkarga daytoy a panid.",
+            "cause_list": [
+                "Naduktalan a ti IP address-mo ket agipatulod iti nalabes a kaadu ti kiddaw iti server",
+                "Ti nagtaudan a server ket adda di ninamnama a kaadu ti trabahona ken saan a makaasikaso kadagiti kiddaw ita",
+                "Adda di ninamnama a biddut a napasamak iti nagtaudan a server wenno bayat ti panangipatulod iti datos"
+            ],
+            "description_end": "Agpakawan kami iti pannakariribuk.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Biddut iti Panagserrek",
+            "description_start": "Daksanggasat, adda biddut a napasamak bayat ti panagkarga daytoy a panid.",
+            "cause_list": [
+                "Ti IP address-mo ket addaan iti di gagangay a bilang dagiti koneksion iti server",
+                "Ti nagtaudan a server ket adda di ninamnama a kaadu ti trabahona ken saan a makaasikaso kadagiti kiddaw ita",
+                "Adda di ninamnama a biddut a napasamak iti nagtaudan a server wenno bayat ti panangipatulod iti datos"
+            ],
+            "description_end": "Agpakawan kami iti pannakariribuk.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Di Umiso a Kiddaw",
+            "description": "Mabalin a serken daytoy a website babaen ti HTTPS. Pinadasmo ti agkonekta babaen ti HTTP, ket padasenmi itan nga iturong daka. No saan daka a naiturong, pangngaasim nga inayonmo ti https:// iti rugi ti URL-mo ken padasem manen."
+        },
+        "timeout": {
+            "title": "Saan a Magamit ti Server",
+            "description": "Agpakawan kami, nalpas ti oras ti panaguray bayat ti panagkarga daytoy a panid. Mabalin a okupado ti server ken saan a maasikaso ti kiddawmo ita.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Di Am-ammo a Domain",
+            "description": "Daytoy a domain ket saan a nakarehistro iti daytoy nga IP address.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Saan a Suportado a Pamay-an",
+            "description": "Ti nakiddaw a pamay-an ti HTTP ket saan a nakapasindi para iti daytoy a website.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Saan a Natalged a Kiddaw",
+            "description": "Ti nakiddaw a protokol ti HTTPS ket saan a nakapasindi para iti daytoy a website. Pangngaasim nga i-update ti browser-mo.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Offline para iti Panangmantener",
+            "description": "Saan a magamit daytoy a website ita. Manamnama a magamit manen iti apagbiit.",
+            "refresh_enable": true
+        }
+    }
+}

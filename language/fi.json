@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Tämä prosessi on automaattinen. Sinut ohjataan pian haluamaasi kohteeseen.",
+        "validate_browser": "Selaintasi tarkistetaan ennen siirtymistä sivustolle {http_host}",
+        "are_you_human_host": "Oletko ihminen? Sivustolle {http_host} pääsy edellyttää vahvistusta",
+        "are_you_human": "Oletko ihminen? Jatkaminen edellyttää vahvistusta",
+        "enter_captcha_host": "Syötä alla oleva CAPTCHA-koodi jatkaaksesi sivustolle {http_host}:",
+        "enter_captcha": "Syötä alla oleva CAPTCHA-koodi jatkaaksesi:",
+        "submit": "Lähetä",
+        "try_again_later": "Tämän verkkosivuston lataaminen kestää tavallista pidempään. Voit <a href=\"\">yrittää uudelleen</a> myöhemmin",
+        "unexpected_error": "Näyttää siltä, että on tapahtunut odottamaton virhe. <a href=\"\">Yritä uudelleen</a> myöhemmin",
+        "validation_complete": "<strong>Vahvistus valmis</strong>. Sinut ohjataan nyt haluamaasi kohteeseen. Napsauta <a href=\"\">tästä</a>, jos sivu ei lataudu uudelleen.",
+        "enable_javascript": "Selaimen tarkistus toimii parhaiten, kun JavaScript on käytössä.",
+        "abnormal_activity": "Poikkeavan toiminnan vuoksi sinun on suoritettava alla oleva tehtävä voidaksesi jatkaa",
+        "sorry_inconvenience": "Pahoittelemme mahdollista haittaa",
+        "verifying": "Vahvistetaan"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Virhe ladattaessa sivustoa {host}",
+            "refresh_text": "Yritä avata sivusto myöhemmin tai lataa sivu uudelleen napsauttamalla <a href=\"\">tästä</a>.",
+            "unexpected_error": "Tätä sivua ladattaessa tapahtui odottamaton virhe",
+            "possible_causes": "Mahdollisia syitä ovat: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Verkkosivusto ei ole käytettävissä",
+            "description": "Tätä sivua ladattaessa tapahtui valitettavasti odottamaton virhe. Pahoittelemme mahdollista haittaa. Yritä avata sivusto myöhemmin tai lataa sivu uudelleen napsauttamalla <a href=\"\">tästä</a>."
+        },
+        "suspended": {
+            "title": "Verkkosivuston toiminta on keskeytetty",
+            "description": "Verkkosivusto, jolla yrität vierailla, ei valitettavasti ole käytettävissä. Pahoittelemme mahdollista haittaa. Jos olet tämän verkkosivuston <strong>omistaja</strong>, <a href=\"https://www.x4b.net/support\">ota yhteyttä tukeen</a>."
+        },
+        "over_bandwidth": {
+            "title": "Verkkosivuston toiminta on keskeytetty",
+            "description": "Verkkosivusto, jolla yrität vierailla, ei valitettavasti ole käytettävissä. Pahoittelemme mahdollista haittaa. Jos olet tämän verkkosivuston <strong>omistaja</strong>, <a href=\"https://www.x4b.net/\">ota yhteyttä tukeen</a>."
+        },
+        "backend": {
+            "title": "Palvelin ei ole käytettävissä",
+            "description": "Alkuperäpalvelin on tilapäisesti poissa käytöstä eikä siksi voi käsitellä tätä pyyntöä. Pahoittelemme mahdollista haittaa.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Pyynnön aikakatkaisu",
+            "description": "Tämän verkkosivun lataamisen aikaraja ylittyi valitettavasti. Pahoittelemme tästä mahdollisesti aiheutunutta haittaa.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Pääsy estetty",
+            "description": "Sinulla ei ole oikeutta käyttää tätä sivua. Jos tämä on virhe, ota yhteyttä verkkosivuston ylläpitäjään."
+        },
+        "upstream": {
+            "title": "Palvelin ei ole käytettävissä",
+            "description": "Yhtään verkkoyhteydessä olevaa palvelinta ei ole tällä hetkellä käytettävissä tämän pyynnön käsittelyyn. Pahoittelemme mahdollista haittaa."
+        },
+        "invalid_configuration": {
+            "title": "Virheelliset asetukset",
+            "description": "Emme voi käsitellä tätä pyyntöä asetusvirheen vuoksi. Pahoittelemme mahdollista haittaa."
+        },
+        "resource": {
+            "title": "Virhe sivulle pääsyssä",
+            "description_start": "Tätä sivua ladattaessa tapahtui valitettavasti virhe.",
+            "cause_list": [
+                "Alkuperäpalvelimen kuormitus on odottamattoman suuri, eikä se voi tällä hetkellä käsitellä pyyntöjä",
+                "Alkuperäpalvelimella tai tiedonsiirron aikana tapahtui odottamaton virhe"
+            ],
+            "description_end": "Pahoittelemme mahdollista haittaa.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Virhe sivulle pääsyssä",
+            "description_start": "Tätä sivua ladattaessa tapahtui valitettavasti virhe.",
+            "cause_list": [
+                "IP-osoitteestasi on havaittu tulevan liikaa pyyntöjä palvelimelle",
+                "Alkuperäpalvelimen kuormitus on odottamattoman suuri, eikä se voi tällä hetkellä käsitellä pyyntöjä",
+                "Alkuperäpalvelimella tai tiedonsiirron aikana tapahtui odottamaton virhe"
+            ],
+            "description_end": "Pahoittelemme mahdollista haittaa.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Virhe sivulle pääsyssä",
+            "description_start": "Tätä sivua ladattaessa tapahtui valitettavasti virhe.",
+            "cause_list": [
+                "IP-osoitteestasi on epätavallinen määrä yhteyksiä palvelimeen",
+                "Alkuperäpalvelimen kuormitus on odottamattoman suuri, eikä se voi tällä hetkellä käsitellä pyyntöjä",
+                "Alkuperäpalvelimella tai tiedonsiirron aikana tapahtui odottamaton virhe"
+            ],
+            "description_end": "Pahoittelemme mahdollista haittaa.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Virheellinen pyyntö",
+            "description": "Tämä verkkosivusto on käytettävissä HTTPS-yhteydellä. Yritit muodostaa HTTP-yhteyden. Yritämme nyt ohjata sinut uudelleen. Jos uudelleenohjaus ei onnistu, lisää URL-osoitteesi alkuun https:// ja yritä uudelleen."
+        },
+        "timeout": {
+            "title": "Palvelin ei ole käytettävissä",
+            "description": "Tämän sivun lataamisen aikaraja ylittyi valitettavasti. Palvelin saattaa olla varattu eikä pysty käsittelemään pyyntöäsi tällä hetkellä.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Tuntematon verkkotunnus",
+            "description": "Tätä verkkotunnusta ei ole rekisteröity tälle IP-osoitteelle.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Menetelmää ei tueta",
+            "description": "Pyydetty HTTP-menetelmä ei ole käytössä tällä verkkosivustolla.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Suojaamaton pyyntö",
+            "description": "Pyydetty HTTPS-protokolla ei ole käytössä tällä verkkosivustolla. Päivitä selaimesi.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Poissa käytöstä huollon vuoksi",
+            "description": "Tämä verkkosivusto ei ole tällä hetkellä käytettävissä. Sen pitäisi olla pian taas käytettävissä.",
+            "refresh_enable": true
+        }
+    }
+}

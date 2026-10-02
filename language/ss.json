@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Lenchubo itentekela yona. Madvutane utawucondziswa ekhasini lobewufuna kulivakashela.",
+        "validate_browser": "Sicinisekisa siphequluli sakho ngaphambi kwekungena ku-{http_host}",
+        "are_you_human_host": "Ungumuntfu yini? Kucinisekisa kuyadzingeka kute ungene ku-{http_host}",
+        "are_you_human": "Ungumuntfu yini? Kucinisekisa kuyadzingeka kute uchubeke",
+        "enter_captcha_host": "Sicela ufake i-CAPTCHA lengentasi kute uchubekele ku-{http_host}:",
+        "enter_captcha": "Sicela ufake i-CAPTCHA lengentasi kute uchubeke:",
+        "submit": "tfumela",
+        "try_again_later": "Lewebhusayithi itsatsa sikhatsi lesidze kunalokwetayelekile kulayisha. Ungase <a href=\"\">wetame futsi</a> kamuva",
+        "unexpected_error": "Kubonakala shengatsi kwenteke liphutsa lelingakalindzeleki. Sicela <a href=\"\">wetame futsi</a> kamuva",
+        "validation_complete": "<strong>Kucinisekisa kuphelile</strong>. Nyalo ucondziswa ekhasini lobewufuna kulivakashela. Chafata <a href=\"\">lapha</a> nangabe likhasi lingalayishi futsi.",
+        "enable_javascript": "Kucinisekisa siphequluli kusebenta kahle kakhulu nangabe i-JavaScript ivuliwe.",
+        "abnormal_activity": "Ngenca yemsebenti longaketayeleki, sidzinga kutsi ucedze umsebenti longentasi kute uchubeke",
+        "sorry_inconvenience": "Siyacolisa nganobe ngukuphi kuphatamiseka",
+        "verifying": "Siyacinisekisa"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Liphutsa ekulayisheni i-{host}",
+            "refresh_text": "Sicela wetame kungena kulewebhusayithi kamuva noma uchafate <a href=\"\">lapha</a> kute ulayishe likhasi futsi.",
+            "unexpected_error": "Kwenteke liphutsa lelingakalindzeleki ngalesikhatsi kulayishwa lelikhasi",
+            "possible_causes": "Tizatfu letingaba khona tifaka ekhatsi: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Iwebhusayithi ayitfolakali",
+            "description": "Ngelishwa, kwenteke liphutsa lelingakalindzeleki ngalesikhatsi kulayishwa lelikhasi. Siyacolisa nganobe ngukuphi kuphatamiseka. Sicela wetame kungena kulewebhusayithi kamuva noma uchafate <a href=\"\">lapha</a> kute ulayishe likhasi futsi."
+        },
+        "suspended": {
+            "title": "Iwebhusayithi imisiwe",
+            "description": "Ngelishwa, iwebhusayithi lowetama kuyivakashela ayitfolakali. Siyacolisa nganobe ngukuphi kuphatamiseka. Nangabe ungu<strong>mnikati</strong> walewebhusayithi, sicela <a href=\"https://www.x4b.net/support\">utsintse lusito</a>."
+        },
+        "over_bandwidth": {
+            "title": "Iwebhusayithi imisiwe",
+            "description": "Ngelishwa, iwebhusayithi lowetama kuyivakashela ayitfolakali. Siyacolisa nganobe ngukuphi kuphatamiseka. Nangabe ungu<strong>mnikati</strong> walewebhusayithi, sicela <a href=\"https://www.x4b.net/\">utsintse lusito</a>."
+        },
+        "backend": {
+            "title": "Iseva ayitfolakali",
+            "description": "Iseva yemtfombo ayitfolakali kwesikhashana, ngako ayikhoni kwenta lesicelo. Siyacolisa nganobe ngukuphi kuphatamiseka.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Sikhatsi lesibekiwe sekulindza sicelo siphelile",
+            "description": "Siyacolisa, sikhatsi lesibekiwe sekulindza siphelile ngalesikhatsi kulayishwa lelikhasi. Siyacolisa nganobe ngukuphi kuphatamiseka lokungenteka kubangelwe nguloku.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Kungena kwalelwe",
+            "description": "Awunayo imvume yekungena kulelikhasi. Nangabe ucabanga kutsi loku kuliphutsa, sicela utsintse umphatsi walewebhusayithi."
+        },
+        "upstream": {
+            "title": "Iseva ayitfolakali",
+            "description": "Kute iseva lexhunywe ku-inthanethi futsi letfolakalako kute isebente ngalesicelo nyalo. Siyacolisa nganobe ngukuphi kuphatamiseka."
+        },
+        "invalid_configuration": {
+            "title": "Kuhlelwa lokungakalungi",
+            "description": "Asikhoni kwenta lesicelo ngenca yeliphutsa ekuhlelweni. Siyacolisa nganobe ngukuphi kuphatamiseka."
+        },
+        "resource": {
+            "title": "Liphutsa lekungena",
+            "description_start": "Ngelishwa, kwenteke liphutsa ngalesikhatsi kulayishwa lelikhasi.",
+            "cause_list": [
+                "Iseva yemtfombo ibhekene nemtfwalo wemsebenti longakalindzeleki futsi ayikhoni kusebenta ngeticelo nyalo",
+                "Kwenteke liphutsa lelingakalindzeleki kuseva yemtfombo noma ngalesikhatsi kwendluliselwa idatha"
+            ],
+            "description_end": "Siyacolisa nganobe ngukuphi kuphatamiseka.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Liphutsa lekungena",
+            "description_start": "Ngelishwa, kwenteke liphutsa ngalesikhatsi kulayishwa lelikhasi.",
+            "cause_list": [
+                "Kutfolakele kutsi likheli lakho le-IP litfumela ticelo letinyenti ngalokwecile kuseva",
+                "Iseva yemtfombo ibhekene nemtfwalo wemsebenti longakalindzeleki futsi ayikhoni kusebenta ngeticelo nyalo",
+                "Kwenteke liphutsa lelingakalindzeleki kuseva yemtfombo noma ngalesikhatsi kwendluliselwa idatha"
+            ],
+            "description_end": "Siyacolisa nganobe ngukuphi kuphatamiseka.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Liphutsa lekungena",
+            "description_start": "Ngelishwa, kwenteke liphutsa ngalesikhatsi kulayishwa lelikhasi.",
+            "cause_list": [
+                "Likheli lakho le-IP linenani lelingaketayeleki lekuchumana neseva",
+                "Iseva yemtfombo ibhekene nemtfwalo wemsebenti longakalindzeleki futsi ayikhoni kusebenta ngeticelo nyalo",
+                "Kwenteke liphutsa lelingakalindzeleki kuseva yemtfombo noma ngalesikhatsi kwendluliselwa idatha"
+            ],
+            "description_end": "Siyacolisa nganobe ngukuphi kuphatamiseka.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Sicelo lesingakalungi",
+            "description": "Lewebhusayithi ingeneka nge-HTTPS. Wetame kuchumana nge-HTTP; nyalo sitawetama kukucondzisa kabusha. Nangabe ungacondziswa kabusha, sicela ufake https:// ekucaleni kwe-URL yakho bese wetama futsi."
+        },
+        "timeout": {
+            "title": "Iseva ayitfolakali",
+            "description": "Siyacolisa, sikhatsi lesibekiwe sekulindza siphelile ngalesikhatsi kulayishwa lelikhasi. Kungenteka kutsi iseva imatasatasa futsi ayikhoni kusebenta ngesicelo sakho nyalo.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Sizinda lesingatiwa",
+            "description": "Lesizinda asikabhaliswa kulelikheli le-IP.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Indlela lengasekelwa",
+            "description": "Indlela ye-HTTP leceliwe ayikavulelwa lewebhusayithi.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Sicelo lesingakavikeleki",
+            "description": "Iphrothokholi ye-HTTPS leceliwe ayikavulelwa lewebhusayithi. Sicela uvuselele siphequluli sakho.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Ivaliwe kute inakekelwe",
+            "description": "Lewebhusayithi ayitfolakali nyalo. Kulindzeleke kutsi itfolakale futsi madvutane.",
+            "refresh_enable": true
+        }
+    }
+}

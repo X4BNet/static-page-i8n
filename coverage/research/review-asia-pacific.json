@@ -1,0 +1,119 @@
+{
+    "schemaVersion": 1,
+    "reviewer": "benchmark_es (independent from author benchmark_vi)",
+    "source": "language/en.json",
+    "scope": {
+        "files": 13,
+        "textLeavesPerFile": 63,
+        "booleanLeavesPerFile": 11,
+        "totalTextLeaves": 819,
+        "uniqueSourceStringsPerFile": 50
+    },
+    "method": "Read every unique English-source string group in every file and compare meaning, script, modal strength and technical context. Checked remaining repeated leaves by source-group equality and validated every full file with exported validateTranslation. This is model review, not a native-speaker certification.",
+    "files": [
+        {
+            "tag": "zh-hant",
+            "result": "reviewed-no-necessary-fix-found",
+            "reviewConfidence": "moderate-high",
+            "notes": "Traditional Chinese throughout; Taiwan-oriented terminology is coherent. All key distinctions are explicit, including expected maintenance recovery and excessive requests."
+        },
+        {
+            "tag": "zh-hk",
+            "result": "reviewed-no-necessary-fix-found",
+            "reviewConfidence": "moderate-high",
+            "notes": "Hong Kong written Chinese, not colloquial Cantonese. Traditional characters and regional lexical choices are coherent; no semantic omission identified."
+        },
+        {
+            "tag": "ckb",
+            "result": "reviewed-no-necessary-fix-found",
+            "reviewConfidence": "limited",
+            "notes": "Sorani/Central Kurdish in Arabic script. Source-server, timeout, abnormal versus malicious traffic and domain/IP association are preserved. Technical and idiomatic review confidence is limited."
+        },
+        {
+            "tag": "fa-af",
+            "result": "reviewed-no-necessary-fix-found",
+            "reviewConfidence": "moderate-high",
+            "notes": "Dari/Afghan Persian wording is coherent, including مصروف, کوشش and پروتوکول. Does not merely relabel an unrelated language. Important modal/conditional differences are preserved."
+        },
+        {
+            "tag": "tpi",
+            "result": "reviewed-no-necessary-fix-found",
+            "reviewConfidence": "limited",
+            "notes": "Tok Pisin clause structure and loans are recognizable and distinct from Bislama. Plain-language explanations preserve technical meaning. Specialist terminology/register remains a review limitation."
+        },
+        {
+            "tag": "bi",
+            "result": "reviewed-no-necessary-fix-found",
+            "reviewConfidence": "limited",
+            "notes": "Bislama clause structure is distinct from Tok Pisin. HTTP/HTTPS attempt, unusual connections and expected recovery are preserved; technical loan choices remain review-sensitive."
+        },
+        {
+            "tag": "tet",
+            "result": "reviewed-no-necessary-fix-found",
+            "reviewConfidence": "limited",
+            "notes": "Tetum grammar and Portuguese-derived technical vocabulary are coherent. Possible causes, timeout and temporary origin unavailability are preserved; local technical register remains lower confidence."
+        },
+        {
+            "tag": "war",
+            "result": "reviewed-no-necessary-fix-found",
+            "reviewConfidence": "limited",
+            "notes": "Waray wording and function words are consistent. Flooding explicitly means excessive requests. Some register/spelling choices may merit local refinement, but no necessary semantic correction found."
+        },
+        {
+            "tag": "sa",
+            "result": "reviewed-with-fixes",
+            "reviewConfidence": "limited",
+            "notes": "Sanskrit in Devanagari with retained technical identifiers. Corrected two causative imperatives. Modern computing loans and stylistic choices remain review-sensitive; future passive wording was retained after checking grammar."
+        },
+        {
+            "tag": "mi",
+            "result": "reviewed-no-necessary-fix-found",
+            "reviewConfidence": "limited",
+            "notes": "Māori orthography and core clauses are coherent. Technical compounds/circumlocutions merit specialist review; no concrete meaning loss identified."
+        },
+        {
+            "tag": "sm",
+            "result": "reviewed-no-necessary-fix-found",
+            "reviewConfidence": "limited",
+            "notes": "Samoan wording preserves the error distinctions. ASCII apostrophe use is consistent with common keyboard text; not a script problem. Technical loan conventions remain review-sensitive."
+        },
+        {
+            "tag": "fj",
+            "result": "reviewed-no-necessary-fix-found",
+            "reviewConfidence": "limited",
+            "notes": "Standard Fijian, not Fiji Hindi. Clause meaning and source-server explanation are consistent; technical register remains lower confidence."
+        },
+        {
+            "tag": "to",
+            "result": "reviewed-no-necessary-fix-found",
+            "reviewConfidence": "limited",
+            "notes": "Tongan with ʻ punctuation, macrons and definitive accents; technical English loans remain identifiers or local computing terms. No concrete semantic omission identified; regional idiom remains lower confidence."
+        }
+    ],
+    "fixes": [
+        {
+            "tag": "sa",
+            "key": "challenge.enter_captcha_host",
+            "before": "{http_host} इत्यत्र अग्रे गन्तुं कृपया अधोदत्तं CAPTCHA प्रविशयतु:",
+            "after": "{http_host} इत्यत्र अग्रे गन्तुं कृपया अधोदत्तं CAPTCHA प्रवेशयतु:",
+            "reason": "Correct causative imperative of विश् (enter/input): प्रवेशयतु."
+        },
+        {
+            "tag": "sa",
+            "key": "challenge.enter_captcha",
+            "before": "अग्रे गन्तुं कृपया अधोदत्तं CAPTCHA प्रविशयतु:",
+            "after": "अग्रे गन्तुं कृपया अधोदत्तं CAPTCHA प्रवेशयतु:",
+            "reason": "Correct causative imperative of विश् (enter/input): प्रवेशयतु."
+        }
+    ],
+    "validation": {
+        "validator": "validateTranslation(readJSON(file), readJSON(\"language/en.json\"))",
+        "passed": true,
+        "identicalEnglishStringsHaveIdenticalTranslations": true
+    },
+    "referencesConsulted": [
+        "https://sanskrit.uohyd.ac.in/SKT/DICO/index.en.html",
+        "https://avg-sanskrit.org/avgclasses/Books%26PDFs/TextBooks/Antoine-2.pdf"
+    ],
+    "unresolvedConcerns": "Technical idiom and naturalness in lower-confidence languages remain suitable for additional fluent review; no further concrete correction was justified by this reviewer."
+}

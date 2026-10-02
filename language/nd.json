@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Inqubo le izenzakalela. Sokuseduze uzasiwa ekhasini obufuna ukulivakatshela.",
+        "validate_browser": "Siqinisekisa isiphequluli sakho ungakangeni ku-{http_host}",
+        "are_you_human_host": "Ungumuntu yini? Kudingeka ukuqinisekiswa ukuze ungene ku-{http_host}",
+        "are_you_human": "Ungumuntu yini? Kudingeka ukuqinisekiswa ukuze uqhubeke",
+        "enter_captcha_host": "Sicela ufake i-CAPTCHA engaphansi ukuze uqhubekele ku-{http_host}:",
+        "enter_captcha": "Sicela ufake i-CAPTCHA engaphansi ukuze uqhubeke:",
+        "submit": "thumela",
+        "try_again_later": "Iwebhusayithi le ithatha isikhathi eside kulokujayelekileyo ukuthi ilayitshe. Ungazama <a href=\"\">futhi</a> ngemva kwesikhathi",
+        "unexpected_error": "Kukhanya angathi kube lephutha elingalindelwanga. Sicela <a href=\"\">uzame futhi</a> ngemva kwesikhathi",
+        "validation_complete": "<strong>Ukuqinisekisa kuphelile</strong>. Khathesi usiwa ekhasini obufuna ukulivakatshela. Chofoza <a href=\"\">lapha</a> nxa ikhasi lingalayitshi futhi.",
+        "enable_javascript": "Ukuqinisekiswa kwesiphequluli kusebenza kuhle kakhulu nxa i-JavaScript ivuliwe.",
+        "abnormal_activity": "Ngenxa yomsebenzi ongajayelekanga, sidinga ukuthi uqede umsebenzi ongaphansi ukuze uqhubeke",
+        "sorry_inconvenience": "Siyaxolisa ngaloba yikuphi ukuphazamiseka",
+        "verifying": "Siyaqinisekisa"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Iphutha ekulayitsheni i-{host}",
+            "refresh_text": "Sicela uzame ukungena kuwebhusayithi ngemva kwesikhathi kumbe uchofoze <a href=\"\">lapha</a> ukuze ulayitshe ikhasi futhi.",
+            "unexpected_error": "Kube lephutha elingalindelwanga ngesikhathi kulayitshwa ikhasi leli",
+            "possible_causes": "Izizatho ezingaba khona zigoqela: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Iwebhusayithi ayitholakali",
+            "description": "Ngelishwa, kube lephutha elingalindelwanga ngesikhathi kulayitshwa ikhasi leli. Siyaxolisa ngaloba yikuphi ukuphazamiseka. Sicela uzame ukungena kuwebhusayithi ngemva kwesikhathi kumbe uchofoze <a href=\"\">lapha</a> ukuze ulayitshe ikhasi futhi."
+        },
+        "suspended": {
+            "title": "Iwebhusayithi imisiwe",
+            "description": "Ngelishwa, iwebhusayithi ozama ukuyivakatshela ayitholakali. Siyaxolisa ngaloba yikuphi ukuphazamiseka. Nxa ungumuntu <strong>ongumnikazi</strong> wewebhusayithi le, sicela <a href=\"https://www.x4b.net/support\">uxhumane labancedisayo</a>."
+        },
+        "over_bandwidth": {
+            "title": "Iwebhusayithi imisiwe",
+            "description": "Ngelishwa, iwebhusayithi ozama ukuyivakatshela ayitholakali. Siyaxolisa ngaloba yikuphi ukuphazamiseka. Nxa ungumuntu <strong>ongumnikazi</strong> wewebhusayithi le, sicela <a href=\"https://www.x4b.net/\">uxhumane labancedisayo</a>."
+        },
+        "backend": {
+            "title": "Iseva ayitholakali",
+            "description": "Iseva yomthombo ayitholakali okwesikhatshana, ngakho ayenelisi ukufeza isicelo lesi. Siyaxolisa ngaloba yikuphi ukuphazamiseka.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Isikhathi esibekelwe ukulinda isicelo siphelile",
+            "description": "Siyaxolisa, isikhathi esibekelwe ukulinda siphelile ngesikhathi kulayitshwa ikhasi leli. Siyaxolisa ngaloba yikuphi ukuphazamiseka okungabe kubangelwe yilokhu.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Ukungena kwaliwe",
+            "description": "Awulayo imvumo yokungena ekhasini leli. Nxa ubona angathi lokhu kuliphutha, sicela uxhumane lomphathi wewebhusayithi."
+        },
+        "upstream": {
+            "title": "Iseva ayitholakali",
+            "description": "Khathesi akula seva exhunywe ku-inthanethi etholakalayo ukuze isebenze ngesicelo lesi. Siyaxolisa ngaloba yikuphi ukuphazamiseka."
+        },
+        "invalid_configuration": {
+            "title": "Ukuhlelwa okungaqondanga",
+            "description": "Asenelisi ukufeza isicelo lesi ngenxa yephutha ekuhlelweni. Siyaxolisa ngaloba yikuphi ukuphazamiseka."
+        },
+        "resource": {
+            "title": "Iphutha lokungena",
+            "description_start": "Ngelishwa, kube lephutha ngesikhathi kulayitshwa ikhasi leli.",
+            "cause_list": [
+                "Iseva yomthombo ibhekane lomthwalo womsebenzi obungalindelwanga njalo ayenelisi ukusebenza ngezicelo khathesi",
+                "Kube lephutha elingalindelwanga kuseva yomthombo kumbe ngesikhathi kudluliselwa idatha"
+            ],
+            "description_end": "Siyaxolisa ngaloba yikuphi ukuphazamiseka.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Iphutha lokungena",
+            "description_start": "Ngelishwa, kube lephutha ngesikhathi kulayitshwa ikhasi leli.",
+            "cause_list": [
+                "Kutholakale ukuthi ikheli lakho le-IP lithumela izicelo ezinengi ezidlula amalawulo kuseva",
+                "Iseva yomthombo ibhekane lomthwalo womsebenzi obungalindelwanga njalo ayenelisi ukusebenza ngezicelo khathesi",
+                "Kube lephutha elingalindelwanga kuseva yomthombo kumbe ngesikhathi kudluliselwa idatha"
+            ],
+            "description_end": "Siyaxolisa ngaloba yikuphi ukuphazamiseka.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Iphutha lokungena",
+            "description_start": "Ngelishwa, kube lephutha ngesikhathi kulayitshwa ikhasi leli.",
+            "cause_list": [
+                "Ikheli lakho le-IP lilenani elingajayelekanga lokuxhumana leseva",
+                "Iseva yomthombo ibhekane lomthwalo womsebenzi obungalindelwanga njalo ayenelisi ukusebenza ngezicelo khathesi",
+                "Kube lephutha elingalindelwanga kuseva yomthombo kumbe ngesikhathi kudluliselwa idatha"
+            ],
+            "description_end": "Siyaxolisa ngaloba yikuphi ukuphazamiseka.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Isicelo esingaqondanga",
+            "description": "Iwebhusayithi le ingeneka nge-HTTPS. Uzame ukuxhuma nge-HTTP; khathesi sizazama ukukusa kwenye indawo. Nxa ungasiwanga, sicela ufake https:// ekuqaleni kwe-URL yakho uzame futhi."
+        },
+        "timeout": {
+            "title": "Iseva ayitholakali",
+            "description": "Siyaxolisa, isikhathi esibekelwe ukulinda siphelile ngesikhathi kulayitshwa ikhasi leli. Kungenzeka ukuthi iseva imatasa njalo ayenelisi ukusebenza ngesicelo sakho khathesi.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Isizinda esingaziwayo",
+            "description": "Isizinda lesi asibhaliswanga ekhelini le-IP leli.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Indlela engasekelwayo",
+            "description": "Indlela ye-HTTP eceliweyo ayivulwanga kuwebhusayithi le.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Isicelo esingavikelekanga",
+            "description": "Iphrothokholi ye-HTTPS eceliweyo ayivulwanga kuwebhusayithi le. Sicela uvuselele isiphequluli sakho.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Ivaliwe ukuze ilungiswe",
+            "description": "Iwebhusayithi le ayitholakali khathesi. Kukhangelelwe ukuthi itholakale futhi masinyane.",
+            "refresh_enable": true
+        }
+    }
+}

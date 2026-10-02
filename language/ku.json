@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Ev pêvajo bixweber e. Di demeke kurt de hûn ê ber bi cihê ku hûn dixwazin biçin ve bên veguhestin.",
+        "validate_browser": "Berî gihîştina {http_host}, geroka we tê piştrastkirin",
+        "are_you_human_host": "Hûn mirov in? Ji bo gihîştina {http_host} piştrastkirin pêwîst e",
+        "are_you_human": "Hûn mirov in? Ji bo berdewamkirinê piştrastkirin pêwîst e",
+        "enter_captcha_host": "Ji bo çûna {http_host}, ji kerema xwe CAPTCHA ya li jêr binivîsin:",
+        "enter_captcha": "Ji bo berdewamkirinê, ji kerema xwe CAPTCHA ya li jêr binivîsin:",
+        "submit": "bişînin",
+        "try_again_later": "Barkirina vê malperê ji ya asayî zêdetir dem digire. Hûn dikarin paşê <a href=\"\">dîsa biceribînin</a>",
+        "unexpected_error": "Wisa dixuye ku çewtiyeke nedihat hêvîkirin çêbûye. Ji kerema xwe paşê <a href=\"\">dîsa biceribînin</a>",
+        "validation_complete": "<strong>Piştrastkirin qediya</strong>. Niha hûn ber bi cihê ku hûn dixwazin biçin ve tên veguhestin. Heke rûpel ji nû ve bar nebe, li <a href=\"\">vir</a> bitikînin.",
+        "enable_javascript": "Piştrastkirina gerokê dema JavaScript çalak be baştir dixebite.",
+        "abnormal_activity": "Ji ber çalakiyeke neasayî, ji bo berdewamkirinê divê hûn karê li jêr biqedînin",
+        "sorry_inconvenience": "Em ji ber nerehetiyê lêborînê dixwazin",
+        "verifying": "Tê piştrastkirin"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Di barkirina {host} de çewtî",
+            "refresh_text": "Ji kerema xwe paşê dîsa hewl bidin ku hûn bigihîjin malperê, an jî ji bo barkirina rûpelê ji nû ve li <a href=\"\">vir</a> bitikînin.",
+            "unexpected_error": "Dema ev rûpel dihat barkirin çewtiyeke nedihat hêvîkirin çêbû",
+            "possible_causes": "Sedemên gengaz ev in: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Malper ne berdest e",
+            "description": "Mixabin, dema ev rûpel dihat barkirin çewtiyeke nedihat hêvîkirin çêbû. Em ji ber nerehetiyê lêborînê dixwazin. Ji kerema xwe paşê dîsa hewl bidin ku hûn bigihîjin malperê, an jî ji bo barkirina rûpelê ji nû ve li <a href=\"\">vir</a> bitikînin."
+        },
+        "suspended": {
+            "title": "Malper hatiye rawestandin",
+            "description": "Mixabin, malpera ku hûn dixwazin serdana wê bikin ne berdest e. Em ji ber nerehetiyê lêborînê dixwazin. Heke hûn <strong>xwediyê</strong> vê malperê ne, ji kerema xwe <a href=\"https://www.x4b.net/support\">bi piştgiriyê re têkilî daynin</a>."
+        },
+        "over_bandwidth": {
+            "title": "Malper hatiye rawestandin",
+            "description": "Mixabin, malpera ku hûn dixwazin serdana wê bikin ne berdest e. Em ji ber nerehetiyê lêborînê dixwazin. Heke hûn <strong>xwediyê</strong> vê malperê ne, ji kerema xwe <a href=\"https://www.x4b.net/\">bi piştgiriyê re têkilî daynin</a>."
+        },
+        "backend": {
+            "title": "Pêşkêşkar ne berdest e",
+            "description": "Pêşkêşkarê çavkaniyê demkî ne berdest e û ji ber vê yekê nikare vê daxwazê pêk bîne. Em ji ber nerehetiyê lêborînê dixwazin.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Dema bendê ya daxwazê qediya",
+            "description": "Biborin, dema barkirina vê rûpelê de dema bendê qediya. Em ji ber nerehetiya ku dibe vê yekê çêkiribe lêborînê dixwazin.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Gihîştin hat redkirin",
+            "description": "Destûra we tune ye ku hûn bigihîjin vê rûpelê. Heke hûn difikirin ku ev çewtî ye, ji kerema xwe bi rêveberê malperê re têkilî daynin."
+        },
+        "upstream": {
+            "title": "Pêşkêşkar ne berdest e",
+            "description": "Niha tu pêşkêşkar girêdayî înternetê û berdest nîne ku vê daxwazê pêk bîne. Em ji ber nerehetiyê lêborînê dixwazin."
+        },
+        "invalid_configuration": {
+            "title": "Mîhengên nederbasdar",
+            "description": "Ji ber çewtiyeke di mîhengan de em nikarin vê daxwazê pêk bînin. Em ji ber nerehetiyê lêborînê dixwazin."
+        },
+        "resource": {
+            "title": "Çewtiya gihîştinê",
+            "description_start": "Mixabin, dema ev rûpel dihat barkirin çewtiyek çêbû.",
+            "cause_list": [
+                "Pêşkêşkarê çavkaniyê di bin barekî nedihat hêvîkirin de ye û niha nikare daxwazan pêk bîne",
+                "Li pêşkêşkarê çavkaniyê an di dema veguhastina daneyan de çewtiyeke nedihat hêvîkirin çêbû"
+            ],
+            "description_end": "Em ji ber nerehetiyê lêborînê dixwazin.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Çewtiya gihîştinê",
+            "description_start": "Mixabin, dema ev rûpel dihat barkirin çewtiyek çêbû.",
+            "cause_list": [
+                "Hat dîtin ku ji navnîşana we ya IP ji pêşkêşkar re daxwazên ji pêwîstê zêdetir tên şandin",
+                "Pêşkêşkarê çavkaniyê di bin barekî nedihat hêvîkirin de ye û niha nikare daxwazan pêk bîne",
+                "Li pêşkêşkarê çavkaniyê an di dema veguhastina daneyan de çewtiyeke nedihat hêvîkirin çêbû"
+            ],
+            "description_end": "Em ji ber nerehetiyê lêborînê dixwazin.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Çewtiya gihîştinê",
+            "description_start": "Mixabin, dema ev rûpel dihat barkirin çewtiyek çêbû.",
+            "cause_list": [
+                "Navnîşana we ya IP bi hejmareke neasayî bi pêşkêşkar ve girêdayî ye",
+                "Pêşkêşkarê çavkaniyê di bin barekî nedihat hêvîkirin de ye û niha nikare daxwazan pêk bîne",
+                "Li pêşkêşkarê çavkaniyê an di dema veguhastina daneyan de çewtiyeke nedihat hêvîkirin çêbû"
+            ],
+            "description_end": "Em ji ber nerehetiyê lêborînê dixwazin.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Daxwaza çewt",
+            "description": "Ev malper bi HTTPS tê vekirin. We hewl da ku bi HTTP ve girêbidin; niha em ê hewl bidin ku we veguhêzin. Heke hûn nehatin veguhestin, ji kerema xwe https:// li destpêka URL ya xwe zêde bikin û dîsa biceribînin."
+        },
+        "timeout": {
+            "title": "Pêşkêşkar ne berdest e",
+            "description": "Biborin, dema barkirina vê rûpelê de dema bendê qediya. Dibe ku pêşkêşkar mijûl be û niha nikaribe daxwaza we pêk bîne.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Domena nenas",
+            "description": "Ev domen ji bo vê navnîşana IP nehatiye tomarkirin.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Rêbaza bê piştgirî",
+            "description": "Rêbaza HTTP ya hatî daxwazkirin ji bo vê malperê ne çalak e.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Daxwaza ne ewle",
+            "description": "Protokola HTTPS ya hatî daxwazkirin ji bo vê malperê ne çalak e. Ji kerema xwe geroka xwe nû bikin.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Ji bo lênêrînê ne girêdayî ye",
+            "description": "Ev malper niha ne berdest e. Tê hêvîkirin ku di demeke kurt de dîsa berdest bibe.",
+            "refresh_enable": true
+        }
+    }
+}

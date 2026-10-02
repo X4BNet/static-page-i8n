@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Bu amal awtomatik ýerine ýetirilýär. Tiz wagtdan islän salgyňyza ugrukdyrylarsyňyz.",
+        "validate_browser": "{http_host} salgysyna girmezden öň brauzeriňiz barlanýar",
+        "are_you_human_host": "Siz adammy? {http_host} salgysyna girmek üçin barlagdan geçmeli",
+        "are_you_human": "Siz adammy? Dowam etmek üçin barlagdan geçmeli",
+        "enter_captcha_host": "{http_host} salgysyna geçmek üçin aşakdaky CAPTCHA koduny giriziň:",
+        "enter_captcha": "Dowam etmek üçin aşakdaky CAPTCHA koduny giriziň:",
+        "submit": "Iber",
+        "try_again_later": "Bu web sahypasynyň ýüklenmegi adatdakysyndan köp wagt alýar. Soňrak <a href=\"\">gaýtadan synanyşyp bilersiňiz</a>",
+        "unexpected_error": "Garaşylmadyk ýalňyşlyk ýüze çykan ýaly. Soňrak <a href=\"\">gaýtadan synanyşyň</a>",
+        "validation_complete": "<strong>Barlag tamamlandy</strong>. Indi islän salgyňyza ugrukdyrylýarsyňyz. Sahypa täzeden ýüklenmese, <a href=\"\">şu ýere</a> basyň.",
+        "enable_javascript": "JavaScript açyk bolanda brauzer barlagy has gowy işleýär.",
+        "abnormal_activity": "Adatdan daşary işjeňlik sebäpli dowam etmek üçin aşakdaky ýumşy ýerine ýetirmeli",
+        "sorry_inconvenience": "Ýüze çykan oňaýsyzlyklar üçin ötünç soraýarys",
+        "verifying": "Barlanýar"
+    },
+    "error": {
+        "default": {
+            "error_loading": "{host} ýüklenende ýalňyşlyk ýüze çykdy",
+            "refresh_text": "Web sahypasyna soňrak girip görüň ýa-da sahypany täzeden ýüklemek üçin <a href=\"\">şu ýere</a> basyň.",
+            "unexpected_error": "Bu sahypa ýüklenende garaşylmadyk ýalňyşlyk ýüze çykdy",
+            "possible_causes": "Mümkin bolan sebäpler: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Web sahypasy elýeterli däl",
+            "description": "Gynansak-da, bu sahypa ýüklenende garaşylmadyk ýalňyşlyk ýüze çykdy. Ýüze çykan oňaýsyzlyklar üçin ötünç soraýarys. Web sahypasyna soňrak girip görüň ýa-da sahypany täzeden ýüklemek üçin <a href=\"\">şu ýere</a> basyň."
+        },
+        "suspended": {
+            "title": "Web sahypasynyň işi togtadyldy",
+            "description": "Gynansak-da, girmek isleýän web sahypaňyz elýeterli däl. Ýüze çykan oňaýsyzlyklar üçin ötünç soraýarys. Bu web sahypasynyň <strong>eýesi</strong> bolsaňyz, <a href=\"https://www.x4b.net/support\">goldaw gullugyna ýüz tutuň</a>."
+        },
+        "over_bandwidth": {
+            "title": "Web sahypasynyň işi togtadyldy",
+            "description": "Gynansak-da, girmek isleýän web sahypaňyz elýeterli däl. Ýüze çykan oňaýsyzlyklar üçin ötünç soraýarys. Bu web sahypasynyň <strong>eýesi</strong> bolsaňyz, <a href=\"https://www.x4b.net/\">goldaw gullugyna ýüz tutuň</a>."
+        },
+        "backend": {
+            "title": "Serwer elýeterli däl",
+            "description": "Çeşme serweri wagtlaýyn elýeterli däl, şonuň üçin bu haýyşy işläp bilmeýär. Ýüze çykan oňaýsyzlyklar üçin ötünç soraýarys.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Haýyşyň garaşmak wagty gutardy",
+            "description": "Gynansak-da, bu web sahypasy ýüklenende garaşmak wagty gutardy. Munuň döreden oňaýsyzlyklary üçin ötünç soraýarys.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Giriş ret edildi",
+            "description": "Bu sahypa girmäge rugsadyňyz ýok. Muny ýalňyşlyk hasaplaýan bolsaňyz, web sahypasynyň dolandyryjysyna ýüz tutuň."
+        },
+        "upstream": {
+            "title": "Serwer elýeterli däl",
+            "description": "Häzirki wagtda bu haýyşy işlemek üçin tora birikdirilen we elýeterli serwer ýok. Ýüze çykan oňaýsyzlyklar üçin ötünç soraýarys."
+        },
+        "invalid_configuration": {
+            "title": "Nädogry sazlamalar",
+            "description": "Sazlamalardaky ýalňyşlyk sebäpli bu haýyşy işläp bilmeýäris. Ýüze çykan oňaýsyzlyklar üçin ötünç soraýarys."
+        },
+        "resource": {
+            "title": "Giriş ýalňyşlygy",
+            "description_start": "Gynansak-da, bu sahypa ýüklenende ýalňyşlyk ýüze çykdy.",
+            "cause_list": [
+                "Çeşme serwerine garaşylmadyk derejede köp ýük düşýär we ol häzir haýyşlary işläp bilmeýär",
+                "Çeşme serwerinde ýa-da maglumat geçirilende garaşylmadyk ýalňyşlyk ýüze çykdy"
+            ],
+            "description_end": "Ýüze çykan oňaýsyzlyklar üçin ötünç soraýarys.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Giriş ýalňyşlygy",
+            "description_start": "Gynansak-da, bu sahypa ýüklenende ýalňyşlyk ýüze çykdy.",
+            "cause_list": [
+                "IP salgyňyzdan serwere çendenaşa köp haýyş iberilýändigi anyklandy",
+                "Çeşme serwerine garaşylmadyk derejede köp ýük düşýär we ol häzir haýyşlary işläp bilmeýär",
+                "Çeşme serwerinde ýa-da maglumat geçirilende garaşylmadyk ýalňyşlyk ýüze çykdy"
+            ],
+            "description_end": "Ýüze çykan oňaýsyzlyklar üçin ötünç soraýarys.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Giriş ýalňyşlygy",
+            "description_start": "Gynansak-da, bu sahypa ýüklenende ýalňyşlyk ýüze çykdy.",
+            "cause_list": [
+                "IP salgyňyzdan serwere adaty bolmadyk sanda birikme bar",
+                "Çeşme serwerine garaşylmadyk derejede köp ýük düşýär we ol häzir haýyşlary işläp bilmeýär",
+                "Çeşme serwerinde ýa-da maglumat geçirilende garaşylmadyk ýalňyşlyk ýüze çykdy"
+            ],
+            "description_end": "Ýüze çykan oňaýsyzlyklar üçin ötünç soraýarys.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Nädogry haýyş",
+            "description": "Bu web sahypasy HTTPS arkaly elýeterlidir. Siz HTTP arkaly birikmäge synanyşdyňyz. Indi sizi başga salga ugrukdyrmaga synanyşarys. Ugrukdyrylmasaňyz, URL salgyňyzyň başyna https:// goşup, gaýtadan synanyşyň."
+        },
+        "timeout": {
+            "title": "Serwer elýeterli däl",
+            "description": "Gynansak-da, bu sahypa ýüklenende garaşmak wagty gutardy. Serwer işli bolup, haýyşyňyzy häzir işläp bilmeýän bolmagy mümkin.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Näbelli domen",
+            "description": "Bu domen şu IP salgysyna bellige alynmandyr.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Goldanylmaýan usul",
+            "description": "Talap edilen HTTP usuly bu web sahypasy üçin açyk däl.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Howpsuz däl haýyş",
+            "description": "Talap edilen HTTPS protokoly bu web sahypasy üçin açyk däl. Brauzeriňizi täzeläň.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Tehniki hyzmat üçin tordan aýrylan",
+            "description": "Bu web sahypasy häzir elýeterli däl. Onuň tiz wagtdan ýene elýeterli bolmagyna garaşylýar.",
+            "refresh_enable": true
+        }
+    }
+}

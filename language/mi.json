@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "He aunoa tēnei tukanga. Ākuanei koe ka tukuna ki te wāhi e hiahia ana koe ki te haere.",
+        "validate_browser": "Kei te whakamana i tō pūtirotiro i mua i te uru atu ki {http_host}",
+        "are_you_human_host": "He tangata koe? Me whakamana kia uru atu ai ki {http_host}",
+        "are_you_human": "He tangata koe? Me whakamana kia haere tonu ai",
+        "enter_captcha_host": "Tāurua te CAPTCHA kei raro nei kia haere tonu ai ki {http_host}:",
+        "enter_captcha": "Tāurua te CAPTCHA kei raro nei kia haere tonu ai:",
+        "submit": "tuku",
+        "try_again_later": "He roa ake te utanga o tēnei paetukutuku i te tikanga. Tērā pea me <a href=\"\">ngana anō</a> ā muri ake",
+        "unexpected_error": "Te āhua nei kua puta he hapa ohorere. Tēnā, <a href=\"\">ngana anō</a> ā muri ake",
+        "validation_complete": "<strong>Kua oti te whakamana</strong>. Kei te tukuna koe ki te wāhi e hiahia ana koe ki te haere. Pāwhiria <a href=\"\">konei</a> ki te kore te whārangi e uta anō.",
+        "enable_javascript": "He pai rawa atu te mahi a te whakamana pūtirotiro ina whakahohea te JavaScript.",
+        "abnormal_activity": "Nā ngā mahi rerekē, me whakaoti e koe te mahi kei raro nei kia haere tonu ai",
+        "sorry_inconvenience": "E whakapāha ana mātou mō ngā whakararuraru",
+        "verifying": "Kei te manatoko"
+    },
+    "error": {
+        "default": {
+            "error_loading": "He hapa i te utanga o {host}",
+            "refresh_text": "Tēnā, ngana ki te uru atu ki te paetukutuku ā muri ake, pāwhiria rānei <a href=\"\">konei</a> hei tāmata i te whārangi.",
+            "unexpected_error": "I puta he hapa ohorere i te utanga o tēnei whārangi",
+            "possible_causes": "Ko ētahi take pea ko ēnei:",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Kāore te paetukutuku i te wātea",
+            "description": "Ka aroha, i puta he hapa ohorere i te utanga o tēnei whārangi. E whakapāha ana mātou mō ngā whakararuraru. Tēnā, ngana ki te uru atu ki te paetukutuku ā muri ake, pāwhiria rānei <a href=\"\">konei</a> hei tāmata i te whārangi."
+        },
+        "suspended": {
+            "title": "Kua whakatārewatia te paetukutuku",
+            "description": "Ka aroha, kāore te paetukutuku e ngana ana koe ki te toro i te wātea. E whakapāha ana mātou mō ngā whakararuraru. Mēnā ko koe te <strong>rangatira</strong> o tēnei paetukutuku, tēnā, <a href=\"https://www.x4b.net/support\">whakapā atu ki te rōpū tautoko</a>."
+        },
+        "over_bandwidth": {
+            "title": "Kua whakatārewatia te paetukutuku",
+            "description": "Ka aroha, kāore te paetukutuku e ngana ana koe ki te toro i te wātea. E whakapāha ana mātou mō ngā whakararuraru. Mēnā ko koe te <strong>rangatira</strong> o tēnei paetukutuku, tēnā, <a href=\"https://www.x4b.net/\">whakapā atu ki te rōpū tautoko</a>."
+        },
+        "backend": {
+            "title": "Kāore te tūmau i te wātea",
+            "description": "Kāore te tūmau takenga i te wātea mō tēnei wā, nā reira kāore e taea te whakatutuki i tēnei tono. E whakapāha ana mātou mō ngā whakararuraru.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Kua pau te wā mō te tono",
+            "description": "Ka aroha, i pau te wā i whakaritea i te utanga o tēnei whārangi tukutuku. E whakapāha ana mātou mō ngā whakararuraru i hua mai pea.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Kua whakakāhoretia te urunga",
+            "description": "Kāore ō whakaaetanga kia uru atu ki tēnei whārangi. Ki te hē tēnei, tēnā whakapā atu ki te kaiwhakahaere o te paetukutuku."
+        },
+        "upstream": {
+            "title": "Kāore te tūmau i te wātea",
+            "description": "Kāore he tūmau e tuihono ana, e wātea ana hoki ki te tukatuka i tēnei tono i tēnei wā. E whakapāha ana mātou mō ngā whakararuraru."
+        },
+        "invalid_configuration": {
+            "title": "He whirihoranga muhu",
+            "description": "Kāore e taea e mātou te whakatutuki i tēnei tono nā te hapa whirihoranga. E whakapāha ana mātou mō ngā whakararuraru."
+        },
+        "resource": {
+            "title": "He hapa urunga",
+            "description_start": "Ka aroha, i puta he hapa i te utanga o tēnei whārangi.",
+            "cause_list": [
+                "He nui ohorere te kawenga kei runga i te tūmau takenga, ā, kāore e taea te tukatuka tono i tēnei wā",
+                "I puta he hapa ohorere i te tūmau takenga, i te wā rānei e whakawhitia ana ngā raraunga"
+            ],
+            "description_end": "E whakapāha ana mātou mō ngā whakararuraru.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "He hapa urunga",
+            "description_start": "Ka aroha, i puta he hapa i te utanga o tēnei whārangi.",
+            "cause_list": [
+                "Kua kitea he nui rawa ngā tono e tukuna ana ki te tūmau mai i tō wāhitau IP",
+                "He nui ohorere te kawenga kei runga i te tūmau takenga, ā, kāore e taea te tukatuka tono i tēnei wā",
+                "I puta he hapa ohorere i te tūmau takenga, i te wā rānei e whakawhitia ana ngā raraunga"
+            ],
+            "description_end": "E whakapāha ana mātou mō ngā whakararuraru.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "He hapa urunga",
+            "description_start": "Ka aroha, i puta he hapa i te utanga o tēnei whārangi.",
+            "cause_list": [
+                "He rerekē te maha o ngā hononga ki te tūmau mai i tō wāhitau IP",
+                "He nui ohorere te kawenga kei runga i te tūmau takenga, ā, kāore e taea te tukatuka tono i tēnei wā",
+                "I puta he hapa ohorere i te tūmau takenga, i te wā rānei e whakawhitia ana ngā raraunga"
+            ],
+            "description_end": "E whakapāha ana mātou mō ngā whakararuraru.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "He tono muhu",
+            "description": "Ka taea te uru atu ki tēnei paetukutuku mā HTTPS. I ngana koe ki te hono mā HTTP, ā, ka ngana mātou ināianei ki te tuku anō i a koe. Ki te kore koe e tukuna anō, tāpirihia te https:// ki te tīmatanga o tō URL, kātahi ka ngana anō."
+        },
+        "timeout": {
+            "title": "Kāore te tūmau i te wātea",
+            "description": "Ka aroha, i pau te wā i whakaritea i te utanga o tēnei whārangi. Tērā pea he pukumahi te tūmau, ā, kāore e taea te tukatuka i tō tono i tēnei wā.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "He rohe tē mōhiotia",
+            "description": "Kāore tēnei rohe i rēhitatia mō tēnei wāhitau IP.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "He tikanga kāore e tautokona",
+            "description": "Kāore te tikanga HTTP i tonoa e whakahohea mō tēnei paetukutuku.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "He tono haumaru-kore",
+            "description": "Kāore te kawa HTTPS i tonoa e whakahohea mō tēnei paetukutuku. Tēnā, whakahōutia tō pūtirotiro.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Kei te tuimotu mō te whakatika",
+            "description": "Kāore tēnei paetukutuku i te wātea i tēnei wā. Ko te tūmanako ka wātea anō ākuanei.",
+            "refresh_enable": true
+        }
+    }
+}

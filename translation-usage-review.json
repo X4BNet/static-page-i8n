@@ -1,0 +1,2491 @@
+{
+    "schemaVersion": 1,
+    "reviewedOn": "2026-10-02",
+    "source": {
+        "path": "language/en.json",
+        "gitBlob": "ee0cb7f39bb9f4dca8a68496476e3e790a4f193e",
+        "sha256": "80143e3cccff712b00f74612cc464f7c3c055b02fccddfb778b39b2cfa216092",
+        "strings": 63,
+        "booleans": 11
+    },
+    "scope": "All 43 languages carrying a further-review flag after the initial 100-language expansion. This is a targeted follow-up, not a new accuracy benchmark for the other 57 languages.",
+    "method": [
+        "Subagents and the coordinating agent searched translated titles and/or keywords for every flagged language, then inspected published usage and compared all 63 translated entries against English.",
+        "Preferred primary localization repositories, manufacturer documentation, government publications and authored native-language prose. Rejected apparent automatic multilingual SEO pages, unrelated meanings and visibly defective source entries.",
+        "Used the sources to corroborate vocabulary, grammar and operational sentence patterns. Corrections are original editorial translations against English, not copied complete messages or translation-service output.",
+        "Cleared a flag only when contextual evidence and the full source comparison addressed its stated concern. Isolated word matches did not by themselves resolve complex grammar, dialect or register concerns.",
+        "Preserved specific unresolved concerns and recorded actual search queries, source URLs, short attested terms, reasoning and before/after corrections for each language."
+    ],
+    "decisionMeaning": {
+        "clear": "The original targeted additional-review concern is sufficiently addressed by published usage plus model source review. This does not certify native-level fluency or every sentence.",
+        "retain": "Published usage narrows the original concern, but the recorded grammar, dialect or technical-register uncertainty still warrants further review."
+    },
+    "limitations": [
+        "These are evidence-informed model judgments, not independent native-speaker approval or measured accuracy scores.",
+        "Official and community sources may contain errors. Source reputation and matching nouns alone were not treated as proof of sentence correctness.",
+        "Some sources were available only through indexed passages; those limits are identified in their evidence records. Absence of a search match is not proof that wording is incorrect.",
+        "Repository source URLs may change. Each language entry includes the SHA-256 of the translation actually reviewed; the English and blind benchmark files were preserved."
+    ],
+    "summary": {
+        "languagesReviewed": 43,
+        "reviewFlagsCleared": 28,
+        "reviewFlagsRetained": 15,
+        "correctedLanguageFiles": 16,
+        "correctedStringEntries": 53,
+        "clearedTags": [
+            "am",
+            "as",
+            "bho",
+            "ceb",
+            "ha",
+            "hil",
+            "hmn",
+            "ig",
+            "ilo",
+            "jv",
+            "km",
+            "ku",
+            "lo",
+            "mai",
+            "mg",
+            "my",
+            "nso",
+            "or",
+            "ps",
+            "rw",
+            "sd",
+            "so",
+            "su",
+            "tg",
+            "tk",
+            "ug",
+            "xh",
+            "zu"
+        ],
+        "retainedTags": [
+            "ak",
+            "ff",
+            "hne",
+            "lg",
+            "ln",
+            "mad",
+            "ny",
+            "om",
+            "qu",
+            "raj",
+            "rn",
+            "sn",
+            "ti",
+            "wo",
+            "yo"
+        ],
+        "correctedTags": [
+            "ceb",
+            "hmn",
+            "jv",
+            "ku",
+            "mg",
+            "ps",
+            "rw",
+            "sd",
+            "sn",
+            "so",
+            "su",
+            "tg",
+            "ti",
+            "ug",
+            "xh",
+            "yo"
+        ]
+    },
+    "additionalChecks": [
+        {
+            "tags": [
+                "sn",
+                "so",
+                "su",
+                "xh"
+            ],
+            "keys": [
+                "challenge.enable_javascript"
+            ],
+            "method": "A second subagent independently checked the four coordinating-agent corrections against English after the usage review.",
+            "finding": "Each restores best rather than good/better and retains the conditional JavaScript qualification. No concrete grammar or meaning regression was found."
+        }
+    ],
+    "languages": [
+        {
+            "tag": "ak",
+            "originalConcern": "Asante-targeted spelling and technical loanword choices need language-specific polish; identified trust/verification and untrue/incorrect ambiguities were fixed.",
+            "queries": [
+                "\"Wɔamma wo kwan\" wɛbsaet",
+                "\"brawsa\" site:jw.org",
+                "site:jw.org twi \"wɛbsaet\" \"mfomso\"",
+                "\"ahobanbɔ\" \"wɛbsaet\"",
+                "\"nhwehwɛmu\" \"wɛbsaet\" \"Twi\""
+            ],
+            "evidence": [
+                {
+                    "url": "https://wol.jw.org/tw/wol/h/r33/lp-tw",
+                    "title": "Watchtower Online Library: Twi interface",
+                    "matchedTerms": [
+                        "Wɛbsaet",
+                        "nhwehwɛmu",
+                        "yɛsrɛ wo"
+                    ],
+                    "supports": "The publisher uses the website loanword, examination/research noun and polite request construction in its actual Twi interface. This establishes ordinary interface wording, not browser-validation terminology."
+                },
+                {
+                    "url": "https://www.jw.org/tw/nhomakorabea/ns%C9%9Bmma-nhoma/wp20150701/",
+                    "title": "Watchtower July 2015: Twi",
+                    "matchedTerms": [
+                        "mfomso",
+                        "Wobɛtumi",
+                        "Nsɛmmisa"
+                    ],
+                    "supports": "Published prose supports the mistake noun and Asante-like ability spelling found in this file."
+                }
+            ],
+            "findings": "All 63 strings reviewed. Ordinary website, inquiry and polite-instruction phrasing is supported, but indexed technical pages were predominantly multilingual commercial pages with unreliable provenance. The Akan MediaWiki file contains metadata rather than a usable message corpus. No source justifies declaring server/browser loanword spelling, access-error title idiom and protocol-enabling prose resolved.",
+            "corrections": [],
+            "decision": "retain",
+            "remainingConcern": "Narrowed to Asante technical loanword spelling and complex access, timeout and protocol clauses; ordinary website and polite-instruction vocabulary has published support.",
+            "reviewedAllStrings": true,
+            "name": "Akan",
+            "writtenForm": "Twi (Asante)",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "a85b5ed509539f896fabd2d4aad244274922a7c43e4400181e6a6995b7817cd9"
+        },
+        {
+            "tag": "am",
+            "originalConcern": "Amharic technical phrasing and formal address should receive independent fluency review.",
+            "queries": [
+                "\"መዳረሻ ተከልክሏል\" \"አሳሽ\"",
+                "\"Amharic\" \"አገልጋዩ\" \"እባክዎ\"",
+                "site:support.google.com/chrome \"አሳሽ\" \"እንደገና\"",
+                "\"ልክ ያልሆነ ውቅር\""
+            ],
+            "evidence": [
+                {
+                    "url": "https://raw.githubusercontent.com/chromium/chromium/main/components/strings/components_strings_am.xtb",
+                    "title": "Chromium Amharic interface messages",
+                    "matchedTerms": [
+                        "መዳረሻ ተከልክሏል",
+                        "አሳሽ",
+                        "አገልጋይ",
+                        "ውቅር",
+                        "እንደገና ይሞክሩ"
+                    ],
+                    "supports": "Published browser messages corroborate access-denial, server, configuration, retry, and browser-update terminology. Numerous complete error/help instructions demonstrate the same respectful second-person endings."
+                },
+                {
+                    "url": "https://support.google.com/youtube/answer/3037019?hl=am",
+                    "title": "YouTube Help: Amharic troubleshooting",
+                    "matchedTerms": [
+                        "አሳሽ",
+                        "እንደገና"
+                    ],
+                    "supports": "Published troubleshooting instructions corroborate retry/loading and browser wording in connected prose; this is a published product help page, not a translation service response."
+                }
+            ],
+            "findings": "Compared every string with English and reviewed formal address, temporary unavailability, browser validation, protocol enablement, origin-server load, and expected maintenance recovery. The selected technical lexicon and imperative endings are established in published Amharic browser UI. No meaning-changing defect or unresolved inconsistency was identified; preserve existing wording. Exact-title searching was supplemented by broader operational keywords.",
+            "corrections": [],
+            "decision": "clear",
+            "remainingConcern": "",
+            "reviewedAllStrings": true,
+            "name": "Amharic",
+            "writtenForm": "Standard Amharic",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "06f3b80f69ea23cc8ca386df5b34523d19af2d802cb0de5639df0c5030c82350"
+        },
+        {
+            "tag": "as",
+            "originalConcern": "Meaning reviewed directly against English, with lower certainty about full idiomatic fluency and local technical terminology than the strongest languages.",
+            "queries": [
+                "\"ব্ৰাউজাৰ\" \"ত্ৰুটি\" \"অনুৰোধ\" Mozilla",
+                "\"ব্ৰাউজাৰ\" \"অনুৰোধ\" site:mozilla.org",
+                "\"ব্ৰাউজাৰ\" \"ত্ৰুটি\"",
+                "\"সত্যাপন\" \"বিন্যাস\" Assamese"
+            ],
+            "evidence": [
+                {
+                    "url": "https://github.com/wikimedia/mediawiki/blob/master/languages/i18n/as.json",
+                    "title": "MediaWiki as community localization",
+                    "matchedTerms": [
+                        "অনুমোদন ত্ৰুটি",
+                        "চাৰ্ভাৰত অতিৰিক্ত চাপ",
+                        "পুনৰ চেষ্টা কৰক",
+                        "আপোনাৰ ব্ৰাউজাৰ"
+                    ],
+                    "supports": "badaccess, permissionserrorstext, view-pool-error, actionthrottledtext, sessionfailure and browser-update messages independently attest permission denial, server load, retry, time limitation, browser and polite second-person constructions. Source phrases are lexical or grammatical parallels, not identical complete X4B messages. Downloaded the upstream raw JSON and inspected the keyed messages, including contributor metadata; source strings were not copied wholesale."
+                }
+            ],
+            "findings": "The broad queries were sparse and returned several unreliable commercial localizations; these were excluded. Direct inspection of the substantial Assamese upstream corpus resolved the general technical-register concern across multiple operational concepts. Full review confirmed source semantics, natural Assamese inflection, the temporary nature of unavailability, timeout meaning, and distinction between invalid settings and nonexistent content. No wording change needed.",
+            "corrections": [],
+            "decision": "clear",
+            "remainingConcern": "",
+            "reviewedAllStrings": true,
+            "name": "Assamese",
+            "writtenForm": "Standard Assamese",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "d7d139aeffdf2df68b345484f3ce0aec1412bf603e07a03bd477739d01e70ee7"
+        },
+        {
+            "tag": "bho",
+            "originalConcern": "Bhojpuri and Maithili use their own grammatical forms, not Hindi copied under other tags. Shared formal technical vocabulary is retained; dialect consistency merits review.",
+            "queries": [
+                "\"Bhojpuri\" \"नइखे\" सर्वर त्रुटि",
+                "\"सर्वर\" \"नइखे\" site:bh.wikipedia.org",
+                "\"वेबसाइट\" \"नइखे\" भोजपुरी",
+                "\"रउआ\" \"हईं\"",
+                "\"उपलब्ध नइखे\""
+            ],
+            "evidence": [
+                {
+                    "url": "https://raw.githubusercontent.com/wikimedia/mediawiki/master/languages/i18n/bho.json",
+                    "title": "MediaWiki Bhojpuri interface messages",
+                    "matchedTerms": [
+                        "परमीशन नइखे",
+                        "दोबारा कोसिस करीं",
+                        "रउआँ"
+                    ],
+                    "supports": "Permission refusal, retry imperatives, temporary maintenance, throttling and invalid-action explanations show Bhojpuri grammar around shared technical vocabulary."
+                },
+                {
+                    "url": "https://jan-sampark.nic.in/campaigns/2026/25-Jan/MYGOV/bhojpuri.html",
+                    "title": "Government of India: Bhojpuri letter for National Voters Day",
+                    "matchedTerms": [
+                        "रउआ ओह पीढ़ी से हईं",
+                        "कर सकत बानी"
+                    ],
+                    "supports": "Both the predicative copula used in our human/owner questions and the auxiliary used in our ability clauses coexist in the same formal Bhojpuri text; this resolves the suspected copula inconsistency."
+                },
+                {
+                    "url": "https://sirijan.com/wp-content/uploads/2019/10/sirijan-6-Oct-Dec19.pdf",
+                    "title": "Sirijan, October–December 2019, page 8",
+                    "matchedTerms": [
+                        "उपलब्ध नइखे"
+                    ],
+                    "supports": "The same unavailable phrase occurs in a published Bhojpuri account of a telephone service response, not merely a translated dictionary entry."
+                }
+            ],
+            "findings": "Full English comparison found distinct Bhojpuri pronouns, negation, imperatives and auxiliaries consistently applied. Exact full website-title searches were sparse, but published service-unavailability wording plus the operational MediaWiki prose and formal copula examples resolve the original dialect-consistency concern. Shared Sanskrit/English technical vocabulary is not evidence of Hindi substitution. No wording change was necessary.",
+            "corrections": [],
+            "decision": "clear",
+            "remainingConcern": "",
+            "reviewedAllStrings": true,
+            "name": "Bhojpuri",
+            "writtenForm": "Bhojpuri",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "b3be56b5ca71fd681dd9bfe8afa67fcf19ff42c82b9df32a823b2ed03b713f2f"
+        },
+        {
+            "tag": "ceb",
+            "originalConcern": "Cebuano grammar/register and technical loans need review; never substituted Filipino sentences.",
+            "queries": [
+                "\"Dili magamit\" \"browser\" Cebuano",
+                "\"Gibalibaran\" \"hangyo\" site:ceb.wikipedia.org",
+                "\"Dili magamit\" \"Palihog\" site:ceb.wikipedia.org",
+                "\"Cebuano\" \"niini nga\" site:gov.ph \"hangyo\"",
+                "\"Gipamatud-an\" \"Gipamatuod\" Cebuano"
+            ],
+            "evidence": [
+                {
+                    "url": "https://engagemedia.org/wp-content/uploads/2023/11/Bisaya-EngageMedia-DS-Curriculum.pdf",
+                    "title": "EngageMedia: Bisaya digital-safety curriculum",
+                    "matchedTerms": [
+                        "web browser",
+                        "server",
+                        "koneksyon",
+                        "protokol"
+                    ],
+                    "supports": "The NGO curriculum uses the same browser/server loans in explanations of networking and web access, with Cebuano conditionals and instructions. Network terminology and borrowed technical nouns are not evidence of Filipino substitution."
+                },
+                {
+                    "url": "https://rcef.philmech.gov.ph/resources/knowledge-bank/other-print-mat/documents/rcefNewsLetter2021Sem2Bisaya.pdf",
+                    "title": "PhilMech RCEF Bisaya newsletter, second semester 2021",
+                    "matchedTerms": [
+                        "pagproseso sa ilang hangyo",
+                        "niini"
+                    ],
+                    "supports": "Native-language government reporting corroborates request-processing vocabulary and demonstrative/case framing outside localization software."
+                },
+                {
+                    "url": "https://raw.githubusercontent.com/wikimedia/mediawiki/master/languages/i18n/ceb.json",
+                    "title": "MediaWiki community localization: ceb",
+                    "matchedTerms": [
+                        "pagtugot",
+                        "gipangayo"
+                    ],
+                    "supports": "Permission and requested-action messages provide an additional comparison for the denied-access description and Cebuano voice markers."
+                }
+            ],
+            "findings": "Reviewed all strings for Cebuano grammar, loans, and English-source meaning, including validation, denial of access, configuration, timeout, request limits, and conditional contact instructions. Corrected the domain sentence demonstrative/case framing and two repeated visit instructions. Official/NGO prose and community UI corroborate the register and loan integration. Some exact-title searches returned no useful match, but the broader operational comparisons cover the original grammar/terminology concern.",
+            "corrections": [
+                {
+                    "keys": [
+                        "error.unknown_domain.description"
+                    ],
+                    "before": "Kini nga domain wala marehistro sa kini nga IP address.",
+                    "after": "Kini nga domain wala marehistro niini nga IP address.",
+                    "reason": "Use the contracted Cebuano demonstrative/oblique construction in the registration sentence."
+                },
+                {
+                    "keys": [
+                        "error.default.refresh_text"
+                    ],
+                    "before": "Palihog sulayi pagbisita ang site sa ulahi o i-klik <a href=\"\">dinhi</a> aron ikarga pag-usab ang panid.",
+                    "after": "Palihog sulayi ang pagbisita sa site sa ulahi o i-klik <a href=\"\">dinhi</a> aron ikarga pag-usab ang panid.",
+                    "reason": "Make the attempted visit the object of sulayi and mark the destination with sa."
+                },
+                {
+                    "keys": [
+                        "error.error.description"
+                    ],
+                    "before": "Ikasubo, adunay wala damhang sayop nga nahitabo samtang gikarga kini nga panid. Nangayo kami og pasaylo sa kahasol. Palihog sulayi pagbisita ang site sa ulahi o i-klik <a href=\"\">dinhi</a> aron ikarga pag-usab ang panid.",
+                    "after": "Ikasubo, adunay wala damhang sayop nga nahitabo samtang gikarga kini nga panid. Nangayo kami og pasaylo sa kahasol. Palihog sulayi ang pagbisita sa site sa ulahi o i-klik <a href=\"\">dinhi</a> aron ikarga pag-usab ang panid.",
+                    "reason": "Make the attempted visit the object of sulayi and mark the destination with sa."
+                }
+            ],
+            "decision": "clear",
+            "remainingConcern": "",
+            "reviewedAllStrings": true,
+            "name": "Cebuano",
+            "writtenForm": "Standard Cebuano",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "82c4df3713783fa561059331e0d878263c520c3f294e38d687fca051f876cc2f"
+        },
+        {
+            "tag": "ff",
+            "originalConcern": "Published Pulaar vocabulary provided meaningful support, but original technical clause construction, agreement, and idiom remain the least certain. Best-effort draft, not independent linguistic verification.",
+            "queries": [
+                "\"Sarworde\" \"Ɗaɓɓannde\"",
+                "\"wanngorde\" \"sarworde\" Mozilla",
+                "\"ƴeewtagol\" \"wanngorde\""
+            ],
+            "evidence": [
+                {
+                    "url": "https://github.com/mozilla-l10n/firefox-l10n/blob/main/ff/toolkit/toolkit/neterror/netError.ftl",
+                    "title": "Mozilla Firefox Pulaar network errors",
+                    "matchedTerms": [
+                        "lowre",
+                        "sarworde",
+                        "teelte",
+                        "heɓotaako",
+                        "jaɓɓitorde",
+                        "ɗaɓɓannde"
+                    ],
+                    "supports": "Official localization attests unavailability, retry, settings, permission to access, request and network protocol terms in complete error messages. Inspected neterror-load-error-try-again, neterror-proxy-connect-failure-contact-admin, neterror-network-protocol-error-intro and fp-neterror-denied-port-access."
+                },
+                {
+                    "url": "https://github.com/wikimedia/mediawiki/blob/master/languages/i18n/ff.json",
+                    "title": "MediaWiki ff community localization",
+                    "matchedTerms": [
+                        "yamiroore",
+                        "Juumre",
+                        "naatde"
+                    ],
+                    "supports": "badaccess and permissionserrorstext-withaction support permission, error and access terminology. Downloaded the upstream raw JSON and inspected the keyed messages, including contributor metadata; source strings were not copied wholesale."
+                }
+            ],
+            "findings": "All 63 strings reviewed. Substantial primary localization evidence confirms that the technical vocabulary and several recurrent constructions are real Pulaar usage. It still does not settle the original noun-class agreement and idiom concerns in the newly composed automatic-redirect, CAPTCHA and connection-count clauses. No speculative rewrites made. Search found a Debian VLC localization too, but no additional relevant clause evidence.",
+            "corrections": [],
+            "decision": "retain",
+            "remainingConcern": "Technical vocabulary is corroborated; remaining review is noun-class agreement and natural clause construction in automatic redirect, validation and abnormal-connection explanations.",
+            "reviewedAllStrings": true,
+            "name": "Fulah",
+            "writtenForm": "Pulaar in the Latin script",
+            "originalReviewPriority": "high",
+            "reviewedFileSha256": "8621ab4961c7b1bf001b6d40e5f632a842337c133ec88c510f636a391ccd4602"
+        },
+        {
+            "tag": "ha",
+            "originalConcern": "Hausa technical loans and masculine singular address are consistent but deserve audience/style review.",
+            "queries": [
+                "\"Hausa\" \"sabar\" \"burauza\"",
+                "\"Hausa\" \"burauza\" \"saituna\"",
+                "\"sabar\" \"buƙata\" -site:opentran.net -site:bootstrap21.org",
+                "\"Hausa\" \"ba ka da\" \"burauza\"",
+                "\"Hausa\" \"Ana tantancewa\""
+            ],
+            "evidence": [
+                {
+                    "url": "https://ha.ncc.gov.ng/game-da-ncc/ayyukan-kwamiti",
+                    "title": "Nigerian Communications Commission: Hausa account of commission activities",
+                    "matchedTerms": [
+                        "sabar yanar gizo"
+                    ],
+                    "supports": "The communications regulator publishes the server loan in connected Hausa technical prose. It supports the technical noun choice, not a blanket certification of every translation on that website."
+                },
+                {
+                    "url": "https://raw.githubusercontent.com/wikimedia/mediawiki/master/languages/i18n/ha.json",
+                    "title": "MediaWiki community localization: ha",
+                    "matchedTerms": [
+                        "Lokacin na’urar saba ya ƙare",
+                        "ba ka da damar"
+                    ],
+                    "supports": "Request-timeout and permission messages corroborate server/timeout terminology and the same masculine-singular reader address. The review does not assume all upstream translations are flawless."
+                },
+                {
+                    "url": "https://kubanni-backend.abu.edu.ng/server/api/core/bitstreams/7230ee84-036c-4c67-8a38-15f82f5483dc/content",
+                    "title": "Sa’adu Inusa: comparative study of Hausa and Bade grammar, Ahmadu Bello University, 2017",
+                    "matchedTerms": [
+                        "kai",
+                        "ke",
+                        "ku"
+                    ],
+                    "supports": "The Hausa-language linguistic study distinguishes masculine singular, feminine singular, and plural second-person forms, providing a direct grammar check for the deliberately consistent masculine-singular register."
+                }
+            ],
+            "findings": "Reviewed all strings, checking singular masculine address and possessives, request-processing verbs, temporary availability, retry instructions, and technical loans. The pronoun choice is consistent throughout and also appears in native community UI. It remains an intentional style choice, not a grammatical uncertainty; changing it to plural would be a separate editorial preference. No correction was needed. Excluded automatic-translation mirrors and did not treat blocked BBC/DW search targets as inspected evidence.",
+            "corrections": [],
+            "decision": "clear",
+            "remainingConcern": "",
+            "reviewedAllStrings": true,
+            "name": "Hausa",
+            "writtenForm": "Standard Hausa (Boko)",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "0e7b7a4fb1f0964e5635d9617229bc555f9639c260ff78b3bfe4b92378f04284"
+        },
+        {
+            "tag": "hil",
+            "originalConcern": "Meaning reviewed directly against English, with lower certainty about full idiomatic fluency and local technical terminology than the strongest languages.",
+            "queries": [
+                "\"Wala gintugutan\" \"pagsulod\""
+            ],
+            "evidence": [
+                {
+                    "url": "https://github.com/wikimedia/mediawiki/blob/master/languages/i18n/hil.json",
+                    "title": "MediaWiki hil community localization",
+                    "matchedTerms": [
+                        "pangabay",
+                        "indi magamit",
+                        "Palihog tilawi liwat",
+                        "pagmentinar",
+                        "browser"
+                    ],
+                    "supports": "badaccess-groups-disabled, nonwrite-api-promise-error, timeouterror-text, actionthrottledtext, readonlytext and session_fail_preview establish request, availability, retry, maintenance, browser, permission and elapsed-limit constructions. Downloaded the upstream raw JSON and inspected the keyed messages, including contributor metadata; source strings were not copied wholesale."
+                },
+                {
+                    "url": "https://www.biblegateway.com/passage/?search=Deuteronomio+3%3A12-Deuteronomio+3%3A22&version=HLGN",
+                    "title": "Biblica: Ang Pulong Sang Dios, Deuteronomio 3",
+                    "matchedTerms": [
+                        "Wala Gintugutan",
+                        "Pagsulod"
+                    ],
+                    "supports": "The published Hiligaynon heading independently corroborates the negative permission plus entering construction in the access-denied title. It is grammar evidence, not HTTP terminology."
+                }
+            ],
+            "findings": "All 63 strings reviewed. The external localization corpus supports the same Hiligaynon request, timeout, permission, maintenance and retry register; the publisher supplies an independent grammatical parallel. The file consistently uses Hiligaynon pronouns and particles, preserves the tentative maintenance promise, and accurately describes excess requests rather than asserting a confirmed attack. General fluency/terminology flag can be cleared without adopting the upstream corpus's occasional awkward wording.",
+            "corrections": [],
+            "decision": "clear",
+            "remainingConcern": "",
+            "reviewedAllStrings": true,
+            "name": "Hiligaynon",
+            "writtenForm": "Standard Hiligaynon",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "79ea0be9611bd027860287f0d7a224446034c3b550165c8b52cbd6910fda7123"
+        },
+        {
+            "tag": "hmn",
+            "originalConcern": "White Hmong RPA wording uses transparent technical loans for browser, server, and domain; classifier/register fluency needs review.",
+            "queries": [
+                "\"Hmong\" \"browser\" \"yuam kev\" site:gov",
+                "\"lub browser\" \"yuam kev\"",
+                "\"server\" \"kev thov\" \"Hmong\"",
+                "\"Tsis pub nkag\" \"vev xaib\"",
+                "\"Kev Teeb Tsa\" \"yuam kev\" site:gov",
+                "\"ua haujlwm\" \"server\" site:sbs.com.au/language/hmong"
+            ],
+            "evidence": [
+                {
+                    "url": "https://www.cdfa.ca.gov/SeniorFarmersMrktNutritionPrgm/docs/Quick_Reference_Guide_Hmong.pdf",
+                    "title": "California Department of Food and Agriculture: Hmong Farmer Vendor Portal quick reference guide",
+                    "matchedTerms": [
+                        "lub browser",
+                        "lub vev xaib",
+                        "yuam kev",
+                        "Kev Txheeb Xyuas"
+                    ],
+                    "supports": "The deployed software guide corroborates object classifiers for browser/website, verification and error terminology, and multi-step conditional instructions in White Hmong RPA."
+                },
+                {
+                    "url": "https://www.dhs.wisconsin.gov/publications/p03628h.pdf",
+                    "title": "Wisconsin DHS: Hmong electronic visit verification training",
+                    "matchedTerms": [
+                        "Kev teeb tsa lub lab npauv"
+                    ],
+                    "supports": "The training manual supplies actual system-setup prose and instructional register, addressing the configuration terminology concern beyond individual dictionary nouns."
+                },
+                {
+                    "url": "https://www.sbs.com.au/language/hmong/hmv/podcast-episode/creating-the-hmong-ai-app/jwi4z36kw",
+                    "title": "SBS Hmong: interview with developer Seo Gia Vang",
+                    "matchedTerms": [
+                        "qhov server",
+                        "program",
+                        "data base"
+                    ],
+                    "supports": "The attributed interview uses English technical loans inside native Hmong clauses and explains server-side processing and returned data. It is evidence for established loan integration, not an automatically translated technology mirror."
+                },
+                {
+                    "url": "https://www.sbs.com.au/language/hmong/hmv/podcast-episode/settlement-guide-10-ways-to-keep-your-family-and-money-safe-online/up7kmjzth",
+                    "title": "SBS Hmong: online security settlement guide",
+                    "matchedTerms": [
+                        "kev tso cai",
+                        "kev ruaj ntseg"
+                    ],
+                    "supports": "Published practical advice corroborates permission, secure access, connection and conditional-action phrasing."
+                }
+            ],
+            "findings": "Reviewed all 63 strings for White Hmong RPA, classifiers, permission, completion/progressive aspect, conditionals, and transparent technical loans. Corrected unsupported-method passive marking and three repeated unexpected-load clauses whose classifier could suggest kinds rather than volume of work. Browser/website classifier choices and the technical register are supported by government software instructions; the native SBS interview independently supports server-loan use. Full-file comparison found no residual substantive concern after these corrections.",
+            "corrections": [
+                {
+                    "keys": [
+                        "error.unsupported_method.title"
+                    ],
+                    "before": "Txoj Kev Uas Tsis Txhawb",
+                    "after": "Txoj Kev Uas Tsis Raug Txhawb",
+                    "reason": "Mark unsupported as passive; the method receives support rather than providing it."
+                },
+                {
+                    "keys": [
+                        "error.resource.cause_list[0]"
+                    ],
+                    "before": "Lub server uas yog qhov chaw muab cov ntaub ntawv muaj haujlwm ntau yam tsis tau xav txog thiab ua tsis tau cov kev thov tam sim no",
+                    "after": "Lub server uas yog qhov chaw muab cov ntaub ntawv muaj haujlwm ntau uas tsis tau xav txog thiab ua tsis tau cov kev thov tam sim no",
+                    "reason": "Remove the classifier for kinds so unexpected load refers to the amount of work."
+                },
+                {
+                    "keys": [
+                        "error.resource_limitrate.cause_list[1]"
+                    ],
+                    "before": "Lub server uas yog qhov chaw muab cov ntaub ntawv muaj haujlwm ntau yam tsis tau xav txog thiab ua tsis tau cov kev thov tam sim no",
+                    "after": "Lub server uas yog qhov chaw muab cov ntaub ntawv muaj haujlwm ntau uas tsis tau xav txog thiab ua tsis tau cov kev thov tam sim no",
+                    "reason": "Remove the classifier for kinds so unexpected load refers to the amount of work."
+                },
+                {
+                    "keys": [
+                        "error.resource_limitcon.cause_list[1]"
+                    ],
+                    "before": "Lub server uas yog qhov chaw muab cov ntaub ntawv muaj haujlwm ntau yam tsis tau xav txog thiab ua tsis tau cov kev thov tam sim no",
+                    "after": "Lub server uas yog qhov chaw muab cov ntaub ntawv muaj haujlwm ntau uas tsis tau xav txog thiab ua tsis tau cov kev thov tam sim no",
+                    "reason": "Remove the classifier for kinds so unexpected load refers to the amount of work."
+                }
+            ],
+            "decision": "clear",
+            "remainingConcern": "",
+            "reviewedAllStrings": true,
+            "name": "Hmong",
+            "writtenForm": "White Hmong in the Romanized Popular Alphabet",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "ca34abf25fe3b628c35619d1fae7863a552d205f808aa4dfd06f0bfe9f35f7ed"
+        },
+        {
+            "tag": "hne",
+            "originalConcern": "Best-effort Chhattisgarhi grammar in Devanagari. Native-language examples consulted. Technical terms use established shared/borrowed vocabulary. Needs review of idiom and honorific agreement.",
+            "queries": [
+                "\"Chhattisgarhi\" \"नइ हे\" अनुरोध",
+                "\"आप\" \"करव\" \"वेबसाइट\" छत्तीसगढ़ी",
+                "\"आप\" \"हव\" \"करव\" छत्तीसगढ़ी"
+            ],
+            "evidence": [
+                {
+                    "url": "https://www.newsonair.gov.in/wp-content/uploads/2024/10/Chhattisgarhi-3.pdf",
+                    "title": "Akashvani Raipur Chhattisgarhi news bulletin, 9 October 2024",
+                    "matchedTerms": [
+                        "नइ करे जाही",
+                        "निर्धारित बेरा"
+                    ],
+                    "supports": "A portal deadline and refusal to reopen provide actual operational negation/future wording."
+                },
+                {
+                    "url": "https://gurturgoth.com/chhattisgarhi-bhandar/",
+                    "title": "Sanjeev Tiwari, Gurtur Goth editorial on using Chhattisgarhi online",
+                    "matchedTerms": [
+                        "आप मन ये उदीम करव",
+                        "आप स्वयं",
+                        "चाहत हव"
+                    ],
+                    "supports": "A signed native editorial addresses internet users with the same polite imperative and auxiliary patterns; it also demonstrates object markers and purpose clauses."
+                }
+            ],
+            "findings": "The original honorific concern is substantially narrowed: published prose supports polite address and imperative forms, and the news bulletin supports negative future service statements. No reliable complete server-error or request-timeout phrase was found. A full-file English review found the meanings intact, but the longer technical constructions still have insufficient attestation.",
+            "corrections": [],
+            "decision": "retain",
+            "remainingConcern": "Review naturalness of the longer server-overload, request-processing and redirect sentences. Core negation and polite imperative patterns are now attested; remaining uncertainty is technical idiom, not whether this is Chhattisgarhi.",
+            "reviewedAllStrings": true,
+            "name": "Chhattisgarhi",
+            "writtenForm": "Chhattisgarhi",
+            "originalReviewPriority": "high",
+            "reviewedFileSha256": "254d0bd0d940ee3c6c753057871aa62c6a476b6e9411422234e544b82411e4cc"
+        },
+        {
+            "tag": "ig",
+            "originalConcern": "Meaning reviewed directly against English, with lower certainty about full idiomatic fluency and local technical terminology than the strongest languages.",
+            "queries": [
+                "\"Njehie\" \"ihe nchọgharị\"",
+                "site:jw.org ig \"nchọgharị\"",
+                "\"Njehie\" \"arịrịọ\" wikipedia",
+                "\"Ntọala\" \"ihe nchọgharị\" site:meta.wikimedia.org"
+            ],
+            "evidence": [
+                {
+                    "url": "https://github.com/wikimedia/mediawiki/blob/master/languages/i18n/ig.json",
+                    "title": "MediaWiki ig community localization",
+                    "matchedTerms": [
+                        "ihe nchọgharị",
+                        "sava",
+                        "arịrịọ",
+                        "ntọala",
+                        "Ị nweghị ikike"
+                    ],
+                    "supports": "printableversion-deprecated-warning, view-pool-error, permissionserrorstext-withaction-noreason, actionthrottledtext and settings messages attest browser, server, request, settings, permissions, overload and retry usage. Downloaded the upstream raw JSON and inspected the keyed messages, including contributor metadata; source strings were not copied wholesale."
+                },
+                {
+                    "url": "https://meta.wikimedia.org/wiki/Global_interface_editors/ig",
+                    "title": "Wikimedia Meta: Global interface editors in Igbo",
+                    "matchedTerms": [
+                        "arịrịọ",
+                        "njehie",
+                        "ikike"
+                    ],
+                    "supports": "Published community prose places request, error and permission terms in an actual administration/access discussion, providing context outside isolated interface labels."
+                }
+            ],
+            "findings": "All 63 strings reviewed. Several primary message families and community prose corroborate the operational vocabulary; no reliance on the plentiful automatically translated commercial search hits. Review confirmed Igbo constructions, distinct origin-server wording, timeout versus ordinary error, and appropriate conditional instructions. The broad technical-terminology concern is resolved; no correction needed.",
+            "corrections": [],
+            "decision": "clear",
+            "remainingConcern": "",
+            "reviewedAllStrings": true,
+            "name": "Igbo",
+            "writtenForm": "Standard Igbo",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "c87983eef11347586dfe72d5775631a89a3f3e167e30b06b2c1ab0969e331261"
+        },
+        {
+            "tag": "ilo",
+            "originalConcern": "Ilocano permission phrasing was corrected during review; technical loan integration and aspect/voice still warrant independent review.",
+            "queries": [
+                "\"Ilocano\" \"browser\" \"Pangngaasim\"",
+                "\"Pangngaasim\" \"koneksion\"",
+                "\"Ilocano\" \"biddut\" \"panagkarga\"",
+                "\"Ilocano\" \"biddut\" site:hawaii.gov",
+                "\"Mabalinmo\" \"padasem manen\" site:ilo.wikipedia.org",
+                "\"Agpakawan kami\" -site:opentran.net -site:glosbe.com"
+            ],
+            "evidence": [
+                {
+                    "url": "https://raw.githubusercontent.com/wikimedia/mediawiki/master/languages/i18n/ilo.json",
+                    "title": "MediaWiki community localization: ilo",
+                    "matchedTerms": [
+                        "Biddut ti pammalubos",
+                        "padasem manen",
+                        "Saan a simmungbat ti server"
+                    ],
+                    "supports": "Community messages cover denied permissions, overloaded servers, retry instructions, temporary files, and response timeouts. These are connected sentences with the same verbal/nominal constructions, not just isolated technical nouns."
+                },
+                {
+                    "url": "https://elections.hawaii.gov/ilocano-main/il-faqs/",
+                    "title": "State of Hawaii Office of Elections: Ilocano FAQ",
+                    "matchedTerms": [
+                        "natalged a website",
+                        "mabalinmo ti",
+                        "No adda biddut"
+                    ],
+                    "supports": "Official instructional prose corroborates secure-website loans, conditional error clauses, and modal framing. Only language usage is used; the page contains historical election details."
+                },
+                {
+                    "url": "https://uccpchurch.com/wp-content/uploads/2016/03/2016-Mar-20-Liturgy-ILK.pdf",
+                    "title": "United Church of Christ in the Philippines: Ilocano liturgy, March 20, 2016",
+                    "matchedTerms": [
+                        "agpakawan"
+                    ],
+                    "supports": "The source places this verb in a request-for-forgiveness context, reducing the concern that the existing apology necessarily means granting rather than asking forgiveness."
+                }
+            ],
+            "findings": "Reviewed all strings and revisited the previously corrected permission clause. Published community errors provide direct comparisons for aspect, voice, denial, retry and server response; the Hawaii FAQ independently confirms modal and conditional constructions. Existing technical loans are integrated into Ilocano syntax. Preserve the current permission and apology wording; no additional change was justified. The broader aspect/voice and loan-integration flag can be cleared.",
+            "corrections": [],
+            "decision": "clear",
+            "remainingConcern": "",
+            "reviewedAllStrings": true,
+            "name": "Ilocano",
+            "writtenForm": "Standard Ilocano",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "1e1abced4439eb9591047ba12ceef751a671ab35568f36b87c830d2ad9c9205b"
+        },
+        {
+            "tag": "jv",
+            "originalConcern": "Javanese uses a broadly accessible register with technical loans; speech-level consistency should be reviewed.",
+            "queries": [
+                "\"Javanese\" \"panjaluk\" \"browser\"",
+                "\"panjaluk\" \"nyoba maneh\" Mozilla",
+                "\"Javanese\" \"Akses Ditolak\"",
+                "\"pangapura\" \"sampeyan\" \"nyoba\" site:jv.wikipedia.org",
+                "\"hubungana\" \"sampeyan\"",
+                "\"mangga\" \"ngubungi\" \"kaca\""
+            ],
+            "evidence": [
+                {
+                    "url": "https://raw.githubusercontent.com/wikimedia/mediawiki/master/languages/i18n/jv.json",
+                    "title": "MediaWiki community localization: jv",
+                    "matchedTerms": [
+                        "Mangga ngubungi",
+                        "Nyuwun ngapura",
+                        "peladèn lagi sibuk",
+                        "wektu sing dikarepaké"
+                    ],
+                    "supports": "The proxy-block message gives the same polite contact construction; overload and timeout messages demonstrate the accessible Javanese error register, apology, waiting, and expected-time clauses. Other messages corroborate permission, requests and redirects."
+                }
+            ],
+            "findings": "Reviewed all strings for consistent accessible Javanese with sampeyan and polite formulae, rather than attempting formal krama throughout. Corrected three Indonesian-shaped contact imperatives to the Javanese construction attested in MediaWiki. The surrounding verbs, pronouns, conditionals and error descriptions remain coherent in the selected register. Did not copy Indonesian fallback-looking strings from upstream or mistake mixed upstream style for a requirement to switch speech levels. No remaining speech-level inconsistency was identified in this file.",
+            "corrections": [
+                {
+                    "keys": [
+                        "error.suspended.description"
+                    ],
+                    "before": "Eman, situs web sing arep sampeyan bukak ora bisa diakses. Nyuwun pangapura amarga ana rasa ora kepenak. Yen sampeyan <strong>sing duwe</strong> situs web iki, mangga <a href=\"https://www.x4b.net/support\">hubungi layanan pitulungan</a>.",
+                    "after": "Eman, situs web sing arep sampeyan bukak ora bisa diakses. Nyuwun pangapura amarga ana rasa ora kepenak. Yen sampeyan <strong>sing duwe</strong> situs web iki, mangga <a href=\"https://www.x4b.net/support\">ngubungi layanan pitulungan</a>.",
+                    "reason": "Use the Javanese contact verb in the polite instruction; MediaWiki proxyblockreason uses the same Mangga ngubungi construction."
+                },
+                {
+                    "keys": [
+                        "error.over_bandwidth.description"
+                    ],
+                    "before": "Eman, situs web sing arep sampeyan bukak ora bisa diakses. Nyuwun pangapura amarga ana rasa ora kepenak. Yen sampeyan <strong>sing duwe</strong> situs web iki, mangga <a href=\"https://www.x4b.net/\">hubungi layanan pitulungan</a>.",
+                    "after": "Eman, situs web sing arep sampeyan bukak ora bisa diakses. Nyuwun pangapura amarga ana rasa ora kepenak. Yen sampeyan <strong>sing duwe</strong> situs web iki, mangga <a href=\"https://www.x4b.net/\">ngubungi layanan pitulungan</a>.",
+                    "reason": "Use the Javanese contact verb in the polite instruction; MediaWiki proxyblockreason uses the same Mangga ngubungi construction."
+                },
+                {
+                    "keys": [
+                        "error.forbidden.description"
+                    ],
+                    "before": "Sampeyan ora duwe idin kanggo ngakses kaca iki. Yen iki kaluputan, mangga hubungi pangurus situs web.",
+                    "after": "Sampeyan ora duwe idin kanggo ngakses kaca iki. Yen iki kaluputan, mangga ngubungi pangurus situs web.",
+                    "reason": "Use the Javanese contact verb in the polite instruction; MediaWiki proxyblockreason uses the same Mangga ngubungi construction."
+                }
+            ],
+            "decision": "clear",
+            "remainingConcern": "",
+            "reviewedAllStrings": true,
+            "name": "Javanese",
+            "writtenForm": "Javanese in the Latin script",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "f4223caee1140d6ac0861c5b1db2b161156cd7ee3ba0f91270dc8760c28f1de1"
+        },
+        {
+            "tag": "km",
+            "originalConcern": "Meaning and script checked; detailed orthography and technical-register review would be valuable.",
+            "queries": [
+                "\"ម៉ាស៊ីនមេ\" \"ពេលកំណត់\" Mozilla",
+                "\"ម៉ាស៊ីនមេ\" \"កំហុស\" site:support.mozilla.org/km",
+                "\"ម៉ាស៊ីនមេ\" \"កំហុស\" Firefox"
+            ],
+            "evidence": [
+                {
+                    "url": "https://raw.githubusercontent.com/mozilla-l10n/firefox-l10n/main/km/toolkit/toolkit/neterror/netError.ftl",
+                    "title": "Mozilla Firefox Khmer network error messages",
+                    "matchedTerms": [
+                        "សំណើ",
+                        "ផ្ទៀងផ្ទាត់",
+                        "URL មិនត្រឹមត្រូវ"
+                    ],
+                    "supports": "Corroborates request/verification/error vocabulary and complete retry, temporary-busy/unavailable, permissions, reload and contact-administrator constructions."
+                },
+                {
+                    "url": "https://raw.githubusercontent.com/wikimedia/mediawiki/master/languages/i18n/km.json",
+                    "title": "MediaWiki Khmer interface messages",
+                    "matchedTerms": [
+                        "សូមព្យាយាមម្តងទៀត",
+                        "សូមអភ័យទោស",
+                        "ការអនុញ្ញាត"
+                    ],
+                    "supports": "Corroborates apology and retry register, permissions, temporary maintenance and throttling explanations."
+                }
+            ],
+            "findings": "Reviewed all text for Khmer spelling, negative constructions, polite instructions and technical-state distinctions. The two established localization corpora cover the operational sentence patterns as well as the nouns; the source meanings and orthography are consistent with them. Broad search results included apparently automatic multilingual technical blogs, which were not used as evidence. No correction was needed.",
+            "corrections": [],
+            "decision": "clear",
+            "remainingConcern": "",
+            "reviewedAllStrings": true,
+            "name": "Khmer",
+            "writtenForm": "Standard Khmer",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "26e5087a886661777c1ef9360d8be251f62ad2fd5e15803c4b1a0f66e0c0403d"
+        },
+        {
+            "tag": "ku",
+            "originalConcern": "Meaning reviewed directly against English, with lower certainty about full idiomatic fluency and local technical terminology than the strongest languages.",
+            "queries": [
+                "\"gerok\" \"pêşkêşkar\" \"çewti\" Mozilla",
+                "\"pêşkêşkar\" site:mozilla.org",
+                "\"gerok\" \"piştrastkirin\"",
+                "\"pêşkêşkar\" \"server\"",
+                "\"veavakirin\" kurdî",
+                "\"mîheng\" \"server\" Kurdî"
+            ],
+            "evidence": [
+                {
+                    "url": "https://github.com/wikimedia/mediawiki/blob/master/languages/i18n/ku-latn.json",
+                    "title": "MediaWiki ku-latn community localization",
+                    "matchedTerms": [
+                        "Çewtiya destûrê",
+                        "dîse biceribîne",
+                        "geroka",
+                        "nederbasdar",
+                        "server"
+                    ],
+                    "supports": "badaccess, actionthrottledtext, view-pool-error, logouttext and invalid-title messages support permission, retry, overload, browser and invalidity phrasing. Downloaded the upstream raw JSON and inspected the keyed messages, including contributor metadata; source strings were not copied wholesale."
+                },
+                {
+                    "url": "https://pootle.yowindow.com/pootle/ku/terminology/export-view/",
+                    "title": "YoWindow Pootle Kurdish terminology",
+                    "matchedTerms": [
+                        "Pêşkêşkara peyaman",
+                        "Pêşkêşker",
+                        "Mîheng",
+                        "Sazkirin",
+                        "Ewlekarî"
+                    ],
+                    "supports": "Indexed terminology table directly maps mail server, server, settings, setup and security to Kurdish terms. Search returned the table; direct fetch subsequently timed out, so this item is indexed-source evidence."
+                },
+                {
+                    "url": "https://en.wiktionary.org/wiki/veavakirin",
+                    "title": "Wiktionary: veavakirin",
+                    "matchedTerms": [
+                        "veavakirin"
+                    ],
+                    "supports": "Dictionary definition is reconstruction/rebuilding; this creates avoidable ambiguity for configuration and motivates the settings-based correction."
+                }
+            ],
+            "findings": "All 63 strings reviewed. Changed the configuration title and explanation to attested settings terminology. Permission, retry, overload, browser and invalidity constructions align with the substantial Kurmanji corpus. Server wording has a spelling variant in Pootle and is not merely an English substitution. After the two focused corrections, full semantic review found no remaining substantive issue behind the general terminology flag.",
+            "corrections": [
+                {
+                    "keys": [
+                        "error.invalid_configuration.title"
+                    ],
+                    "before": "Veavakirina nederbasdar",
+                    "after": "Mîhengên nederbasdar",
+                    "reason": "Replace reconstruction with the settings/configuration term attested in the Kurdish Pootle glossary."
+                },
+                {
+                    "keys": [
+                        "error.invalid_configuration.description"
+                    ],
+                    "before": "Ji ber çewtiyeke veavakirinê em nikarin vê daxwazê pêk bînin. Em ji ber nerehetiyê lêborînê dixwazin.",
+                    "after": "Ji ber çewtiyeke di mîhengan de em nikarin vê daxwazê pêk bînin. Em ji ber nerehetiyê lêborînê dixwazin.",
+                    "reason": "Use the same attested configuration terminology in the explanation."
+                }
+            ],
+            "decision": "clear",
+            "remainingConcern": "",
+            "reviewedAllStrings": true,
+            "name": "Kurdish",
+            "writtenForm": "Kurmanji in the Latin script",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "d36c7e1f27bbf82a264f858609bf6e1172fd0e92c76ee2d46440610688db1f44"
+        },
+        {
+            "tag": "lg",
+            "originalConcern": "Luganda noun-class agreement, technical setup/connectivity expressions, and loanwords need independent review.",
+            "queries": [
+                "\"Luganda\" \"ensobi\" \"seva\"",
+                "\"seva\" \"okuyunga\" \"Firefox\"",
+                "\"Luganda\" \"Ensobi\" \"bulawuza\"",
+                "\"Luganda\" \"okukakasa\" \"olupapula\"",
+                "\"seva\" \"Ensobi\" site:mozilla.org OR site:github.com"
+            ],
+            "evidence": [
+                {
+                    "url": "https://raw.githubusercontent.com/wikimedia/mediawiki/master/languages/i18n/lg.json",
+                    "title": "MediaWiki community localization: lg",
+                    "matchedTerms": [
+                        "tolina buyinza",
+                        "olupapula",
+                        "Obudde obugere",
+                        "Lindako akaseera"
+                    ],
+                    "supports": "Published UI corroborates permission denial, page-class agreement, waiting for an overloaded page, retry instructions, and expired allowed time."
+                },
+                {
+                    "url": "https://raw.githubusercontent.com/GNOME/gtk/main/po/lg.po",
+                    "title": "GTK Luganda translation by Kizito Birabwa",
+                    "matchedTerms": [
+                        "Wazzewo kiremya etanyonyodwa",
+                        "Ekyo tekikola"
+                    ],
+                    "supports": "A credited native localization provides independent examples of error clauses and invalid-item expressions. It does not establish the present file’s protocol-enablement wording."
+                }
+            ],
+            "findings": "Reviewed every string for meaning and noun-class agreement. The available UI substantially supports page/permission/waiting/retry constructions and the general error register. Searches for the exact browser/server compounds were sparse and often returned translation mirrors, which were excluded. No speculative replacement was made. The original broad warning can be narrowed to longer setup, protocol enablement and connectivity clauses.",
+            "corrections": [],
+            "decision": "retain",
+            "remainingConcern": "Protocol-enablement wording, descriptive origin-server/load expressions, and agreement in the longer connectivity clauses still lack sufficient independent sentence-level support; basic permission, page and retry terminology is corroborated.",
+            "reviewedAllStrings": true,
+            "name": "Luganda",
+            "writtenForm": "Standard Luganda",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "bd4ef1b8e5beff19825bf45000c234bac65ad6c8d8ecee942a94599ab4ed289d"
+        },
+        {
+            "tag": "ln",
+            "originalConcern": "Lingala grammar with common French technical loans such as navigateur, serveur, domaine, and connexions. Needs review of technical register, noun choices and naturalness.",
+            "queries": [
+                "\"Lingala\" \"libunga\" \"bosɛnga\"",
+                "\"navigateur\" site:jw.org/ln/",
+                "\"serveur\" \"Lingala\"",
+                "\"libunga\" \"site\" \"Lingala\" navigateur"
+            ],
+            "evidence": [
+                {
+                    "url": "https://www.jw.org/ln/malako-etali-makambo-ya-moto/",
+                    "title": "JW.ORG Lingala privacy policy, Script/JavaScript section",
+                    "matchedTerms": [
+                        "navigateur",
+                        "ndingisa",
+                        "epesaka likoki ya kofungola"
+                    ],
+                    "supports": "Published Lingala technical prose uses the browser loan and permission/enabling constructions, closely matching the browser-validation/JavaScript register."
+                },
+                {
+                    "url": "https://www.jw.org/ln/mateya-biblia/mituna/torah-pantateke/",
+                    "title": "JW.ORG Lingala: Torah ezali nini?",
+                    "matchedTerms": [
+                        "Libunga"
+                    ],
+                    "supports": "Confirms the ordinary error/mistake noun and negative/explanatory prose, but does not establish networking terminology."
+                }
+            ],
+            "findings": "The French browser loan and JavaScript-enabling explanation are well supported. Server searches mostly returned French text or restaurant waiters, neither of which validates the networking noun in Lingala. MediaWiki Lingala contained damaged translated template identifiers, so it was not treated as a trustworthy blanket reference. Full review found no new definite semantic error, but these sources do not settle the request/configuration/domain register.",
+            "corrections": [],
+            "decision": "retain",
+            "remainingConcern": "Review network-specific choices for origin server, configuration, domain, request and connection count, plus long error-sentence idiom. Browser/JavaScript loan usage and permission constructions are now attested.",
+            "reviewedAllStrings": true,
+            "name": "Lingala",
+            "writtenForm": "Standard Lingala",
+            "originalReviewPriority": "high",
+            "reviewedFileSha256": "b04b5995e6491d91d0f0b0eb822ad0d8da77bce4d7bb1ff7a18b0b5bb9d16da6"
+        },
+        {
+            "tag": "lo",
+            "originalConcern": "Meaning reviewed directly against English, with lower certainty about full idiomatic fluency and local technical terminology than the strongest languages.",
+            "queries": [
+                "\"ໝົດເວລາ\" \"ເຊີບເວີ\"",
+                "\"ຂໍ້ຜິດພາດ\" \"ເຊີບເວີ\" site:support.google.com",
+                "\"ການຕັ້ງຄ່າ\" \"ຂໍ້ຜິດພາດ\" site:github.com"
+            ],
+            "evidence": [
+                {
+                    "url": "https://github.com/wikimedia/mediawiki/blob/master/languages/i18n/lo.json",
+                    "title": "MediaWiki lo community localization",
+                    "matchedTerms": [
+                        "ເຊີບເວີໝົດເວລາ",
+                        "ບໍ່ຖືກຕ້ອງ",
+                        "ຢືນຢັນ",
+                        "ບຣາວເຊີ",
+                        "ປອດໄພ"
+                    ],
+                    "supports": "timeouterror, nosuchactiontext, login-security, printableversion-deprecated-warning, userlogin-signwithsecure and actionthrottledtext corroborate timeout, invalidity, confirmation, browser, security and retry constructions. Downloaded the upstream raw JSON and inspected the keyed messages, including contributor metadata; source strings were not copied wholesale."
+                },
+                {
+                    "url": "https://github.com/ps2homebrew/Double-Unofficial-Open-PS2-Loader-lang/blob/main/Laotian.yml",
+                    "title": "Open PS2 Loader Lao localization, credited to Anousith Phompida",
+                    "matchedTerms": [
+                        "ການຕັ້ງຄ່າ",
+                        "ຂໍ້ຜິດພາດ"
+                    ],
+                    "supports": "A separately credited software localization attests configuration/settings and error terminology in working interface messages."
+                }
+            ],
+            "findings": "All 63 strings reviewed. General web hits included machine-translated commercial sites and Google pages displaying AI-translation notices, so they were excluded as independent linguistic evidence. The two source-code corpora provide operational vocabulary and sentence-pattern evidence. Full Lao review confirms natural honorific address, temporary availability, timeout, security, request handling and tentative maintenance return. No correction needed.",
+            "corrections": [],
+            "decision": "clear",
+            "remainingConcern": "",
+            "reviewedAllStrings": true,
+            "name": "Lao",
+            "writtenForm": "Standard Lao",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "2011a833f16eefe9295df939d742f5b5b571429ead8d074fdad4efac5759ee05"
+        },
+        {
+            "tag": "mad",
+            "originalConcern": "Published MediaWiki and dictionary material supported actual Madurese vocabulary. Local register, technical compounds, and inflections remain uncertain. The text was not substituted with Indonesian or Javanese.",
+            "queries": [
+                "\"Kasala'an\" \"pangatoran\"",
+                "\"Kasala'an\" Madura",
+                "\"nyoba polè\" \"kasala\"",
+                "\"mad\" \"kasala\" \"mediawiki\"",
+                "\"nyo'on pangapora\" Madura"
+            ],
+            "evidence": [
+                {
+                    "url": "https://github.com/wikimedia/mediawiki/blob/master/languages/i18n/mad.json",
+                    "title": "MediaWiki mad community localization",
+                    "matchedTerms": [
+                        "Kasala'an ḍâlem",
+                        "Pangapora",
+                        "panyo'onan",
+                        "talambhâs",
+                        "server",
+                        "apo-ghipo"
+                    ],
+                    "supports": "internalerror, view-pool-error, pool-timeout and feed-invalid support error, apology, request, timeout and busy-server wording. Corpus also illustrates both familiar and polite address, which must not be conflated. Downloaded the upstream raw JSON and inspected the keyed messages, including contributor metadata; source strings were not copied wholesale."
+                },
+                {
+                    "url": "https://mad.wiktionary.org/wiki/nyo%27on",
+                    "title": "Madurese Wiktionary: nyo'on, citing Pawitra 2009",
+                    "matchedTerms": [
+                        "nyo'on pangapora"
+                    ],
+                    "supports": "The dictionary entry attributes this apology/request construction to Pawitra's Madurese-Indonesian dictionary, with a polite-register label. Search exposed the entry and citation; direct opening timed out."
+                }
+            ],
+            "findings": "All 63 strings reviewed. Substantial lexical overlap and several operational parallels reduce concern that technical nouns were invented or taken from another language. The source corpus has varying register, spelling and compounds; it cannot resolve consistency of the file's Dhika address, polite particles and passive morphology across all original sentences. No speculative replacements.",
+            "corrections": [],
+            "decision": "retain",
+            "remainingConcern": "Remaining review concerns polite-register consistency, passive morphology and technical compounds; error/request/timeout/busy-server vocabulary is now externally corroborated.",
+            "reviewedAllStrings": true,
+            "name": "Madurese",
+            "writtenForm": "Madurese in the Latin script",
+            "originalReviewPriority": "high",
+            "reviewedFileSha256": "b0570c9b6b123347fb1bd3b4ef95207e4ff781f3856523a5385c84aaefe73fca"
+        },
+        {
+            "tag": "mai",
+            "originalConcern": "Bhojpuri and Maithili use their own grammatical forms, not Hindi copied under other tags. Shared formal technical vocabulary is retained; dialect consistency merits review.",
+            "queries": [
+                "\"सर्वर\" \"उपलब्ध नहि\" मैथिली",
+                "\"अनुरोध\" \"नहि अछि\" Mozilla मैथिली",
+                "\"बाद\" \"प्रयास करू\" मैथिली वेबसाइट",
+                "\"अनुमति नहि\" \"अहाँ\""
+            ],
+            "evidence": [
+                {
+                    "url": "https://raw.githubusercontent.com/mozilla-l10n/firefox-l10n/main/mai/toolkit/toolkit/neterror/netError.ftl",
+                    "title": "Mozilla Firefox Maithili network error messages",
+                    "matchedTerms": [
+                        "काज कए रहल अछि",
+                        "फेर कोशिश करू",
+                        "नहि कए सकैत अछि"
+                    ],
+                    "supports": "Full operational prose corroborates present/progressive agreement, polite retry, inability, temporary unavailability, browser settings and administrator contact. Untranslated English entries in this external corpus were not used."
+                },
+                {
+                    "url": "https://raw.githubusercontent.com/GNOME/glib/main/po/mai.po",
+                    "title": "GNOME GLib Maithili localization",
+                    "matchedTerms": [
+                        "अवैध अछि",
+                        "असमर्थित एनकोडिंग"
+                    ],
+                    "supports": "Non-fuzzy entries corroborate invalid/unsupported distinctions and Maithili predicates around borrowed technical nouns; obviously mismatched/fuzzy entries were excluded."
+                },
+                {
+                    "url": "https://maithilijindabaad.com/?p=21469",
+                    "title": "Maithili Jindabaad: Abha Jha on using the mother tongue",
+                    "matchedTerms": [
+                        "अनुरोध अछि",
+                        "अहाँ",
+                        "करू"
+                    ],
+                    "supports": "A signed native article supports the request noun, honorific address and imperative endings used throughout the file."
+                }
+            ],
+            "findings": "Compared every unique sentence and repeated occurrence with English. The grammatical frame consistently uses Maithili rather than Hindi: possessive suffixes, polite second-person forms, negative ability and participles agree with published examples. Operational Firefox messages resolve the original technical-register/dialect concern beyond isolated nouns. No wording change was needed.",
+            "corrections": [],
+            "decision": "clear",
+            "remainingConcern": "",
+            "reviewedAllStrings": true,
+            "name": "Maithili",
+            "writtenForm": "Maithili in the Devanagari script",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "4ef47702dcfdb747df0aae357c883ddbf3b8788f97b01746a1b88513dd6cb09d"
+        },
+        {
+            "tag": "mg",
+            "originalConcern": "Meaning reviewed directly against English, with lower certainty about full idiomatic fluency and local technical terminology than the strongest languages.",
+            "queries": [
+                "\"mpitety\" \"mpizara\" \"hadisoana\"",
+                "\"mpitety tranonkala\" \"hadisoana\"",
+                "\"fanamarinana\" \"mpizara\" site:github.com",
+                "\"Hadisoana\" site:mg.wikipedia.org"
+            ],
+            "evidence": [
+                {
+                    "url": "https://github.com/wikimedia/mediawiki/blob/master/languages/i18n/mg.json",
+                    "title": "MediaWiki mg community localization",
+                    "matchedTerms": [
+                        "mpitety tranonkala",
+                        "mpizara proxy",
+                        "fanamarinana",
+                        "fe-potoana",
+                        "fikirakirana",
+                        "Andramo indray"
+                    ],
+                    "supports": "timeouterror, actionthrottledtext, externaldberror, xffblockreason, upload-foreign-cant-load-config and browser messages support timeout, retry, validation, server, configuration and permission phrasing. clearyourcache uses famoahana for publishing, supporting a less ambiguous opening verb in the local slow-load message. Downloaded the upstream raw JSON and inspected the keyed messages, including contributor metadata; source strings were not copied wholesale."
+                }
+            ],
+            "findings": "All 63 strings reviewed. Replaced the slow-loading message's release/publication noun with opening, matching the other loading errors. The upstream corpus corroborates technical vocabulary and full permission/timeout/retry constructions. Automatically localized SSL and SEO articles were not used. General fluency concern is resolved after that focused edit.",
+            "corrections": [
+                {
+                    "keys": [
+                        "challenge.try_again_later"
+                    ],
+                    "before": "Ela kokoa noho ny mahazatra ny famoahana ity tranonkala ity. Afaka <a href=\"\">manandrana indray</a> ianao aoriana kely",
+                    "after": "Ela kokoa noho ny mahazatra ny fanokafana ity tranonkala ity. Afaka <a href=\"\">manandrana indray</a> ianao aoriana kely",
+                    "reason": "Avoid famoahana, which published localization also uses for publishing; use opening consistently with the other loading messages."
+                }
+            ],
+            "decision": "clear",
+            "remainingConcern": "",
+            "reviewedAllStrings": true,
+            "name": "Malagasy",
+            "writtenForm": "Standard Malagasy",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "1adc9d489691fc853d244cff0c696848f88527bd796d5386cd8bc07d7acfa544"
+        },
+        {
+            "tag": "my",
+            "originalConcern": "Meaning and script checked; detailed orthography and technical-register review would be valuable.",
+            "queries": [
+                "\"ဆာဗာ\" \"အချိန်\" site:support.mozilla.org/my",
+                "\"တောင်းဆိုချက်\" \"ဆာဗာ\" Mozilla"
+            ],
+            "evidence": [
+                {
+                    "url": "https://raw.githubusercontent.com/mozilla-l10n/firefox-l10n/main/my/toolkit/toolkit/neterror/netError.ftl",
+                    "title": "Mozilla Firefox Burmese network error messages",
+                    "matchedTerms": [
+                        "လောလောဆယ် မရနိုင်ပါ",
+                        "ဝဘ်ဆာဗာ",
+                        "အလုပ်များနေသောကြောင့်"
+                    ],
+                    "supports": "Corroborates full unavailability/busy, conditional permission, retry, administrator-contact and page-opening explanations in Burmese script."
+                },
+                {
+                    "url": "https://www.eimaung.com/professional-web-developer/Professional-Web-Developer-4th-Edition-by-Ei-Maung.pdf",
+                    "title": "Ei Maung, Professional Web Developer, fourth edition, Client Request section",
+                    "matchedTerms": [
+                        "ဆာဗာ",
+                        "တောင်းဆိုမှု",
+                        "Request Method"
+                    ],
+                    "supports": "Native-authored technical explanation independently establishes server/request/method register and request/response clause usage."
+                }
+            ],
+            "findings": "Full comparison confirmed Unicode Burmese, consistent polite endings, temporary unavailability versus absence, timeout, excessive requests versus connection counts, and conditional maintenance language. Firefox prose and a native technical book provide broad contextual support for the register. Search results from automatically localized general technical sites were excluded. No correction was necessary.",
+            "corrections": [],
+            "decision": "clear",
+            "remainingConcern": "",
+            "reviewedAllStrings": true,
+            "name": "Burmese",
+            "writtenForm": "Standard Burmese",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "d0f997f04b6c733f3e6e4318c5ae35c58d36307fe368bf0a862d30140f98eeb1"
+        },
+        {
+            "tag": "nso",
+            "originalConcern": "Sepedi, with government ICT dictionary terms praosara and sebara. Needs review of loanword noun-class concord and technical phrasing.",
+            "queries": [
+                "\"Kgopelo\" \"sebara\"",
+                "\"Kgopelo\" \"hwetšagale\" Firefox",
+                "\"praosara\" \"sebara\" site:gov.za",
+                "\"sebara\" \"e\" \"Microsoft\" \"Sesotho\"",
+                "\"Sebara\" \"e amogela\" site:download.microsoft.com/download"
+            ],
+            "evidence": [
+                {
+                    "url": "https://raw.githubusercontent.com/mozilla-l10n/firefox-l10n/main/nso/toolkit/toolkit/neterror/netError.ftl",
+                    "title": "Mozilla Firefox Sepedi network error messages",
+                    "matchedTerms": [
+                        "ga e hwetšagale",
+                        "sebareng",
+                        "Leka gape"
+                    ],
+                    "supports": "Corroborates unavailable state, invalid server configuration, imperatives, connectivity, reload and owner-contact prose."
+                },
+                {
+                    "url": "https://download.microsoft.com/download/7/3/0/7302adbd-30a7-425d-b626-d73474ebee13/nso-zaf-styleguide.pdf",
+                    "title": "Microsoft Sesotho sa Leboa Style Guide, word order and verbs, page 30",
+                    "matchedTerms": [
+                        "Sebara",
+                        "e amogela",
+                        "Phošo e hlagile"
+                    ],
+                    "supports": "The explicit server subject-concord example resolves the loanword noun-class concern; the error-during-action example supports the file’s temporal construction. The guide itself cautions that illustrative terms are not a terminology standard."
+                },
+                {
+                    "url": "https://www.gcis.gov.za/access-to-information-manual-sesotho-sa-leboa",
+                    "title": "GCIS: Access to Information Manual in Sesotho sa Leboa",
+                    "matchedTerms": [
+                        "phihlelelo",
+                        "tefo ya kgopelo"
+                    ],
+                    "supports": "Government prose corroborates access/request terminology and genitive agreement outside software localization."
+                }
+            ],
+            "findings": "The original high-priority concern about loanword concord is resolved by an explicit primary-source server sentence, not inferred from the prefix alone. Rechecked every noun/adjective/pronoun agreement against that pattern and the Mozilla explanations; request plural and page singular forms remain consistent. The downloaded Microsoft PDF could not be parsed by the browser tool because of its content type, but its relevant page was directly returned by a targeted search on the official URL. No wording change was necessary.",
+            "corrections": [],
+            "decision": "clear",
+            "remainingConcern": "",
+            "reviewedAllStrings": true,
+            "name": "Northern Sotho",
+            "writtenForm": "Standard Sepedi",
+            "originalReviewPriority": "high",
+            "reviewedFileSha256": "a2c52bcd0080432441a44dac12de5bef639240796df2210c74d50c868c376946"
+        },
+        {
+            "tag": "ny",
+            "originalConcern": "Meaning reviewed directly against English, with lower certainty about full idiomatic fluency and local technical terminology than the strongest languages.",
+            "queries": [
+                "\"Webusayiti\" \"sikupezeka\"",
+                "\"msakatuli\" \"cholakwika\"",
+                "site:jw.org/ny \"msakatuli\"",
+                "site:jw.org/ny \"cholakwika\" \"intaneti\"",
+                "\"msakatuli\" -site:trucoteca.com -site:chenweiliang.com",
+                "\"Chichewa\" \"computer\" terminology dictionary",
+                "\"Chichewa\" \"JavaScript\" site:jw.org",
+                "\"msakatuli\" \"Chichewa\" -site:translate.google.com",
+                "\"msakatuli\" site:mw"
+            ],
+            "evidence": [
+                {
+                    "url": "https://raw.githubusercontent.com/wikimedia/mediawiki/master/languages/i18n/ny.json",
+                    "title": "MediaWiki Chichewa community localization",
+                    "matchedTerms": [
+                        "Cholakwika",
+                        "Tumizani"
+                    ],
+                    "supports": "The errorpagetitle and submit labels corroborate error and submission wording. The 76-key corpus is too small to resolve network terminology."
+                },
+                {
+                    "url": "https://wol.jw.org/ny/wol/pref/r107/lp-cn?url=%2Fny%2Fwol%2Fb%2Fr107%2Flp-cn%2Fnwt%2F19%2F11",
+                    "title": "Watchtower Chichewa preferences interface",
+                    "matchedTerms": [
+                        "JavaScript ndi yosatsegula",
+                        "Zimene Mumakonda"
+                    ],
+                    "supports": "Actual preferences UI demonstrates JavaScript enablement/disablement, inability and settings instructions. This supports ordinary technical instruction patterns, not all original server clauses."
+                }
+            ],
+            "findings": "Reviewed all 63 messages. Core error, submission, setting and JavaScript expressions have published parallels. Exact unavailable-title and browser-keyword searches mostly returned multilingual SEO or explicitly AI-assisted pages; these were not counted as corroboration. A generic vocabulary table also mistranslated file as an adjective, so it was excluded. Kept correct wording rather than replacing it with weakly sourced variants.",
+            "corrections": [],
+            "decision": "retain",
+            "remainingConcern": "Remaining concern is idiomatic browser/server/domain loanwords and configuration, timeout and connection-count clauses; basic error, submission and JavaScript instructions have published support.",
+            "reviewedAllStrings": true,
+            "name": "Chichewa",
+            "writtenForm": "Standard Chichewa",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "caf70f57113b765e2c6aa48013327c5ab938f8c0cae3281eeda44732c5bd1eb6"
+        },
+        {
+            "tag": "om",
+            "originalConcern": "Afaan Oromo/Qubee wording uses technical loans; request/enablement vocabulary and grammatical fluency need review.",
+            "queries": [
+                "\"Oromo\" \"dogoggora\" \"biraawzarii\"",
+                "\"Seenuun Dhoorkameera\" OR \"Dogoggora Seensaa\"",
+                "\"biraawzarii\" \"dogoggora\" -site:opentran.net -site:bootstrap21.org",
+                "\"Oromo\" Firefox \"dandeessifamne\"",
+                "\"biraawzarii\" \"gaaffii\" -site:huggingface.co -site:bootstrap21.org -site:github.com -site:opentran.net"
+            ],
+            "evidence": [
+                {
+                    "url": "https://github.com/mozilla-l10n/android-l10n/blob/main/mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values-om/strings.xml",
+                    "title": "Mozilla Android Components: Oromo error-page localization",
+                    "matchedTerms": [
+                        "biraawzarii",
+                        "sarvarii",
+                        "gaaffii",
+                        "Dogoggora"
+                    ],
+                    "supports": "Direct browser error messages corroborate browser/server/request/error vocabulary and several denial/timeout constructions. The resource also contains a suspicious shipping-port rendering, so it is used selectively as attestation, not as a flawless grammar authority."
+                },
+                {
+                    "url": "https://raw.githubusercontent.com/wikimedia/mediawiki/master/languages/i18n/om.json",
+                    "title": "MediaWiki community localization: om",
+                    "matchedTerms": [
+                        "Dogoggora eeyyamaa",
+                        "yeroon dhumeera"
+                    ],
+                    "supports": "Community UI independently corroborates permission and elapsed-time terminology; its coverage is too limited to settle every long technical clause."
+                }
+            ],
+            "findings": "Reviewed all strings against English and compared Qubee orthography, request vocabulary, negative permission clauses and timing expressions. Core technical loans and request/error vocabulary have real upstream usage. Exact searches did not settle the enablement verb or the more complex origin-server and load sentences. Because the most relevant upstream browser resource itself has a probable semantic error, it cannot justify removing the whole fluency flag. No language edit was made.",
+            "corrections": [],
+            "decision": "retain",
+            "remainingConcern": "Core browser/server/request and timeout terminology is corroborated; protocol-enablement wording and the longer origin-server/load clauses still need independent grammatical review.",
+            "reviewedAllStrings": true,
+            "name": "Oromo",
+            "writtenForm": "Afaan Oromo (Qubee)",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "7380a49dbf25f43efbb4220ed102e25ccaaee2d322a6863d696927afdba9cde3"
+        },
+        {
+            "tag": "or",
+            "originalConcern": "Meaning and script checked; detailed orthography and technical-register review would be valuable.",
+            "queries": [
+                "\"ଅବୈଧ ଅନୁରୋଧ\" \"ସର୍ଭର\"",
+                "\"ୱେବସାଇଟ୍\" \"ଅନୁରୋଧ\" Mozilla"
+            ],
+            "evidence": [
+                {
+                    "url": "https://raw.githubusercontent.com/mozilla-l10n/firefox-l10n/main/or/toolkit/toolkit/neterror/netError.ftl",
+                    "title": "Mozilla Firefox Odia network error messages",
+                    "matchedTerms": [
+                        "ଅସ୍ଥାୟୀ ଭାବରେ ଉପଲବ୍ଧ ହେଉନାହିଁ",
+                        "ପୁଣିଥରେ",
+                        "ସର୍ଭର"
+                    ],
+                    "supports": "Full browser prose corroborates temporary unavailability/busy, loading/retry, server and owner-contact constructions. Malformed external entries were not copied."
+                },
+                {
+                    "url": "https://odisha.gov.in/or/waebasaaita-naitai-19",
+                    "title": "Government of Odisha: Website policy",
+                    "matchedTerms": [
+                        "ୱେବସାଇଟ୍",
+                        "ଅନୁରୋଧ",
+                        "ଡୋମେନ୍ ନାମ",
+                        "ବ୍ରାଉଜର୍"
+                    ],
+                    "supports": "Official native-script usage corroborates the orthography of borrowed technical nouns and access/permission phrasing; this is supporting evidence, not independent certification of every sentence."
+                },
+                {
+                    "url": "https://raw.githubusercontent.com/wikimedia/mediawiki/master/languages/i18n/or.json",
+                    "title": "MediaWiki Odia interface messages",
+                    "matchedTerms": [
+                        "ତ୍ରୁଟି"
+                    ],
+                    "supports": "Permission, invalid-action and retry messages provide an additional operational-register comparison."
+                }
+            ],
+            "findings": "Reviewed all source meanings, conjunct spelling, loanword endings, conditional instructions and repeated phrases. Published browser error prose covers the actual sentence functions, with government terminology corroboration for orthography. No unresolved specific spelling/register issue emerged, so the generic additional-review flag can be cleared. Exact full-title search hits were sparse; equivalent operational usages supplied the evidence.",
+            "corrections": [],
+            "decision": "clear",
+            "remainingConcern": "",
+            "reviewedAllStrings": true,
+            "name": "Odia",
+            "writtenForm": "Standard Odia",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "81c6a79971391e87d1de2f1d8585dc86002d28e2f77eb1369e460587695ea26a"
+        },
+        {
+            "tag": "ps",
+            "originalConcern": "Meaning and script checked; detailed orthography and technical-register review would be valuable.",
+            "queries": [
+                "\"لاسرسی\" \"ناسمه غوښتنه\"",
+                "\"وېبپاڼه\" \"ناسم\" سرور",
+                "\"لاسرسی رد\" پښتو",
+                "\"پاڼه\" \"پورته\" \"سرور\" پښتو",
+                "\"پاڼه\" \"پورته کېږي\"",
+                "\"تېروتنه\" \"لوډ\" پښتو"
+            ],
+            "evidence": [
+                {
+                    "url": "https://raw.githubusercontent.com/wikimedia/mediawiki/master/languages/i18n/ps.json",
+                    "title": "MediaWiki Pashto interface messages",
+                    "matchedTerms": [
+                        "وېبپاڼه د لاسرسي وړ ده",
+                        "بیا هڅه وکړئ",
+                        "ناسم پروتوکول"
+                    ],
+                    "supports": "Corroborates accessibility predicates, permission refusal, timeout/retry, invalid protocol and request wording. Its upload strings show that the previous upward-loading term risks suggesting upload."
+                },
+                {
+                    "url": "https://raw.githubusercontent.com/GNOME/gtk/main/po/ps.po",
+                    "title": "GNOME GTK Pashto localization",
+                    "matchedTerms": [
+                        "پرانيستل کيږي",
+                        "د پلټون غوښتنه",
+                        "پرانيستلو"
+                    ],
+                    "supports": "Non-fuzzy entries corroborate opening, request and error-during-opening grammar. This supports an explicit page-opening/reopening paraphrase in our browser error context."
+                },
+                {
+                    "url": "https://t.benawa.com/pashto/",
+                    "title": "Benawa Pashto digital archive",
+                    "matchedTerms": [
+                        "د لاسرسي وړ"
+                    ],
+                    "supports": "Native publisher uses the same accessible construction for its digital archive, independently supporting the state terminology."
+                }
+            ],
+            "findings": "Full review confirmed Pashto morphology, feminine website/masculine server agreement, permission and request register. The primary software sources supported the requested distinctions, but the page-loading wording could be mistaken for upload. Replaced that family consistently with opening/reopening the page; this is a contextual editorial inference supported by the GTK verb, not a claim that a source contains our exact complete sentences. After that correction no specific orthography/register issue remains.",
+            "corrections": [
+                {
+                    "keys": [
+                        "challenge.try_again_later"
+                    ],
+                    "before": "د دې وېبپاڼې پورته کېدل له معمول څخه ډېر وخت نیسي. کولای شئ وروسته <a href=\"\">بیا هڅه وکړئ</a>",
+                    "after": "د دې وېبپاڼې پرانیستل له معمول څخه ډېر وخت نیسي. کولای شئ وروسته <a href=\"\">بیا هڅه وکړئ</a>",
+                    "reason": "Avoid suggesting file upload when describing page loading; use the attested opening verb with page/reopening context and appropriate inflection."
+                },
+                {
+                    "keys": [
+                        "challenge.validation_complete"
+                    ],
+                    "before": "<strong>تایید بشپړ شو</strong>. اوس تاسو خپلې غوښتل شوې موخې ته لېږدول کېږئ. که پاڼه بیا پورته نه شوه، <a href=\"\">دلته</a> کلیک وکړئ.",
+                    "after": "<strong>تایید بشپړ شو</strong>. اوس تاسو خپلې غوښتل شوې موخې ته لېږدول کېږئ. که پاڼه بیا پرانیستل نه شوه، <a href=\"\">دلته</a> کلیک وکړئ.",
+                    "reason": "Avoid suggesting file upload when describing page loading; use the attested opening verb with page/reopening context and appropriate inflection."
+                },
+                {
+                    "keys": [
+                        "error.default.error_loading"
+                    ],
+                    "before": "د {host} په پورته کولو کې تېروتنه",
+                    "after": "د {host} په پرانیستلو کې تېروتنه",
+                    "reason": "Avoid suggesting file upload when describing page loading; use the attested opening verb with page/reopening context and appropriate inflection."
+                },
+                {
+                    "keys": [
+                        "error.default.refresh_text"
+                    ],
+                    "before": "مهرباني وکړئ وروسته وېبپاڼې ته د لاسرسي هڅه وکړئ، یا د پاڼې د بیا پورته کولو لپاره <a href=\"\">دلته</a> کلیک وکړئ.",
+                    "after": "مهرباني وکړئ وروسته وېبپاڼې ته د لاسرسي هڅه وکړئ، یا د پاڼې د بیا پرانیستلو لپاره <a href=\"\">دلته</a> کلیک وکړئ.",
+                    "reason": "Avoid suggesting file upload when describing page loading; use the attested opening verb with page/reopening context and appropriate inflection."
+                },
+                {
+                    "keys": [
+                        "error.default.unexpected_error"
+                    ],
+                    "before": "د دې پاڼې د پورته کولو پر مهال یوه ناڅاپي تېروتنه رامنځته شوه",
+                    "after": "د دې پاڼې د پرانیستلو پر مهال یوه ناڅاپي تېروتنه رامنځته شوه",
+                    "reason": "Avoid suggesting file upload when describing page loading; use the attested opening verb with page/reopening context and appropriate inflection."
+                },
+                {
+                    "keys": [
+                        "error.error.description"
+                    ],
+                    "before": "له بده مرغه، د دې پاڼې د پورته کولو پر مهال یوه ناڅاپي تېروتنه رامنځته شوه. د هر ډول تکلیف له امله بښنه غواړو. مهرباني وکړئ وروسته وېبپاڼې ته د لاسرسي هڅه وکړئ، یا د پاڼې د بیا پورته کولو لپاره <a href=\"\">دلته</a> کلیک وکړئ.",
+                    "after": "له بده مرغه، د دې پاڼې د پرانیستلو پر مهال یوه ناڅاپي تېروتنه رامنځته شوه. د هر ډول تکلیف له امله بښنه غواړو. مهرباني وکړئ وروسته وېبپاڼې ته د لاسرسي هڅه وکړئ، یا د پاڼې د بیا پرانیستلو لپاره <a href=\"\">دلته</a> کلیک وکړئ.",
+                    "reason": "Avoid suggesting file upload when describing page loading; use the attested opening verb with page/reopening context and appropriate inflection."
+                },
+                {
+                    "keys": [
+                        "error.clienttimeout.description"
+                    ],
+                    "before": "له بده مرغه، د دې وېبپاڼې د پورته کولو پر مهال د انتظار وخت پای ته ورسېد. د دې له امله د هر ډول رامنځته شوي تکلیف لپاره بښنه غواړو.",
+                    "after": "له بده مرغه، د دې وېبپاڼې د پرانیستلو پر مهال د انتظار وخت پای ته ورسېد. د دې له امله د هر ډول رامنځته شوي تکلیف لپاره بښنه غواړو.",
+                    "reason": "Avoid suggesting file upload when describing page loading; use the attested opening verb with page/reopening context and appropriate inflection."
+                },
+                {
+                    "keys": [
+                        "error.resource.description_start"
+                    ],
+                    "before": "له بده مرغه، د دې پاڼې د پورته کولو پر مهال یوه تېروتنه رامنځته شوه.",
+                    "after": "له بده مرغه، د دې پاڼې د پرانیستلو پر مهال یوه تېروتنه رامنځته شوه.",
+                    "reason": "Avoid suggesting file upload when describing page loading; use the attested opening verb with page/reopening context and appropriate inflection."
+                },
+                {
+                    "keys": [
+                        "error.resource_limitrate.description_start"
+                    ],
+                    "before": "له بده مرغه، د دې پاڼې د پورته کولو پر مهال یوه تېروتنه رامنځته شوه.",
+                    "after": "له بده مرغه، د دې پاڼې د پرانیستلو پر مهال یوه تېروتنه رامنځته شوه.",
+                    "reason": "Avoid suggesting file upload when describing page loading; use the attested opening verb with page/reopening context and appropriate inflection."
+                },
+                {
+                    "keys": [
+                        "error.resource_limitcon.description_start"
+                    ],
+                    "before": "له بده مرغه، د دې پاڼې د پورته کولو پر مهال یوه تېروتنه رامنځته شوه.",
+                    "after": "له بده مرغه، د دې پاڼې د پرانیستلو پر مهال یوه تېروتنه رامنځته شوه.",
+                    "reason": "Avoid suggesting file upload when describing page loading; use the attested opening verb with page/reopening context and appropriate inflection."
+                },
+                {
+                    "keys": [
+                        "error.timeout.description"
+                    ],
+                    "before": "له بده مرغه، د دې پاڼې د پورته کولو پر مهال د انتظار وخت پای ته ورسېد. کېدای شي سرور بوخت وي او اوس مهال ستاسو غوښتنه پروسس نه شي کړای.",
+                    "after": "له بده مرغه، د دې پاڼې د پرانیستلو پر مهال د انتظار وخت پای ته ورسېد. کېدای شي سرور بوخت وي او اوس مهال ستاسو غوښتنه پروسس نه شي کړای.",
+                    "reason": "Avoid suggesting file upload when describing page loading; use the attested opening verb with page/reopening context and appropriate inflection."
+                }
+            ],
+            "decision": "clear",
+            "remainingConcern": "",
+            "reviewedAllStrings": true,
+            "name": "Pashto",
+            "writtenForm": "Standard written Pashto",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "397881f8cc4449d03a7f5f5b0563afd4a816d06f5d3d80f6848b56442fd82730"
+        },
+        {
+            "tag": "qu",
+            "originalConcern": "Southern Quechua morphology and technical register remain lower-confidence. Established browser/server terms were checked; origin server is expressed descriptively and domain/protocol retain explicit loans. An uncertain owner noun was removed in favor of the transparent possessive -yuq construction.",
+            "queries": [
+                "\"Llika\" \"Sirwiq\" \"pantasqa\"",
+                "\"Quechua\" \"wakichiy\" \"mañakuy\""
+            ],
+            "evidence": [
+                {
+                    "url": "https://raw.githubusercontent.com/wikimedia/mediawiki/master/languages/i18n/qu.json",
+                    "title": "MediaWiki community localization: qu",
+                    "matchedTerms": [
+                        "sirwiq",
+                        "llika wamp'una",
+                        "Saqillay pantasqa",
+                        "musuqmanta",
+                        "sasachakuyniyuqmi"
+                    ],
+                    "supports": "The published Southern Quechua UI supplies actual permission, browser, overloaded-server, session/retry and timeout sentences. It supports the selected browser/server lexicon, possessive morphology and progressive/conditional patterns, with orthographic variation."
+                }
+            ],
+            "findings": "Reviewed the complete file, including suffix attachment, negative constructions, requests and the descriptive origin-server phrase. The core technical register and several morphological patterns occur in community UI. Broader searches also found Bolivian Quechua prose, but differing regional spelling and nontechnical context were not treated as confirmation of this file’s precise technical phrases. No unsupported replacement was made. Evidence narrows the original concern without fully resolving sentence-level morphology.",
+            "corrections": [],
+            "decision": "retain",
+            "remainingConcern": "Browser/server and basic permission/retry terminology is corroborated; morphology in the long origin-server, unexpected-load and protocol-enable clauses still lacks adequate independent comparison in the selected Southern Quechua written form.",
+            "reviewedAllStrings": true,
+            "name": "Quechua",
+            "writtenForm": "Southern Quechua",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "ee557efb36f1d72a50f8eca039042b288d3ba49ac6b170a305e3dcbf9ebd8996"
+        },
+        {
+            "tag": "raj",
+            "originalConcern": "Best-effort Marwari-oriented written Rajasthani. Anjas/Rekhta forms consulted. Needs review of gender/case agreement and regional word choice.",
+            "queries": [
+                "\"उपलब्ध कोनी\" \"वेबसाइट\"",
+                "\"थां\" \"कोनी\" site:anjas.org"
+            ],
+            "evidence": [
+                {
+                    "url": "https://anjas.org/kahaniyan/amujhata-akhar-mithesh-nirmohi-kahaniyan",
+                    "title": "Anjas: Amujhata Akhar, Mithesh Nirmohi",
+                    "matchedTerms": [
+                        "कोनी",
+                        "थां लोगां रा",
+                        "करणो"
+                    ],
+                    "supports": "Authored Rajasthani prose corroborates negative particles, possessives and verbal nouns used in the file."
+                },
+                {
+                    "url": "https://anjas.org/kahaniyan/navau-jalam-vijaydan-detha-kahaniyan?sort=title-asc",
+                    "title": "Anjas: Navau Jalam, Vijaydan Detha",
+                    "matchedTerms": [
+                        "किणी",
+                        "सूं",
+                        "रै"
+                    ],
+                    "supports": "Search-returned passages independently corroborate case markers and regional forms. The full-page browser fetch failed, so this evidence is limited to the returned passage."
+                }
+            ],
+            "findings": "The exact availability-title search chiefly found unrelated Hindi place names and automatically localized sites; those were rejected. Authored Marwari-oriented stories confirm many core forms, but do not establish technical register or the agreement of newly borrowed nouns in long server messages. Full English comparison found no definite new meaning error; the original flag is narrowed rather than removed.",
+            "corrections": [],
+            "decision": "retain",
+            "remainingConcern": "Review agreement and idiom in borrowed technical-noun phrases, especially website suspension, redirect passives and excessive-request clauses. Core Marwari negation, possessives and case markers are now attested.",
+            "reviewedAllStrings": true,
+            "name": "Rajasthani",
+            "writtenForm": "Written Rajasthani (Marwari)",
+            "originalReviewPriority": "high",
+            "reviewedFileSha256": "e46312444c79318cc0f80a05a02e5e6f17b17d4c4a54cba6024c0f26c077eea5"
+        },
+        {
+            "tag": "rn",
+            "originalConcern": "Meaning reviewed directly against English, with lower certainty about full idiomatic fluency and local technical terminology than the strongest languages.",
+            "queries": [
+                "\"Kwinjira vyankiwe\"",
+                "\"mucukumbuzi\" \"urubuga\"",
+                "site:jw.org rn \"mucukumbuzi\"",
+                "\"Turiko\" \"urubuga\" \"ikosa\"",
+                "\"igisabo\" \"gusaba\"",
+                "\"igisabo\" \"urubuga\""
+            ],
+            "evidence": [
+                {
+                    "url": "https://github.com/wikimedia/mediawiki/blob/master/languages/i18n/rn.json",
+                    "title": "MediaWiki rn community localization",
+                    "matchedTerms": [
+                        "Ntaruhusha ufise",
+                        "kwinjira",
+                        "rungika"
+                    ],
+                    "supports": "Permission message and interface labels support Kirundi permission, entry and sending words, but the corpus is too short to support detailed network-error prose. Downloaded the upstream raw JSON and inspected the keyed messages, including contributor metadata; source strings were not copied wholesale."
+                },
+                {
+                    "url": "https://www.yaga-burundi.com/ukwiyamamaza-2025-igisabo/",
+                    "title": "Yaga Burundi: Ukwiyamamaza 2025, igisabo c'abenegihugu",
+                    "matchedTerms": [
+                        "igisabo",
+                        "gusaba",
+                        "Birababaje"
+                    ],
+                    "supports": "A named Burundian writer uses the request noun and regret construction in original Kirundi prose. This distinguishes valid Kirundi request wording from similarly spelled nouns in related languages. Indexed full article excerpt inspected; direct fetch failed."
+                }
+            ],
+            "findings": "All 63 strings reviewed. Evidence supports the request noun, Kirundi rather than Kinyarwanda spelling, regret and permission phrasing. General searches for browser and server prose mostly returned recent multilingual commercial content with no reliable human provenance. They do not settle the technical constructions in this file.",
+            "corrections": [],
+            "decision": "retain",
+            "remainingConcern": "Narrowed to browser/server/domain terminology and complex network, timeout and configuration clauses; request, regret and permission vocabulary is corroborated.",
+            "reviewedAllStrings": true,
+            "name": "Kirundi",
+            "writtenForm": "Standard Kirundi",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "fed9399e345b783aa3dd49bb934ca7cb90574852456dc135e701040ee730c92f"
+        },
+        {
+            "tag": "rw",
+            "originalConcern": "Meaning reviewed directly against English, with lower certainty about full idiomatic fluency and local technical terminology than the strongest languages.",
+            "queries": [
+                "\"Seriveri\" \"Igenamiterere\"",
+                "\"seriveri\" \"ubusabe\" site:gov.rw",
+                "\"ubusabe\" \"umutekano\" site:gov.rw",
+                "\"mushakisha\" Irembo",
+                "\"umutekano\" \"HTTPS\" Rwanda"
+            ],
+            "evidence": [
+                {
+                    "url": "https://www.minijust.gov.rw/fileadmin/user_upload/Minijust/Official_gazettes_2/____________2018_Official_Gazettes/14_of_02.04.2018.pdf",
+                    "title": "Rwanda Official Gazette 14, 2 April 2018",
+                    "matchedTerms": [
+                        "seriveri",
+                        "igenamiterere"
+                    ],
+                    "supports": "Parallel official text uses server and configuration terminology in its description of computing resources."
+                },
+                {
+                    "url": "https://support.irembo.gov.rw/is/support/solutions/articles/47001250775-ibibazo-bikunze-kubazwa-mu-kongera-igihe-cy-uruhushya-rwa-burundu-rwo-gutwara-ibinyabiziga-",
+                    "title": "IremboGov: license renewal troubleshooting",
+                    "matchedTerms": [
+                        "mushakisha",
+                        "itsinda ry’ubufasha",
+                        "ubusabe"
+                    ],
+                    "supports": "The actual service provider uses browser, request and support-team terms, with retry/troubleshooting instructions in Kinyarwanda."
+                },
+                {
+                    "url": "https://www.huye.gov.rw/",
+                    "title": "Huye District official HTTPS notice",
+                    "matchedTerms": [
+                        "Umutekano w’itumanaho"
+                    ],
+                    "supports": "The government website explicitly uses security-of-communication terminology for HTTPS, supporting a security-specific correction to the insecure-request title."
+                },
+                {
+                    "url": "https://github.com/wikimedia/mediawiki/blob/master/languages/i18n/rw.json",
+                    "title": "MediaWiki rw community localization",
+                    "matchedTerms": [
+                        "Nta burenganzira ufite"
+                    ],
+                    "supports": "The permission message independently corroborates the denial construction. Downloaded the upstream raw JSON and inspected the keyed messages, including contributor metadata; source strings were not copied wholesale."
+                }
+            ],
+            "findings": "All 63 strings reviewed. Multiple native public-service and technical contexts resolve the general terminology/register concern. Corrected the insecure-request title from untrusted to explicitly lacking security. Full review confirms Kinyarwanda grammatical agreement, source distinctions between absence, denial and invalidity, and request/connection load meanings.",
+            "corrections": [
+                {
+                    "keys": [
+                        "error.ssl-insecure.title"
+                    ],
+                    "before": "Ubusabe butizewe",
+                    "after": "Ubusabe budafite umutekano",
+                    "reason": "Distinguish lack of transport security from an untrusted request, using the security terminology in official HTTPS notices."
+                }
+            ],
+            "decision": "clear",
+            "remainingConcern": "",
+            "reviewedAllStrings": true,
+            "name": "Kinyarwanda",
+            "writtenForm": "Standard Kinyarwanda",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "73b334fa257e6f59e21e9ba99c6e59b0c56525d7312f8ad286e848b275b13042"
+        },
+        {
+            "tag": "sd",
+            "originalConcern": "Meaning and script checked; detailed orthography and technical-register review would be valuable.",
+            "queries": [
+                "\"رسائي\" \"سرور\" site:sd.wikipedia.org",
+                "\"سرور\" \"رسائي\" سنڌي",
+                "\"رسائي رد\" سنڌي",
+                "\"سرور\" \"پروٽوڪول\" سنڌي",
+                "\"غير معاون\" سنڌي",
+                "\"سپورٽ ٿيل\" سنڌي"
+            ],
+            "evidence": [
+                {
+                    "url": "https://raw.githubusercontent.com/wikimedia/mediawiki/master/languages/i18n/sd.json",
+                    "title": "MediaWiki Sindhi interface messages",
+                    "matchedTerms": [
+                        "سپورٽ ٿيل نہ آهي",
+                        "برائوزر",
+                        "تصديق",
+                        "سرور جو وقت ختم ٿي ويو"
+                    ],
+                    "supports": "Corroborates unsupported-feature wording, browser/verification spelling, timeout, permission refusal, automatic operation and conditional user instructions."
+                },
+                {
+                    "url": "https://www.library.sindhila.org/book/26/read/950",
+                    "title": "Sindhi Language Authority virtual library: Mass Media, Journalism Dot Com chapter",
+                    "matchedTerms": [
+                        "سرور",
+                        "ڊيٽا",
+                        "منتقلي"
+                    ],
+                    "supports": "Native technical exposition demonstrates server, data-transfer, network-user and access-code register in connected prose, independently of localization catalogs."
+                }
+            ],
+            "findings": "Reviewed every sentence for Sindhi grammar, orthography and the English operational distinctions. The published prose and interface messages support the technical register; the vague unsupported-method adjective was replaced with an explicit not-supported predicate consistent with actual software usage. Generic multilingual technical-blog hits were not trusted. This correction resolves the only concrete residual register concern found in the full review.",
+            "corrections": [
+                {
+                    "keys": [
+                        "error.unsupported_method.title"
+                    ],
+                    "before": "غير معاون طريقو",
+                    "after": "هن طريقي جي سپورٽ نٿي ڪئي وڃي",
+                    "reason": "Use an explicit unsupported-method predicate following actual Sindhi software usage, instead of an ambiguous adjective meaning non-assisting."
+                }
+            ],
+            "decision": "clear",
+            "remainingConcern": "",
+            "reviewedAllStrings": true,
+            "name": "Sindhi",
+            "writtenForm": "Sindhi in the Arabic script",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "da79f34f48d5e5bb682f3d420e1fe5984b8a43c76ed6b5f348ad4bc06ac7d986"
+        },
+        {
+            "tag": "sn",
+            "originalConcern": "Meaning checked; loanword choices and morphology deserve additional review.",
+            "queries": [
+                "\"Sevha\" \"haisi kuwanikwa\"",
+                "\"bhurawuza\" \"chikumbiro\"",
+                "site:jw.org/sn \"bhurawuza\"",
+                "site:jw.org/sn \"JavaScript\"",
+                "\"Shona\" \"browser\" Mozilla localization",
+                "\"chikanganiso\" \"webhusaiti\" site:jw.org",
+                "\"Shona\" \"browser\" site:jw.org",
+                "\"bhurawuza\" \"Shona\" -site:translate.google.com",
+                "\"Shona\" \"zvakanakisisa\"",
+                "\"zvakanakisisa\" \"kushanda\" site:jw.org"
+            ],
+            "evidence": [
+                {
+                    "url": "https://raw.githubusercontent.com/wikimedia/mediawiki/master/languages/i18n/sn.json",
+                    "title": "MediaWiki Shona community localization",
+                    "matchedTerms": [
+                        "Hauna mvumo",
+                        "chaitika",
+                        "nekuda kwezvikonzero"
+                    ],
+                    "supports": "Permission and error messages corroborate negated permission, occurrence and explanatory clause patterns. The catalog uses a different error synonym, which is not grounds to replace the existing correct synonym."
+                },
+                {
+                    "url": "https://www.jw.org/sn/rubatsiro-rwepaindaneti/kushandisa-jw-org/mibvunzo-inonyanya-kubvunzwa/",
+                    "title": "JW.ORG Shona technical FAQ",
+                    "matchedTerms": [
+                        "pakuvhura website",
+                        "browser rako",
+                        "edza kuisa"
+                    ],
+                    "supports": "The publisher supplies real browser compatibility and update instructions, including the opening/loading verb and class agreement with a browser loan. It does not attest the current phonetic spellings of every technical loan."
+                },
+                {
+                    "url": "https://www.jw.org/sn/Raibhurari/magazini/nharireyomurindi-yekudzidza-april-2022/Wana-Mufaro-Unobva-Pakupa-Jehovha-Zvakanakisisa-Zvaunokwanisa/",
+                    "title": "Published Shona prose using the superlative",
+                    "matchedTerms": [
+                        "zvakanakisisa"
+                    ],
+                    "supports": "Corroborates the superlative used to restore the English best qualifier. Used as language evidence only."
+                }
+            ],
+            "findings": "Reviewed all 63 strings and restored best in the JavaScript sentence. Primary UI and support prose support common permission, occurrence, browser agreement and opening/retry patterns. Search hits for the exact unavailable-server phrase were chiefly apparent automatic localizations. Those matches were excluded rather than counted as native technical usage.",
+            "corrections": [
+                {
+                    "keys": [
+                        "challenge.enable_javascript"
+                    ],
+                    "before": "Kusimbisa bhurawuza kunoshanda zviri nani kana JavaScript yakabatidzwa.",
+                    "after": "Kusimbisa bhurawuza kunoshanda zvakanakisisa kana JavaScript yakabatidzwa.",
+                    "reason": "Full source review found good/better in place of best. Restored the superlative while keeping JavaScript optional and preserving the identifier. Published lexical/grammatical parallels are recorded in the evidence; the complete sentence is original."
+                }
+            ],
+            "decision": "retain",
+            "remainingConcern": "Remaining review is the spelling/register of bhurawuza, sevha and domeini and the original server-load, protocol and connection-count clauses; permission and ordinary browser/opening instructions are corroborated.",
+            "reviewedAllStrings": true,
+            "name": "Shona",
+            "writtenForm": "Standard Shona",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "deca911c83dfec94aa212f437f65728ec2b7fcf65b9df4fc7745e42c6ca6a826"
+        },
+        {
+            "tag": "so",
+            "originalConcern": "Meaning reviewed directly against English, with lower certainty about full idiomatic fluency and local technical terminology than the strongest languages.",
+            "queries": [
+                "\"Mareegta lama heli karo\" OR \"Gelitaanka waa la diiday\"",
+                "\"biraawsarka\" \"khalad\" site:support.google.com",
+                "\"biraawsarka\" \"mareegta\" site:gov",
+                "\"mareegta\" \"lama heli\" -site:trucoteca.com -site:chenweiliang.com",
+                "\"seerfar\" Somali",
+                "\"sida ugu fiican\" \"shaqaysaa\"",
+                "\"sida ugu fiican\" site:unicef.org"
+            ],
+            "evidence": [
+                {
+                    "url": "https://raw.githubusercontent.com/wikimedia/mediawiki/master/languages/i18n/so.json",
+                    "title": "MediaWiki Somali community localization",
+                    "matchedTerms": [
+                        "lama heli karo",
+                        "waa la diiday",
+                        "biraawsar",
+                        "xaqiijin",
+                        "codsiga"
+                    ],
+                    "supports": "The pool-servererror, cannotauth-not-allowed-title, authform-nosession-login, API timeout/429 and permissions messages establish availability, denial, browser agreement, verification, excessive activity and requests in complete operational clauses. Full source file inspected locally; this supports register and patterns, not an assertion that every upstream sentence is flawless."
+                },
+                {
+                    "url": "https://somalilandbiodiversity.org/file_download/inline/0b89485f-0e96-43df-be86-92e96dcc7f3a",
+                    "title": "Somaliland Biodiversity Foundation newsletter",
+                    "matchedTerms": [
+                        "laba seerfar oo cusub"
+                    ],
+                    "supports": "Published Somali project news describes moving websites onto new servers, independently corroborating the server loanword. Indexed paragraph inspected; direct web opening failed."
+                },
+                {
+                    "url": "https://kenvh-cohort.org.uk/wp-content/uploads/2024/04/Somali_What-is-the-Kids-Environment-and-Health-Cohort.pdf",
+                    "title": "Kids Environment and Health Cohort Somali information sheet",
+                    "matchedTerms": [
+                        "seerfar sugan"
+                    ],
+                    "supports": "The research project uses the same server loan in an actual secure-data-storage explanation. Indexed PDF paragraph inspected; direct web opening failed."
+                }
+            ],
+            "findings": "Reviewed all 63 messages. Multiple operational message families plus separately published Somali technical prose address the general terminology and fluency concern. Preserved availability versus nonexistence, request timeout, excessive requests, origin-server explanation, and expected maintenance return. Restored the explicit best qualifier in the JavaScript sentence without making it mandatory. Excluded government webpages whose localization provenance was unclear and mass-localized commercial pages.",
+            "corrections": [
+                {
+                    "keys": [
+                        "challenge.enable_javascript"
+                    ],
+                    "before": "Xaqiijinta biraawsarku waxay si fiican u shaqaysaa marka JavaScript uu daaran yahay.",
+                    "after": "Xaqiijinta biraawsarku waxay sida ugu fiican u shaqaysaa marka JavaScript uu daaran yahay.",
+                    "reason": "Full source review found good/better in place of best. Restored the superlative while keeping JavaScript optional and preserving the identifier. Published lexical/grammatical parallels are recorded in the evidence; the complete sentence is original."
+                }
+            ],
+            "decision": "clear",
+            "remainingConcern": "",
+            "reviewedAllStrings": true,
+            "name": "Somali",
+            "writtenForm": "Standard Somali",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "2e8bf5dc502de9d78e9e69bc1c4c39307740f7edfb83d77296dc30df9bf04b9d"
+        },
+        {
+            "tag": "su",
+            "originalConcern": "Meaning checked; loanword choices and morphology deserve additional review.",
+            "queries": [
+                "\"Pangladén\" \"pamundut\"",
+                "\"pangladén\" site:mozilla.org",
+                "\"pamundut\" site:translatewiki.net",
+                "\"pangotektak\" \"kasalahan\"",
+                "\"pangladén\" site:sonymobile.com",
+                "\"panghadéna\" \"jalan\"",
+                "\"hasil\" \"panghadéna\" site:ac.id"
+            ],
+            "evidence": [
+                {
+                    "url": "https://raw.githubusercontent.com/wikimedia/mediawiki/master/languages/i18n/su.json",
+                    "title": "MediaWiki Sundanese community localization",
+                    "matchedTerms": [
+                        "Kasalahan",
+                        "teu sayaga",
+                        "pamundut",
+                        "kaleuleuwihi",
+                        "pangropéa"
+                    ],
+                    "supports": "The pool/server, throttling, request, invalidity, permissions and maintenance messages corroborate the register and grammar across operational contexts. They support the same unavailable, overload, retry and maintenance distinctions; no complete message copied."
+                },
+                {
+                    "url": "https://www-support-downloads.sonymobile.com/st25/userguide_SU_ST25_1263-3887.1.pdf",
+                    "title": "Sony Ericsson Xperia U Sundanese user guide",
+                    "matchedTerms": [
+                        "Pangotektak web",
+                        "Pangladen media",
+                        "idin wasa"
+                    ],
+                    "supports": "Manufacturer documentation independently attests browser/server terms, access permission and enable/disable instructions. Parsed PDF inspected, particularly the browser and connected-device sections; accent choices vary in the manual."
+                },
+                {
+                    "url": "https://repository.upi.edu/14352/5/S_BD_1006457_Appendix.pdf",
+                    "title": "Universitas Pendidikan Indonesia: Sundanese drama appendix",
+                    "matchedTerms": [
+                        "anu panghadéna"
+                    ],
+                    "supports": "A published original Sundanese dialogue corroborates the superlative construction used in the clarified JavaScript message. This is grammatical evidence, not computing terminology."
+                }
+            ],
+            "findings": "Reviewed all 63 messages. Community software prose and a manufacturer user guide jointly corroborate browser/server terms, permission, requests, retry, overload, configuration and maintenance register. Replaced the comparative better in the JavaScript message with a best-results construction while preserving the source meaning. The loanword/morphology concern is sufficiently addressed by the source parallels and full review; mass-localized SEO pages and Google Translate result pages were not used as evidence.",
+            "corrections": [
+                {
+                    "keys": [
+                        "challenge.enable_javascript"
+                    ],
+                    "before": "Pamariksaan pangotektak leuwih hadé jalanna upami JavaScript diaktipkeun.",
+                    "after": "Pamariksaan pangotektak méré hasil anu panghadéna upami JavaScript diaktipkeun.",
+                    "reason": "Full source review found good/better in place of best. Restored the superlative while keeping JavaScript optional and preserving the identifier. Published lexical/grammatical parallels are recorded in the evidence; the complete sentence is original."
+                }
+            ],
+            "decision": "clear",
+            "remainingConcern": "",
+            "reviewedAllStrings": true,
+            "name": "Sundanese",
+            "writtenForm": "Sundanese in the Latin script",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "7500ec6c0c94cd0a042641005510fb38611667ec89c3c515a89af780217af27c"
+        },
+        {
+            "tag": "tg",
+            "originalConcern": "Meaning checked; loanword choices and morphology deserve additional review.",
+            "queries": [
+                "\"Сервер дастрас нест\" Firefox",
+                "\"дастрас нест\" \"дархост\" Firefox",
+                "\"Танзимоти нодуруст\"",
+                "\"боргирӣ\" \"боркунӣ\" Mozilla"
+            ],
+            "evidence": [
+                {
+                    "url": "https://raw.githubusercontent.com/mozilla-l10n/firefox-l10n/main/tg/toolkit/toolkit/neterror/netError.ftl",
+                    "title": "Mozilla Firefox Tajik network error messages",
+                    "matchedTerms": [
+                        "боркунии саҳифа",
+                        "танзимоти нодуруст",
+                        "дархост",
+                        "муваққатан дастнорас"
+                    ],
+                    "supports": "Broad established browser localization supports loading, server/request morphology, temporary unavailability, refusal, configuration, secure transport, administrator contact and retry sentence patterns."
+                }
+            ],
+            "findings": "Most web-search hits for complete titles were weak or automatically localized; the official browser corpus gave much stronger direct operational evidence. Full comparison confirmed Cyrillic orthography, izafet on loanwords, plural request/connection forms, conditional instructions and maintenance expectation. Standardized loading/reloading to the browser corpus’s verb/noun family, removing an ambiguous download-like choice; retained the original surrounding prose. This resolves the stated loanword/morphology concern.",
+            "corrections": [
+                {
+                    "keys": [
+                        "challenge.try_again_later"
+                    ],
+                    "before": "Боргирии ин сомона аз маъмулӣ зиёдтар вақт мегирад. Метавонед дертар <a href=\"\">аз нав кӯшиш кунед</a>",
+                    "after": "Боркунии ин сомона аз маъмулӣ зиёдтар вақт мегирад. Метавонед дертар <a href=\"\">аз нав кӯшиш кунед</a>",
+                    "reason": "Align the page-loading/reloading family with published Firefox Tajik usage; use the finite/passive and infinitive forms appropriate to each sentence."
+                },
+                {
+                    "keys": [
+                        "challenge.validation_complete"
+                    ],
+                    "before": "<strong>Санҷиш анҷом ёфт</strong>. Ҳоло шумо ба суроғаи дилхоҳ равона карда мешавед. Агар саҳифа аз нав боргирӣ нашавад, <a href=\"\">ин ҷоро</a> пахш кунед.",
+                    "after": "<strong>Санҷиш анҷом ёфт</strong>. Ҳоло шумо ба суроғаи дилхоҳ равона карда мешавед. Агар саҳифа аз нав бор нашавад, <a href=\"\">ин ҷоро</a> пахш кунед.",
+                    "reason": "Align the page-loading/reloading family with published Firefox Tajik usage; use the finite/passive and infinitive forms appropriate to each sentence."
+                },
+                {
+                    "keys": [
+                        "error.default.error_loading"
+                    ],
+                    "before": "Хато ҳангоми боргирии {host}",
+                    "after": "Хато ҳангоми боркунии {host}",
+                    "reason": "Align the page-loading/reloading family with published Firefox Tajik usage; use the finite/passive and infinitive forms appropriate to each sentence."
+                },
+                {
+                    "keys": [
+                        "error.default.refresh_text"
+                    ],
+                    "before": "Лутфан дертар барои дастрасӣ ба сомона кӯшиш кунед ё барои аз нав боргирӣ кардани саҳифа <a href=\"\">ин ҷоро</a> пахш кунед.",
+                    "after": "Лутфан дертар барои дастрасӣ ба сомона кӯшиш кунед ё барои аз нав бор кардани саҳифа <a href=\"\">ин ҷоро</a> пахш кунед.",
+                    "reason": "Align the page-loading/reloading family with published Firefox Tajik usage; use the finite/passive and infinitive forms appropriate to each sentence."
+                },
+                {
+                    "keys": [
+                        "error.default.unexpected_error"
+                    ],
+                    "before": "Ҳангоми боргирии ин саҳифа хатои ғайричашмдошт рух дод",
+                    "after": "Ҳангоми боркунии ин саҳифа хатои ғайричашмдошт рух дод",
+                    "reason": "Align the page-loading/reloading family with published Firefox Tajik usage; use the finite/passive and infinitive forms appropriate to each sentence."
+                },
+                {
+                    "keys": [
+                        "error.error.description"
+                    ],
+                    "before": "Мутаассифона, ҳангоми боргирии ин саҳифа хатои ғайричашмдошт рух дод. Барои ҳар гуна нороҳатӣ узр мехоҳем. Лутфан дертар барои дастрасӣ ба сомона кӯшиш кунед ё барои аз нав боргирӣ кардани саҳифа <a href=\"\">ин ҷоро</a> пахш кунед.",
+                    "after": "Мутаассифона, ҳангоми боркунии ин саҳифа хатои ғайричашмдошт рух дод. Барои ҳар гуна нороҳатӣ узр мехоҳем. Лутфан дертар барои дастрасӣ ба сомона кӯшиш кунед ё барои аз нав бор кардани саҳифа <a href=\"\">ин ҷоро</a> пахш кунед.",
+                    "reason": "Align the page-loading/reloading family with published Firefox Tajik usage; use the finite/passive and infinitive forms appropriate to each sentence."
+                },
+                {
+                    "keys": [
+                        "error.clienttimeout.description"
+                    ],
+                    "before": "Мутаассифона, ҳангоми боргирии ин вебсаҳифа муҳлати интизорӣ ба охир расид. Барои нороҳатие, ки ин метавонад ба вуҷуд оварда бошад, узр мехоҳем.",
+                    "after": "Мутаассифона, ҳангоми боркунии ин вебсаҳифа муҳлати интизорӣ ба охир расид. Барои нороҳатие, ки ин метавонад ба вуҷуд оварда бошад, узр мехоҳем.",
+                    "reason": "Align the page-loading/reloading family with published Firefox Tajik usage; use the finite/passive and infinitive forms appropriate to each sentence."
+                },
+                {
+                    "keys": [
+                        "error.resource.description_start"
+                    ],
+                    "before": "Мутаассифона, ҳангоми боргирии ин саҳифа хато рух дод.",
+                    "after": "Мутаассифона, ҳангоми боркунии ин саҳифа хато рух дод.",
+                    "reason": "Align the page-loading/reloading family with published Firefox Tajik usage; use the finite/passive and infinitive forms appropriate to each sentence."
+                },
+                {
+                    "keys": [
+                        "error.resource_limitrate.description_start"
+                    ],
+                    "before": "Мутаассифона, ҳангоми боргирии ин саҳифа хато рух дод.",
+                    "after": "Мутаассифона, ҳангоми боркунии ин саҳифа хато рух дод.",
+                    "reason": "Align the page-loading/reloading family with published Firefox Tajik usage; use the finite/passive and infinitive forms appropriate to each sentence."
+                },
+                {
+                    "keys": [
+                        "error.resource_limitcon.description_start"
+                    ],
+                    "before": "Мутаассифона, ҳангоми боргирии ин саҳифа хато рух дод.",
+                    "after": "Мутаассифона, ҳангоми боркунии ин саҳифа хато рух дод.",
+                    "reason": "Align the page-loading/reloading family with published Firefox Tajik usage; use the finite/passive and infinitive forms appropriate to each sentence."
+                },
+                {
+                    "keys": [
+                        "error.timeout.description"
+                    ],
+                    "before": "Мутаассифона, ҳангоми боргирии ин саҳифа муҳлати интизорӣ ба охир расид. Шояд сервер банд бошад ва ҳоло дархости шуморо коркард карда натавонад.",
+                    "after": "Мутаассифона, ҳангоми боркунии ин саҳифа муҳлати интизорӣ ба охир расид. Шояд сервер банд бошад ва ҳоло дархости шуморо коркард карда натавонад.",
+                    "reason": "Align the page-loading/reloading family with published Firefox Tajik usage; use the finite/passive and infinitive forms appropriate to each sentence."
+                }
+            ],
+            "decision": "clear",
+            "remainingConcern": "",
+            "reviewedAllStrings": true,
+            "name": "Tajik",
+            "writtenForm": "Tajik in the Cyrillic script",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "94a2730aeac0f8442bee325f503025ec3a8162109b67e7d8d799df077613a1c0"
+        },
+        {
+            "tag": "ti",
+            "originalConcern": "Tigrinya technical setup terminology and formal plural phrasing need independent review; browser/server/domain use recognizable loans.",
+            "queries": [
+                "\"Tigrinya\" \"ሰርቨር\" \"ጌጋ\"",
+                "\"ዘይቅኑዕ ውቅር\" OR \"ሰርቨር ኣይርከብን\"",
+                "\"ሰርቨር\" \"ብራውዘር\" -site:huggingface.co -site:opentran.net",
+                "\"በጃኹም\" \"መርበብ\" \"ጠውቑ\"",
+                "\"ንዝተፈጠረ\" \"ይቕሬታ\"",
+                "\"ንዝተፈጥረ\" \"ይቕሬታ\""
+            ],
+            "evidence": [
+                {
+                    "url": "https://thebha.org.uk/wp-content/uploads/2025/04/Tigrinya-SHW-Sexual-Health-leaflet.pdf",
+                    "title": "BHA: Tigrinya service-information leaflet",
+                    "matchedTerms": [
+                        "በጃኹም",
+                        "ጠውቑ",
+                        "መርበብ ሓበሬታ"
+                    ],
+                    "supports": "Published service instructions corroborate polite plural address, click instructions, website terminology and conditional contact directions. The evidence is about language usage, not the leaflet’s medical content."
+                },
+                {
+                    "url": "https://raw.githubusercontent.com/wikimedia/mediawiki/master/languages/i18n/ti.json",
+                    "title": "MediaWiki community localization: ti",
+                    "matchedTerms": [
+                        "ውሽጣዊ ጌጋ",
+                        "ዘይተፈልጠ ጌጋ"
+                    ],
+                    "supports": "Community error messages corroborate the basic error lexicon. Their informal reader address is not copied into this file’s consistently formal plural register."
+                },
+                {
+                    "url": "https://t.me/s/binyamzechristos/2681",
+                    "title": "Binyam ZeChristos: published Tigrinya schedule-change announcement",
+                    "matchedTerms": [
+                        "ንዝተፈጠረ",
+                        "ይቕሬታ ንሓትት"
+                    ],
+                    "supports": "An original announcement uses the corrected past-relative spelling in the same apology construction. This limited spelling attestation is not treated as technical-terminology authority."
+                }
+            ],
+            "findings": "Reviewed all strings against English, checking polite plural commands and possessives, timing, apology and technical setup. Corrected a repeated spelling in ten apology strings. Polite plural address is supported by a published service leaflet and is internally consistent; this part of the original flag can be retired. Exact technical-title searches were sparse, and community UI does not adequately cover configuration, protocol enablement and origin-server phrasing.",
+            "corrections": [
+                {
+                    "keys": [
+                        "challenge.sorry_inconvenience"
+                    ],
+                    "before": "ንዝተፈጥረ ጸገም ይቕሬታ ንሓትት",
+                    "after": "ንዝተፈጠረ ጸገም ይቕሬታ ንሓትት",
+                    "reason": "Correct the past relative form in the repeated apology."
+                },
+                {
+                    "keys": [
+                        "error.error.description"
+                    ],
+                    "before": "እዚ ገጽ ክጽዓን እንከሎ ዘይተጸበናዮ ጌጋ ብምግጣሙ ንሓዝን። ንዝተፈጥረ ጸገም ይቕሬታ ንሓትት። በጃኹም ጸኒሕኩም ናብቲ መርበብ ንምእታው ፈትኑ፣ ወይ ነቲ ገጽ እንደገና ንምጽዓን <a href=\"\">ኣብዚ</a> ጠውቑ።",
+                    "after": "እዚ ገጽ ክጽዓን እንከሎ ዘይተጸበናዮ ጌጋ ብምግጣሙ ንሓዝን። ንዝተፈጠረ ጸገም ይቕሬታ ንሓትት። በጃኹም ጸኒሕኩም ናብቲ መርበብ ንምእታው ፈትኑ፣ ወይ ነቲ ገጽ እንደገና ንምጽዓን <a href=\"\">ኣብዚ</a> ጠውቑ።",
+                    "reason": "Correct the past relative form in the repeated apology."
+                },
+                {
+                    "keys": [
+                        "error.suspended.description"
+                    ],
+                    "before": "እቲ ክትበጽሕዎ እትፍትኑ መርበብ ሓበሬታ ብዘይምርካቡ ንሓዝን። ንዝተፈጥረ ጸገም ይቕሬታ ንሓትት። ናይዚ መርበብ <strong>ዋና</strong> እንተኾይንኩም፣ በጃኹም <a href=\"https://www.x4b.net/support\">ንክፍሊ ደገፍ ተወከሱ</a>።",
+                    "after": "እቲ ክትበጽሕዎ እትፍትኑ መርበብ ሓበሬታ ብዘይምርካቡ ንሓዝን። ንዝተፈጠረ ጸገም ይቕሬታ ንሓትት። ናይዚ መርበብ <strong>ዋና</strong> እንተኾይንኩም፣ በጃኹም <a href=\"https://www.x4b.net/support\">ንክፍሊ ደገፍ ተወከሱ</a>።",
+                    "reason": "Correct the past relative form in the repeated apology."
+                },
+                {
+                    "keys": [
+                        "error.over_bandwidth.description"
+                    ],
+                    "before": "እቲ ክትበጽሕዎ እትፍትኑ መርበብ ሓበሬታ ብዘይምርካቡ ንሓዝን። ንዝተፈጥረ ጸገም ይቕሬታ ንሓትት። ናይዚ መርበብ <strong>ዋና</strong> እንተኾይንኩም፣ በጃኹም <a href=\"https://www.x4b.net/\">ንክፍሊ ደገፍ ተወከሱ</a>።",
+                    "after": "እቲ ክትበጽሕዎ እትፍትኑ መርበብ ሓበሬታ ብዘይምርካቡ ንሓዝን። ንዝተፈጠረ ጸገም ይቕሬታ ንሓትት። ናይዚ መርበብ <strong>ዋና</strong> እንተኾይንኩም፣ በጃኹም <a href=\"https://www.x4b.net/\">ንክፍሊ ደገፍ ተወከሱ</a>።",
+                    "reason": "Correct the past relative form in the repeated apology."
+                },
+                {
+                    "keys": [
+                        "error.backend.description"
+                    ],
+                    "before": "እቲ ናይ መበቆል ሰርቨር ንግዚኡ ኣይርከብን፣ ስለዚ ነዚ ሕቶ ከተኣናግድ ኣይክእልን። ንዝተፈጥረ ጸገም ይቕሬታ ንሓትት።",
+                    "after": "እቲ ናይ መበቆል ሰርቨር ንግዚኡ ኣይርከብን፣ ስለዚ ነዚ ሕቶ ከተኣናግድ ኣይክእልን። ንዝተፈጠረ ጸገም ይቕሬታ ንሓትት።",
+                    "reason": "Correct the past relative form in the repeated apology."
+                },
+                {
+                    "keys": [
+                        "error.upstream.description"
+                    ],
+                    "before": "ኣብዚ ግዜ ነዚ ሕቶ ንምትእንጋድ ብመርበብ ዝተራኸበን ድሉው ዝኾነን ሰርቨር የለን። ንዝተፈጥረ ጸገም ይቕሬታ ንሓትት።",
+                    "after": "ኣብዚ ግዜ ነዚ ሕቶ ንምትእንጋድ ብመርበብ ዝተራኸበን ድሉው ዝኾነን ሰርቨር የለን። ንዝተፈጠረ ጸገም ይቕሬታ ንሓትት።",
+                    "reason": "Correct the past relative form in the repeated apology."
+                },
+                {
+                    "keys": [
+                        "error.invalid_configuration.description"
+                    ],
+                    "before": "ብሰንኪ ጌጋ ኣብ ምድላው፣ ነዚ ሕቶ ከነተኣናግድ ኣይንኽእልን። ንዝተፈጥረ ጸገም ይቕሬታ ንሓትት።",
+                    "after": "ብሰንኪ ጌጋ ኣብ ምድላው፣ ነዚ ሕቶ ከነተኣናግድ ኣይንኽእልን። ንዝተፈጠረ ጸገም ይቕሬታ ንሓትት።",
+                    "reason": "Correct the past relative form in the repeated apology."
+                },
+                {
+                    "keys": [
+                        "error.resource.description_end"
+                    ],
+                    "before": "ንዝተፈጥረ ጸገም ይቕሬታ ንሓትት።",
+                    "after": "ንዝተፈጠረ ጸገም ይቕሬታ ንሓትት።",
+                    "reason": "Correct the past relative form in the repeated apology."
+                },
+                {
+                    "keys": [
+                        "error.resource_limitrate.description_end"
+                    ],
+                    "before": "ንዝተፈጥረ ጸገም ይቕሬታ ንሓትት።",
+                    "after": "ንዝተፈጠረ ጸገም ይቕሬታ ንሓትት።",
+                    "reason": "Correct the past relative form in the repeated apology."
+                },
+                {
+                    "keys": [
+                        "error.resource_limitcon.description_end"
+                    ],
+                    "before": "ንዝተፈጥረ ጸገም ይቕሬታ ንሓትት።",
+                    "after": "ንዝተፈጠረ ጸገም ይቕሬታ ንሓትት።",
+                    "reason": "Correct the past relative form in the repeated apology."
+                }
+            ],
+            "decision": "retain",
+            "remainingConcern": "Formal plural address and basic error/website terminology are corroborated. Technical configuration, protocol-enablement and long origin-server/load phrasing remain insufficiently supported.",
+            "reviewedAllStrings": true,
+            "name": "Tigrinya",
+            "writtenForm": "Standard written Tigrinya",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "a27d2524bcecd8500c3b94cca1e76c2ae05dce7dd363647dcc6625ba9381425a"
+        },
+        {
+            "tag": "tk",
+            "originalConcern": "Meaning checked; loanword choices and morphology deserve additional review.",
+            "queries": [
+                "\"Nädogry haýyş\" OR \"Serwer elýeterli däl\"",
+                "\"serwer\" \"sazlamalar\" Türkmen",
+                "\"Haýyşyň\" \"serwer\"",
+                "\"Giriş ret edildi\" Türkmen"
+            ],
+            "evidence": [
+                {
+                    "url": "https://raw.githubusercontent.com/wikimedia/mediawiki/master/languages/i18n/tk.json",
+                    "title": "MediaWiki Turkmen interface messages",
+                    "matchedTerms": [
+                        "elýeterli däl",
+                        "gaýtadan synanyşyň",
+                        "serwerler hetdenaşa işli"
+                    ],
+                    "supports": "Full service-unavailable, overload, timeout, retry, invalid-action and maintenance messages corroborate the grammar of the operational clauses."
+                },
+                {
+                    "url": "https://download4.epson.biz/sec_pubs/et-5800_series/useg/tk/GUID-9487D338-5D7E-4CF6-8554-40C458852A22.htm",
+                    "title": "Epson Turkmen user guide: error codes in the status menu",
+                    "matchedTerms": [
+                        "sazlamalaryny barlaň",
+                        "näsazlyk ýüze çykdy",
+                        "Biraz garaşyp synanyşyň"
+                    ],
+                    "supports": "Manufacturer documentation corroborates connected error explanations, polite imperatives, server/configuration and connection morphology."
+                },
+                {
+                    "url": "https://turkmenportal.com/tm/articles/467",
+                    "title": "Turkmenportal: protecting home Wi-Fi",
+                    "matchedTerms": [
+                        "IP salgylary",
+                        "DHCP serwer"
+                    ],
+                    "supports": "Native technical reporting corroborates the inflection of address and server vocabulary, rather than relying only on translation catalogs."
+                }
+            ],
+            "findings": "Rechecked all Latin-script Turkmen vowels/diacritics, suffixes on technical nouns, polite instructions and conditional/error clauses. MediaWiki supplies matching operational constructions, while Epson’s manual and native technical reporting corroborate their register and morphology. Exact whole-title searches alone were mostly unproductive; no unsupported claim of an exact full-sentence match is made. No wording change was necessary.",
+            "corrections": [],
+            "decision": "clear",
+            "remainingConcern": "",
+            "reviewedAllStrings": true,
+            "name": "Turkmen",
+            "writtenForm": "Turkmen in the Latin script",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "c25d76937959928960c94d00eebefc3ad8f481724bd3fccebe5a1e97263ede1e"
+        },
+        {
+            "tag": "ug",
+            "originalConcern": "Meaning reviewed directly against English, with lower certainty about full idiomatic fluency and local technical terminology than the strongest languages.",
+            "queries": [
+                "\"كىرىش رەت قىلىندى\" \"مۇلازىمېتىر\"",
+                "\"ئىناۋەتسىز سەپلىمە\"",
+                "\"تىزىملانمىغان\" \"دائىرە\"",
+                "\"قوللىمايدىغان\" \"ئۇسۇل\""
+            ],
+            "evidence": [
+                {
+                    "url": "https://raw.githubusercontent.com/wikimedia/mediawiki/master/languages/i18n/ug-arab.json",
+                    "title": "MediaWiki community localization: ug-arab",
+                    "matchedTerms": [
+                        "مۇلازىمېتىر",
+                        "دائىرە",
+                        "قوزغىتىلمىغان"
+                    ],
+                    "supports": "The community Arabic-script Uyghur localization provides detailed permission, server-load, browser, disabled-feature, domain and request messages, supporting the chosen technical register and connected grammar."
+                },
+                {
+                    "url": "https://raw.githubusercontent.com/GNOME/gtk/main/po/ug.po",
+                    "title": "GTK Uyghur translation, Uyghur Computer Science Association",
+                    "matchedTerms": [
+                        "قوللىمايدىغان كودلاش",
+                        "ئىناۋەتسىز",
+                        "سەپلىمىسى",
+                        "مۇلازىمېتىر ئادرېسى"
+                    ],
+                    "supports": "A credited Uyghur localization independently corroborates unsupported/invalid expressions, configuration, server-address terminology and error syntax."
+                },
+                {
+                    "url": "https://raw.githubusercontent.com/GNOME/libnma/main/po/ug.po",
+                    "title": "GNOME libnma Uyghur translation",
+                    "matchedTerms": [
+                        "تىزىملانمىغان",
+                        "سەپلەنگەن"
+                    ],
+                    "supports": "Published network configuration messages attest the passive negative registration/listing morphology and configured-state forms; only non-fuzzy, semantically relevant entries are used."
+                }
+            ],
+            "findings": "Reviewed all 63 strings for Arabic-script orthography, formal reader instructions, technical register and English meaning. Corrected the domain registration clause from an active/causative negative to a passive negative. Community UI and a separately credited GNOME translation cover browser, server, request, permissions, configuration, protocol and supported/enabled distinctions. Full-file review found no unresolved idiomatic or terminology issue warranting the original broad flag.",
+            "corrections": [
+                {
+                    "keys": [
+                        "error.unknown_domain.description"
+                    ],
+                    "before": "بۇ دائىرە بۇ IP ئادرېسىغا تىزىملاتمىغان.",
+                    "after": "بۇ دائىرە بۇ IP ئادرېسىغا تىزىملانمىغان.",
+                    "reason": "Use the passive negative for a domain not registered to an address, rather than an agent that did not register."
+                }
+            ],
+            "decision": "clear",
+            "remainingConcern": "",
+            "reviewedAllStrings": true,
+            "name": "Uyghur",
+            "writtenForm": "Uyghur in the Arabic script",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "9cd63a66f98d15373ca2949c288b8c33672fa3ad6e4ee8b8b0c34e90f3c95af3"
+        },
+        {
+            "tag": "wo",
+            "originalConcern": "Wolof technical prose remains lower-confidence. Browser/server terms were checked against existing native UI; domain/protocol use explicit French-origin loans rather than fabricated terms.",
+            "queries": [
+                "\"Wolof\" \"joxekaay\" \"Njuumte\"",
+                "\"joowukaay\" \"laaj\" -site:bootstrap21.org -site:apt-browse.org",
+                "\"njoomte\" \"joxekaay\" OR \"njuumte\" \"samp\" Wolof",
+                "\"Wolof\" \"sañ-sañ\" \"jéemaat\""
+            ],
+            "evidence": [
+                {
+                    "url": "https://raw.githubusercontent.com/wikimedia/mediawiki/master/languages/i18n/wo.json",
+                    "title": "MediaWiki community localization: wo",
+                    "matchedTerms": [
+                        "joxekaay",
+                        "joowukaay",
+                        "sañ-sañ",
+                        "jéemaat",
+                        "Njuumte gu biir"
+                    ],
+                    "supports": "Community UI supplies actual overloaded-server, browser-cache, permission-denial, session-retry and error sentences. It corroborates the selected browser/server nouns and several request/imperative patterns rather than merely listing equivalents."
+                }
+            ],
+            "findings": "Reviewed all strings, including negation, reader pronouns, noun-class agreement, loans and conditional instructions. Existing browser/server terms and access/retry vocabulary have native UI precedent. Independent keyword searching mostly returned mirrors of the same MediaWiki material or automatic-translation pages; those were not counted as separate confirmation. Preserve the transparent domain/protocol loans. The remaining uncertainty is in longer technical clauses, not the core browser/server lexicon.",
+            "corrections": [],
+            "decision": "retain",
+            "remainingConcern": "Long setup, protocol-enablement and origin-server/load clauses, including their noun-class agreement, still require stronger sentence-level support. Basic browser/server, permissions and retry terms are corroborated.",
+            "reviewedAllStrings": true,
+            "name": "Wolof",
+            "writtenForm": "Wolof in the Latin script",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "f336e413df9890a3f3dc72d62f04a0a577d2dd4bd64fe5b2241c9a6f40c4833d"
+        },
+        {
+            "tag": "xh",
+            "originalConcern": "Meaning checked; loanword choices and morphology deserve additional review.",
+            "queries": [
+                "\"Iseva ayifumaneki\" OR \"Ufikelelo lwaliwe\"",
+                "\"Ufikelelo lwaliwe\" site:github.com",
+                "\"isikhangeli\" \"ayifumaneki\" site:gnome.org",
+                "\"isikhangeli\" \"impazamo\" site:support.google.com",
+                "\"isikhangeli\" \"impazamo\" site:jw.org",
+                "\"Ufikelelo\" \"lwaliwe\"",
+                "\"kusebenza ngeyona ndlela\" isiXhosa",
+                "\"ngeyona ndlela ilungileyo\" site:gov.za"
+            ],
+            "evidence": [
+                {
+                    "url": "https://raw.githubusercontent.com/mozilla-l10n/firefox-l10n/main/xh/toolkit/toolkit/neterror/netError.ftl",
+                    "title": "Mozilla Firefox Xhosa network errors",
+                    "matchedTerms": [
+                        "ulayishe ngokutsha",
+                        "iseva",
+                        "ufikelelo",
+                        "Qhagamshelana nomlawuli"
+                    ],
+                    "supports": "Primary browser error messages corroborate temporary unavailability/busy-server wording, reload, permission, contact-administrator constructions and server noun agreement. Did not import unrelated or imperfect upstream sentences."
+                },
+                {
+                    "url": "https://d7.westerncape.gov.za/assets/mmcdedat_paia_manual_isixhosa_revised_for_2023.pdf",
+                    "title": "Western Cape government Xhosa access-to-information manual",
+                    "matchedTerms": [
+                        "ufikelelo lwaliwe",
+                        "isicelo sam"
+                    ],
+                    "supports": "Independently published administrative prose directly attests denied access and request constructions. It supports grammatical agreement rather than HTTP-specific meaning."
+                },
+                {
+                    "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=mdW6VjDDfXg%3D&mid=14088&portalid=0&tabid=5383",
+                    "title": "South African Department of Basic Education Xhosa workbook",
+                    "matchedTerms": [
+                        "ngeyona ndlela ilungileyo"
+                    ],
+                    "supports": "The workbook attests the best-manner superlative, supporting the clarified JavaScript sentence. Indexed excerpt inspected."
+                }
+            ],
+            "findings": "Reviewed all 63 messages. Published browser errors cover the same error, request, availability, permission and administrator-contact grammar, while government prose independently attests the denied-access construction. Restored an explicit best qualifier. Existing server noun agreement and technical loan morphology are consistent with the external usage. This resolves the original general loanword/morphology flag, without certifying every sentence as native-reviewed.",
+            "corrections": [
+                {
+                    "keys": [
+                        "challenge.enable_javascript"
+                    ],
+                    "before": "Ukuqinisekiswa kwesikhangeli kusebenza ngcono xa i-JavaScript ivuliwe.",
+                    "after": "Ukuqinisekiswa kwesikhangeli kusebenza ngeyona ndlela ilungileyo xa i-JavaScript ivuliwe.",
+                    "reason": "Full source review found good/better in place of best. Restored the superlative while keeping JavaScript optional and preserving the identifier. Published lexical/grammatical parallels are recorded in the evidence; the complete sentence is original."
+                }
+            ],
+            "decision": "clear",
+            "remainingConcern": "",
+            "reviewedAllStrings": true,
+            "name": "Xhosa",
+            "writtenForm": "Standard isiXhosa",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "0aaaa9be904dd798108171f69606da32aa642d9ee6667cc19c7dd9ead03b08eb"
+        },
+        {
+            "tag": "yo",
+            "originalConcern": "Tone marks and technical idiom merit review; identified question syntax and owner terminology were corrected.",
+            "queries": [
+                "\"Àṣìṣe\" \"aṣàwákiri\"",
+                "\"olupin\" \"aṣàwákiri\" site:github.com",
+                "\"A ń ṣàyẹ̀wò\" \"ìbéèrè\"",
+                "\"àṣìṣe\" \"olupin\" site:yo.wikipedia.org",
+                "\"ṣèbẹ̀wò\" Yoruba",
+                "\"sẹpẹ́\" Yoruba"
+            ],
+            "evidence": [
+                {
+                    "url": "https://github.com/wikimedia/mediawiki/blob/master/languages/i18n/yo.json",
+                    "title": "MediaWiki yo community localization",
+                    "matchedTerms": [
+                        "Àṣìṣe ìyọ̀nda",
+                        "Àkókò ìtọrọ",
+                        "ìbéèrè",
+                        "ẹ",
+                        "yín"
+                    ],
+                    "supports": "badaccess, timeouterror-text, nonwrite-api-promise-error, permissionserrorstext and sessionfailure support error, permission, elapsed request time, request and respectful plural address. Downloaded the upstream raw JSON and inspected the keyed messages, including contributor metadata; source strings were not copied wholesale."
+                },
+                {
+                    "url": "https://wol.jw.org/yo/wol/d/r36/lp-yr/202008083",
+                    "title": "Watchtower Yoruba: Àpótí Ìbéèrè",
+                    "matchedTerms": [
+                        "ṣèbẹ̀wò",
+                        "ìbéèrè"
+                    ],
+                    "supports": "Publisher prose corroborates the visit verb spelling and respectful instruction patterns; that spelling was retained."
+                },
+                {
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/A_vocabulary_of_the_Yoruba_language.pdf",
+                    "title": "A vocabulary of the Yoruba language, page 263",
+                    "matchedTerms": [
+                        "Se-tán"
+                    ],
+                    "supports": "The dictionary glosses the verb as ready/completed, supporting replacement of the uncorroborated readiness expression in the upstream explanation. Historical orthography was not copied as a modern spelling standard."
+                }
+            ],
+            "findings": "All 63 strings reviewed. Permission, request timeout, respectful address and visit wording have published support. Fixed the uncorroborated readiness expression. Search matches for browser/server/protocol phrasing were mostly apparent automated commercial localizations; they do not establish modern tone-mark accuracy or technical idiom throughout the file.",
+            "corrections": [
+                {
+                    "keys": [
+                        "error.upstream.description"
+                    ],
+                    "before": "Kò sí olupin tó wà lórí ayélujára tí ó sì wà ní sẹpẹ́ láti bójú tó ìbéèrè yìí báyìí. Ẹ má bínú fún ìdààmú èyíkéyìí.",
+                    "after": "Kò sí olupin tó wà lórí ayélujára tí ó sì ti ṣetán láti bójú tó ìbéèrè yìí báyìí. Ẹ má bínú fún ìdààmú èyíkéyìí.",
+                    "reason": "Replace unattested readiness expression with the dictionary-attested ready/completed verb; other technical idiom and tone review remains open."
+                }
+            ],
+            "decision": "retain",
+            "remainingConcern": "Narrowed to modern tone marks and browser/server/protocol idiom; permission, timeout and respectful-address constructions are corroborated, and the readiness expression was corrected.",
+            "reviewedAllStrings": true,
+            "name": "Yoruba",
+            "writtenForm": "Standard Yoruba",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "b67445b55a6e02ed70e5dcefe6a0c2b99f2f8dbfdf7edaacc77552427cb051c6"
+        },
+        {
+            "tag": "zu",
+            "originalConcern": "Meaning reviewed directly against English, with lower certainty about full idiomatic fluency and local technical terminology than the strongest languages.",
+            "queries": [
+                "\"Ukufinyelela kunqatshiwe\" OR \"Iseva ayitholakali\"",
+                "\"Ukufinyelela kunqatshiwe\" site:github.com",
+                "\"isiphequluli\" \"iseva\" site:mozilla.org",
+                "\"isiphequluli\" \"iphutha\" site:support.google.com",
+                "\"isiphequluli\" \"JavaScript\" site:support.google.com"
+            ],
+            "evidence": [
+                {
+                    "url": "https://raw.githubusercontent.com/mozilla-l10n/firefox-l10n/main/zu/toolkit/toolkit/neterror/netError.ftl",
+                    "title": "Mozilla Firefox Zulu network errors",
+                    "matchedTerms": [
+                        "ayitholakali okwesikhashana",
+                        "iseva",
+                        "Sicela uxhumane",
+                        "isicelo"
+                    ],
+                    "supports": "Primary error messages corroborate unavailability, busy-server and retry wording, server/request agreement, administrator contact and website-owner constructions. Several complete operational patterns were checked; imperfect unrelated upstream wording was not copied."
+                },
+                {
+                    "url": "https://support.google.com/googleplay/android-developer/answer/9061737?hl=zu",
+                    "title": "Google Play Console published Zulu troubleshooting help",
+                    "matchedTerms": [
+                        "Iphutha uma kulayishwa",
+                        "yesiphequluli sakho"
+                    ],
+                    "supports": "The provider uses the same browser noun, its possessive agreement and loading-error terminology in actual software troubleshooting. Indexed article inspected; direct fetch timed out. This is published help text, not output from a translation service."
+                }
+            ],
+            "findings": "Reviewed all 63 messages. Browser error catalog and provider troubleshooting prose cover the main technical vocabulary and connected grammatical patterns. Existing browser/server/request noun agreement, excessive-request wording, lack of transport security, and tentative maintenance wording remain defensible. The prior Zulu load-adjective correction is consistent with the current review. No further string change needed; the broad fluency/terminology flag can be cleared.",
+            "corrections": [],
+            "decision": "clear",
+            "remainingConcern": "",
+            "reviewedAllStrings": true,
+            "name": "Zulu",
+            "writtenForm": "Standard isiZulu",
+            "originalReviewPriority": "additional-fluency-review",
+            "reviewedFileSha256": "2e66c09968be6a9d1f79d6b1c0f00cca7a7e2a74694eb981809b713969f0b508"
+        }
+    ]
+}

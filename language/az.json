@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Bu proses avtomatikdir. Tezliklə istədiyiniz ünvana yönləndiriləcəksiniz.",
+        "validate_browser": "{http_host} ünvanına daxil olmamışdan əvvəl brauzeriniz yoxlanılır",
+        "are_you_human_host": "İnsansınız? {http_host} ünvanına daxil olmaq üçün yoxlama tələb olunur",
+        "are_you_human": "İnsansınız? Davam etmək üçün yoxlama tələb olunur",
+        "enter_captcha_host": "{http_host} ünvanına keçmək üçün aşağıdakı CAPTCHA-nı daxil edin:",
+        "enter_captcha": "Davam etmək üçün aşağıdakı CAPTCHA-nı daxil edin:",
+        "submit": "Göndər",
+        "try_again_later": "Bu veb-saytın yüklənməsi həmişəkindən daha çox vaxt aparır. Daha sonra <a href=\"\">yenidən cəhd edə bilərsiniz</a>",
+        "unexpected_error": "Görünür, gözlənilməz xəta baş verib. Daha sonra <a href=\"\">yenidən cəhd edin</a>",
+        "validation_complete": "<strong>Yoxlama tamamlandı</strong>. İndi istədiyiniz ünvana yönləndirilirsiniz. Səhifə yenidən yüklənməsə, <a href=\"\">buraya</a> klikləyin.",
+        "enable_javascript": "Brauzer yoxlaması JavaScript aktiv olduqda daha yaxşı işləyir.",
+        "abnormal_activity": "Qeyri-adi fəaliyyət səbəbindən davam etmək üçün aşağıdakı tapşırığı yerinə yetirməlisiniz",
+        "sorry_inconvenience": "Yaranan narahatlığa görə üzr istəyirik",
+        "verifying": "Yoxlanılır"
+    },
+    "error": {
+        "default": {
+            "error_loading": "{host} yüklənərkən xəta baş verdi",
+            "refresh_text": "Sayta daha sonra daxil olmağa çalışın və ya səhifəni yenidən yükləmək üçün <a href=\"\">buraya</a> klikləyin.",
+            "unexpected_error": "Bu səhifə yüklənərkən gözlənilməz xəta baş verdi",
+            "possible_causes": "Mümkün səbəblər: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Veb-sayt əlçatan deyil",
+            "description": "Təəssüf ki, bu səhifə yüklənərkən gözlənilməz xəta baş verdi. Yaranan narahatlığa görə üzr istəyirik. Sayta daha sonra daxil olmağa çalışın və ya səhifəni yenidən yükləmək üçün <a href=\"\">buraya</a> klikləyin."
+        },
+        "suspended": {
+            "title": "Veb-saytın fəaliyyəti dayandırılıb",
+            "description": "Təəssüf ki, daxil olmaq istədiyiniz veb-sayt əlçatan deyil. Yaranan narahatlığa görə üzr istəyirik. Bu veb-saytın <strong>sahibisinizsə</strong>, <a href=\"https://www.x4b.net/support\">dəstək xidməti ilə əlaqə saxlayın</a>."
+        },
+        "over_bandwidth": {
+            "title": "Veb-saytın fəaliyyəti dayandırılıb",
+            "description": "Təəssüf ki, daxil olmaq istədiyiniz veb-sayt əlçatan deyil. Yaranan narahatlığa görə üzr istəyirik. Bu veb-saytın <strong>sahibisinizsə</strong>, <a href=\"https://www.x4b.net/\">dəstək xidməti ilə əlaqə saxlayın</a>."
+        },
+        "backend": {
+            "title": "Server əlçatan deyil",
+            "description": "Mənbə serveri müvəqqəti olaraq əlçatan deyil və buna görə bu sorğunu emal edə bilmir. Yaranan narahatlığa görə üzr istəyirik.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Sorğunun vaxt limiti bitdi",
+            "description": "Təəssüf ki, bu veb-səhifə yüklənərkən vaxt limiti bitdi. Bunun yaratdığı narahatlığa görə üzr istəyirik.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Giriş rədd edildi",
+            "description": "Bu səhifəyə daxil olmaq üçün icazəniz yoxdur. Bunun səhv olduğunu düşünürsünüzsə, veb-saytın administratoru ilə əlaqə saxlayın."
+        },
+        "upstream": {
+            "title": "Server əlçatan deyil",
+            "description": "Hazırda bu sorğunu emal etmək üçün onlayn və əlçatan server yoxdur. Yaranan narahatlığa görə üzr istəyirik."
+        },
+        "invalid_configuration": {
+            "title": "Yanlış konfiqurasiya",
+            "description": "Konfiqurasiya xətasına görə bu sorğunu emal edə bilmirik. Yaranan narahatlığa görə üzr istəyirik."
+        },
+        "resource": {
+            "title": "Giriş xətası",
+            "description_start": "Təəssüf ki, bu səhifə yüklənərkən xəta baş verdi.",
+            "cause_list": [
+                "Mənbə serverində gözlənilməz yüksək yük var və hazırda sorğuları emal edə bilmir",
+                "Mənbə serverində və ya məlumatların ötürülməsi zamanı gözlənilməz xəta baş verdi"
+            ],
+            "description_end": "Yaranan narahatlığa görə üzr istəyirik.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Giriş xətası",
+            "description_start": "Təəssüf ki, bu səhifə yüklənərkən xəta baş verdi.",
+            "cause_list": [
+                "IP ünvanınızdan serverə həddindən artıq çox sorğu göndərildiyi aşkar edilib",
+                "Mənbə serverində gözlənilməz yüksək yük var və hazırda sorğuları emal edə bilmir",
+                "Mənbə serverində və ya məlumatların ötürülməsi zamanı gözlənilməz xəta baş verdi"
+            ],
+            "description_end": "Yaranan narahatlığa görə üzr istəyirik.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Giriş xətası",
+            "description_start": "Təəssüf ki, bu səhifə yüklənərkən xəta baş verdi.",
+            "cause_list": [
+                "IP ünvanınızdan serverə qeyri-adi sayda bağlantı var",
+                "Mənbə serverində gözlənilməz yüksək yük var və hazırda sorğuları emal edə bilmir",
+                "Mənbə serverində və ya məlumatların ötürülməsi zamanı gözlənilməz xəta baş verdi"
+            ],
+            "description_end": "Yaranan narahatlığa görə üzr istəyirik.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Yanlış sorğu",
+            "description": "Bu veb-sayta HTTPS vasitəsilə daxil olmaq mümkündür. Siz HTTP vasitəsilə qoşulmağa cəhd etmisiniz. İndi sizi yönləndirməyə çalışacağıq. Yönləndirilməsəniz, URL ünvanınızın əvvəlinə https:// əlavə edib yenidən cəhd edin."
+        },
+        "timeout": {
+            "title": "Server əlçatan deyil",
+            "description": "Təəssüf ki, bu səhifə yüklənərkən vaxt limiti bitdi. Server məşğul ola bilər və hazırda sorğunuzu emal edə bilməyə bilər.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Naməlum domen",
+            "description": "Bu domen bu IP ünvanı üçün qeydiyyata alınmayıb.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Dəstəklənməyən metod",
+            "description": "Tələb olunan HTTP metodu bu veb-sayt üçün aktiv deyil.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Təhlükəsiz olmayan sorğu",
+            "description": "Tələb olunan HTTPS protokolu bu veb-sayt üçün aktiv deyil. Brauzerinizi yeniləyin.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Texniki xidmət üçün oflayndır",
+            "description": "Bu veb-sayt hazırda əlçatan deyil. Tezliklə yenidən əlçatan olması gözlənilir.",
+            "refresh_enable": true
+        }
+    }
+}

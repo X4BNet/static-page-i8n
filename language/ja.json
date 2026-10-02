@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "この処理は自動で行われます。まもなく目的のページに移動します。",
+        "validate_browser": "{http_host} にアクセスする前にブラウザーを確認しています",
+        "are_you_human_host": "人間であることを確認してください。{http_host} にアクセスするには認証が必要です",
+        "are_you_human": "人間であることを確認してください。続行するには認証が必要です",
+        "enter_captcha_host": "{http_host} に進むには、下の CAPTCHA を入力してください:",
+        "enter_captcha": "続行するには、下の CAPTCHA を入力してください:",
+        "submit": "送信",
+        "try_again_later": "このウェブサイトの読み込みに通常より時間がかかっています。しばらくしてから<a href=\"\">もう一度お試しください</a>",
+        "unexpected_error": "予期しないエラーが発生したようです。しばらくしてから<a href=\"\">もう一度お試しください</a>",
+        "validation_complete": "<strong>認証が完了しました</strong>。目的のページに移動しています。ページが再読み込みされない場合は、<a href=\"\">こちら</a>をクリックしてください。",
+        "enable_javascript": "ブラウザーの確認は、JavaScript を有効にするとより適切に動作します。",
+        "abnormal_activity": "通常とは異なる動作が検出されたため、続行するには下の操作を完了してください",
+        "sorry_inconvenience": "ご不便をおかけして申し訳ありません",
+        "verifying": "確認中"
+    },
+    "error": {
+        "default": {
+            "error_loading": "{host} の読み込み中にエラーが発生しました",
+            "refresh_text": "しばらくしてからサイトにアクセスするか、<a href=\"\">こちら</a>をクリックしてページを再読み込みしてください。",
+            "unexpected_error": "このページの読み込み中に予期しないエラーが発生しました",
+            "possible_causes": "考えられる原因: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "ウェブサイトを利用できません",
+            "description": "このページの読み込み中に予期しないエラーが発生しました。ご不便をおかけして申し訳ありません。しばらくしてからサイトにアクセスするか、<a href=\"\">こちら</a>をクリックしてページを再読み込みしてください。"
+        },
+        "suspended": {
+            "title": "ウェブサイトは停止されています",
+            "description": "アクセスしようとしているウェブサイトは利用できません。ご不便をおかけして申し訳ありません。このウェブサイトの<strong>所有者</strong>の方は、<a href=\"https://www.x4b.net/support\">サポートにお問い合わせください</a>。"
+        },
+        "over_bandwidth": {
+            "title": "ウェブサイトは停止されています",
+            "description": "アクセスしようとしているウェブサイトは利用できません。ご不便をおかけして申し訳ありません。このウェブサイトの<strong>所有者</strong>の方は、<a href=\"https://www.x4b.net/\">サポートにお問い合わせください</a>。"
+        },
+        "backend": {
+            "title": "サーバーを利用できません",
+            "description": "オリジンサーバーが一時的に利用できないため、このリクエストを処理できません。ご不便をおかけして申し訳ありません。",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "リクエストがタイムアウトしました",
+            "description": "このウェブページの読み込み中に待機時間の上限を超えました。ご不便をおかけして申し訳ありません。",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "アクセスが拒否されました",
+            "description": "このページにアクセスする権限がありません。これが誤りと思われる場合は、ウェブサイトの管理者にお問い合わせください。"
+        },
+        "upstream": {
+            "title": "サーバーを利用できません",
+            "description": "現在、このリクエストを処理できるオンラインのサーバーがありません。ご不便をおかけして申し訳ありません。"
+        },
+        "invalid_configuration": {
+            "title": "設定が無効です",
+            "description": "設定エラーのため、このリクエストを処理できません。ご不便をおかけして申し訳ありません。"
+        },
+        "resource": {
+            "title": "アクセスエラー",
+            "description_start": "このページの読み込み中にエラーが発生しました。",
+            "cause_list": [
+                "オリジンサーバーに予期しない負荷がかかっており、現在リクエストを処理できません",
+                "オリジンサーバーまたは通信経路で予期しないエラーが発生しました"
+            ],
+            "description_end": "ご不便をおかけして申し訳ありません。",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "アクセスエラー",
+            "description_start": "このページの読み込み中にエラーが発生しました。",
+            "cause_list": [
+                "お使いの IP アドレスからサーバーに過剰な数のリクエストが送信されていることが検出されました",
+                "オリジンサーバーに予期しない負荷がかかっており、現在リクエストを処理できません",
+                "オリジンサーバーまたは通信経路で予期しないエラーが発生しました"
+            ],
+            "description_end": "ご不便をおかけして申し訳ありません。",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "アクセスエラー",
+            "description_start": "このページの読み込み中にエラーが発生しました。",
+            "cause_list": [
+                "お使いの IP アドレスからサーバーへの接続数が通常の範囲を超えています",
+                "オリジンサーバーに予期しない負荷がかかっており、現在リクエストを処理できません",
+                "オリジンサーバーまたは通信経路で予期しないエラーが発生しました"
+            ],
+            "description_end": "ご不便をおかけして申し訳ありません。",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "不正なリクエスト",
+            "description": "このウェブサイトは HTTPS でアクセスできます。HTTP で接続を試みたため、リダイレクトを試みます。リダイレクトされない場合は、URL の先頭に https:// を追加して、もう一度お試しください。"
+        },
+        "timeout": {
+            "title": "サーバーを利用できません",
+            "description": "このページの読み込み中に待機時間の上限を超えました。サーバーが混雑しており、現在リクエストを処理できない可能性があります。",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "不明なドメイン",
+            "description": "このドメインは、この IP アドレスに登録されていません。",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "対応していないメソッド",
+            "description": "リクエストされた HTTP メソッドは、このウェブサイトでは有効になっていません。",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "安全でないリクエスト",
+            "description": "リクエストされた HTTPS プロトコルは、このウェブサイトでは有効になっていません。ブラウザーを更新してください。",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "メンテナンスのため停止中",
+            "description": "このウェブサイトは現在利用できません。まもなく再び利用できるようになる見込みです。",
+            "refresh_enable": true
+        }
+    }
+}

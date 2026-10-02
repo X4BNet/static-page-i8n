@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Questa procedura è automatica. Tra poco verrai reindirizzato alla destinazione desiderata.",
+        "validate_browser": "Verifica del browser in corso prima di accedere a {http_host}",
+        "are_you_human_host": "Sei una persona? È necessaria una verifica per accedere a {http_host}",
+        "are_you_human": "Sei una persona? È necessaria una verifica per continuare",
+        "enter_captcha_host": "Inserisci il CAPTCHA qui sotto per proseguire verso {http_host}:",
+        "enter_captcha": "Inserisci il CAPTCHA qui sotto per continuare:",
+        "submit": "Invia",
+        "try_again_later": "Il caricamento di questo sito sta richiedendo più tempo del solito. Puoi <a href=\"\">riprovare</a> più tardi",
+        "unexpected_error": "Sembra che si sia verificato un errore imprevisto. <a href=\"\">Riprova</a> più tardi",
+        "validation_complete": "<strong>Verifica completata</strong>. Ora verrai reindirizzato alla destinazione desiderata. Fai clic <a href=\"\">qui</a> se la pagina non si ricarica.",
+        "enable_javascript": "La verifica del browser funziona meglio con JavaScript abilitato.",
+        "abnormal_activity": "A causa di un’attività insolita, devi completare l’operazione qui sotto per continuare",
+        "sorry_inconvenience": "Ci scusiamo per gli eventuali disagi",
+        "verifying": "Verifica in corso"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Errore durante il caricamento di {host}",
+            "refresh_text": "Prova ad accedere al sito più tardi oppure fai clic <a href=\"\">qui</a> per ricaricare la pagina.",
+            "unexpected_error": "Si è verificato un errore imprevisto durante il caricamento di questa pagina",
+            "possible_causes": "Le possibili cause includono: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Sito non disponibile",
+            "description": "Purtroppo si è verificato un errore imprevisto durante il caricamento di questa pagina. Ci scusiamo per gli eventuali disagi. Prova ad accedere al sito più tardi oppure fai clic <a href=\"\">qui</a> per ricaricare la pagina."
+        },
+        "suspended": {
+            "title": "Sito sospeso",
+            "description": "Purtroppo il sito che stai cercando di visitare non è disponibile. Ci scusiamo per gli eventuali disagi. Se sei il <strong>proprietario</strong> di questo sito, <a href=\"https://www.x4b.net/support\">contatta l’assistenza</a>."
+        },
+        "over_bandwidth": {
+            "title": "Sito sospeso",
+            "description": "Purtroppo il sito che stai cercando di visitare non è disponibile. Ci scusiamo per gli eventuali disagi. Se sei il <strong>proprietario</strong> di questo sito, <a href=\"https://www.x4b.net/\">contatta l’assistenza</a>."
+        },
+        "backend": {
+            "title": "Server non disponibile",
+            "description": "Il server di origine è temporaneamente non disponibile e non può quindi elaborare questa richiesta. Ci scusiamo per gli eventuali disagi.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Tempo di attesa della richiesta scaduto",
+            "description": "Purtroppo il tempo di attesa è scaduto durante il caricamento di questa pagina web. Ci scusiamo per gli eventuali disagi causati.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Accesso negato",
+            "description": "Non hai l’autorizzazione per accedere a questa pagina. Se ritieni che si tratti di un errore, contatta l’amministratore del sito."
+        },
+        "upstream": {
+            "title": "Server non disponibile",
+            "description": "Al momento nessun server è online e disponibile per elaborare questa richiesta. Ci scusiamo per gli eventuali disagi."
+        },
+        "invalid_configuration": {
+            "title": "Configurazione non valida",
+            "description": "Non possiamo elaborare questa richiesta a causa di un errore di configurazione. Ci scusiamo per gli eventuali disagi."
+        },
+        "resource": {
+            "title": "Errore di accesso",
+            "description_start": "Purtroppo si è verificato un errore durante il caricamento di questa pagina.",
+            "cause_list": [
+                "Il server di origine è sottoposto a un carico insolitamente elevato e al momento non può elaborare le richieste",
+                "Si è verificato un errore imprevisto sul server di origine o durante la trasmissione dei dati"
+            ],
+            "description_end": "Ci scusiamo per gli eventuali disagi.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Errore di accesso",
+            "description_start": "Purtroppo si è verificato un errore durante il caricamento di questa pagina.",
+            "cause_list": [
+                "È stato rilevato che il tuo indirizzo IP sta inviando un numero eccessivo di richieste al server",
+                "Il server di origine è sottoposto a un carico insolitamente elevato e al momento non può elaborare le richieste",
+                "Si è verificato un errore imprevisto sul server di origine o durante la trasmissione dei dati"
+            ],
+            "description_end": "Ci scusiamo per gli eventuali disagi.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Errore di accesso",
+            "description_start": "Purtroppo si è verificato un errore durante il caricamento di questa pagina.",
+            "cause_list": [
+                "Dal tuo indirizzo IP proviene un numero anomalo di connessioni al server",
+                "Il server di origine è sottoposto a un carico insolitamente elevato e al momento non può elaborare le richieste",
+                "Si è verificato un errore imprevisto sul server di origine o durante la trasmissione dei dati"
+            ],
+            "description_end": "Ci scusiamo per gli eventuali disagi.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Richiesta non valida",
+            "description": "Questo sito è accessibile tramite HTTPS. Hai tentato di connetterti tramite HTTP. Ora proveremo a reindirizzarti. Se non vieni reindirizzato, aggiungi https:// all’inizio del tuo URL e riprova."
+        },
+        "timeout": {
+            "title": "Server non disponibile",
+            "description": "Purtroppo il tempo di attesa è scaduto durante il caricamento di questa pagina. È possibile che il server sia occupato e non riesca a elaborare la tua richiesta al momento.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Dominio sconosciuto",
+            "description": "Questo dominio non è registrato per questo indirizzo IP.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Metodo non supportato",
+            "description": "Il metodo HTTP richiesto non è abilitato per questo sito.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Richiesta non sicura",
+            "description": "Il protocollo HTTPS richiesto non è abilitato per questo sito. Aggiorna il browser.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Offline per manutenzione",
+            "description": "Questo sito non è disponibile al momento. Dovrebbe essere nuovamente disponibile a breve.",
+            "refresh_enable": true
+        }
+    }
+}

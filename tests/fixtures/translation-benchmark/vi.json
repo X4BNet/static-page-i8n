@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Quá trình này diễn ra tự động. Bạn sẽ sớm được chuyển hướng đến trang muốn truy cập.",
+        "validate_browser": "Đang xác minh trình duyệt của bạn trước khi truy cập {http_host}",
+        "are_you_human_host": "Bạn có phải là người thật không? Cần xác minh để truy cập {http_host}",
+        "are_you_human": "Bạn có phải là người thật không? Cần xác minh để tiếp tục",
+        "enter_captcha_host": "Vui lòng nhập CAPTCHA bên dưới để tiếp tục truy cập {http_host}:",
+        "enter_captcha": "Vui lòng nhập CAPTCHA bên dưới để tiếp tục:",
+        "submit": "gửi",
+        "try_again_later": "Trang web này đang tải lâu hơn bình thường, bạn có thể <a href=\"\">thử lại</a> sau",
+        "unexpected_error": "Có vẻ như đã xảy ra lỗi không mong muốn, vui lòng <a href=\"\">thử lại</a> sau",
+        "validation_complete": "<strong>Xác minh hoàn tất</strong> bạn đang được chuyển hướng đến trang muốn truy cập. Nhấp vào <a href=\"\">đây</a> nếu trang không tải lại.",
+        "enable_javascript": "Quá trình xác minh trình duyệt hoạt động tốt nhất khi JavaScript được bật.",
+        "abnormal_activity": "Do phát hiện hoạt động bất thường, chúng tôi cần bạn hoàn thành tác vụ bên dưới để tiếp tục",
+        "sorry_inconvenience": "Chúng tôi xin lỗi vì mọi bất tiện",
+        "verifying": "Đang xác minh"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Lỗi khi tải {host}",
+            "refresh_text": "Vui lòng thử truy cập trang web sau hoặc nhấp vào <a href=\"\">đây</a> để tải lại trang.",
+            "unexpected_error": "Đã xảy ra lỗi không mong muốn khi tải trang này",
+            "possible_causes": "Các nguyên nhân có thể bao gồm: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Trang web không khả dụng",
+            "description": "Rất tiếc, đã xảy ra lỗi không mong muốn khi tải trang này. Chúng tôi xin lỗi vì mọi bất tiện. Vui lòng thử truy cập trang web sau hoặc nhấp vào <a href=\"\">đây</a> để tải lại trang."
+        },
+        "suspended": {
+            "title": "Trang web bị tạm ngưng",
+            "description": "Rất tiếc, trang web bạn đang cố truy cập hiện không khả dụng. Chúng tôi xin lỗi vì mọi bất tiện. Nếu bạn là <strong>chủ sở hữu</strong> của trang web này, vui lòng <a href=\"https://www.x4b.net/support\">liên hệ bộ phận hỗ trợ</a>."
+        },
+        "over_bandwidth": {
+            "title": "Trang web bị tạm ngưng",
+            "description": "Rất tiếc, trang web bạn đang cố truy cập hiện không khả dụng. Chúng tôi xin lỗi vì mọi bất tiện. Nếu bạn là <strong>chủ sở hữu</strong> của trang web này, vui lòng <a href=\"https://www.x4b.net/\">liên hệ bộ phận hỗ trợ</a>."
+        },
+        "backend": {
+            "title": "Máy chủ không khả dụng",
+            "description": "Máy chủ backend tạm thời không khả dụng nên không thể xử lý yêu cầu này. Chúng tôi xin lỗi vì mọi bất tiện.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Yêu cầu đã hết thời gian chờ",
+            "description": "Rất tiếc, đã hết thời gian chờ khi tải trang web này. Chúng tôi xin lỗi vì mọi bất tiện có thể đã gây ra.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Truy cập bị từ chối",
+            "description": "Bạn không có quyền truy cập trang này. Nếu bạn cho rằng đây là nhầm lẫn, vui lòng liên hệ quản trị viên trang web."
+        },
+        "upstream": {
+            "title": "Máy chủ không khả dụng",
+            "description": "Hiện không có máy chủ nào đang trực tuyến và sẵn sàng xử lý yêu cầu này. Chúng tôi xin lỗi vì mọi bất tiện."
+        },
+        "invalid_configuration": {
+            "title": "Cấu hình không hợp lệ",
+            "description": "Chúng tôi không thể xử lý yêu cầu này do lỗi cấu hình. Chúng tôi xin lỗi vì mọi bất tiện."
+        },
+        "resource": {
+            "title": "Lỗi truy cập",
+            "description_start": "Rất tiếc, đã xảy ra lỗi khi tải trang này.",
+            "cause_list": [
+                "Máy chủ backend đang chịu tải cao bất thường và hiện không thể xử lý các yêu cầu",
+                "Đã xảy ra lỗi không mong muốn trên máy chủ backend hoặc trong quá trình truyền dữ liệu"
+            ],
+            "description_end": "Chúng tôi xin lỗi vì mọi bất tiện.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Lỗi truy cập",
+            "description_start": "Rất tiếc, đã xảy ra lỗi khi tải trang này.",
+            "cause_list": [
+                "Địa chỉ IP của bạn bị phát hiện đang gửi quá nhiều yêu cầu tới máy chủ",
+                "Máy chủ backend đang chịu tải cao bất thường và hiện không thể xử lý các yêu cầu",
+                "Đã xảy ra lỗi không mong muốn trên máy chủ backend hoặc trong quá trình truyền dữ liệu"
+            ],
+            "description_end": "Chúng tôi xin lỗi vì mọi bất tiện.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Lỗi truy cập",
+            "description_start": "Rất tiếc, đã xảy ra lỗi khi tải trang này.",
+            "cause_list": [
+                "Địa chỉ IP của bạn có số lượng kết nối tới máy chủ bất thường",
+                "Máy chủ backend đang chịu tải cao bất thường và hiện không thể xử lý các yêu cầu",
+                "Đã xảy ra lỗi không mong muốn trên máy chủ backend hoặc trong quá trình truyền dữ liệu"
+            ],
+            "description_end": "Chúng tôi xin lỗi vì mọi bất tiện.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Yêu cầu không hợp lệ",
+            "description": "Trang web này có thể truy cập qua HTTPS. Bạn đã cố kết nối qua HTTP, chúng tôi sẽ thử chuyển hướng bạn ngay bây giờ. Nếu bạn không được chuyển hướng, vui lòng thêm https:// vào đầu URL rồi thử lại."
+        },
+        "timeout": {
+            "title": "Máy chủ không khả dụng",
+            "description": "Rất tiếc, đã hết thời gian chờ khi tải trang này. Có thể máy chủ đang bận và hiện không thể xử lý yêu cầu của bạn.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Tên miền không xác định",
+            "description": "Tên miền này chưa được đăng ký với địa chỉ IP này.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Phương thức không được hỗ trợ",
+            "description": "Phương thức HTTP được yêu cầu chưa được bật cho trang web này.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Yêu cầu không an toàn",
+            "description": "Giao thức HTTPS được yêu cầu chưa được bật cho trang web này. Vui lòng cập nhật trình duyệt của bạn.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Tạm ngừng hoạt động để bảo trì",
+            "description": "Trang web này hiện không khả dụng. Trang web sẽ sớm hoạt động trở lại.",
+            "refresh_enable": true
+        }
+    }
+}

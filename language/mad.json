@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Prosès arèya alako dhibi'. Dhika bhâkal èkèrèm ka kaca sè ètojjhu ta' abit agghi'.",
+        "validate_browser": "Browser Dhika parappa'na èparèksa sabellun maso' ka {http_host}",
+        "are_you_human_host": "Dhika manossa? Verifikasi èparlokaghi ka'angghuy maso' ka {http_host}",
+        "are_you_human": "Dhika manossa? Verifikasi èparlokaghi ka'angghuy nerrossaghi",
+        "enter_captcha_host": "Nyo'on maso'aghi CAPTCHA è bâbâ arèya ka'angghuy nerrossaghi ka {http_host}:",
+        "enter_captcha": "Nyo'on maso'aghi CAPTCHA è bâbâ arèya ka'angghuy nerrossaghi:",
+        "submit": "kèrèm",
+        "try_again_later": "Situs web arèya abiddhân ḍâri sè biyasa ka'angghuy èbhukâ. Dhika bisa <a href=\"\">nyoba polè</a> agghi'",
+        "unexpected_error": "Ètèngghu bâḍâ kasala'an sè ta' èkèrâ. Nyo'on <a href=\"\">nyoba polè</a> agghi'",
+        "validation_complete": "<strong>Verifikasi la marè</strong>. Samangkèn Dhika èkèrèm ka kaca sè ètojjhu. Klèk <a href=\"\">è ḍinto</a> mon kaca ta' èbhukâ polè.",
+        "enable_javascript": "Verifikasi browser alako lebbi bhâghus mon JavaScript èpaodi'.",
+        "abnormal_activity": "Amarghâ bâḍâ partèngka sè ta' biyasa, Dhika kodhu marèaghi lalakon è bâbâ arèya ka'angghuy nerrossaghi",
+        "sorry_inconvenience": "Nyo'on pangapora ka'angghuy sadhâjâ kasossa'an",
+        "verifying": "Parappa'na èparèksa"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Kasala'an bâkto abhukâ {host}",
+            "refresh_text": "Nyo'on coba maso' ka situs agghi' otabâ klèk <a href=\"\">è ḍinto</a> ka'angghuy abhukâ kaca polè.",
+            "unexpected_error": "Bâḍâ kasala'an sè ta' èkèrâ bâkto abhukâ kaca arèya",
+            "possible_causes": "Sabâb sè mungkin antarana: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Situs web ta' bisa èghuna'aghi",
+            "description": "Sakalangkong èman, bâḍâ kasala'an sè ta' èkèrâ bâkto abhukâ kaca arèya. Nyo'on pangapora ka'angghuy sadhâjâ kasossa'an. Nyo'on coba maso' ka situs agghi' otabâ klèk <a href=\"\">è ḍinto</a> ka'angghuy abhukâ kaca polè."
+        },
+        "suspended": {
+            "title": "Situs web èambhuaghi",
+            "description": "Sakalangkong èman, situs web sè Dhika coba abhukâ ta' bisa èghuna'aghi. Nyo'on pangapora ka'angghuy sadhâjâ kasossa'an. Mon Dhika <strong>sè andhi'</strong> situs web arèya, nyo'on <a href=\"https://www.x4b.net/support\">ngontak bhântowan</a>."
+        },
+        "over_bandwidth": {
+            "title": "Situs web èambhuaghi",
+            "description": "Sakalangkong èman, situs web sè Dhika coba abhukâ ta' bisa èghuna'aghi. Nyo'on pangapora ka'angghuy sadhâjâ kasossa'an. Mon Dhika <strong>sè andhi'</strong> situs web arèya, nyo'on <a href=\"https://www.x4b.net/\">ngontak bhântowan</a>."
+        },
+        "backend": {
+            "title": "Server ta' bisa èghuna'aghi",
+            "description": "Server sombher sa'amantara ta' bisa èghuna'aghi, mèlana ta' bisa ngeladhin panyo'onan arèya. Nyo'on pangapora ka'angghuy sadhâjâ kasossa'an.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Bâtes bâkto ngantos panyo'onan la talambhâs",
+            "description": "Pangapora, bâtes bâkto ngantos la talambhâs bâkto abhukâ kaca arèya. Nyo'on pangapora ka'angghuy kasossa'an sè bisa èsebbhâbhi arèya.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Akses ètolak",
+            "description": "Dhika ta' anḍi' idin ka'angghuy maso' ka kaca arèya. Mon Dhika ngangghep arèya kasala'an, nyo'on ngontak pangator situs web."
+        },
+        "upstream": {
+            "title": "Server ta' bisa èghuna'aghi",
+            "description": "Samangkèn taḍâ' server sè nyambhung ka internèt bân bisa èghuna'aghi ka'angghuy ngeladhin panyo'onan arèya. Nyo'on pangapora ka'angghuy sadhâjâ kasossa'an."
+        },
+        "invalid_configuration": {
+            "title": "Pangatoran ta' lerres",
+            "description": "Panyo'onan arèya ta' bisa èladhin amarghâ bâḍâ kasala'an è pangatoran. Nyo'on pangapora ka'angghuy sadhâjâ kasossa'an."
+        },
+        "resource": {
+            "title": "Kasala'an akses",
+            "description_start": "Sakalangkong èman, bâḍâ kasala'an bâkto abhukâ kaca arèya.",
+            "cause_list": [
+                "Server sombher nangghung bhâbân sè ta' èkèrâ bân ta' bisa ngeladhin panyo'onan samangkèn",
+                "Bâḍâ kasala'an sè ta' èkèrâ è server sombher otabâ bâkto ngèrèm ḍata"
+            ],
+            "description_end": "Nyo'on pangapora ka'angghuy sadhâjâ kasossa'an.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Kasala'an akses",
+            "description_start": "Sakalangkong èman, bâḍâ kasala'an bâkto abhukâ kaca arèya.",
+            "cause_list": [
+                "Èkataowè jhâ' lamat IP Dhika ngèrèm panyo'onan sè lebbhi bânnya' ḍâri bâtes ka server",
+                "Server sombher nangghung bhâbân sè ta' èkèrâ bân ta' bisa ngeladhin panyo'onan samangkèn",
+                "Bâḍâ kasala'an sè ta' èkèrâ è server sombher otabâ bâkto ngèrèm ḍata"
+            ],
+            "description_end": "Nyo'on pangapora ka'angghuy sadhâjâ kasossa'an.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Kasala'an akses",
+            "description_start": "Sakalangkong èman, bâḍâ kasala'an bâkto abhukâ kaca arèya.",
+            "cause_list": [
+                "Lamat IP Dhika anḍi' cacah sambhungan ka server sè ta' biyasa",
+                "Server sombher nangghung bhâbân sè ta' èkèrâ bân ta' bisa ngeladhin panyo'onan samangkèn",
+                "Bâḍâ kasala'an sè ta' èkèrâ è server sombher otabâ bâkto ngèrèm ḍata"
+            ],
+            "description_end": "Nyo'on pangapora ka'angghuy sadhâjâ kasossa'an.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Panyo'onan ta' lerres",
+            "description": "Situs web arèya bisa èaksès ngangghuy HTTPS. Dhika la nyoba nyambhung ngangghuy HTTP; samangkèn bhâkal ècoba ngèrèm Dhika ka alamat laèn. Mon Dhika ta' èkèrèm, nyo'on tambâi https:// è pamolanna URL Dhika bân coba polè."
+        },
+        "timeout": {
+            "title": "Server ta' bisa èghuna'aghi",
+            "description": "Pangapora, bâtes bâkto ngantos la talambhâs bâkto abhukâ kaca arèya. Mèlangan server ghi' apo-ghipo bân ta' bisa ngeladhin panyo'onan Dhika samangkèn.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Domain sè ta' èkataowè",
+            "description": "Domain arèya ta' èḍaftar ka lamat IP arèya.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Mètodhe sè ta' èdhukung",
+            "description": "Mètodhe HTTP sè èpènta ta' èpaodi' ka'angghuy situs web arèya.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Panyo'onan sè ta' aman",
+            "description": "Protokol HTTPS sè èpènta ta' èpaodi' ka'angghuy situs web arèya. Nyo'on pa'anyar browser Dhika.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Èpatè'è ka'angghuy parabhâtan",
+            "description": "Situs web arèya ta' bisa èghuna'aghi samangkèn. Èpangarep bisa èghuna'aghi polè ta' abit agghi'.",
+            "refresh_enable": true
+        }
+    }
+}

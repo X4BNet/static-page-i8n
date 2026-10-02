@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Henda tilgongdin er sjálvvirkandi. Tú verður skjótt vístur víðari til staðið, tú vilt til.",
+        "validate_browser": "Netkagin hjá tær verður kannaður, áðrenn tú fært atgongd til {http_host}",
+        "are_you_human_host": "Ert tú eitt menniskja? Kanning er neyðug fyri at fáa atgongd til {http_host}",
+        "are_you_human": "Ert tú eitt menniskja? Kanning er neyðug fyri at halda fram",
+        "enter_captcha_host": "Skriva CAPTCHA-kotuna niðanfyri fyri at halda fram til {http_host}:",
+        "enter_captcha": "Skriva CAPTCHA-kotuna niðanfyri fyri at halda fram:",
+        "submit": "Send",
+        "try_again_later": "Henda heimasíðan tekur longri tíð at hlaða enn vanligt. Tú kanst <a href=\"\">royna aftur</a> seinni",
+        "unexpected_error": "Tað tykist, sum ein óvæntað villa er komin fyri. <a href=\"\">Royn aftur</a> seinni",
+        "validation_complete": "<strong>Kanningin er liðug</strong>. Tú verður nú vístur víðari til staðið, tú vilt til. Trýst <a href=\"\">her</a>, um síðan ikki verður endurlødd.",
+        "enable_javascript": "Kanningin av netkaganum riggar best, tá ið JavaScript er virkið.",
+        "abnormal_activity": "Vegna óvanligt virksemi mást tú gera uppgávuna niðanfyri lidna fyri at halda fram",
+        "sorry_inconvenience": "Vit biðja um umbering fyri møguligt ómak",
+        "verifying": "Kanning fer fram"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Villa við at hlaða {host}",
+            "refresh_text": "Royn at fáa atgongd til heimasíðuna seinni, ella trýst <a href=\"\">her</a> fyri at endurhlaða síðuna.",
+            "unexpected_error": "Ein óvæntað villa kom fyri, meðan henda síðan varð lødd",
+            "possible_causes": "Møguligar orsakir eru millum annað: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Heimasíðan er ikki tøk",
+            "description": "Tíverri kom ein óvæntað villa fyri, meðan henda síðan varð lødd. Vit biðja um umbering fyri møguligt ómak. Royn at fáa atgongd til heimasíðuna seinni, ella trýst <a href=\"\">her</a> fyri at endurhlaða síðuna."
+        },
+        "suspended": {
+            "title": "Heimasíðan er steðgað",
+            "description": "Tíverri er heimasíðan, tú roynir at vitja, ikki tøk. Vit biðja um umbering fyri møguligt ómak. Ert tú <strong>eigari</strong> av hesi heimasíðuni, <a href=\"https://www.x4b.net/support\">set teg í samband við tænastuna</a>."
+        },
+        "over_bandwidth": {
+            "title": "Heimasíðan er steðgað",
+            "description": "Tíverri er heimasíðan, tú roynir at vitja, ikki tøk. Vit biðja um umbering fyri møguligt ómak. Ert tú <strong>eigari</strong> av hesi heimasíðuni, <a href=\"https://www.x4b.net/\">set teg í samband við tænastuna</a>."
+        },
+        "backend": {
+            "title": "Ambætarin er ikki tøkur",
+            "description": "Upprunaambætarin er fyribils ikki tøkur og kann tí ikki viðgera hesa umbønina. Vit biðja um umbering fyri møguligt ómak.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Tíðarfreistin fyri umbønina er farin",
+            "description": "Tíverri fór tíðarfreistin, meðan henda heimasíðan varð lødd. Vit biðja um umbering fyri ómak, sum hetta kann hava elvt til.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Atgongd noktað",
+            "description": "Tú hevur ikki loyvi at fáa atgongd til hesa síðuna. Heldur tú, at hetta er ein villa, set teg í samband við umsitaran av heimasíðuni."
+        },
+        "upstream": {
+            "title": "Ambætarin er ikki tøkur",
+            "description": "Í løtuni er eingin ambætari á netinum og tøkur at viðgera hesa umbønina. Vit biðja um umbering fyri møguligt ómak."
+        },
+        "invalid_configuration": {
+            "title": "Ógild uppseting",
+            "description": "Vit kunnu ikki viðgera hesa umbønina vegna eina villu í uppsetingini. Vit biðja um umbering fyri møguligt ómak."
+        },
+        "resource": {
+            "title": "Atgongdarvilla",
+            "description_start": "Tíverri kom ein villa fyri, meðan henda síðan varð lødd.",
+            "cause_list": [
+                "Upprunaambætarin er undir óvæntaðum trýsti og kann ikki viðgera umbønir í løtuni",
+                "Ein óvæntað villa kom fyri á upprunaambætaranum ella undir dátuflutningi"
+            ],
+            "description_end": "Vit biðja um umbering fyri møguligt ómak.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Atgongdarvilla",
+            "description_start": "Tíverri kom ein villa fyri, meðan henda síðan varð lødd.",
+            "cause_list": [
+                "Tað er staðfest, at ov nógvar umbønir verða sendar frá IP-adressuni hjá tær til ambætaran",
+                "Upprunaambætarin er undir óvæntaðum trýsti og kann ikki viðgera umbønir í løtuni",
+                "Ein óvæntað villa kom fyri á upprunaambætaranum ella undir dátuflutningi"
+            ],
+            "description_end": "Vit biðja um umbering fyri møguligt ómak.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Atgongdarvilla",
+            "description_start": "Tíverri kom ein villa fyri, meðan henda síðan varð lødd.",
+            "cause_list": [
+                "Tað er eitt óvanligt tal av sambondum frá IP-adressuni hjá tær til ambætaran",
+                "Upprunaambætarin er undir óvæntaðum trýsti og kann ikki viðgera umbønir í løtuni",
+                "Ein óvæntað villa kom fyri á upprunaambætaranum ella undir dátuflutningi"
+            ],
+            "description_end": "Vit biðja um umbering fyri møguligt ómak.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Ógild umbøn",
+            "description": "Henda heimasíðan er tøk umvegis HTTPS. Tú hevur roynt at fáa samband umvegis HTTP. Vit fara nú at royna at vísa tær víðari. Verður tú ikki vístur víðari, set https:// fremst í tíni URL og royn aftur."
+        },
+        "timeout": {
+            "title": "Ambætarin er ikki tøkur",
+            "description": "Tíverri fór tíðarfreistin, meðan henda síðan varð lødd. Ambætarin kann vera upptikin og kann møguliga ikki viðgera umbønina hjá tær í løtuni.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Ókent økisnavn",
+            "description": "Hetta økisnavnið er ikki skrásett til hesa IP-adressuna.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Hátturin er ikki stuðlaður",
+            "description": "Umbeðni HTTP-hátturin er ikki virkjaður fyri hesa heimasíðuna.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Ótrygg umbøn",
+            "description": "Umbeðna HTTPS-samskiftisreglan er ikki virkjað fyri hesa heimasíðuna. Dagfør netkagan hjá tær.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Av netinum vegna viðlíkahald",
+            "description": "Henda heimasíðan er ikki tøk í løtuni. Hon verður væntandi tøk aftur skjótt.",
+            "refresh_enable": true
+        }
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Prozesu hau automatikoa da. Laster birbideratuko zaitugu zure helmugara.",
+        "validate_browser": "Zure nabigatzailea egiaztatzen, {http_host} gunera sartu aurretik",
+        "are_you_human_host": "Gizakia zara? Egiaztapena behar da {http_host} gunera sartzeko",
+        "are_you_human": "Gizakia zara? Egiaztapena behar da aurrera jarraitzeko",
+        "enter_captcha_host": "Sartu beheko CAPTCHA kodea {http_host} gunera joateko:",
+        "enter_captcha": "Sartu beheko CAPTCHA kodea aurrera jarraitzeko:",
+        "submit": "bidali",
+        "try_again_later": "Webgune hau ohi baino denbora gehiago behar izaten ari da kargatzeko. Nahi baduzu, <a href=\"\">saiatu berriro</a> geroago",
+        "unexpected_error": "Ustekabeko errore bat gertatu dela dirudi. <a href=\"\">Saiatu berriro</a> geroago",
+        "validation_complete": "<strong>Egiaztapena osatu da</strong> Orain zure helmugara birbideratzen ari zaitugu. Egin klik <a href=\"\">hemen</a> orria berriz kargatzen ez bada.",
+        "enable_javascript": "Nabigatzailearen egiaztapenak hobekien funtzionatzen du JavaScript gaituta dagoenean.",
+        "abnormal_activity": "Ezohiko jarduera dela eta, beheko zeregina bete behar duzu aurrera jarraitzeko",
+        "sorry_inconvenience": "Barkatu eragozpenak",
+        "verifying": "Egiaztatzen"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Errorea {host} kargatzean",
+            "refresh_text": "Saiatu webgunera geroago sartzen edo egin klik <a href=\"\">hemen</a> orria freskatzeko.",
+            "unexpected_error": "Ustekabeko errore bat gertatu da orri hau kargatzean",
+            "possible_causes": "Hauek izan daitezke arrazoiak: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Webgunea ez dago erabilgarri",
+            "description": "Zoritxarrez, ustekabeko errore bat gertatu da orri hau kargatzean. Barkatu eragozpenak. Saiatu webgunera geroago sartzen edo egin klik <a href=\"\">hemen</a> orria freskatzeko."
+        },
+        "suspended": {
+            "title": "Webgunea eten egin da",
+            "description": "Zoritxarrez, bisitatu nahi duzun webgunea ez dago erabilgarri. Barkatu eragozpenak. Webgune honen <strong>jabea</strong> bazara, <a href=\"https://www.x4b.net/support\">jarri harremanetan laguntza-zerbitzuarekin</a>."
+        },
+        "over_bandwidth": {
+            "title": "Webgunea eten egin da",
+            "description": "Zoritxarrez, bisitatu nahi duzun webgunea ez dago erabilgarri. Barkatu eragozpenak. Webgune honen <strong>jabea</strong> bazara, <a href=\"https://www.x4b.net/\">jarri harremanetan laguntza-zerbitzuarekin</a>."
+        },
+        "backend": {
+            "title": "Zerbitzaria ez dago erabilgarri",
+            "description": "Jatorrizko zerbitzaria ez dago erabilgarri aldi baterako eta, beraz, ezin dio eskaera honi erantzun. Barkatu eragozpenak.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Eskaeraren denbora-muga gainditu da",
+            "description": "Barkatu, baina denbora-muga gainditu da web-orri hau kargatzean. Barkatu horrek eragin dituen eragozpenak.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Sarbidea ukatu da",
+            "description": "Ez duzu orri honetara sartzeko baimenik. Hori akats bat bada, jarri harremanetan webgunearen administratzailearekin."
+        },
+        "upstream": {
+            "title": "Zerbitzaria ez dago erabilgarri",
+            "description": "Une honetan ez dago eskaera hau prozesatzeko linean eta erabilgarri dagoen zerbitzaririk. Barkatu eragozpenak."
+        },
+        "invalid_configuration": {
+            "title": "Konfigurazio baliogabea",
+            "description": "Ezin diogu eskaera honi erantzun konfigurazio-errore bat dela eta. Barkatu eragozpenak."
+        },
+        "resource": {
+            "title": "Sarbide-errorea",
+            "description_start": "Zoritxarrez, errore bat gertatu da orri hau kargatzean.",
+            "cause_list": [
+                "Jatorrizko zerbitzariak ustekabeko karga du eta ezin ditu eskaerak prozesatu une honetan",
+                "Ustekabeko errore bat gertatu da jatorrizko zerbitzarian edo transmisioan"
+            ],
+            "description_end": "Barkatu eragozpenak.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Sarbide-errorea",
+            "description_start": "Zoritxarrez, errore bat gertatu da orri hau kargatzean.",
+            "cause_list": [
+                "Zure IP helbidea zerbitzarira eskaera gehiegi bidaltzen ari dela hauteman da",
+                "Jatorrizko zerbitzariak ustekabeko karga du eta ezin ditu eskaerak prozesatu une honetan",
+                "Ustekabeko errore bat gertatu da jatorrizko zerbitzarian edo transmisioan"
+            ],
+            "description_end": "Barkatu eragozpenak.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Sarbide-errorea",
+            "description_start": "Zoritxarrez, errore bat gertatu da orri hau kargatzean.",
+            "cause_list": [
+                "Zure IP helbideak ezohiko konexio-kopurua du zerbitzariarekin",
+                "Jatorrizko zerbitzariak ustekabeko karga du eta ezin ditu eskaerak prozesatu une honetan",
+                "Ustekabeko errore bat gertatu da jatorrizko zerbitzarian edo transmisioan"
+            ],
+            "description_end": "Barkatu eragozpenak.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Eskaera okerra",
+            "description": "Webgune honetara HTTPS bidez sar daiteke. HTTP bidez konektatzen saiatu zara; orain zu birbideratzen saiatuko gara. Birbideratzen ez bazaitugu, gehitu https:// zure URL helbidearen hasieran eta saiatu berriro."
+        },
+        "timeout": {
+            "title": "Zerbitzaria ez dago erabilgarri",
+            "description": "Barkatu, baina denbora-muga gainditu da orri hau kargatzean. Baliteke zerbitzaria lanpetuta egotea eta zure eskaera une honetan prozesatu ezin izatea.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Domeinu ezezaguna",
+            "description": "Domeinu hau ez dago IP helbide honetarako erregistratuta.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Onartzen ez den metodoa",
+            "description": "Eskatutako HTTP metodoa ez dago gaituta webgune honetarako.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Eskaera ez-segurua",
+            "description": "Eskatutako HTTPS protokoloa ez dago gaituta webgune honetarako. Eguneratu nabigatzailea.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Lineaz kanpo mantentze-lanetarako",
+            "description": "Webgune hau ez dago erabilgarri une honetan. Laster berriro erabilgarri egotea espero da.",
+            "refresh_enable": true
+        }
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Dieser Vorgang läuft automatisch ab. Sie werden in Kürze zu Ihrem gewünschten Ziel weitergeleitet.",
+        "validate_browser": "Ihr Browser wird überprüft, bevor Sie auf {http_host} zugreifen",
+        "are_you_human_host": "Sind Sie ein Mensch? Für den Zugriff auf {http_host} ist eine Überprüfung erforderlich",
+        "are_you_human": "Sind Sie ein Mensch? Zum Fortfahren ist eine Überprüfung erforderlich",
+        "enter_captcha_host": "Bitte geben Sie das unten angezeigte CAPTCHA ein, um zu {http_host} zu gelangen:",
+        "enter_captcha": "Bitte geben Sie das unten angezeigte CAPTCHA ein, um fortzufahren:",
+        "submit": "Absenden",
+        "try_again_later": "Das Laden dieser Website dauert länger als üblich. Bitte <a href=\"\">versuchen Sie es</a> später erneut",
+        "unexpected_error": "Anscheinend ist ein unerwarteter Fehler aufgetreten. Bitte <a href=\"\">versuchen Sie es</a> später erneut",
+        "validation_complete": "<strong>Überprüfung abgeschlossen</strong> Sie werden nun zu Ihrem gewünschten Ziel weitergeleitet. Klicken Sie <a href=\"\">hier</a>, falls die Seite nicht neu geladen wird.",
+        "enable_javascript": "Die Browserüberprüfung funktioniert am besten mit aktiviertem JavaScript.",
+        "abnormal_activity": "Aufgrund ungewöhnlicher Aktivitäten müssen Sie die folgende Aufgabe lösen, um fortzufahren",
+        "sorry_inconvenience": "Wir entschuldigen uns für die Unannehmlichkeiten",
+        "verifying": "Überprüfung läuft"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Fehler beim Laden von {host}",
+            "refresh_text": "Bitte versuchen Sie später, auf die Website zuzugreifen, oder klicken Sie <a href=\"\">hier</a>, um die Seite neu zu laden.",
+            "unexpected_error": "Beim Laden dieser Seite ist ein unerwarteter Fehler aufgetreten",
+            "possible_causes": "Mögliche Ursachen sind: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Website nicht verfügbar",
+            "description": "Leider ist beim Laden dieser Seite ein unerwarteter Fehler aufgetreten. Wir entschuldigen uns für die Unannehmlichkeiten. Bitte versuchen Sie später, auf die Website zuzugreifen, oder klicken Sie <a href=\"\">hier</a>, um die Seite neu zu laden."
+        },
+        "suspended": {
+            "title": "Website gesperrt",
+            "description": "Leider ist die Website, die Sie aufrufen möchten, nicht verfügbar. Wir entschuldigen uns für die Unannehmlichkeiten. Wenn Sie der <strong>Inhaber</strong> dieser Website sind, <a href=\"https://www.x4b.net/support\">wenden Sie sich bitte an den Support</a>."
+        },
+        "over_bandwidth": {
+            "title": "Website gesperrt",
+            "description": "Leider ist die Website, die Sie aufrufen möchten, nicht verfügbar. Wir entschuldigen uns für die Unannehmlichkeiten. Wenn Sie der <strong>Inhaber</strong> dieser Website sind, <a href=\"https://www.x4b.net/\">wenden Sie sich bitte an den Support</a>."
+        },
+        "backend": {
+            "title": "Server nicht verfügbar",
+            "description": "Der Backend-Server ist vorübergehend nicht verfügbar und kann daher diese Anfrage nicht bearbeiten. Wir entschuldigen uns für die Unannehmlichkeiten.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Zeitüberschreitung bei der Anfrage",
+            "description": "Leider wurde beim Laden dieser Webseite das Zeitlimit überschritten. Wir entschuldigen uns für die dadurch entstandenen Unannehmlichkeiten.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Zugriff verweigert",
+            "description": "Sie haben keine Berechtigung, auf diese Seite zuzugreifen. Falls Sie dies für einen Fehler halten, wenden Sie sich bitte an den Administrator der Website."
+        },
+        "upstream": {
+            "title": "Server nicht verfügbar",
+            "description": "Derzeit ist kein Server online und verfügbar, um diese Anfrage zu bearbeiten. Wir entschuldigen uns für die Unannehmlichkeiten."
+        },
+        "invalid_configuration": {
+            "title": "Ungültige Konfiguration",
+            "description": "Aufgrund eines Konfigurationsfehlers können wir diese Anfrage nicht bearbeiten. Wir entschuldigen uns für die Unannehmlichkeiten."
+        },
+        "resource": {
+            "title": "Zugriffsfehler",
+            "description_start": "Leider ist beim Laden dieser Seite ein Fehler aufgetreten.",
+            "cause_list": [
+                "Der Backend-Server ist unerwartet stark ausgelastet und kann derzeit keine Anfragen bearbeiten",
+                "Auf dem Backend-Server oder bei der Übertragung ist ein unerwarteter Fehler aufgetreten"
+            ],
+            "description_end": "Wir entschuldigen uns für die Unannehmlichkeiten.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Zugriffsfehler",
+            "description_start": "Leider ist beim Laden dieser Seite ein Fehler aufgetreten.",
+            "cause_list": [
+                "Es wurde festgestellt, dass Ihre IP-Adresse den Server mit Anfragen überflutet",
+                "Der Backend-Server ist unerwartet stark ausgelastet und kann derzeit keine Anfragen bearbeiten",
+                "Auf dem Backend-Server oder bei der Übertragung ist ein unerwarteter Fehler aufgetreten"
+            ],
+            "description_end": "Wir entschuldigen uns für die Unannehmlichkeiten.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Zugriffsfehler",
+            "description_start": "Leider ist beim Laden dieser Seite ein Fehler aufgetreten.",
+            "cause_list": [
+                "Von Ihrer IP-Adresse bestehen ungewöhnlich viele Verbindungen zum Server",
+                "Der Backend-Server ist unerwartet stark ausgelastet und kann derzeit keine Anfragen bearbeiten",
+                "Auf dem Backend-Server oder bei der Übertragung ist ein unerwarteter Fehler aufgetreten"
+            ],
+            "description_end": "Wir entschuldigen uns für die Unannehmlichkeiten.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Ungültige Anfrage",
+            "description": "Diese Website ist über HTTPS erreichbar. Sie haben versucht, eine Verbindung über HTTP herzustellen. Wir versuchen nun, Sie weiterzuleiten. Falls Sie nicht weitergeleitet werden, setzen Sie bitte https:// an den Anfang Ihrer URL und versuchen Sie es erneut."
+        },
+        "timeout": {
+            "title": "Server nicht verfügbar",
+            "description": "Leider wurde beim Laden dieser Seite das Zeitlimit überschritten. Möglicherweise ist der Server ausgelastet und kann Ihre Anfrage derzeit nicht bearbeiten.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Unbekannte Domain",
+            "description": "Diese Domain ist nicht für diese IP-Adresse registriert.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Nicht unterstützte Methode",
+            "description": "Die angeforderte HTTP-Methode ist für diese Website nicht aktiviert.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Unsichere Anfrage",
+            "description": "Das angeforderte HTTPS-Protokoll ist für diese Website nicht aktiviert. Bitte aktualisieren Sie Ihren Browser.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Wegen Wartungsarbeiten offline",
+            "description": "Diese Website ist derzeit nicht verfügbar. Sie sollte in Kürze wieder erreichbar sein.",
+            "refresh_enable": true
+        }
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Tá an próiseas seo uathoibríoch. Déanfar tú a atreorú chuig do cheann scríbe go luath.",
+        "validate_browser": "Do bhrabhsálaí á fhíorú sula bhfaighidh tú rochtain ar {http_host}",
+        "are_you_human_host": "An duine thú? Ní mór fíorú a dhéanamh chun rochtain a fháil ar {http_host}",
+        "are_you_human": "An duine thú? Ní mór fíorú a dhéanamh chun leanúint ar aghaidh",
+        "enter_captcha_host": "Cuir isteach an CAPTCHA thíos chun leanúint ar aghaidh chuig {http_host}:",
+        "enter_captcha": "Cuir isteach an CAPTCHA thíos chun leanúint ar aghaidh:",
+        "submit": "seol",
+        "try_again_later": "Tá sé ag tógáil níos faide ná mar is gnách an suíomh gréasáin seo a lódáil. B'fhéidir gur mhaith leat <a href=\"\">triail eile a bhaint as</a> ar ball",
+        "unexpected_error": "Is cosúil gur tharla earráid gan choinne. <a href=\"\">Bain triail eile as</a> ar ball",
+        "validation_complete": "<strong>Fíorú críochnaithe</strong> Tá tú á atreorú anois chuig do cheann scríbe. Cliceáil <a href=\"\">anseo</a> mura n-athlódáiltear an leathanach.",
+        "enable_javascript": "Is fearr a oibríonn fíorú an bhrabhsálaí nuair atá JavaScript cumasaithe.",
+        "abnormal_activity": "Mar gheall ar ghníomhaíocht neamhghnách, ní mór duit an tasc thíos a chur i gcrích chun leanúint ar aghaidh",
+        "sorry_inconvenience": "Gabhaimid leithscéal as aon mhíchaoithiúlacht",
+        "verifying": "Á fhíorú"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Earráid agus {host} á lódáil",
+            "refresh_text": "Bain triail as an suíomh a oscailt ar ball nó cliceáil <a href=\"\">anseo</a> chun an leathanach a athnuachan.",
+            "unexpected_error": "Tharla earráid gan choinne agus an leathanach seo á lódáil",
+            "possible_causes": "Ar na cúiseanna a d'fhéadfadh a bheith leis seo tá: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Níl an suíomh gréasáin ar fáil",
+            "description": "Ar an drochuair, tharla earráid gan choinne agus an leathanach seo á lódáil. Gabhaimid leithscéal as aon mhíchaoithiúlacht. Bain triail as an suíomh a oscailt ar ball nó cliceáil <a href=\"\">anseo</a> chun an leathanach a athnuachan."
+        },
+        "suspended": {
+            "title": "Suíomh gréasáin ar fionraí",
+            "description": "Ar an drochuair, níl an suíomh gréasáin atá tú ag iarraidh a oscailt ar fáil. Gabhaimid leithscéal as aon mhíchaoithiúlacht. Más tusa <strong>úinéir</strong> an tsuímh gréasáin seo, <a href=\"https://www.x4b.net/support\">déan teagmháil leis an bhfoireann tacaíochta</a>."
+        },
+        "over_bandwidth": {
+            "title": "Suíomh gréasáin ar fionraí",
+            "description": "Ar an drochuair, níl an suíomh gréasáin atá tú ag iarraidh a oscailt ar fáil. Gabhaimid leithscéal as aon mhíchaoithiúlacht. Más tusa <strong>úinéir</strong> an tsuímh gréasáin seo, <a href=\"https://www.x4b.net/\">déan teagmháil leis an bhfoireann tacaíochta</a>."
+        },
+        "backend": {
+            "title": "Níl an freastalaí ar fáil",
+            "description": "Níl an freastalaí tionscnaimh ar fáil go sealadach agus mar sin ní féidir leis an iarratas seo a láimhseáil. Gabhaimid leithscéal as aon mhíchaoithiúlacht.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Am istigh don iarratas",
+            "description": "Tá brón orainn, ach chuaigh an t-am in éag agus an leathanach gréasáin seo á lódáil. Gabhaimid leithscéal as aon mhíchaoithiúlacht a d'fhéadfadh a bheith mar thoradh air seo.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Rochtain diúltaithe",
+            "description": "Níl cead agat rochtain a fháil ar an leathanach seo. Má tá sé seo mícheart, déan teagmháil le riarthóir an tsuímh gréasáin."
+        },
+        "upstream": {
+            "title": "Níl an freastalaí ar fáil",
+            "description": "Níl aon fhreastalaí ar líne agus ar fáil faoi láthair chun an t-iarratas seo a phróiseáil. Gabhaimid leithscéal as aon mhíchaoithiúlacht."
+        },
+        "invalid_configuration": {
+            "title": "Cumraíocht neamhbhailí",
+            "description": "Ní féidir linn an t-iarratas seo a láimhseáil mar gheall ar earráid sa chumraíocht. Gabhaimid leithscéal as aon mhíchaoithiúlacht."
+        },
+        "resource": {
+            "title": "Earráid rochtana",
+            "description_start": "Ar an drochuair, tharla earráid agus an leathanach seo á lódáil.",
+            "cause_list": [
+                "Tá ualach gan choinne ar an bhfreastalaí tionscnaimh agus ní féidir leis iarratais a phróiseáil faoi láthair",
+                "Tharla earráid gan choinne ar an bhfreastalaí tionscnaimh nó le linn an aistrithe"
+            ],
+            "description_end": "Gabhaimid leithscéal as aon mhíchaoithiúlacht.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Earráid rochtana",
+            "description_start": "Ar an drochuair, tharla earráid agus an leathanach seo á lódáil.",
+            "cause_list": [
+                "Braitheadh go bhfuil an iomarca iarratas á seoladh chuig an bhfreastalaí ó do sheoladh IP",
+                "Tá ualach gan choinne ar an bhfreastalaí tionscnaimh agus ní féidir leis iarratais a phróiseáil faoi láthair",
+                "Tharla earráid gan choinne ar an bhfreastalaí tionscnaimh nó le linn an aistrithe"
+            ],
+            "description_end": "Gabhaimid leithscéal as aon mhíchaoithiúlacht.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Earráid rochtana",
+            "description_start": "Ar an drochuair, tharla earráid agus an leathanach seo á lódáil.",
+            "cause_list": [
+                "Tá líon neamhghnách nasc leis an bhfreastalaí ag do sheoladh IP",
+                "Tá ualach gan choinne ar an bhfreastalaí tionscnaimh agus ní féidir leis iarratais a phróiseáil faoi láthair",
+                "Tharla earráid gan choinne ar an bhfreastalaí tionscnaimh nó le linn an aistrithe"
+            ],
+            "description_end": "Gabhaimid leithscéal as aon mhíchaoithiúlacht.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Drochiarratas",
+            "description": "Is féidir rochtain a fháil ar an suíomh gréasáin seo trí HTTPS. Rinne tú iarracht nascadh trí HTTP; déanfaimid iarracht tú a atreorú anois. Mura ndéantar tú a atreorú, cuir https:// ag tús do URL agus bain triail eile as."
+        },
+        "timeout": {
+            "title": "Níl an freastalaí ar fáil",
+            "description": "Tá brón orainn, ach chuaigh an t-am in éag agus an leathanach seo á lódáil. D'fhéadfadh sé go bhfuil an freastalaí gnóthach agus nach féidir leis d'iarratas a phróiseáil faoi láthair.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Fearann anaithnid",
+            "description": "Níl an fearann seo cláraithe leis an seoladh IP seo.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Modh nach dtacaítear leis",
+            "description": "Níl an modh HTTP a iarradh cumasaithe don suíomh gréasáin seo.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Iarratas neamhshlán",
+            "description": "Níl an prótacal HTTPS a iarradh cumasaithe don suíomh gréasáin seo. Nuashonraigh do bhrabhsálaí.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "As líne le haghaidh cothabhála",
+            "description": "Níl an suíomh gréasáin seo ar fáil faoi láthair. Tá súil go mbeidh sé ar fáil arís go luath.",
+            "refresh_enable": true
+        }
+    }
+}

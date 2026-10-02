@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "See toiming on automaatne. Teid suunatakse peagi soovitud sihtkohta.",
+        "validate_browser": "Teie brauserit kontrollitakse enne saidile {http_host} sisenemist",
+        "are_you_human_host": "Kas olete inimene? Saidile {http_host} pääsemiseks on vaja kontrolli",
+        "are_you_human": "Kas olete inimene? Jätkamiseks on vaja kontrolli",
+        "enter_captcha_host": "Saidile {http_host} suundumiseks sisestage allolev CAPTCHA:",
+        "enter_captcha": "Jätkamiseks sisestage allolev CAPTCHA:",
+        "submit": "Saada",
+        "try_again_later": "Selle veebisaidi laadimine võtab tavalisest kauem aega. Võite hiljem <a href=\"\">uuesti proovida</a>",
+        "unexpected_error": "Paistab, et tekkis ootamatu viga. Palun <a href=\"\">proovige uuesti</a> hiljem",
+        "validation_complete": "<strong>Kontroll on lõpetatud</strong>. Teid suunatakse nüüd soovitud sihtkohta. Kui leht uuesti ei laadi, klõpsake <a href=\"\">siin</a>.",
+        "enable_javascript": "Brauseri kontroll töötab kõige paremini, kui JavaScript on lubatud.",
+        "abnormal_activity": "Ebatavalise tegevuse tõttu peate jätkamiseks täitma alloleva ülesande",
+        "sorry_inconvenience": "Vabandame võimalike ebamugavuste pärast",
+        "verifying": "Kontrollimine"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Viga saidi {host} laadimisel",
+            "refresh_text": "Proovige saiti hiljem külastada või klõpsake lehe uuesti laadimiseks <a href=\"\">siin</a>.",
+            "unexpected_error": "Selle lehe laadimisel tekkis ootamatu viga",
+            "possible_causes": "Võimalikud põhjused on järgmised: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Veebisait pole saadaval",
+            "description": "Kahjuks tekkis selle lehe laadimisel ootamatu viga. Vabandame võimalike ebamugavuste pärast. Proovige saiti hiljem külastada või klõpsake lehe uuesti laadimiseks <a href=\"\">siin</a>."
+        },
+        "suspended": {
+            "title": "Veebisaidi töö on peatatud",
+            "description": "Kahjuks pole veebisait, mida proovite külastada, saadaval. Vabandame võimalike ebamugavuste pärast. Kui olete selle veebisaidi <strong>omanik</strong>, <a href=\"https://www.x4b.net/support\">võtke ühendust kasutajatoega</a>."
+        },
+        "over_bandwidth": {
+            "title": "Veebisaidi töö on peatatud",
+            "description": "Kahjuks pole veebisait, mida proovite külastada, saadaval. Vabandame võimalike ebamugavuste pärast. Kui olete selle veebisaidi <strong>omanik</strong>, <a href=\"https://www.x4b.net/\">võtke ühendust kasutajatoega</a>."
+        },
+        "backend": {
+            "title": "Server pole saadaval",
+            "description": "Päritoluserver pole ajutiselt saadaval ega saa seetõttu seda päringut töödelda. Vabandame võimalike ebamugavuste pärast.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Päringu ajalimiit on ületatud",
+            "description": "Kahjuks ületati selle veebilehe laadimisel ajalimiit. Vabandame sellest tingitud võimalike ebamugavuste pärast.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Juurdepääs keelatud",
+            "description": "Teil pole luba sellele lehele juurde pääseda. Kui arvate, et see on viga, võtke ühendust veebisaidi halduriga."
+        },
+        "upstream": {
+            "title": "Server pole saadaval",
+            "description": "Praegu pole selle päringu töötlemiseks ühtegi võrgus olevat ja kättesaadavat serverit. Vabandame võimalike ebamugavuste pärast."
+        },
+        "invalid_configuration": {
+            "title": "Vigane seadistus",
+            "description": "Seadistusvea tõttu ei saa me seda päringut töödelda. Vabandame võimalike ebamugavuste pärast."
+        },
+        "resource": {
+            "title": "Juurdepääsuviga",
+            "description_start": "Kahjuks tekkis selle lehe laadimisel viga.",
+            "cause_list": [
+                "Päritoluserveri koormus on ootamatult suur ja see ei saa praegu päringuid töödelda",
+                "Päritoluserveris või andmete edastamisel tekkis ootamatu viga"
+            ],
+            "description_end": "Vabandame võimalike ebamugavuste pärast.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Juurdepääsuviga",
+            "description_start": "Kahjuks tekkis selle lehe laadimisel viga.",
+            "cause_list": [
+                "Tuvastati, et teie IP-aadressilt saadetakse serverile liiga palju päringuid",
+                "Päritoluserveri koormus on ootamatult suur ja see ei saa praegu päringuid töödelda",
+                "Päritoluserveris või andmete edastamisel tekkis ootamatu viga"
+            ],
+            "description_end": "Vabandame võimalike ebamugavuste pärast.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Juurdepääsuviga",
+            "description_start": "Kahjuks tekkis selle lehe laadimisel viga.",
+            "cause_list": [
+                "Teie IP-aadressilt on serveriga loodud ebatavaline arv ühendusi",
+                "Päritoluserveri koormus on ootamatult suur ja see ei saa praegu päringuid töödelda",
+                "Päritoluserveris või andmete edastamisel tekkis ootamatu viga"
+            ],
+            "description_end": "Vabandame võimalike ebamugavuste pärast.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Vigane päring",
+            "description": "See veebisait on kättesaadav HTTPS-i kaudu. Proovisite ühendust luua HTTP kaudu. Proovime teid nüüd ümber suunata. Kui teid ümber ei suunata, lisage oma URL-i algusesse https:// ja proovige uuesti."
+        },
+        "timeout": {
+            "title": "Server pole saadaval",
+            "description": "Kahjuks ületati selle lehe laadimisel ajalimiit. Server võib olla hõivatud ega saa praegu teie päringut töödelda.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Tundmatu domeen",
+            "description": "See domeen pole sellele IP-aadressile registreeritud.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Toetamata meetod",
+            "description": "Taotletud HTTP-meetod pole selle veebisaidi jaoks lubatud.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Ebaturvaline päring",
+            "description": "Taotletud HTTPS-protokoll pole selle veebisaidi jaoks lubatud. Palun uuendage oma brauserit.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Hoolduseks võrgust väljas",
+            "description": "See veebisait pole praegu saadaval. Eeldatavasti on see peagi jälle kättesaadav.",
+            "refresh_enable": true
+        }
+    }
+}

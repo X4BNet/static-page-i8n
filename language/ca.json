@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Aquest procés és automàtic. Aviat se us redirigirà a la destinació desitjada.",
+        "validate_browser": "S'està verificant el navegador abans d'accedir a {http_host}",
+        "are_you_human_host": "Sou una persona? Cal una verificació per accedir a {http_host}",
+        "are_you_human": "Sou una persona? Cal una verificació per continuar",
+        "enter_captcha_host": "Introduïu el CAPTCHA següent per continuar cap a {http_host}:",
+        "enter_captcha": "Introduïu el CAPTCHA següent per continuar:",
+        "submit": "envia",
+        "try_again_later": "Aquest lloc web triga més del que és habitual a carregar-se. Podeu <a href=\"\">tornar-ho a provar</a> més tard",
+        "unexpected_error": "Sembla que s'ha produït un error inesperat. <a href=\"\">Torneu-ho a provar</a> més tard",
+        "validation_complete": "<strong>Verificació completada</strong>. Ara se us redirigeix a la destinació desitjada. Feu clic <a href=\"\">aquí</a> si la pàgina no es torna a carregar.",
+        "enable_javascript": "La verificació del navegador funciona millor amb JavaScript activat.",
+        "abnormal_activity": "A causa d'una activitat anòmala, heu de completar la tasca següent per continuar",
+        "sorry_inconvenience": "Disculpeu les molèsties",
+        "verifying": "S'està verificant"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Error en carregar {host}",
+            "refresh_text": "Proveu d'accedir al lloc web més tard o feu clic <a href=\"\">aquí</a> per actualitzar la pàgina.",
+            "unexpected_error": "S'ha produït un error inesperat en carregar aquesta pàgina",
+            "possible_causes": "Les causes possibles inclouen:",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Lloc web no disponible",
+            "description": "Malauradament, s'ha produït un error inesperat en carregar aquesta pàgina. Disculpeu les molèsties. Proveu d'accedir al lloc web més tard o feu clic <a href=\"\">aquí</a> per actualitzar la pàgina."
+        },
+        "suspended": {
+            "title": "Lloc web suspès",
+            "description": "Malauradament, el lloc web que intenteu visitar no està disponible. Disculpeu les molèsties. Si sou el <strong>propietari</strong> d'aquest lloc web, <a href=\"https://www.x4b.net/support\">contacteu amb el servei d'assistència</a>."
+        },
+        "over_bandwidth": {
+            "title": "Lloc web suspès",
+            "description": "Malauradament, el lloc web que intenteu visitar no està disponible. Disculpeu les molèsties. Si sou el <strong>propietari</strong> d'aquest lloc web, <a href=\"https://www.x4b.net/\">contacteu amb el servei d'assistència</a>."
+        },
+        "backend": {
+            "title": "Servidor no disponible",
+            "description": "El servidor d'origen no està disponible temporalment i, per tant, no pot atendre aquesta sol·licitud. Disculpeu les molèsties.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "S'ha esgotat el temps d'espera de la sol·licitud",
+            "description": "S'ha esgotat el temps d'espera en carregar aquesta pàgina web. Disculpeu les molèsties que això hagi pogut causar.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Accés denegat",
+            "description": "No teniu permís per accedir a aquesta pàgina. Si creieu que és un error, contacteu amb l'administrador del lloc web."
+        },
+        "upstream": {
+            "title": "Servidor no disponible",
+            "description": "Actualment no hi ha cap servidor connectat i disponible per processar aquesta sol·licitud. Disculpeu les molèsties."
+        },
+        "invalid_configuration": {
+            "title": "Configuració no vàlida",
+            "description": "No podem atendre aquesta sol·licitud a causa d'un error de configuració. Disculpeu les molèsties."
+        },
+        "resource": {
+            "title": "Error d'accés",
+            "description_start": "Malauradament, s'ha produït un error en carregar aquesta pàgina.",
+            "cause_list": [
+                "El servidor d'origen té una càrrega inesperada i no pot processar sol·licituds en aquest moment",
+                "S'ha produït un error inesperat al servidor d'origen o durant la transmissió de dades"
+            ],
+            "description_end": "Disculpeu les molèsties.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Error d'accés",
+            "description_start": "Malauradament, s'ha produït un error en carregar aquesta pàgina.",
+            "cause_list": [
+                "S'ha detectat que la vostra adreça IP envia un nombre excessiu de sol·licituds al servidor",
+                "El servidor d'origen té una càrrega inesperada i no pot processar sol·licituds en aquest moment",
+                "S'ha produït un error inesperat al servidor d'origen o durant la transmissió de dades"
+            ],
+            "description_end": "Disculpeu les molèsties.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Error d'accés",
+            "description_start": "Malauradament, s'ha produït un error en carregar aquesta pàgina.",
+            "cause_list": [
+                "La vostra adreça IP té un nombre anòmal de connexions amb el servidor",
+                "El servidor d'origen té una càrrega inesperada i no pot processar sol·licituds en aquest moment",
+                "S'ha produït un error inesperat al servidor d'origen o durant la transmissió de dades"
+            ],
+            "description_end": "Disculpeu les molèsties.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Sol·licitud incorrecta",
+            "description": "Aquest lloc web és accessible mitjançant HTTPS. Heu intentat connectar-vos mitjançant HTTP i ara intentarem redirigir-vos. Si no se us redirigeix, afegiu https:// al començament del vostre URL i torneu-ho a provar."
+        },
+        "timeout": {
+            "title": "Servidor no disponible",
+            "description": "S'ha esgotat el temps d'espera en carregar aquesta pàgina. És possible que el servidor estigui ocupat i no pugui processar la vostra sol·licitud en aquest moment.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Domini desconegut",
+            "description": "Aquest domini no està registrat per a aquesta adreça IP.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Mètode no compatible",
+            "description": "El mètode HTTP sol·licitat no està habilitat per a aquest lloc web.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Sol·licitud no segura",
+            "description": "El protocol HTTPS sol·licitat no està habilitat per a aquest lloc web. Actualitzeu el navegador.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Fora de servei per manteniment",
+            "description": "Aquest lloc web no està disponible en aquest moment. S'espera que torni a estar disponible aviat.",
+            "refresh_enable": true
+        }
+    }
+}

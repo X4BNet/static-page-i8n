@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Este proceso é automático. En breve redirixirémoste ao teu destino.",
+        "validate_browser": "Validando o teu navegador antes de acceder a {http_host}",
+        "are_you_human_host": "Es unha persoa? Cómpre unha validación para acceder a {http_host}",
+        "are_you_human": "Es unha persoa? Cómpre unha validación para continuar",
+        "enter_captcha_host": "Introduce o CAPTCHA de abaixo para continuar a {http_host}:",
+        "enter_captcha": "Introduce o CAPTCHA de abaixo para continuar:",
+        "submit": "enviar",
+        "try_again_later": "Este sitio web está a tardar máis do habitual en cargar. Podes <a href=\"\">tentalo de novo</a> máis tarde",
+        "unexpected_error": "Parece que se produciu un erro inesperado. <a href=\"\">Téntao de novo</a> máis tarde",
+        "validation_complete": "<strong>Validación completada</strong> Agora estás a ser redirixido ao teu destino. Preme <a href=\"\">aquí</a> se a páxina non se recarga.",
+        "enable_javascript": "A validación do navegador funciona mellor con JavaScript activado.",
+        "abnormal_activity": "Debido a unha actividade anómala, precisamos que completes a tarefa de abaixo para continuar",
+        "sorry_inconvenience": "Pedimos desculpas polas molestias",
+        "verifying": "Verificando"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Erro ao cargar {host}",
+            "refresh_text": "Tenta acceder ao sitio máis tarde ou preme <a href=\"\">aquí</a> para actualizar a páxina.",
+            "unexpected_error": "Produciuse un erro inesperado ao cargar esta páxina",
+            "possible_causes": "Entre as posibles causas están: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Sitio web non dispoñible",
+            "description": "Por desgraza, produciuse un erro inesperado ao cargar esta páxina. Pedimos desculpas polas molestias. Tenta acceder ao sitio máis tarde ou preme <a href=\"\">aquí</a> para actualizar a páxina."
+        },
+        "suspended": {
+            "title": "Sitio web suspendido",
+            "description": "Por desgraza, o sitio web que estás a tentar visitar non está dispoñible. Pedimos desculpas polas molestias. Se es o <strong>propietario</strong> deste sitio web, <a href=\"https://www.x4b.net/support\">contacta co servizo de asistencia</a>."
+        },
+        "over_bandwidth": {
+            "title": "Sitio web suspendido",
+            "description": "Por desgraza, o sitio web que estás a tentar visitar non está dispoñible. Pedimos desculpas polas molestias. Se es o <strong>propietario</strong> deste sitio web, <a href=\"https://www.x4b.net/\">contacta co servizo de asistencia</a>."
+        },
+        "backend": {
+            "title": "Servidor non dispoñible",
+            "description": "O servidor de orixe non está dispoñible temporalmente e, polo tanto, non pode atender esta solicitude. Pedimos desculpas polas molestias.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Tempo de espera da solicitude esgotado",
+            "description": "Sentímolo, pero esgotouse o tempo de espera ao cargar esta páxina web. Pedimos desculpas polas molestias que isto puidese causar.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Acceso denegado",
+            "description": "Non tes permiso para acceder a esta páxina. Se cres que isto é un erro, contacta co administrador do sitio web."
+        },
+        "upstream": {
+            "title": "Servidor non dispoñible",
+            "description": "Actualmente non hai ningún servidor en liña e dispoñible para procesar esta solicitude. Pedimos desculpas polas molestias."
+        },
+        "invalid_configuration": {
+            "title": "Configuración non válida",
+            "description": "Non podemos atender esta solicitude debido a un erro de configuración. Pedimos desculpas polas molestias."
+        },
+        "resource": {
+            "title": "Erro de acceso",
+            "description_start": "Por desgraza, produciuse un erro ao cargar esta páxina.",
+            "cause_list": [
+                "O servidor de orixe está a recibir unha carga inesperada e non pode procesar solicitudes neste momento",
+                "Produciuse un erro inesperado no servidor de orixe ou durante a transmisión"
+            ],
+            "description_end": "Pedimos desculpas polas molestias.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Erro de acceso",
+            "description_start": "Por desgraza, produciuse un erro ao cargar esta páxina.",
+            "cause_list": [
+                "Detectouse que o teu enderezo IP está a enviar demasiadas solicitudes ao servidor",
+                "O servidor de orixe está a recibir unha carga inesperada e non pode procesar solicitudes neste momento",
+                "Produciuse un erro inesperado no servidor de orixe ou durante a transmisión"
+            ],
+            "description_end": "Pedimos desculpas polas molestias.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Erro de acceso",
+            "description_start": "Por desgraza, produciuse un erro ao cargar esta páxina.",
+            "cause_list": [
+                "O teu enderezo IP ten un número anómalo de conexións co servidor",
+                "O servidor de orixe está a recibir unha carga inesperada e non pode procesar solicitudes neste momento",
+                "Produciuse un erro inesperado no servidor de orixe ou durante a transmisión"
+            ],
+            "description_end": "Pedimos desculpas polas molestias.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Solicitude incorrecta",
+            "description": "Este sitio web é accesible mediante HTTPS. Tentaches conectarte mediante HTTP; agora tentaremos redirixirte. Se non se produce a redirección, engade https:// ao comezo do teu URL e téntao de novo."
+        },
+        "timeout": {
+            "title": "Servidor non dispoñible",
+            "description": "Sentímolo, pero esgotouse o tempo de espera ao cargar esta páxina. É posible que o servidor estea ocupado e non poida procesar a túa solicitude neste momento.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Dominio descoñecido",
+            "description": "Este dominio non está rexistrado para este enderezo IP.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Método non admitido",
+            "description": "O método HTTP solicitado non está activado para este sitio web.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Solicitude insegura",
+            "description": "O protocolo HTTPS solicitado non está activado para este sitio web. Actualiza o teu navegador.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Fóra de liña por mantemento",
+            "description": "Este sitio web non está dispoñible neste momento. Espérase que volva estar dispoñible en breve.",
+            "refresh_enable": true
+        }
+    }
+}

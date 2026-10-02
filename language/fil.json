@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Awtomatiko ang prosesong ito. Ililipat ka sa pahinang nais mong puntahan sa ilang sandali.",
+        "validate_browser": "Sinusuri ang iyong browser bago ma-access ang {http_host}",
+        "are_you_human_host": "Tao ka ba? Kailangan ang beripikasyon upang ma-access ang {http_host}",
+        "are_you_human": "Tao ka ba? Kailangan ang beripikasyon upang magpatuloy",
+        "enter_captcha_host": "Pakilagay ang CAPTCHA sa ibaba upang magpatuloy sa {http_host}:",
+        "enter_captcha": "Pakilagay ang CAPTCHA sa ibaba upang magpatuloy:",
+        "submit": "isumite",
+        "try_again_later": "Mas matagal kaysa karaniwan ang pag-load ng website na ito. Maaari kang <a href=\"\">sumubok muli</a> sa ibang pagkakataon",
+        "unexpected_error": "Mukhang may naganap na hindi inaasahang error. <a href=\"\">Subukang muli</a> sa ibang pagkakataon",
+        "validation_complete": "<strong>Kumpleto na ang beripikasyon</strong>. Inililipat ka na sa pahinang nais mong puntahan. I-click <a href=\"\">dito</a> kung hindi muling mag-load ang pahina.",
+        "enable_javascript": "Pinakamahusay na gumagana ang pagsusuri ng browser kapag naka-enable ang JavaScript.",
+        "abnormal_activity": "Dahil sa hindi pangkaraniwang aktibidad, kailangan mong kumpletuhin ang gawain sa ibaba upang magpatuloy",
+        "sorry_inconvenience": "Paumanhin sa anumang abala",
+        "verifying": "Bineberipika"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Error sa pag-load ng {host}",
+            "refresh_text": "Subukang buksan ang site sa ibang pagkakataon o i-click <a href=\"\">dito</a> upang i-refresh ang pahina.",
+            "unexpected_error": "May naganap na hindi inaasahang error habang nilo-load ang pahinang ito",
+            "possible_causes": "Kabilang sa mga posibleng dahilan ang:",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Hindi Magamit ang Website",
+            "description": "Sa kasamaang-palad, may naganap na hindi inaasahang error habang nilo-load ang pahinang ito. Paumanhin sa anumang abala. Subukang buksan ang site sa ibang pagkakataon o i-click <a href=\"\">dito</a> upang i-refresh ang pahina."
+        },
+        "suspended": {
+            "title": "Sinuspinde ang Website",
+            "description": "Sa kasamaang-palad, hindi magamit ang website na sinusubukan mong bisitahin. Paumanhin sa anumang abala. Kung ikaw ang <strong>may-ari</strong> ng website na ito, <a href=\"https://www.x4b.net/support\">makipag-ugnayan sa suporta</a>."
+        },
+        "over_bandwidth": {
+            "title": "Sinuspinde ang Website",
+            "description": "Sa kasamaang-palad, hindi magamit ang website na sinusubukan mong bisitahin. Paumanhin sa anumang abala. Kung ikaw ang <strong>may-ari</strong> ng website na ito, <a href=\"https://www.x4b.net/\">makipag-ugnayan sa suporta</a>."
+        },
+        "backend": {
+            "title": "Hindi Magamit ang Server",
+            "description": "Pansamantalang hindi magamit ang pinagmulang server kaya hindi nito maproseso ang kahilingang ito. Paumanhin sa anumang abala.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Lumampas sa Oras ang Kahilingan",
+            "description": "Paumanhin, lumampas sa itinakdang oras ang pag-load ng web page na ito. Paumanhin sa anumang abalang maaaring idinulot nito.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Tinanggihan ang Access",
+            "description": "Wala kang pahintulot na i-access ang pahinang ito. Kung sa tingin mo ay may pagkakamali, makipag-ugnayan sa administrator ng website."
+        },
+        "upstream": {
+            "title": "Hindi Magamit ang Server",
+            "description": "Sa kasalukuyan, walang server na online at maaaring magproseso ng kahilingang ito. Paumanhin sa anumang abala."
+        },
+        "invalid_configuration": {
+            "title": "Di-wastong Configuration",
+            "description": "Hindi namin maproseso ang kahilingang ito dahil sa error sa configuration. Paumanhin sa anumang abala."
+        },
+        "resource": {
+            "title": "Error sa Pag-access",
+            "description_start": "Sa kasamaang-palad, may naganap na error habang nilo-load ang pahinang ito.",
+            "cause_list": [
+                "Nakakaranas ng hindi inaasahang bigat ng trabaho ang pinagmulang server at hindi nito maproseso ang mga kahilingan sa ngayon",
+                "May naganap na hindi inaasahang error sa pinagmulang server o habang ipinapadala ang data"
+            ],
+            "description_end": "Paumanhin sa anumang abala.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Error sa Pag-access",
+            "description_start": "Sa kasamaang-palad, may naganap na error habang nilo-load ang pahinang ito.",
+            "cause_list": [
+                "Natukoy na nagpapadala ng napakaraming kahilingan sa server ang iyong IP address",
+                "Nakakaranas ng hindi inaasahang bigat ng trabaho ang pinagmulang server at hindi nito maproseso ang mga kahilingan sa ngayon",
+                "May naganap na hindi inaasahang error sa pinagmulang server o habang ipinapadala ang data"
+            ],
+            "description_end": "Paumanhin sa anumang abala.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Error sa Pag-access",
+            "description_start": "Sa kasamaang-palad, may naganap na error habang nilo-load ang pahinang ito.",
+            "cause_list": [
+                "May hindi pangkaraniwang dami ng koneksyon sa server mula sa iyong IP address",
+                "Nakakaranas ng hindi inaasahang bigat ng trabaho ang pinagmulang server at hindi nito maproseso ang mga kahilingan sa ngayon",
+                "May naganap na hindi inaasahang error sa pinagmulang server o habang ipinapadala ang data"
+            ],
+            "description_end": "Paumanhin sa anumang abala.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Di-wastong Kahilingan",
+            "description": "Maa-access ang website na ito sa pamamagitan ng HTTPS. Sinubukan mong kumonekta sa pamamagitan ng HTTP, kaya susubukan ka naming ilipat ngayon. Kung hindi ka mailipat, idagdag ang https:// sa simula ng iyong URL at subukang muli."
+        },
+        "timeout": {
+            "title": "Hindi Magamit ang Server",
+            "description": "Paumanhin, lumampas sa itinakdang oras ang pag-load ng pahinang ito. Maaaring abala ang server at hindi nito maproseso ang iyong kahilingan sa ngayon.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Hindi Kilalang Domain",
+            "description": "Hindi nakarehistro ang domain na ito sa IP address na ito.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Hindi Sinusuportahang Pamamaraan",
+            "description": "Hindi naka-enable para sa website na ito ang hiniling na pamamaraang HTTP.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Hindi Secure na Kahilingan",
+            "description": "Hindi naka-enable para sa website na ito ang hiniling na protocol na HTTPS. Paki-update ang iyong browser.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Offline para sa Pagpapanatili",
+            "description": "Hindi magamit ang website na ito sa ngayon. Inaasahang magagamit itong muli sa ilang sandali.",
+            "refresh_enable": true
+        }
+    }
+}

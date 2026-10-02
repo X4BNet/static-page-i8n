@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Bu jarayon avtomatik tarzda bajariladi. Tez orada siz kerakli sahifaga yo‘naltirilasiz.",
+        "validate_browser": "{http_host} saytiga kirishdan oldin brauzeringiz tekshirilmoqda",
+        "are_you_human_host": "Siz insonmisiz? {http_host} saytiga kirish uchun tekshiruvdan o‘tish kerak",
+        "are_you_human": "Siz insonmisiz? Davom etish uchun tekshiruvdan o‘tish kerak",
+        "enter_captcha_host": "{http_host} saytiga o‘tish uchun quyidagi CAPTCHA kodini kiriting:",
+        "enter_captcha": "Davom etish uchun quyidagi CAPTCHA kodini kiriting:",
+        "submit": "yuborish",
+        "try_again_later": "Bu veb-sayt odatdagidan uzoqroq yuklanmoqda. Keyinroq <a href=\"\">qayta urinib ko‘rishingiz</a> mumkin",
+        "unexpected_error": "Kutilmagan xatolik yuz berganga o‘xshaydi. Keyinroq <a href=\"\">qayta urinib ko‘ring</a>",
+        "validation_complete": "<strong>Tekshiruv tugallandi</strong>. Hozir siz kerakli sahifaga yo‘naltirilmoqdasiz. Agar sahifa qayta yuklanmasa, <a href=\"\">bu yerni</a> bosing.",
+        "enable_javascript": "JavaScript yoqilganida brauzerni tekshirish yaxshiroq ishlaydi.",
+        "abnormal_activity": "G‘ayrioddiy faollik sababli davom etish uchun quyidagi vazifani bajarishingiz kerak",
+        "sorry_inconvenience": "Noqulaylik uchun uzr so‘raymiz",
+        "verifying": "Tekshirilmoqda"
+    },
+    "error": {
+        "default": {
+            "error_loading": "{host} yuklanishida xatolik",
+            "refresh_text": "Saytga keyinroq kirishga urinib ko‘ring yoki sahifani qayta yuklash uchun <a href=\"\">bu yerni</a> bosing.",
+            "unexpected_error": "Bu sahifani yuklashda kutilmagan xatolik yuz berdi",
+            "possible_causes": "Ehtimoliy sabablar: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Veb-saytdan foydalanib bo‘lmaydi",
+            "description": "Afsuski, bu sahifani yuklashda kutilmagan xatolik yuz berdi. Noqulaylik uchun uzr so‘raymiz. Saytga keyinroq kirishga urinib ko‘ring yoki sahifani qayta yuklash uchun <a href=\"\">bu yerni</a> bosing."
+        },
+        "suspended": {
+            "title": "Veb-sayt faoliyati to‘xtatilgan",
+            "description": "Afsuski, siz kirmoqchi bo‘lgan veb-saytdan hozir foydalanib bo‘lmaydi. Noqulaylik uchun uzr so‘raymiz. Agar ushbu veb-saytning <strong>egasi</strong> bo‘lsangiz, <a href=\"https://www.x4b.net/support\">yordam xizmatiga murojaat qiling</a>."
+        },
+        "over_bandwidth": {
+            "title": "Veb-sayt faoliyati to‘xtatilgan",
+            "description": "Afsuski, siz kirmoqchi bo‘lgan veb-saytdan hozir foydalanib bo‘lmaydi. Noqulaylik uchun uzr so‘raymiz. Agar ushbu veb-saytning <strong>egasi</strong> bo‘lsangiz, <a href=\"https://www.x4b.net/\">yordam xizmatiga murojaat qiling</a>."
+        },
+        "backend": {
+            "title": "Serverdan foydalanib bo‘lmaydi",
+            "description": "Manba serveridan vaqtincha foydalanib bo‘lmaydi, shuning uchun u bu so‘rovga xizmat ko‘rsata olmaydi. Noqulaylik uchun uzr so‘raymiz.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "So‘rovni kutish vaqti tugadi",
+            "description": "Afsuski, bu veb-sahifani yuklashda kutish uchun ajratilgan vaqt tugadi. Yuzaga kelgan noqulaylik uchun uzr so‘raymiz.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Kirish rad etildi",
+            "description": "Bu sahifaga kirish uchun ruxsatingiz yo‘q. Agar buni xatolik deb hisoblasangiz, veb-sayt ma’muriga murojaat qiling."
+        },
+        "upstream": {
+            "title": "Serverdan foydalanib bo‘lmaydi",
+            "description": "Hozir bu so‘rovni qayta ishlash uchun tarmoqqa ulangan va ishlatish mumkin bo‘lgan server yo‘q. Noqulaylik uchun uzr so‘raymiz."
+        },
+        "invalid_configuration": {
+            "title": "Noto‘g‘ri sozlamalar",
+            "description": "Sozlamalardagi xatolik tufayli bu so‘rovga xizmat ko‘rsata olmaymiz. Noqulaylik uchun uzr so‘raymiz."
+        },
+        "resource": {
+            "title": "Kirishda xatolik",
+            "description_start": "Afsuski, bu sahifani yuklashda xatolik yuz berdi.",
+            "cause_list": [
+                "Manba serverida kutilmagan yuklama mavjud va u hozir so‘rovlarni qayta ishlay olmaydi",
+                "Manba serverida yoki ma’lumot uzatilishida kutilmagan xatolik yuz berdi"
+            ],
+            "description_end": "Noqulaylik uchun uzr so‘raymiz.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Kirishda xatolik",
+            "description_start": "Afsuski, bu sahifani yuklashda xatolik yuz berdi.",
+            "cause_list": [
+                "IP manzilingizdan serverga haddan tashqari ko‘p so‘rov yuborilayotgani aniqlandi",
+                "Manba serverida kutilmagan yuklama mavjud va u hozir so‘rovlarni qayta ishlay olmaydi",
+                "Manba serverida yoki ma’lumot uzatilishida kutilmagan xatolik yuz berdi"
+            ],
+            "description_end": "Noqulaylik uchun uzr so‘raymiz.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Kirishda xatolik",
+            "description_start": "Afsuski, bu sahifani yuklashda xatolik yuz berdi.",
+            "cause_list": [
+                "IP manzilingizdan serverga ulanishlar soni g‘ayrioddiy",
+                "Manba serverida kutilmagan yuklama mavjud va u hozir so‘rovlarni qayta ishlay olmaydi",
+                "Manba serverida yoki ma’lumot uzatilishida kutilmagan xatolik yuz berdi"
+            ],
+            "description_end": "Noqulaylik uchun uzr so‘raymiz.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Noto‘g‘ri so‘rov",
+            "description": "Bu veb-saytga HTTPS orqali kirish mumkin. Siz HTTP orqali ulanishga urindingiz; endi sizni qayta yo‘naltirishga urinib ko‘ramiz. Agar qayta yo‘naltirilmasangiz, URL boshiga https:// qo‘shing va qayta urinib ko‘ring."
+        },
+        "timeout": {
+            "title": "Serverdan foydalanib bo‘lmaydi",
+            "description": "Afsuski, bu sahifani yuklashda kutish uchun ajratilgan vaqt tugadi. Server band bo‘lib, hozir so‘rovingizni qayta ishlay olmayotgan bo‘lishi mumkin.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Noma’lum domen",
+            "description": "Bu domen ushbu IP manziliga ro‘yxatdan o‘tkazilmagan.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Qo‘llab-quvvatlanmaydigan usul",
+            "description": "So‘ralgan HTTP usuli bu veb-sayt uchun yoqilmagan.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Xavfsiz bo‘lmagan so‘rov",
+            "description": "So‘ralgan HTTPS protokoli bu veb-sayt uchun yoqilmagan. Brauzeringizni yangilang.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Texnik xizmat uchun vaqtincha o‘chirilgan",
+            "description": "Bu veb-saytdan hozir foydalanib bo‘lmaydi. U tez orada yana ishlashi kutilmoqda.",
+            "refresh_enable": true
+        }
+    }
+}

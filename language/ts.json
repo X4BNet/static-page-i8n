@@ -1,0 +1,122 @@
+{
+    "challenge": {
+        "redirect_shortly": "Endlelo leri ri tiendlekela. Ku nga ri khale u ta kongomisiwa eka tluka leri u lavaka ku ri endzela.",
+        "validate_browser": "Hi tiyisisa browser ya wena u nga si nghena eka {http_host}",
+        "are_you_human_host": "Xana u munhu? Ku laveka ku tiyisisa leswaku u kota ku nghena eka {http_host}",
+        "are_you_human": "Xana u munhu? Ku laveka ku tiyisisa leswaku u kota ku ya mahlweni",
+        "enter_captcha_host": "Hi kombela u nghenisa CAPTCHA leyi nga laha hansi leswaku u ya eka {http_host}:",
+        "enter_captcha": "Hi kombela u nghenisa CAPTCHA leyi nga laha hansi leswaku u ya mahlweni:",
+        "submit": "rhumela",
+        "try_again_later": "Webusayiti leyi yi teka nkarhi wo leha ku tlurisa ntolovelo leswaku yi layicha. U nga <a href=\"\">ringeta nakambe</a> endzhaku",
+        "unexpected_error": "Swi vonaka onge ku humelele xihoxo lexi a xi nga languteriwanga. Hi kombela u <a href=\"\">ringeta nakambe</a> endzhaku",
+        "validation_complete": "<strong>Ku tiyisisa ku herile</strong>. Sweswi u kongomisiwa eka tluka leri u lavaka ku ri endzela. Tlilika <a href=\"\">laha</a> loko tluka ri nga layichi nakambe.",
+        "enable_javascript": "Ku tiyisisa browser swi tirha kahle swinene loko JavaScript yi pfuriwile.",
+        "abnormal_activity": "Hikokwalaho ka migingiriko leyi nga tolovelekangiki, hi lava leswaku u hetisa xintirhwana lexi nga laha hansi leswaku u ya mahlweni",
+        "sorry_inconvenience": "Hi kombela ku rivaleriwa eka ku kavanyeteka kwihi na kwihi",
+        "verifying": "Hi le ku tiyisiseni"
+    },
+    "error": {
+        "default": {
+            "error_loading": "Xihoxo eku layicheni ka {host}",
+            "refresh_text": "Hi kombela u ringeta ku nghena eka webusayiti endzhaku kumbe u tlilika <a href=\"\">laha</a> leswaku tluka ri layicha nakambe.",
+            "unexpected_error": "Ku humelele xihoxo lexi a xi nga languteriwanga loko ku layichiwa tluka leri",
+            "possible_causes": "Swivangelo leswi nga vaka kona swi katsa: ",
+            "refresh_enable": false
+        },
+        "error": {
+            "title": "Webusayiti a yi kumeki",
+            "description": "Hi khombyo, ku humelele xihoxo lexi a xi nga languteriwanga loko ku layichiwa tluka leri. Hi kombela ku rivaleriwa eka ku kavanyeteka kwihi na kwihi. Hi kombela u ringeta ku nghena eka webusayiti endzhaku kumbe u tlilika <a href=\"\">laha</a> leswaku tluka ri layicha nakambe."
+        },
+        "suspended": {
+            "title": "Webusayiti yi yimisiwile",
+            "description": "Hi khombyo, webusayiti leyi u ringetaka ku yi endzela a yi kumeki. Hi kombela ku rivaleriwa eka ku kavanyeteka kwihi na kwihi. Loko u ri <strong>n'winyi</strong> wa webusayiti leyi, hi kombela u <a href=\"https://www.x4b.net/support\">tihlanganisa ni lava nyikaka mpfuno</a>."
+        },
+        "over_bandwidth": {
+            "title": "Webusayiti yi yimisiwile",
+            "description": "Hi khombyo, webusayiti leyi u ringetaka ku yi endzela a yi kumeki. Hi kombela ku rivaleriwa eka ku kavanyeteka kwihi na kwihi. Loko u ri <strong>n'winyi</strong> wa webusayiti leyi, hi kombela u <a href=\"https://www.x4b.net/\">tihlanganisa ni lava nyikaka mpfuno</a>."
+        },
+        "backend": {
+            "title": "Seva a yi kumeki",
+            "description": "Seva ya xihlovo a yi kumeki swa xinkarhana, hikokwalaho a yi koti ku hetisisa xikombelo lexi. Hi kombela ku rivaleriwa eka ku kavanyeteka kwihi na kwihi.",
+            "refresh_enable": true
+        },
+        "clienttimeout": {
+            "title": "Nkarhi lowu vekiweke wo rindzela xikombelo wu herile",
+            "description": "Hi khomeleni, nkarhi lowu vekiweke wo rindza wu herile loko ku layichiwa tluka leri. Hi kombela ku rivaleriwa eka ku kavanyeteka loku leswi swi nga vaka swi ku vangile.",
+            "refresh_enable": true
+        },
+        "forbidden": {
+            "title": "Ku nghena ku ariwile",
+            "description": "A wu na mpfumelelo wo nghena eka tluka leri. Loko u ehleketa leswaku leswi i xihoxo, hi kombela u tihlanganisa ni mulawuri wa webusayiti."
+        },
+        "upstream": {
+            "title": "Seva a yi kumeki",
+            "description": "Sweswi a ku na seva leyi hlanganisiweke eka inthanete naswona yi kumekaka leswaku yi tirhana ni xikombelo lexi. Hi kombela ku rivaleriwa eka ku kavanyeteka kwihi na kwihi."
+        },
+        "invalid_configuration": {
+            "title": "Mavekelo lama nga riki ya kahle",
+            "description": "A hi koti ku hetisisa xikombelo lexi hikokwalaho ka xihoxo eka mavekelo. Hi kombela ku rivaleriwa eka ku kavanyeteka kwihi na kwihi."
+        },
+        "resource": {
+            "title": "Xihoxo xo nghena",
+            "description_start": "Hi khombyo, ku humelele xihoxo loko ku layichiwa tluka leri.",
+            "cause_list": [
+                "Seva ya xihlovo yi langutane ni ndzhwalo wa mintirho lowu a wu nga languteriwanga naswona a yi koti ku tirhana ni swikombelo sweswi",
+                "Ku humelele xihoxo lexi a xi nga languteriwanga eka seva ya xihlovo kumbe loko ku hundziseriwa data"
+            ],
+            "description_end": "Hi kombela ku rivaleriwa eka ku kavanyeteka kwihi na kwihi.",
+            "refresh_enable": true
+        },
+        "resource_limitrate": {
+            "title": "Xihoxo xo nghena",
+            "description_start": "Hi khombyo, ku humelele xihoxo loko ku layichiwa tluka leri.",
+            "cause_list": [
+                "Ku kumekile leswaku adirese ya wena ya IP yi rhumela swikombelo swo tala ku tlurisa mpimo eka seva",
+                "Seva ya xihlovo yi langutane ni ndzhwalo wa mintirho lowu a wu nga languteriwanga naswona a yi koti ku tirhana ni swikombelo sweswi",
+                "Ku humelele xihoxo lexi a xi nga languteriwanga eka seva ya xihlovo kumbe loko ku hundziseriwa data"
+            ],
+            "description_end": "Hi kombela ku rivaleriwa eka ku kavanyeteka kwihi na kwihi.",
+            "refresh_enable": true
+        },
+        "resource_limitcon": {
+            "title": "Xihoxo xo nghena",
+            "description_start": "Hi khombyo, ku humelele xihoxo loko ku layichiwa tluka leri.",
+            "cause_list": [
+                "Adirese ya wena ya IP yi ni nhlayo leyi nga tolovelekangiki ya vuhlanganisi na seva",
+                "Seva ya xihlovo yi langutane ni ndzhwalo wa mintirho lowu a wu nga languteriwanga naswona a yi koti ku tirhana ni swikombelo sweswi",
+                "Ku humelele xihoxo lexi a xi nga languteriwanga eka seva ya xihlovo kumbe loko ku hundziseriwa data"
+            ],
+            "description_end": "Hi kombela ku rivaleriwa eka ku kavanyeteka kwihi na kwihi.",
+            "refresh_enable": true
+        },
+        "ssl-https-http": {
+            "title": "Xikombelo lexi nga riki xa kahle",
+            "description": "Webusayiti leyi yi ngheneka hi HTTPS. U ringetile ku hlanganisa hi HTTP; sweswi hi ta ringeta ku ku kongomisa nakambe. Loko u nga kongomisiwi, hi kombela u engetela https:// eku sunguleni ka URL ya wena kutani u ringeta nakambe."
+        },
+        "timeout": {
+            "title": "Seva a yi kumeki",
+            "description": "Hi khomeleni, nkarhi lowu vekiweke wo rindza wu herile loko ku layichiwa tluka leri. Swi nga endleka leswaku seva yi khomekile naswona a yi koti ku tirhana ni xikombelo xa wena sweswi.",
+            "refresh_enable": true
+        },
+        "unknown_domain": {
+            "title": "Domeyini leyi nga tivekiki",
+            "description": "Domeyini leyi a yi tsarisiwanga eka adirese leyi ya IP.",
+            "refresh_enable": true
+        },
+        "unsupported_method": {
+            "title": "Ndlela leyi nga seketeriwiki",
+            "description": "Ndlela ya HTTP leyi komberiweke a yi pfuriwanga eka webusayiti leyi.",
+            "refresh_enable": true
+        },
+        "ssl-insecure": {
+            "title": "Xikombelo lexi nga hlayisekangiki",
+            "description": "Phurotokholo ya HTTPS leyi komberiweke a yi pfuriwanga eka webusayiti leyi. Hi kombela u pfuxeta browser ya wena.",
+            "refresh_enable": true
+        },
+        "maintenance": {
+            "title": "Yi pfariwile leswaku yi hlayisiwa",
+            "description": "Webusayiti leyi a yi kumeki sweswi. Ku languteriwe leswaku yi ta kumeka nakambe ku nga ri khale.",
+            "refresh_enable": true
+        }
+    }
+}
