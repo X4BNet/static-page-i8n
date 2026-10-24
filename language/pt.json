@@ -126,6 +126,16 @@
         "show": "Mostrar",
         "hide": "Ocultar",
         "submit": "Entrar",
-        "failed": "Nome de usuário ou senha incorretos."
+        "failed": "Nome de usuário ou senha incorretos.",
+        "passkey": "Entrar com uma chave de acesso",
+        "passkey_failed": "Não foi possível entrar com esta chave de acesso. Tente novamente ou use sua senha.",
+        "enroll_title": "Adicionar uma chave de acesso",
+        "enroll_description": "Crie uma chave de acesso para este site protegido. Seu dispositivo pedirá que você confirme sua identidade.",
+        "enroll_submit": "Criar chave de acesso",
+        "enroll_success": "Chave de acesso criada. Volte para Access Control para concluir o salvamento.",
+        "enroll_failed": "Não foi possível criar uma chave de acesso. Crie outro link de cadastro em Access Control e tente novamente.",
+        "javascript_required": "JavaScript é necessário para entrar.",
+        "unavailable": "Não foi possível preparar o login. Recarregue esta página e tente novamente.",
+        "logout_title": "Sair"
     }
 }

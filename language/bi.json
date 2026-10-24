@@ -126,6 +126,16 @@
         "show": "Soem",
         "hide": "Haedem",
         "submit": "Log in",
-        "failed": "Nem blong yusa o paswod i no stret."
+        "failed": "Nem blong yusa o paswod i no stret.",
+        "passkey": "Log in wetem wan passkey",
+        "passkey_failed": "Yu no save log in wetem passkey ya. Traem bakegen o yusum paswod blong yu.",
+        "enroll_title": "Ademap wan passkey",
+        "enroll_description": "Mekem wan passkey blong websaet ya we i gat proteksen. Divais blong yu bambae i askem yu blong konfem aedentiti blong yu.",
+        "enroll_submit": "Mekem passkey",
+        "enroll_success": "Oli mekem passkey finis. Gobak long Access Control blong finisim wok blong sevem.",
+        "enroll_failed": "I no posibol blong mekem wan passkey. Mekem wan narafala link blong rejistarem passkey long Access Control mo traem bakegen.",
+        "javascript_required": "Yu nidim JavaScript blong log in.",
+        "unavailable": "I no posibol blong mekem log in i redi. Lodemap pej ya bakegen mo traem bakegen.",
+        "logout_title": "Log aot"
     }
 }

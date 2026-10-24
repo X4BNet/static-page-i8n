@@ -126,6 +126,16 @@
         "show": "Mostra",
         "hide": "Nascondi",
         "submit": "Accedi",
-        "failed": "Nome utente o password non corretti."
+        "failed": "Nome utente o password non corretti.",
+        "passkey": "Accedi con una passkey",
+        "passkey_failed": "Impossibile accedere con questa passkey. Riprova o usa la tua password.",
+        "enroll_title": "Aggiungi una passkey",
+        "enroll_description": "Crea una passkey per questo sito protetto. Il tuo dispositivo ti chiederà di confermare la tua identità.",
+        "enroll_submit": "Crea passkey",
+        "enroll_success": "Passkey creata. Torna ad Access Control per completare il salvataggio.",
+        "enroll_failed": "Impossibile creare una passkey. Crea un altro link di registrazione in Access Control e riprova.",
+        "javascript_required": "Per accedere è necessario JavaScript.",
+        "unavailable": "Impossibile preparare l'accesso. Ricarica questa pagina e riprova.",
+        "logout_title": "Esci"
     }
 }

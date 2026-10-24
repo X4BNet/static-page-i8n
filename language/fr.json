@@ -126,6 +126,16 @@
         "show": "Afficher",
         "hide": "Masquer",
         "submit": "Se connecter",
-        "failed": "Nom d’utilisateur ou mot de passe incorrect."
+        "failed": "Nom d’utilisateur ou mot de passe incorrect.",
+        "passkey": "Se connecter avec une clé d’accès",
+        "passkey_failed": "Impossible de se connecter avec cette clé d’accès. Réessayez ou utilisez votre mot de passe.",
+        "enroll_title": "Ajouter une clé d’accès",
+        "enroll_description": "Créez une clé d’accès pour ce site protégé. Votre appareil vous demandera de confirmer votre identité.",
+        "enroll_submit": "Créer une clé d’accès",
+        "enroll_success": "Clé d’accès créée. Retournez dans Access Control pour terminer son enregistrement.",
+        "enroll_failed": "Impossible de créer une clé d’accès. Créez un autre lien d’inscription dans Access Control et réessayez.",
+        "javascript_required": "JavaScript est nécessaire pour se connecter.",
+        "unavailable": "Impossible de préparer la connexion. Rechargez cette page et réessayez.",
+        "logout_title": "Se déconnecter"
     }
 }

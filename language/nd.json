@@ -126,6 +126,16 @@
         "show": "Veza",
         "hide": "Fihla",
         "submit": "Ngena",
-        "failed": "Ibizo lomsebenzisi kumbe iphasiwedi ayilunganga."
+        "failed": "Ibizo lomsebenzisi kumbe iphasiwedi ayilunganga.",
+        "passkey": "Ngena nge-passkey",
+        "passkey_failed": "Awukwazi ukungena nge-passkey le. Zama futhi kumbe usebenzise iphasiwedi yakho.",
+        "enroll_title": "Faka i-passkey",
+        "enroll_description": "Dala i-passkey yewebhusayithi le evikelweyo. Idivayisi yakho izakucela ukuthi uqinisekise ukuthi nguwe.",
+        "enroll_submit": "Dala i-passkey",
+        "enroll_success": "I-passkey isidaliwe. Buyela ku-Access Control ukuze uqede ukuyigcina.",
+        "enroll_failed": "I-passkey ayidaleki. Dala enye ilinki yokubhalisa ku-Access Control ubusuzama futhi.",
+        "javascript_required": "I-JavaScript iyadingeka ukuze ungene.",
+        "unavailable": "Ukungena akulungiseleleki. Layitsha ikhasi leli futhi ubusuzama futhi.",
+        "logout_title": "Phuma"
     }
 }

@@ -126,6 +126,16 @@
         "show": "Görkez",
         "hide": "Gizle",
         "submit": "Gir",
-        "failed": "Ulanyjy ady ýa-da parol nädogry."
+        "failed": "Ulanyjy ady ýa-da parol nädogry.",
+        "passkey": "Passkey bilen giriň",
+        "passkey_failed": "Bu passkey bilen girip bolmady. Gaýtadan synanyşyň ýa-da parolyňyzy ulanyň.",
+        "enroll_title": "Passkey goşuň",
+        "enroll_description": "Bu goralýan saýt üçin passkey dörediň. Enjamyňyz şahsyýetiňizi tassyklamagyňyzy sorar.",
+        "enroll_submit": "Passkey dörediň",
+        "enroll_success": "Passkey döredildi. Ony ýatda saklamagy tamamlamak üçin Access Control bölümine gaýdyň.",
+        "enroll_failed": "Passkey döredip bolmady. Access Control bölüminde başga bir bellige alyş baglanyşygyny dörediň we gaýtadan synanyşyň.",
+        "javascript_required": "Girmek üçin JavaScript gerek.",
+        "unavailable": "Girişi taýýarlap bolmady. Bu sahypany täzeden ýükläň we gaýtadan synanyşyň.",
+        "logout_title": "Çykmak"
     }
 }

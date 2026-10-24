@@ -126,6 +126,16 @@
         "show": "Dangos",
         "hide": "Cuddio",
         "submit": "Mewngofnodi",
-        "failed": "Enw defnyddiwr neu gyfrinair anghywir."
+        "failed": "Enw defnyddiwr neu gyfrinair anghywir.",
+        "passkey": "Mewngofnodi gydag allwedd pas",
+        "passkey_failed": "Methu mewngofnodi gyda’r allwedd pas hon. Rhowch gynnig arall arni neu defnyddiwch eich cyfrinair.",
+        "enroll_title": "Ychwanegu allwedd pas",
+        "enroll_description": "Crëwch allwedd pas ar gyfer y wefan warchodedig hon. Bydd eich dyfais yn gofyn i chi gadarnhau pwy ydych chi.",
+        "enroll_submit": "Creu allwedd pas",
+        "enroll_success": "Mae’r allwedd pas wedi’i chreu. Ewch yn ôl i Access Control i orffen ei chadw.",
+        "enroll_failed": "Methu creu allwedd pas. Crëwch ddolen gofrestru arall yn Access Control a rhowch gynnig arall arni.",
+        "javascript_required": "Mae angen JavaScript i fewngofnodi.",
+        "unavailable": "Methu paratoi’r broses fewngofnodi. Ail-lwythwch y dudalen hon a rhowch gynnig arall arni.",
+        "logout_title": "Allgofnodi"
     }
 }

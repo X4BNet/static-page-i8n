@@ -126,6 +126,16 @@
         "show": "Asehoy",
         "hide": "Afeno",
         "submit": "Midira",
-        "failed": "Diso ny anaran'ny mpampiasa na ny tenimiafina."
+        "failed": "Diso ny anaran'ny mpampiasa na ny tenimiafina.",
+        "passkey": "Midira amin'ny passkey",
+        "passkey_failed": "Tsy afaka miditra amin'ity passkey ity. Andramo indray na ampiasao ny tenimiafinao.",
+        "enroll_title": "Hanampy passkey",
+        "enroll_description": "Mamoròna passkey ho an'ity tranonkala voaaro ity. Hangataka anao hanamarina ny maha-ianao anao ny fitaovanao.",
+        "enroll_submit": "Mamorona passkey",
+        "enroll_success": "Voaforona ny passkey. Miverena any amin'ny Access Control hamita ny fitehirizana azy.",
+        "enroll_failed": "Tsy afaka mamorona passkey. Mamoròna rohy fisoratana anarana hafa ao amin'ny Access Control ary andramo indray.",
+        "javascript_required": "Ilaina ny JavaScript mba hidirana.",
+        "unavailable": "Tsy afaka manomana ny fidirana. Avereno ampidirina ity pejy ity ary andramo indray.",
+        "logout_title": "Hivoaka"
     }
 }

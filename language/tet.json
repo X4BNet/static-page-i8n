@@ -126,6 +126,16 @@
         "show": "Hatudu",
         "hide": "Subar",
         "submit": "Tama",
-        "failed": "Naran uza-na’in ka liafuan-pase la loos."
+        "failed": "Naran uza-na’in ka liafuan-pase la loos.",
+        "passkey": "Tama ho passkey",
+        "passkey_failed": "La bele tama ho passkey ida-ne'e. Koko fali ka uza ita-nia liafuan-pase.",
+        "enroll_title": "Aumenta passkey ida",
+        "enroll_description": "Kria passkey ida ba sítiu protejidu ida-ne'e. Ita-nia dispozitivu sei husu atu konfirma ita-nia identidade.",
+        "enroll_submit": "Kria passkey",
+        "enroll_success": "Passkey kria ona. Fila fali ba Access Control atu remata prosesu rai passkey ne'e.",
+        "enroll_failed": "La bele kria passkey. Kria ligasaun seluk ba rejistu iha Access Control no koko fali.",
+        "javascript_required": "Presiza JavaScript atu tama.",
+        "unavailable": "La bele prepara atu tama. Karrega fali pájina ida-ne'e no koko fali.",
+        "logout_title": "Sai"
     }
 }

@@ -126,6 +126,16 @@
         "show": "Tunjukkan",
         "hide": "Sembunyikan",
         "submit": "Log masuk",
-        "failed": "Nama pengguna atau kata laluan tidak betul."
+        "failed": "Nama pengguna atau kata laluan tidak betul.",
+        "passkey": "Log masuk dengan kunci laluan",
+        "passkey_failed": "Tidak dapat log masuk dengan kunci laluan ini. Cuba lagi atau gunakan kata laluan anda.",
+        "enroll_title": "Tambah kunci laluan",
+        "enroll_description": "Cipta kunci laluan untuk laman yang dilindungi ini. Peranti anda akan meminta anda mengesahkan identiti anda.",
+        "enroll_submit": "Cipta kunci laluan",
+        "enroll_success": "Kunci laluan dicipta. Kembali ke Access Control untuk melengkapkan proses menyimpannya.",
+        "enroll_failed": "Tidak dapat mencipta kunci laluan. Cipta pautan pendaftaran lain dalam Access Control dan cuba lagi.",
+        "javascript_required": "JavaScript diperlukan untuk log masuk.",
+        "unavailable": "Tidak dapat menyediakan proses log masuk. Muat semula halaman ini dan cuba lagi.",
+        "logout_title": "Log keluar"
     }
 }

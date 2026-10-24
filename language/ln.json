@@ -126,6 +126,16 @@
         "show": "Lakisa",
         "hide": "Bomba",
         "submit": "Kota",
-        "failed": "Nkombo ya mosaleli to liloba ya sekele ezali malamu te."
+        "failed": "Nkombo ya mosaleli to liloba ya sekele ezali malamu te.",
+        "passkey": "Kota na passkey",
+        "passkey_failed": "Okoki kokota na passkey oyo te. Meka lisusu to salela liloba na yo ya sekele.",
+        "enroll_title": "Bakisa passkey",
+        "enroll_description": "Sala passkey mpo na site oyo ebatelami. Aparɛyi na yo ekosɛnga yo ondimisa ete ezali yo.",
+        "enroll_submit": "Sala passkey",
+        "enroll_success": "Passkey esalemi. Zonga na Access Control mpo na kosilisa kobomba yango.",
+        "enroll_failed": "Passkey ekoki kosalema te. Sala lien mosusu ya kokomisa nkombo na Access Control mpe meka lisusu.",
+        "javascript_required": "Esengeli kozala na JavaScript mpo na kokota.",
+        "unavailable": "Kobongisa kokota ekoki kosalema te. Fungola lokasa oyo lisusu mpe meka lisusu.",
+        "logout_title": "Bima"
     }
 }

@@ -126,6 +126,16 @@
         "show": "Vís",
         "hide": "Fjal",
         "submit": "Rita inn",
-        "failed": "Skeivt brúkaranavn ella loyniorð."
+        "failed": "Skeivt brúkaranavn ella loyniorð.",
+        "passkey": "Rita inn við einum passkey",
+        "passkey_failed": "Tað bar ikki til at rita inn við hesum passkey. Royn aftur ella brúka loyniorðið hjá tær.",
+        "enroll_title": "Legg ein passkey afturat",
+        "enroll_description": "Stovna ein passkey til hesa vardu heimasíðuna. Tólið hjá tær fer at biðja teg vátta, hvør tú ert.",
+        "enroll_submit": "Stovna passkey",
+        "enroll_success": "Passkey er stovnaður. Far aftur til Access Control fyri at gera goymingina lidna.",
+        "enroll_failed": "Tað bar ikki til at stovna ein passkey. Stovna eitt annað skrásetingarleinki í Access Control og royn aftur.",
+        "javascript_required": "JavaScript er neyðugt fyri at rita inn.",
+        "unavailable": "Tað bar ikki til at fyrireika innritanina. Endurløð hesa síðuna og royn aftur.",
+        "logout_title": "Rita út"
     }
 }

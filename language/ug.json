@@ -128,6 +128,16 @@
         "show": "كۆرسەت",
         "hide": "يوشۇر",
         "submit": "كىرىش",
-        "failed": "ئىشلەتكۈچى نامى ياكى پارول خاتا."
+        "failed": "ئىشلەتكۈچى نامى ياكى پارول خاتا.",
+        "passkey": "passkey ئارقىلىق كىرىڭ",
+        "passkey_failed": "بۇ passkey ئارقىلىق كىرگىلى بولمىدى. قايتا سىناڭ ياكى پارولىڭىزنى ئىشلىتىڭ.",
+        "enroll_title": "passkey قوشۇڭ",
+        "enroll_description": "قوغدالغان بۇ تور بېكەت ئۈچۈن passkey قۇرۇڭ. ئۈسكۈنىڭىز كىملىكىڭىزنى دەلىللىشىڭىزنى سورايدۇ.",
+        "enroll_submit": "passkey قۇرۇڭ",
+        "enroll_success": "Passkey قۇرۇلدى. ئۇنى ساقلاشنى تاماملاش ئۈچۈن Access Control غا قايتىڭ.",
+        "enroll_failed": "Passkey قۇرغىلى بولمىدى. Access Control دا باشقا تىزىملاش ئۇلانمىسى قۇرۇپ قايتا سىناڭ.",
+        "javascript_required": "كىرىش ئۈچۈن JavaScript كېرەك.",
+        "unavailable": "كىرىشنى تەييارلىغىلى بولمىدى. بۇ بەتنى قايتا يۈكلەپ قايتا سىناڭ.",
+        "logout_title": "چىقىش"
     }
 }

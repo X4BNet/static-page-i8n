@@ -126,6 +126,16 @@
         "show": "Onyesha",
         "hide": "Ficha",
         "submit": "Ingia",
-        "failed": "Jina la mtumiaji au nenosiri si sahihi."
+        "failed": "Jina la mtumiaji au nenosiri si sahihi.",
+        "passkey": "Ingia kwa kutumia passkey",
+        "passkey_failed": "Haiwezekani kuingia kwa kutumia passkey hii. Jaribu tena au tumia nenosiri lako.",
+        "enroll_title": "Ongeza passkey",
+        "enroll_description": "Unda passkey ya tovuti hii iliyolindwa. Kifaa chako kitakuomba uthibitishe utambulisho wako.",
+        "enroll_submit": "Unda passkey",
+        "enroll_success": "Passkey imeundwa. Rudi kwenye Access Control ili ukamilishe kuihifadhi.",
+        "enroll_failed": "Haiwezekani kuunda passkey. Unda kiungo kingine cha usajili kwenye Access Control na ujaribu tena.",
+        "javascript_required": "JavaScript inahitajika ili kuingia.",
+        "unavailable": "Haiwezekani kuandaa mchakato wa kuingia. Pakia upya ukurasa huu na ujaribu tena.",
+        "logout_title": "Ondoka"
     }
 }

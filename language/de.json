@@ -126,6 +126,16 @@
         "show": "Anzeigen",
         "hide": "Ausblenden",
         "submit": "Anmelden",
-        "failed": "Benutzername oder Passwort ist falsch."
+        "failed": "Benutzername oder Passwort ist falsch.",
+        "passkey": "Mit einem Passkey anmelden",
+        "passkey_failed": "Die Anmeldung mit diesem Passkey ist fehlgeschlagen. Versuchen Sie es erneut oder verwenden Sie Ihr Passwort.",
+        "enroll_title": "Passkey hinzufügen",
+        "enroll_description": "Erstellen Sie einen Passkey für diese geschützte Website. Ihr Gerät wird Sie auffordern, Ihre Identität zu bestätigen.",
+        "enroll_submit": "Passkey erstellen",
+        "enroll_success": "Passkey erstellt. Kehren Sie zu Access Control zurück, um das Speichern abzuschließen.",
+        "enroll_failed": "Der Passkey konnte nicht erstellt werden. Erstellen Sie in Access Control einen weiteren Registrierungslink und versuchen Sie es erneut.",
+        "javascript_required": "JavaScript ist für die Anmeldung erforderlich.",
+        "unavailable": "Die Anmeldung konnte nicht vorbereitet werden. Laden Sie diese Seite neu und versuchen Sie es erneut.",
+        "logout_title": "Abmelden"
     }
 }

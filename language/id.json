@@ -126,6 +126,16 @@
         "show": "Tampilkan",
         "hide": "Sembunyikan",
         "submit": "Masuk",
-        "failed": "Nama pengguna atau kata sandi salah."
+        "failed": "Nama pengguna atau kata sandi salah.",
+        "passkey": "Masuk dengan kunci sandi",
+        "passkey_failed": "Tidak dapat masuk dengan kunci sandi ini. Coba lagi atau gunakan kata sandi Anda.",
+        "enroll_title": "Tambahkan kunci sandi",
+        "enroll_description": "Buat kunci sandi untuk situs yang dilindungi ini. Perangkat Anda akan meminta Anda mengonfirmasi identitas.",
+        "enroll_submit": "Buat kunci sandi",
+        "enroll_success": "Kunci sandi dibuat. Kembali ke Access Control untuk menyelesaikan penyimpanannya.",
+        "enroll_failed": "Tidak dapat membuat kunci sandi. Buat tautan pendaftaran lain di Access Control, lalu coba lagi.",
+        "javascript_required": "JavaScript diperlukan untuk masuk.",
+        "unavailable": "Tidak dapat menyiapkan proses masuk. Muat ulang halaman ini, lalu coba lagi.",
+        "logout_title": "Keluar"
     }
 }

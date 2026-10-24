@@ -126,6 +126,16 @@
         "show": "Visa",
         "hide": "Dölj",
         "submit": "Logga in",
-        "failed": "Felaktigt användarnamn eller lösenord."
+        "failed": "Felaktigt användarnamn eller lösenord.",
+        "passkey": "Logga in med en nyckel",
+        "passkey_failed": "Det går inte att logga in med den här nyckeln. Försök igen eller använd ditt lösenord.",
+        "enroll_title": "Lägg till en nyckel",
+        "enroll_description": "Skapa en nyckel för den här skyddade webbplatsen. Din enhet kommer att be dig att bekräfta din identitet.",
+        "enroll_submit": "Skapa nyckel",
+        "enroll_success": "Nyckeln har skapats. Gå tillbaka till Access Control för att slutföra sparandet.",
+        "enroll_failed": "Det går inte att skapa en nyckel. Skapa en ny registreringslänk i Access Control och försök igen.",
+        "javascript_required": "JavaScript krävs för att logga in.",
+        "unavailable": "Det går inte att förbereda inloggningen. Ladda om sidan och försök igen.",
+        "logout_title": "Logga ut"
     }
 }

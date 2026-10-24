@@ -126,6 +126,16 @@
         "show": "Ipakita",
         "hide": "Itago",
         "submit": "Mag-sign in",
-        "failed": "Mali ang username o password."
+        "failed": "Mali ang username o password.",
+        "passkey": "Mag-sign in gamit ang passkey",
+        "passkey_failed": "Hindi makapag-sign in gamit ang passkey na ito. Subukan ulit o gamitin ang iyong password.",
+        "enroll_title": "Magdagdag ng passkey",
+        "enroll_description": "Gumawa ng passkey para sa protektadong site na ito. Hihilingin ng iyong device na kumpirmahin mo ang iyong pagkakakilanlan.",
+        "enroll_submit": "Gumawa ng passkey",
+        "enroll_success": "Nagawa na ang passkey. Bumalik sa Access Control upang tapusin ang pag-save nito.",
+        "enroll_failed": "Hindi makagawa ng passkey. Gumawa ng panibagong link para sa pagpaparehistro sa Access Control at subukan ulit.",
+        "javascript_required": "Kailangan ang JavaScript upang makapag-sign in.",
+        "unavailable": "Hindi maihanda ang pag-sign in. I-reload ang pahinang ito at subukan ulit.",
+        "logout_title": "Mag-sign out"
     }
 }

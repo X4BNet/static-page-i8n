@@ -126,6 +126,16 @@
         "show": "Göstər",
         "hide": "Gizlət",
         "submit": "Daxil ol",
-        "failed": "İstifadəçi adı və ya şifrə yanlışdır."
+        "failed": "İstifadəçi adı və ya şifrə yanlışdır.",
+        "passkey": "Passkey ilə daxil ol",
+        "passkey_failed": "Bu passkey ilə daxil olmaq mümkün olmadı. Yenidən cəhd edin və ya şifrənizdən istifadə edin.",
+        "enroll_title": "Passkey əlavə et",
+        "enroll_description": "Bu qorunan sayt üçün passkey yaradın. Cihazınız sizdən kimliyinizi təsdiqləməyinizi istəyəcək.",
+        "enroll_submit": "Passkey yarat",
+        "enroll_success": "Passkey yaradıldı. Onun saxlanmasını tamamlamaq üçün Access Control bölməsinə qayıdın.",
+        "enroll_failed": "Passkey yaratmaq mümkün olmadı. Access Control bölməsində başqa qeydiyyat keçidi yaradın və yenidən cəhd edin.",
+        "javascript_required": "Daxil olmaq üçün JavaScript tələb olunur.",
+        "unavailable": "Giriş hazırlığını tamamlamaq mümkün olmadı. Bu səhifəni yenidən yükləyin və bir daha cəhd edin.",
+        "logout_title": "Çıxış"
     }
 }

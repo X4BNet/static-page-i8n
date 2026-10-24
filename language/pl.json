@@ -126,6 +126,16 @@
         "show": "Pokaż",
         "hide": "Ukryj",
         "submit": "Zaloguj się",
-        "failed": "Nieprawidłowa nazwa użytkownika lub hasło."
+        "failed": "Nieprawidłowa nazwa użytkownika lub hasło.",
+        "passkey": "Zaloguj się za pomocą klucza dostępu",
+        "passkey_failed": "Nie można zalogować się za pomocą tego klucza dostępu. Spróbuj ponownie lub użyj hasła.",
+        "enroll_title": "Dodaj klucz dostępu",
+        "enroll_description": "Utwórz klucz dostępu do tej chronionej witryny. Twoje urządzenie poprosi o potwierdzenie tożsamości.",
+        "enroll_submit": "Utwórz klucz dostępu",
+        "enroll_success": "Klucz dostępu został utworzony. Wróć do Access Control, aby dokończyć jego zapisywanie.",
+        "enroll_failed": "Nie można utworzyć klucza dostępu. Utwórz inny link rejestracyjny w Access Control i spróbuj ponownie.",
+        "javascript_required": "Do zalogowania się wymagany jest JavaScript.",
+        "unavailable": "Nie można przygotować logowania. Załaduj tę stronę ponownie i spróbuj jeszcze raz.",
+        "logout_title": "Wyloguj się"
     }
 }

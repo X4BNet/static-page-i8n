@@ -126,6 +126,16 @@
         "show": "Onetsani",
         "hide": "Bisani",
         "submit": "Lowani",
-        "failed": "Dzina lolowera kapena mawu achinsinsi ndi olakwika."
+        "failed": "Dzina lolowera kapena mawu achinsinsi ndi olakwika.",
+        "passkey": "Lowani pogwiritsa ntchito passkey",
+        "passkey_failed": "Sizikutheka kulowa ndi passkey iyi. Yesaninso kapena gwiritsani ntchito mawu anu achinsinsi.",
+        "enroll_title": "Onjezani passkey",
+        "enroll_description": "Pangani passkey ya webusayiti yotetezedwayi. Chipangizo chanu chidzakufunsani kuti mutsimikizire kuti ndinudi.",
+        "enroll_submit": "Pangani passkey",
+        "enroll_success": "Passkey yapangidwa. Bwererani ku Access Control kuti mumalize kuisunga.",
+        "enroll_failed": "Sizikutheka kupanga passkey. Pangani ulalo wina wolembetsa mu Access Control ndipo yesaninso.",
+        "javascript_required": "JavaScript ikufunika kuti mulowe.",
+        "unavailable": "Sizikutheka kukonzekera kulowa. Tsegulaninso tsambali ndipo yesaninso.",
+        "logout_title": "Tulukani"
     }
 }

@@ -126,6 +126,16 @@
         "show": "Rodyti",
         "hide": "Slėpti",
         "submit": "Prisijungti",
-        "failed": "Neteisingas naudotojo vardas arba slaptažodis."
+        "failed": "Neteisingas naudotojo vardas arba slaptažodis.",
+        "passkey": "Prisijungti naudojant prieigos raktą",
+        "passkey_failed": "Nepavyko prisijungti naudojant šį prieigos raktą. Bandykite dar kartą arba naudokite slaptažodį.",
+        "enroll_title": "Pridėti prieigos raktą",
+        "enroll_description": "Sukurkite šios apsaugotos svetainės prieigos raktą. Įrenginys paprašys patvirtinti jūsų tapatybę.",
+        "enroll_submit": "Sukurti prieigos raktą",
+        "enroll_success": "Prieigos raktas sukurtas. Grįžkite į Access Control, kad baigtumėte jį išsaugoti.",
+        "enroll_failed": "Nepavyko sukurti prieigos rakto. Sukurkite kitą registracijos nuorodą skiltyje Access Control ir bandykite dar kartą.",
+        "javascript_required": "Norint prisijungti, reikalingas JavaScript.",
+        "unavailable": "Nepavyko paruošti prisijungimo. Įkelkite šį puslapį iš naujo ir bandykite dar kartą.",
+        "logout_title": "Atsijungti"
     }
 }

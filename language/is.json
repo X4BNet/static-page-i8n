@@ -126,6 +126,16 @@
         "show": "Sýna",
         "hide": "Fela",
         "submit": "Skrá inn",
-        "failed": "Rangt notandanafn eða lykilorð."
+        "failed": "Rangt notandanafn eða lykilorð.",
+        "passkey": "Skrá inn með aðgangslykli",
+        "passkey_failed": "Ekki tókst að skrá þig inn með þessum aðgangslykli. Reyndu aftur eða notaðu lykilorðið þitt.",
+        "enroll_title": "Bæta við aðgangslykli",
+        "enroll_description": "Búðu til aðgangslykil fyrir þetta varða vefsvæði. Tækið þitt mun biðja þig um að staðfesta hver þú ert.",
+        "enroll_submit": "Búa til aðgangslykil",
+        "enroll_success": "Aðgangslykill búinn til. Farðu aftur í Access Control til að ljúka við að vista hann.",
+        "enroll_failed": "Ekki tókst að búa til aðgangslykil. Búðu til annan skráningartengil í Access Control og reyndu aftur.",
+        "javascript_required": "JavaScript er nauðsynlegt til að skrá sig inn.",
+        "unavailable": "Ekki tókst að undirbúa innskráningu. Endurhladdu þessari síðu og reyndu aftur.",
+        "logout_title": "Skrá út"
     }
 }

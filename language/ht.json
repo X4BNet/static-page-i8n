@@ -126,6 +126,16 @@
         "show": "Montre",
         "hide": "Kache",
         "submit": "Konekte",
-        "failed": "Non itilizatè a oswa modpas la pa kòrèk."
+        "failed": "Non itilizatè a oswa modpas la pa kòrèk.",
+        "passkey": "Konekte ak yon passkey",
+        "passkey_failed": "Nou pa kapab konekte w ak passkey sa a. Eseye ankò oswa sèvi ak modpas ou.",
+        "enroll_title": "Ajoute yon passkey",
+        "enroll_description": "Kreye yon passkey pou sit pwoteje sa a. Aparèy ou a pral mande w konfime idantite w.",
+        "enroll_submit": "Kreye passkey",
+        "enroll_success": "Passkey a kreye. Retounen nan Access Control pou fini anrejistre li.",
+        "enroll_failed": "Nou pa kapab kreye yon passkey. Kreye yon lòt lyen enskripsyon nan Access Control epi eseye ankò.",
+        "javascript_required": "JavaScript nesesè pou konekte.",
+        "unavailable": "Nou pa kapab prepare koneksyon an. Rechaje paj sa a epi eseye ankò.",
+        "logout_title": "Dekonekte"
     }
 }

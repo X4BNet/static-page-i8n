@@ -126,6 +126,16 @@
         "show": "Agarsiisi",
         "hide": "Dhoksi",
         "submit": "Seeni",
-        "failed": "Maqaan fayyadamaa yookaan jechi darbii sirrii miti."
+        "failed": "Maqaan fayyadamaa yookaan jechi darbii sirrii miti.",
+        "passkey": "Passkey fayyadamuun seeni",
+        "passkey_failed": "Passkey kanaan seenuun hin danda'amne. Irra deebi'ii yaali yookaan jecha darbii kee fayyadami.",
+        "enroll_title": "Passkey dabali",
+        "enroll_description": "Marsariitii eegumsa qabu kanaaf passkey uumi. Meeshaan kee eenyummaa kee akka mirkaneessitu si gaafata.",
+        "enroll_submit": "Passkey uumi",
+        "enroll_success": "Passkey uumameera. Isa kuusuu xumuruuf gara Access Control deebi'i.",
+        "enroll_failed": "Passkey uumuun hin danda'amne. Access Control keessatti geessituu galmee biraa uumiitii irra deebi'ii yaali.",
+        "javascript_required": "Seenuuf JavaScript barbaachisa.",
+        "unavailable": "Adeemsa seensaa qopheessuun hin danda'amne. Fuula kana irra deebi'ii fe'iitii irra deebi'ii yaali.",
+        "logout_title": "Ba'i"
     }
 }

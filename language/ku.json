@@ -126,6 +126,16 @@
         "show": "Nîşan bide",
         "hide": "Veşêre",
         "submit": "Têkeve",
-        "failed": "Navê bikarhêner an şîfre xelet e."
+        "failed": "Navê bikarhêner an şîfre xelet e.",
+        "passkey": "Bi passkey têkeve",
+        "passkey_failed": "Bi vê passkey nayê têketin. Dîsa biceribîne an şîfreya xwe bi kar bîne.",
+        "enroll_title": "Passkey zêde bike",
+        "enroll_description": "Ji bo vê malpera parastî passkey çêke. Amûra te dê ji te bixwaze ku tu nasnameya xwe piştrast bikî.",
+        "enroll_submit": "Passkey çêke",
+        "enroll_success": "Passkey hat çêkirin. Ji bo qedandina tomarkirina wê vegere Access Control.",
+        "enroll_failed": "Passkey nayê çêkirin. Li Access Control girêdaneke din a qeydkirinê çêke û dîsa biceribîne.",
+        "javascript_required": "Ji bo têketinê JavaScript pêwîst e.",
+        "unavailable": "Têketin nayê amadekirin. Vê rûpelê ji nû ve bar bike û dîsa biceribîne.",
+        "logout_title": "Derkeve"
     }
 }

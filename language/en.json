@@ -126,6 +126,16 @@
     "show": "Show",
     "hide": "Hide",
     "submit": "Sign in",
-    "failed": "Incorrect username or password."
+    "failed": "Incorrect username or password.",
+    "passkey": "Sign in with a passkey",
+    "passkey_failed": "Unable to sign in with this passkey. Try again or use your password.",
+    "enroll_title": "Add a passkey",
+    "enroll_description": "Create a passkey for this protected site. Your device will ask you to confirm your identity.",
+    "enroll_submit": "Create passkey",
+    "enroll_success": "Passkey created. Return to Access Control to finish saving it.",
+    "enroll_failed": "Unable to create a passkey. Create another enrollment link in Access Control and try again.",
+    "javascript_required": "JavaScript is required to sign in.",
+    "unavailable": "Unable to prepare sign-in. Reload this page and try again.",
+    "logout_title": "Sign out"
   }
 }

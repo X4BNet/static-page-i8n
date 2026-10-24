@@ -25,7 +25,7 @@
             "writtenForm": "Twi (Asante)",
             "provenance": "subagent-translation",
             "reviewPriority": "additional-fluency-review",
-            "reviewNotes": "Narrowed to Asante technical loanword spelling and complex access, timeout and protocol clauses; ordinary website and polite-instruction vocabulary has published support. Authentication follow-up: review auth.password/auth.failed for the technical compound Ahintasɛmfua; direct primary attestation of this exact password label was not found.",
+            "reviewNotes": "Narrowed to Asante technical loanword spelling and complex access, timeout and protocol clauses; ordinary website and polite-instruction vocabulary has published support. Authentication follow-up: review auth.password/auth.failed for the technical compound Ahintasɛmfua; direct primary attestation of this exact password label was not found. Passkey follow-up: auth.enroll_success needs Asante fluency review of the wie ... sie complement order for finishing saving.",
             "usageReview": {
                 "reviewedOn": "2026-10-02",
                 "decision": "retain",
@@ -471,7 +471,7 @@
             "writtenForm": "Pulaar in the Latin script",
             "provenance": "subagent-translation",
             "reviewPriority": "high",
-            "reviewNotes": "Technical vocabulary is corroborated; remaining review is noun-class agreement and natural clause construction in automatic redirect, validation and abnormal-connection explanations.",
+            "reviewNotes": "Technical vocabulary is corroborated; remaining review is noun-class agreement and natural clause construction in automatic redirect, validation and abnormal-connection explanations. Passkey follow-up: auth.enroll_description uses an attested identity clause, but the device-as-agent future request construction naamnoto maa yo a teeŋtin needs technical-register review.",
             "usageReview": {
                 "reviewedOn": "2026-10-02",
                 "decision": "retain",
@@ -537,7 +537,7 @@
             "script": "Latin",
             "writtenForm": "Standard Faroese",
             "languageId": "fo",
-            "reviewNotes": "Distinct Faroese, not Danish or Icelandic substitution. Technical register and noun-case agreement have greater uncertainty.",
+            "reviewNotes": "Distinct Faroese, not Danish or Icelandic substitution. Technical register and noun-case agreement have greater uncertainty. Passkey follow-up: masculine agreement for borrowed passkey in auth.passkey, auth.enroll_title and auth.enroll_success needs Faroese usage confirmation.",
             "unchangedEnglishKeys": [],
             "provenance": "subagent-translation",
             "authorshipReport": "coverage/research/europe-translations.json",
@@ -657,7 +657,7 @@
         },
         {
             "tag": "gn",
-            "reviewNotes": "Agglutinative sentence structure and new computing vocabulary remain review-sensitive. Corrected a mistaken tomorrow adverb to sapy’aitépe (shortly), redirect object, and reload phrasing. Do not treat as automatic coverage for Bolivia’s officially named Guarani; Bolivian varieties need review.",
+            "reviewNotes": "Agglutinative sentence structure and new computing vocabulary remain review-sensitive. Corrected a mistaken tomorrow adverb to sapy’aitépe (shortly), redirect object, and reload phrasing. Do not treat as automatic coverage for Bolivia’s officially named Guarani; Bolivian varieties need review. Passkey follow-up: auth.enroll_success and auth.enroll_failed need technical-register review of emohu’ã hag̃ua iñongatu and joajuha ñemboheraguapyrã for finishing saving and enrollment links.",
             "name": "Guarani",
             "script": "Latin",
             "writtenForm": "Paraguayan Guarani; Latin script",
@@ -709,7 +709,7 @@
         },
         {
             "tag": "haw",
-            "reviewNotes": "Technical circumlocutions and grammatical naturalness need further review. Native Hawaiian content was consulted for vocabulary; no claim of native fluency. Authentication accuracy review: password terminology corrected to dictionary-standard ʻŌlelo huna (Māmaka Kaiao); the Hide action correctly remains Hūnā.",
+            "reviewNotes": "Technical circumlocutions and grammatical naturalness need further review. Native Hawaiian content was consulted for vocabulary; no claim of native fluency. Authentication accuracy review: password terminology corrected to dictionary-standard ʻŌlelo huna (Māmaka Kaiao); the Hide action correctly remains Hūnā. Passkey follow-up: auth.enroll_description needs Hawaiian syntax review of the embedded ʻo wai ʻoe complement after hōʻoia.",
             "name": "Hawaiian",
             "script": "Latin",
             "writtenForm": "Modern written Hawaiian; Latin script with ʻokina and kahakō",
@@ -1160,7 +1160,7 @@
             "writtenForm": "Standard Lingala",
             "provenance": "subagent-translation",
             "reviewPriority": "high",
-            "reviewNotes": "Review network-specific choices for origin server, configuration, domain, request and connection count, plus long error-sentence idiom. Browser/JavaScript loan usage and permission constructions are now attested. Authentication accuracy review: auth.password/auth.failed retain the comprehensible Liloba ya sekele. Preferred computing idiom remains unresolved: authored Lingala account/privacy prose uses mot de passe, but does not establish the descriptive wording as incorrect.",
+            "reviewNotes": "Review network-specific choices for origin server, configuration, domain, request and connection count, plus long error-sentence idiom. Browser/JavaScript loan usage and permission constructions are now attested. Authentication accuracy review: auth.password/auth.failed retain the comprehensible Liloba ya sekele. Preferred computing idiom remains unresolved: authored Lingala account/privacy prose uses mot de passe, but does not establish the descriptive wording as incorrect. Passkey follow-up: auth.unavailable directs reopening the page with Fungola lokasa oyo lisusu; equivalence to the browser Reload action needs more precise usage evidence.",
             "usageReview": {
                 "reviewedOn": "2026-10-02",
                 "decision": "retain",
@@ -1227,7 +1227,7 @@
             "writtenForm": "Madurese in the Latin script",
             "provenance": "subagent-translation",
             "reviewPriority": "high",
-            "reviewNotes": "Remaining review concerns polite-register consistency, passive morphology and technical compounds; error/request/timeout/busy-server vocabulary is now externally corroborated.",
+            "reviewNotes": "Remaining review concerns polite-register consistency, passive morphology and technical compounds; error/request/timeout/busy-server vocabulary is now externally corroborated. Passkey follow-up: create-verb morphology is source-supported; auth.enroll_description and auth.enroll_failed still need register review of mastèaghi sapa Dhika and link pendhaftaran.",
             "usageReview": {
                 "reviewedOn": "2026-10-02",
                 "decision": "retain",
@@ -1405,7 +1405,7 @@
         },
         {
             "tag": "nd",
-            "reviewNotes": "Direct Zimbabwean Ndebele draft. Similarities to Zulu follow language relationships, not copied text. Not suitable as a replacement for Southern Ndebele (nr). Authentication accuracy review: Iphasiwedi has direct Zimbabwe-focused login-interface support. Remaining auth.failed concern is agreement in the mixed-class Ibizo ... kumbe iphasiwedi construction; no reliable sentence-level source settles it.",
+            "reviewNotes": "Direct Zimbabwean Ndebele draft. Similarities to Zulu follow language relationships, not copied text. Not suitable as a replacement for Southern Ndebele (nr). Authentication accuracy review: Iphasiwedi has direct Zimbabwe-focused login-interface support. Remaining auth.failed concern is agreement in the mixed-class Ibizo ... kumbe iphasiwedi construction; no reliable sentence-level source settles it. Passkey follow-up: auth.enroll_failed and auth.unavailable need Northern Ndebele technical-idiom review of ayidaleki, akulungiseleleki and the ubusuzama sequence.",
             "name": "North Ndebele",
             "script": "Latin",
             "writtenForm": "Zimbabwean isiNdebele / Northern Ndebele; Latin script",
@@ -1646,7 +1646,7 @@
             "writtenForm": "Southern Quechua",
             "provenance": "subagent-translation",
             "reviewPriority": "additional-fluency-review",
-            "reviewNotes": "Browser/server and basic permission/retry terminology is corroborated; morphology in the long origin-server, unexpected-load and protocol-enable clauses still lacks adequate independent comparison in the selected Southern Quechua written form.",
+            "reviewNotes": "Browser/server and basic permission/retry terminology is corroborated; morphology in the long origin-server, unexpected-load and protocol-enable clauses still lacks adequate independent comparison in the selected Southern Quechua written form. Passkey follow-up: auth.enroll_description, auth.enroll_failed and auth.unavailable need Southern Quechua technical-register review of Aparatuykiqa, qillqachikuna t'inki and webpage-loading chaqnay.",
             "usageReview": {
                 "reviewedOn": "2026-10-02",
                 "decision": "retain",
@@ -1769,9 +1769,10 @@
                 "error.default.possible_causes",
                 "auth.password",
                 "auth.hide",
-                "auth.submit"
+                "auth.submit",
+                "auth.enroll_title"
             ],
-            "unchangedEnglishRationale": "The phrase “Possible causes include:” consists of words and syntax shared with Scots; forced respelling would not improve fidelity. Password, Hide and Sign in also use words and syntax shared with Scots.",
+            "unchangedEnglishRationale": "The phrase “Possible causes include:” consists of words and syntax shared with Scots; forced respelling would not improve fidelity. Password, Hide, Sign in and Add a passkey also use words and syntax shared with Scots.",
             "provenance": "subagent-translation",
             "authorshipReport": "coverage/research/europe-translations.json",
             "reviewedOn": "2026-10-02",

@@ -126,6 +126,16 @@
         "show": "Kyerɛ",
         "hide": "Sie",
         "submit": "Kɔ mu",
-        "failed": "Din a wode kɔ mu anaa ahintasɛmfua no nyɛ nokorɛ."
+        "failed": "Din a wode kɔ mu anaa ahintasɛmfua no nyɛ nokorɛ.",
+        "passkey": "Fa passkey kɔ mu",
+        "passkey_failed": "Worentumi mfa saa passkey yi nkɔ mu. Sɔ bio anaa fa wo ahintasɛmfua di dwuma.",
+        "enroll_title": "Fa passkey ka ho",
+        "enroll_description": "Yɛ passkey ma wɛbsaet a wɔabɔ ho ban yi. Wo afidie no bɛka sɛ si onipa ko a woyɛ no pi.",
+        "enroll_submit": "Yɛ passkey",
+        "enroll_success": "Wɔayɛ passkey no. San kɔ Access Control na wie passkey no sie.",
+        "enroll_failed": "Wɔantumi anyɛ passkey no. Yɛ link foforɔ a wode bɛkyerɛw passkey no din wɔ Access Control na sɔ bio.",
+        "javascript_required": "Wohia JavaScript na woatumi akɔ mu.",
+        "unavailable": "Wɔantumi ansiesie ɔkwan a wode bɛkɔ mu no. San bue krataafa yi na sɔ bio.",
+        "logout_title": "Firi mu"
     }
 }

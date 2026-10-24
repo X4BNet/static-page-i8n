@@ -126,6 +126,16 @@
         "show": "Soim",
         "hide": "Haitim",
         "submit": "Log in",
-        "failed": "Nem bilong yusa o paswed i no stret."
+        "failed": "Nem bilong yusa o paswed i no stret.",
+        "passkey": "Log in wantaim passkey",
+        "passkey_failed": "Yu no inap log in wantaim dispela passkey. Traim gen o yusim paswed bilong yu.",
+        "enroll_title": "Putim wanpela passkey",
+        "enroll_description": "Wokim wanpela passkey bilong dispela sait i gat banis. Masin bilong yu bai askim yu long soim olsem em yu yet.",
+        "enroll_submit": "Wokim passkey",
+        "enroll_success": "Passkey i kamap pinis. Go bek long Access Control bilong pinisim wok bilong sevim em.",
+        "enroll_failed": "No inap wokim passkey. Wokim narapela link bilong rejistretim passkey long Access Control na traim gen.",
+        "javascript_required": "Yu mas gat JavaScript bilong log in.",
+        "unavailable": "No inap redim log in. Lodem dispela pes gen na traim gen.",
+        "logout_title": "Log aut"
     }
 }

@@ -126,6 +126,16 @@
         "show": "Zobrazit",
         "hide": "Skrýt",
         "submit": "Přihlásit se",
-        "failed": "Nesprávné uživatelské jméno nebo heslo."
+        "failed": "Nesprávné uživatelské jméno nebo heslo.",
+        "passkey": "Přihlásit se přístupovým klíčem",
+        "passkey_failed": "Tímto přístupovým klíčem se nepodařilo přihlásit. Zkuste to znovu nebo použijte své heslo.",
+        "enroll_title": "Přidat přístupový klíč",
+        "enroll_description": "Vytvořte přístupový klíč pro tento chráněný web. Vaše zařízení vás požádá o potvrzení totožnosti.",
+        "enroll_submit": "Vytvořit přístupový klíč",
+        "enroll_success": "Přístupový klíč byl vytvořen. Vraťte se do Access Control a dokončete jeho uložení.",
+        "enroll_failed": "Přístupový klíč se nepodařilo vytvořit. Vytvořte v Access Control jiný odkaz pro registraci a zkuste to znovu.",
+        "javascript_required": "K přihlášení je nutný JavaScript.",
+        "unavailable": "Přihlášení se nepodařilo připravit. Načtěte tuto stránku znovu a opakujte pokus.",
+        "logout_title": "Odhlásit se"
     }
 }

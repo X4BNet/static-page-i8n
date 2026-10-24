@@ -126,6 +126,16 @@
         "show": "Göster",
         "hide": "Gizle",
         "submit": "Giriş yap",
-        "failed": "Kullanıcı adı veya şifre yanlış."
+        "failed": "Kullanıcı adı veya şifre yanlış.",
+        "passkey": "Geçiş anahtarıyla giriş yap",
+        "passkey_failed": "Bu geçiş anahtarıyla giriş yapılamadı. Tekrar deneyin veya şifrenizi kullanın.",
+        "enroll_title": "Geçiş anahtarı ekle",
+        "enroll_description": "Bu korumalı site için bir geçiş anahtarı oluşturun. Cihazınız kimliğinizi doğrulamanızı isteyecektir.",
+        "enroll_submit": "Geçiş anahtarı oluştur",
+        "enroll_success": "Geçiş anahtarı oluşturuldu. Kaydetme işlemini tamamlamak için Access Control bölümüne dönün.",
+        "enroll_failed": "Geçiş anahtarı oluşturulamadı. Access Control bölümünde başka bir kayıt bağlantısı oluşturup tekrar deneyin.",
+        "javascript_required": "Giriş yapmak için JavaScript gereklidir.",
+        "unavailable": "Giriş hazırlığı yapılamadı. Bu sayfayı yeniden yükleyip tekrar deneyin.",
+        "logout_title": "Çıkış yap"
     }
 }

@@ -126,6 +126,16 @@
         "show": "Bontšha",
         "hide": "Fihla",
         "submit": "Tsena",
-        "failed": "Leina la modiriši goba lentšu la sephiri ga le a nepagala."
+        "failed": "Leina la modiriši goba lentšu la sephiri ga le a nepagala.",
+        "passkey": "Tsena ka passkey",
+        "passkey_failed": "Ga go kgonege go tsena ka passkey ye. Leka gape goba o diriše lentšu la gago la sephiri.",
+        "enroll_title": "Tsenya passkey",
+        "enroll_description": "Hlama passkey ya weposaete ye e šireleditšwego. Sedirišwa sa gago se tla go kgopela gore o netefatše boitsebišo bja gago.",
+        "enroll_submit": "Hlama passkey",
+        "enroll_success": "Passkey e hlamilwe. Boela go Access Control go phetha go e boloka.",
+        "enroll_failed": "Ga go kgonege go hlama passkey. Hlama kgokaganyo ye nngwe ya ngwadišo go Access Control gomme o leke gape.",
+        "javascript_required": "JavaScript e a nyakega gore o tsene.",
+        "unavailable": "Ga go kgonege go lokišetša go tsena. Bula letlakala le gape gomme o leke gape.",
+        "logout_title": "Tšwa"
     }
 }

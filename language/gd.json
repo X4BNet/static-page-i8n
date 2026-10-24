@@ -126,6 +126,16 @@
         "show": "Seall",
         "hide": "Falaich",
         "submit": "Clàraich a-steach",
-        "failed": "Ainm-cleachdaiche no facal-faire ceàrr."
+        "failed": "Ainm-cleachdaiche no facal-faire ceàrr.",
+        "passkey": "Clàraich a-steach le passkey",
+        "passkey_failed": "Cha b’ urrainn dhut clàradh a-steach leis a’ passkey seo. Feuch ris a-rithist no cleachd am facal-faire agad.",
+        "enroll_title": "Cuir passkey ris",
+        "enroll_description": "Cruthaich passkey airson na làraich-lìn dhìonta seo. Iarraidh an t-inneal agad ort d’ aithne a dhearbhadh.",
+        "enroll_submit": "Cruthaich passkey",
+        "enroll_success": "Chaidh passkey a chruthachadh. Till gu Access Control gus crìoch a chur air a shàbhaladh.",
+        "enroll_failed": "Cha b’ urrainn dhuinn passkey a chruthachadh. Cruthaich ceangal clàraidh eile ann an Access Control agus feuch ris a-rithist.",
+        "javascript_required": "Tha feum air JavaScript gus clàradh a-steach.",
+        "unavailable": "Cha b’ urrainn dhuinn an clàradh a-steach ullachadh. Ath-luchdaich an duilleag seo agus feuch ris a-rithist.",
+        "logout_title": "Clàraich a-mach"
     }
 }

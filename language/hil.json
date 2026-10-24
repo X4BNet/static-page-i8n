@@ -126,6 +126,16 @@
         "show": "Ipakita",
         "hide": "Tagua",
         "submit": "Mag-sign in",
-        "failed": "Sala ang ngalan-taggamit ukon password."
+        "failed": "Sala ang ngalan-taggamit ukon password.",
+        "passkey": "Mag-sign in gamit ang passkey",
+        "passkey_failed": "Indi maka-sign in gamit ini nga passkey. Tilawi liwat ukon gamita ang imo password.",
+        "enroll_title": "Magdugang sang passkey",
+        "enroll_description": "Maghimo sang passkey para sa sini nga protektado nga website. Pangayuon sang imo device nga pamatud-an mo kon sin-o ka.",
+        "enroll_submit": "Maghimo sang passkey",
+        "enroll_success": "Nahimo na ang passkey. Magbalik sa Access Control agod tapuson ang pag-save sini.",
+        "enroll_failed": "Indi makahimo sang passkey. Maghimo sang lain nga link para sa pagparehistro sa Access Control kag tilawi liwat.",
+        "javascript_required": "Kinahanglan ang JavaScript agod maka-sign in.",
+        "unavailable": "Indi maandam ang pag-sign in. Ikarga liwat ini nga pahina kag tilawi liwat.",
+        "logout_title": "Mag-sign out"
     }
 }

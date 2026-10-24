@@ -126,6 +126,16 @@
         "show": "Vakaraitaka",
         "hide": "Vunitaka",
         "submit": "Curu",
-        "failed": "E cala na yaca ni dauvakayagataka se na vosa vuni."
+        "failed": "E cala na yaca ni dauvakayagataka se na vosa vuni.",
+        "passkey": "Curu ena passkey",
+        "passkey_failed": "E sega ni rawa ni curu ena passkey oqo. Tovolea tale se vakayagataka na nomu vosa vuni.",
+        "enroll_title": "Kuria e dua na passkey",
+        "enroll_description": "Bulia e dua na passkey me baleta na mataveilawa taqomaki oqo. Ena kerei iko na nomu misini mo vakadeitaka se o cei o iko.",
+        "enroll_submit": "Bulia na passkey",
+        "enroll_success": "Sa buli na passkey. Lesu ki na Access Control mo vakacavara na kena maroroi.",
+        "enroll_failed": "E sega ni rawa ni buli e dua na passkey. Bulia e dua tale na isema ni volayaca ena Access Control ka tovolea tale.",
+        "javascript_required": "E gadrevi na JavaScript mo curu kina.",
+        "unavailable": "E sega ni rawa ni vakarautaki na curu. Vakavodoka tale na tabana oqo ka tovolea tale.",
+        "logout_title": "Curu i tuba"
     }
 }

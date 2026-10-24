@@ -126,6 +126,16 @@
         "show": "Ko‘rsatish",
         "hide": "Yashirish",
         "submit": "Kirish",
-        "failed": "Foydalanuvchi nomi yoki parol noto‘g‘ri."
+        "failed": "Foydalanuvchi nomi yoki parol noto‘g‘ri.",
+        "passkey": "Passkey orqali kirish",
+        "passkey_failed": "Bu passkey orqali kirib bo‘lmadi. Qayta urining yoki parolingizdan foydalaning.",
+        "enroll_title": "Passkey qo‘shish",
+        "enroll_description": "Ushbu himoyalangan sayt uchun passkey yarating. Qurilmangiz shaxsingizni tasdiqlashingizni so‘raydi.",
+        "enroll_submit": "Passkey yaratish",
+        "enroll_success": "Passkey yaratildi. Uni saqlashni yakunlash uchun Access Control bo‘limiga qayting.",
+        "enroll_failed": "Passkey yaratib bo‘lmadi. Access Control bo‘limida boshqa ro‘yxatdan o‘tkazish havolasini yarating va qayta urining.",
+        "javascript_required": "Kirish uchun JavaScript kerak.",
+        "unavailable": "Kirishni tayyorlab bo‘lmadi. Bu sahifani qayta yuklang va qayta urining.",
+        "logout_title": "Chiqish"
     }
 }

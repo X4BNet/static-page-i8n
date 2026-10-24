@@ -126,6 +126,16 @@
         "show": "Erakutsi",
         "hide": "Ezkutatu",
         "submit": "Hasi saioa",
-        "failed": "Erabiltzaile-izena edo pasahitza okerra da."
+        "failed": "Erabiltzaile-izena edo pasahitza okerra da.",
+        "passkey": "Hasi saioa sarbide-gako batekin",
+        "passkey_failed": "Ezin izan da saioa hasi sarbide-gako honekin. Saiatu berriro edo erabili zure pasahitza.",
+        "enroll_title": "Gehitu sarbide-gako bat",
+        "enroll_description": "Sortu sarbide-gako bat babestutako webgune honetarako. Gailuak zure nortasuna berresteko eskatuko dizu.",
+        "enroll_submit": "Sortu sarbide-gakoa",
+        "enroll_success": "Sarbide-gakoa sortu da. Itzuli Access Control atalera hura gordetzen amaitzeko.",
+        "enroll_failed": "Ezin izan da sarbide-gakoa sortu. Sortu beste erregistro-esteka bat Access Control atalean eta saiatu berriro.",
+        "javascript_required": "JavaScript behar da saioa hasteko.",
+        "unavailable": "Ezin izan da saio-hasiera prestatu. Kargatu berriro orri hau eta saiatu berriz.",
+        "logout_title": "Amaitu saioa"
     }
 }

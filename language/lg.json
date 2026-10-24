@@ -126,6 +126,16 @@
         "show": "Laga",
         "hide": "Kisa",
         "submit": "Yingira",
-        "failed": "Erinnya ly'omukozesa oba ekigambo ekikuumi ssi kituufu."
+        "failed": "Erinnya ly'omukozesa oba ekigambo ekikuumi ssi kituufu.",
+        "passkey": "Yingira ng'okozesa passkey",
+        "passkey_failed": "Tekisobose kuyingira ng'okozesa passkey eno. Gezaako nate oba kozesa ekigambo kyo ekikuumi.",
+        "enroll_title": "Yongerako passkey",
+        "enroll_description": "Kola passkey y'omukutu guno ogukuumibwa. Ekyuma kyo kijja kukusaba okukakasa nti ggwe.",
+        "enroll_submit": "Kola passkey",
+        "enroll_success": "Passkey ekoleddwa. Ddayo ku Access Control omalirize okugiteraka.",
+        "enroll_failed": "Tekisobose kukola passkey. Kola akayungiro akalala ak'okwewandiisa mu Access Control era ogezeeko nate.",
+        "javascript_required": "JavaScript yeetaagisa okuyingira.",
+        "unavailable": "Tekisobose kuteekateeka kuyingira. Ddamu otikke olupapula luno era ogezeeko nate.",
+        "logout_title": "Fuluma"
     }
 }

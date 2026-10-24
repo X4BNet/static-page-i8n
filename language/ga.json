@@ -126,6 +126,16 @@
         "show": "Taispeáin",
         "hide": "Folaigh",
         "submit": "Sínigh isteach",
-        "failed": "Ainm úsáideora nó focal faire mícheart."
+        "failed": "Ainm úsáideora nó focal faire mícheart.",
+        "passkey": "Sínigh isteach le paseochair",
+        "passkey_failed": "Níorbh fhéidir síniú isteach leis an bpaseochair seo. Bain triail eile as nó úsáid d’fhocal faire.",
+        "enroll_title": "Cuir paseochair leis",
+        "enroll_description": "Cruthaigh paseochair don suíomh cosanta seo. Iarrfaidh do ghléas ort d’aitheantas a dheimhniú.",
+        "enroll_submit": "Cruthaigh paseochair",
+        "enroll_success": "Cruthaíodh paseochair. Fill ar Access Control chun an sábháil a chur i gcrích.",
+        "enroll_failed": "Níorbh fhéidir paseochair a chruthú. Cruthaigh nasc clárúcháin eile in Access Control agus bain triail eile as.",
+        "javascript_required": "Tá JavaScript ag teastáil chun síniú isteach.",
+        "unavailable": "Níorbh fhéidir an síniú isteach a ullmhú. Athlódáil an leathanach seo agus bain triail eile as.",
+        "logout_title": "Sínigh amach"
     }
 }

@@ -126,6 +126,16 @@
         "show": "Uri",
         "hide": "Aħbi",
         "submit": "Idħol",
-        "failed": "Isem tal-utent jew password mhux korretti."
+        "failed": "Isem tal-utent jew password mhux korretti.",
+        "passkey": "Idħol b'passkey",
+        "passkey_failed": "Ma tistax tidħol b'din il-passkey. Erġa' pprova jew uża l-password tiegħek.",
+        "enroll_title": "Żid passkey",
+        "enroll_description": "Oħloq passkey għal dan is-sit protett. L-apparat tiegħek se jitolbok tikkonferma l-identità tiegħek.",
+        "enroll_submit": "Oħloq passkey",
+        "enroll_success": "Il-passkey nħolqot. Mur lura f'Access Control biex tlesti l-proċess ta' salvataġġ tagħha.",
+        "enroll_failed": "Ma setgħetx tinħoloq passkey. Oħloq link ieħor ta' reġistrazzjoni f'Access Control u erġa' pprova.",
+        "javascript_required": "JavaScript huwa meħtieġ biex tidħol.",
+        "unavailable": "Ma setax jitħejja l-proċess tad-dħul. Erġa' tella' din il-paġna u erġa' pprova.",
+        "logout_title": "Oħroġ"
     }
 }

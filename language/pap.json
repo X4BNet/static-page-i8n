@@ -126,6 +126,16 @@
         "show": "Mustra",
         "hide": "Skonde",
         "submit": "Inisiá seshon",
-        "failed": "Nòmber di usadó òf kontraseña inkorekto."
+        "failed": "Nòmber di usadó òf kontraseña inkorekto.",
+        "passkey": "Inisiá seshon ku un passkey",
+        "passkey_failed": "No por inisiá seshon ku e passkey aki. Purba atrobe òf usa bo kontraseña.",
+        "enroll_title": "Agregá un passkey",
+        "enroll_description": "Krea un passkey pa e wèpsait protehá aki. Bo aparato lo pidi bo pa konfirmá bo identidat.",
+        "enroll_submit": "Krea passkey",
+        "enroll_success": "Passkey kreá. Bai bèk na Access Control pa terminá di warda e passkey.",
+        "enroll_failed": "No por krea un passkey. Krea un otro lenk di registrashon den Access Control i purba atrobe.",
+        "javascript_required": "JavaScript ta nesesario pa inisiá seshon.",
+        "unavailable": "No por prepará e inisio di seshon. Karga e página aki atrobe i purba atrobe.",
+        "logout_title": "Sera seshon"
     }
 }

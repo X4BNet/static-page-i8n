@@ -159,3 +159,16 @@ test('requires an explicit same-identity alias for identical locale files', t =>
     fs.writeFileSync(path.join(directory, 'language', `${variant.tag}.json`), JSON.stringify({ text: 'anderer Text' }));
     assert.match(check(), /alias content differs from de/u);
 });
+
+test('requires the auth section and every authentication string, including passkey enrollment', () => {
+    const english = { auth: readJSON(path.join(__dirname, '..', 'language', 'en.json')).auth };
+    assert.deepEqual(validateTranslation(english, english), []);
+    assert.deepEqual(validateTranslation({}, english), ['auth: missing key']);
+    for (const key of Object.keys(english.auth)) {
+        const candidate = { auth: { ...english.auth } };
+        delete candidate.auth[key];
+        assert.deepEqual(validateTranslation(candidate, english), [`auth.${key}: missing key`]);
+        candidate.auth[key] = 7;
+        assert.deepEqual(validateTranslation(candidate, english), [`auth.${key}: expected a string`]);
+    }
+});

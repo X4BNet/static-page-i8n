@@ -126,6 +126,16 @@
         "show": "Näytä",
         "hide": "Piilota",
         "submit": "Kirjaudu sisään",
-        "failed": "Väärä käyttäjänimi tai salasana."
+        "failed": "Väärä käyttäjänimi tai salasana.",
+        "passkey": "Kirjaudu sisään avainkoodilla",
+        "passkey_failed": "Tällä avainkoodilla kirjautuminen ei onnistunut. Yritä uudelleen tai käytä salasanaasi.",
+        "enroll_title": "Lisää avainkoodi",
+        "enroll_description": "Luo avainkoodi tälle suojatulle sivustolle. Laitteesi pyytää sinua vahvistamaan henkilöllisyytesi.",
+        "enroll_submit": "Luo avainkoodi",
+        "enroll_success": "Avainkoodi luotu. Palaa kohtaan Access Control viimeistelemään sen tallennus.",
+        "enroll_failed": "Avainkoodin luominen ei onnistunut. Luo uusi rekisteröintilinkki kohdassa Access Control ja yritä uudelleen.",
+        "javascript_required": "Kirjautuminen edellyttää JavaScriptiä.",
+        "unavailable": "Kirjautumisen valmistelu ei onnistunut. Lataa tämä sivu uudelleen ja yritä uudestaan.",
+        "logout_title": "Kirjaudu ulos"
     }
 }

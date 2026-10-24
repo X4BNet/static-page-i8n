@@ -127,6 +127,16 @@
         "show": "表示",
         "hide": "非表示",
         "submit": "ログイン",
-        "failed": "ユーザー名またはパスワードが正しくありません。"
+        "failed": "ユーザー名またはパスワードが正しくありません。",
+        "passkey": "パスキーでログイン",
+        "passkey_failed": "このパスキーではログインできませんでした。もう一度試すか、パスワードを使用してください。",
+        "enroll_title": "パスキーを追加",
+        "enroll_description": "この保護されたサイト用のパスキーを作成します。お使いのデバイスで本人確認が求められます。",
+        "enroll_submit": "パスキーを作成",
+        "enroll_success": "パスキーが作成されました。Access Control に戻って保存を完了してください。",
+        "enroll_failed": "パスキーを作成できませんでした。Access Control で別の登録リンクを作成して、もう一度試してください。",
+        "javascript_required": "ログインには JavaScript が必要です。",
+        "unavailable": "ログインの準備ができませんでした。このページを再読み込みして、もう一度試してください。",
+        "logout_title": "ログアウト"
     }
 }

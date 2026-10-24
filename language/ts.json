@@ -126,6 +126,16 @@
         "show": "Komba",
         "hide": "Tumbeta",
         "submit": "Nghena",
-        "failed": "Vito ra mutirhisi kumbe rito ra xihundla a ri lulamanga."
+        "failed": "Vito ra mutirhisi kumbe rito ra xihundla a ri lulamanga.",
+        "passkey": "Nghena hi passkey",
+        "passkey_failed": "A swi koteki ku nghena hi passkey leyi. Ringeta nakambe kumbe u tirhisa rito ra wena ra xihundla.",
+        "enroll_title": "Engetela passkey",
+        "enroll_description": "Tumbuluxa passkey ya sayiti leyi sirhelelekeke. Xitirhisiwa xa wena xi ta ku kombela ku tiyisisa leswaku u mani.",
+        "enroll_submit": "Tumbuluxa passkey",
+        "enroll_success": "Passkey yi tumbuluxiwile. Tlhelela eka Access Control leswaku u heta ku yi hlayisa.",
+        "enroll_failed": "A swi koteki ku tumbuluxa passkey. Tumbuluxa xihlanganisi xin’wana xa ntsariso eka Access Control kutani u ringeta nakambe.",
+        "javascript_required": "JavaScript ya laveka leswaku u nghena.",
+        "unavailable": "A swi koteki ku lunghiselela ku nghena. Layicha pheji leri nakambe kutani u ringeta nakambe.",
+        "logout_title": "Huma"
     }
 }

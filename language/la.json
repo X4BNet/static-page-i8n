@@ -126,6 +126,16 @@
         "show": "Monstra",
         "hide": "Cela",
         "submit": "Intra",
-        "failed": "Nomen usoris vel tessera non valet."
+        "failed": "Nomen usoris vel tessera non valet.",
+        "passkey": "Intra clave passkey",
+        "passkey_failed": "Hac clave passkey intrare non potes. Iterum tenta vel tessera tua utere.",
+        "enroll_title": "Adde clavem passkey",
+        "enroll_description": "Crea clavem passkey pro hoc situ munito. Instrumentum tuum te rogabit ut identitatem tuam confirmes.",
+        "enroll_submit": "Crea clavem passkey",
+        "enroll_success": "Clavis passkey creata est. Redi ad Access Control ut eius conservationem perficias.",
+        "enroll_failed": "Clavis passkey creari non potest. Crea alium nexum ad inscriptionem in Access Control et iterum tenta.",
+        "javascript_required": "JavaScript necessarium est ut intres.",
+        "unavailable": "Ingressus parari non potest. Hanc paginam denuo onera et iterum tenta.",
+        "logout_title": "Exi"
     }
 }

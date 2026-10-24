@@ -126,6 +126,16 @@
         "show": "Tuduhake",
         "hide": "Dhelikake",
         "submit": "Mlebu",
-        "failed": "Jeneng pangguna utawa tembung sandi salah."
+        "failed": "Jeneng pangguna utawa tembung sandi salah.",
+        "passkey": "Mlebu nganggo passkey",
+        "passkey_failed": "Ora bisa mlebu nganggo passkey iki. Coba maneh utawa gunakake tembung sandi sampeyan.",
+        "enroll_title": "Tambah passkey",
+        "enroll_description": "Gawe passkey kanggo situs sing dilindhungi iki. Piranti sampeyan bakal njaluk sampeyan ngonfirmasi identitas.",
+        "enroll_submit": "Gawe passkey",
+        "enroll_success": "Passkey wis digawe. Bali menyang Access Control kanggo ngrampungake panyimpenane.",
+        "enroll_failed": "Ora bisa nggawe passkey. Gawe pranala pendaftaran liyane ing Access Control banjur coba maneh.",
+        "javascript_required": "JavaScript dibutuhake kanggo mlebu.",
+        "unavailable": "Ora bisa nyiyapake proses mlebu. Muat maneh kaca iki banjur coba maneh.",
+        "logout_title": "Metu"
     }
 }

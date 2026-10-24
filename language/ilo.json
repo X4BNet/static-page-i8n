@@ -126,6 +126,16 @@
         "show": "Ipakita",
         "hide": "Ilemmeng",
         "submit": "Sumrek",
-        "failed": "Saan a husto ti nagan ti agar-aramat wenno kontrasenias."
+        "failed": "Saan a husto ti nagan ti agar-aramat wenno kontrasenias.",
+        "passkey": "Sumrek babaen iti passkey",
+        "passkey_failed": "Saan a makastrek babaen iti daytoy a passkey. Padasem manen wenno usarem ti kontraseniasmo.",
+        "enroll_title": "Agnayon iti passkey",
+        "enroll_description": "Mangaramid iti passkey para iti daytoy a protektado a website. Kiddawen ti aparatomo a pasingkedam ti kinasiasinom.",
+        "enroll_submit": "Mangaramid iti passkey",
+        "enroll_success": "Naaramiden ti passkey. Agsubli iti Access Control tapno malpas ti panangidulin iti daytoy.",
+        "enroll_failed": "Saan a makaaramid iti passkey. Mangaramid iti sabali a link ti panagrehistro iti Access Control ket padasem manen.",
+        "javascript_required": "Masapul ti JavaScript tapno makastrek.",
+        "unavailable": "Saan a maisagana ti panagserrek. Ikarga manen daytoy a panid ket padasem manen.",
+        "logout_title": "Rummuar"
     }
 }

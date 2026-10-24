@@ -126,6 +126,16 @@
         "show": "Fihàn",
         "hide": "Fi pamọ́",
         "submit": "Wọlé",
-        "failed": "Orúkọ oníṣe tàbí ọ̀rọ̀ ìpamọ́ kò tọ́."
+        "failed": "Orúkọ oníṣe tàbí ọ̀rọ̀ ìpamọ́ kò tọ́.",
+        "passkey": "Ẹ wọlé pẹ̀lú passkey",
+        "passkey_failed": "Kò ṣeé wọlé pẹ̀lú passkey yìí. Ẹ tún gbìyànjú tàbí ẹ lo ọ̀rọ̀ ìpamọ́ yín.",
+        "enroll_title": "Fi passkey kún un",
+        "enroll_description": "Ẹ ṣẹ̀dá passkey fún ojúlé ayélujára yìí tí a dáàbò bò. Ẹ̀rọ yín yóò béèrè pé kí ẹ jẹ́rìí sí ẹni tí ẹ jẹ́.",
+        "enroll_submit": "Ṣẹ̀dá passkey",
+        "enroll_success": "A ti ṣẹ̀dá passkey. Ẹ padà sí Access Control láti parí fífi passkey náà pamọ́.",
+        "enroll_failed": "A kò lè ṣẹ̀dá passkey. Ẹ ṣẹ̀dá ìjápọ̀ ìforúkọsílẹ̀ mìíràn ní Access Control kí ẹ sì tún gbìyànjú.",
+        "javascript_required": "A nílò JavaScript láti wọlé.",
+        "unavailable": "A kò lè mú ìwọlé ṣetán. Ẹ tún ojú-ewé yìí ṣí kí ẹ sì tún gbìyànjú.",
+        "logout_title": "Jáde"
     }
 }

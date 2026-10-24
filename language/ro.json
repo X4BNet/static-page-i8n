@@ -126,6 +126,16 @@
         "show": "Afișați",
         "hide": "Ascundeți",
         "submit": "Autentificați-vă",
-        "failed": "Nume de utilizator sau parolă incorectă."
+        "failed": "Nume de utilizator sau parolă incorectă.",
+        "passkey": "Autentificați-vă cu o cheie de acces",
+        "passkey_failed": "Autentificarea cu această cheie de acces nu a reușit. Încercați din nou sau folosiți parola.",
+        "enroll_title": "Adăugați o cheie de acces",
+        "enroll_description": "Creați o cheie de acces pentru acest site protejat. Dispozitivul vă va cere să vă confirmați identitatea.",
+        "enroll_submit": "Creați o cheie de acces",
+        "enroll_success": "Cheia de acces a fost creată. Reveniți la Access Control pentru a finaliza salvarea acesteia.",
+        "enroll_failed": "Cheia de acces nu a putut fi creată. Creați un alt link de înregistrare în Access Control și încercați din nou.",
+        "javascript_required": "JavaScript este necesar pentru autentificare.",
+        "unavailable": "Autentificarea nu a putut fi pregătită. Reîncărcați această pagină și încercați din nou.",
+        "logout_title": "Deconectați-vă"
     }
 }

@@ -126,6 +126,16 @@
         "show": "Näita",
         "hide": "Peida",
         "submit": "Logi sisse",
-        "failed": "Vale kasutajanimi või parool."
+        "failed": "Vale kasutajanimi või parool.",
+        "passkey": "Logi sisse pääsuvõtmega",
+        "passkey_failed": "Selle pääsuvõtmega ei õnnestunud sisse logida. Proovi uuesti või kasuta oma parooli.",
+        "enroll_title": "Lisa pääsuvõti",
+        "enroll_description": "Loo selle kaitstud veebisaidi jaoks pääsuvõti. Sinu seade palub sul oma isikut kinnitada.",
+        "enroll_submit": "Loo pääsuvõti",
+        "enroll_success": "Pääsuvõti on loodud. Naase jaotisse Access Control, et selle salvestamine lõpule viia.",
+        "enroll_failed": "Pääsuvõtit ei õnnestunud luua. Loo jaotises Access Control uus registreerimislink ja proovi uuesti.",
+        "javascript_required": "Sisselogimiseks on vaja JavaScripti.",
+        "unavailable": "Sisselogimist ei õnnestunud ette valmistada. Laadi see leht uuesti ja proovi veel kord.",
+        "logout_title": "Logi välja"
     }
 }

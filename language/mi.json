@@ -126,6 +126,16 @@
         "show": "Whakaatu",
         "hide": "Huna",
         "submit": "Takiuru",
-        "failed": "Kei te hē te ingoa kaiwhakamahi, te kupuhipa rānei."
+        "failed": "Kei te hē te ingoa kaiwhakamahi, te kupuhipa rānei.",
+        "passkey": "Takiuru mā te passkey",
+        "passkey_failed": "Kāore e taea te takiuru mā tēnei passkey. Ngana anō, whakamahia rānei tō kupuhipa.",
+        "enroll_title": "Tāpiri passkey",
+        "enroll_description": "Waihangatia he passkey mō tēnei paetukutuku kua tiakina. Ka tono tō pūrere kia whakaū koe i tō tuakiri.",
+        "enroll_submit": "Waihanga passkey",
+        "enroll_success": "Kua waihangatia te passkey. Hoki ki Access Control ki te whakaoti i te tiaki i taua passkey.",
+        "enroll_failed": "Kāore e taea te waihanga passkey. Waihangatia he hononga rēhita anō ki Access Control, ka ngana anō.",
+        "javascript_required": "Me whai JavaScript hei takiuru.",
+        "unavailable": "Kāore e taea te whakarite i te takiuru. Utaina anō tēnei whārangi, ka ngana anō.",
+        "logout_title": "Takiputa"
     }
 }

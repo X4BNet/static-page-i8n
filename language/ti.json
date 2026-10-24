@@ -127,6 +127,16 @@
         "show": "ኣርእዩ",
         "hide": "ሕብኡ",
         "submit": "እተዉ",
-        "failed": "ስም ተጠቃሚ ወይ መሕለፊ ቃል ጌጋ እዩ።"
+        "failed": "ስም ተጠቃሚ ወይ መሕለፊ ቃል ጌጋ እዩ።",
+        "passkey": "ብ passkey እተዉ",
+        "passkey_failed": "በዚ passkey ክትኣትዉ ኣይተኻእለን። እንደገና ፈትኑ ወይ መሕለፊ ቃልኩም ተጠቐሙ።",
+        "enroll_title": "passkey ወስኹ",
+        "enroll_description": "ነዚ ዝተሓለወ መርበብ ሓበሬታ passkey ፍጠሩ። መሳርሒኹም መንነትኩም ከተረጋግጹ ክሓተኩም እዩ።",
+        "enroll_submit": "passkey ፍጠሩ",
+        "enroll_success": "Passkey ተፈጢሩ። ምዕቃቡ ንምዝዛም ናብ Access Control ተመለሱ።",
+        "enroll_failed": "Passkey ክፍጠር ኣይተኻእለን። ኣብ Access Control ካልእ መመዝገቢ መላግቦ ፍጠሩ እሞ እንደገና ፈትኑ።",
+        "javascript_required": "ንምእታው JavaScript የድሊ።",
+        "unavailable": "መእተዊ ከዳሉ ኣይተኻእለን። ነዚ ገጽ እንደገና ጽዓኑ እሞ እንደገና ፈትኑ።",
+        "logout_title": "ውጹ"
     }
 }

@@ -126,6 +126,16 @@
         "show": "Bonisa",
         "hide": "Fihla",
         "submit": "Ngena",
-        "failed": "Igama lomsebenzisi noma iphasiwedi akulungile."
+        "failed": "Igama lomsebenzisi noma iphasiwedi akulungile.",
+        "passkey": "Ngena nge-passkey",
+        "passkey_failed": "Awukwazi ukungena ngale passkey. Zama futhi noma usebenzise iphasiwedi yakho.",
+        "enroll_title": "Engeza i-passkey",
+        "enroll_description": "Dala i-passkey yale webhusayithi evikelwe. Idivayisi yakho izokucela ukuthi uqinisekise ukuthi ungubani.",
+        "enroll_submit": "Dala i-passkey",
+        "enroll_success": "I-passkey idaliwe. Buyela ku-Access Control ukuze uqedele ukuyigcina.",
+        "enroll_failed": "Ayikwazi ukudalwa i-passkey. Dala esinye isixhumanisi sokubhalisa ku-Access Control bese uzama futhi.",
+        "javascript_required": "Kudingeka i-JavaScript ukuze ungene.",
+        "unavailable": "Akukwazi ukulungiselelwa ukungena. Layisha leli khasi kabusha bese uzama futhi.",
+        "logout_title": "Phuma"
     }
 }

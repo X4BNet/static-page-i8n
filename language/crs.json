@@ -126,6 +126,16 @@
         "show": "Montre",
         "hide": "Kasyet",
         "submit": "Konekte",
-        "failed": "Non itilizater oubyen pasword pa korek."
+        "failed": "Non itilizater oubyen pasword pa korek.",
+        "passkey": "Konekte avek en passkey",
+        "passkey_failed": "Ou pa kapab konekte avek sa passkey. Esey ankor oubyen servi ou pasword.",
+        "enroll_title": "Azout en passkey",
+        "enroll_description": "Kree en passkey pour sa sit proteze. Ou laparey pou demann ou pour konfirm ou lidantite.",
+        "enroll_submit": "Kree passkey",
+        "enroll_success": "Passkey in ganny kree. Retourn dan Access Control pour fini anrezistre li.",
+        "enroll_failed": "Pa kapab kree en passkey. Kree en lot lyen pour lanrezistreman dan Access Control e esey ankor.",
+        "javascript_required": "JavaScript i neseser pour konekte.",
+        "unavailable": "Pa kapab prepar koneksyon. Sarz sa paz ankor e esey ankor.",
+        "logout_title": "Dekonekte"
     }
 }

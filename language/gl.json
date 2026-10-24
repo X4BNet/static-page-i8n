@@ -126,6 +126,16 @@
         "show": "Amosar",
         "hide": "Agochar",
         "submit": "Iniciar sesión",
-        "failed": "Nome de usuario ou contrasinal incorrectos."
+        "failed": "Nome de usuario ou contrasinal incorrectos.",
+        "passkey": "Iniciar sesión cunha clave de acceso",
+        "passkey_failed": "Non se puido iniciar sesión con esta clave de acceso. Téntao de novo ou usa o teu contrasinal.",
+        "enroll_title": "Engadir unha clave de acceso",
+        "enroll_description": "Crea unha clave de acceso para este sitio protexido. O teu dispositivo pedirache que confirmes a túa identidade.",
+        "enroll_submit": "Crear clave de acceso",
+        "enroll_success": "Creouse a clave de acceso. Volve a Access Control para rematar de gardala.",
+        "enroll_failed": "Non se puido crear unha clave de acceso. Crea outra ligazón de rexistro en Access Control e téntao de novo.",
+        "javascript_required": "Cómpre JavaScript para iniciar sesión.",
+        "unavailable": "Non se puido preparar o inicio de sesión. Carga de novo esta páxina e téntao outra vez.",
+        "logout_title": "Pechar sesión"
     }
 }

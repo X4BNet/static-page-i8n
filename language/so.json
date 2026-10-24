@@ -126,6 +126,16 @@
         "show": "Muuji",
         "hide": "Qari",
         "submit": "Soo gal",
-        "failed": "Magaca isticmaalaha ama furaha sirta waa khalad."
+        "failed": "Magaca isticmaalaha ama furaha sirta waa khalad.",
+        "passkey": "Ku soo gal passkey",
+        "passkey_failed": "Laguma soo geli karo passkey-gan. Isku day mar kale ama isticmaal furahaaga sirta ah.",
+        "enroll_title": "Ku dar passkey",
+        "enroll_description": "U samee passkey boggan la ilaaliyo. Qalabkaagu wuxuu ku weydiin doonaa inaad xaqiijiso aqoonsigaaga.",
+        "enroll_submit": "Samee passkey",
+        "enroll_success": "Passkey waa la sameeyay. Ku noqo Access Control si aad u dhammaystirto kaydintiisa.",
+        "enroll_failed": "Lama samayn karo passkey. Ku samee xiriiriye kale oo diiwaangelin ah gudaha Access Control oo isku day mar kale.",
+        "javascript_required": "JavaScript ayaa loo baahan yahay si loo soo galo.",
+        "unavailable": "Lama diyaarin karo soo gelitaanka. Dib u soo rar boggan oo isku day mar kale.",
+        "logout_title": "Ka bax"
     }
 }

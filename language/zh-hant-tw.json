@@ -127,6 +127,16 @@
         "show": "顯示",
         "hide": "隱藏",
         "submit": "登入",
-        "failed": "使用者名稱或密碼不正確。"
+        "failed": "使用者名稱或密碼不正確。",
+        "passkey": "使用密碼金鑰登入",
+        "passkey_failed": "無法使用這個密碼金鑰登入。請再試一次，或使用您的密碼。",
+        "enroll_title": "新增密碼金鑰",
+        "enroll_description": "為這個受保護的網站建立密碼金鑰。您的裝置會要求您確認身分。",
+        "enroll_submit": "建立密碼金鑰",
+        "enroll_success": "密碼金鑰已建立。請返回 Access Control 完成儲存。",
+        "enroll_failed": "無法建立密碼金鑰。請在 Access Control 中建立另一個註冊連結，然後再試一次。",
+        "javascript_required": "登入需要 JavaScript。",
+        "unavailable": "無法完成登入準備。請重新載入這個頁面，然後再試一次。",
+        "logout_title": "登出"
     }
 }

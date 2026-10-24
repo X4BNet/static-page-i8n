@@ -126,6 +126,16 @@
         "show": "Megjelenítés",
         "hide": "Elrejtés",
         "submit": "Bejelentkezés",
-        "failed": "Hibás felhasználónév vagy jelszó."
+        "failed": "Hibás felhasználónév vagy jelszó.",
+        "passkey": "Bejelentkezés hozzáférési kulccsal",
+        "passkey_failed": "Nem sikerült bejelentkezni ezzel a hozzáférési kulccsal. Próbálja újra, vagy használja a jelszavát.",
+        "enroll_title": "Hozzáférési kulcs hozzáadása",
+        "enroll_description": "Hozzon létre hozzáférési kulcsot ehhez a védett webhelyhez. Az eszköze kérni fogja személyazonosságának megerősítését.",
+        "enroll_submit": "Hozzáférési kulcs létrehozása",
+        "enroll_success": "A hozzáférési kulcs létrejött. A mentés befejezéséhez térjen vissza az Access Control oldalra.",
+        "enroll_failed": "Nem sikerült létrehozni a hozzáférési kulcsot. Hozzon létre egy másik regisztrációs hivatkozást az Access Control oldalon, majd próbálja újra.",
+        "javascript_required": "A bejelentkezéshez JavaScript szükséges.",
+        "unavailable": "Nem sikerült előkészíteni a bejelentkezést. Töltse be újra ezt az oldalt, majd próbálja újra.",
+        "logout_title": "Kijelentkezés"
     }
 }

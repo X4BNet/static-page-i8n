@@ -126,6 +126,16 @@
         "show": "Wys",
         "hide": "Versteek",
         "submit": "Meld aan",
-        "failed": "Verkeerde gebruikersnaam of wagwoord."
+        "failed": "Verkeerde gebruikersnaam of wagwoord.",
+        "passkey": "Meld met 'n passkey aan",
+        "passkey_failed": "Kan nie met hierdie passkey aanmeld nie. Probeer weer of gebruik jou wagwoord.",
+        "enroll_title": "Voeg 'n passkey by",
+        "enroll_description": "Skep 'n passkey vir hierdie beskermde webwerf. Jou toestel sal jou vra om jou identiteit te bevestig.",
+        "enroll_submit": "Skep passkey",
+        "enroll_success": "Passkey geskep. Keer terug na Access Control om dit klaar te stoor.",
+        "enroll_failed": "Kan nie 'n passkey skep nie. Skep 'n ander registrasieskakel in Access Control en probeer weer.",
+        "javascript_required": "JavaScript word vereis om aan te meld.",
+        "unavailable": "Kan nie aanmelding voorberei nie. Herlaai hierdie bladsy en probeer weer.",
+        "logout_title": "Meld af"
     }
 }

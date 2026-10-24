@@ -126,6 +126,16 @@
         "show": "Fa'aali",
         "hide": "Nana",
         "submit": "Ulufale",
-        "failed": "E sesē le igoa fa'aoga po o le upu fa'alilolilo."
+        "failed": "E sesē le igoa fa'aoga po o le upu fa'alilolilo.",
+        "passkey": "Fa'aaoga se passkey e ulufale ai",
+        "passkey_failed": "E lē mafai ona fa'aaoga lenei passkey e ulufale ai. Toe taumafai pe fa'aaoga lau upu fa'alilolilo.",
+        "enroll_title": "Fa'aopoopo se passkey",
+        "enroll_description": "Fausia se passkey mo lenei upega tafa'ilagi ua puipuia. O le a talosaga lau masini e te fa'amaonia po o ai oe.",
+        "enroll_submit": "Fausia se passkey",
+        "enroll_success": "Ua fausia le passkey. Toe fo'i i le Access Control e fa'auma ai le teuina.",
+        "enroll_failed": "E lē mafai ona fausia se passkey. Fausia se isi so'otaga mo le lesitalaina i le Access Control ma toe taumafai.",
+        "javascript_required": "E mana'omia le JavaScript e ulufale ai.",
+        "unavailable": "E lē mafai ona saunia le ulufale. Toe uta lenei itulau ma toe taumafai.",
+        "logout_title": "Saini i fafo"
     }
 }

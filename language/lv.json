@@ -126,6 +126,16 @@
         "show": "Rādīt",
         "hide": "Slēpt",
         "submit": "Pierakstīties",
-        "failed": "Nepareizs lietotājvārds vai parole."
+        "failed": "Nepareizs lietotājvārds vai parole.",
+        "passkey": "Pierakstīties ar piekļuves atslēgu",
+        "passkey_failed": "Neizdevās pierakstīties ar šo piekļuves atslēgu. Mēģiniet vēlreiz vai izmantojiet savu paroli.",
+        "enroll_title": "Pievienot piekļuves atslēgu",
+        "enroll_description": "Izveidojiet piekļuves atslēgu šai aizsargātajai vietnei. Jūsu ierīce lūgs apstiprināt jūsu identitāti.",
+        "enroll_submit": "Izveidot piekļuves atslēgu",
+        "enroll_success": "Piekļuves atslēga izveidota. Atgriezieties sadaļā Access Control, lai pabeigtu tās saglabāšanu.",
+        "enroll_failed": "Neizdevās izveidot piekļuves atslēgu. Sadaļā Access Control izveidojiet citu reģistrācijas saiti un mēģiniet vēlreiz.",
+        "javascript_required": "Lai pierakstītos, ir nepieciešams JavaScript.",
+        "unavailable": "Neizdevās sagatavot pierakstīšanos. Atkārtoti ielādējiet šo lapu un mēģiniet vēlreiz.",
+        "logout_title": "Izrakstīties"
     }
 }

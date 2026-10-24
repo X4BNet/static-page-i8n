@@ -126,6 +126,16 @@
         "show": "Wone",
         "hide": "Nëbb",
         "submit": "Duggal",
-        "failed": "Sa turu jëfandikukat walla sa baatu jàll jubul."
+        "failed": "Sa turu jëfandikukat walla sa baatu jàll jubul.",
+        "passkey": "Duggal ak passkey",
+        "passkey_failed": "Mëneesul a dugg ak passkey bii. Jéemaatal walla jëfandikool sa baatu jàll.",
+        "enroll_title": "Yokkal passkey",
+        "enroll_description": "Sosal passkey ngir dalub web bii ñu aar. Sa jumtukaay dina la laaj nga dëggal kan nga.",
+        "enroll_submit": "Sosal passkey",
+        "enroll_success": "Sos nañu passkey bi. Dellul ci Access Control ngir àggali denc gi.",
+        "enroll_failed": "Mëneesul a sos passkey. Sosal beneen lëkkalekaayu bindu ci Access Control te jéemaatal.",
+        "javascript_required": "JavaScript war na am ngir dugg.",
+        "unavailable": "Mëneesul a waajal dugg gi. Yeesalaatal xët wii te jéemaatal.",
+        "logout_title": "Génn"
     }
 }

@@ -126,6 +126,16 @@
         "show": "Vis",
         "hide": "Gøym",
         "submit": "Logg inn",
-        "failed": "Feil brukarnamn eller passord."
+        "failed": "Feil brukarnamn eller passord.",
+        "passkey": "Logg inn med ein tilgangsnøkkel",
+        "passkey_failed": "Kan ikkje logge inn med denne tilgangsnøkkelen. Prøv igjen eller bruk passordet ditt.",
+        "enroll_title": "Legg til ein tilgangsnøkkel",
+        "enroll_description": "Opprett ein tilgangsnøkkel for denne verna nettstaden. Eininga di vil be deg stadfeste identiteten din.",
+        "enroll_submit": "Opprett tilgangsnøkkel",
+        "enroll_success": "Tilgangsnøkkelen er oppretta. Gå tilbake til Access Control for å fullføre lagringa.",
+        "enroll_failed": "Kan ikkje opprette ein tilgangsnøkkel. Opprett ei ny registreringslenkje i Access Control og prøv igjen.",
+        "javascript_required": "JavaScript er nødvendig for å logge inn.",
+        "unavailable": "Kan ikkje klargjere innlogginga. Last inn sida på nytt og prøv igjen.",
+        "logout_title": "Logg ut"
     }
 }

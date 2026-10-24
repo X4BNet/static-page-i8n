@@ -126,6 +126,16 @@
         "show": "Igpakita",
         "hide": "Tagoa",
         "submit": "Sulod",
-        "failed": "Sayop an ngaran han gumaramit o an tigaman-pagsulod."
+        "failed": "Sayop an ngaran han gumaramit o an tigaman-pagsulod.",
+        "passkey": "Sulod gamit an passkey",
+        "passkey_failed": "Diri makakasulod gamit ini nga passkey. Sarihi utro o gamita an imo tigaman-pagsulod.",
+        "enroll_title": "Pagdugang hin passkey",
+        "enroll_description": "Paghimo hin passkey para hini nga protektado nga website. An imo aparato maghahangyo ha imo nga kumpirmahon kon hin-o ka.",
+        "enroll_submit": "Paghimo hin passkey",
+        "enroll_success": "Nahimo na an passkey. Balik ha Access Control basi tapuson an pagtipig hini.",
+        "enroll_failed": "Diri makakahimo hin passkey. Paghimo hin lain nga sumpay para ha pagrehistro ha Access Control ngan sarihi utro.",
+        "javascript_required": "Kinahanglan an JavaScript basi makasulod.",
+        "unavailable": "Diri maandam an pagsulod. Ikarga utro ini nga pahina ngan sarihi utro.",
+        "logout_title": "Gawas"
     }
 }

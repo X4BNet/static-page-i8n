@@ -126,6 +126,16 @@
         "show": "Prikaži",
         "hide": "Sakrij",
         "submit": "Prijavi se",
-        "failed": "Pogrešno korisničko ime ili lozinka."
+        "failed": "Pogrešno korisničko ime ili lozinka.",
+        "passkey": "Prijavi se pristupnim ključem",
+        "passkey_failed": "Nije se moguće prijaviti ovim pristupnim ključem. Pokušajte ponovo ili upotrijebite svoju lozinku.",
+        "enroll_title": "Dodaj pristupni ključ",
+        "enroll_description": "Kreirajte pristupni ključ za ovu zaštićenu web-lokaciju. Vaš uređaj će zatražiti da potvrdite svoj identitet.",
+        "enroll_submit": "Kreiraj pristupni ključ",
+        "enroll_success": "Pristupni ključ je kreiran. Vratite se u Access Control da dovršite njegovo spremanje.",
+        "enroll_failed": "Nije moguće kreirati pristupni ključ. Kreirajte drugi link za registraciju u Access Control i pokušajte ponovo.",
+        "javascript_required": "Za prijavu je potreban JavaScript.",
+        "unavailable": "Nije moguće pripremiti prijavu. Ponovo učitajte ovu stranicu i pokušajte još jednom.",
+        "logout_title": "Odjavi se"
     }
 }

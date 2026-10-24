@@ -127,6 +127,16 @@
         "show": "顯示",
         "hide": "隱藏",
         "submit": "登入",
-        "failed": "用戶名稱或密碼唔啱。"
+        "failed": "用戶名稱或密碼唔啱。",
+        "passkey": "用通行密匙登入",
+        "passkey_failed": "用呢個通行密匙登入唔到。請再試一次，或者用你嘅密碼登入。",
+        "enroll_title": "新增通行密匙",
+        "enroll_description": "為呢個受保護嘅網站建立通行密匙。你嘅裝置會要求你確認身分。",
+        "enroll_submit": "建立通行密匙",
+        "enroll_success": "通行密匙建立咗。請返去 Access Control 完成儲存。",
+        "enroll_failed": "建立唔到通行密匙。請喺 Access Control 建立另一條登記連結，再試一次。",
+        "javascript_required": "要登入就需要 JavaScript。",
+        "unavailable": "準備唔到登入程序。請重新載入呢個頁面，再試一次。",
+        "logout_title": "登出"
     }
 }

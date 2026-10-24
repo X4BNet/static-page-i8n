@@ -126,6 +126,16 @@
         "show": "Rikuchiy",
         "hide": "Pakay",
         "submit": "Yaykuy",
-        "failed": "Ruraqpa sutin utaq yaykuna rimaqa manam allinchu."
+        "failed": "Ruraqpa sutin utaq yaykuna rimaqa manam allinchu.",
+        "passkey": "Passkey nisqawan yaykuy",
+        "passkey_failed": "Kay passkey nisqawanqa manam yaykuyta atikunmanchu. Huk kutita ruraykachay utaq yaykuna rimaykita llamk'achiy.",
+        "enroll_title": "Passkey nisqata yapay",
+        "enroll_description": "Kay waqaychasqa llika p'anqapaq passkey nisqata ruray. Aparatuykiqa pi kasqaykita chiqaqchanaykipaq mañakusunki.",
+        "enroll_submit": "Passkey nisqata ruray",
+        "enroll_success": "Passkey nisqa rurasqañam. Access Control nisqaman kutiy, chayta waqaychayta tukuchinaykipaq.",
+        "enroll_failed": "Manam passkey nisqata rurayta atikunmanchu. Access Control nisqapi huk qillqachikuna t'inkita ruray, hinaspa huk kutita ruraykachay.",
+        "javascript_required": "Yaykunaykipaq JavaScript nisqam kanan.",
+        "unavailable": "Manam yaykuyta wakichiyta atikunmanchu. Kay p'anqata musuqmanta chaqnay, hinaspa huk kutita ruraykachay.",
+        "logout_title": "Lluqsiy"
     }
 }

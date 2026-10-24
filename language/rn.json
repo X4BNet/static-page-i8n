@@ -126,6 +126,16 @@
         "show": "Erekana",
         "hide": "Nyegeza",
         "submit": "Injira",
-        "failed": "Izina ry’uwukoresha canke ijambo ry’ibanga si ryo."
+        "failed": "Izina ry’uwukoresha canke ijambo ry’ibanga si ryo.",
+        "passkey": "Injira ukoresheje passkey",
+        "passkey_failed": "Ntibishoboka kwinjira ukoresheje iyi passkey. Subira ugerageze canke ukoreshe ijambo ryawe ry’ibanga.",
+        "enroll_title": "Ongerako passkey",
+        "enroll_description": "Rema passkey y’uru rubuga rukingiwe. Igikoresho cawe kizogusaba kwemeza uwo uri.",
+        "enroll_submit": "Rema passkey",
+        "enroll_success": "Passkey yaremwe. Subira muri Access Control kugira urangize kuyibika.",
+        "enroll_failed": "Ntibishoboka kurema passkey. Rema irindi huriro ryo kwandikisha passkey muri Access Control, hanyuma usubire ugerageze.",
+        "javascript_required": "JavaScript irakenewe kugira winjire.",
+        "unavailable": "Ntibishoboka gutegura kwinjira. Subira upakire uru rupapuro, hanyuma usubire ugerageze.",
+        "logout_title": "Sohoka"
     }
 }

@@ -126,6 +126,16 @@
         "show": "Toane",
         "hide": "Ferbergje",
         "submit": "Oanmelde",
-        "failed": "Ferkearde brûkersnamme of wachtwurd."
+        "failed": "Ferkearde brûkersnamme of wachtwurd.",
+        "passkey": "Oanmelde mei in passkey",
+        "passkey_failed": "It is net slagge om mei dizze passkey oan te melden. Besykje it opnij of brûk jo wachtwurd.",
+        "enroll_title": "In passkey tafoegje",
+        "enroll_description": "Meitsje in passkey foar dizze beskerme webside. Jo apparaat sil jo freegje om jo identiteit te befêstigjen.",
+        "enroll_submit": "Passkey meitsje",
+        "enroll_success": "Passkey oanmakke. Gean werom nei Access Control om it opslaan ôf te rûnjen.",
+        "enroll_failed": "It is net slagge om in passkey te meitsjen. Meitsje in oare registraasjekeppeling yn Access Control en besykje it opnij.",
+        "javascript_required": "JavaScript is nedich om oan te melden.",
+        "unavailable": "It is net slagge om it oanmelden ta te rieden. Laad dizze side opnij en besykje it nochris.",
+        "logout_title": "Ofmelde"
     }
 }

@@ -126,6 +126,16 @@
         "show": "Gosi",
         "hide": "Zoo",
         "submit": "Banye",
-        "failed": "Aha njirimara ma ọ bụ okwuntughe ezighi ezi."
+        "failed": "Aha njirimara ma ọ bụ okwuntughe ezighi ezi.",
+        "passkey": "Jiri passkey banye",
+        "passkey_failed": "Enweghị ike iji passkey a banye. Nwalee ọzọ ma ọ bụ jiri okwuntughe gị.",
+        "enroll_title": "Tinye passkey",
+        "enroll_description": "Mepụta passkey maka weebụsaịtị a e chebere. Ngwaọrụ gị ga-arịọ gị ka ị kwado onye ị bụ.",
+        "enroll_submit": "Mepụta passkey",
+        "enroll_success": "Emepụtala passkey. Laghachi na Access Control ka ị mechaa ịchekwa ya.",
+        "enroll_failed": "Enweghị ike ịmepụta passkey. Mepụta njikọ ndebanye aha ọzọ na Access Control wee nwalee ọzọ.",
+        "javascript_required": "A chọrọ JavaScript iji banye.",
+        "unavailable": "Enweghị ike ịkwadebe nbanye. Buo ibe a ọzọ wee nwalee ọzọ.",
+        "logout_title": "Pụọ"
     }
 }

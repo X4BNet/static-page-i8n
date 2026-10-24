@@ -126,6 +126,16 @@
         "show": "Hiện",
         "hide": "Ẩn",
         "submit": "Đăng nhập",
-        "failed": "Tên người dùng hoặc mật khẩu không đúng."
+        "failed": "Tên người dùng hoặc mật khẩu không đúng.",
+        "passkey": "Đăng nhập bằng khóa truy cập",
+        "passkey_failed": "Không thể đăng nhập bằng khóa truy cập này. Hãy thử lại hoặc dùng mật khẩu của bạn.",
+        "enroll_title": "Thêm khóa truy cập",
+        "enroll_description": "Tạo khóa truy cập cho trang web được bảo vệ này. Thiết bị sẽ yêu cầu bạn xác nhận danh tính.",
+        "enroll_submit": "Tạo khóa truy cập",
+        "enroll_success": "Đã tạo khóa truy cập. Hãy quay lại Access Control để hoàn tất việc lưu khóa.",
+        "enroll_failed": "Không thể tạo khóa truy cập. Hãy tạo một liên kết đăng ký khác trong Access Control rồi thử lại.",
+        "javascript_required": "Bạn cần có JavaScript để đăng nhập.",
+        "unavailable": "Không thể chuẩn bị đăng nhập. Hãy tải lại trang này rồi thử lại.",
+        "logout_title": "Đăng xuất"
     }
 }

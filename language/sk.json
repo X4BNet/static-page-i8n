@@ -126,6 +126,16 @@
         "show": "Zobraziť",
         "hide": "Skryť",
         "submit": "Prihlásiť sa",
-        "failed": "Nesprávne používateľské meno alebo heslo."
+        "failed": "Nesprávne používateľské meno alebo heslo.",
+        "passkey": "Prihlásiť sa prístupovým kľúčom",
+        "passkey_failed": "Pomocou tohto prístupového kľúča sa nedá prihlásiť. Skúste to znova alebo použite heslo.",
+        "enroll_title": "Pridať prístupový kľúč",
+        "enroll_description": "Vytvorte prístupový kľúč pre túto chránenú stránku. Vaše zariadenie vás požiada o potvrdenie totožnosti.",
+        "enroll_submit": "Vytvoriť prístupový kľúč",
+        "enroll_success": "Prístupový kľúč bol vytvorený. Vráťte sa do Access Control a dokončite jeho uloženie.",
+        "enroll_failed": "Prístupový kľúč sa nepodarilo vytvoriť. Vytvorte ďalší registračný odkaz v Access Control a skúste to znova.",
+        "javascript_required": "Na prihlásenie je potrebný JavaScript.",
+        "unavailable": "Prihlásenie sa nepodarilo pripraviť. Znova načítajte túto stránku a skúste to znova.",
+        "logout_title": "Odhlásiť sa"
     }
 }

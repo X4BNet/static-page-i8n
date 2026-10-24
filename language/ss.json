@@ -126,6 +126,16 @@
         "show": "Khombisa",
         "hide": "Fihla",
         "submit": "Ngena",
-        "failed": "Libito lemsebentisi noma liphasiwedi alilungile."
+        "failed": "Libito lemsebentisi noma liphasiwedi alilungile.",
+        "passkey": "Ngena nge-passkey",
+        "passkey_failed": "Akukhonakali kungena ngale-passkey. Yetama futsi noma usebentise liphasiwedi lakho.",
+        "enroll_title": "Ngeta i-passkey",
+        "enroll_description": "Yakha i-passkey yale sayithi levikelekile. Idivayisi yakho itakucela kutsi ucinisekise kutsi ungubani.",
+        "enroll_submit": "Yakha i-passkey",
+        "enroll_success": "I-passkey seyidalwe. Buyela ku-Access Control kute ucedzele kuyigcina.",
+        "enroll_failed": "Akukhonakali kwakha i-passkey. Yakha lesinye sixhumanisi sekubhalisa ku-Access Control bese uyetama futsi.",
+        "javascript_required": "JavaScript iyadzingeka kute ungene.",
+        "unavailable": "Akukhonakali kulungiselela kungena. Layisha lelikhasi kabusha bese uyetama futsi.",
+        "logout_title": "Phuma"
     }
 }

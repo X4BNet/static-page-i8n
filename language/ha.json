@@ -126,6 +126,16 @@
         "show": "Nuna",
         "hide": "Ɓoye",
         "submit": "Shiga",
-        "failed": "Sunan mai amfani ko kalmar sirri ba daidai ba ne."
+        "failed": "Sunan mai amfani ko kalmar sirri ba daidai ba ne.",
+        "passkey": "Shiga da passkey",
+        "passkey_failed": "An kasa shiga da wannan passkey. Sake gwadawa ko ka yi amfani da kalmar sirrinka.",
+        "enroll_title": "Ƙara passkey",
+        "enroll_description": "Ƙirƙiri passkey don wannan gidan yanar gizon da aka kare. Na’urarka za ta nemi ka tabbatar da cewa kai ne.",
+        "enroll_submit": "Ƙirƙiri passkey",
+        "enroll_success": "An ƙirƙiri passkey. Koma Access Control don kammala adana shi.",
+        "enroll_failed": "An kasa ƙirƙirar passkey. Ƙirƙiri wata hanyar haɗin rajista a Access Control sannan ka sake gwadawa.",
+        "javascript_required": "Ana buƙatar JavaScript don shiga.",
+        "unavailable": "An kasa shirya shiga. Sake loda wannan shafin sannan ka sake gwadawa.",
+        "logout_title": "Fita"
     }
 }

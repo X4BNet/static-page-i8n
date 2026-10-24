@@ -126,6 +126,16 @@
         "show": "Ehechauka",
         "hide": "Eñomi",
         "submit": "Eike",
-        "failed": "Puruhára réra térã ñe’ẽñemi oĩ vai."
+        "failed": "Puruhára réra térã ñe’ẽñemi oĩ vai.",
+        "passkey": "Eike passkey rupive",
+        "passkey_failed": "Ndaikatúi reike ko passkey rupive. Eñeha’ã jey térã eiporu ne ñe’ẽñemi.",
+        "enroll_title": "Emoĩ peteĩ passkey",
+        "enroll_description": "Ejapo peteĩ passkey ko ñanduti renda oñeñangarekóvape g̃uarã. Ne mba’e’oka ojeruréta ndéve remoañete hag̃ua mávapa nde.",
+        "enroll_submit": "Ejapo passkey",
+        "enroll_success": "Ojejapóma passkey. Ejevy Access Control-pe emohu’ã hag̃ua iñongatu.",
+        "enroll_failed": "Ndaikatúi ojejapo passkey. Ejapo ambue joajuha ñemboheraguapyrã Access Control-pe ha eñeha’ã jey.",
+        "javascript_required": "Tekotevẽ JavaScript reike hag̃ua.",
+        "unavailable": "Ndaikatúi oñembosako’i jeike. Emyanyhẽ jey ko kuatiarogue ha eñeha’ã jey.",
+        "logout_title": "Esẽ"
     }
 }

@@ -126,6 +126,16 @@
         "show": "Hōʻike",
         "hide": "Hūnā",
         "submit": "ʻEʻe",
-        "failed": "Hewa ka inoa mea hoʻohana a i ʻole ka ʻōlelo huna."
+        "failed": "Hewa ka inoa mea hoʻohana a i ʻole ka ʻōlelo huna.",
+        "passkey": "ʻEʻe me ka passkey",
+        "passkey_failed": "ʻAʻole hiki ke ʻeʻe me kēia passkey. E hoʻāʻo hou a i ʻole e hoʻohana i kāu ʻōlelo huna.",
+        "enroll_title": "Hoʻohui i kekahi passkey",
+        "enroll_description": "E hana i passkey no kēia kahua pūnaewele i pale ʻia. E noi ana kāu hāmeʻa iā ʻoe e hōʻoia ʻo wai ʻoe.",
+        "enroll_submit": "Hana i passkey",
+        "enroll_success": "Ua hana ʻia ka passkey. E hoʻi i Access Control e hoʻopau i ka mālama ʻana iā ia.",
+        "enroll_failed": "ʻAʻole hiki ke hana i passkey. E hana i loulou kākau inoa hou ma Access Control a e hoʻāʻo hou.",
+        "javascript_required": "Pono ʻo JavaScript no ka ʻeʻe ʻana.",
+        "unavailable": "ʻAʻole hiki ke hoʻomākaukau i ka ʻeʻe ʻana. E hoʻouka hou i kēia ʻaoʻao a e hoʻāʻo hou.",
+        "logout_title": "Haʻalele"
     }
 }

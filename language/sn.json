@@ -126,6 +126,16 @@
         "show": "Ratidza",
         "hide": "Viga",
         "submit": "Pinda",
-        "failed": "Zita remushandisi kana pasiwedhi hazvina kururama."
+        "failed": "Zita remushandisi kana pasiwedhi hazvina kururama.",
+        "passkey": "Pinda uchishandisa passkey",
+        "passkey_failed": "Hazviiti kupinda uchishandisa passkey iyi. Edza zvakare kana kuti shandisa pasiwedhi yako.",
+        "enroll_title": "Wedzera passkey",
+        "enroll_description": "Gadzira passkey yesaiti iyi yakachengetedzwa. Mudziyo wako uchakukumbira kuti usimbise kuti ndiwe ani.",
+        "enroll_submit": "Gadzira passkey",
+        "enroll_success": "Passkey yagadzirwa. Dzokera kuAccess Control kuti upedze kuichengeta.",
+        "enroll_failed": "Hazviiti kugadzira passkey. Gadzira imwe link yekunyoresa muAccess Control woedza zvakare.",
+        "javascript_required": "JavaScript inodiwa kuti upinde.",
+        "unavailable": "Hazviiti kugadzirira kupinda. Rodhazve peji rino woedza zvakare.",
+        "logout_title": "Buda"
     }
 }

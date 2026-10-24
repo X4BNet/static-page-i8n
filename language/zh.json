@@ -127,6 +127,16 @@
         "show": "显示",
         "hide": "隐藏",
         "submit": "登录",
-        "failed": "用户名或密码错误。"
+        "failed": "用户名或密码错误。",
+        "passkey": "使用通行密钥登录",
+        "passkey_failed": "无法使用此通行密钥登录。请重试或使用密码。",
+        "enroll_title": "添加通行密钥",
+        "enroll_description": "为这个受保护的网站创建通行密钥。您的设备会要求您确认身份。",
+        "enroll_submit": "创建通行密钥",
+        "enroll_success": "通行密钥已创建。请返回 Access Control 完成保存。",
+        "enroll_failed": "无法创建通行密钥。请在 Access Control 中创建另一个注册链接，然后重试。",
+        "javascript_required": "登录需要 JavaScript。",
+        "unavailable": "无法完成登录准备。请重新加载此页面，然后重试。",
+        "logout_title": "退出登录"
     }
 }

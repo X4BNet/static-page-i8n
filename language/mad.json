@@ -126,6 +126,16 @@
         "show": "Angghâllaghi",
         "hide": "Pangètek",
         "submit": "Alebbhu",
-        "failed": "Nyama pangangghuy otabâ oca' sanḍhi ta' lerres."
+        "failed": "Nyama pangangghuy otabâ oca' sanḍhi ta' lerres.",
+        "passkey": "Alebbhu ngangghuy passkey",
+        "passkey_failed": "Ta' bisa alebbhu ngangghuy passkey arèya. Coba polè otabâ angghuy oca' sanḍhi Dhika.",
+        "enroll_title": "Tambâ passkey",
+        "enroll_description": "Èyatorè abhâḍhi passkey ka'angghuy situs sè èjâgâ arèya. Pakakas Dhika bhâkal nyo'on Dhika mastèaghi sapa Dhika.",
+        "enroll_submit": "Abhâḍhi passkey",
+        "enroll_success": "Passkey la èbhâḍhi. Abâli ka Access Control ka'angghuy marèaghi nyèmpen passkey.",
+        "enroll_failed": "Ta' bisa abhâḍhi passkey. Èyatorè abhâḍhi link pendhaftaran sè laèn è Access Control, pas coba polè.",
+        "javascript_required": "JavaScript èparlokaghi ka'angghuy alebbhu.",
+        "unavailable": "Ta' bisa nyiyapaghi prosès alebbhu. Bhukâ polè kaca arèya, pas coba polè.",
+        "logout_title": "Kaluar"
     }
 }

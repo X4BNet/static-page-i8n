@@ -126,6 +126,16 @@
         "show": "Qhia",
         "hide": "Zais",
         "submit": "Nkag mus",
-        "failed": "Tus neeg siv lub npe lossis lo lus zais tsis raug."
+        "failed": "Tus neeg siv lub npe lossis lo lus zais tsis raug.",
+        "passkey": "Nkag mus nrog passkey",
+        "passkey_failed": "Tsis tuaj yeem nkag mus nrog tus passkey no. Sim dua lossis siv koj lo lus zais.",
+        "enroll_title": "Ntxiv ib tug passkey",
+        "enroll_description": "Tsim ib tug passkey rau lub vev xaib uas muaj kev tiv thaiv no. Koj lub cuab yeej yuav thov kom koj txheeb xyuas koj tus kheej.",
+        "enroll_submit": "Tsim passkey",
+        "enroll_success": "Passkey raug tsim lawm. Rov qab mus rau Access Control kom ua tiav qhov kev khaws nws cia.",
+        "enroll_failed": "Tsis tuaj yeem tsim passkey. Tsim lwm qhov txuas rau kev sau npe hauv Access Control thiab sim dua.",
+        "javascript_required": "Yuav tsum muaj JavaScript thiaj nkag tau mus.",
+        "unavailable": "Tsis tuaj yeem npaj kev nkag mus. Rov qhib nplooj ntawv no thiab sim dua.",
+        "logout_title": "Tawm mus"
     }
 }

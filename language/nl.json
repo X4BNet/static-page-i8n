@@ -126,6 +126,16 @@
         "show": "Tonen",
         "hide": "Verbergen",
         "submit": "Inloggen",
-        "failed": "Onjuiste gebruikersnaam of wachtwoord."
+        "failed": "Onjuiste gebruikersnaam of wachtwoord.",
+        "passkey": "Inloggen met een passkey",
+        "passkey_failed": "Kan niet inloggen met deze passkey. Probeer het opnieuw of gebruik je wachtwoord.",
+        "enroll_title": "Een passkey toevoegen",
+        "enroll_description": "Maak een passkey voor deze beveiligde website. Je apparaat vraagt je om je identiteit te bevestigen.",
+        "enroll_submit": "Passkey maken",
+        "enroll_success": "Passkey aangemaakt. Ga terug naar Access Control om het opslaan te voltooien.",
+        "enroll_failed": "Kan geen passkey aanmaken. Maak een andere registratielink in Access Control en probeer het opnieuw.",
+        "javascript_required": "JavaScript is vereist om in te loggen.",
+        "unavailable": "Kan het inloggen niet voorbereiden. Laad deze pagina opnieuw en probeer het nogmaals.",
+        "logout_title": "Uitloggen"
     }
 }

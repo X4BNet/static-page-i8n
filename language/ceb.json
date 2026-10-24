@@ -126,6 +126,16 @@
         "show": "Ipakita",
         "hide": "Itago",
         "submit": "Pag-sign in",
-        "failed": "Sayop ang ngalan sa tiggamit o password."
+        "failed": "Sayop ang ngalan sa tiggamit o password.",
+        "passkey": "Pag-sign in gamit ang passkey",
+        "passkey_failed": "Dili maka-sign in gamit kini nga passkey. Sulayi pag-usab o gamita ang imong password.",
+        "enroll_title": "Pagdugang og passkey",
+        "enroll_description": "Paghimo og passkey alang niining gipanalipdang site. Ang imong device mohangyo kanimo nga kumpirmahon ang imong identidad.",
+        "enroll_submit": "Paghimo og passkey",
+        "enroll_success": "Nahimo na ang passkey. Balik sa Access Control aron mahuman ang pag-save niini.",
+        "enroll_failed": "Dili makahimo og passkey. Paghimo og laing link sa pagrehistro sa Access Control ug sulayi pag-usab.",
+        "javascript_required": "Gikinahanglan ang JavaScript aron maka-sign in.",
+        "unavailable": "Dili maandam ang pag-sign in. I-load pag-usab kini nga panid ug sulayi pag-usab.",
+        "logout_title": "Pag-sign out"
     }
 }

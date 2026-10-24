@@ -126,6 +126,16 @@
         "show": "Weisen",
         "hide": "Verstoppen",
         "submit": "Aloggen",
-        "failed": "Falsche Benotzernumm oder falscht Passwuert."
+        "failed": "Falsche Benotzernumm oder falscht Passwuert.",
+        "passkey": "Mat engem Passkey aloggen",
+        "passkey_failed": "Alogge mat dësem Passkey ass net méiglech. Probéiert et nach eng Kéier oder benotzt Äert Passwuert.",
+        "enroll_title": "E Passkey derbäisetzen",
+        "enroll_description": "Erstellt e Passkey fir dëse geschützte Site. Ären Apparat wäert Iech bieden, Är Identitéit ze bestätegen.",
+        "enroll_submit": "Passkey erstellen",
+        "enroll_success": "De Passkey gouf erstallt. Gitt zréck op Access Control, fir d'Späicheren ofzeschléissen.",
+        "enroll_failed": "De Passkey konnt net erstallt ginn. Erstellt en anere Registréierungslink an Access Control a probéiert et nach eng Kéier.",
+        "javascript_required": "JavaScript ass néideg, fir sech anzeloggen.",
+        "unavailable": "D'Alogge konnt net virbereet ginn. Luet dës Säit nei a probéiert et nach eng Kéier.",
+        "logout_title": "Ausloggen"
     }
 }

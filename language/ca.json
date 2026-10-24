@@ -126,6 +126,16 @@
         "show": "Mostra",
         "hide": "Amaga",
         "submit": "Inicia la sessió",
-        "failed": "El nom d’usuari o la contrasenya són incorrectes."
+        "failed": "El nom d’usuari o la contrasenya són incorrectes.",
+        "passkey": "Inicia la sessió amb una clau d’accés",
+        "passkey_failed": "No s’ha pogut iniciar la sessió amb aquesta clau d’accés. Torna-ho a provar o utilitza la teva contrasenya.",
+        "enroll_title": "Afegeix una clau d’accés",
+        "enroll_description": "Crea una clau d’accés per a aquest lloc web protegit. El dispositiu et demanarà que confirmis la teva identitat.",
+        "enroll_submit": "Crea una clau d’accés",
+        "enroll_success": "S’ha creat la clau d’accés. Torna a Access Control per acabar de desar-la.",
+        "enroll_failed": "No s’ha pogut crear una clau d’accés. Crea un altre enllaç de registre a Access Control i torna-ho a provar.",
+        "javascript_required": "Cal JavaScript per iniciar la sessió.",
+        "unavailable": "No s’ha pogut preparar l’inici de sessió. Torna a carregar aquesta pàgina i torna-ho a provar.",
+        "logout_title": "Tanca la sessió"
     }
 }

@@ -126,6 +126,16 @@
         "show": "Hollu",
         "hide": "Suuɗ",
         "submit": "Seŋo",
-        "failed": "Innde kuutoro walla finnde moƴƴaani."
+        "failed": "Innde kuutoro walla finnde moƴƴaani.",
+        "passkey": "Seŋo huutoraade passkey",
+        "passkey_failed": "Horiima seŋaade huutoraade oo passkey. Eto kadi walla huutoro finnde maa.",
+        "enroll_title": "Ɓeydu passkey",
+        "enroll_description": "Sos passkey ngam ndee lowre geese reenaande. Kaɓirgol maa naamnoto maa yo a teeŋtin hol ko ngon-ɗaa.",
+        "enroll_submit": "Sos passkey",
+        "enroll_success": "Passkey sosama. Rutto to Access Control ngam timminde danndugol mum.",
+        "enroll_failed": "Horiima sosde passkey. Sos jokkol binnditagol goɗngol e Access Control, kisa eto kadi.",
+        "javascript_required": "JavaScript ena waɗɗii ngam seŋaade.",
+        "unavailable": "Horiima heblaade ceŋagol. Loowtu hello ngoo kisa eto kadi.",
+        "logout_title": "Seŋto"
     }
 }

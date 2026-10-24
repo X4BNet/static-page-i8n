@@ -126,6 +126,16 @@
         "show": "Bontsha",
         "hide": "Pata",
         "submit": "Kena",
-        "failed": "Lebitso la mosebedisi kapa lentswe la lekunutu le fosahetse."
+        "failed": "Lebitso la mosebedisi kapa lentswe la lekunutu le fosahetse.",
+        "passkey": "Kena ka passkey",
+        "passkey_failed": "Ha ho kgonehe ho kena ka passkey ena. Leka hape kapa o sebedise lentswe la hao la lekunutu.",
+        "enroll_title": "Kenya passkey",
+        "enroll_description": "Etsa passkey bakeng sa saete ena e sireleditsweng. Sesebediswa sa hao se tla o kopa ho netefatsa hore na o mang.",
+        "enroll_submit": "Etsa passkey",
+        "enroll_success": "Passkey e entswe. Kgutlela ho Access Control ho qeta ho e boloka.",
+        "enroll_failed": "Ha ho kgonehe ho etsa passkey. Etsa lehokela le leng la ngodiso ho Access Control mme o leke hape.",
+        "javascript_required": "JavaScript e a hlokahala hore o kene.",
+        "unavailable": "Ha ho kgonehe ho lokisetsa ho kena. Kenya leqephe lena botjha mme o leke hape.",
+        "logout_title": "Tswa"
     }
 }

@@ -126,6 +126,16 @@
         "show": "Vis",
         "hide": "Skjul",
         "submit": "Log ind",
-        "failed": "Forkert brugernavn eller password."
+        "failed": "Forkert brugernavn eller password.",
+        "passkey": "Log ind med en adgangsnøgle",
+        "passkey_failed": "Kunne ikke logge ind med denne adgangsnøgle. Prøv igen, eller brug dit password.",
+        "enroll_title": "Tilføj en adgangsnøgle",
+        "enroll_description": "Opret en adgangsnøgle til dette beskyttede websted. Din enhed vil bede dig om at bekræfte din identitet.",
+        "enroll_submit": "Opret adgangsnøgle",
+        "enroll_success": "Adgangsnøglen er oprettet. Gå tilbage til Access Control for at afslutte lagringen.",
+        "enroll_failed": "Kunne ikke oprette en adgangsnøgle. Opret et nyt registreringslink i Access Control, og prøv igen.",
+        "javascript_required": "JavaScript er påkrævet for at logge ind.",
+        "unavailable": "Kunne ikke forberede login. Genindlæs denne side, og prøv igen.",
+        "logout_title": "Log ud"
     }
 }

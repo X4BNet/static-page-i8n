@@ -126,6 +126,16 @@
         "show": "Shfaq",
         "hide": "Fshih",
         "submit": "Hyni",
-        "failed": "Emri i përdoruesit ose fjalëkalimi është i pasaktë."
+        "failed": "Emri i përdoruesit ose fjalëkalimi është i pasaktë.",
+        "passkey": "Hyni me një çelës kalimi",
+        "passkey_failed": "Nuk mund të hyni me këtë çelës kalimi. Provoni përsëri ose përdorni fjalëkalimin tuaj.",
+        "enroll_title": "Shtoni një çelës kalimi",
+        "enroll_description": "Krijoni një çelës kalimi për këtë sajt të mbrojtur. Pajisja juaj do t'ju kërkojë të konfirmoni identitetin tuaj.",
+        "enroll_submit": "Krijoni çelës kalimi",
+        "enroll_success": "Çelësi i kalimit u krijua. Kthehuni tek Access Control për të përfunduar ruajtjen e tij.",
+        "enroll_failed": "Çelësi i kalimit nuk mund të krijohet. Krijoni një lidhje tjetër regjistrimi te Access Control dhe provoni përsëri.",
+        "javascript_required": "JavaScript është i nevojshëm për të hyrë.",
+        "unavailable": "Hyrja nuk mund të përgatitet. Ringarkoni këtë faqe dhe provoni përsëri.",
+        "logout_title": "Dilni"
     }
 }

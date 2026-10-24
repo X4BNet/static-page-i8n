@@ -126,6 +126,16 @@
         "show": "Fakaʻasi",
         "hide": "Fufū",
         "submit": "Hū ki loto",
-        "failed": "ʻOku hala e hingoa ngāueʻaki pe lea fakapulipuli."
+        "failed": "ʻOku hala e hingoa ngāueʻaki pe lea fakapulipuli.",
+        "passkey": "Ngāueʻaki ha passkey ke hū ki loto",
+        "passkey_failed": "ʻOku ʻikai lava ke hū ki loto ʻaki e passkey ko ʻení. Toe feinga pe ngāueʻaki hoʻo lea fakapulipuli.",
+        "enroll_title": "Tānaki ha passkey",
+        "enroll_description": "Faʻu ha passkey ki he uepisaiti ko ʻeni ʻoku maluʻí. ʻE kole atu ʻe hoʻo meʻangāue ke ke fakapapauʻi ko koe ia.",
+        "enroll_submit": "Faʻu ha passkey",
+        "enroll_success": "Kuo faʻu e passkey. Foki ki he Access Control ke fakaʻosi hono tauhí.",
+        "enroll_failed": "ʻOku ʻikai lava ke faʻu ha passkey. Faʻu ha fehokotakiʻanga lesisita ʻe taha ʻi he Access Control pea toe feinga.",
+        "javascript_required": "ʻOku fiemaʻu ʻa e JavaScript ke hū ki loto.",
+        "unavailable": "ʻOku ʻikai lava ke teuteuʻi ʻa e hū ki lotó. Toe uta ʻa e peesi ko ʻení pea toe feinga.",
+        "logout_title": "Hū ki tuʻa"
     }
 }

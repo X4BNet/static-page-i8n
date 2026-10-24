@@ -127,6 +127,16 @@
         "show": "표시",
         "hide": "숨기기",
         "submit": "로그인",
-        "failed": "사용자 이름 또는 비밀번호가 올바르지 않습니다."
+        "failed": "사용자 이름 또는 비밀번호가 올바르지 않습니다.",
+        "passkey": "패스키로 로그인",
+        "passkey_failed": "이 패스키로 로그인할 수 없습니다. 다시 시도하거나 비밀번호를 사용하세요.",
+        "enroll_title": "패스키 추가",
+        "enroll_description": "이 보호된 사이트의 패스키를 만드세요. 기기에서 본인 확인을 요청합니다.",
+        "enroll_submit": "패스키 만들기",
+        "enroll_success": "패스키가 생성되었습니다. Access Control로 돌아가 저장을 완료하세요.",
+        "enroll_failed": "패스키를 만들 수 없습니다. Access Control에서 다른 등록 링크를 만들고 다시 시도하세요.",
+        "javascript_required": "로그인하려면 JavaScript가 필요합니다.",
+        "unavailable": "로그인을 준비할 수 없습니다. 이 페이지를 새로고침한 후 다시 시도하세요.",
+        "logout_title": "로그아웃"
     }
 }

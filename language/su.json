@@ -126,6 +126,16 @@
         "show": "Témbongkeun",
         "hide": "Sumputkeun",
         "submit": "Asup",
-        "failed": "Ngaran pamaké atawa kecap sandi salah."
+        "failed": "Ngaran pamaké atawa kecap sandi salah.",
+        "passkey": "Asup maké passkey",
+        "passkey_failed": "Teu bisa asup maké passkey ieu. Cobian deui atawa paké kecap sandi anjeun.",
+        "enroll_title": "Tambahkeun passkey",
+        "enroll_description": "Jieun passkey pikeun situs anu ditangtayungan ieu. Alat anjeun bakal ménta anjeun mastikeun idéntitas anjeun.",
+        "enroll_submit": "Jieun passkey",
+        "enroll_success": "Passkey geus dijieun. Balik deui ka Access Control pikeun ngaréngsékeun nyimpenna.",
+        "enroll_failed": "Teu bisa nyieun passkey. Jieun tumbu pendaptaran séjén dina Access Control tuluy cobian deui.",
+        "javascript_required": "JavaScript diperlukeun pikeun asup.",
+        "unavailable": "Teu bisa nyiapkeun prosés asup. Muat deui ieu kaca tuluy cobian deui.",
+        "logout_title": "Kaluar"
     }
 }

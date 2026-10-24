@@ -126,6 +126,16 @@
         "show": "Shaw",
         "hide": "Hide",
         "submit": "Sign in",
-        "failed": "Wrang uisername or password."
+        "failed": "Wrang uisername or password.",
+        "passkey": "Sign in wi a passkey",
+        "passkey_failed": "Canna sign in wi this passkey. Try again or uise yer password.",
+        "enroll_title": "Add a passkey",
+        "enroll_description": "Mak a passkey for this protectit site. Yer device will ask ye tae confirm wha ye are.",
+        "enroll_submit": "Mak a passkey",
+        "enroll_success": "Passkey made. Gang back tae Access Control tae finish savin it.",
+        "enroll_failed": "Canna mak a passkey. Mak anither enrolment link in Access Control an try again.",
+        "javascript_required": "JavaScript is needit tae sign in.",
+        "unavailable": "Canna get sign-in ready. Reload this page an try again.",
+        "logout_title": "Sign oot"
     }
 }

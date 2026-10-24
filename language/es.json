@@ -126,6 +126,16 @@
         "show": "Mostrar",
         "hide": "Ocultar",
         "submit": "Iniciar sesión",
-        "failed": "Nombre de usuario o contraseña incorrectos."
+        "failed": "Nombre de usuario o contraseña incorrectos.",
+        "passkey": "Iniciar sesión con una clave de acceso",
+        "passkey_failed": "No se ha podido iniciar sesión con esta clave de acceso. Inténtalo de nuevo o usa tu contraseña.",
+        "enroll_title": "Añadir una clave de acceso",
+        "enroll_description": "Crea una clave de acceso para este sitio protegido. Tu dispositivo te pedirá que confirmes tu identidad.",
+        "enroll_submit": "Crear clave de acceso",
+        "enroll_success": "Se ha creado la clave de acceso. Vuelve a Access Control para terminar de guardarla.",
+        "enroll_failed": "No se ha podido crear una clave de acceso. Crea otro enlace de registro en Access Control e inténtalo de nuevo.",
+        "javascript_required": "Se requiere JavaScript para iniciar sesión.",
+        "unavailable": "No se ha podido preparar el inicio de sesión. Vuelve a cargar esta página e inténtalo de nuevo.",
+        "logout_title": "Cerrar sesión"
     }
 }
