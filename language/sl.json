@@ -118,5 +118,14 @@
             "description": "To spletišče trenutno ni na voljo. Predvidoma bo kmalu spet dostopno.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Za nadaljevanje se prijavite",
+        "username": "Uporabniško ime",
+        "password": "Geslo",
+        "show": "Pokaži",
+        "hide": "Skrij",
+        "submit": "Prijavi se",
+        "failed": "Napačno uporabniško ime ali geslo."
     }
 }

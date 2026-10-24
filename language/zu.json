@@ -118,5 +118,14 @@
             "description": "Le webhusayithi ayitholakali okwamanje. Kulindeleke ukuthi iphinde itholakale maduze.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Ngena ukuze uqhubeke",
+        "username": "Igama lomsebenzisi",
+        "password": "Iphasiwedi",
+        "show": "Bonisa",
+        "hide": "Fihla",
+        "submit": "Ngena",
+        "failed": "Igama lomsebenzisi noma iphasiwedi akulungile."
     }
 }

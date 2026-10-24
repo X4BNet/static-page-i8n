@@ -118,5 +118,14 @@
             "description": "Henda heimasíðan er ikki tøk í løtuni. Hon verður væntandi tøk aftur skjótt.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Rita inn fyri at halda fram",
+        "username": "Brúkaranavn",
+        "password": "Loyniorð",
+        "show": "Vís",
+        "hide": "Fjal",
+        "submit": "Rita inn",
+        "failed": "Skeivt brúkaranavn ella loyniorð."
     }
 }

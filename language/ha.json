@@ -118,5 +118,14 @@
             "description": "Ba a iya samun wannan gidan yanar gizon a yanzu. Ana sa ran za a sake samun sa nan ba da daɗewa ba.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Shiga don ci gaba",
+        "username": "Sunan mai amfani",
+        "password": "Kalmar sirri",
+        "show": "Nuna",
+        "hide": "Ɓoye",
+        "submit": "Shiga",
+        "failed": "Sunan mai amfani ko kalmar sirri ba daidai ba ne."
     }
 }

@@ -118,5 +118,14 @@
             "description": "Nid yw'r wefan hon ar gael ar hyn o bryd. Disgwylir iddi fod ar gael eto yn fuan.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Mewngofnodwch i barhau",
+        "username": "Enw defnyddiwr",
+        "password": "Cyfrinair",
+        "show": "Dangos",
+        "hide": "Cuddio",
+        "submit": "Mewngofnodi",
+        "failed": "Enw defnyddiwr neu gyfrinair anghywir."
     }
 }

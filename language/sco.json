@@ -118,5 +118,14 @@
             "description": "This wabsite isnae available the noo. It should be available again afore lang.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Sign in tae gang on",
+        "username": "Uisername",
+        "password": "Password",
+        "show": "Shaw",
+        "hide": "Hide",
+        "submit": "Sign in",
+        "failed": "Wrang uisername or password."
     }
 }

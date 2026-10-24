@@ -118,5 +118,14 @@
             "description": "Kjo faqe interneti nuk është e disponueshme për momentin. Pritet të jetë sërish e disponueshme së shpejti.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Hyni për të vazhduar",
+        "username": "Emri i përdoruesit",
+        "password": "Fjalëkalimi",
+        "show": "Shfaq",
+        "hide": "Fshih",
+        "submit": "Hyni",
+        "failed": "Emri i përdoruesit ose fjalëkalimi është i pasaktë."
     }
 }

@@ -118,5 +118,14 @@
             "description": "Weebụsaịtị a adịghị maka ojiji ugbu a. A na-atụ anya na ọ ga-adịkwa maka ojiji n'oge na-adịghị anya.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Banye ka ị gaa n'ihu",
+        "username": "Aha njirimara",
+        "password": "Okwuntughe",
+        "show": "Gosi",
+        "hide": "Zoo",
+        "submit": "Banye",
+        "failed": "Aha njirimara ma ọ bụ okwuntughe ezighi ezi."
     }
 }

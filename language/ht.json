@@ -118,5 +118,14 @@
             "description": "Sit sa a pa disponib kounye a. Li ta dwe disponib ankò byento.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Konekte pou kontinye",
+        "username": "Non itilizatè",
+        "password": "Modpas",
+        "show": "Montre",
+        "hide": "Kache",
+        "submit": "Konekte",
+        "failed": "Non itilizatè a oswa modpas la pa kòrèk."
     }
 }

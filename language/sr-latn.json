@@ -118,5 +118,14 @@
             "description": "Ovaj sajt trenutno nije dostupan. Očekuje se da će uskoro ponovo biti dostupan.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Prijavite se da biste nastavili",
+        "username": "Korisničko ime",
+        "password": "Lozinka",
+        "show": "Prikaži",
+        "hide": "Sakrij",
+        "submit": "Prijavi se",
+        "failed": "Pogrešno korisničko ime ili lozinka."
     }
 }

@@ -25,7 +25,7 @@
             "writtenForm": "Twi (Asante)",
             "provenance": "subagent-translation",
             "reviewPriority": "additional-fluency-review",
-            "reviewNotes": "Narrowed to Asante technical loanword spelling and complex access, timeout and protocol clauses; ordinary website and polite-instruction vocabulary has published support.",
+            "reviewNotes": "Narrowed to Asante technical loanword spelling and complex access, timeout and protocol clauses; ordinary website and polite-instruction vocabulary has published support. Authentication follow-up: review auth.password/auth.failed for the technical compound Ahintasɛmfua; direct primary attestation of this exact password label was not found.",
             "usageReview": {
                 "reviewedOn": "2026-10-02",
                 "decision": "retain",
@@ -227,7 +227,11 @@
                 "adjudication": "coverage/linguistic-review/pacific_americas-adjudication.json",
                 "scope": "focused",
                 "disposition": "focused-review-complete"
-            }
+            },
+            "unchangedEnglishKeys": [
+                "auth.password"
+            ],
+            "unchangedEnglishRationale": "Password is an established borrowed interface term in Cebuano."
         },
         {
             "tag": "ckb",
@@ -349,7 +353,11 @@
             "script": "Latin",
             "writtenForm": "Standard Danish",
             "provenance": "subagent-translation",
-            "languageId": "da"
+            "languageId": "da",
+            "unchangedEnglishKeys": [
+                "auth.password"
+            ],
+            "unchangedEnglishRationale": "Password is an established borrowed interface term in Danish."
         },
         {
             "tag": "de",
@@ -492,7 +500,12 @@
             "script": "Latin",
             "writtenForm": "Standard Filipino",
             "provenance": "subagent-translation",
-            "languageId": "fil"
+            "languageId": "fil",
+            "unchangedEnglishKeys": [
+                "auth.username",
+                "auth.password"
+            ],
+            "unchangedEnglishRationale": "Username and Password are standard borrowed interface terms in Filipino."
         },
         {
             "tag": "fj",
@@ -500,7 +513,7 @@
             "script": "Latin",
             "writtenForm": "Standard written iTaukei Fijian",
             "languageId": "fj",
-            "reviewNotes": "Uses explanatory phrases for origin server and time limit. Review technical loanword spelling and naturalness of longer clauses.",
+            "reviewNotes": "Uses explanatory phrases for origin server and time limit. Review technical loanword spelling and naturalness of longer clauses. Authentication follow-up: review auth.username/auth.failed for the descriptive username label Yaca ni dauvakayagataka; password wording has primary-source support.",
             "provenance": "subagent-translation",
             "authorshipReport": "coverage/research/asia-pacific-translations.json",
             "reviewedOn": "2026-10-02",
@@ -696,7 +709,7 @@
         },
         {
             "tag": "haw",
-            "reviewNotes": "Technical circumlocutions and grammatical naturalness need further review. Native Hawaiian content was consulted for vocabulary; no claim of native fluency.",
+            "reviewNotes": "Technical circumlocutions and grammatical naturalness need further review. Native Hawaiian content was consulted for vocabulary; no claim of native fluency. Authentication accuracy review: password terminology corrected to dictionary-standard ʻŌlelo huna (Māmaka Kaiao); the Hide action correctly remains Hūnā.",
             "name": "Hawaiian",
             "script": "Latin",
             "writtenForm": "Modern written Hawaiian; Latin script with ʻokina and kahakō",
@@ -752,7 +765,11 @@
                 "adjudication": "coverage/linguistic-review/pacific_americas-adjudication.json",
                 "scope": "focused",
                 "disposition": "focused-review-complete"
-            }
+            },
+            "unchangedEnglishKeys": [
+                "auth.password"
+            ],
+            "unchangedEnglishRationale": "Password is an established borrowed interface term in Hiligaynon."
         },
         {
             "tag": "hmn",
@@ -781,7 +798,7 @@
             "writtenForm": "Chhattisgarhi",
             "provenance": "subagent-translation",
             "reviewPriority": "high",
-            "reviewNotes": "Review naturalness of the longer server-overload, request-processing and redirect sentences. Core negation and polite imperative patterns are now attested; remaining uncertainty is technical idiom, not whether this is Chhattisgarhi.",
+            "reviewNotes": "Review naturalness of the longer server-overload, request-processing and redirect sentences. Core negation and polite imperative patterns are now attested; remaining uncertainty is technical idiom, not whether this is Chhattisgarhi. Authentication accuracy review: the देखावव Show imperative is corroborated in a Chhattisgarh state textbook. Retain लुकावव for Hide; its technical-interface naturalness still merits fluent review.",
             "usageReview": {
                 "reviewedOn": "2026-10-02",
                 "decision": "retain",
@@ -915,7 +932,11 @@
             "script": "Latin",
             "writtenForm": "Standard Italian",
             "provenance": "subagent-translation",
-            "languageId": "it"
+            "languageId": "it",
+            "unchangedEnglishKeys": [
+                "auth.password"
+            ],
+            "unchangedEnglishRationale": "Password is the standard Italian interface term."
         },
         {
             "tag": "ja",
@@ -1139,7 +1160,7 @@
             "writtenForm": "Standard Lingala",
             "provenance": "subagent-translation",
             "reviewPriority": "high",
-            "reviewNotes": "Review network-specific choices for origin server, configuration, domain, request and connection count, plus long error-sentence idiom. Browser/JavaScript loan usage and permission constructions are now attested.",
+            "reviewNotes": "Review network-specific choices for origin server, configuration, domain, request and connection count, plus long error-sentence idiom. Browser/JavaScript loan usage and permission constructions are now attested. Authentication accuracy review: auth.password/auth.failed retain the comprehensible Liloba ya sekele. Preferred computing idiom remains unresolved: authored Lingala account/privacy prose uses mot de passe, but does not establish the descriptive wording as incorrect.",
             "usageReview": {
                 "reviewedOn": "2026-10-02",
                 "decision": "retain",
@@ -1348,7 +1369,9 @@
             "writtenForm": "Standard Maltese",
             "languageId": "mt",
             "reviewNotes": "Maltese morphology and conventional browser/server loanwords reviewed.",
-            "unchangedEnglishKeys": [],
+            "unchangedEnglishKeys": [
+                "auth.password"
+            ],
             "provenance": "subagent-translation",
             "authorshipReport": "coverage/research/europe-translations.json",
             "reviewedOn": "2026-10-02",
@@ -1356,7 +1379,8 @@
                 "report": "coverage/research/review-europe-b.json",
                 "reviewer": "benchmark_vi",
                 "reviewedOn": "2026-10-02"
-            }
+            },
+            "unchangedEnglishRationale": "Password is an established borrowed interface term in Maltese."
         },
         {
             "tag": "my",
@@ -1381,7 +1405,7 @@
         },
         {
             "tag": "nd",
-            "reviewNotes": "Direct Zimbabwean Ndebele draft. Similarities to Zulu follow language relationships, not copied text. Not suitable as a replacement for Southern Ndebele (nr).",
+            "reviewNotes": "Direct Zimbabwean Ndebele draft. Similarities to Zulu follow language relationships, not copied text. Not suitable as a replacement for Southern Ndebele (nr). Authentication accuracy review: Iphasiwedi has direct Zimbabwe-focused login-interface support. Remaining auth.failed concern is agreement in the mixed-class Ibizo ... kumbe iphasiwedi construction; no reliable sentence-level source settles it.",
             "name": "North Ndebele",
             "script": "Latin",
             "writtenForm": "Zimbabwean isiNdebele / Northern Ndebele; Latin script",
@@ -1644,7 +1668,7 @@
             "writtenForm": "Written Rajasthani (Marwari)",
             "provenance": "subagent-translation",
             "reviewPriority": "high",
-            "reviewNotes": "Review agreement and idiom in borrowed technical-noun phrases, especially website suspension, redirect passives and excessive-request clauses. Core Marwari negation, possessives and case markers are now attested.",
+            "reviewNotes": "Review agreement and idiom in borrowed technical-noun phrases, especially website suspension, redirect passives and excessive-request clauses. Core Marwari negation, possessives and case markers are now attested. Authentication follow-up: review the Marwari register of the username and sign-in loanwords.",
             "usageReview": {
                 "reviewedOn": "2026-10-02",
                 "decision": "retain",
@@ -1742,9 +1766,12 @@
             "languageId": "sco",
             "reviewNotes": "Conservative contemporary Scots with shared English vocabulary where correct; not Scottish English alone. No single universally fixed Scots technical orthography; technical loans retained.",
             "unchangedEnglishKeys": [
-                "error.default.possible_causes"
+                "error.default.possible_causes",
+                "auth.password",
+                "auth.hide",
+                "auth.submit"
             ],
-            "unchangedEnglishRationale": "The phrase “Possible causes include:” consists of words and syntax shared with Scots; forced respelling would not improve fidelity.",
+            "unchangedEnglishRationale": "The phrase “Possible causes include:” consists of words and syntax shared with Scots; forced respelling would not improve fidelity. Password, Hide and Sign in also use words and syntax shared with Scots.",
             "provenance": "subagent-translation",
             "authorshipReport": "coverage/research/europe-translations.json",
             "reviewedOn": "2026-10-02",
@@ -1909,7 +1936,7 @@
         },
         {
             "tag": "ss",
-            "reviewNotes": "Direct draft; Eswatini/South African technical idiom and agreement merit review. Removed a duplicated owner construction in both suspension descriptions.",
+            "reviewNotes": "Direct draft; Eswatini/South African technical idiom and agreement merit review. Removed a duplicated owner construction in both suspension descriptions. Authentication accuracy review: retained attested Liphasiwedi and the error predicate alilungile; both alternative credential nouns have li-class agreement. No specific authentication correction is supported; broader technical-idiom review remains.",
             "name": "Swati",
             "script": "Latin",
             "writtenForm": "Standard siSwati; Latin script",
@@ -2108,11 +2135,16 @@
             "writtenForm": "Standard Filipino",
             "provenance": "reviewed-target-alias",
             "languageId": "fil",
-            "aliasOf": "fil"
+            "aliasOf": "fil",
+            "unchangedEnglishKeys": [
+                "auth.username",
+                "auth.password"
+            ],
+            "unchangedEnglishRationale": "This alias uses the same standard borrowed Username and Password labels as Filipino."
         },
         {
             "tag": "tn",
-            "reviewNotes": "Direct draft; changed the unavailable title from a visibility expression to inability to use. Technical register and lengthy constructions merit review.",
+            "reviewNotes": "Direct draft; changed the unavailable title from a visibility expression to inability to use. Technical register and lengthy constructions merit review. Authentication accuracy review: Lefoko la sephiri is explicitly used for an account password in South African government Setswana instructions. Retained this label and its coherent class-5 agreement in auth.failed; the specific password-label concern is resolved.",
             "name": "Tswana",
             "script": "Latin",
             "writtenForm": "Standard Setswana; Latin script",
@@ -2140,7 +2172,7 @@
             "script": "Latin",
             "writtenForm": "Standard written Tongan with fakauʻa and macrons",
             "languageId": "to",
-            "reviewNotes": "Uses explanatory browser/origin-server phrases plus domain/protocol loans. Review technical register and noun/possessive phrasing.",
+            "reviewNotes": "Uses explanatory browser/origin-server phrases plus domain/protocol loans. Review technical register and noun/possessive phrasing. Authentication accuracy review: username and its occurrence in the error now use Hingoa ngāueʻaki, explicitly attested as username in ANZ Tonga publications. Lea fakapulipuli is independently attested as password in Tongan court prose; these label concerns are resolved.",
             "provenance": "subagent-translation",
             "authorshipReport": "coverage/research/asia-pacific-translations.json",
             "reviewedOn": "2026-10-02",
@@ -2314,7 +2346,7 @@
             "script": "Latin",
             "writtenForm": "Standard written Waray",
             "languageId": "war",
-            "reviewNotes": "Self-review repaired an incorrect apology verb and a domain/IP preposition. Review longer technical clauses and choice of borrowed terminology.",
+            "reviewNotes": "Self-review repaired an incorrect apology verb and a domain/IP preposition. Review longer technical clauses and choice of borrowed terminology. Authentication accuracy review: Tigaman-pagsulod is attested in published Waray localization, but independent contemporary technical usage remains insufficiently established. Retain auth.password/auth.failed pending fluent register review.",
             "provenance": "subagent-translation",
             "authorshipReport": "coverage/research/asia-pacific-translations.json",
             "reviewedOn": "2026-10-02",
@@ -2381,7 +2413,7 @@
             "writtenForm": "Standard Yoruba",
             "provenance": "subagent-translation",
             "reviewPriority": "additional-fluency-review",
-            "reviewNotes": "Narrowed to modern tone marks and browser/server/protocol idiom; permission, timeout and respectful-address constructions are corroborated, and the readiness expression was corrected.",
+            "reviewNotes": "Narrowed to modern tone marks and browser/server/protocol idiom; permission, timeout and respectful-address constructions are corroborated, and the readiness expression was corrected. Authentication accuracy review: the password phrase is corroborated by the published UI compound Ọ̀rọ̀ìpamọ́. Independent authored instructions use other password terms; retain auth.password/auth.failed while leaving preferred technical idiom open for fluent review.",
             "usageReview": {
                 "reviewedOn": "2026-10-02",
                 "decision": "retain",

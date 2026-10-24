@@ -118,5 +118,14 @@
             "description": "Bu veb-sayt hazırda əlçatan deyil. Tezliklə yenidən əlçatan olması gözlənilir.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Davam etmək üçün daxil olun",
+        "username": "İstifadəçi adı",
+        "password": "Şifrə",
+        "show": "Göstər",
+        "hide": "Gizlət",
+        "submit": "Daxil ol",
+        "failed": "İstifadəçi adı və ya şifrə yanlışdır."
     }
 }

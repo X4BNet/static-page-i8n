@@ -118,5 +118,14 @@
             "description": "Dizze webside is op dit stuit net beskikber. Nei ferwachting is de side gau wer beskikber.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Meld jo oan om troch te gean",
+        "username": "Brûkersnamme",
+        "password": "Wachtwurd",
+        "show": "Toane",
+        "hide": "Ferbergje",
+        "submit": "Oanmelde",
+        "failed": "Ferkearde brûkersnamme of wachtwurd."
     }
 }

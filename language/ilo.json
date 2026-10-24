@@ -118,5 +118,14 @@
             "description": "Saan a magamit daytoy a website ita. Manamnama a magamit manen iti apagbiit.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Sumrek tapno makaituloy",
+        "username": "Nagan ti agar-aramat",
+        "password": "Kontrasenias",
+        "show": "Ipakita",
+        "hide": "Ilemmeng",
+        "submit": "Sumrek",
+        "failed": "Saan a husto ti nagan ti agar-aramat wenno kontrasenias."
     }
 }

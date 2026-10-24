@@ -118,5 +118,14 @@
             "description": "Šī vietne pašlaik nav pieejama. Paredzams, ka tā drīzumā atkal būs pieejama.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Lai turpinātu, pierakstieties",
+        "username": "Lietotājvārds",
+        "password": "Parole",
+        "show": "Rādīt",
+        "hide": "Slēpt",
+        "submit": "Pierakstīties",
+        "failed": "Nepareizs lietotājvārds vai parole."
     }
 }

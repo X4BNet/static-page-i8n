@@ -118,5 +118,14 @@
             "description": "Ndee lowre geese heɓotaako jooni. Ena ɗaminaa nde heɓotoo kadi ko ɓooyaani.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Seŋo ngam jokkude",
+        "username": "Innde kuutoro",
+        "password": "Finnde",
+        "show": "Hollu",
+        "hide": "Suuɗ",
+        "submit": "Seŋo",
+        "failed": "Innde kuutoro walla finnde moƴƴaani."
     }
 }

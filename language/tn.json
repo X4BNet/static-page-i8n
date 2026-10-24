@@ -118,5 +118,14 @@
             "description": "Webosaete eno ga e kgone go dirisiwa gone jaanong. Go lebeletswe gore e dirisiwe gape go ise go ye kae.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Tsena gore o tswelele",
+        "username": "Leina la modirisi",
+        "password": "Lefoko la sephiri",
+        "show": "Bontsha",
+        "hide": "Fitlha",
+        "submit": "Tsena",
+        "failed": "Leina la modirisi kgotsa lefoko la sephiri ga le a siama."
     }
 }

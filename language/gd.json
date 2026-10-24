@@ -118,5 +118,14 @@
             "description": "Chan eil an làrach-lìn seo ri fhaighinn an-dràsta. Tha dùil gum bi i ri fhaighinn a-rithist a dh'aithghearr.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Clàraich a-steach gus leantainn air adhart",
+        "username": "Ainm-cleachdaiche",
+        "password": "Facal-faire",
+        "show": "Seall",
+        "hide": "Falaich",
+        "submit": "Clàraich a-steach",
+        "failed": "Ainm-cleachdaiche no facal-faire ceàrr."
     }
 }

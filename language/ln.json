@@ -118,5 +118,14 @@
             "description": "Site oyo ekoki kosalelama sikoyo te. Tozali kozela ete ekoka kosalelama lisusu mosika te.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Kota mpo na kokoba",
+        "username": "Nkombo ya mosaleli",
+        "password": "Liloba ya sekele",
+        "show": "Lakisa",
+        "hide": "Bomba",
+        "submit": "Kota",
+        "failed": "Nkombo ya mosaleli to liloba ya sekele ezali malamu te."
     }
 }

@@ -118,5 +118,14 @@
             "description": "Kay llika p'anqata kunanqa manam llamk'achiyta atikunchu. Ratullapi musuqmanta llamk'achiyta atikunqachá.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Hinalla purinaykipaq yaykuy",
+        "username": "Ruraqpa sutin",
+        "password": "Yaykuna rima",
+        "show": "Rikuchiy",
+        "hide": "Pakay",
+        "submit": "Yaykuy",
+        "failed": "Ruraqpa sutin utaq yaykuna rimaqa manam allinchu."
     }
 }

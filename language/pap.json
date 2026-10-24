@@ -118,5 +118,14 @@
             "description": "E wèpsait aki no ta disponibel na e momentu aki. Ta spera ku e lo ta disponibel atrobe dentro di poko.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Inisiá seshon pa sigui",
+        "username": "Nòmber di usadó",
+        "password": "Kontraseña",
+        "show": "Mustra",
+        "hide": "Skonde",
+        "submit": "Inisiá seshon",
+        "failed": "Nòmber di usadó òf kontraseña inkorekto."
     }
 }

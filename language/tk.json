@@ -118,5 +118,14 @@
             "description": "Bu web sahypasy häzir elýeterli däl. Onuň tiz wagtdan ýene elýeterli bolmagyna garaşylýar.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Dowam etmek üçin hasabyňyza giriň",
+        "username": "Ulanyjy ady",
+        "password": "Parol",
+        "show": "Görkez",
+        "hide": "Gizle",
+        "submit": "Gir",
+        "failed": "Ulanyjy ady ýa-da parol nädogry."
     }
 }

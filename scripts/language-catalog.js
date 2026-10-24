@@ -8,7 +8,7 @@ let registry;
 function registeredSubtags() {
     if (registry) return registry;
     registry = { language: new Set(), script: new Set(), region: new Set() };
-    const text = fs.readFileSync(path.join(ROOT, 'coverage/sources/language-subtag-registry.txt'), 'utf8');
+    const text = fs.readFileSync(process.env.X4B_LANGUAGE_REGISTRY_FILE || path.join(ROOT, 'coverage/sources/language-subtag-registry.txt'), 'utf8');
     for (const record of text.split('%%')) {
         const type = record.match(/^Type: (\S+)/mu)?.[1];
         const subtag = record.match(/^Subtag: (\S+)/mu)?.[1];

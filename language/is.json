@@ -118,5 +118,14 @@
             "description": "Þessi vefur er ekki aðgengilegur eins og er. Hann ætti að verða aðgengilegur aftur innan skamms.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Skráðu þig inn til að halda áfram",
+        "username": "Notandanafn",
+        "password": "Lykilorð",
+        "show": "Sýna",
+        "hide": "Fela",
+        "submit": "Skrá inn",
+        "failed": "Rangt notandanafn eða lykilorð."
     }
 }

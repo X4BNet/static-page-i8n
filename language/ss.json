@@ -118,5 +118,14 @@
             "description": "Lewebhusayithi ayitfolakali nyalo. Kulindzeleke kutsi itfolakale futsi madvutane.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Ngena kute uchubeke",
+        "username": "Libito lemsebentisi",
+        "password": "Liphasiwedi",
+        "show": "Khombisa",
+        "hide": "Fihla",
+        "submit": "Ngena",
+        "failed": "Libito lemsebentisi noma liphasiwedi alilungile."
     }
 }

@@ -118,5 +118,14 @@
             "description": "Den här webbplatsen är inte tillgänglig just nu. Den bör vara tillgänglig igen inom kort.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Logga in för att fortsätta",
+        "username": "Användarnamn",
+        "password": "Lösenord",
+        "show": "Visa",
+        "hide": "Dölj",
+        "submit": "Logga in",
+        "failed": "Felaktigt användarnamn eller lösenord."
     }
 }

@@ -118,5 +118,14 @@
             "description": "Wɔrentumi mfa saa wɛbsaet yi nyɛ adwuma seesei. Yɛhwɛ kwan sɛ ɛrenkyɛ wɔbɛtumi de ayɛ adwuma bio.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Kɔ mu na toa so",
+        "username": "Din a wode kɔ mu",
+        "password": "Ahintasɛmfua",
+        "show": "Kyerɛ",
+        "hide": "Sie",
+        "submit": "Kɔ mu",
+        "failed": "Din a wode kɔ mu anaa ahintasɛmfua no nyɛ nokorɛ."
     }
 }

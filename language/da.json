@@ -118,5 +118,14 @@
             "description": "Dette websted er ikke tilgængeligt i øjeblikket. Det forventes at være tilgængeligt igen snart.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Log ind for at fortsætte",
+        "username": "Brugernavn",
+        "password": "Password",
+        "show": "Vis",
+        "hide": "Skjul",
+        "submit": "Log ind",
+        "failed": "Forkert brugernavn eller password."
     }
 }

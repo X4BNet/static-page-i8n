@@ -118,5 +118,14 @@
             "description": "Dës Websäit ass de Moment net disponibel. Si sollt geschwënn erëm disponibel sinn.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Loggt Iech an, fir weiderzefueren",
+        "username": "Benotzernumm",
+        "password": "Passwuert",
+        "show": "Weisen",
+        "hide": "Verstoppen",
+        "submit": "Aloggen",
+        "failed": "Falsche Benotzernumm oder falscht Passwuert."
     }
 }

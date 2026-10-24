@@ -118,5 +118,14 @@
             "description": "Webusayiti leyi a yi kumeki sweswi. Ku languteriwe leswaku yi ta kumeka nakambe ku nga ri khale.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Nghena leswaku u ya mahlweni",
+        "username": "Vito ra mutirhisi",
+        "password": "Rito ra xihundla",
+        "show": "Komba",
+        "hide": "Tumbeta",
+        "submit": "Nghena",
+        "failed": "Vito ra mutirhisi kumbe rito ra xihundla a ri lulamanga."
     }
 }

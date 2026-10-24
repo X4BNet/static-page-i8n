@@ -118,5 +118,14 @@
             "description": "Tento web momentálně není dostupný. Brzy by měl být opět dostupný.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Pro pokračování se přihlaste",
+        "username": "Uživatelské jméno",
+        "password": "Heslo",
+        "show": "Zobrazit",
+        "hide": "Skrýt",
+        "submit": "Přihlásit se",
+        "failed": "Nesprávné uživatelské jméno nebo heslo."
     }
 }

@@ -118,5 +118,14 @@
             "description": "Sa sit web pa disponib pour lemoman. I sipoze disponib ankor byento.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Konekte pour kontinyen",
+        "username": "Non itilizater",
+        "password": "Pasword",
+        "show": "Montre",
+        "hide": "Kasyet",
+        "submit": "Konekte",
+        "failed": "Non itilizater oubyen pasword pa korek."
     }
 }

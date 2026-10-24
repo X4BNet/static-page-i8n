@@ -118,5 +118,14 @@
             "description": "ʻOku ʻikai lava ke ngāueʻaki ʻa e uepisaiti ko ʻení ʻi he taimí ni. ʻOku ʻamanaki ʻe toe lava ʻo ngāueʻaki ʻi ha taimi nounou.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Hū ki loto ke hoko atu",
+        "username": "Hingoa ngāueʻaki",
+        "password": "Lea fakapulipuli",
+        "show": "Fakaʻasi",
+        "hide": "Fufū",
+        "submit": "Hū ki loto",
+        "failed": "ʻOku hala e hingoa ngāueʻaki pe lea fakapulipuli."
     }
 }

@@ -118,5 +118,14 @@
             "description": "Dette nettstedet er ikke tilgjengelig for øyeblikket. Det forventes å være tilgjengelig igjen snart.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Logg inn for å fortsette",
+        "username": "Brukernavn",
+        "password": "Passord",
+        "show": "Vis",
+        "hide": "Skjul",
+        "submit": "Logg inn",
+        "failed": "Feil brukernavn eller passord."
     }
 }

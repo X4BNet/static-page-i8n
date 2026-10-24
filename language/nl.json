@@ -118,5 +118,14 @@
             "description": "Deze website is momenteel niet beschikbaar. Naar verwachting is de website binnenkort weer beschikbaar.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Log in om door te gaan",
+        "username": "Gebruikersnaam",
+        "password": "Wachtwoord",
+        "show": "Tonen",
+        "hide": "Verbergen",
+        "submit": "Inloggen",
+        "failed": "Onjuiste gebruikersnaam of wachtwoord."
     }
 }

@@ -118,5 +118,14 @@
             "description": "Ini nga website diri magamit yana. Ginlalaoman nga magagamit ini utro ha diri maiha.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Pagsulod basi makapadayon",
+        "username": "Ngaran han gumaramit",
+        "password": "Tigaman-pagsulod",
+        "show": "Igpakita",
+        "hide": "Tagoa",
+        "submit": "Sulod",
+        "failed": "Sayop an ngaran han gumaramit o an tigaman-pagsulod."
     }
 }

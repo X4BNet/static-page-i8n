@@ -118,5 +118,14 @@
             "description": "Níl an suíomh gréasáin seo ar fáil faoi láthair. Tá súil go mbeidh sé ar fáil arís go luath.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Sínigh isteach chun leanúint ar aghaidh",
+        "username": "Ainm úsáideora",
+        "password": "Focal faire",
+        "show": "Taispeáin",
+        "hide": "Folaigh",
+        "submit": "Sínigh isteach",
+        "failed": "Ainm úsáideora nó focal faire mícheart."
     }
 }

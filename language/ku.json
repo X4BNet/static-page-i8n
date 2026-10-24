@@ -118,5 +118,14 @@
             "description": "Ev malper niha ne berdest e. Tê hêvîkirin ku di demeke kurt de dîsa berdest bibe.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Ji bo berdewamkirinê têkeve",
+        "username": "Navê bikarhêner",
+        "password": "Şîfre",
+        "show": "Nîşan bide",
+        "hide": "Veşêre",
+        "submit": "Têkeve",
+        "failed": "Navê bikarhêner an şîfre xelet e."
     }
 }

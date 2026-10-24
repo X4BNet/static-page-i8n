@@ -118,5 +118,14 @@
             "description": "Tsy azo ampiasaina amin'izao fotoana izao ity tranonkala ity. Tokony ho azo ampiasaina indray tsy ho ela izy io.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Midira mba hanohizana",
+        "username": "Anaran'ny mpampiasa",
+        "password": "Tenimiafina",
+        "show": "Asehoy",
+        "hide": "Afeno",
+        "submit": "Midira",
+        "failed": "Diso ny anaran'ny mpampiasa na ny tenimiafina."
     }
 }

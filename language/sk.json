@@ -118,5 +118,14 @@
             "description": "Táto webová lokalita je momentálne nedostupná. Čoskoro by mala byť opäť dostupná.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Ak chcete pokračovať, prihláste sa",
+        "username": "Používateľské meno",
+        "password": "Heslo",
+        "show": "Zobraziť",
+        "hide": "Skryť",
+        "submit": "Prihlásiť sa",
+        "failed": "Nesprávne používateľské meno alebo heslo."
     }
 }

@@ -118,5 +118,14 @@
             "title": "Website gesperrt",
             "description": "Leider ist die Website, die Sie aufrufen möchten, nicht verfügbar. Wir entschuldigen uns für die Unannehmlichkeiten. Wenn Sie der <strong>Inhaber</strong> dieser Website sind, <a href=\"https://www.x4b.net/\">wenden Sie sich bitte an den Support</a>."
         }
+    },
+    "auth": {
+        "title": "Melden Sie sich an, um fortzufahren",
+        "username": "Benutzername",
+        "password": "Passwort",
+        "show": "Anzeigen",
+        "hide": "Ausblenden",
+        "submit": "Anmelden",
+        "failed": "Benutzername oder Passwort ist falsch."
     }
 }

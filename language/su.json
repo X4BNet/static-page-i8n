@@ -118,5 +118,14 @@
             "description": "Situs wéb ieu ayeuna teu sayaga. Dipiharep situs tiasa sayaga deui dina waktos anu caket.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Asup pikeun neruskeun",
+        "username": "Ngaran pamaké",
+        "password": "Kecap sandi",
+        "show": "Témbongkeun",
+        "hide": "Sumputkeun",
+        "submit": "Asup",
+        "failed": "Ngaran pamaké atawa kecap sandi salah."
     }
 }

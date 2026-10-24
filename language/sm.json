@@ -118,5 +118,14 @@
             "description": "E lē o avanoa lenei upega tafa'ilagi i le taimi nei. Ua faamoemoe e toe avanoa i se taimi lata mai.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Ulufale e faaauau ai",
+        "username": "Igoa fa'aoga",
+        "password": "Upu fa'alilolilo",
+        "show": "Fa'aali",
+        "hide": "Nana",
+        "submit": "Ulufale",
+        "failed": "E sesē le igoa fa'aoga po o le upu fa'alilolilo."
     }
 }

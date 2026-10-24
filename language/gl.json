@@ -118,5 +118,14 @@
             "description": "Este sitio web non está dispoñible neste momento. Espérase que volva estar dispoñible en breve.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Inicia sesión para continuar",
+        "username": "Nome de usuario",
+        "password": "Contrasinal",
+        "show": "Amosar",
+        "hide": "Agochar",
+        "submit": "Iniciar sesión",
+        "failed": "Nome de usuario ou contrasinal incorrectos."
     }
 }

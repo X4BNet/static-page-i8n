@@ -118,5 +118,14 @@
             "description": "Hindi magamit ang website na ito sa ngayon. Inaasahang magagamit itong muli sa ilang sandali.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Mag-sign in upang magpatuloy",
+        "username": "Username",
+        "password": "Password",
+        "show": "Ipakita",
+        "hide": "Itago",
+        "submit": "Mag-sign in",
+        "failed": "Mali ang username o password."
     }
 }

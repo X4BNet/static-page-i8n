@@ -118,5 +118,14 @@
             "description": "Situs web arèya ta' bisa èghuna'aghi samangkèn. Èpangarep bisa èghuna'aghi polè ta' abit agghi'.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Alebbhu ka'angghuy nerrossaghi",
+        "username": "Nyama pangangghuy",
+        "password": "Oca' sanḍhi",
+        "show": "Angghâllaghi",
+        "hide": "Pangètek",
+        "submit": "Alebbhu",
+        "failed": "Nyama pangangghuy otabâ oca' sanḍhi ta' lerres."
     }
 }

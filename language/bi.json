@@ -118,5 +118,14 @@
             "description": "Websaet ya i no save wok naoia. Mifala i ting se i no longtaem bae i wok bakegen.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Log in blong gohed",
+        "username": "Nem blong yusa",
+        "password": "Paswod",
+        "show": "Soem",
+        "hide": "Haedem",
+        "submit": "Log in",
+        "failed": "Nem blong yusa o paswod i no stret."
     }
 }

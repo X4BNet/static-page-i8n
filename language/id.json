@@ -118,5 +118,14 @@
             "description": "Situs web ini sedang tidak tersedia. Situs ini diperkirakan akan segera tersedia kembali.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Masuk untuk melanjutkan",
+        "username": "Nama pengguna",
+        "password": "Kata sandi",
+        "show": "Tampilkan",
+        "hide": "Sembunyikan",
+        "submit": "Masuk",
+        "failed": "Nama pengguna atau kata sandi salah."
     }
 }

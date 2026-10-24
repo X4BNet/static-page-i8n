@@ -118,5 +118,14 @@
             "description": "Trang web này hiện không khả dụng. Dự kiến trang web sẽ sớm hoạt động trở lại.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Đăng nhập để tiếp tục",
+        "username": "Tên người dùng",
+        "password": "Mật khẩu",
+        "show": "Hiện",
+        "hide": "Ẩn",
+        "submit": "Đăng nhập",
+        "failed": "Tên người dùng hoặc mật khẩu không đúng."
     }
 }

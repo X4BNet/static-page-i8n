@@ -118,5 +118,14 @@
             "description": "Dalub web bii mëneesul a jëfandikoo fi mu nekk nii. Yaakaar nañu ne ci lu gaaw dinañu ko mën a jëfandikoowaat.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Duggal ngir man a wéy",
+        "username": "Turu jëfandikukat",
+        "password": "Baatu jàll",
+        "show": "Wone",
+        "hide": "Nëbb",
+        "submit": "Duggal",
+        "failed": "Sa turu jëfandikukat walla sa baatu jàll jubul."
     }
 }

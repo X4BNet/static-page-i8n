@@ -118,5 +118,14 @@
             "description": "Marsariitiin kun yeroo ammaa hin argamu. Yeroo gabaabaa keessatti deebi'ee akka argamu ni eegama.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Itti fufuuf seeni",
+        "username": "Maqaa fayyadamaa",
+        "password": "Jecha darbii",
+        "show": "Agarsiisi",
+        "hide": "Dhoksi",
+        "submit": "Seeni",
+        "failed": "Maqaan fayyadamaa yookaan jechi darbii sirrii miti."
     }
 }

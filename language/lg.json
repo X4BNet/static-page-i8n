@@ -118,5 +118,14 @@
             "description": "Omukutu guno tegusobola kukozesebwa kati. Kisuubirwa nti gujja kuddamu okukozesebwa mu kaseera katono.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Yingira okweyongerayo",
+        "username": "Erinnya ly'omukozesa",
+        "password": "Ekigambo ekikuumi",
+        "show": "Laga",
+        "hide": "Kisa",
+        "submit": "Yingira",
+        "failed": "Erinnya ly'omukozesa oba ekigambo ekikuumi ssi kituufu."
     }
 }

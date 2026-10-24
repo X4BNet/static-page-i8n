@@ -118,5 +118,14 @@
             "description": "Yu no inap yusim dispela websait nau. Mipela i ting em bai redi gen klostu.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Log in bai yu ken go het",
+        "username": "Nem bilong yusa",
+        "password": "Paswed",
+        "show": "Soim",
+        "hide": "Haitim",
+        "submit": "Log in",
+        "failed": "Nem bilong yusa o paswed i no stret."
     }
 }

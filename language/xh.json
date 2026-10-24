@@ -118,5 +118,14 @@
             "description": "Le webhusayithi ayifumaneki ngeli xesha. Kulindeleke ukuba iphinde ifumaneke kungekudala.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Ngena ukuze uqhubeke",
+        "username": "Igama lomsebenzisi",
+        "password": "Igama lokugqitha",
+        "show": "Bonisa",
+        "hide": "Fihla",
+        "submit": "Ngena",
+        "failed": "Igama lomsebenzisi okanye igama lokugqitha alichanekanga."
     }
 }

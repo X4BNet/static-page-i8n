@@ -118,5 +118,14 @@
             "description": "Lub vev xaib no siv tsis tau tam sim no. Cia siab tias yuav rov siv tau tsis ntev.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Nkag mus kom txuas ntxiv",
+        "username": "Tus neeg siv lub npe",
+        "password": "Lo lus zais",
+        "show": "Qhia",
+        "hide": "Zais",
+        "submit": "Nkag mus",
+        "failed": "Tus neeg siv lub npe lossis lo lus zais tsis raug."
     }
 }

@@ -118,5 +118,14 @@
             "description": "Ta witryna jest obecnie niedostępna. Powinna być ponownie dostępna wkrótce.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Zaloguj się, aby kontynuować",
+        "username": "Nazwa użytkownika",
+        "password": "Hasło",
+        "show": "Pokaż",
+        "hide": "Ukryj",
+        "submit": "Zaloguj się",
+        "failed": "Nieprawidłowa nazwa użytkownika lub hasło."
     }
 }

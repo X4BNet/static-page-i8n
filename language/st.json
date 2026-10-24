@@ -118,5 +118,14 @@
             "description": "Webosaete ena ha e fumanehe hona jwale. Ho lebelletswe hore e fumanehe hape haufinyane.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Kena hore o tswele pele",
+        "username": "Lebitso la mosebedisi",
+        "password": "Lentswe la lekunutu",
+        "show": "Bontsha",
+        "hide": "Pata",
+        "submit": "Kena",
+        "failed": "Lebitso la mosebedisi kapa lentswe la lekunutu le fosahetse."
     }
 }

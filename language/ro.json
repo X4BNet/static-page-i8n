@@ -118,5 +118,14 @@
             "description": "Acest site nu este disponibil în acest moment. Ar trebui să fie disponibil din nou în scurt timp.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Autentificați-vă pentru a continua",
+        "username": "Nume de utilizator",
+        "password": "Parolă",
+        "show": "Afișați",
+        "hide": "Ascundeți",
+        "submit": "Autentificați-vă",
+        "failed": "Nume de utilizator sau parolă incorectă."
     }
 }

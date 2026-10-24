@@ -118,5 +118,14 @@
             "description": "Ko ñanduti renda ndojepurukuaái ko'ág̃a. Oñeha'arõ ojepurukuaa jey sapy'aitépe.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Eike reho hag̃ua tenonde",
+        "username": "Puruhára réra",
+        "password": "Ñe’ẽñemi",
+        "show": "Ehechauka",
+        "hide": "Eñomi",
+        "submit": "Eike",
+        "failed": "Puruhára réra térã ñe’ẽñemi oĩ vai."
     }
 }

@@ -118,5 +118,14 @@
             "description": "Ez a webhely jelenleg nem érhető el. Várhatóan hamarosan újra elérhető lesz.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "A folytatáshoz jelentkezzen be",
+        "username": "Felhasználónév",
+        "password": "Jelszó",
+        "show": "Megjelenítés",
+        "hide": "Elrejtés",
+        "submit": "Bejelentkezés",
+        "failed": "Hibás felhasználónév vagy jelszó."
     }
 }

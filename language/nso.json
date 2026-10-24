@@ -118,5 +118,14 @@
             "description": "Weposaete ye ga e hwetšagale ga bjale. Go letetšwe gore e hwetšagale gape kgauswinyane.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Tsena gore o tšwele pele",
+        "username": "Leina la modiriši",
+        "password": "Lentšu la sephiri",
+        "show": "Bontšha",
+        "hide": "Fihla",
+        "submit": "Tsena",
+        "failed": "Leina la modiriši goba lentšu la sephiri ga le a nepagala."
     }
 }

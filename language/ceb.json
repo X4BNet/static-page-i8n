@@ -118,5 +118,14 @@
             "description": "Dili magamit kini nga website sa pagkakaron. Gilaom nga magamit kini pag-usab sa dili madugay.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Pag-sign in aron makapadayon",
+        "username": "Ngalan sa tiggamit",
+        "password": "Password",
+        "show": "Ipakita",
+        "hide": "Itago",
+        "submit": "Pag-sign in",
+        "failed": "Sayop ang ngalan sa tiggamit o password."
     }
 }

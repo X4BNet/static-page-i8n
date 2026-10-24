@@ -118,5 +118,14 @@
             "description": "Webhusaiti iyi haisi kuwanikwa panguva ino. Inotarisirwa kuwanikwa zvakare munguva pfupi.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Pinda kuti uenderere mberi",
+        "username": "Zita remushandisi",
+        "password": "Pasiwedhi",
+        "show": "Ratidza",
+        "hide": "Viga",
+        "submit": "Pinda",
+        "failed": "Zita remushandisi kana pasiwedhi hazvina kururama."
     }
 }

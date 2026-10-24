@@ -118,5 +118,14 @@
             "description": "Uru rubuga ntirushobora gukoreshwa ubu. Vyitezwe ko ruzongera gukoreshwa mu kanya.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Injira kugira ubandanye",
+        "username": "Izina ry’uwukoresha",
+        "password": "Ijambo ry’ibanga",
+        "show": "Erekana",
+        "hide": "Nyegeza",
+        "submit": "Injira",
+        "failed": "Izina ry’uwukoresha canke ijambo ry’ibanga si ryo."
     }
 }

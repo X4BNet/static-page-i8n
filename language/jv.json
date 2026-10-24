@@ -118,5 +118,14 @@
             "description": "Situs web iki saiki ora bisa diakses. Dikarepake situs iki bisa diakses maneh sedhela maneh.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Mlebu kanggo nerusake",
+        "username": "Jeneng pangguna",
+        "password": "Tembung sandi",
+        "show": "Tuduhake",
+        "hide": "Dhelikake",
+        "submit": "Mlebu",
+        "failed": "Jeneng pangguna utawa tembung sandi salah."
     }
 }

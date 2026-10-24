@@ -118,5 +118,14 @@
             "description": "Aquest lloc web no està disponible en aquest moment. S'espera que torni a estar disponible aviat.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Inicia la sessió per continuar",
+        "username": "Nom d’usuari",
+        "password": "Contrasenya",
+        "show": "Mostra",
+        "hide": "Amaga",
+        "submit": "Inicia la sessió",
+        "failed": "El nom d’usuari o la contrasenya són incorrectes."
     }
 }

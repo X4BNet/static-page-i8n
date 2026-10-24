@@ -118,5 +118,14 @@
             "description": "Bu veb-saytdan hozir foydalanib bo‘lmaydi. U tez orada yana ishlashi kutilmoqda.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Davom etish uchun kiring",
+        "username": "Foydalanuvchi nomi",
+        "password": "Parol",
+        "show": "Ko‘rsatish",
+        "hide": "Yashirish",
+        "submit": "Kirish",
+        "failed": "Foydalanuvchi nomi yoki parol noto‘g‘ri."
     }
 }

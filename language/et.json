@@ -118,5 +118,14 @@
             "description": "See veebisait pole praegu saadaval. Eeldatavasti on see peagi jälle kättesaadav.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Jätkamiseks logi sisse",
+        "username": "Kasutajanimi",
+        "password": "Parool",
+        "show": "Näita",
+        "hide": "Peida",
+        "submit": "Logi sisse",
+        "failed": "Vale kasutajanimi või parool."
     }
 }

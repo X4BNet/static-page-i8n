@@ -118,5 +118,14 @@
             "description": "Ojúlé ayélujára yìí kò ṣeé lò báyìí. A retí pé yóò ṣeé lò lẹ́ẹ̀kan sí i láìpẹ́.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Ẹ wọlé láti tẹ̀ síwájú",
+        "username": "Orúkọ oníṣe",
+        "password": "Ọ̀rọ̀ ìpamọ́",
+        "show": "Fihàn",
+        "hide": "Fi pamọ́",
+        "submit": "Wọlé",
+        "failed": "Orúkọ oníṣe tàbí ọ̀rọ̀ ìpamọ́ kò tọ́."
     }
 }

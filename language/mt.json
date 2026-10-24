@@ -118,5 +118,14 @@
             "description": "Dan is-sit mhuwiex disponibbli bħalissa. Huwa mistenni li jerġa' jkun disponibbli dalwaqt.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Idħol biex tkompli",
+        "username": "Isem tal-utent",
+        "password": "Password",
+        "show": "Uri",
+        "hide": "Aħbi",
+        "submit": "Idħol",
+        "failed": "Isem tal-utent jew password mhux korretti."
     }
 }

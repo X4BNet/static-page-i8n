@@ -118,5 +118,14 @@
             "description": "Mareegtan hadda lama heli karo. Waxaa la filayaa inay dhowaan mar kale diyaar noqoto.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Soo gal si aad u sii waddo",
+        "username": "Magaca isticmaalaha",
+        "password": "Furaha sirta",
+        "show": "Muuji",
+        "hide": "Qari",
+        "submit": "Soo gal",
+        "failed": "Magaca isticmaalaha ama furaha sirta waa khalad."
     }
 }

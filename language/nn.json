@@ -118,5 +118,14 @@
             "description": "Denne nettstaden er ikkje tilgjengeleg akkurat no. Han er venta å vere tilgjengeleg igjen snart.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Logg inn for å halde fram",
+        "username": "Brukarnamn",
+        "password": "Passord",
+        "show": "Vis",
+        "hide": "Gøym",
+        "submit": "Logg inn",
+        "failed": "Feil brukarnamn eller passord."
     }
 }

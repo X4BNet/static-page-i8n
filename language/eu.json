@@ -118,5 +118,14 @@
             "description": "Webgune hau ez dago erabilgarri une honetan. Laster berriro erabilgarri egotea espero da.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Hasi saioa jarraitzeko",
+        "username": "Erabiltzaile-izena",
+        "password": "Pasahitza",
+        "show": "Erakutsi",
+        "hide": "Ezkutatu",
+        "submit": "Hasi saioa",
+        "failed": "Erabiltzaile-izena edo pasahitza okerra da."
     }
 }

@@ -118,5 +118,14 @@
             "description": "Bu web sitesi şu anda kullanılamıyor. Sitenin kısa süre içinde yeniden erişilebilir olması bekleniyor.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Devam etmek için giriş yapın",
+        "username": "Kullanıcı adı",
+        "password": "Şifre",
+        "show": "Göster",
+        "hide": "Gizle",
+        "submit": "Giriş yap",
+        "failed": "Kullanıcı adı veya şifre yanlış."
     }
 }

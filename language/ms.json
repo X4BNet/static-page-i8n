@@ -118,5 +118,14 @@
             "description": "Laman web ini tidak tersedia pada masa ini. Laman ini dijangka tersedia semula sebentar lagi.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Log masuk untuk meneruskan",
+        "username": "Nama pengguna",
+        "password": "Kata laluan",
+        "show": "Tunjukkan",
+        "hide": "Sembunyikan",
+        "submit": "Log masuk",
+        "failed": "Nama pengguna atau kata laluan tidak betul."
     }
 }

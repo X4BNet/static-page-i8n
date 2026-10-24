@@ -119,5 +119,14 @@
             "description": "此网站目前不可用，预计很快会恢复访问。",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "请登录以继续",
+        "username": "用户名",
+        "password": "密码",
+        "show": "显示",
+        "hide": "隐藏",
+        "submit": "登录",
+        "failed": "用户名或密码错误。"
     }
 }

@@ -118,5 +118,14 @@
             "description": "Este sitio web no está disponible en este momento. El sitio debería estar disponible de nuevo en breve.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Inicia sesión para continuar",
+        "username": "Nombre de usuario",
+        "password": "Contraseña",
+        "show": "Mostrar",
+        "hide": "Ocultar",
+        "submit": "Iniciar sesión",
+        "failed": "Nombre de usuario o contraseña incorrectos."
     }
 }

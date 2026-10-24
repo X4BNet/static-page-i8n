@@ -118,5 +118,14 @@
             "description": "Uru rubuga ntiruboneka ubu. Biteganyijwe ko ruzongera kuboneka mu kanya gato.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Injira kugira ngo ukomeze",
+        "username": "Izina ry’ukoresha",
+        "password": "Ijambo ry’ibanga",
+        "show": "Erekana",
+        "hide": "Hisha",
+        "submit": "Injira",
+        "failed": "Izina ry’ukoresha cyangwa ijambo ry’ibanga si byo."
     }
 }

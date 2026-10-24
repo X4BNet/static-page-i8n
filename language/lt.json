@@ -118,5 +118,14 @@
             "description": "Ši svetainė šiuo metu nepasiekiama. Tikimasi, kad ji netrukus vėl bus pasiekiama.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Jei norite tęsti, prisijunkite",
+        "username": "Naudotojo vardas",
+        "password": "Slaptažodis",
+        "show": "Rodyti",
+        "hide": "Slėpti",
+        "submit": "Prisijungti",
+        "failed": "Neteisingas naudotojo vardas arba slaptažodis."
     }
 }

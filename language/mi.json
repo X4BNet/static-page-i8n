@@ -118,5 +118,14 @@
             "description": "Kāore tēnei paetukutuku i te wātea i tēnei wā. Ko te tūmanako ka wātea anō ākuanei.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Takiuru kia haere tonu",
+        "username": "Ingoa kaiwhakamahi",
+        "password": "Kupuhipa",
+        "show": "Whakaatu",
+        "hide": "Huna",
+        "submit": "Takiuru",
+        "failed": "Kei te hē te ingoa kaiwhakamahi, te kupuhipa rānei."
     }
 }

@@ -118,5 +118,14 @@
             "description": "Indi magamit ini nga website subong. Ginapaabot nga magamit ini liwat sa indi madugay.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Mag-sign in agod makapadayon",
+        "username": "Ngalan-taggamit",
+        "password": "Password",
+        "show": "Ipakita",
+        "hide": "Tagua",
+        "submit": "Mag-sign in",
+        "failed": "Sala ang ngalan-taggamit ukon password."
     }
 }

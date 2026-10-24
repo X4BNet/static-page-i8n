@@ -118,5 +118,14 @@
             "description": "Hierdie webwerf is nie op die oomblik beskikbaar nie. Dit behoort binnekort weer beskikbaar te wees.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Meld aan om voort te gaan",
+        "username": "Gebruikersnaam",
+        "password": "Wagwoord",
+        "show": "Wys",
+        "hide": "Versteek",
+        "submit": "Meld aan",
+        "failed": "Verkeerde gebruikersnaam of wagwoord."
     }
 }

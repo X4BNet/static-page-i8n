@@ -118,5 +118,14 @@
             "description": "Hic situs nunc non praesto est. Exspectatur ut mox iterum praesto sit.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Intra ut pergas",
+        "username": "Nomen usoris",
+        "password": "Tessera",
+        "show": "Monstra",
+        "hide": "Cela",
+        "submit": "Intra",
+        "failed": "Nomen usoris vel tessera non valet."
     }
 }

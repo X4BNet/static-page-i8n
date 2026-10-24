@@ -118,5 +118,14 @@
             "description": "ʻAʻole hiki ke hoʻohana i kēia kahua pūnaewele i kēia manawa. Manaʻo ʻia e hiki ke hoʻohana hou ʻia ma kēia mua koke iho.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "E ʻeʻe no ka hoʻomau ʻana",
+        "username": "Inoa mea hoʻohana",
+        "password": "ʻŌlelo huna",
+        "show": "Hōʻike",
+        "hide": "Hūnā",
+        "submit": "ʻEʻe",
+        "failed": "Hewa ka inoa mea hoʻohana a i ʻole ka ʻōlelo huna."
     }
 }

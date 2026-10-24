@@ -118,5 +118,14 @@
             "description": "E sega ni rawa ni vakayagataki na mataveilawa oqo ena gauna oqo. E namaki me rawa ni vakayagataki tale ena dua na gauna lekaleka.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Curu mo tomana",
+        "username": "Yaca ni dauvakayagataka",
+        "password": "Vosa vuni",
+        "show": "Vakaraitaka",
+        "hide": "Vunitaka",
+        "submit": "Curu",
+        "failed": "E cala na yaca ni dauvakayagataka se na vosa vuni."
     }
 }

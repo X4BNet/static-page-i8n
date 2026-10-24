@@ -119,5 +119,14 @@
             "description": "呢個網站而家用唔到，預計好快就會恢復服務。",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "請登入先可以繼續",
+        "username": "用戶名稱",
+        "password": "密碼",
+        "show": "顯示",
+        "hide": "隱藏",
+        "submit": "登入",
+        "failed": "用戶名稱或密碼唔啱。"
     }
 }

@@ -118,5 +118,14 @@
             "description": "Sítio web ida-ne'e la disponível agora. Espera katak iha tempu badak sei disponível fali.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Tama atu kontinua",
+        "username": "Naran uza-na’in",
+        "password": "Liafuan-pase",
+        "show": "Hatudu",
+        "hide": "Subar",
+        "submit": "Tama",
+        "failed": "Naran uza-na’in ka liafuan-pase la loos."
     }
 }

@@ -118,5 +118,14 @@
             "description": "Tovuti hii haipatikani kwa sasa. Inatarajiwa kupatikana tena hivi karibuni.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Ingia ili kuendelea",
+        "username": "Jina la mtumiaji",
+        "password": "Nenosiri",
+        "show": "Onyesha",
+        "hide": "Ficha",
+        "submit": "Ingia",
+        "failed": "Jina la mtumiaji au nenosiri si sahihi."
     }
 }

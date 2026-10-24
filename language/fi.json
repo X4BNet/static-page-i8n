@@ -118,5 +118,14 @@
             "description": "Tämä verkkosivusto ei ole tällä hetkellä käytettävissä. Sen pitäisi olla pian taas käytettävissä.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Kirjaudu sisään jatkaaksesi",
+        "username": "Käyttäjänimi",
+        "password": "Salasana",
+        "show": "Näytä",
+        "hide": "Piilota",
+        "submit": "Kirjaudu sisään",
+        "failed": "Väärä käyttäjänimi tai salasana."
     }
 }

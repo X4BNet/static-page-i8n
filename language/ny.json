@@ -118,5 +118,14 @@
             "description": "Webusayitiyi sikupezeka pakadali pano. Ikuyembekezeka kupezekanso posachedwa.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Lowani kuti mupitirize",
+        "username": "Dzina lolowera",
+        "password": "Mawu achinsinsi",
+        "show": "Onetsani",
+        "hide": "Bisani",
+        "submit": "Lowani",
+        "failed": "Dzina lolowera kapena mawu achinsinsi ndi olakwika."
     }
 }

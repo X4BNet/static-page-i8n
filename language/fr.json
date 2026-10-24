@@ -118,5 +118,14 @@
             "description": "Ce site est actuellement indisponible. Il devrait être de nouveau accessible sous peu.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Connectez-vous pour continuer",
+        "username": "Nom d’utilisateur",
+        "password": "Mot de passe",
+        "show": "Afficher",
+        "hide": "Masquer",
+        "submit": "Se connecter",
+        "failed": "Nom d’utilisateur ou mot de passe incorrect."
     }
 }

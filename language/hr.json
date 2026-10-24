@@ -118,5 +118,14 @@
             "description": "Ovo web-mjesto trenutačno nije dostupno. Očekuje se da će uskoro ponovno biti dostupno.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Prijavite se za nastavak",
+        "username": "Korisničko ime",
+        "password": "Lozinka",
+        "show": "Prikaži",
+        "hide": "Sakrij",
+        "submit": "Prijavi se",
+        "failed": "Pogrešno korisničko ime ili lozinka."
     }
 }

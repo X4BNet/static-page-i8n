@@ -118,5 +118,14 @@
             "description": "Iwebhusayithi le ayitholakali khathesi. Kukhangelelwe ukuthi itholakale futhi masinyane.",
             "refresh_enable": true
         }
+    },
+    "auth": {
+        "title": "Ngena ukuze uqhubeke",
+        "username": "Ibizo lomsebenzisi",
+        "password": "Iphasiwedi",
+        "show": "Veza",
+        "hide": "Fihla",
+        "submit": "Ngena",
+        "failed": "Ibizo lomsebenzisi kumbe iphasiwedi ayilunganga."
     }
 }
